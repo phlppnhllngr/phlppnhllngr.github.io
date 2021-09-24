@@ -1,0 +1,121 @@
+---
+tags: [Notebooks/Java]
+title: Eclipse
+created: '2019-10-18T22:17:52.957Z'
+modified: '2021-06-08T13:23:53.232Z'
+parent: Java
+---
+
+# Eclipse
+
+## Plugins
+
+- ~~Indent Guide~~ siehe Konfig/whitespace
+- Ansi escape in console
+  - *interprets the ANSI escape sequences to color the console output*
+  - https://marketplace.eclipse.org/content/ansi-escape-console
+- Grep Console 
+    - optische Hervorhebung von Logs mit konfigurierbaren Regex
+    - Defaults funktionieren nicht; z.B. stattdessen `Expression = ^WARN.*$`
+    - für neue Eclipse-Versionen nicht verfügbar (kann es aber noch über die Update-site bekommen: http://eclipse.schedenig.name)
+    - Alternative: LogViewer? → nur für Files
+    - Alternative: ~~Easy Consoler Grepper?~~
+- Checkstyle <small>→ siehe auch m2e-code-quality</small>
+- SpotBugs <small>→ siehe auch m2e-code-quality</small>
+- SonarLint
+- Enhanced Class Decompiler
+- Lombok
+- Maven Integration for Eclipse
+- Buildship Gradle
+- Spring Tools
+- YEdit (yaml-Editor)
+- Eclipse Docker Tooling
+- ~~jdt codemining~~
+  - ~~https://github.com/angelozerr/jdt-codemining~~
+- pmd <small>→ siehe auch m2e-code-quality</small>
+- infinitest
+  - https://infinitest.github.io/
+  - https://github.com/infinitest/infinitest/
+  - continuous testing, watch mode
+- exporter for eclipse
+- yatta launcher
+  - https://www.yatta.de/profiles/
+- memory analyzer (MAT)
+  - erstellt und analysiert Heap-dumps ('hprof') und stellt grafisch dar, versucht Memory-Leaks zu erkennen
+- jar2uml
+- unnecessary code detector (UCD)
+- wildwebdeveloper
+  - https://github.com/eclipse/wildwebdeveloper
+- spring sts
+  - https://spring.io/tools
+
+
+### m2e
+- https://www.eclipse.org/m2e/index.html
+- [default lifecycle mapping: lifecycle-mapping-metadata.xml](https://github.com/eclipse/m2e-core/blob/master/org.eclipse.m2e.lifecyclemapping.defaults/lifecycle-mapping-metadata.xml)
+- "plugin execution not covered by lifecycle configuration":
+  https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html
+- in Eclipse den Lifecycle eines Projekts sehen: Properties → Maven → Lifecycle
+- m2e-apt
+  - *aims at providing automatic Annotation Processing configuration in Eclipse, based on your project's pom.xml and its classpath dependencies*
+- m2e-code-quality
+  - https://github.com/m2e-code-quality/m2e-code-quality
+  - nicht (mehr) im Marktplatz; Update site: http://m2e-code-quality.github.io/m2e-code-quality/
+  - *collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins* (und SpotBugs)
+  - installiert alle diese Plugins
+  - an den Eclipse-Plugins sollte dann nichts weiter konfiguriert werden müssen (zumindest nicht der Dateipfad zu den Checkstyle-Regeln)
+    ```xml
+    <project>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.0</version>
+            <!-- This version of the plugin uses Checkstyle 8.19 by default and requires 
+            Java 8. But you can upgrade the version used at runtime. -->
+            <!-- die Version muss wohl zwangsläufig mit der des Eclipse-Plugins übereinstimmen 
+            (m2e-code-quality) -->
+            <!--<dependencies> <dependency> <groupId>com.puppycrawl.tools</groupId> 
+            <artifactId>checkstyle</artifactId> <version>8.25</version> </dependency> 
+            </dependencies> -->
+            <configuration>
+            <encoding>UTF-8</encoding>
+            <configLocation>checkstyle.xml</configLocation>
+            <consoleOutput>true</consoleOutput>
+            <failsOnError>false</failsOnError>
+            </configuration>
+            <executions>
+              <execution>
+                <id>checkstyle</id>
+                <phase>validate</phase>
+                <goals>
+                  <goal>checkstyle</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </project>
+    ```
+
+
+## Konfig
+- eclipse.ini
+  -Xms512m
+- General.Workspace → Text file encoding = UTF-8
+- General.Editors.Text Editors → Show whitespace characters
+- Java.Editor.Save Actions → Organize Imports + Additional actions
+- Java.Debug.Step Filtering → Use step filters (Code beim Debuggen ausschließen)
+- Run/Debug.Console.Limit Console Output → unchecked
+- Font
+  - https://github.com/tonsky/FiraCode
+  - https://github.com/be5invis/Iosevka
+
+
+## Rechtschreibprüfung
+- in 'preferences' konfigurierbar (text editor → spelling)
+- für deutsch: user dict = /pfad/zur/datei (Vorsicht: keine .dic-Datei mit /* am Ende der Wörter),
+in diese Datei werden auch die in Eclipse manuell hinzugefügten gespeichert
+- nicht konfigurierbar
