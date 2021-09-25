@@ -103,7 +103,7 @@ parent: Java
 
 ## Konfig
 - eclipse.ini
-  -Xms512m
+  - -Xms512m
 - General.Workspace → Text file encoding = UTF-8
 - General.Editors.Text Editors → Show whitespace characters
 - Java.Editor.Save Actions → Organize Imports + Additional actions
