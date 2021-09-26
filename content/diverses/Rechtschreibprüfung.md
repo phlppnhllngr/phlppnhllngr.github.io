@@ -7,7 +7,7 @@ parent: Diverses
 ---
 
 # Rechtschreibprüfung
-- cspell
+- **cspell**
   - https://github.com/streetsidesoftware/cspell *200
   - https://www.npmjs.com/package/cspell
   - ^enthält Anweisung für git hook (Check der staged files)
@@ -19,7 +19,7 @@ parent: Diverses
     - https://github.com/streetsidesoftware/cspell-dicts/tree/master/packages/de_DE
   - CLI-Check relativ langsam
   - VSCode-Extension
-- hunspell
+- **hunspell**
   - Nachfolger von 'MySpell'
   - https://github.com/hunspell/hunspell *800
   - Linux-Package
@@ -31,7 +31,7 @@ parent: Diverses
     - https://github.com/Wulf/nodehun *200
     - https://github.com/wooorm/nspell *150
   - hunspell-tools
-- languagetool
+- **languagetool**
   - *Style and Grammar Checker for 25+ Languages*
   - http-server; self hosted (free) oder public (paid)
   - https://github.com/languagetool-org/languagetool

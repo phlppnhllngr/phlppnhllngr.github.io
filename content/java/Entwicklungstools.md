@@ -93,7 +93,7 @@ parent: Java
 - prettier-java
   - *opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules*
   - https://github.com/jhipster/prettier-java
-  - node_module & Maven-Plugin (&rightarrow; maven/plugins)
+  - node_module & Maven-Plugin (→ maven/plugins)
 - spotless
   - import order, unused imports, indentation, ...
   - Wrapper um prettier/google-format/eclipse-jdt (?)

@@ -36,7 +36,7 @@ https://github.com/akullpp/awesome-java
   <a href="#validation">Validierung</a>
   <a>XML</a>
   <a href="#di">DI</a>
-  <span>Logging &rightarrow; Java/Logging</span>
+  <span>Logging → Java/Logging</span>
   <a>Metrics</a>
   <a>Template engines</a>
   <a href="#regex">Regex</a>
