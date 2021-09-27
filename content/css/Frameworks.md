@@ -1,0 +1,70 @@
+---
+tags: [Notebooks/CSS]
+title: Frameworks
+created: '2019-02-05T09:47:15.016Z'
+modified: '2021-09-21T11:50:50.552Z'
+parent: CSS
+---
+
+# Frameworks
+- [https://github.com/troxler/awesome-css-frameworks]()
+- **foundation**
+  - https://foundation.zurb.com
+  - Webseiten & Emails
+  - Templates & [Components](https://foundation.zurb.com/sites/docs/kitchen-sink.html)
+- **bulma**
+  - https://github.com/jgthms/bulma ⭐38.200
+  - Basiert auf Flexbox. CSS only.
+  - https://bulma.io/
+- **minicss**
+  - https://minicss.org/
+  - *minimal, responsive, style-agnostic CSS framework*
+- **bootstrap**
+  - https://getbootstrap.com/
+  - https://github.com/twbs/bootstrap ⭐138k
+- **semantic-ui**
+  - https://semantic-ui.com/ 
+  - https://github.com/semantic-org/semantic-ui/ ⭐47.200
+- **materialize**
+  - http://materializecss.com/
+- **mui**
+  - https://www.muicss.com/
+  - material
+- **w3css**
+  - https://www.w3schools.com/w3css/
+- **tailwind**
+  - https://tailwindcss.com/
+  - *not a UI kit. no built-in UI components. Instead, Tailwind provides highly composable, low-level utility classes that make it easy to build complex user interfaces.*
+  - Sandbox: https://play.tailwindcss.com/
+  - Component-Libs
+    - https://github.com/mertJF/tailblocks
+    - https://github.com/saadeghi/daisyui
+- **windicss**
+  - *an on-demanded alternative to Tailwind, which provides faster load times, fully compatible with Tailwind v2.0 and with a bunch of additional cool features.*
+  - https://github.com/windicss/windicss ⭐2100
+- **elastic ui**
+  - https://github.com/elastic/eui ⭐1500
+  - https://elastic.github.io/eui/#/
+  - React & Vanilla
+- **spectre**
+  - https://picturepan2.github.io/spectre/index.html
+- **surface**
+  - https://mildrenben.github.io/surface/index.html
+  - material
+- **sakura**
+  - https://oxal.org/projects/sakura/
+  - https://github.com/oxalorg/sakura ⭐2200
+  - klassenlos
+- **watercss**
+  - https://github.com/kognise/water.css ⭐800
+  - klassenlos
+- **UIkit**
+  - https://getuikit.com/
+  - https://github.com/uikit/uikit ⭐14.500
+- **tachyons**
+  - https://tachyons.io/
+  - minimal
+- **carbon**
+  - https://www.carbondesignsystem.com/
+  - https://github.com/carbon-design-system/carbon ⭐2000
+  - Komponenten für Vanilla, React, Vue, Angular

@@ -151,7 +151,7 @@ parent: Webdev
   - https://testproject.io/
 - **browserless**
   - https://github.com/joelgriffith/browserless
-  - *Chrome as a service in docker. browserless is a web-service that allows for remote clients to connect, drive, and execute headless work; all inside of docker. It offers **first-class integrations for puppeteer, selenium's webdriver, and a slew of handy REST API's** for doing more common work*
+  - *Chrome as a service in docker. browserless is a web-service that allows for remote clients to connect, drive, and execute headless work; all inside of docker. It offers first-class integrations for puppeteer, selenium's webdriver, and a slew of handy REST API's for doing more common work*
 - **nightwatch**
   - http://nightwatchjs.org/
   - https://github.com/nightwatchjs/nightwatch ⭐9.150

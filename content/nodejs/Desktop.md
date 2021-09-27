@@ -16,7 +16,7 @@ parent: Node.js
   - https://docs.nodegui.org/
   - svelte-nodegui
     - https://github.com/nodegui/svelte-nodegui
-- **carlo **
+- **carlo**
   - https://github.com/GoogleChromeLabs/carlo
 - **NW.js**
   - https://github.com/nwjs/nw.js *35.000
