@@ -1,6 +1,6 @@
 ---
 tags: [Notebooks/SCM]
-title: commits
+title: Commits
 created: '2019-04-07T19:14:21.679Z'
 modified: '2020-12-05T20:49:53.939Z'
 parent: SCM

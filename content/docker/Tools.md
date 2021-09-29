@@ -9,16 +9,21 @@ parent: Docker
 # Tools
 [https://github.com/veggiemonk/awesome-docker]()
 
-- Composerize
+- **compose**
+  - https://github.com/docker/awesome-compose
+  - compose-file v2: [https://docs.docker.com/compose/compose-file/compose-file-v2/]()
+  - compose-file v3: [https://docs.docker.com/compose/compose-file/]()
+  - extending: https://docs.docker.com/compose/extends/
+- **Composerize**
   - *Turns docker run commands into docker-compose files*
   - https://github.com/magicmark/composerize
-- dive
+- **dive**
   - siehe auch `docker image history`
   - *tool for exploring a docker image, layer contents, and discovering ways to shrink your Docker image size*
   - zeigt die Dockerfile-Zeilen und die daraus resultierenden Dateisystem-Zustände (als Tree), inkl. Dateigrößen
   - https://github.com/wagoodman/dive ⭐17k
   - erhältlich als Binary oder Docker image
-- jib
+- **jib**
   - *builds optimized Docker images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices. Available as plugins for Maven and Gradle and as a Java library.*
   - *Jib gives you the opportunity to build docker images: without a docker daemon running (CI and so on), with reproducible builds (which is also a big plus for cache friendliness), that are layered in a way so that you usually just need to push and pull your own code but not libraries or other resources because everything else is cached, with very little configuration needed, with lots of possibilities to configure stuff*
   - *The advantage of jib is that your dependencies are a separate layer to your application code, so the amount of data required to move around when deploying new releases is much smaller.*
@@ -28,30 +33,30 @@ parent: Docker
     - https://github.com/GoogleContainerTools/jib-extensions
     - jib-native-image-extension-maven
     - ...
-- docker-slim
+- **docker-slim**
   - https://github.com/docker-slim/docker-slim ⭐8.7k
   - *Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too!*
   Node.js application images: from node:alpine - 66.7MB => 34.7MB (minified by 1.92X)
   JAVA application images: from ubuntu:14.04 - 743.6 MB => 100.3 MB
-- Watchtower
+- **Watchtower**
   - https://github.com/containrrr/watchtower
   - *application that will monitor your running Docker containers and watch for changes to the images that those containers were originally started from. If watchtower detects that an image has changed, it will automatically restart the container using the new image.*
-- tini
+- **tini**
   - https://github.com/krallin/tini ⭐3.7k
   - *init for containers*
   - Vorteile: https://github.com/krallin/tini/issues/8
-- slim
+- **slim**
   - https://github.com/ottomatica/slim 
   - *Build and run tiny vms from Dockerfiles*
-- hadolint
+- **hadolint**
   - [https://github.com/hadolint/hadolint]()
   - Dockerfile Linter
   - als CLI oder Docker image verfügbar
-- buildkit
+- **buildkit**
   - *BuildKit has been integrated to docker build since Docker 18.06*
   - https://github.com/moby/buildkit
   - https://docs.docker.com/develop/develop-images/build_enhancements/
-- buildpacks
+- **buildpacks**
   - buildpacks.io
   - *transform your application source code into images that can run on any cloud*
 
