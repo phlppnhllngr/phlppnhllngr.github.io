@@ -9,54 +9,56 @@ parent: Automatisierung
 # No-/Lowcode
 `no code, nocode, no-code, lowcode, low code, low-code`
 - → API/Tools
-- budibase
+- [https://www.nocode.tech/]() (Liste)
+- [https://www.nocodeportal.com/lists/all-tools/]()
+- **budibase**
   - *low-code development platform*
   - *design, build, and ship business apps*
   - https://github.com/Budibase/budibase
-- Airtable 
+- **Airtable**
   - https://airtable.com/
   - *Part spreadsheet, part database*
-- NocoDB
+- **NocoDB**
   - *The Open Source Airtable alternative*
   - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
   - https://github.com/nocodb/nocodb
-- sheety
+- **sheety**
   - https://sheety.co/
   - *Turn any Google sheet into an API instantly, for free*
-- sheetson 💰
+- **sheetson** 💰
   - https://sheetson.com/
   - *Instantly turn any Google Sheet into RESTful API*
-- sheet2site 💰
+- **sheet2site** 💰
   - https://www.sheet2site.com/
   - *Create a website from Google Sheets without writing code*
-- AppSheet 💰
+- **AppSheet** 💰
   - https://www.appsheet.com/
-- retool 
+- **retool**
   - https://retool.com/ 
   - *the fast way to build internal tools — drag-and-drop frontend components together and connect them to any database or API*
-- makerpad
+- **makerpad**
   - https://www.makerpad.co/
-  - Tutorials für diverse no-code-tools
-- lowdefy
+  - Tutorials für diverse no-code-Tools
+- **lowdefy**
   - *An open-source low-code framework to build web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML.*
   - *UIs in Lowdefy are built using blocks, which are React components*
   - *you can also create your own custom blocks.*
   - *doesn't have any data storage built in. Instead, it provides connections to external services like databases and APIs*
   - https://github.com/lowdefy/lowdefy
-- zoho
+- **zoho**
   - https://www.zoho.com/creator
   - *online database builder*
   - Freemium
-- wexflow
+- **wexflow**
   - https://github.com/aelassas/Wexflow ⭐1400
   - *A high-performance, extensible, modular and cross-platform workflow engine. Built for automation.*
   - <mark>free & open source</mark>
   - C# & XML
-- zapier
+- **zapier**
   - https://zapier.com/ 
   - Workflow-Automatisierung für diverse Apps (1500+)
   - 💰, Cloud
-- n8n
+- **n8n**
   - https://n8n.io/
   - *<mark>Free & Open Source</mark> Alternative for Zapier/tray.io*
   - *Easily extendable: Create own nodes to integrate third-party services or in-house tools*
@@ -64,52 +66,100 @@ parent: Automatisierung
   - CLI (npm module) & Docker
   - https://github.com/n8n-io/n8n ⭐3.6k
   - JS
-- refinery 💰
+- **refinery** 💰
   - https://www.refinery.io/
-- standard library
+- **standard library**
   - https://stdlib.com/
   - *allows you to effortlessly create automated workflows with a simple, intuitive UI*
   - *connects to Standard Library APIs and automatically generates high-quality code, completely customizable. Built for both developers and non-coders alike*
-  - *Build and manage both Workflow and Connector APIs. Think **Zapier**, but with complete control over workflow code (no black boxes) and the ability to build your own custom connectors in minutes*
+  - *Build and manage both Workflow and Connector APIs. Think Zapier, but with complete control over workflow code (no black boxes) and the ability to build your own custom connectors in minutes*
   - free & 💰
-- airflow
+- **airflow**
   - https://github.com/apache/airflow
   - *programmatically author, schedule, and monitor workflows*
   - Python
-- titanoboa
+- **titanoboa**
   - https://github.com/mikub/titanoboa *173
   - *highly scalable and fault tolerant workflow orchestration platform for JVM*
-- pipedream
+- **pipedream**
   - *Serverless integration and compute platform*
   - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
   - https://github.com/PipedreamHQ/pipedream
-- node-red
+- **node-red**
   - *Low-code programming for event-driven applications*
   - https://github.com/node-red/node-red ⭐10.9k
-- DolphinScheduler
+- **DolphinScheduler**
   - https://github.com/apache/incubator-dolphinscheduler ⭐5.6k
-- Microsoft Power Automate 💰
+- **Microsoft Power Automate** 💰
   - https://flow.microsoft.com/de-de/
-- saltcorn
+- **saltcorn**
   - https://github.com/saltcorn/saltcorn *350
   - *open-source no-code builder for web applications. It is a complete end-to-end solution for the front-end, backend and database of your application, and it manages both the build and the hosting stages of your application life-cycle with an intuitive point-and-click, drag-and-drop user interface.*
-- uipath 💰
-- workato 💰
-- connex digital 💰
-- appsmith
+- **uipath** 💰
+- **workato** 💰
+- **connex digital** 💰
+- **appsmith**
   - *build admin panels, CRUD apps and workflows*
   - self- oder cloud-hosted
   - 💰 für "enterprise features"
   - https://github.com/appsmithorg/appsmith *5.2k
   - https://www.appsmith.com/
-- bubble
+- **bubble**
   - *create interactive, multi-user apps for web browsers*
+  - *code-free programming language that lets you build and host web applications without engineers.*
   - 💰, free ("core features")
   - https://bubble.io/
-- amplication
+- **amplication**
   - *auto-generates backend apps built with TypeScript and Node.js, and a client built with React*
   - https://github.com/amplication/amplication *3.2k
-- Baserow
+- **Baserow**
   - *Open source no-code database and Airtable alternative*
   - https://baserow.io/
   - SaaS oder self hosted
+
+
+## Webseiten
+- **squarespace**
+  - https://de.squarespace.com/
+- **wix**
+  - https://de.wix.com/
+- **weebly**
+  - https://www.weebly.com/de
+- **grapesjs**
+  - https://github.com/artf/grapesjs
+  - http://grapesjs.com/demo.html
+- **dreamweaver**
+- **thunkable**
+  - https://thunkable.com/#/
+  - mobile Apps
+  - 💰 für private Projekte
+- **carrd**
+  - https://carrd.co/
+  - 1-page-sites (portfolio/landing/form), viele Templates (oft 💰)
+- zeroqode.com 💰
+- https://blocsapp.com/ 💰
+- **vvvebjs**
+  - https://github.com/givanz/VvvebJs
+- **webflow**
+  - https://webflow.com/
+  - Designer, CMS, E-Commerce
+- **elementor**
+  - https://github.com/elementor/elementor
+- **appsmith**
+  - *Create apps by connecting UI widgets to any database and writing any logic in JS*
+  - *build dashboards, workflows, forms, and any internal tool.*
+  - *Connect UI to DB queries or APIs to build admin panels*
+  - https://github.com/appsmithorg/appsmith
+- https://www.loopple.com/builder (dashboard builder)
+- **builder**
+  - *Drag and drop page builder and CMS for React, Vue, Angular, and more*
+  - *Register components for use in the visual editor*
+  - https://github.com/BuilderIO/builder
+
+### React
+- https://compositor.io/iso/
+- https://github.com/Pagedraw/pagedraw
+
+### E-Commerce
+- http://shopify.com/
+- https://github.com/shopizer-ecommerce/shopizer (java based)

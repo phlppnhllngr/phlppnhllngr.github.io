@@ -1,0 +1,145 @@
+---
+tags: [Notebooks, Notebooks/Diverses]
+title: Diverse Software
+created: '2019-02-21T15:17:09.975Z'
+modified: '2021-09-21T11:59:50.494Z'
+parent: Diverses
+---
+
+# Diverse Software
+- https://github.com/Awesome-Windows/Awesome
+- https://github.com/sindresorhus/awesome
+- https://github.com/jhuangtw-dev/xg2xg - *A handy lookup table of similar technology and services to help ex-googlers survive the real world*
+- https://github.com/ripienaar/free-for-dev
+- https://github.com/awesome-selfhosted/awesome-selfhosted
+- opensource.builders
+  - https://opensource.builders/
+  - *Find open-source alternatives for your favorite apps*
+- https://github.com/trimstray/the-book-of-secret-knowledge
+  - [cli tools](https://github.com/trimstray/the-book-of-secret-knowledge#cli-tools-toc)
+  - [gui tools](https://github.com/trimstray/the-book-of-secret-knowledge#gui-tools-toc)
+  - [web tools](https://github.com/trimstray/the-book-of-secret-knowledge#web-tools-toc)
+  - [containers](https://github.com/trimstray/the-book-of-secret-knowledge#containersorchestration-toc)
+  - [one-liners](https://github.com/trimstray/the-book-of-secret-knowledge#one-liners-toc)
+  - [shell functions](https://github.com/trimstray/the-book-of-secret-knowledge#shell-functions-toc)
+- Vagrant
+  - https://www.vagrantup.com/
+  - Dev-VMs
+- waypoint
+  - *A tool to build, deploy, and release any application on any platform.*
+  - *allows developers to define their application build, deploy, and release lifecycle as code*
+  - *supports a number of build methods and target platforms out of the box and more can be easily added via plugins*
+  - docker, k8s, netlify, ...
+  - https://github.com/hashicorp/waypoint
+- https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+- libraries.io
+  - https://libraries.io/ 
+  - *monitors open source packages across different package managers*
+- pmd
+  - https://github.com/pmd/pmd *2500
+  - *multilanguage static code analyzer* (java, js, ...)
+  - *Additionally it includes CPD, the copy-paste-detector*
+- istio
+  - https://istio.io/
+  - *Connect, secure, control, and observe services.*
+- restdb.io
+- notion.so 💰
+  - https://www.notion.so/
+  - all-in-one wiki + todo + database + crm
+- knack
+  - https://www.knack.com/
+  - online db
+- trevor.io 💰
+  - no-code db-backed dashboards
+- RethinkDB
+  - realtime no-sql db (push/stream)
+  - https://rethinkdb.com/
+  - https://github.com/rethinkdb/rethinkdb
+- bugherd
+  - https://bugherd.com
+  - "sticky notes" für website bugs reporting
+- triggercmd
+  - https://www.triggercmd.com
+  - run commands remotely
+  - *There are many ways to trigger your commands, including IFTTT, Alexa, Google Home, SmartThings, and Zapier.*
+- code climate 💰
+  - consolidates the results from a suite of static analysis tools into a single, real-time report
+- [rollbar](https://rollbar.com/) 💰
+  - *provides real-time error alerting & debugging tools for developers*
+- mouseflow
+  - session replay / recording and website heatmap tool
+- meilisearch
+  - https://github.com/meilisearch/MeiliSearch
+  - search engine
+- spectral
+  - https://github.com/stoplightio/spectral
+  - json & yaml linter
+- typesense
+  - Suche für strukturierte Daten (json)
+  - Api-Clients in mehreren Sprachen, Server als docker-image verfügbar
+  - mit Schreibfehler-handling
+  - https://github.com/typesense/typesense
+- files
+  - *A modern file explorer that pushes the boundaries of the platform*
+  - https://github.com/files-community/Files
+- filebrowser
+  - *Web File Browser*
+  - https://github.com/filebrowser/filebrowser
+- VcXsrv Windows X Server
+  - https://sourceforge.net/projects/vcxsrv/
+- note taking
+  - https://github.com/zadam/trilium
+  - jupyter notebook
+    - https://jupyter.org/
+    - https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
+  - jupyterlite
+    - *Wasm powered Jupyter running in the browser* *1.5k
+    - https://github.com/jupyterlite/jupyterlite
+  - apache zeppelin
+    - *enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more*
+    - https://github.com/apache/zeppelin
+    - https://zeppelin.apache.org/
+  - znote
+    - js
+    - *executing code directly in your Markdown*
+    - https://znote.io/lab.html
+  - joplin
+    - https://github.com/laurent22/joplin *24k
+    - *synchronization capabilities for Windows, macOS, Linux, Android and iOS*
+    - *The notes are in Markdown format.*
+- deskreen
+  - *turns any device with a web browser into a secondary screen for your computer*
+  - https://github.com/pavlobu/deskreen
+- dall-e
+  - *We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language*
+  - https://openai.com/blog/dall-e/
+- password management
+  - keeweb
+    - *cross-platform password manager compatible with KeePass*
+    - *browser and desktop password manager compatible with KeePass databases*
+    - web app: self hosted oder https://app.keeweb.info/
+    - https://github.com/keeweb/keeweb *10.2k
+  - bitwarden
+    - https://bitwarden.com/
+  - keepass
+    - *does not require synchronization. The trick is to compute passwords rather than generate and store random passwords.*
+    - *No need to save your passwords in an encrypted file. You just need to access the tool to recalculate a password from information that you know (mostly the login).*
+    - *generates unique passwords for websites, email accounts, or anything else based on a master password and information you know.*
+    - https://github.com/lesspass/lesspass
+  - lesspass
+- syncthing
+  - *Continuous File Synchronization*
+  - https://github.com/syncthing/syncthing
+- ungoogled chromium
+  - *Google Chromium, sans integration with Google*
+  - https://github.com/Eloston/ungoogled-chromium *12.5k
+- KasmVNC
+  - *docker container streaming platform that enables you to deliver browser-based access to desktops, applications, and web services*
+  - https://github.com/kasmtech/KasmVNC
+- whoogle-search
+  - *A self-hosted, ad-free, privacy-respecting metasearch engine*
+  - *Get Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking*
+  - https://github.com/benbusby/whoogle-search
+- flagsmith
+  - *Feature flagging and remote config service. Host yourself or use our hosted version*
+  - https://github.com/flagsmith/flagsmith *1000

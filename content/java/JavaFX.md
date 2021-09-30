@@ -39,7 +39,7 @@ parent: Java
     - https://github.com/javafx-maven-plugin/javafx-maven-plugin
     - *wrapper for the packaging tool that comes with JavaFX, javapackager*
     - *native executables, installers & jar*
-    - [archived docs](http://web.archive.org/web/20170926160512/http://javafx-maven-plugin.github.io/) (&rightarrow; https://github.com/javafx-maven-plugin/javafx-maven-plugin/issues/363)
+    - [archived docs](http://web.archive.org/web/20170926160512/http://javafx-maven-plugin.github.io/) (→ https://github.com/javafx-maven-plugin/javafx-maven-plugin/issues/363)
   - gluon client
     - https://docs.gluonhq.com/client/
     - *leverages GraalVM, OpenJDK and JavaFX 11+, by compiling into native code the Java Client application and all its required dependencies, so it can directly be executed as a native application on the target platform*
