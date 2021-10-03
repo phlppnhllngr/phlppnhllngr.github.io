@@ -7,6 +7,7 @@ parent: Java
 ---
 
 # Dies & das
+- [https://github.com/akullpp/awesome-java](https://github.com/akullpp/awesome-java)
 - **JNI**
   - Java Native Interface
   - *bridge between the bytecode running in our JVM and the native code*
@@ -48,3 +49,56 @@ parent: Java
   - https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html
 - [https://blog.frankel.ch/hacking-third-party-api-jvm/](https://blog.frankel.ch/hacking-third-party-api-jvm/)
   - Beispiele für classpath shadowing, reflection, agent, aop
+- **Kotlin**
+  - [https://kotlinlang.org/](https://kotlinlang.org/)
+
+
+## Rule Engines (JSR 94)
+- https://www.oracle.com/technical-resources/articles/javase/javarule.html
+- https://www.baeldung.com/java-rule-engines
+- Impls
+  - Easy Rules
+    - https://github.com/j-easy/easy-rules
+  - Drools → Frameworks/Business Process
+
+
+## Scripting
+- **single file** (java 11+)
+  - unterstützt "shebang"; `#!/usr/local/bin/java --source 11`
+  - https://www.baeldung.com/java-single-file-source-code
+- **jshell** (java 9+)
+  - tryjshell
+    - https://www.tryjshell.org/
+- **jbang**
+  - https://github.com/jbangdev/jbang
+  - *run self-contained source-only Java programs*
+  - *be able to run java from anywhere without any or very minimal setup*
+- **beanshell**
+  - https://github.com/beanshell/beanshell
+
+
+## Dokumentation
+- **java2uml**
+  - http://www.java2uml.com/
+  - macht per drag-and-drop aus Java-Klassen UML-Diagramme
+
+
+## i18n
+- **java.util.ResourceBundle**
+  - ResourceBundle.getBundle liefert ein PropertyResourceBundle. Dieses ResourceBundle geht intern davon aus, dass die .properties-Datei
+    ISO-8859-1-formatiert ist. Bei einer UTF-8-formatierten Datei braucht es einen Workaround: https://stackoverflow.com/questions/4659929/how-to-use-utf-8-in-resource-properties-with-resourcebundle
+  - List- und PropertyResourceBundle sind thread-safe
+  - getBundle liefert gecachte Instanzen (Caching ist konfigurierbar)
+  - https://docs.oracle.com/javase/8/docs/api/java/util/ResourceBundle.html
+  - → Libs/YamlResourceBundle
+- **java.text.MessageFormat**
+  - https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html
+- **localizer**
+  - *Type-safe localization message acces*
+  - ```java
+    // messages.properties: foo=error at {0} with {1}
+    // =>
+    public static String foo(Object arg1, Object arg2) { ... }
+    ```
+  - Maven-Plugin
+  - https://github.com/kohsuke/localizer

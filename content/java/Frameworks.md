@@ -72,3 +72,23 @@ parent: Java
 - Drools
   - *rule engine, DMN engine and complex event processing (CEP) engine*
   - https://github.com/kiegroup/drools *3.7k
+
+
+## Enterprise Integration
+<details>
+    <summary>Patterns</summary>
+    <img loading="lazy" src="https://static.packt-cdn.com/products/9781787126992/graphics/Insert-Image_03_10.png"/>
+</details>
+- **Apache Camel**
+  - http://camel.apache.org/
+  - hohe Anzahl an Connectors (~200)
+  - *Camel empowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based Fluent API, Spring or ...
+Apache Camel uses URIs to work directly with any kind of Transport or messaging model such as HTTP, JMS, ..., as well as pluggable Components and Data Format options. Apache Camel is a small library with minimal dependencies for easy embedding in any Java application. Apache Camel lets you work with the same API regardless which kind of Transport is used - so learn the API once and you can interact with all the Components provided out-of-box.*
+  - Übersicht Komponenten: https://github.com/apache/camel/blob/master/components/readme.adoc
+  - mit Spring: https://reflectoring.io/spring-camel/
+- **Spring Integration**
+  - [Spring/Integration](@note/Modul Integration.md)
+  - ca. 20 Connectors
+- **MuleESB**
+  - Mule ist zusätzlich ein ESB = Enterprise Service Bus
+  - closed source, CPAL-Lizenz
