@@ -11,42 +11,42 @@ parent: Java
 ## Plugins
 
 - ~~Indent Guide~~ siehe Konfig/whitespace
-- Ansi escape in console
+- **Ansi escape in console**
   - *interprets the ANSI escape sequences to color the console output*
   - https://marketplace.eclipse.org/content/ansi-escape-console
-- Grep Console 
+- **Grep Console**
     - optische Hervorhebung von Logs mit konfigurierbaren Regex
     - Defaults funktionieren nicht; z.B. stattdessen `Expression = ^WARN.*$`
     - für neue Eclipse-Versionen nicht verfügbar (kann es aber noch über die Update-site bekommen: http://eclipse.schedenig.name)
     - Alternative: LogViewer? → nur für Files
     - Alternative: ~~Easy Consoler Grepper?~~
-- Checkstyle <small>→ siehe auch m2e-code-quality</small>
-- SpotBugs <small>→ siehe auch m2e-code-quality</small>
-- SonarLint
-- Enhanced Class Decompiler
-- Lombok
-- Maven Integration for Eclipse
-- Buildship Gradle
-- Spring Tools
-- YEdit (yaml-Editor)
-- Eclipse Docker Tooling
+- **Checkstyle** <small>→ siehe auch m2e-code-quality</small>
+- **SpotBugs** <small>→ siehe auch m2e-code-quality</small>
+- **SonarLint**
+- **Enhanced Class Decompiler**
+- **Lombok**
+- **Maven Integration for Eclipse**
+- **Buildship Gradle**
+- **Spring Tools**
+- **YEdit** (yaml-Editor)
+- **Eclipse Docker Tooling**
 - ~~jdt codemining~~
   - ~~https://github.com/angelozerr/jdt-codemining~~
-- pmd <small>→ siehe auch m2e-code-quality</small>
-- infinitest
+- **pmd** <small>→ siehe auch m2e-code-quality</small>
+- **infinitest**
   - https://infinitest.github.io/
   - https://github.com/infinitest/infinitest/
   - continuous testing, watch mode
-- exporter for eclipse
-- yatta launcher
+- **exporter for eclipse**
+- **yatta launcher**
   - https://www.yatta.de/profiles/
-- memory analyzer (MAT)
+- **memory analyzer (MAT)**
   - erstellt und analysiert Heap-dumps ('hprof') und stellt grafisch dar, versucht Memory-Leaks zu erkennen
-- jar2uml
-- unnecessary code detector (UCD)
-- wildwebdeveloper
+- **jar2uml**
+- **unnecessary code detector (UCD)**
+- **wildwebdeveloper**
   - https://github.com/eclipse/wildwebdeveloper
-- spring sts
+- **spring sts**
   - https://spring.io/tools
 
 
@@ -56,9 +56,9 @@ parent: Java
 - "plugin execution not covered by lifecycle configuration":
   https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html
 - in Eclipse den Lifecycle eines Projekts sehen: Properties → Maven → Lifecycle
-- m2e-apt
+- **m2e-apt** 
   - *aims at providing automatic Annotation Processing configuration in Eclipse, based on your project's pom.xml and its classpath dependencies*
-- m2e-code-quality
+- **m2e-code-quality**
   - https://github.com/m2e-code-quality/m2e-code-quality
   - nicht (mehr) im Marktplatz; Update site: http://m2e-code-quality.github.io/m2e-code-quality/
   - *collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins* (und SpotBugs)

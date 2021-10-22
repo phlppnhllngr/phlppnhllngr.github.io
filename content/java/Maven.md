@@ -80,15 +80,17 @@ parent: Java
 
 ## Variablen
 - Inhalt anzeigen: `mvn help:evaluate -Dexpression=foo.bar`
-- ${project.basedir}
+- **${project.basedir}**
   - *The directory that the current project resides in*
   - *in a module of a multi module project this is the root of the module (not root of the parent)*
-- ${project.parent.basedir}
-- ${project.build.directory}
+- **${project.parent.basedir}**
+- **${project.build.directory}**
   - default: "target"
-- ${maven.multiModuleProjectDirectory}
+- **${maven.multiModuleProjectDirectory}**
   - *the start of a multi module structure where the .mvn location can be found.*
-- ${session.executionRootDirectory}
+  - ".mvn"-Verzeichnis muss es geben, darf aber leer sein
+  - seit v3.3.1
+- **${session.executionRootDirectory}**
   - *a variable that always points to the ... directory ... from which the maven command was executed*
 
 
