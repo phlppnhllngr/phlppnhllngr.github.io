@@ -112,21 +112,21 @@ parent: Java
 - http://maven.apache.org/plugins/index.html
 - Defaults (unterschiedlich je nach project.packaging): https://maven.apache.org/ref/current/maven-core/default-bindings.html
 <br/>
-- appassembler
+- **appassembler**
   - https://www.mojohaus.org/appassembler/appassembler-maven-plugin/index.html
   - *for generating scripts for starting java applications*
-- antrun
+- **antrun**
   - https://maven.apache.org/plugins/maven-antrun-plugin/
-- assembly
+- **assembly**
   - http://maven.apache.org/plugins/maven-assembly-plugin/
-- build helper
+- **build helper**
   - https://www.mojohaus.org/build-helper-maven-plugin/index.html
   - Auslesen der aktuellen pom.version (nützlich für Zusammenspiel mit versions-plugin), ...
-- checkstyle
+- **checkstyle**
   - https://maven.apache.org/plugins/maven-checkstyle-plugin/
-- clean
+- **clean**
   - https://maven.apache.org/plugins/maven-clean-plugin/
-- compiler
+- **compiler**
   - https://maven.apache.org/plugins/maven-compiler-plugin/
   - configuration
     - target
@@ -139,18 +139,18 @@ parent: Java
   - Maven-Plugin für OWASP DependencyCheck
   - https://jeremylong.github.io/DependencyCheck/dependency-check-maven/
   - *identify the use of known vulnerable components*
-- deploy
+- **deploy**
   - http://maven.apache.org/plugins/maven-deploy-plugin/
-- directory
+- **directory**
   - *discovery of various project-related paths*
   - https://github.com/jdcasey/directory-maven-plugin
-- dockerfile
+- **dockerfile**
   - https://github.com/spotify/dockerfile-maven
   - *If you bind the default phases, when you type mvn package, you get a Docker image. When you type mvn deploy, your image gets pushed*
-- download
+- **download**
   - *download files (...) different protocols*
   - https://github.com/maven-download-plugin/maven-download-plugin
-- duplicate-finder
+- **duplicate-finder**
   - *find and flag duplicate classes and resources on the java classpath*
   - https://github.com/basepom/duplicate-finder-maven-plugin
 - **enforcer**
@@ -158,25 +158,25 @@ parent: Java
   - *provides goals to control certain environmental constraints such as Maven version, JDK version and OS family along with many more built-in rules and user created rules*
   - built-ins: requireReleaseDeps, requireJavaVersion , ... (https://maven.apache.org/enforcer/enforcer-rules/index.html)
   - auch custom (java-code) rules
-- errorprone
+- **errorprone**
   - https://errorprone.info/index
-- exec
+- **exec**
   - http://www.mojohaus.org/exec-maven-plugin/
-- failsafe
+- **failsafe**
   - https://maven.apache.org/surefire/maven-failsafe-plugin/index.html
   - *designed to run integration tests while the Surefire Plugin is designed to run unit tests*
-- flatten
+- **flatten**
   - https://www.mojohaus.org/flatten-maven-plugin/
   - *generates a flattened version of the pom.xml that Maven installs and deploys instead of the original*
-- flyway
+- **flyway**
   - https://flywaydb.org/documentation/maven/
-- fmt
+- **fmt**
   - https://github.com/coveooss/fmt-maven-plugin
   - *Formats your code using google-java-format which follows Google's code styleguide*
-- formatter
+- **formatter**
   - https://code.revelc.net/formatter-maven-plugin/
   - *formatting java source code using the Eclipse code formatter*
-- frontend
+- **frontend**
   - https://github.com/eirslett/frontend-maven-plugin
 - **git-spezifische Plugins**
   - hooks
@@ -202,18 +202,18 @@ parent: Java
       - https://github.com/Cosium/git-code-format-maven-plugin
   - gitflow
     - https://github.com/aleksandr-m/gitflow-maven-plugin
-- hibernate-enhance
+- **hibernate-enhance**
   - https://vladmihalcea.com/maven-gradle-hibernate-enhance-plugin/
-- install
-- jar
+- **install**
+- **jar**
   - https://maven.apache.org/plugins/maven-jar-plugin/
 - **jib**
   - → Docker/Tools
-- jtoolprovider
+- **jtoolprovider**
   - *This Maven Plugin does two things. First, it automatically transforms your Maven dependency graph into Java modules. Second, it bridges Maven and built-in Java tools like jdeps, jlink, and jpackage.*
   - *makes it much, much easier to generate native Java desktop applications with nice, small installers.*
   - https://github.com/wiverson/jtoolprovider-plugin *12
-- license
+- **license**
   - http://www.mojohaus.org/license-maven-plugin/
   - *generate your projects license file from your project and dependencies*
 - ~~license-check~~
@@ -233,14 +233,14 @@ parent: Java
     - excludeMissing
       - Dependencies, dier hier aufgeführt sind, werden nicht durchsucht, auch die transitiven Dependencies nicht
       - die gelisteten Dependencies müssen eine Version haben
-- m2e-lifecycle-mapping
+- **m2e-lifecycle-mapping**
   - kein eigentliches Plugin
   - damit können Plugins, die eigentlich an keine Phase gebunden sind (gebunden werden können), an eine gebunden werden
-- modernizer
+- **modernizer**
   - *Detect uses of legacy Java APIs*
   - legacy APIs: https://github.com/gaul/modernizer-maven-plugin/blob/master/modernizer-maven-plugin/src/main/resources/modernizer.xml
   - https://github.com/gaul/modernizer-maven-plugin *280
-- native-image
+- **native-image**
   - https://www.graalvm.org/reference-manual/native-image/NativeImageMavenPlugin/
   - https://mvnrepository.com/artifact/org.graalvm.nativeimage/native-image-maven-plugin
   - dieses Plugin benötigt `native-image`
@@ -258,72 +258,72 @@ parent: Java
         - `gcc --version`
       - wenn `/usr/bin/ld: cannot find -lz` (Debian GNU/Linux 10 (buster)):
         - `sudo apt install zlib1g-dev`
-- pmd
+- **pmd**
   - https://pmd.github.io/latest/pmd_userdocs_tools_maven.html
-- prettier
+- **prettier**
   - *Node, prettier, and prettier-java are bundled into the plugin*
   - https://github.com/HubSpot/prettier-maven-plugin
-- proguard
+- **proguard**
   - https://github.com/wvengen/proguard-maven-plugin
-- project-info-reports
+- **project-info-reports**
   - https://maven.apache.org/plugins/maven-project-info-reports-plugin/
-- properties
+- **properties**
   - https://www.mojohaus.org/properties-maven-plugin/index.html
   - *It provides goals to read properties from files and URLs and write properties to files, and also to set system properties.*
   - versch. properties-files je nach Env, wie Spring
   - https://www.baeldung.com/java-accessing-maven-properties
-- release
-  - http://maven.apache.org/maven-release/maven-release-plugin/
-- replacer
+- **release**
+  - [http://maven.apache.org/maven-release/maven-release-plugin/](http://maven.apache.org/maven-release/maven-release-plugin/)
+- **replacer**
   - https://code.google.com/archive/p/maven-replacer-plugin/
   - *replace tokens within a file with a given value and fully supports regular expressions*
   - Example: https://gist.github.com/21decemb/a338ec66c81bcaca1d9d
-- resources
+- **resources**
   - https://maven.apache.org/plugins/maven-resources-plugin/
   - *handles the copying of project resources to the output directory*
   - *replace placeholder-strings in resources at build time*: https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
-- shade
+- **shade**
   - https://maven.apache.org/plugins/maven-shade-plugin/index.html
   - *provides the capability to package the artifact in an uber-jar, including its dependencies and to shade - i.e. rename - the packages of some of the dependencies*
   - *remove (parts of) unused dependencies*
   - https://maven.apache.org/plugins/maven-shade-plugin/examples/resource-transformers.html
-- site
+- **site**
 - **spotbugs**
   - http://spotbugs.readthedocs.io/en/latest/maven.html
-- spotless
+- **spotless**
   - https://github.com/diffplug/spotless/tree/main/plugin-maven#java
   - Formatter (elcipse jdt, prettier, google-format)
-- sortpom
+- **sortpom**
   - *helps the user sort pom.xml*
   - https://github.com/Ekryd/sortpom
-- source
+- **source**
   - https://maven.apache.org/plugins/maven-source-plugin/
   - *creates a jar archive of the source files of the current project*
-- spring-boot
+- **spring-boot**
   → Spring/Entwicklungstools/Maven-Plugin
-- surefire
+- **surefire**
   - http://maven.apache.org/surefire/maven-surefire-plugin/
-- swagger
+- **swagger**
   - *JAX-RS & SpringMVC supported maven build plugin, helps you generate Swagger JSON and API document in build phase.*
   - https://github.com/kongchen/swagger-maven-plugin
-- tiles
+- **tiles**
   - wiederverwendbare pom-Schnipsel (includes)
   - https://github.com/repaint-io/maven-tiles
-- tomcat
+- **tomcat**
   - http://tomcat.apache.org/maven-plugin.html
   - 14.11.19: Support für Tomcat v7
   - *provides goals to manipulate WAR projects within the Apache Tomcat servlet container*
   - *build an executable jar/war*
-- toolchains
+- **toolchains**
   - http://maven.apache.org/plugins/maven-toolchains-plugin/
   - *allows to share configuration across plugins. For example to make sure the plugins like compiler, surefire, javadoc, webstart etc. all use the same JDK for execution.*
   - https://maarten.mulders.it/2021/03/introduction-to-maven-toolchains/
-- versions
+- **versions**
   - https://www.mojohaus.org/versions-maven-plugin/
-  - Manipulieren der pom.version, prinzipiell aber jedes property mit `set-property`. Erlaubt revert
+  - Manipulieren der pom.version, prinzipiell aber jedes property mit `set-property`. Erlaubt revert.
   - Dependency- und Plugin-Updates anzeigen
   - → build-helper-plugin
-- war
+- **war**
   - https://maven.apache.org/plugins/maven-war-plugin/
 
 

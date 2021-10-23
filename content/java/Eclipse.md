@@ -48,6 +48,9 @@ parent: Java
   - https://github.com/eclipse/wildwebdeveloper
 - **spring sts**
   - https://spring.io/tools
+- **IBM WebSphere Application Server V9.x Developer Tools**
+  - unterstützte Versionen von Eclipse: nicht neuer als 2020-06
+  - [https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
 
 
 ### m2e

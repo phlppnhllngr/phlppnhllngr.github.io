@@ -9,7 +9,7 @@ parent: API
 # Entwicklungstools
 
 ## Clients
-- Insomnia
+- **Insomnia**
   - https://insomnia.rest/
   - Plugins, z.B. um Zufallsdaten zu generieren
     - https://insomnia.rest/plugins
@@ -17,7 +17,7 @@ parent: API
     - https://npms.io/search?q=insomnia-plugin
     - https://www.npmjs.com/package/insomnia-plugin-faker
   - CLI ("Inso")
-- Postman
+- **Postman**
   - https://www.getpostman.com/
   - Tests (javascript), Mock-Server
   - scopes
@@ -64,31 +64,31 @@ parent: API
     - https://www.npmjs.com/package/newman
     - *the cli companion for postman*
     - *allows you to effortlessly run and test a Postman collection directly from the command-line. ... easily integrate it with your continuous integration servers and build systems.*
-- talend api tester
+- **talend api tester**
   - restlet.com
   - chrome plugin
-- ~~postwoman~~ hoppscotch
+- ~~postwoman~~ **hoppscotch**
   - https://hoppscotch.io
   - Browser-App, Offline-Support (pwa)
   - viele Features (pre-/post-req-scripts, ...)
   - https://github.com/hoppscotch/hoppscotch *19.3k
   - CLI
     - https://github.com/hoppscotch/hopp-cli
-- milkman
+- **milkman**
   - https://github.com/warmuuh/milkman *385
   - *heavily inspired by Postman. not limited to e.g. http requests. other things are possible, like database-requests or GRPC, GraphQl, etc...*
 
 
 ## Andere
-- swagger
-- openapi-cop
+- **swagger**
+- **openapi-cop**
   - https://github.com/EXXETA/openapi-cop
   - node_module
   - *A proxy that validates responses and requests against an OpenAPI document*
-- openapi-generator
+- **openapi-generator**
   - https://github.com/OpenAPITools/openapi-generator
   - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
-- Akita
+- **Akita**
   - *watches API traffic to automatically generate OpenAPI specs in just minutes, completely black box, without requiring any code or config changes.*
   - *Akita is able to tell you:*
     - *Endpoints added that expose new functionality*
@@ -96,7 +96,7 @@ parent: API
     - *Simple type changes (ex string to int) that can pollute data pipelines*
     - *Complex type changes (ex phone number to datetime) that can break dependencies*
   - https://docs.akita.software/docs
-- quicktype
+- **quicktype**
   - *generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries*
   - *Target Languages: js, java, ...*
   - https://github.com/quicktype/quicktype

@@ -21,7 +21,6 @@ parent: Java
     - encoding
 
 
-
 ## Jetty
 - https://www.eclipse.org/jetty/
 - https://github.com/eclipse/jetty.project
@@ -29,11 +28,14 @@ parent: Java
 
 
 ## Websphere
-- [https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history]()
+- [https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads](https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads)
+- [https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history](https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history)
 
 ### Traditional
 - aka "tWAS"
-- Tipps
+- **Installation**
+  - [https://geekflare.com/was9-installation-guide/](https://geekflare.com/was9-installation-guide/)
+- **Tipps**
   - *Java 11 is not supported on twas 9*
   - Class loading sollte auf 'parent last' gesetzt werden, damit die Libs der Anwendung greifen, nicht die Webpshere-eigenen
   - Beim Hochfahren führt Websphere ein 'class path scanning' durch (~~kann man nicht abschalten?~~ "metadata-complete=true" im web.xml-root-Element?). Ältere Versionen kommen dabei nicht mit module-info.java zurecht. Über Einträge im Manifest kann man die entsprechenden Jars vom Scanning ausschließen:
@@ -42,11 +44,11 @@ parent: Java
   "Ignore-Scanning-Packages": "META-INF.versions",
   "Ignore-Scanning-Archives": "jaxb-runtime-2.3.1.jar,jaxb-api-2.3.1.jar,txw2-2.3.1.jar,..."
   ```
-- Docker
-  - [https://hub.docker.com/r/ibmcom/websphere-traditional/]()
-  - [https://github.com/WASdev/ci.docker.websphere-traditional]()
-    - dockerfiles: [https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/docker-build]()
-    - samples: [https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/samples]()
+- **Docker**
+  - [https://hub.docker.com/r/ibmcom/websphere-traditional/](https://hub.docker.com/r/ibmcom/websphere-traditional/)
+  - [https://github.com/WASdev/ci.docker.websphere-traditional](https://github.com/WASdev/ci.docker.websphere-traditional)
+    - Dockerfiles: [https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/docker-build](https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/docker-build)
+    - Samples: [https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/samples](https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/samples)
   - Varianten
     - ubi
       - universal base image
@@ -82,7 +84,7 @@ parent: Java
 
   Alternativ könnte man auch per `sed` die Datei im Image ändern
   [https://github.com/WASdev/ci.docker.websphere-traditional/blob/master/docker-build/9.0.5.7/Dockerfile-ubi8#L102]()
-- monitored application deployment
+- **monitored application deployment**
   - http://dplatz.de/blog/2018/was-autodeploy.html (04/2018)
 
 
@@ -97,10 +99,21 @@ parent: Java
 
 
 ## WildFly
-- https://github.com/wildfly/wildfly
+- [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
 
 
 ## TomEE
+- [https://github.com/apache/tomee](https://github.com/apache/tomee)
 
 
 ## GlassFish
+- *a Jakarta EE compatible implementation sponsored by the Eclipse Foundation. Eclipse GlassFish 5.1 is also Java EE 8 Compatible.*
+- [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
+
+
+## WebLogic
+- [https://www.oracle.com/middleware/technologies/weblogic.html](https://www.oracle.com/middleware/technologies/weblogic.html)
+
+
+## JBoss EAP
+- [https://www.redhat.com/en/technologies/jboss-middleware/application-platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)

@@ -9,7 +9,7 @@ parent: DevOps
 # Artifactory
 - **Installation**
     - Docker
-    - [https://www.jfrog.com/confluence/display/JFROG/Installing+Artifactory#InstallingArtifactory-DockerInstallation](https://www.jfrog.com/confluence/display/JFROG/Installing+Artifactory#InstallingArtifactory-DockerInstallation)
+        - [https://www.jfrog.com/confluence/display/JFROG/Installing+Artifactory#InstallingArtifactory-DockerInstallation](https://www.jfrog.com/confluence/display/JFROG/Installing+Artifactory#InstallingArtifactory-DockerInstallation)
 - **REST-API**
     - [https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
 - **CLI**

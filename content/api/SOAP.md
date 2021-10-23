@@ -28,6 +28,6 @@ parent: API
 - [https://de.wikipedia.org/wiki/Web_Services_Description_Language](https://de.wikipedia.org/wiki/Web_Services_Description_Language)
 - Web Services Description Language
 - plattform-, programmiersprachen- und protokollunabhängige Beschreibungssprache für Netzwerkdienste (Webservices) zum Austausch von Nachrichten auf Basis von XML
-- anhand einer .wsdl-Datei (Knoten `wsdl:types`) lassen sich DTOs generieren (Bsp Java: cxf-codegen-plugin)
+- anhand einer .wsdl-Datei (Knoten `wsdl:types`) lassen sich DTOs generieren (Bsp Java: cxf-codegen-plugin für Maven)
 - `wsdl:message` und `wsdl:operation` beschreibt soetwas wie Methoden/Funktionen
 - `wsdl:portType` und `wsdl:binding` sind soetwas wie Interfaces von Client-Klassen, `wsdl:service` die Implementierung (?)
