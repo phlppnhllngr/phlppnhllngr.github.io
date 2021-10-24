@@ -132,6 +132,9 @@ parent: Java
     - target
     - source
     - release
+- **cxf-codegen**
+  - *can generate java artifacts from WSDL*
+  - [https://cxf.apache.org/docs/maven-cxf-codegen-plugin-wsdl-to-java.html](https://cxf.apache.org/docs/maven-cxf-codegen-plugin-wsdl-to-java.html)
 - **dependency**
   - https://maven.apache.org/plugins/maven-dependency-plugin/
   - *find duplicates / unused, download dependencies, ...*
@@ -207,6 +210,9 @@ parent: Java
 - **install**
 - **jar**
   - https://maven.apache.org/plugins/maven-jar-plugin/
+- **jaxws**
+  - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
+  - [https://www.mojohaus.org/jaxws-maven-plugin/](https://www.mojohaus.org/jaxws-maven-plugin/)
 - **jib**
   - → Docker/Tools
 - **jtoolprovider**

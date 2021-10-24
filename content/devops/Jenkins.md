@@ -15,6 +15,56 @@ parent: DevOps
 
 ## Jenkinsfile
 
+**Groovy**
+```groovy
+// a.groovy
+def call(Closure c) {
+  println('foo')
+  c()
+}
+
+// z.groovy
+a {
+  println('bar')
+}
+
+
+// b.groovy
+def func1() { ... }
+def func2() { ... }
+
+// z.groovy
+b.func1()
+b.func2()
+
+
+// c.groovy
+def call(body) {
+    def config = [:]
+    body.resolveStrategy = Closure.DELEGATE_FIRST
+    body.delegate = config
+    body()
+    println('hello ' + config.name)
+}
+
+// z.groovy
+c {
+  name = 'world'
+}
+
+
+// d.groovy
+def call(String name, Closure c) {
+  println('hello ' + name)
+  c()
+}
+
+// z.groovy
+d('world') {
+  println('foo')
+}
+```
+
 **stderr**
 <br/>
 1 = stdout, 2 = stderr

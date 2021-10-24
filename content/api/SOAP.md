@@ -7,6 +7,7 @@ parent: API
 ---
 
 # SOAP
+- → Webdev/Mock Backend
 - Simple Object Access Protocol
 - stützt sich auf XML zur Repräsentation der Daten
 - Die gängigste Kombination ist SOAP über HTTP und TCP
@@ -21,6 +22,7 @@ parent: API
       </s:Body>
   </s:Envelope>
   ```
+- Postman: Body = raw/XML, Content-Type muss "text/xml" sein
 - SOAP v1.1 VS v1.2
   - ...
 

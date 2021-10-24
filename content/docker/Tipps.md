@@ -7,7 +7,7 @@ parent: Docker
 ---
 
 # Tipps
-
+- https://github.com/wsargent/docker-cheat-sheet
 - in Shell starten
   `docker run --entrypoint /bin/sh -it`
 - IP-Adresse des (Windows-)Host bekommen

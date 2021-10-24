@@ -9,101 +9,106 @@ parent: Webdev
 # Mock Backend
 
 ## Öffentliche APIs und Services
-- placeholder.com
+- **placeholder.com**
   - https://placeholder.com/
   - Images
-- jsonplaceholder
+- **jsonplaceholder**
   - http://jsonplaceholder.typicode.com/
-- httpstat.us
+- **httpstat.us**
   - https://httpstat.us/
   - nur Statuscodes, kein Body, optionale Verzögerung
-- mockapi
+- **mockapi**
   - https://www.mockapi.io/docs
-- httpbin
+- **httpbin**
   - http://httpbin.org/
   - verschiedene Content-Types (xml, json, gzip, ...), http & https
-- mocky
+- **mocky**
+  - https://github.com/julien-lafont/Mocky *1.7k
   - https://www.mocky.io/
-- jsonstub
+- **jsonstub**
   - http://jsonstub.com/
-- mockoon
+- **mockoon**
   - https://mockoon.com/
-  - desktop app
-  https://github.com/mockoon/mockoon *1100
-- postman
+  - Desktop-App
+  - https://github.com/mockoon/mockoon *1100
+- **postman**
   - https://www.codingular.com/2019/04/mocking-api-using-postman/
-  - private mock server nur mit api key
-- mockaroo
+  - privater Mock-Server nur mit Api-Key
+- **mockaroo**
   - random data generator, file download (csv, json, sql, ...) & rest api
   - https://mockaroo.com/
-- api-with-github
+- **api-with-github**
   - https://apiwithgithub.com/
   - https://github.com/mddanishyusuf/json-apis-with-github
-- mocklets
+- **mocklets**
   - https://mocklets.com/
   - free & premium tiers
-- crudcrud
+- **crudcrud**
   - https://crudcrud.com/
-- crudpi.io
+- **crudpi.io**
   - https://crudpi.io/
-- easy-mock
-  - https://github.com/easy-mock/easy-mock
-- mockit
+- **easy-mock**
+  - *Support RESTful*
+  - *Support Swagger / OpenAPI Specification*
+  - https://github.com/easy-mock/easy-mock *8.6k
+- **mockit**
   - https://mockit.netlify.com/
   - https://github.com/boyney123/mockit
   - neu (04/2019)
   - simpel, wenig konfigurierbar
-- castlemock
-  - RESTful APIs and SOAP web services.
-  - https://github.com/castlemock/castlemock *176
+- **castlemock**
+  - *RESTful APIs and SOAP web services.*
+  - *can create mocked services based on WSDL, WADL, Swagger and RAML definition files*
+  - Installation: .war oder Docker-Image
+  - [https://github.com/castlemock/castlemock](https://github.com/castlemock/castlemock) *176
 
 
 ## Code based
 
 ### js
-- json-server
+- **json-server**
   - https://github.com/typicode/json-server *44.000
   - gut konfigurierbar, Middlewares
   - gePOSTete daten können gespeichert werden
   - kann nur json (?)
-- dyson
+- **dyson**
   - https://github.com/webpro/dyson *800
   - sehr konfigurierbar, middlewares
   - delay, fake data, dynamic http status, cors, ...
-- stubborn
+- **stubborn**
   - https://github.com/ybonnefond/stubborn *5
   - *It is basically nock meets Dyson*
-- miragejs
+- **miragejs**
   - https://miragejs.com/docs/main-concepts/route-handlers/
   - im Gegensatz zu vielen anderen clientseitig (patcht intern XHR & fetch)
-- pretender
+- **pretender**
   - https://github.com/pretenderjs/pretender
   - clientseitig
-- msw
+- **msw**
   - https://github.com/mswjs/msw
   - benutzt Serviceworker
   - *Utilizing the Service Worker API, MSW responds to requests with your mock definition on the network level. This way your application knows nothing about the mocking.*
 
 ### Java
-- WireMock
+- **WireMock**
   - http://wiremock.org/
   - https://github.com/tomakehurst/wiremock *3600
   - gut konfigurierbar (java oder json)
   - randomizable delays, faulty reponses
-- hoverfly
+- **hoverfly**
   - https://github.com/SpectoLabs/hoverfly-java *100
 
 ### Andere Sprachen
-- mockserver
+- **mockserver**
   - https://github.com/mock-server/mockserver
   - http://www.mock-server.com
   - js und java
   - gut konfigurierbar
   - Maven-Plugin zur Nutzung für Tests
-- prism
+- **prism**
   - https://github.com/stoplightio/prism
   - *Turn any OpenAPI file into an API server with mocking, transformations, validations, and more.*
   - https://stoplight.io/open-source/prism/
-- mocking hans
+- **mocking hans**
   - https://github.com/loremipsum/mocking-hans *20
   - TS
