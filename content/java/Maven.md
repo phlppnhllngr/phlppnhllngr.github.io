@@ -288,6 +288,9 @@ parent: Java
   - https://maven.apache.org/plugins/maven-resources-plugin/
   - *handles the copying of project resources to the output directory*
   - *replace placeholder-strings in resources at build time*: https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html
+- **semantic-release**
+  - *This tool is intended to be used on github projects that use a Travis-CI server*
+  - [https://github.com/conveyal/maven-semantic-release](https://github.com/conveyal/maven-semantic-release)
 - **shade**
   - https://maven.apache.org/plugins/maven-shade-plugin/index.html
   - *provides the capability to package the artifact in an uber-jar, including its dependencies and to shade - i.e. rename - the packages of some of the dependencies*
