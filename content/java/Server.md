@@ -84,8 +84,9 @@ parent: Java
 
   Alternativ könnte man auch per `sed` die Datei im Image ändern
   [https://github.com/WASdev/ci.docker.websphere-traditional/blob/master/docker-build/9.0.5.7/Dockerfile-ubi8#L102]()
-- **monitored application deployment**
-  - http://dplatz.de/blog/2018/was-autodeploy.html (04/2018)
+- **Livereload**
+  - [http://dplatz.de/blog/2018/was-autodeploy.html](http://dplatz.de/blog/2018/was-autodeploy.html) (04/2018)
+  - [https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files](https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files)
 
 
 ### Liberty
