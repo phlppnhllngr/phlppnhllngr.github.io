@@ -43,7 +43,7 @@ parent: Security
   - *A tool for secrets management, encryption as a service, and privileged access management*
   - *a tool for securely accessing secrets (...) such as API keys, passwords, certificates, and more*
   - https://github.com/hashicorp/vault *20.7k
-  - &rightarrow; spring-cloud-vault
+  - →; spring-cloud-vault
 - **Okta**
   - *authentication and user management*
   - https://www.okta.com/

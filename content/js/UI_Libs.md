@@ -137,7 +137,7 @@ parent: JavaScript
 
 
 ## QR Code
-- Browser will skaliertes Bild ggf. "smoothen" &rightarrow; [css image-rendering: pixelated;](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
+- Browser will skaliertes Bild ggf. "smoothen" →; [css image-rendering: pixelated;](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
 - qrcode.js
   - https://davidshimjs.github.io/qrcodejs/
   - https://github.com/davidshimjs/qrcodejs ⭐7200

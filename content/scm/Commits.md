@@ -64,7 +64,7 @@ parent: SCM
   - *Fully automated version management and package publishing*
   - *automates the whole package release workflow including: determining the next version number, generating the release notes and publishing the package*
   - *uses the commit messages to determine the type of changes in the codebase*
-  - Plugins für Maven (&rightarrow; Java/Maven/Plugins) und Gradle
+  - Plugins für Maven (→; Java/Maven/Plugins) und Gradle
 
 
 ## Hooks

@@ -50,6 +50,65 @@ parent: Java
   - https://spring.io/tools
 - **IBM WebSphere Application Server V9.x Developer Tools**
   - unterstützte Versionen von Eclipse: nicht neuer als 2020-06
+  - die deployten Files sind unter \<Eclipse-Workspace>/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/:
+  ```
+  |-module_URI_mapping
+  |-NameWebmodul1
+    |-WEB-INF
+      |-classes
+      |-lib
+      |-web.xml
+      |-ibm-web-ext.xml
+      |-ibm-web-bnd.xml
+    |-META-INF
+  |-NameWebmodul2
+    ()...)
+  ```
+  - Server > Clean leert tmp0
+  - Deployment Assembly (Rechtsklick > Properties > Deployment Assembly) bestimmt die Verzeichnisstruktur innerhalb tmp0. Konfigurierbar für Gesamtprojekt und je Modul. Die Struktur wird sichtbar, sobald das Publishing des Servers abgeschlossen ist.
+  - Beispiel-Deployment-Assembly in einem Maven-Projekt mit Web-Modul und Jar-Modul, wobei das Jar-Modul eine (Workspace-)Abhängigkeit des Web-Moduls ist:
+    <table>
+      <tr>
+        <th>Quelle</th>
+        <th>Ziel</th>
+      </tr>
+      <tr>
+        <th>Gesamtprojekt/Parent:</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>/</td>
+        <td>/</td>
+      </tr>
+      <tr>
+        <td>webModule (Project)</td>
+        <td>webModule.war</td>
+      </tr>
+      <tr>
+        <td>jarModule</td>
+        <td>lib/jarModule.jar</td>
+      </tr>
+      <tr>
+        <th>Webmodul:</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>src/main (java,resources)</td>
+        <td>WEB-INF/classes</td>
+      </tr>
+      <tr>
+        <td>src/main/webapp (WEB-INF,META-INF)</td>
+        <td>/</td>
+      </tr>
+      <tr>
+        <td>Maven dependencies</td>
+        <td>WEB-INF/lib</td>
+      </tr>
+      <tr>
+        <td>jarModule</td>
+        <td>WEB-INF/lib/jarModule.jar</td>
+      </tr>
+    </table>
   - [https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
 
 

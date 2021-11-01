@@ -105,33 +105,6 @@ parent: Java
     - Creating module runtime images</i>
   - [https://github.com/moditect/moditect]()
 
-### EAR, WAR, JAR
-- EAR
-  - enterprise (application) archive
-  - *supports Java EE*
-  - *contains other archives (war, jar, ejb-jar)*
-    -* wars are hosted in the app server's "web container"; designed specifically for web request handling - so more of a request/response style of distributed computing*
-    - *ejb-jars are hosted in the app server's "ejb container"; designed to provide extended business functionality such as declarative transactions, declarative method level security and multiprotocol support - so more of an RPC style of distributed computing.*
-  - target runtime: application server (websphere, jboss)
-  - deployment descriptor: META-INF/application.xml
-  - *Java Application Servers allow deployment of standalone web modules in a WAR file, though internally, they create EAR files as a wrapper around WAR files*
-  - *allows deployment of multiple wars (modules) at once*
-- WAR
-  - web (application) archive
-  - *supports servlet & jsp*
-  - *contains compiled java code & static web assets*
-  - target runtime: servlet container (liberty, tomcat, jetty)
-  - deployment descriptor: WEB-INF/web.xml
-  - *Standalone web containers such as Tomcat and Jetty do not support EAR files*
-- JAR
-  - ...
-- EJB-JAR
-  - deployment descriptor: META-INF/ejb-jar.xml
-- Manifest files
-  - ...
-- deployment descriptors
-  - ...
-
 
 ## Release
 - jreleaser

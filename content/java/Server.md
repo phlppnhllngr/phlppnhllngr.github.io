@@ -7,6 +7,7 @@ parent: Java
 ---
 
 # Server
+→ Java/Build/Packaging/EAR, WAR, JAR
 
 ## Tomcat
   - *Tomcat is a web server / web container / servlet container. It is often used as an application server for strictly web-based applications but does not include the entire suite of capabilities that a Java EE application server would supply. It does not implement the whole Java EE API.*
