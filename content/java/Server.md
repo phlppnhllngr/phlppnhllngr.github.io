@@ -45,6 +45,13 @@ parent: Java
   "Ignore-Scanning-Packages": "META-INF.versions",
   "Ignore-Scanning-Archives": "jaxb-runtime-2.3.1.jar,jaxb-api-2.3.1.jar,txw2-2.3.1.jar,..."
   ```
+  - Classloading
+    - [https://www.theserverside.com/tutorial/Classloaders-Demystified-Understanding-How-Java-Classes-Get-Loaded-in-Web-Applications](https://www.theserverside.com/tutorial/Classloaders-Demystified-Understanding-How-Java-Classes-Get-Loaded-in-Web-Applications)
+    - Um Classpath-Konflikte zu analysieren: Classloading-Trace aktivieren; serverName > Java und Prozess > Prozessdefinition > JVM > Ausführliche Ausgabe zum Laden der Klassen => loggt absolute Dateipfade der geladenen Klassen nach AppServer/profiles/AppSrv01/logs/server1/native_std<u>err</u>.log (nach Restart des Servers)
+    - ClassNotFoundException
+      - tritt auf, wenn eine nicht vorhandene Klasse mit `Class.forName(...)` geladen wird
+    - NoClassDefFoundError
+      - tritt auf, wenn eine nicht vorhandene Klasse "direkt" verwendet und geladen wird; `A a = new A()`
 - **Docker**
   - [https://hub.docker.com/r/ibmcom/websphere-traditional/](https://hub.docker.com/r/ibmcom/websphere-traditional/)
   - [https://github.com/WASdev/ci.docker.websphere-traditional](https://github.com/WASdev/ci.docker.websphere-traditional)

@@ -33,3 +33,8 @@ parent: API
 - anhand einer .wsdl-Datei (Knoten `wsdl:types`) lassen sich DTOs generieren (Bsp Java: cxf-codegen-plugin für Maven)
 - `wsdl:message` und `wsdl:operation` beschreibt soetwas wie Methoden/Funktionen
 - `wsdl:portType` und `wsdl:binding` sind soetwas wie Interfaces von Client-Klassen, `wsdl:service` die Implementierung (?)
+
+## Begriffe
+- Port
+- Endpoint
+- QName

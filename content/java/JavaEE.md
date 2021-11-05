@@ -10,7 +10,8 @@ parent: Java
 
 
 ## Web apps
-- Servlet Spec: *The WEB-INF node is not part of the public document tree of the application. No file contained in the WEB-INF directory may be served directly to a client by the container. However, the contents of the WEB-INF directory are visible to servlet code using the getResource and getResourceAsStream method calls on the ServletContext, and may be exposed using the RequestDispatcher calls.*
+- **Verzeichnis WEB-INF/**
+  - Servlet Spec: *The WEB-INF node is not part of the public document tree of the application. No file contained in the WEB-INF directory may be served directly to a client by the container. However, the contents of the WEB-INF directory are visible to servlet code using the getResource and getResourceAsStream method calls on the ServletContext, and may be exposed using the RequestDispatcher calls.*
 
 ### EAR, WAR, JAR
 - **EAR**
@@ -40,6 +41,7 @@ parent: Java
   - web.xml
     <br/>`metadata-complete="true"` disabled WebSphere-Annotation-Scanning
         https://wasdynacache.blogspot.com/2012/05/how-to-speed-up-annotation-processing.html
+
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <web-app id="WebApp_ID" version="3.1"
@@ -65,9 +67,11 @@ parent: Java
       </servlet-mapping>
     </web-app>
     ```
+
   - ibm-web-ext.xml
     - nicht zwinged erforderlich
     - *allows you to configure some settings for web module e.g. context-root, directory browsing, etc and JSP engine parameters* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
+    
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <web-ext
@@ -83,9 +87,11 @@ parent: Java
       <context-root uri="myapp"/>
     </web-ext>
     ```
+
   - ibm-web-bnd.xml
     - nicht zwinged erforderlich
     - *provides binding between resource references used in web module and actual components, like datasouces, queues, etc. However since Java EE 6, you can actually use the lookup attribute from the @Resource annotation to provide them in the code* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
+    
     ```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <web-bnd 
@@ -130,7 +136,7 @@ parent: Java
       <td>WEB-INF/classes
     </tr>
     <tr>
-      <td>&lt;Maven dependencies&gt;</td>
+      <td>Maven dependencies</td>
       <td>WEB-INF/lib</td>
       <td>3rd party jars</td>
     </tr>

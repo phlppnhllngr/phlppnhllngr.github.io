@@ -213,6 +213,7 @@ parent: Java
 - **jaxws**
   - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
   - [https://www.mojohaus.org/jaxws-maven-plugin/](https://www.mojohaus.org/jaxws-maven-plugin/)
+  - [https://www.baeldung.com/maven-wsdl-stubs](https://www.baeldung.com/maven-wsdl-stubs)
 - **jib**
   - → Docker/Tools
 - **jtoolprovider**
