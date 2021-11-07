@@ -25,7 +25,6 @@ parent: Java
 - **SonarLint**
 - **Enhanced Class Decompiler**
 - **Lombok**
-- **Maven Integration for Eclipse**
 - **Buildship Gradle**
 - **Spring Tools**
 - **YEdit** (yaml-Editor)
@@ -38,7 +37,10 @@ parent: Java
   - https://github.com/infinitest/infinitest/
   - continuous testing, watch mode
 - **exporter for eclipse**
-- **yatta launcher**
+  - aka Yatta Profiles aka Yatta Eclipse Launcher aka Yatta Eclipse Exporter
+  - *easy way to save your Eclipse setups and Workspace configurations – for yourself or your team*
+  - *Export your Eclipse configuration, installed plug-ins, workspace settings and project configuration quickly and easily to a single local file*
+  - https://marketplace.eclipse.org/content/exporter-eclipse
   - https://www.yatta.de/profiles/
 - **memory analyzer (MAT)**
   - erstellt und analysiert Heap-dumps ('hprof') und stellt grafisch dar, versucht Memory-Leaks zu erkennen
@@ -50,21 +52,20 @@ parent: Java
   - https://spring.io/tools
 - **IBM WebSphere Application Server V9.x Developer Tools**
   - unterstützte Versionen von Eclipse: nicht neuer als 2020-06
-  - die deployten Files sind unter \<Eclipse-Workspace>/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/:
+  - die deployten Files sind unter `<Eclipse-Workspace>/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/`:
   ```
   |-module_URI_mapping
   |-NameWebmodul1
-    |-WEB-INF
-      |-classes
-      |-lib
-      |-web.xml
-      |-ibm-web-ext.xml
-      |-ibm-web-bnd.xml
-    |-META-INF
+      |-WEB-INF
+          |-classes/
+          |-lib/
+          |-web.xml
+          |-ibm-web-ext.xml
+          |-ibm-web-bnd.xml
+      |-META-INF/
   |-NameWebmodul2
-    ()...)
   ```
-  - Server > Clean leert tmp0
+  - `Server > Clean` leert tmp0
   - Deployment Assembly (Rechtsklick > Properties > Deployment Assembly) bestimmt die Verzeichnisstruktur innerhalb tmp0. Konfigurierbar für Gesamtprojekt und je Modul. Die Struktur wird sichtbar, sobald das Publishing des Servers abgeschlossen ist.
   - Beispiel-Deployment-Assembly in einem Maven-Projekt mit Web-Modul und Jar-Modul, wobei das Jar-Modul eine (Workspace-)Abhängigkeit des Web-Moduls ist:
     <table>
@@ -116,13 +117,13 @@ parent: Java
 - https://www.eclipse.org/m2e/index.html
 - [default lifecycle mapping: lifecycle-mapping-metadata.xml](https://github.com/eclipse/m2e-core/blob/master/org.eclipse.m2e.lifecyclemapping.defaults/lifecycle-mapping-metadata.xml)
 - "plugin execution not covered by lifecycle configuration":
-  https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html
+  [https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html](https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html)
 - in Eclipse den Lifecycle eines Projekts sehen: Properties → Maven → Lifecycle
 - **m2e-apt** 
   - *aims at providing automatic Annotation Processing configuration in Eclipse, based on your project's pom.xml and its classpath dependencies*
 - **m2e-code-quality**
-  - https://github.com/m2e-code-quality/m2e-code-quality
-  - nicht (mehr) im Marktplatz; Update site: http://m2e-code-quality.github.io/m2e-code-quality/
+  - [https://github.com/m2e-code-quality/m2e-code-quality](https://github.com/m2e-code-quality/m2e-code-quality)
+  - nicht (mehr) im Marktplatz; Update site: [http://m2e-code-quality.github.io/m2e-code-quality/](http://m2e-code-quality.github.io/m2e-code-quality/)
   - *collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins* (und SpotBugs)
   - installiert alle diese Plugins
   - an den Eclipse-Plugins sollte dann nichts weiter konfiguriert werden müssen (zumindest nicht der Dateipfad zu den Checkstyle-Regeln)
@@ -172,8 +173,8 @@ parent: Java
 - Java.Debug.Step Filtering → Use step filters (Code beim Debuggen ausschließen)
 - Run/Debug.Console.Limit Console Output → unchecked
 - Font
-  - https://github.com/tonsky/FiraCode
-  - https://github.com/be5invis/Iosevka
+  - [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
+  - [https://github.com/be5invis/Iosevka](https://github.com/be5invis/Iosevka)
 
 
 ## Rechtschreibprüfung

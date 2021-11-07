@@ -22,5 +22,6 @@ mit LTS-Support, zum Teil kostenpflichtig
 - Amazon Corretto (kostenlos, Updates für 8 bis 2023, 11 ab April 19 und bis 2024)
 - IBM
 - Red Hat
-- AdoptOpenJDK
+- ~~AdoptOpenJDK~~ Adoptium
+    - [https://adoptium.net/](https://adoptium.net/)
 - ...

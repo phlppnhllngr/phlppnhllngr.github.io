@@ -7,11 +7,83 @@ parent: Java
 ---
 
 # Java EE
+- Java EE 8 war die letzte Version von Oracle, zukünftig Eclipse Foundation/"Jakarta EE"
+<br/><br/><img src="https://blog.doubleslash.de/wp-content/uploads/2018/07/JEE_Komponenten_Technologien-1-e1530537749157.png.webp"/>
+
+
+## CDI
+- **Managed Beans**
+  - *It doesn’t refer to instances of a class but meta-information which can be used to create those instances. It is represented by the interface `Bean<T>` and will be gathered on container startup via classpath scanning.*
+- **Contextual Instance**
+  - *Contextual Instances are exactly our singleton instances per scope, our ‘session singletons’, ‘request singletons’, etc. Usually a user never uses a Contextual Instance directly, but only via its ‘Contextual Reference’*
+- **Contextual Reference**
+  - *By default, a CDI container wraps all Contextual Instances via a proxy and only injects those proxies instead of the real instances. In the CDI specification those proxies are called ‘Contextual Reference’.*
+
+### Scopes
+- @ApplicationScoped
+- @SessionScoped
+- @ConversationScoped
+- @RequestScoped
+
+### @Produces
+- wie `@Bean` in Spring
+
+### Eventing
+```java
+// Foo.java
+class Foo {...}
+
+// Fire.java
+class Fire {
+  @Inject Event<Foo> fooEvent;
+  (...)
+  this.fooEvent.fire(new Foo());
+}
+
+// Observe.java
+@ApplicationScoped class Observe {
+  void onFoo(@Observes Foo foo) {...}
+}
+```
+
+### Interceptor
+```java
+// Foo.java
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ ElementType.METHOD })
+@InterceptorBinding
+public @interface Foo {}
+
+// FooInterceptor.java
+@Interceptor @Transactional
+class FooInterceptor {
+ @AroundInvoke
+ public Object invoke(InvocationContext context) {
+   System.out.println("foo");
+   try {
+     return context.proceed();
+   } catch (Exception ex) {
+     ...
+   } finally {
+     System.out.println("bar");
+   }
+ }
+}
+
+// Service.java
+class Service {
+  @Foo
+  void foo() {...}
+}
+```
 
 
 ## Web apps
 - **Verzeichnis WEB-INF/**
   - Servlet Spec: *The WEB-INF node is not part of the public document tree of the application. No file contained in the WEB-INF directory may be served directly to a client by the container. However, the contents of the WEB-INF directory are visible to servlet code using the getResource and getResourceAsStream method calls on the ServletContext, and may be exposed using the RequestDispatcher calls.*
+- **Verzeichnis META-INF/**
+  - beans.xml
+    - *If a WebApplication gets started, a ServletFilter will automatically also start your CDI container which will firstly register all CDI-Extensions available on the ClassPath and then start with the class scanning. All ClassPath entries with a META-INF/beans.xml will be scanned and all classes will be parsed and stored as ‘Managed Bean’ (`interface Bean<T>`) meta-information inside the CDI container.*
 
 ### EAR, WAR, JAR
 - **EAR**
@@ -38,7 +110,7 @@ parent: Java
 - **Manifest files**
   - ...
 - **deployment descriptors**
-  - web.xml
+  - <u>web.xml</u>
     <br/>`metadata-complete="true"` disabled WebSphere-Annotation-Scanning
         https://wasdynacache.blogspot.com/2012/05/how-to-speed-up-annotation-processing.html
 
@@ -68,7 +140,7 @@ parent: Java
     </web-app>
     ```
 
-  - ibm-web-ext.xml
+  - <u>ibm-web-ext.xml</u>
     - nicht zwinged erforderlich
     - *allows you to configure some settings for web module e.g. context-root, directory browsing, etc and JSP engine parameters* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
     
@@ -88,7 +160,7 @@ parent: Java
     </web-ext>
     ```
 
-  - ibm-web-bnd.xml
+  - <u>ibm-web-bnd.xml</u>
     - nicht zwinged erforderlich
     - *provides binding between resource references used in web module and actual components, like datasouces, queues, etc. However since Java EE 6, you can actually use the lookup attribute from the @Resource annotation to provide them in the code* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
     
@@ -129,11 +201,11 @@ parent: Java
     </tr>
     <tr>
       <td>src/main/java</td>
-      <td>WEB-INF/classes
+      <td>WEB-INF/classes</td>
     </tr>
     <tr>
       <td>src/main/resources</td>
-      <td>WEB-INF/classes
+      <td>WEB-INF/classes</td>
     </tr>
     <tr>
       <td>Maven dependencies</td>
@@ -160,3 +232,7 @@ parent: Java
     </tr>
   </tbody>
 </table>
+
+
+## EJB
+- [https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans](https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans)

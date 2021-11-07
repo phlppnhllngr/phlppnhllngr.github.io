@@ -17,6 +17,8 @@ parent: Java
 - reactor-project (=Modul) ausschließen: `mvn -pl '!parent/excludeme' clean package`
 - mit bestimmtem JDK ausführen:<br/>
   Linux: `export JAVA_HOME=/foo/bar && mvn -v`
+- Multithread-Build: (https://cwiki.apache.org/confluence/display/MAVEN/Parallel+builds+in+Maven+3)<br>
+  `mvn -T 1C ...`
 
 
 ## Lifecycle, Phasen, Goals
