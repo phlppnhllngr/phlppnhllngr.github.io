@@ -47,6 +47,7 @@ parent: Java
     }
 
     // generated.client.FooServiceImplService
+    @WebServiceClient
     class FooServiceImplService extends javax.xml.ws.Service {
         @WebEndpoint
         generated.client.FooService getFooServiceImplPort() {
