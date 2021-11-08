@@ -87,7 +87,7 @@ parent: Java
       </tr>
       <tr>
         <td>jarModule</td>
-        <td>lib/jarModule.jar</td>
+        <td>lib/jarModule.jar (notwendig?)</td>
       </tr>
       <tr>
         <th>Webmodul:</th>
