@@ -90,50 +90,50 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 
 
 ### Andere
-- objectdb
+- **objectdb**
   - [https://www.objectdb.com/]()
   - *ObjectDB is about 10 times faster than other JPA/DBMS solutions*
   - keine reine API, sondern DBMS (client/server oder embedded)
-- openjpa
-- eclipselink
+- **openjpa**
+- **eclipselink**
 
 
 ### Tools
-- jpa buddy
+- **jpa buddy**
   - *plugin for IntelliJ IDEA intended to simplify and accelerate everything related to JPA and surrounding mainstream technology*
   - *Create JPA entities and Spring Data repositories fast. Easily generate migration scripts for Liquibase and Flyway.*
   - https://www.jpa-buddy.com/
 
 
 ## NON-JPA-Libs/ORMs
-- jooq
+- **jooq**
   - query builder
   - https://github.com/jOOQ/jOOQ *3.4k
   - https://www.jooq.org/
   - FOSS (nur open source DBs unterstützt) oder Premium
-- mybatis
+- **mybatis**
   - SQL-Mapper
   - https://github.com/mybatis/mybatis-3 *12.1k
-- javalite activejdbc
+- **javalite activejdbc**
   - https://github.com/javalite/javalite *700
   - http://javalite.io/activejdbc
-- apache cayenne
+- **apache cayenne**
   - https://cayenne.apache.org/
   - https://github.com/apache/cayenne
-- querydsl
+- **querydsl**
   - https://github.com/querydsl/querydsl/
   - *type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.*
-- persism
+- **persism**
   - *A zero ceremony ORM for Java*
   - https://github.com/sproket/Persism *10
-- ebean
+- **ebean**
   - https://github.com/ebean-orm/ebean *1200
-- doma
+- **doma**
   - *DAO oriented database mapping framework*
   - *generates source code at compile time using annotation processing.*
   - *Provides type-safe Criteria API*
   - https://github.com/domaframework/doma
-- jdbi
+- **jdbi**
   - *uses lambda expressions and reflection to provide a friendlier, higher level interface than JDBC to access the database*
   - *has an optional SQL Object mapping module*
   - http://jdbi.org/
@@ -147,24 +147,24 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 
 ## Diverse
 - https://github.com/seata/seata (ehemals alibaba/fescar)
-- velvetdb 
+- **velvetdb**
   - https://github.com/zakgof/velvetdb
   - embedded oder cloud
   - *high-level API for NoSQL storage perfectly fitting for small websites, desktop and mobile applications*
 - connection pool
-  - hikari
+  - **hikari**
     - https://github.com/brettwooldridge/HikariCP
-  - tomcat jdbc
+  - **tomcat jdbc**
     - https://www.baeldung.com/spring-boot-tomcat-connection-pool
-- datasource-proxy
+- **datasource-proxy**
   - *intercept JDBC interactions and allows user to perform own logic before/after query or method executions*
   - *Pre-defined listeners support query logging, slow query detection, query execution statistics, interaction tracing, etc.*
   - http://ttddyy.github.io/datasource-proxy/docs/current/user-guide/
-- R2DBC
+- **R2DBC**
   - https://r2dbc.io/
   - *R2DBC is an endeavor to bring a reactive programming API to relational data stores.*
   - 9.3.18: Support für postgres, h2, mssql
-- fastnate
+- **fastnate**
   - *tool on top of JPA to generate SQL statements without having access to a database. Its main usecase is to import a bunch of initial data.*
   - https://github.com/liefke/org.fastnate/wiki
   - z.B. Nutzung, um JPA-Entities abzuspeichern (java code) und den generierten SQL-Code (DB-Dialekt-spezidisch) zu erhalten:
@@ -174,4 +174,3 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 ## Dies & das
 - mysql jdbc driver
   - Zeitzone festlegen (für date columns) `jdbc:mysql:...?serverTimezone=Europe/Berlin`
-

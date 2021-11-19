@@ -87,51 +87,54 @@ parent: Java
 
 
 ## Formatter
-- google-java-format
+- **google-java-format**
   - https://github.com/google/google-java-format
   - Eclipse- & Maven-Plugins
-- prettier-java
+- **prettier-java**
   - *opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules*
   - https://github.com/jhipster/prettier-java
   - node_module & Maven-Plugin (→ maven/plugins)
-- spotless
+- **spotless**
   - import order, unused imports, indentation, ...
   - Wrapper um prettier/google-format/eclipse-jdt (?)
   - Maven-Plugin → maven/spotless-plugin
-- uncrustify
+- **uncrustify**
   - *A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA*
   - https://github.com/uncrustify/uncrustify
 
 
 ## Diverse
-- sdkman
-  - https://sdkman.io/
+- **sdkman**
+  - <https://sdkman.io/>
   - versch. Versionen von JDK, Maven, ... verwalten
   - für Linux. Windows: nur mit git bash
-- update4j
+- **update4j**
   - https://github.com/update4j/update4j
   - *first auto-update and launcher library designed for Java 9+. Easily host your application files anywhere (even Google Drive, Dropbox, Amazon S3, or Maven Central) and you can synchronize them with all your distributed applications. You can use any protocol you wish to retrieve those files and may be protected under authenticated API.*
-- jrebel
-- jenv
-  - https://github.com/jenv/jenv
+- **jrebel**
+  - *can skip rebuilds and redeploys during Java development -- while maintaining application state*
+  - kostet Geld
+  - <https://www.jrebel.com/products/jrebel/>
+- **jenv**
+  - <https://github.com/jenv/jenv/>
   - *lets you switch between java versions. However, this project does not install java for you*
   - *jEnv supports the notion of a global JDK and multiple local JDKs. The global JDK is the JDK that will be used if we type java into the command line anywhere on our computer. A local JDK is a JDK that is configured for a specific folder only. If we type java into the command line in this folder, it will not use the global JDK, but the local JDK instead.*
   - Extra plugin für Maven und Gradle nötig
   - Linux & MacOS. Windows: nur mit WSL oder git bash
-- bugjail
+- **bugjail**
   - https://bugjail.com/
-- remote debuggin
+- **remote debugging**
   - https://stackify.com/java-remote-debugging/
   - https://www.rookout.com/blog/remote-java-debugging
-- hotswap agent
+- **hotswap agent**
   - https://github.com/HotswapProjects/HotswapAgent
   - *unlimited redefinition of classes at runtime*
   - *main purpose of this project used to be avoiding of infamous change code->restart and wait...->check development lifecycle*
   - *Each application framework (Spring, Hibernate, Logback, ...) needs special reloading mechanism to keep up-to-date after class redefinition (e.g. Hibernate configuration reload after new entity class is introduced). Hotswap agent works as a plugin system and ships preconfigured with all major framework plugins.*
-- j2cl
+- **j2cl**
   - *transpiler from Java to Closure style JavaScript*
   - https://github.com/google/j2cl
-- OpenRewrite
+- **OpenRewrite**
   - *mass refactoring ecosystem for Java and other source code*
   - *Migrate to Java 11 from Java 8, Migrate to JUnit 5 from JUnit 4, Migrate to SLF4J from Log4j*
-  - https://github.com/openrewrite/rewrite
+  - <https://github.com/openrewrite/rewrite/>
