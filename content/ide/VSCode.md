@@ -167,12 +167,15 @@ erzeugt für src-File ein test-File in einem Test-Verzeichnis mit automatischem 
 
 ### sprachspezifische
 - [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) (TypeScript)
-- shellcheck
+- **shellcheck**
   - wie Sonarlint für Linux-Shell-Skripte
   - [benötigtes Binary für Windows](https://storage.googleapis.com/shellcheck/shellcheck-latest.zip)
-- XML Tools
-- redhat.vscode-xml
-- sort json objects
+- **XML Tools**
+- **redhat.vscode-xml**
+- **sort json objects**
+- **vscode-groovy-lint**
+  - *lint, correct and format groovy and Jenkinsfile*
+  - <https://github.com/nvuillam/vscode-groovy-lint/>
 
 #### JS
 - Import Cost

@@ -147,6 +147,7 @@ oder [http://notes.asaleh.net/posts/debugging-jenkins-pipeline/]()
 - jenkinsfile-runner
   - [https://github.com/jenkinsci/jenkinsfile-runner]()
   - *packages Jenkins pipeline execution engine as a command line tool or as a Docker image*
+- vscode-groovy-lint → IDE/VSCode
 
 
 ## Docker

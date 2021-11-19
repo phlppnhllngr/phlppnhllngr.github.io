@@ -10,6 +10,8 @@ parent: Java
 - <https://github.com/carlossg/docker-maven/> (verschiedene Docker images mit Maven)
 - <https://www.reddit.com/r/java/comments/beytye/writing_a_full_featured_maven_pom/>
 - <https://maven.apache.org/configure.html/>
+- <https://blog.frankel.ch/faster-maven-builds/1/>
+- <https://blog.frankel.ch/faster-maven-builds/2/>
 
 
 ## CLI
@@ -19,6 +21,16 @@ parent: Java
   Linux: `export JAVA_HOME=/foo/bar && mvn -v`
 - Multithread-Build: (<https://cwiki.apache.org/confluence/display/MAVEN/Parallel+builds+in+Maven+3/>)<br>
   `mvn -T 1C ...`
+
+
+## Maven wrapper (mvnw)
+- <https://github.com/takari/maven-wrapper/> (soll Bestandteil von Maven 4 werden)
+
+
+## Maven daemon (mvnd)
+- *aims at providing faster Maven builds using techniques known from Gradle and Takari*
+- *embeds Maven (so there is no need to install Maven separately). The actual builds happen inside a long living background process, a.k.a. daemon. The mvnd client is a native executable built using GraalVM. It starts faster and uses less memory compared to starting a traditional JVM.*
+- <https://github.com/mvndaemon/mvnd/>
 
 
 ## Lifecycle, Phasen, Goals
@@ -37,13 +49,13 @@ parent: Java
   ```
 - Goals eines Plugins können mit ```mvn help:describe -Dplugin=group:plugin``` angezeigt werden
 
-### Übersicht
+### Übersicht über die 3 Lifecycles und ihre zugehörigen Phasen
 <style>small { color: grey; }</style>
-- clean
+- <u>clean</u>
   - pre-clean
   - clean
   - post-clean
-- default
+- <u>default</u>
   - validate <small>validate the project is correct and all necessary information is available</small>
   - initialize <small>initialize build state, e.g. set properties or create directories</small>
   - generate-sources <small>generate any source code for inclusion in compilation</small>
@@ -71,7 +83,7 @@ parent: Java
   - install
     - überspringen: `-Dmaven.install.skip=true`
   - deploy
-- site
+- <u>site</u>
   - pre-site
   - site <small>generate the project's site documentation</small>
 

@@ -31,6 +31,7 @@ parent: Java
 ## Websphere
 - <https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads/>
 - <https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history/>
+- <https://stackoverflow.com/questions/45815445/ibm-webpshere-full-profile-webpshere-traditional-profile-and-websphere-classic/>
 
 ### Traditional
 - aka "tWAS"

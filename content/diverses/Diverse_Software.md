@@ -143,3 +143,11 @@ parent: Diverses
 - flagsmith
   - *Feature flagging and remote config service. Host yourself or use our hosted version*
   - https://github.com/flagsmith/flagsmith *1000
+- MS Teams
+  - Dev docs
+    - Webhooks/Connectors
+      - Create and send messages: <https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using?tabs=cURL/>
+    - TeamsFx
+      - *CLI, SDK, Toolkit for Teams app development*
+      - *currently in Public Preview* (19.11.21)
+      - <https://github.com/OfficeDev/TeamsFx/>
