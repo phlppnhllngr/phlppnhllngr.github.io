@@ -61,10 +61,10 @@ parent: Java
 - **Activiti**
   - https://github.com/Activiti/Activiti
 - **camunda**
-  - <https://github.com/camunda/camunda-bpm-platform/>
+  - <https://github.com/camunda/camunda-bpm-platform>
   - zeebe
     - *Distributed Workflow Engine for Microservices Orchestration*
-    - <https://github.com/camunda-cloud/zeebe/>
+    - <https://github.com/camunda-cloud/zeebe>
 - **Axon**
   - *for event-driven microservices*
   - https://axoniq.io/

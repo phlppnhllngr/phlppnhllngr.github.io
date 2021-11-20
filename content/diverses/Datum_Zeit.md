@@ -24,5 +24,5 @@ parent: Diverses
     `2020-04-02T16:38:48Z` (yyyy-mm-ddThh:mm:ssZ)
 - **best practices**
   - [Stack Overflow: Daylight saving time and time zone best practices](https://stackoverflow.com/a/2532962)
-  - [https://www.moesif.com/blog/technical/timestamp/manage-datetime-timestamp-timezones-in-api/]()
+  - <https://www.moesif.com/blog/technical/timestamp/manage-datetime-timestamp-timezones-in-api>
 

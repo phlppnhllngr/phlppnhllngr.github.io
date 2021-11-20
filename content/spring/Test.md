@@ -27,7 +27,7 @@ parent: Spring
 
 ## Klassen
 - 🥾 = Spring-Boot-API
-- [https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#integration-testing-annotations]()
+- <https://docs.spring.io/spring-framework/docs/current/reference/html/testing.html#integration-testing-annotations>
 - **@SpringBootTest** (🥾)
   - *automagically spins up your application with all dependencies instrumenting it for use in tests. It can replace dependencies and provide customized properties for the application context.*
   - *it bootstraps the whole application the same way as it would be running otherwise*
@@ -39,14 +39,14 @@ parent: Spring
   - *can load the JavaConfig annotated with @Configuration. can also load a component annotated with @Component, @Service, @Repository etc.*
 - **@TestConfiguration** (🥾)
   - *can use it to override certain bean definitions, for example to replace real beans with fake beans or to change the configuration of a bean to make it better testable*
-  - [https://reflectoring.io/spring-boot-testconfiguration/]()
+  - <https://reflectoring.io/spring-boot-testconfiguration>
 - **@TestExecutionListeners**
   - Lifecycle-Callbacks für Tests ("Erweiterung" des Junit-Lifecycle)
-  - [https://www.baeldung.com/spring-testexecutionlistener]()
+  - <https://www.baeldung.com/spring-testexecutionlistener>
 - **@TestPropertySource**
   - *used to configure the locations of properties files and inlined properties to be added to the Environment's set of PropertySources for an ApplicationContext for integration tests.*
-  - [https://www.baeldung.com/spring-test-property-source]()
-  - [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html]()
+  - <https://www.baeldung.com/spring-test-property-source>
+  - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html>
 - **@AutoConfigureMockMvc** (🥾)
 - **@MockBean** (🥾)
 - **@DataJpaTest** (🥾)

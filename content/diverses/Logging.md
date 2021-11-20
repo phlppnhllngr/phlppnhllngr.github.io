@@ -8,7 +8,7 @@ parent: Diverses
 
 # Logging
 - → Devops/APM, Tracing
-- [https://www.reddit.com/r/programming/comments/nq7l8v/logging_is_important/]()
+- <https://www.reddit.com/r/programming/comments/nq7l8v/logging_is_important>
 
 ## Log Viewer/Aggregator
 - **LogNavigator**

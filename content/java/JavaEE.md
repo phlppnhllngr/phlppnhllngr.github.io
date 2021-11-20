@@ -8,56 +8,58 @@ parent: Java
 
 # Java EE
 - Java EE 8 war die letzte Version von Oracle, zukünftig Eclipse Foundation/"Jakarta EE"
+- <https://en.wikipedia.org/wiki/Jakarta_EE>
+- <https://docs.oracle.com/javaee/7/tutorial/>
 <br/><br/><img src="https://blog.doubleslash.de/wp-content/uploads/2018/07/JEE_Komponenten_Technologien-1-e1530537749157.png.webp"/>
 
 
-## CDI
-- **Managed Beans**
-  - *It doesn’t refer to instances of a class but meta-information which can be used to create those instances. It is represented by the interface `Bean<T>` and will be gathered on container startup via classpath scanning.*
-- **Contextual Instance**
-  - *Contextual Instances are exactly our singleton instances per scope, our ‘session singletons’, ‘request singletons’, etc. Usually a user never uses a Contextual Instance directly, but only via its ‘Contextual Reference’*
-- **Contextual Reference**
-  - *By default, a CDI container wraps all Contextual Instances via a proxy and only injects those proxies instead of the real instances. In the CDI specification those proxies are called ‘Contextual Reference’.*
+## Servlet
+- JEE 7: v3.1, JEE 8: v4.0
 
-### Scopes
-- @ApplicationScoped
-- @SessionScoped
-- @ConversationScoped
-- @RequestScoped
 
-### @Produces
-- wie `@Bean` in Spring
+## RESTful Web Services (JAX-RS)
+- JEE 7: v2.0, JEE 8: v2.1
 
-### Eventing
-```java
-// Foo.java
-class Foo {...}
 
-// Fire.java
-class Fire {
-  @Inject Event<Foo> fooEvent;
-  (...)
-  this.fooEvent.fire(new Foo());
-}
+## JSON Processing (JSON-P)
+- JEE 7: v1.0, JEE 8: v1.1
 
-// Observe.java
-@ApplicationScoped class Observe {
-  void onFoo(@Observes Foo foo) {...}
-}
-```
 
-### Interceptor
+## JSON Binding (JSON-B)
+- JEE 7: /, JEE 8: v1.1
+
+
+## Enterprise Beans (EJB)
+- JEE 7: v3.2 Lite, JEE 8: v3.2 Lite
+- Features: dependency injection, declarative transactions, declarative security, pooling, concurrency control, asynchronous execution, remoting
+- *EJB beans have no concept of scoping*
+- *the message driven bean can be used to receive messages from the Java Messaging System or from any other system that has a JCA resource adapter. Using full blown messaging for simple events is far more heavyweight than the CDI event bus and EJB only defines a listener, not a producer API.*
+- <https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans>
+
+
+## Transactions (JTA)
+
+
+## Persistence (JPA)
+
+
+## Bean Validation
+
+
+## Interceptors
+- JEE 7: v1.2, JEE 8: v1.2
+
 ```java
 // Foo.java
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.METHOD })
-@InterceptorBinding
+@javax.interceptor.InterceptorBinding
 public @interface Foo {}
 
 // FooInterceptor.java
-@Interceptor @Transactional
+@javax.interceptor.Interceptor @Transactional
 class FooInterceptor {
- @AroundInvoke
+ @javax.interceptor.AroundInvoke
  public Object invoke(InvocationContext context) {
    System.out.println("foo");
    try {
@@ -78,11 +80,86 @@ class Service {
 ```
 
 
+## Contexts and Dependency Injection (CDI)
+- JEE 7: v1.1, JEE 8: v2.0
+- Features: dependency injection, scoping, event bus
+- <https://www.baeldung.com/java-ee-cdi>
+- **Managed Beans**
+  - *It doesn’t refer to instances of a class but meta-information which can be used to create those instances. It is represented by the interface `Bean<T>` and will be gathered on container startup via classpath scanning.*
+- **Contextual Instance**
+  - *Contextual Instances are exactly our singleton instances per scope, our ‘session singletons’, ‘request singletons’, etc. Usually a user never uses a Contextual Instance directly, but only via its ‘Contextual Reference’*
+- **Contextual Reference**
+  - *By default, a CDI container wraps all Contextual Instances via a proxy and only injects those proxies instead of the real instances. In the CDI specification those proxies are called ‘Contextual Reference’.*
+
+
+### Dependency Injection
+
+#### @javax.inject.Inject
+```xml
+<!-- META-INF/beans.xml -->
+<beans
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/beans_1_0.xsd"
+  bean-discovery-mode="all">
+</beans>
+```
+```java
+class Foo {}
+
+class Bar {
+  @Inject Bar(Foo foo) {
+    this.foo = foo;
+  }
+}
+```
+
+#### @javax.enterprise.inject.Produces
+- wie `@Bean` in Spring
+
+```java
+class Foo {}
+
+class FooFactory {
+  @Produces Foo foo() {
+    return new Foo();
+  }
+}
+
+class Bar {
+  @Inject setFoo(Foo foo) {
+    this.foo = foo;
+  }
+}
+```
+
+### Scopes
+
+### Events
+- <https://dzone.com/articles/cdi-jsf-using-the-cdi-observes>
+
+```java
+class Foo {...}
+
+class Fire {
+  @Inject Event<Foo> fooEvent;
+  
+  void fire() {
+    this.fooEvent.fire(new Foo());
+  }
+}
+
+class Observe {
+  void onFoo(@javax.enterprise.event.Observes Foo foo) {...}
+}
+```
+
+
 ## Web apps
-- **Verzeichnis WEB-INF/**
+- <u>Verzeichnis WEB-INF/</u>
   - Servlet Spec: *The WEB-INF node is not part of the public document tree of the application. No file contained in the WEB-INF directory may be served directly to a client by the container. However, the contents of the WEB-INF directory are visible to servlet code using the getResource and getResourceAsStream method calls on the ServletContext, and may be exposed using the RequestDispatcher calls.*
-- **Verzeichnis META-INF/**
-  - beans.xml
+- <u>Verzeichnis META-INF/</u>
+  - **beans.xml**
     - *If a WebApplication gets started, a ServletFilter will automatically also start your CDI container which will firstly register all CDI-Extensions available on the ClassPath and then start with the class scanning. All ClassPath entries with a META-INF/beans.xml will be scanned and all classes will be parsed and stored as ‘Managed Bean’ (`interface Bean<T>`) meta-information inside the CDI container.*
 
 ### EAR, WAR, JAR
@@ -232,7 +309,3 @@ class Service {
     </tr>
   </tbody>
 </table>
-
-
-## EJB
-- [https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans](https://en.wikipedia.org/wiki/Jakarta_Enterprise_Beans)

@@ -9,8 +9,8 @@ parent: Java
 # JMS
 - *"Jakarta Messaging", formerly "Java Message Service", is an API that provides the facility to create, send and read messages. It provides loosely coupled, reliable and asynchronous communication.*
 - Current version: 3.0 (11/2020)
-- [https://en.wikipedia.org/wiki/Jakarta_Messaging]()
-- [https://www.javatpoint.com/jms-tutorial]()
+- <https://en.wikipedia.org/wiki/Jakarta_Messaging>
+- <https://www.javatpoint.com/jms-tutorial>
 
 ## Providers
 - RabbitMQ

@@ -175,7 +175,7 @@ erzeugt für src-File ein test-File in einem Test-Verzeichnis mit automatischem 
 - **sort json objects**
 - **vscode-groovy-lint**
   - *lint, correct and format groovy and Jenkinsfile*
-  - <https://github.com/nvuillam/vscode-groovy-lint/>
+  - <https://github.com/nvuillam/vscode-groovy-lint>
 
 #### JS
 - Import Cost

@@ -8,12 +8,12 @@ parent: JavaScript
 
 # Userinput & Formatierung
 - [HTML - Inputs](@note/Inputs.md)
-- <https://htmldom.dev/>
+- <https://htmldom.dev>
 
 
 ## Verschiedene
 - **window.Intl**
-  - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/>
+  - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl>
   - *Creating instances of these Intl formats is an expensive operation, and the APIs are designed such that developers should re-use format instances instead of always creating new ones.*
   - *The API provides automatic localization of:
     dates and times
@@ -24,7 +24,7 @@ parent: JavaScript
     plural helpers
     string comparisons, such as equating a with á*
 - **formatjs**
-  - <https://github.com/formatjs/formatjs/> ⭐12k
+  - <https://github.com/formatjs/formatjs> ⭐12k
   - Browser & Node
   - Dates, Numbers, Pluralisation
   - Polyfills für window.Intl
@@ -32,7 +32,7 @@ parent: JavaScript
 
 ## Datum
 - **Date**
-  - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date/>
+  - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date>
   - [toLocaleString](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString)
     - `date.toISOString()` // 08.09.2021, 14:44 -> 2021-09-08T<mark>12:46:07</mark>.274Z; toISOString() beachtet User-Zeitzone nicht
     - `date.toLocaleString('de')` // 8.9.2021, <mark>14:46:07</mark>; beachtet User-Zeitzone
@@ -42,13 +42,13 @@ parent: JavaScript
   - [toLocaleTimeString](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString)
 - **Temporal**
   - *This proposes Temporal, a global Object that acts as a top-level namespace (like Math), that brings a modern date/time API to the ECMAScript language.*
-  - <https://caniuse.com/temporal/> (Stand 11.7.21 kein Browser support)
-  - Polyfill: <https://www.npmjs.com/package/@js-temporal/polyfill/>
-  - <https://2ality.com/2021/06/temporal-api.html/>
+  - <https://caniuse.com/temporal> (Stand 11.7.21 kein Browser support)
+  - Polyfill: <https://www.npmjs.com/package/@js-temporal/polyfill>
+  - <https://2ality.com/2021/06/temporal-api.html>
 - <u>Intl</u>
   - **DateTimeFormat**
-    - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/>
-    - <https://beta.caniuse.com/?search=datetimeformat/>
+    - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat>
+    - <https://beta.caniuse.com/?search=datetimeformat>
 
       ```js
       // format
@@ -69,48 +69,48 @@ parent: JavaScript
       ```
 
   - **RelativeTimeFormat**
-    - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RelativeTimeFormat/>
-    - <https://beta.caniuse.com/?search=relativetimeformat/>
+    - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RelativeTimeFormat>
+    - <https://beta.caniuse.com/?search=relativetimeformat>
     ```js
     const rtf = new Intl.RelativeTimeFormat('en', { style: 'narrow' });
     rtf.format(-1, 'day'); // "1 day ago"
     ```
 - **moment**
   - deprecated, Nachfolger: Luxon
-  - <https://momentjs.com/>
-  - <https://github.com/you-dont-need/You-Dont-Need-Momentjs/>
+  - <https://momentjs.com>
+  - <https://github.com/you-dont-need/You-Dont-Need-Momentjs>
     - Recipes für Browser-APIs statt moment
     - mit Gegenüberstellung diverser Libs
     - *you can install a [ESLint] plugin that will help you identify places in your codebase where you don't (may not) need Moment.js*
 - **Luxon**
-  - <https://github.com/moment/luxon/>
+  - <https://github.com/moment/luxon>
   - *DateTime, Duration, and Interval types. Parsing and formatting for common and custom formats.*
 - **dayjs**
-  - <https://github.com/xx45/dayjs/>
+  - <https://github.com/xx45/dayjs>
 - **date-fns**
-  - <https://github.com/date-fns/date-fns/>
+  - <https://github.com/date-fns/date-fns>
 
 
 ## Eingabefeld-Formatierung
 - **imaskjs**
   - kann auch nur JS-API zum Formatieren benutzen, ohne HTML (siehe [pipe](https://imask.js.org/guide.html#pipe))
-  - <https://unmanner.github.io/imaskjs/> ⭐2.5k
+  - <https://unmanner.github.io/imaskjs> ⭐2.5k
 - **text-mask**
   - *Input mask for React, Angular, Ember, Vue, & plain JavaScript*
   - undmaintained und verweist auf imask
-  - <https://github.com/text-mask/text-mask/> ⭐7.9k
+  - <https://github.com/text-mask/text-mask> ⭐7.9k
 - **cleave**
-  - <https://nosir.github.io/cleave.js/>
+  - <https://nosir.github.io/cleave.js>
 - **Inputmask**
-  - <https://github.com/RobinHerbots/Inputmask/> ⭐5.2k
+  - <https://github.com/RobinHerbots/Inputmask> ⭐5.2k
 
 
 ## Zahlen
 - `const n = 12.30; console.log(n); // 12.3!`
 - <u>Web-APIs</u>
   - **Intl.NumberFormat**
-    - <https://v8.dev/features/intl-numberformat/>
-    - <https://beta.caniuse.com/?search=numberformat/>
+    - <https://v8.dev/features/intl-numberformat>
+    - <https://beta.caniuse.com/?search=numberformat>
     - styles: currency, unit, ...
     - units: percent, byte, durations, mass, temperature, volume, ...
     - display value with '+' or '-'
@@ -131,28 +131,28 @@ parent: JavaScript
             ```
           - decimal
         - `minimumFractionDigits` und `maximumFractionDigits` dürfen sich nicht widersprechen, sonst error ('value is out of range')
-        - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString/>
+        - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString>
     - toFixed
   - Intl.NumberFormat ist bei großer Anzahl an (gleichen) Formatierungen `toLocaleString` vorzuziehen. Die/eine Formatter-Instanz sollte wiederverwendet werden.
   - **BigInt**
-    - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt/>
+    - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt>
 - **numeraljs**
-  - <http://numeraljs.com/>
+  - <http://numeraljs.com>
 - **numbrojs**
-  - <http://numbrojs.com/>
+  - <http://numbrojs.com>
 - **autoNumeric**
-  - <http://autonumeric.org/>
-  - <https://github.com/autoNumeric/autoNumeric/> ⭐1300
+  - <http://autonumeric.org>
+  - <https://github.com/autoNumeric/autoNumeric> ⭐1300
   - vue-autonumeric
 - **dinero**
   - *Create, calculate, and format money*
-  - <https://github.com/dinerojs/dinero.js/> ⭐4.6k
+  - <https://github.com/dinerojs/dinero.js> ⭐4.6k
 
 
 ## Strings
 - **Intl.Collator**
-  - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Collator/>
-  - <https://beta.caniuse.com/?search=collator/>
+  - <https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Collator>
+  - <https://beta.caniuse.com/?search=collator>
   - kann z.B. sprachspezifisch sortieren
   ```js
   console.log(Intl.Collator.supportedLocalesOf(['de-DE'], { localeMatcher: 'lookup' }));
@@ -165,15 +165,15 @@ parent: JavaScript
   ```
 - **Intl.ListFormat**
   - *language-sensitive list formatting*
-  - <https://beta.caniuse.com/?search=listformat/>
-  - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/>
+  - <https://beta.caniuse.com/?search=listformat>
+  - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat>
   ```js
   const vehicles = ['Bus', 'Auto'];
   const formatter = new Intl.ListFormat('de', { style: 'short', type: 'disjunction' });
   formatter.format(vehicles); // "Bus oder Auto"
   ```
 - **Intl.PluralRules**
-  - <https://caniuse.com/#search=pluralrules/>
+  - <https://caniuse.com/#search=pluralrules>
   ```js
   console.log(Intl.PluralRules.supportedLocalesOf(['de-DE'], { localeMatcher: 'lookup' }));
   const plural = new Intl.PluralRules('de-DE');

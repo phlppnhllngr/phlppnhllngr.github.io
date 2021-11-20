@@ -7,7 +7,7 @@ parent: Java
 ---
 
 # Datenbank
-[https://www.marcobehler.com/guides/java-databases-jdbc-hibernate-spring-data]()
+<https://www.marcobehler.com/guides/java-databases-jdbc-hibernate-spring-data>
 
 ## JDBC vs JPA
 **JDBC**
@@ -27,12 +27,12 @@ parent: Java
     - @EntityListeners: @PrePersist etc in separate Klasse auslagern
     - @UniqueConstraint: auf @Table-Ebene (Kombinationen von Spalten) als unique festlegen
   - Tipps
-    - [https://java-persistence-performance.blogspot.com/2011/06/how-to-improve-jpa-performance-by-1825.html]()
+    - <https://java-persistence-performance.blogspot.com/2011/06/how-to-improve-jpa-performance-by-1825.html>
     - mit lombok
-      - [https://mdeinum.github.io/2019-02-13-Lombok-Data-Ojects-Arent-Entities/]()
-      - [https://www.reddit.com/r/java/comments/hlzvy5/lombok_hibernate_how_to_avoid_common_pitfalls/]()
-      - [https://www.jpa-buddy.com/blog/lombok-and-jpa-what-may-go-wrong/]()
-    - [https://vladmihalcea.com/14-high-performance-java-persistence-tips/]()
+      - <https://mdeinum.github.io/2019-02-13-Lombok-Data-Ojects-Arent-Entities>
+      - <https://www.reddit.com/r/java/comments/hlzvy5/lombok_hibernate_how_to_avoid_common_pitfalls>
+      - <https://www.jpa-buddy.com/blog/lombok-and-jpa-what-may-go-wrong>
+    - <https://vladmihalcea.com/14-high-performance-java-persistence-tips>
     - @ManyToMany sollten aus Performance-Gründen immer mit Set und nicht mit List kombiniert werden
     - mit `@Basic(fetch=FetchType.LAZY) String str` können auch einzelne Spalten lazy geladen werden. Allerdings erfordert dies Bytecodeinstumentation (z.B. hibernate-enhance-maven-plugin)
 
@@ -44,29 +44,29 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 ## ORM (JPA)
 
 ### Hibernate
-- Buch: [Hibernate Notes For Professionals](@attachment/Buecher/Java/HibernateNotesForProfessionals.pdf)
+- Buch: [Hibernate Notes For Professionals](https://goalkicker.com/HibernateBook/HibernateNotesForProfessionals.pdf)
 - Tipps
     - mit [ColumnTransformer](https://docs.jboss.org/hibernate/orm/current/javadocs/org/hibernate/annotations/ColumnTransformer.html) können bei read und write SQL-Funktionen auf Felder aufgerufen werden
     - die generierten SQLs können mit der Klasse StatementInspector [verändert werden](https://vladmihalcea.com/hibernate-statementinspector/)
       - z. B. können so Logs & SQL-kommentare zum Debuggen eingefügt werden (→ use_sql_comments)
     - Projections
-      - [https://thorben-janssen.com/dto-projections/]()
+      - <https://thorben-janssen.com/dto-projections>
 - Tools
-  - [https://hibernate.org/orm/tooling/]()
-  - [https://github.com/vladmihalcea/hibernate-types]()
+  - <https://hibernate.org/orm/tooling>
+  - <https://github.com/vladmihalcea/hibernate-types>
   - → Maven/Plugins/hibernate-enhance
   - envers
     - trackt Änderungen an @Entitys in separaten Tables
     - *works both with Hibernate and JPA. In fact, you can use Envers anywhere Hibernate works whether that is standalone, inside WildFly or JBoss AS, Spring, Grails, etc.*
     - *aims to provide an easy auditing / versioning solution for entity classes*
-    - [https://hibernate.org/orm/envers/]()
+    - <https://hibernate.org/orm/envers>
   - search
     - *Full-text search for entities*
     - *automatically extracts data from Hibernate ORM entities to push it to local Apache Lucene indexes or remote Elasticsearch/OpenSearch indexes.*
-    - [https://hibernate.org/search/]()
+    - <https://hibernate.org/search>
 - dirty checking & bytecode enhancement
   - *Hibernate is able to automatically save an attached entity instance on flush if you’ve made any changes to it. By default, it does to by keeping the initial state of the object in memory and comparing it to the actual state before flushing. However, keeping the whole initial state of the object in memory is costly, and doing a field-by-field comparison before flushing wastes time. So there’s another mechanism in Hibernate for dirty checking, that takes advantage of Hibernate’s bytecode enhancement.*
-  - [https://medium.com/@forketyfork/hibernate-extended-bytecode-enhancement-ae73962c9bf4]()
+  - <https://medium.com/@forketyfork/hibernate-extended-bytecode-enhancement-ae73962c9bf4>
 - Logging
   - `show_sql`, `format_sql` und `use_sql_comments` (https://mkyong.com/hibernate/hibernate-display-generated-sql-to-console-show_sql-format_sql-and-use_sql_comments/)
   - ```xml
@@ -86,12 +86,12 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
         <level value="info"/>
     </logger>
     ```
-  - slow-query-log: [https://thorben-janssen.com/hibernate-slow-query-log/]()
+  - slow-query-log: <https://thorben-janssen.com/hibernate-slow-query-log>
 
 
 ### Andere
 - **objectdb**
-  - [https://www.objectdb.com/]()
+  - <https://www.objectdb.com>
   - *ObjectDB is about 10 times faster than other JPA/DBMS solutions*
   - keine reine API, sondern DBMS (client/server oder embedded)
 - **openjpa**

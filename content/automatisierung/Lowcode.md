@@ -9,8 +9,8 @@ parent: Automatisierung
 # No-/Lowcode
 `no code, nocode, no-code, lowcode, low code, low-code`
 - → API/Tools
-- [https://www.nocode.tech/]() (Liste)
-- [https://www.nocodeportal.com/lists/all-tools/]()
+- <https://www.nocode.tech> (Liste)
+- <https://www.nocodeportal.com/lists/all-tools>
 - **budibase**
   - *low-code development platform*
   - *design, build, and ship business apps*

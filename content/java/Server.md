@@ -29,14 +29,14 @@ parent: Java
 
 
 ## Websphere
-- <https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads/>
-- <https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history/>
-- <https://stackoverflow.com/questions/45815445/ibm-webpshere-full-profile-webpshere-traditional-profile-and-websphere-classic/>
+- <https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads>
+- <https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history>
+- <https://stackoverflow.com/questions/45815445/ibm-webpshere-full-profile-webpshere-traditional-profile-and-websphere-classic>
 
 ### Traditional
 - aka "tWAS"
 - **Installation**
-  - <https://geekflare.com/was9-installation-guide/>
+  - <https://geekflare.com/was9-installation-guide>
 - **Tipps**
   - *Java 11 is not supported on twas 9*
   - Beim Hochfahren führt Websphere ein 'class path scanning' durch (~~kann man nicht abschalten?~~ "metadata-complete=true" im web.xml-root-Element?). Ältere Versionen kommen dabei nicht mit module-info.java zurecht. Über Einträge im Manifest kann man die entsprechenden Jars vom Scanning ausschließen:
@@ -46,7 +46,7 @@ parent: Java
   "Ignore-Scanning-Archives": "jaxb-runtime-2.3.1.jar,jaxb-api-2.3.1.jar,txw2-2.3.1.jar,..."
   ```
 - **Classloading**
-  - <https://www.theserverside.com/tutorial/Classloaders-Demystified-Understanding-How-Java-Classes-Get-Loaded-in-Web-Applications/>
+  - <https://www.theserverside.com/tutorial/Classloaders-Demystified-Understanding-How-Java-Classes-Get-Loaded-in-Web-Applications>
   - Class loading sollte auf 'parent last' gesetzt werden, damit die Libs der Anwendung greifen, nicht die Webpshere-eigenen
   - Um Classpath-Konflikte zu analysieren: Classloading-Trace aktivieren; serverName > Java und Prozess > Prozessdefinition > JVM > Ausführliche Ausgabe zum Laden der Klassen => loggt absolute Dateipfade der geladenen Klassen nach AppServer/profiles/AppSrv01/logs/server1/native_std<u>err</u>.log (nach Restart des Servers)
   - ClassNotFoundException
@@ -54,23 +54,23 @@ parent: Java
   - NoClassDefFoundError
     - tritt auf, wenn eine nicht vorhandene Klasse "direkt" verwendet und geladen wird; `A a = new A()`
 - **Performance**
-  - <https://developer.ibm.com/languages/java/articles/optimize-jvm-startup-with-eclipse-openjj9/>
-  - <https://stackoverflow.com/questions/1178210/websphere-application-server-what-on-earth-will-it-take-to-start-any-fast/>
-  - <https://www.ibm.com/support/pages/custom-properties-improving-application-startup-websphere-application-server/>
-  - <https://www.ibm.com/support/pages/apar/PM26361/>
+  - <https://developer.ibm.com/languages/java/articles/optimize-jvm-startup-with-eclipse-openjj9>
+  - <https://stackoverflow.com/questions/1178210/websphere-application-server-what-on-earth-will-it-take-to-start-any-fast>
+  - <https://www.ibm.com/support/pages/custom-properties-improving-application-startup-websphere-application-server>
+  - <https://www.ibm.com/support/pages/apar/PM26361>
 - **Docker**
-  - <https://hub.docker.com/r/ibmcom/websphere-traditional/>
-  - <https://github.com/WASdev/ci.docker.websphere-traditional/>
-    - Dockerfiles: <https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/docker-build/>
-    - Samples: <https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/samples/>
+  - <https://hub.docker.com/r/ibmcom/websphere-traditional>
+  - <https://github.com/WASdev/ci.docker.websphere-traditional>
+    - Dockerfiles: <https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/docker-build>
+    - Samples: <https://github.com/WASdev/ci.docker.websphere-traditional/tree/master/samples>
   - Varianten
     - ubi
       - universal base image
       - *the UBI, from Red Hat, is a more strategic, and lighter-weight, flavor of Linux, based on a heavily pared-down version of RHEL*
-  - unoffiziell: <https://hub.docker.com/r/psinfra/websphere-traditional/>
+  - unoffiziell: <https://hub.docker.com/r/psinfra/websphere-traditional>
   - Tutorials
-    - <https://medium.com/cloud-engagement-hub/experiences-using-the-twas-docker-container-557a9b044370/> (08/2019)
-    - <https://medium.com/cloud-engagement-hub/so-you-want-customized-websphere-container-images-heres-how-42f0e598733f/> (03/2020)
+    - <https://medium.com/cloud-engagement-hub/experiences-using-the-twas-docker-container-557a9b044370> (08/2019)
+    - <https://medium.com/cloud-engagement-hub/so-you-want-customized-websphere-container-images-heres-how-42f0e598733f> (03/2020)
   - compose:
 
     ```yml
@@ -97,16 +97,14 @@ parent: Java
   ```
 
   Alternativ könnte man auch per `sed` die Datei im Image ändern
-  <https://github.com/WASdev/ci.docker.websphere-traditional/blob/master/docker-build/9.0.5.7/Dockerfile-ubi8#L102/>
+  <https://github.com/WASdev/ci.docker.websphere-traditional/blob/master/docker-build/9.0.5.7/Dockerfile-ubi8#L102>
 - **Livereload**
   - [http://dplatz.de/blog/2018/was-autodeploy.html](http://dplatz.de/blog/2018/was-autodeploy.html) (04/2018)
   - [https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files](https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files)
 
 
 ### Liberty
-  - <https://hub.docker.com/_/websphere-liberty/>
-  - Bücher
-    - [IBM WebSphere Application Server Liberty Profile Guide for Developers (Third Edition July 2015)](@attachment/Buecher/DevOps/IBM WebSphere Application Server Liberty Profile Guide for Developers.pdf)
+  - <https://hub.docker.com/_/websphere-liberty>
   - *You can tell Liberty to treat certain files as "minor" changes - which would not require a restart by using this system property (you can add this in your jvm.options file in your server directory - create it if it is not already there): `-Dcom.ibm.ws.app.manager.minorUpdateFileExtensions=.html,.png,.jpg,.myOtherExtension`*
   - Open Liberty
     - *opensource subset of websphere liberty*

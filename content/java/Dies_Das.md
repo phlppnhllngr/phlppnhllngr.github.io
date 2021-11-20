@@ -37,7 +37,6 @@ parent: Java
   - *Instrumentation is the process of adding extra code at runtime to an existing codebase in order to measure timings of different operations.*
 - **AOP**
 - **AnnotationProcessing API** (compiler)
-  - [Das Annotation Processing API - Use Cases und Best Practices](@attachment/Praesentationen/2019-nn-gunnar_morling-das_annotation_processing_api_-_use_cases_und_best_practices-praesentation.pdf)
 - **sun.misc.Unsafe**
   - https://www.javacodegeeks.com/2013/12/the-infamous-sun-misc-unsafe-explained.html
   - http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/

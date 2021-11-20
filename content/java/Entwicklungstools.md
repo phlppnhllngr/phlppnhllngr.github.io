@@ -105,7 +105,7 @@ parent: Java
 
 ## Diverse
 - **sdkman**
-  - <https://sdkman.io/>
+  - <https://sdkman.io>
   - versch. Versionen von JDK, Maven, ... verwalten
   - für Linux. Windows: nur mit git bash
 - **update4j**
@@ -114,9 +114,9 @@ parent: Java
 - **jrebel**
   - *can skip rebuilds and redeploys during Java development -- while maintaining application state*
   - kostet Geld
-  - <https://www.jrebel.com/products/jrebel/>
+  - <https://www.jrebel.com/products/jrebel>
 - **jenv**
-  - <https://github.com/jenv/jenv/>
+  - <https://github.com/jenv/jenv>
   - *lets you switch between java versions. However, this project does not install java for you*
   - *jEnv supports the notion of a global JDK and multiple local JDKs. The global JDK is the JDK that will be used if we type java into the command line anywhere on our computer. A local JDK is a JDK that is configured for a specific folder only. If we type java into the command line in this folder, it will not use the global JDK, but the local JDK instead.*
   - Extra plugin für Maven und Gradle nötig
@@ -137,4 +137,4 @@ parent: Java
 - **OpenRewrite**
   - *mass refactoring ecosystem for Java and other source code*
   - *Migrate to Java 11 from Java 8, Migrate to JUnit 5 from JUnit 4, Migrate to SLF4J from Log4j*
-  - <https://github.com/openrewrite/rewrite/>
+  - <https://github.com/openrewrite/rewrite>

@@ -7,7 +7,7 @@ parent: Docker
 ---
 
 # Storage
-- [https://docs.docker.com/storage/]()
+- <https://docs.docker.com/storage>
 
 ## bind mount
   - *a file or directory on the host machine is mounted into a container*
@@ -28,7 +28,7 @@ parent: Docker
 
 
 ## volume
-  - [https://docs.docker.com/storage/volumes/]()
+  - <https://docs.docker.com/storage/volumes>
   - *Created and managed by Docker*
   - *With Volume, a new directory is created within Docker's storage directory on the host machine, and Docker manages that directory's content*
   - *they can not be accessed outside of Docker.*

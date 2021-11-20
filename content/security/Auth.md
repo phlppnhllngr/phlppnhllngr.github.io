@@ -22,12 +22,9 @@ parent: Security
   - https://www.keycloak.org
   - https://github.com/thomasdarimont/awesome-keycloak
   - https://github.com/keycloak/keycloak-quickstarts
-  - [How to secure your Spring Apps with Keycloak](@attachment/Praesentationen/2019-nn-thomas_darimont-sichere_spring-anwendungen_mit_keycloak-praesentation.pdf)
-  - [Easily Secure your Microservices with Keycloak](@attachment/Praesentationen/2019-nn-sebastien_blanc-easily_secure_your_microservices_with_keycloak-praesentation.pdf)
-  - deployment
+  - Deployment
     - *Keycloak is a standalone server based in Wildfly. It is not possible to deploy it in other application servers.*
-    - es ist/war wohl doch möglich, keycloak auch auf anderen servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert
-      https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat
+    - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
 - **OAuth(2)**
 - **AWS Cognito**
   - https://aws.amazon.com/de/cognito/

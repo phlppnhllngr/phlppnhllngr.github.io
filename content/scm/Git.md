@@ -7,9 +7,9 @@ parent: SCM
 ---
 
 # Git
-- <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work/>
-- <https://github.com/git-tips/tips/>
-- <https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow/>
+- <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work>
+- <https://github.com/git-tips/tips>
+- <https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow>
 
 ## Stages
 - **working directory**
@@ -44,7 +44,7 @@ parent: SCM
 - *merge a branch 'x' into the current checked out branch with* `git merge x`
 - *git will ask how to resolve conflicts, if any*
 - <u>Merge-Strategien</u>
-  - <http://blog.danieljanus.pl/2021/07/01/commit-groups/>
+  - <http://blog.danieljanus.pl/2021/07/01/commit-groups>
   - **A) merge-commit**
     - *all commits from branch will be added to the base branch via a new merge commit*
     - *we don’t rewrite history: once a commit is made, it stays*
@@ -74,8 +74,8 @@ parent: SCM
 
 ### rebase
 - neben merge die andere Möglichkeit, um Änderungen aus einem Branch in einen anderen zu übernehmen
-- <https://git-scm.com/book/de/v2/Git-Branching-Rebasing/>
-- <https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge/>
+- <https://git-scm.com/book/de/v2/Git-Branching-Rebasing>
+- <https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge>
 - Stand von master in den Branch ziehen
   ```
   git checkout <branch>
@@ -110,11 +110,11 @@ parent: SCM
   `-u` um auch nicht bereits getrackte (neue) Dateien zu stashen
 - dann später zurückholen (zum Committen): `git stash pop`
 - Stash leeren: `git stash clear`
-- <https://www.atlassian.com/git/tutorials/saving-changes/git-stash/>
+- <https://www.atlassian.com/git/tutorials/saving-changes/git-stash>
 
 
 ## Worktree
-- <https://git-scm.com/docs/git-worktree/>
+- <https://git-scm.com/docs/git-worktree>
 - mehrere Branches <u>gleichzeitig</u> auf der Festplatte haben, in versch. Verzeichnissen
 - *Checkout [other] branches in separate folders using worktree. For each branch, you got an independent IDE project.*
 - *(branch) switching is expensive, because in the meantime you completely restructured the repository and maybe build system. If you switch, your IDE will run mad trying to adapt the project settings*
@@ -126,7 +126,7 @@ parent: SCM
 
 
 ## Workflow
-- <https://github.com/pcottle/learnGitBranching/>
+- <https://github.com/pcottle/learnGitBranching>
 - **centralized**
   - https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
 - **feature branch**
@@ -141,15 +141,15 @@ parent: SCM
 - → SCM/Commits
 - **git-cliff**
   - *customizable Changelog Generator that follows Conventional Commit specifications*
-  - <https://github.com/orhun/git-cliff/> *2.6k
+  - <https://github.com/orhun/git-cliff> *2.6k
 
 ### GUI Clients
 - **GitKraken**
-  - <https://www.gitkraken.com/>
+  - <https://www.gitkraken.com>
 
 ### CLIs
 - **Git bash for windows**
-  - Aliase: <https://dev.to/mhjaafar/git-bash-on-windows-adding-a-permanent-alias-198g/>
+  - Aliase: <https://dev.to/mhjaafar/git-bash-on-windows-adding-a-permanent-alias-198g>
     C:\Program Files\Git\etc\profile.d
     - alias gpl='git pull --rebase'
     - alias gcp='git cherry-pick'
@@ -157,11 +157,11 @@ parent: SCM
     - alias gpsh='git push'
 - **Bit**
   - *autocompletion, new commands*
-  - <https://github.com/chriswalz/bit/>
+  - <https://github.com/chriswalz/bit>
 
 
 ## gitignore
-- <https://gitignore.io/>
+- <https://gitignore.io>
   - man gibt seine Programmiersprache, IDE, usw. an und erhält ein darauf abgestimmtes gitignore-File
-- <https://github.com/github/gitignore/>
+- <https://github.com/github/gitignore>
   - *A collection of useful .gitignore templates*

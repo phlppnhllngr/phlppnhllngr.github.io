@@ -101,4 +101,4 @@ parent: Java
   The main problem with it is that with this approach you application won't receive the sigterm so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
   *If you want customize the java opts on docker environments use JAVA_TOOL_OPTIONS environment property and ENTRYPOINT ["java", ...] With this property you can declare your expected options even in Dockerfile like:
   ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=80"*
-  [https://stackoverflow.com/a/58355963/8972265]()
+  <https://stackoverflow.com/a/58355963/8972265>

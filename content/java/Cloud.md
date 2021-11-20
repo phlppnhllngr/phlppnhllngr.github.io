@@ -9,5 +9,5 @@ parent: Java
 # Cloud
 - fn
   - → Cloud/Serverless
-  - [https://blogs.oracle.com/javamagazine/cloud-agnostic-serverless-java-with-the-fn-project-and-graalvm]() (09/20)
-  - [https://dzone.com/articles/java-serverless-on-steroids-with-fngraalvm-hands-o-1]() (02/21)
+  - <https://blogs.oracle.com/javamagazine/cloud-agnostic-serverless-java-with-the-fn-project-and-graalvm> (09/20)
+  - <https://dzone.com/articles/java-serverless-on-steroids-with-fngraalvm-hands-o-1> (02/21)

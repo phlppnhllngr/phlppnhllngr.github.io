@@ -35,8 +35,7 @@ parent: Diverses
   
 
 ## PDF
-[Spec PDF32000_2008](@attachment/Buecher/Gemischtes/PDF32000_2008.pdf)<br/>
-[https://github.com/abhi18av/awesome-pdf]()
+<https://github.com/abhi18av/awesome-pdf>
 
 ### Tools
 - **gotenberg**

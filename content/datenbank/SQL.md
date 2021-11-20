@@ -15,12 +15,12 @@ parent: Datenbank
   - *a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser*
   - https://sqlbolt.com/ 
 - Buch "the art of postgresql"
-  - [https://theartofpostgresql.com/]()
+  - <https://theartofpostgresql.com>
 - use-the-index-luke
   - *A site explaining SQL indexing to developers*
   - *SQL indexing is the most effective tuning method—yet it is often neglected during development. Use The Index, Luke explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.*
   - https://use-the-index-luke.com/
-- [https://hinty.io/devforth/sql-query-optimization-understanding-key-principle/]()
+- <https://hinty.io/devforth/sql-query-optimization-understanding-key-principle>
 - *Rule #1: If its linked by it, filtered by it, or sorted by it....index by it.*
 
 

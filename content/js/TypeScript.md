@@ -5,7 +5,7 @@ parent: JavaScript
 ---
 
 # Typescript
-- [](@attachment/Buecher/JS/TypeScriptNotesForProfessionals.pdf)
+- <https://goalkicker.com/TypeScriptBook2>
 - https://github.com/semlinker/awesome-typescript
 - Playground: https://www.typescriptlang.org/play/
 - https://github.com/basarat/typescript-book

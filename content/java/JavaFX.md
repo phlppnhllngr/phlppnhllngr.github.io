@@ -147,9 +147,5 @@ parent: Java
 - https://www.youtube.com/watch?v=Lse51SpfKHo
 
 
-## Bücher
-[Pro JavaFX 9](@attachment/Buecher/Java/Pro JavaFX 9.pdf)
-
-
 ## Tipps
 - Listener wieder entfernen, sonst memory leaks

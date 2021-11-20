@@ -9,7 +9,7 @@ parent: Diverses
 # Analytics
 
 ## Tracking
-- [https://enmascript.com/articles/2019/07/15/efficient-behavioral-tracking-in-javascript-applications]()
+- <https://enmascript.com/articles/2019/07/15/efficient-behavioral-tracking-in-javascript-applications>
 - **utm query params**
   - https://en.wikipedia.org/wiki/UTM_parameters
 - **google analytics**
@@ -61,7 +61,7 @@ parent: Diverses
 
 
 ## A/B Tests
-- [https://blog.tjcx.me/p/new-york-times-ab-testing]()
+- <https://blog.tjcx.me/p/new-york-times-ab-testing>
 
 
 ## Visualisierung

@@ -7,9 +7,9 @@ parent: Docker
 ---
 
 # Dockerfile
-- <https://www.reddit.com/r/programming/comments/jb2jwq/dockerfile_security_best_practices/>
-- <https://docs.docker.com/develop/develop-images/dockerfile_best-practices/>
-- <https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/>
+- <https://www.reddit.com/r/programming/comments/jb2jwq/dockerfile_security_best_practices>
+- <https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
+- <https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices>
 
 <br/>
 

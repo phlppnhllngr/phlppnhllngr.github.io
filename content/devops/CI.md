@@ -10,23 +10,23 @@ parent: DevOps
 - **Jenkins**
 - **CircleCI**
 - **appveyor**
-  - <https://www.appveyor.com/>
+  - <https://www.appveyor.com>
 - **TravisCI**
 - **ConcourseCI**
-  - <https://concourse-ci.org/>
+  - <https://concourse-ci.org>
   - *Concourse is an open-source continuous thing-doer*
-  - <https://github.com/concourse/concourse/>
+  - <https://github.com/concourse/concourse>
 - **codeship**
-  - <https://codeship.com/>
+  - <https://codeship.com>
 - **codefresh**
-  - <https://codefresh.io/>
+  - <https://codefresh.io>
 - **buildkite**
-  - <https://buildkite.com/>
+  - <https://buildkite.com>
 - **earthly**
   - *build automation tool for the container era*
   - *use Earthly to create Docker images and artifacts (e.g., binaries, packages, arbitrary files).*
   - *meant to be used both on your development machine and in CI. It can run on top of popular CI systems (like Jenkins, Circle, GitHub Actions). It is typically the layer between language-specific tooling (like maven, gradle, npm, pip, go build) and the CI build spec.*
-  - <https://github.com/earthly/earthly/>
+  - <https://github.com/earthly/earthly>
 
 
 ## Build steps

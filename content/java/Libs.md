@@ -7,7 +7,7 @@ parent: Java
 ---
 
 # Libs
-<https://github.com/akullpp/awesome-java/>
+<https://github.com/akullpp/awesome-java>
 
 <style>
   .links {
@@ -242,12 +242,12 @@ parent: Java
 
 ## AOP
 - aspectj
-  - <https://eclipse.org/aspectj/>
+  - <https://eclipse.org/aspectj>
 
 
 ## <span id="validation">Validation</span>
 - **libphonenumber**
-  - <https://github.com/google/libphonenumber/>
+  - <https://github.com/google/libphonenumber>
 - **yavi**
   - *lambda based type safe validation*
   - *No more reflection, No more (runtime) annotation*

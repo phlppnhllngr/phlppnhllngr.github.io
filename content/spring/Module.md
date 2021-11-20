@@ -66,12 +66,12 @@ parent: Spring
 
 
 ## Native
-[https://github.com/spring-projects-experimental/spring-native]()
+<https://github.com/spring-projects-experimental/spring-native>
 
 
 ## Integration
-[https://docs.spring.io/spring-integration/docs/current/reference/html/]()
-Batch + Integration: [https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html]()
+<https://docs.spring.io/spring-integration/docs/current/reference/html>
+Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
 
 
 ## Batch
@@ -81,8 +81,8 @@ Batch + Integration: [https://docs.spring.io/spring-batch/trunk/reference/html/s
 - Quellen für Inputs können Datenbanken, Dateien, in-Memory-Datenstrukturen, ... sein
 - der Status der Steps und Jobs wird defaultmäßig in einer Datenbank festgehalten (konfigurierbar)
 - in dem Zusammenhang ist oft von 'ETL' die Rede (Extract, Transform, Load)
-- Batch + Integration: [https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html]()
+- Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
 
 
 ## Statemachine
-[https://spring.io/projects/spring-statemachine]()
+<https://spring.io/projects/spring-statemachine>

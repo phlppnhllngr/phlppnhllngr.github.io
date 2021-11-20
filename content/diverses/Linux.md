@@ -36,11 +36,11 @@ parent: Diverses
 
 
 ## Shell
-- <https://github.com/alebcay/awesome-shell/>
+- <https://github.com/alebcay/awesome-shell>
 - [Bash Notes For Professionals](https://books.goalkicker.com/BashBook/)
-- <https://google.github.io/styleguide/shellguide.html/>
-- <https://www.reddit.com/r/programming/comments/qjnzmn/underwhelmed_by_bash_functions_maybe_youre_using/>
-- <https://github.com/jlevy/the-art-of-command-line/>
+- <https://google.github.io/styleguide/shellguide.html>
+- <https://www.reddit.com/r/programming/comments/qjnzmn/underwhelmed_by_bash_functions_maybe_youre_using>
+- <https://github.com/jlevy/the-art-of-command-line>
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
@@ -61,14 +61,14 @@ parent: Diverses
   set -euo pipefail
   IFS=$'\n\t'
   ```
-  - <http://redsymbol.net/articles/unofficial-bash-strict-mode/>
-  - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e/> (exit on error)
+  - <http://redsymbol.net/articles/unofficial-bash-strict-mode>
+  - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e> (exit on error)
 - **set -x**
   *which is like DOS’ ECHO ON: it prints every command before it runs. Free progress log*
 
 ### Tools
   - **shellspec**
-    - <https://shellspec.info/>
+    - <https://shellspec.info>
     - *BDD unit testing framework for shells*
   - **zx**
     - *A tool for writing better scripts*
@@ -77,12 +77,12 @@ parent: Diverses
       let branch = await $`git branch --show-current`
       await $`dep deploy --branch=${branch}`
       ```
-    - <https://github.com/google/zx/>
+    - <https://github.com/google/zx>
   - **wait-for-it**
-    - <https://github.com/vishnubob/wait-for-it/>
+    - <https://github.com/vishnubob/wait-for-it>
     - *test and wait on the availability of a TCP host and port*
   - **shellcheck**
-    - <https://github.com/koalaman/shellcheck/>
+    - <https://github.com/koalaman/shellcheck>
     - *static analysis tool for shell scripts. gives warnings and suggestions for bash/sh shell scripts*
     - Plugins für diverse IDEs, u.a. VSCode
   - **thefuck**
@@ -93,7 +93,7 @@ parent: Diverses
     - Rust
   - **modern-unix**
     - *A collection of modern/faster/saner alternatives to common unix commands.*
-    - <https://github.com/ibraheemdev/modern-unix/> *5.3k
+    - <https://github.com/ibraheemdev/modern-unix> *5.3k
 
 
 ## Commands & Packages
@@ -109,7 +109,7 @@ parent: Diverses
   - https://github.com/johnkerl/miller
 - **jq**
   - *command-line JSON processor*
-  - <https://earthly.dev/blog/jq-select/>
+  - <https://earthly.dev/blog/jq-select>
 
 
 ## Distributionen

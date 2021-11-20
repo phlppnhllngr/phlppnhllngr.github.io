@@ -126,12 +126,12 @@ def call() {
     breakpoint()
 }
 ```
-oder [http://notes.asaleh.net/posts/debugging-jenkins-pipeline/]()
+oder <http://notes.asaleh.net/posts/debugging-jenkins-pipeline>
 
 
 ## Plugins
 - docker
-  - [https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow]()
+  - <https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow>
   - File aus Container zum Host kopieren:
     ```groovy
     def image = ...
@@ -140,12 +140,12 @@ oder [http://notes.asaleh.net/posts/debugging-jenkins-pipeline/]()
     }
     ```
 - configuration-as-code
-  - [https://github.com/jenkinsci/configuration-as-code-plugin]()
+  - <https://github.com/jenkinsci/configuration-as-code-plugin>
 
 
 ## Tools
 - jenkinsfile-runner
-  - [https://github.com/jenkinsci/jenkinsfile-runner]()
+  - <https://github.com/jenkinsci/jenkinsfile-runner>
   - *packages Jenkins pipeline execution engine as a command line tool or as a Docker image*
 - vscode-groovy-lint → IDE/VSCode
 

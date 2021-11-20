@@ -7,8 +7,8 @@ parent: Datenbank
 ---
 
 # DB
-- [https://random-dev.medium.com/databases-in-5-min-bfd3b9bef86]()
-- [https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78]()
+- <https://random-dev.medium.com/databases-in-5-min-bfd3b9bef86>
+- <https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
 ## IDs
 - auto generated
@@ -122,11 +122,10 @@ parent: Datenbank
   - https://debezium.io/
   - *Monitoring databases and being notified when data changes. data streaming platform for change data capture (CDC). configure Debezium to monitor your databases, and then your applications consume events for each row-level change made to the database. reusing Kafka and Kafka Connect.*
   - *Common use cases: Cache invalidation, Simplifying monolithic applications, Data integration*
-  - [Change Data Streaming für Microservices mit Debezium](@attachment/Praesentationen/2019-nn-gunnar_morling-change_data_streaming_fuer_microservices_mit_debezium-praesentation.pdf)
 
 
 ## Diverses
 - Sharding
-  - [https://en.wikipedia.org/wiki/Shard_(database_architecture)]()
+  - <https://en.wikipedia.org/wiki/Shard_(database_architecture)>
 - ACID
-  - [https://en.wikipedia.org/wiki/ACID]()
+  - <https://en.wikipedia.org/wiki/ACID>

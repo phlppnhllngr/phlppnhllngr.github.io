@@ -146,8 +146,8 @@ parent: Diverses
 - MS Teams
   - Dev docs
     - Webhooks/Connectors
-      - Create and send messages: <https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using?tabs=cURL/>
+      - Create and send messages: <https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-using?tabs=cURL>
     - TeamsFx
       - *CLI, SDK, Toolkit for Teams app development*
       - *currently in Public Preview* (19.11.21)
-      - <https://github.com/OfficeDev/TeamsFx/>
+      - <https://github.com/OfficeDev/TeamsFx>

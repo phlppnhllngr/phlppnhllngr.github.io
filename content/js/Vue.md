@@ -10,7 +10,6 @@ parent: JavaScript
 - http://www.vuetoolbox.com/
 - https://github.com/vuejs/awesome-vue
 - https://vuejsdevelopers.com/
-- [VueJS 2 Cookbook](@attachment/Buecher/JS/VUEJS_2_COOKBOOK.pdf)
 - https://www.vuemastery.com/
 - https://github.com/gothinkster/vue-realworld-example-app
 - https://github.com/f0lg0/vue-extendend-cheatsheet

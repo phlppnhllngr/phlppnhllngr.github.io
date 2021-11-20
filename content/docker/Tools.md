@@ -7,21 +7,21 @@ parent: Docker
 ---
 
 # Tools
-<https://github.com/veggiemonk/awesome-docker/>
+<https://github.com/veggiemonk/awesome-docker>
 
 - **compose**
   - https://github.com/docker/awesome-compose
-  - compose-file v2: <https://docs.docker.com/compose/compose-file/compose-file-v2/>
-  - compose-file v3: <https://docs.docker.com/compose/compose-file/>
-  - extending: <https://docs.docker.com/compose/extends/>
+  - compose-file v2: <https://docs.docker.com/compose/compose-file/compose-file-v2>
+  - compose-file v3: <https://docs.docker.com/compose/compose-file>
+  - extending: <https://docs.docker.com/compose/extends>
 - **Composerize**
   - *Turns docker run commands into docker-compose files*
-  - <https://github.com/magicmark/composerize/>
+  - <https://github.com/magicmark/composerize>
 - **dive**
   - siehe auch `docker image history`
   - *tool for exploring a docker image, layer contents, and discovering ways to shrink your Docker image size*
   - zeigt die Dockerfile-Zeilen und die daraus resultierenden Dateisystem-Zustände (als Tree), inkl. Dateigrößen
-  - <https://github.com/wagoodman/dive/> ⭐17k
+  - <https://github.com/wagoodman/dive> ⭐17k
   - erhältlich als Binary oder Docker image
 - **jib**
   - *builds optimized Docker images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices. Available as plugins for Maven and Gradle and as a Java library.*
@@ -49,7 +49,7 @@ parent: Docker
   - https://github.com/ottomatica/slim 
   - *Build and run tiny vms from Dockerfiles*
 - **hadolint**
-  - <https://github.com/hadolint/hadolint/>
+  - <https://github.com/hadolint/hadolint>
   - Dockerfile Linter
   - als CLI oder Docker image verfügbar
 - **buildkit**
@@ -63,7 +63,7 @@ parent: Docker
 
 ## GUIs
 - docker-desktop
-  - <https://www.docker.com/products/docker-desktop/>
+  - <https://www.docker.com/products/docker-desktop>
   - mit Kubernetes-Support (single node cluster)
   - *free for small businesses (fewer than 250 employees AND less than $10 million in annual revenue), personal use, education, and non-commercial open source projects*
 - portainer
@@ -83,11 +83,11 @@ parent: Docker
 
 
 ## Security
-- <https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet/>
+- <https://blog.gitguardian.com/how-to-improve-your-docker-containers-security-cheat-sheet>
 - **trivy**
   - CLI um Docker Images zu überprüfen
-  - <https://github.com/knqyf263/trivy/>
+  - <https://github.com/knqyf263/trivy>
 - **docker-bench-security**
-  - <https://github.com/docker/docker-bench-security/> ⭐5.2k
+  - <https://github.com/docker/docker-bench-security> ⭐5.2k
   - *script that checks for dozens of common best-practices around deploying Docker containers in production*
   - prüft keine Images, sondern Host

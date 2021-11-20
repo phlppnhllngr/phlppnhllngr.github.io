@@ -8,13 +8,13 @@ parent: Dokumentation
 
 # Visualisierung
 
-- [https://awesome.cube.dev/]()
+- <https://awesome.cube.dev>
   - *Awesome data visualization tools for software developers*
   - Liste von Charts, maps, 3d tools, exploration tools, data grids
 - **draw.io**
-  - [https://www.draw.io/]()
+  - <https://www.draw.io>
 - **graphviz**
-  - [https://graphviz.gitlab.io/]()
+  - <https://graphviz.gitlab.io>
 - **mermaid**
   - https://mermaidjs.github.io/
   - *Generation of diagrams and flowcharts from text in a similar manner as markdown.*
@@ -28,7 +28,7 @@ parent: Dokumentation
   - https://github.com/davidkpiano/xstate
   - state charts
 - diagrams.net
-  - [https://www.diagrams.net/]()
+  - <https://www.diagrams.net>
 - **excalidraw**
   - *Virtual whiteboard for sketching hand-drawn like diagrams*
   - https://github.com/excalidraw/excalidraw *23k
