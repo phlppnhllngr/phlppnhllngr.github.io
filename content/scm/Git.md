@@ -1,0 +1,167 @@
+---
+tags: [Notebooks/SCM]
+title: Git
+created: '2019-02-17T14:54:50.641Z'
+modified: '2021-09-13T12:17:36.631Z'
+parent: SCM
+---
+
+# Git
+- <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work/>
+- <https://github.com/git-tips/tips/>
+- <https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow/>
+
+## Stages
+- **working directory**
+  - *the local repository*
+  - *changes are not tracked*
+  - *track changes by adding them to index* ('staging', `git add`)
+- **index**
+  - *confirm changes and add them to head with* `git commit`
+- **head**
+  - *the most recent committed version of code*
+  - `git push` *changes to remote repository*
+
+## Branching
+- Haupt-Branch heißt 'master' oder 'main' (Konvention)
+- `git status` *shows the current branch*
+- **create new branch**
+  - `git branch <name>` *(only creates, doesn't switch)*
+  - *switch to existing branch with* `git checkout <name>`
+  - *create new branch and switch to it:* `git checkout -b <name>`
+  - *push a new local branch:* `git push -u origin <name>`
+- **remote branches**
+  - `git branch [-r]` um Remote-Branches anzuzeigen
+  - (erstmalig) auschecken: `git checkout --track origin/<name>`
+- **delete branch**
+  - locally: `git branch -d <localBranchName>`
+  - remote: `git push origin --delete <remoteBranchName>`
+
+
+## Änderungen zusammenführen
+
+### merge
+- *merge a branch 'x' into the current checked out branch with* `git merge x`
+- *git will ask how to resolve conflicts, if any*
+- <u>Merge-Strategien</u>
+  - <http://blog.danieljanus.pl/2021/07/01/commit-groups/>
+  - **A) merge-commit**
+    - *all commits from branch will be added to the base branch via a new merge commit*
+    - *we don’t rewrite history: once a commit is made, it stays*
+    - *you can’t git revert a merge commit—that is, unless you tell Git which of the parent commits you want to keep and which to discard*
+    - einen Branch nach master mergen
+      ```
+      git checkout master
+      git pull
+      git merge <branch>
+      git push
+      ```
+  - **B) rebase and merge**
+    - *all commits from branch will be rebased and added to the base branch*
+    - *we don’t squash the branch commits together. Instead, we directly replay them on top of main/master.*
+  - **C) squash and merge**
+    - *all commits from branch will be combined into one commit in the base branch*
+    - *we mash together the changes introduced by the branch commits into a single commit, and then replay that commit on top of main/master*
+    - *you can rewrite a branch 10x over, add and remove log and debug at will, and in the end, commit a clear and concise just of changes back to the main branch.*
+
+### cherry pick
+- Übernahme eines spezifischen Commits von Branch A nach Branch B
+- in Branch A committen und die Hash-Summe des Commits notieren
+- zu Branch B wechseln
+- `git cherry-pick <hash>` (ist dann mit dem gleichen Kommentar direkt committed)
+  - `git cherry-pick <hash> -n` um nicht direkt zu committen
+- `git push`
+
+### rebase
+- neben merge die andere Möglichkeit, um Änderungen aus einem Branch in einen anderen zu übernehmen
+- <https://git-scm.com/book/de/v2/Git-Branching-Rebasing/>
+- <https://stackoverflow.com/questions/804115/when-do-you-use-git-rebase-instead-of-git-merge/>
+- Stand von master in den Branch ziehen
+  ```
+  git checkout <branch>
+  git rebase master
+  ```
+
+### Stand von remote holen
+- **fetch**
+  - *tells your local git to retrieve the latest meta-data info from the original (yet doesn't do any file transfering. It's more like just checking to see if there are any changes available*
+- **pull**
+  - *does that AND brings (copy) those changes from the remote repository*
+  - macht zuerst `fetch`, dann `merge`
+  - *default from "origin"*
+  - bzgl. automatischer `Merge branch '<name>' of <url>`-Commits
+    - *caused when your local repo is both ahead and behind your remote repo, and you perform a "git pull"*
+    - *to avoid these merge commits, you need to explicitly resolve the conflict in a different way."*
+    - *One easy way to do this is to always do "git pull --rebase" instead of "git pull", which will rebase your local commits on top of your remote commits, instead of creating a merge commit.*
+    - Alternative: pull mit "fast forward"
+
+
+## Code zurücksetzen
+- **reset**
+  - local auf remote zurücksetzen
+    ```
+    git fetch --all
+    git reset --hard origin/<branch> (git reset --hard origin/master)
+    ```
+
+## Stash
+- lokale Änderungen sichern
+- zuerst `git stash`<br/>
+  `-u` um auch nicht bereits getrackte (neue) Dateien zu stashen
+- dann später zurückholen (zum Committen): `git stash pop`
+- Stash leeren: `git stash clear`
+- <https://www.atlassian.com/git/tutorials/saving-changes/git-stash/>
+
+
+## Worktree
+- <https://git-scm.com/docs/git-worktree/>
+- mehrere Branches <u>gleichzeitig</u> auf der Festplatte haben, in versch. Verzeichnissen
+- *Checkout [other] branches in separate folders using worktree. For each branch, you got an independent IDE project.*
+- *(branch) switching is expensive, because in the meantime you completely restructured the repository and maybe build system. If you switch, your IDE will run mad trying to adapt the project settings*
+- nützlich z.B. damit man nicht bei jedem Branch-switch node_modules (ggf. in anderer Version) neu installieren muss
+- Vorgehen<br/>
+  im root des master branch: `git worktree add ../<foldername> <branchname>`<br/>
+  erzeugt das Verzeichnis und checkt den Branch darin aus
+- Nachteil: HDD-Verbrauch
+
+
+## Workflow
+- <https://github.com/pcottle/learnGitBranching/>
+- **centralized**
+  - https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+- **feature branch**
+  - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+- **gitflow**
+  - https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+  - https://www.reddit.com/r/programming/comments/fdv7v0/please_stop_recommending_git_flow/
+- **forking**
+
+
+## Tools
+- → SCM/Commits
+- **git-cliff**
+  - *customizable Changelog Generator that follows Conventional Commit specifications*
+  - <https://github.com/orhun/git-cliff/> *2.6k
+
+### GUI Clients
+- **GitKraken**
+  - <https://www.gitkraken.com/>
+
+### CLIs
+- **Git bash for windows**
+  - Aliase: <https://dev.to/mhjaafar/git-bash-on-windows-adding-a-permanent-alias-198g/>
+    C:\Program Files\Git\etc\profile.d
+    - alias gpl='git pull --rebase'
+    - alias gcp='git cherry-pick'
+    - alias gcm='git checkout master'
+    - alias gpsh='git push'
+- **Bit**
+  - *autocompletion, new commands*
+  - <https://github.com/chriswalz/bit/>
+
+
+## gitignore
+- <https://gitignore.io/>
+  - man gibt seine Programmiersprache, IDE, usw. an und erhält ein darauf abgestimmtes gitignore-File
+- <https://github.com/github/gitignore/>
+  - *A collection of useful .gitignore templates*

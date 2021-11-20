@@ -7,8 +7,9 @@ parent: DevOps
 ---
 
 # Kubernetes
-<https://kubernetes.io/>
-*also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications*
+- <https://kubernetes.io/>
+- *also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications*
+- <https://dev.to/sandrogiacom/kubernetes-for-java-developers-setup-41nk/> (minikube, kubectl, virtualbox)
 
 ## Tools
 - docker-desktop → Docker/Tools
@@ -33,7 +34,7 @@ parent: DevOps
   - *Instant Kubernetes-Native Application Observability*
   - *Use Pixie to view the high-level state of your cluster (service maps, cluster resources, application traffic) and also drill-down into more detailed views (pod state, flame graphs, individual full-body application requests).*
   - <https://github.com/pixie-io/pixie/>
-- **kuebsphere**
+- **kubesphere**
   - *is a distributed operating system for cloud-native application management, using Kubernetes as its kernel*
   - *It provides developer-friendly wizard web UI*
   - <https://github.com/kubesphere/kubesphere/>

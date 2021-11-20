@@ -34,7 +34,7 @@ parent: Docker
   - *"Distroless" images contain only your application and its runtime dependencies. They <mark>don’t contain any programs like shells and package managers</mark> usually found in a Linux distribution.*
   - Images für Java, Nodejs, ...
 
-**microsoft**
+**Microsoft**
 - <mark>Um Windows-Container zu nutzen, muss man in Docker für Windows 'switch to windows containers' auswählen und dann Docker neu starten</mark>
 - nur mit Windows-Host möglich & nicht jede Image-Version passt zu jeder Host-Windows-Version
 - https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container
