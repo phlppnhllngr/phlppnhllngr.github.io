@@ -20,8 +20,11 @@ parent: DevOps
   - *Helm is the best way to find, share, and use software built for Kubernetes.*
   - *Helm Charts help you define, install, and upgrade even the most complex Kubernetes application*
 - **minikube**
-  - <https://github.com/kubernetes/minikube>
   - *Run Kubernetes locally*
+  - *Minikube is the officially supported way to run Kubernetes locally on macOS, Windows, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
+  - <https://github.com/kubernetes/minikube>
+  - <https://minikube.sigs.k8s.io/docs/>
+  - <https://kubernetes.io/docs/tutorials/hello-minikube/>
 - **lens**
   - *The Kubernetes IDE*
   - <https://github.com/lensapp/lens>
