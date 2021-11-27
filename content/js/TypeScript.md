@@ -14,16 +14,16 @@ parent: JavaScript
 
 
 ## Tools
-- tsdx
+- **tsdx**
     - https://github.com/palmerhq/tsdx
     - *Zero-config CLI for TS package development*
-- ts-migrate
+- **ts-migrate**
     - *tool for helping migrate [js] code to TypeScript*
     - https://github.com/airbnb/ts-migrate
-- tsconfig/bases
+- **tsconfig/bases**
     - *TSConfigs for you to extend in your apps, tuned to a particular runtime environment* (deno, node, svelte, ...)
     - https://github.com/tsconfig/bases
-- typescript-eslint
+- **typescript-eslint**
     - "Nachfolger" von tslint
     - https://github.com/typescript-eslint/typescript-eslint
 
@@ -32,19 +32,19 @@ parent: JavaScript
 - https://github.com/DefinitelyTyped/DefinitelyTyped (@types)
 - https://github.com/TypeStrong/ts-node
 - https://www.npmjs.com/package/ts-node-dev
-- marshal.ts
+- **marshal.ts**
     - https://github.com/marcj/marshal.ts
     - *by far fastest serialization implementation to marshal JSON-representable data from JSON objects to class instances to database records and vice versa*
     - nach eigenen Angaben schneller als class-transformer
-- TypeORM
+- **TypeORM**
     - https://github.com/typeorm/typeorm
-- TypedJSON
+- **TypedJSON**
     - https://github.com/JohnWeisz/TypedJSON
     - *Typed JSON parsing and serializing for TypeScript that preserves type information*
-- overmind
+- **overmind**
     - https://github.com/cerebral/overmind
     - state management
-- class-validator
+- **class-validator**
     - https://github.com/typestack/class-validator
     - *Validation made easy using TypeScript decorators*
 - Test
@@ -60,16 +60,16 @@ parent: JavaScript
 - *has the TypeScript compiler built in, so while there still is transpilation, it's invisible to the developer.*
 
 ### Libs
-- Reno
+- **Reno**
     - *routing library designed to sit on top of Deno's standard HTTP module*
     - https://github.com/reno-router/reno
-- Aleph.js
+- **Aleph.js**
     - *The React Framework in Deno, inspired by Next.js*
     - *file-system routing, SSR & SSG, HMR with Fast Refresh, and more*
     - https://github.com/alephjs/aleph.js
-- oak
+- **oak**
     - https://github.com/oakserver/oak
     - *middleware framework for Deno's net server*
-- DenoDB
+- **DenoDB**
     - *MySQL, SQLite, MariaDB, PostgreSQL and MongoDB ORM for Deno*
     - https://github.com/eveningkid/denodb *1.1k

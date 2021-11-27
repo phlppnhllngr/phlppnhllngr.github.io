@@ -7,28 +7,28 @@ parent: Docker
 ---
 
 # Images - Varianten
-- scratch
+- **scratch**
   - ```FROM scratch```
   - *This image is most useful in the context of building base images or super minimal images that contain only a single binary and whatever it requires*
   - Image enthält <u>nichts</u>. Funktioniert trotzdem, da jede Container-Instance ein "root filesystem (rootfs)" vom Host bekommt (/etc, /proc, ... aber z.B. keine Shell)
-- slim
+- **slim**
   - headless, ohne Entwicklungstools
-- alpine
+- **alpine**
   - 4 MB
   - *Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.*
   - Paketmanager: apk
-- ubuntu
+- **ubuntu**
   - 120 MB
   - Paketmanager: apt
-- stretch
-- buster
-- debian  
+- **stretch**
+- **buster**
+- **debian**  
   - buster-slim
-- phusion
+- **phusion**
   - 8 MB
   - https://github.com/phusion/baseimage-docker 
   - *...much more powerful than Busybox or Alpine. Baseimage-docker is a special Docker image that is configured for correct use within Docker containers. It is Ubuntu, plus: Modifications for Docker-friendliness. Administration tools that are especially useful in the context of Docker. Mechanisms for easily <mark>running multiple processes</mark>, without violating the Docker philosophy.*
-- Google distroless
+- **Google distroless**
   - https://aboullaite.me/docker-distroless-image/
   - https://github.com/GoogleContainerTools/distroless *5.5k
   - *"Distroless" images contain only your application and its runtime dependencies. They <mark>don’t contain any programs like shells and package managers</mark> usually found in a Linux distribution.*

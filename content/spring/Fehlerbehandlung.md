@@ -7,8 +7,8 @@ parent: Spring
 ---
 
 # Error handling
-- https://www.baeldung.com/exception-handling-for-rest-with-spring
-- https://www.mscharhag.com/spring/rest-api-error-messages
+- <https://www.baeldung.com/exception-handling-for-rest-with-spring>
+- <https://www.mscharhag.com/spring/rest-api-error-messages>
 
 
 ## Was ein ErrorDTO beinhalten sollte
@@ -46,17 +46,17 @@ parent: Spring
 
 
 ## Libs
-- Zalando/problem-spring-web
-  - https://github.com/zalando/problem-spring-web
-- spring-retry
-  - https://github.com/spring-projects/spring-retry *900
-- errors-spring-boot-starter
-  - https://github.com/alimate/errors-spring-boot-starter *216
+- **Zalando/problem-spring-web**
+  - <https://github.com/zalando/problem-spring-web>
+- **spring-retry**
+  - <https://github.com/spring-projects/spring-retry> *900
+- **errors-spring-boot-starter**
+  - <https://github.com/alimate/errors-spring-boot-starter> *216
 - → resilience4j
-- error-handling-spring-boot-starter
-  - https://github.com/wimdeblauwe/error-handling-spring-boot-starter *105
-  - https://www.reddit.com/r/java/comments/mul95u/better_error_handling_for_your_spring_boot_rest/
+- **error-handling-spring-boot-starter**
+  - <https://github.com/wimdeblauwe/error-handling-spring-boot-starter> *105
+  - <https://www.reddit.com/r/java/comments/mul95u/better_error_handling_for_your_spring_boot_rest/>
     - Vergleich mit zalando/problem-spring-web
-- spring-rest-exception-handler
-  - https://github.com/jirutka/spring-rest-exception-handler *350 (inaktiv seit 2016)
+- **spring-rest-exception-handler**
+  - <https://github.com/jirutka/spring-rest-exception-handler> *350 (inaktiv seit 2016)
   - *handle custom exceptions, customize error responses and even localize them*

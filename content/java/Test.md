@@ -11,23 +11,23 @@ parent: Java
 - <https://github.com/akullpp/awesome-java#testing>
 
 ## BDD
-- cucumber
+- **cucumber**
   - <https://cucumber.io/docs/guides/10-minute-tutorial>
   - Integration mit Junit
   - Tools
     - courgette
       - <https://github.com/prashant-ramcharan/courgette-jvm> *60
       - *Multi-threaded / Parallelize your Java Cucumber tests on a feature level or on a scenario level*
-- jbehave
+- **jbehave**
   - <https://jbehave.org>
-- serenity
+- **serenity**
   - <https://serenity-bdd.info>
 
 
 ## Unit
-- JUnit
+- **JUnit**
   - <https://junit.org>
-  - Plugins & Erweiterungen
+  - <u>Plugins & Erweiterungen</u>
     - JUnitParams
       - <https://github.com/Pragmatists/JUnitParams>
         ```java
@@ -57,20 +57,20 @@ parent: Java
       - *simplifies JSON comparison*
       - AssertJ, hamcrest oder Spring MockMvc
       - <https://github.com/lukas-krecan/JsonUnit>
-- TestNG
+- **TestNG**
   - <http://testng.org/doc>
-- EqualsVerifier
+- **EqualsVerifier**
   - *verify whether the contract for the equals and hashCode methods in a class is met*
   - <https://github.com/jqno/equalsverifier>
 
 
 ## Mock
-- Mockito
+- **Mockito**
   - <https://site.mockito.org>
   - <https://github.com/mockito/mockito>
   - Modul für JUnit
   - ab v3.4.0 auch statische Methoden: <https://asolntsev.github.io/en/2020/07/11/mockito-static-methods>
-- Powermock
+- **Powermock**
   - <https://github.com/powermock/powermock>
   - *PowerMock is a Java framework that allows you to unit test code normally regarded as untestable... For example final classes and methods cannot be used, private methods sometimes need to be protected or unnecessarily moved to a collaborator, static methods should be avoided completely and so on simply because of the limitations of existing frameworks...*
   - <https://github.com/powermock/powermock/wiki/Getting-Started>
@@ -81,33 +81,33 @@ parent: Java
     ```java
     PowerMockito.stub(PowerMockito.method(TheClass.class, "someStaticMethod", Mockito.any())).toReturn("my return value");
     ```
-- easymock
+- **easymock**
   - <http://easymock.org>
-- jmock
+- **jmock**
   - <http://jmock.org>
-- jmockit
+- **jmockit**
   - <https://jmockit.github.io>
-- system rules
+- **system rules**
   - "mocks" java.lang.System
   - <https://www.baeldung.com/java-system-rules-junit>
-- jimfs
+- **jimfs**
   - *An in-memory file system for Java 7+*
   - <https://github.com/google/jimfs>
-- HTTP/API
-  - wiremock
+- <u>HTTP/API</u>
+  - **wiremock**
     - mit Junit4-Rule
     - <http://wiremock.org/docs/getting-started>
-  - pact
+  - **pact**
     - mit Junit-Rule
-- Datum & Zeit
+- <u>Datum & Zeit</u>
   - <http://blog.tremblay.pro/2021/01/mocking-clock.html>
 
 
 ## Generierung von Testdaten
-- Mockneat
+- **Mockneat**
   - <https://www.mockneat.com>
   - Zufallsgenerator für Primitivwrapper, Emailadressen, Namen, Adressen, ...
-- easy-random
+- **easy-random**
   - <https://github.com/j-easy/easy-random>
   - früher: benas/random-beans
   - Für eigene Klassen
@@ -126,51 +126,51 @@ parent: Java
     }
     ``` 
   - *The library will recursively populate all the object graph*
-- Java Faker
+- **Java Faker**
   - <https://github.com/DiUS/java-faker>
   - Namen, Telefon, IBAN, ...
-- beanmother
+- **beanmother**
   - generiert Zufallsobjekte anhand yaml-template
   - <https://github.com/keepcosmos/beanmother>
-- jqwik
+- **jqwik**
   - <https://jqwik.net>
 
 
 ## REST
-- rest-assured
+- **rest-assured**
   - *Java DSL for easy testing of REST services*
   - <https://github.com/rest-assured/rest-assured>
   - Modul für Spring: <https://github.com/rest-assured/rest-assured/wiki/Usage#spring-support>
 
 
 ## Integration
-- Testcontainers
+- **Testcontainers**
   - <http://testcontainers.org>
 
 
 ## Assertations & Matchers
-- Hamcrest
+- **Hamcrest**
   - <http://hamcrest.org/JavaHamcrest>
-- JsonPath
-- AssertJ
+- **JsonPath**
+- **AssertJ**
   - <http://joel-costigliola.github.io/assertj>
   - fluent API
 
 
 ## Coverage
-- JaCoCo
+- **JaCoCo**
   - <https://www.eclemma.org/jacoco>
 
 
 ## Benchmarks, Performance
 - → Junit/JfrUnit
-- JMH 
+- **JMH**
   - <http://openjdk.java.net/projects/code-tools/jmh>
   - <https://github.com/Valloric/jmh-playground>
   - <https://www.retit.de/continuous-benchmarking-with-jmh-and-junit>
-- caliper
+- **caliper**
   - <https://github.com/google/caliper> *620
-- quickperf
+- **quickperf**
   - *quickly evaluate and improve some performance-related*
   - Annotationen für `@Test`-Methoden
   - *configure test-jvm* (xmx, xms, jvm-options)
@@ -180,7 +180,7 @@ parent: Java
 
 ## Async
 - <https://github.com/akullpp/awesome-java#asynchronous>
-- awaitility
+- **awaitility**
   - <http://www.awaitility.org>
   - *Awaitility is a DSL that allows you to express expectations of an asynchronous system in a concise and easy to read manner. For example:*
     ```java
@@ -197,12 +197,12 @@ parent: Java
 
 
 ## Microservices
-- Arquillian
+- **Arquillian**
   - <http://arquillian.org>
 
 
 ## Architektur
-- ArchUnit 
+- **ArchUnit**
   - <https://github.com/TNG/ArchUnit>
   - Regeln festlegen, z.B. dass
     - Paket x keine Klassen aus Paket y importieren darf
@@ -219,20 +219,20 @@ parent: Java
 
 
 ## Mutation
-- pitest
+- **pitest**
   - <https://github.com/hcoles/pitest>
 
 
 ## Chaos
-- perses
+- **perses**
   - <https://github.com/nicolasmanic/perses> *35
 
 
 ## Test-Generatoren
-- EvoSuite
+- **EvoSuite**
   - *Generation of JUnit 4 tests for the selected classes*
   - <https://www.evosuite.org/evosuite>
   - <https://github.com/EvoSuite/evosuite>
-- Randoop
+- **Randoop**
   - *unit test generator for Java. It automatically creates unit tests for your classes, in JUnit format.*
   - <https://randoop.github.io/randoop>

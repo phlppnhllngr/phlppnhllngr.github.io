@@ -9,26 +9,26 @@ parent: API
 # Diverses
 
 ## API-Design
-- https://opensource.zalando.com/restful-api-guidelines
+- <https://opensource.zalando.com/restful-api-guidelines/>
 
 
 ## binäre Datenformate
-- Protocol Buffers
+- **Protocol Buffers**
   - im Vergleich zu json:
-    - https://www.youtube.com/watch?v=uGYZn6xk-hA
-    - (deutlich) leichtgewichtiger (https://nilsmagnus.github.io/post/proto-json-sizes/)
+    - <https://www.youtube.com/watch?v=uGYZn6xk-hA/>
+    - (deutlich) leichtgewichtiger (<https://nilsmagnus.github.io/post/proto-json-sizes/>)
     - geeigneter für große Datenmengen
     - nicht self-contained, benötigt .proto-Schemata
-- colfer
-  - https://github.com/pascaldekloe/colfer
-- bebop
+- **colfer**
+  - <https://github.com/pascaldekloe/colfer/>
+- **bebop**
   - laut eigenen Angaben schneller als google protobuf
   - C#, TS
-  - https://github.com/RainwayApp/bebop
+  - <https://github.com/RainwayApp/bebop/>
 
 
 ## gRPC
 - Microservicekommunikation mit protocol buffers, Alternative zu Http/Rest/Json
-- https://grpc.io/
-- https://github.com/fullstorydev/grpcurl
-- https://github.com/grpc/grpc-web
+- <https://grpc.io/>
+- <https://github.com/fullstorydev/grpcurl/>
+- <https://github.com/grpc/grpc-web/>

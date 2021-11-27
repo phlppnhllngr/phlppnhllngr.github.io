@@ -11,12 +11,12 @@ parent: Datenbank
   - *a prepared statement or parameterized statement is a feature used to execute the same or similar database statements repeatedly with high efficiency. ... The application may execute the statement as many times as it wants with different values*
 
 ## SQL lernen
-- sqlbolt
+- **sqlbolt**
   - *a series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser*
   - https://sqlbolt.com/ 
-- Buch "the art of postgresql"
+- **Buch "the art of postgresql"**
   - <https://theartofpostgresql.com>
-- use-the-index-luke
+- **use-the-index-luke**
   - *A site explaining SQL indexing to developers*
   - *SQL indexing is the most effective tuning method—yet it is often neglected during development. Use The Index, Luke explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.*
   - https://use-the-index-luke.com/
@@ -25,15 +25,15 @@ parent: Datenbank
 
 
 ## Tools
-- sqlglot
+- **sqlglot**
   - *Python SQL Parser and Transpiler*
   - *Easily translate from one dialect to another.*
   - unterstütze Dialekte: https://github.com/tobymao/sqlglot/blob/main/sqlglot/dialects.py
   - https://github.com/tobymao/sqlglot *250
-- jooq translate
+- **jooq translate**
   - *translate any SQL statement(s) to a different dialect*
   - https://www.jooq.org/translate/
-- sqlfluff
+- **sqlfluff**
   - Linter
   - Python
   - beta (18.5.21)

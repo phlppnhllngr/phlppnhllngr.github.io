@@ -53,9 +53,9 @@ parent: Diverses
 
 
 ## Elastic (ELK) Stack
-- elasticsearch
+- **elasticsearch**
   - https://github.com/elastic/elasticsearch
   - FOSS-Alternative: [opensearch](https://github.com/opensearch-project/OpenSearch)
     - https://github.com/opensearch-project/OpenSearch-Dashboards
-- logstash
-- kibana
+- **logstash**
+- **kibana**

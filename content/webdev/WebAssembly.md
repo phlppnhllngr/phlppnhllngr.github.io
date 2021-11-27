@@ -17,8 +17,8 @@ parent: Webdev
 - https://github.com/appcypher/awesome-wasm-langs
 - https://github.com/vshymanskyy/awesome-wasm-tools
 <br/>
-- C#
-  - Blazor
+- <u>C#</u>
+  - **Blazor**
     - client-side mode & server-side mode:
       *It’s important to distinguish between Blazor hosting models and page rendering. In the client-side model, Blazor runs on WebAssembly (WASM) inside the browser. In the server-side model, Blazor runs on the server and transfers HTML to the client via Signal-R. Both models result in a user experience comparable to SPA frameworks*
     - https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor
@@ -33,14 +33,14 @@ parent: Webdev
     - PDF: syncfusion, itext?
     - UI Libs
       - https://blazor.radzen.com/
-- Java
-  - CheerpJ
+- <u>Java</u>
+  - **CheerpJ**
     - https://leaningtech.com/pages/cheerpj.html
     - als SaaS ab 750€/Jahr, self-hosted mehr (?)
     - hohe Dateigrößen (Github-Seite gibt Tipps; wesentlich geringer mit gzip/brotli)<br/>
       https://github.com/leaningtech/cheerpj-meta/wiki
     - PDF: itext
-  - TeaVM
+  - **TeaVM**
     - http://teavm.org/
     - https://github.com/konsoletyper/teavm *1.4k
     - Stand 9.2.20
@@ -48,17 +48,17 @@ parent: Webdev
       - kann aus java/wasm nur numerische Datentypen nach js returnen
       - *emits small files*
       - *WebAssembly support is in experimental status*
-  - JWebAssembly
+  - **JWebAssembly**
     - *JWebAssembly is a Java bytecode to WebAssembly compiler.*
     - *The difference to similar projects is that not a complete VM with GC and memory management should be ported. It's more like a 1:1 conversion. The generated WebAssembly code is similar in size to the original Java class files.*
     - derzeit (15.4.21) kann die Kompilierung nur über ein Gradle-Plugin erfolgen, ein Maven-Plugin ist geplant
     - https://github.com/i-net-software/JWebAssembly *435
-  - Bytecoder
+  - **Bytecoder**
     - *transpile [java] to other languages such as JavaScript, OpenCL or WebAssembly*
     - https://github.com/mirkosertic/Bytecoder *413
     - Maven-Plugin
-- Go
+- <u>Go</u>
   - https://github.com/golang/go/wiki/WebAssembly
   - PDF: jung-kurt/gofpdf?
-- Rust
+- <u>Rust</u>
   - https://github.com/yewstack/yew

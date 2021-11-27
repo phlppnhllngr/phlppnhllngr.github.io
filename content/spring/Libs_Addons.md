@@ -9,42 +9,42 @@ parent: Spring
 # Libs & Addons
 - **dgs-framework**
   - *GraphQL server framework for Spring Boot*
-  - https://github.com/netflix/dgs-framework/
+  - <https://github.com/netflix/dgs-framework/>
 - **spring-filter**
   - *dynamically filter entities. Your API will gain a full featured search functionality. You don't work with APIs? No problem, you may still not want to mess with SQL, JPA predicates, security. From a technical point of view, I compile a simple syntax to JPA predicates.*
   - `/search?filter= average(ratings) > 4.5 and brand.name in ('audi', 'land rover') and (year > 2018 or km < 50000) and color : 'white' and accidents is empty`
   - `@GetMapping(value = "/search") public List<Entity> search(@Filter Specification<Entity> spec, Pageable page)`
   - `Filter filter = filter(like("name", "%jose%"));`
-  - https://github.com/turkraft/spring-filter *43
+  - <https://github.com/turkraft/spring-filter> *43
 - **specification-arg-resolver**
-  - https://github.com/tkaczmarzyk/specification-arg-resolver *405
+  - <https://github.com/tkaczmarzyk/specification-arg-resolver> *405
   - *API for filtering data with Spring MVC & Spring Data JPA*
   - Query params -> JPA Specification
 
 
 ## Dokumentation
 - **swagger, springfox**
-  - http://springfox.github.io/springfox/
-  - https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/
+  - <http://springfox.github.io/springfox/>
+  - <https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/>
 - **Spring REST Docs**
-  - https://spring.io/projects/spring-restdocs
-  - https://github.com/ScaCap/spring-auto-restdocs
+  - <https://spring.io/projects/spring-restdocs>
+  - <https://github.com/ScaCap/spring-auto-restdocs>
 - **springdoc-openapi**
-  - https://github.com/springdoc/springdoc-openapi
+  - <https://github.com/springdoc/springdoc-openapi>
   - *helps automating the generation of API documentation using spring boot projects*
 - **openapi-generator-for-spring**
   - *automagically generates a OpenApi v3 specification at runtime for Spring Boot applications*
   - *Integrated Swagger UI*
   - *based on experience while using Spring Fox and SpringDoc OpenApi. As those libraries have turned out to be not flexible enough (...), this library aims at being fully customizable.*
-  - https://github.com/qaware/openapi-generator-for-spring 
+  - <https://github.com/qaware/openapi-generator-for-spring >
 
 
 ## Admin
 - **spring-boot-admin**
-  - https://github.com/codecentric/spring-boot-admin
-- https://github.com/xeraa/microservice-monitoring
+  - <https://github.com/codecentric/spring-boot-admin>
+- <https://github.com/xeraa/microservice-monitoring>
   - *Monitor your Spring Boot application with the Elastic Stack*
 - **Actuator**
   - *Monitoring our app, gathering metrics, understanding traffic, or the state of our database become trivial with this dependency. The main benefit of this library is that we can get production-grade tools without having to actually implement these features ourselves. Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.*
-  - https://www.baeldung.com/spring-boot-actuators
+  - <https://www.baeldung.com/spring-boot-actuators>
   - *support for publishing authentication and authorization events in conjunction with Spring Security* → spring/security

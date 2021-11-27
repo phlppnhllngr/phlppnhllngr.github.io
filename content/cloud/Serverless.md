@@ -13,21 +13,21 @@ parent: Cloud
 - Voraussetzung: gute Performance (v.a. Bootzeit) der Anwendung
 
 ## Plattformen & Frameworks
-- fn
+- **fn**
   - *The container native, cloud agnostic serverless platform*
   - *supports building serverless applications in Go, Java, JavaScript, Python, Ruby, C#*
   - *use any Docker container as your Function*
-  - https://github.com/fnproject/fn
-- serverless
+  - <https://github.com/fnproject/fn>
+- **serverless**
     - *Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!*
     - https://github.com/serverless/serverless *30.800
     - Node-CLI mit Starter für java-, js-, ... Projekte
-- OpenFaaS
-  - https://www.openfaas.com/
-  - https://github.com/openfaas/faas
+- **OpenFaaS**
+  - <https://www.openfaas.com/>
+  - <https://github.com/openfaas/faas>
   - *deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding*
   - *Build both microservices & functions in any language.*
   - *Avoid lock-in through the use of Docker. Run on any public or private cloud.*
-- consul
-  - https://www.consul.io/
+- **consul**
+  - <https://www.consul.io/>
   - *Automate network configurations, discover services, and enable secure connectivity across any cloud or runtime.*

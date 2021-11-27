@@ -9,27 +9,27 @@ parent: Diverses
 # Dokumente
 
 ## DMS
-- seeddms
+- **seeddms**
   - https://www.seeddms.org/index.php
-- teedy
+- **teedy**
   - https://github.com/sismics/docs
-- papermerge
+- **papermerge**
   - *Document Management System for Digital Archives (Scanned Documents)*
   - https://github.com/ciur/papermerge
 
 
 ## Templates
-- WebMerge 💰
+- **WebMerge** 💰
   - https://www.webmerge.me/
   - *document generation, based on templates*
-- Pandoc
+- **Pandoc**
   - https://github.com/jgm/pandoc
   - *Universal markup converter*
   - *to/from docx, html, marldown, pdf, ...*
-- Docupilot 💰
+- **Docupilot** 💰
   - *document templates + webservice integration*
   - https://docupilot.app/
-- Spondyr 💰
+- **Spondyr** 💰
   - *document templates + output management*
   - https://spondyr.io/
   

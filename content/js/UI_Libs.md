@@ -11,7 +11,7 @@ parent: JavaScript
 - https://bit.dev/collections
 
 ## Animationen
-- gsap
+- **gsap**
 - animierte URLs http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/
 - Scrolling
   - http://scrollmagic.io/
@@ -29,130 +29,128 @@ parent: JavaScript
   - *Scene.js is an JavaScript & CSS timeline-based animation library*
   - https://github.com/daybrush/scenejs ⭐500
   - https://github.com/daybrush/scenejs-effects
-- barba
+- **barba**
   - https://github.com/barbajs/barba ⭐7.8k
   - *Create badass, fluid and smooth transition between your website's pages*
-- swiper
+- **swiper**
   - *Most modern mobile touch slider with hardware accelerated transitions*
   - https://swiperjs.com/demos
   - https://github.com/nolimits4web/swiper
-- greensock
+- **greensock**
   - https://greensock.com/
   - gsap
-- aos
+- **aos**
   - animate on scroll
   - https://github.com/michalsnik/aos
-- MagneticButtons
+- **MagneticButtons**
   - https://github.com/codrops/MagneticButtons
 
 
 ## Popups
-- SweetAlert2
+- **SweetAlert2**
   - https://sweetalert2.github.io/
   - multi-step, custom content, ...
-- micromodal
+- **micromodal**
   - *lightweight, configurable and a11y-enabled modal library*
   - https://micromodal.now.sh/
-- winbox
+- **winbox**
   - fullscreen, minimize, drag, resize, url (iframe)
   - https://nextapps-de.github.io/winbox/
 
 
 ## Loading
-- loadingio
+- **loadingio**
   - https://loading.io/
   - create customized loading spinner in browser
-- pace
+- **pace**
   - https://github.com/HubSpot/pace
   - *Automatically add a progress bar to your site*
 
 
 ## Forms
-- SurveyJS
+- **SurveyJS**
   - https://github.com/surveyjs/surveyjs ⭐2.2k
-- formio.js
+- **formio.js**
   - https://github.com/formio/formio.js
   - *JavaScript powered Forms with JSON Form Builder*
 
 
 ## Charts
-- highcharts
+- **highcharts**
   - https://www.highcharts.com/
   - https://github.com/highcharts/highcharts ⭐9.2k
-- chart.js
+- **chart.js**
   - https://www.chartjs.org/
   - https://github.com/chartjs/Chart.js ⭐47k
-- d3
+- **d3**
   - https://d3js.org/
   - https://github.com/d3/d3 ⭐89.7k
 - ~~bizcharts~~
   - https://github.com/alibaba/BizCharts ⭐3700
   - doku nur chinesisch
-- billboard.js
+- **billboard.js**
   - https://github.com/naver/billboard.js ⭐3.8k
   - *based on D3 v4+*
-- frappe charts
+- **frappe charts**
   - https://github.com/frappe/charts ⭐13.1k
-- echarts
+- **echarts**
   - https://echarts.apache.org/
   - https://github.com/apache/incubator-echarts ⭐39.2k
-- apexcharts.js
+- **apexcharts.js**
   - https://github.com/apexcharts/apexcharts.js ⭐10.2k
   - *built on SVG*
 
 
 ## Images, SVG
-- lazysizes
+- **lazysizes**
   - https://github.com/aFarkas/lazysizes
-- img-2
+  - *lazy loader for images, iframes and more*
+- **img-2**
   - https://github.com/RevillWeb/img-2
-- imagehover
+- **imagehover**
   - http://imagehover.io/
-- puffin.js
+- **puffin.js**
   - https://github.com/Treast/puffin.js
-- snasvg.io 
+- **snasvg.io**
   - http://snapsvg.io/
   - SVGs programmatisch erzeugen
   - *makes working with your SVG assets as easy as jQuery makes working with the DOM / With a rich animation library and easy event handling*
-- cosha
+- **cosha**
   - https://github.com/robinloeffel/cosha
   - *Colorful shadows for your images*
-- lozad
+- **lozad**
   - https://apoorv.pro/lozad.js/
   - *lazy loader for images, iframes and more, using IntersectionObserver API*
-- lazysizes
-  - https://github.com/aFarkas/lazysizes *12.9k
-  - *lazy loader for images, iframes and more*
-- masonry
+- **masonry**
   - https://github.com/desandro/masonry
-- fabric.js
+- **fabric.js**
   - *Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser*
   - https://github.com/fabricjs/fabric.js
-- marker.js
+- **marker.js**
   - https://markerjs.com/
   - *image annotation functionality*
-- spotlight
+- **spotlight**
   - *lightbox gallery library*
   - https://nextapps-de.github.io/spotlight/
 
 
 ## QR Code
 - Browser will skaliertes Bild ggf. "smoothen" →; [css image-rendering: pixelated;](https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering)
-- qrcode.js
+- **qrcode.js**
   - https://davidshimjs.github.io/qrcodejs/
   - https://github.com/davidshimjs/qrcodejs ⭐7200
   - https://www.npmjs.com/package/qrcodejs2 (**2!**)
   - 19.7kb minified, 6.9kb gzipped
   - `npm install qrcodejs2 / import QRCode from 'qrcodejs2/qrcode.js'; const qr = new QRCode(...);`
-- javascript-qrcode
+- **javascript-qrcode**
   - https://www.npmjs.com/package/javascript-qrcode
   - https://github.com/siciarek/javascript-qrcode ⭐25
-- node-qrcode
+- **node-qrcode**
   - https://github.com/soldair/node-qrcode ⭐3000
   - auch Browser
   - https://www.npmjs.com/package/qrcode
   - 28.6kb minified
-- qrcode-svg
+- **qrcode-svg**
   - https://www.npmjs.com/package/qrcode-svg
   - https://github.com/papnkukn/qrcode-svg ⭐100
   - 16.1kb minified, 5.7kb gzipped
@@ -160,18 +158,18 @@ parent: JavaScript
 
 ## Drag & Drop
 - https://bestofjs.org/projects?tags=dnd
-- movable
+- **movable**
   - https://github.com/daybrush/moveable ⭐4.6k
   - *Moveable is Draggable, Resizable, Scalable, Rotatable, Warpable, Pinchable, Groupable, Snappable*
-- dragula
+- **dragula**
   - https://github.com/bevacqua/dragula ⭐20k
-- interact.js
+- **interact.js**
   - https://github.com/taye/interact.js ⭐9.6k
   - *drag and drop, resizing and multi-touch gestures*
-- Sortable
+- **Sortable**
   - https://github.com/RubaXa/Sortable ⭐20.7k
   - *reorderable drag-and-drop lists*
-- Dropzone
+- **Dropzone**
   - https://www.dropzonejs.com/
   - für File-Uploads
 - https://github.com/knadh/dragmove.js
@@ -180,52 +178,52 @@ parent: JavaScript
 
 
 ## Text
-- bounty
+- **bounty**
   - "Slot machine"-Effekt
   - https://github.com/coderitual/bounty
-- highlight.js
+- **highlight.js**
   - https://github.com/highlightjs/highlight.js
   - *Javascript syntax highlighter*
   - *works with pretty much any markup, doesn’t depend on any framework, and has automatic language detection.*
   - *Highlight.js supports over 180 different languages in the core library. There are also 3rd party language plugins available for additional languages.*
 - https://github.com/inorganik/CountUp.js
-- typed
+- **typed**
   - https://github.com/mattboldt/typed.js/
   - typing animations
 
 
 ## Diverse
-- ag-grid
+- **ag-grid**
   - data grid, auch Versionen für die gängigen Frameworks
   - https://www.ag-grid.com/
-- introjs
+- **introjs**
   - *Step-by-step guide and feature introduction*
   - https://introjs.com/
-- shepherd
+- **shepherd**
   - *Guide your users through a tour of your app*
   - https://github.com/shipshapecode/shepherd
-- favico.js
+- **favico.js**
   - Badge für Favicon
   - https://github.com/ejci/favico.js
-- flatpickr ⭐12.5k
+- **flatpickr** ⭐12.5k
   - https://github.com/flatpickr/flatpickr
   - *lightweight, powerful javascript datetimepicker with no dependencies*
-- hand drawn look
+- <u>hand drawn look</u>
   - https://github.com/pshihn/rough
   - https://github.com/jwilber/roughViz
   - https://github.com/wiredjs/wired-elements
-- verge
+- **verge**
   - http://verge.airve.com/
   - *set of cross-browser viewport utilities*
-- fullPage.js ⭐30.4k
+- **fullPage.js** ⭐30.4k
   - https://github.com/alvarotrigo/fullPage.js
   - lib für one-pager (slide-artiges layout, scroll vertikal & horizontal)
   - wrapper für [ng](https://github.com/alvarotrigo/angular-fullpage), vue, react
   - [diverse extensions](https://alvarotrigo.com/fullPage/extensions/) (parallax, fade effect, '3d' card transition, ...), kosten zusätzlich
   - kommerzieller einsatz kostet, open-source umsonst
-- list.js
+- **list.js**
   - *for adding search, sort, filters and flexibility to tables, lists and various HTML elements*
   - *Built to be invisible and work on existing HTML*
   - https://github.com/javve/list.js
-- body-scroll-lock
+- **body-scroll-lock**
   - https://github.com/willmcpo/body-scroll-lock

@@ -75,7 +75,7 @@ parent: Webdev
       ```
 - **Selenium**
   - https://www.seleniumhq.org/
-  - Tools
+  - <u>Tools</u>
     - Selenium IDE
       - https://selenium.dev/selenium-ide/
       - *record and playback test automation for the web*

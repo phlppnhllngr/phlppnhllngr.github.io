@@ -11,7 +11,7 @@ parent: Spring
   - ResponseEntityExceptionHandler
   - RequestBodyAdvice
 - **Events**
-  - https://www.baeldung.com/spring-events
+  - <https://www.baeldung.com/spring-events>
 - **Caching (client side)**
   - https://www.baeldung.com/spring-mvc-cache-headers
 - **Resource Updates**
@@ -19,7 +19,7 @@ parent: Spring
 
 
 ## Security
-- https://spring.io/projects/spring-security
+- <https://spring.io/projects/spring-security>
 - **Submodul OAuth**
   - langfristig abgelöst durch Spring Authorization Server
 - **Submodul Authorization Server**
@@ -34,7 +34,7 @@ parent: Spring
 - **@EnableWebSecurity**
   - *spring-boot-starter-security activates `@EnableWebSecurity` for us. This applies Spring's default security configuration to our application. Default security activates both HTTP security filters and the security filter chain and applies basic authentication to our endpoints.*
   - *Although most of our requirements can be met by extending `WebSecurityConfigurerAdapter`, there may be occasions where we want to replace Spring's default Security configuration entirely. To do this, we can implement `WebSecurityConfigurer` rather than extend WebSecurityConfigurerAdapter*
-  - https://www.baeldung.com/spring-enablewebsecurity-vs-enableglobalmethodsecurity
+  - <https://www.baeldung.com/spring-enablewebsecurity-vs-enableglobalmethodsecurity>
 - **@EnableGlobalMethodSecurity**
   - *To apply security using an annotation-driven approach, we can use `@EnableGlobalMethodSecurity`.*
   - *Our annotated security only gets applied when we enter a class via a public method*

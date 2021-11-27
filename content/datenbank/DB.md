@@ -15,10 +15,10 @@ parent: Datenbank
   - *doesn't go well with distributed dbs, sharding*
 - UUID
 - Hash-ID
-  - https://hashids.org/
+  - <https://hashids.org/>
 - ULID
   - Universally Unique Lexicographically Sortable Identifier
-  - https://github.com/ulid/spec
+  -<> https://github.com/ulid/spec>
 
 
 ## DBMS
@@ -64,23 +64,23 @@ parent: Datenbank
     ```
 
 ### In-memory
-- h2
-- hsqldb
-- sqlite
-- duckdb
-  - https://duckdb.org/
-  - java, python, ...
+- **h2**
+- **hsqldb**
+- **sqlite**
+- **duckdb**
+  - <https://duckdb.org/>
+  - Java, Python, ...
 
 
 ## Graphendatenbank
-- neo4j
-  - https://neo4j.com/
+- **neo4j**
+  - <https://neo4j.com/>
 
 
 ## NOSQL
-- mongodb
-- cassandra
-  - https://cassandra.apache.org/
+- **mongodb**
+- **cassandra**
+  - <https://cassandra.apache.org/>
   
 
 ## GUI Clients
@@ -101,16 +101,16 @@ parent: Datenbank
 ## Migration
 - Um Änderungen an DBs in mehreren Umgebungen vorzunehmen ("schema migration"). Oft müssen dann auch bestehende Daten angepasst werden ("data migration").
 - Test z.B. mit Lib "testcontainers"
-- flyway
-  - https://flywaydb.org/
+- **flyway**
+  - <https://flywaydb.org/>
   - Skripte: Java oder SQL (die Skripte sind abhängig vom DB-Vendor)
   - CLI oder embedded in (Java-)Anwendung  (beim Start der App)
   - *detects required update operations and executes them*
   - *current versions and updates stored in separate table*
-- liquibase
-  - https://www.liquibase.org/
+- **liquibase**
+  - <https://www.liquibase.org/>
   - kann - im Gegensatz zu flyway - DB-Vendor-unabhängige Migrationen (?)
-- bytebase
+- **bytebase**
   - *database schema change and version control management tool for teams*
   - *it supports 2 mainstream schema change workflow: UI based SQL review / Version control based schema migration (Database-as-Code)*
   - *Supported database engines: MySQL / Planned: PostgreSQL*
@@ -118,8 +118,8 @@ parent: Datenbank
 
 ## Change data capture
 - Debezium
-  - https://github.com/debezium/debezium *1800
-  - https://debezium.io/
+  - <https://github.com/debezium/debezium/> *1800
+  - <https://debezium.io/>
   - *Monitoring databases and being notified when data changes. data streaming platform for change data capture (CDC). configure Debezium to monitor your databases, and then your applications consume events for each row-level change made to the database. reusing Kafka and Kafka Connect.*
   - *Common use cases: Cache invalidation, Simplifying monolithic applications, Data integration*
 

@@ -32,7 +32,7 @@ parent: Webdev
   - Desktop-App
   - https://github.com/mockoon/mockoon *1100
 - **postman**
-  - https://www.codingular.com/2019/04/mocking-api-using-postman/
+  - <https://www.codingular.com/2019/04/mocking-api-using-postman/>
   - privater Mock-Server nur mit Api-Key
 - **mockaroo**
   - random data generator, file download (csv, json, sql, ...) & rest api
@@ -60,7 +60,7 @@ parent: Webdev
   - *RESTful APIs and SOAP web services.*
   - *can create mocked services based on WSDL, WADL, Swagger and RAML definition files*
   - Installation: .war oder Docker-Image
-  - [https://github.com/castlemock/castlemock](https://github.com/castlemock/castlemock) *176
+  - <https://github.com/castlemock/castlemock> *176
 
 
 ## Code based
@@ -91,24 +91,24 @@ parent: Webdev
 
 ### Java
 - **WireMock**
-  - http://wiremock.org/
-  - https://github.com/tomakehurst/wiremock *3600
+  - <http://wiremock.org/>
+  - <https://github.com/tomakehurst/wiremock> *3600
   - gut konfigurierbar (java oder json)
   - randomizable delays, faulty reponses
 - **hoverfly**
-  - https://github.com/SpectoLabs/hoverfly-java *100
+  - <https://github.com/SpectoLabs/hoverfly-java> *100
 
 ### Andere Sprachen
 - **mockserver**
-  - https://github.com/mock-server/mockserver
-  - http://www.mock-server.com
+  - <https://github.com/mock-server/mockserver>
+  - <http://www.mock-server.com>
   - js und java
   - gut konfigurierbar
   - Maven-Plugin zur Nutzung für Tests
 - **prism**
-  - https://github.com/stoplightio/prism
+  - <https://github.com/stoplightio/prism>
   - *Turn any OpenAPI file into an API server with mocking, transformations, validations, and more.*
-  - https://stoplight.io/open-source/prism/
+  - <https://stoplight.io/open-source/prism/>
 - **mocking hans**
   - https://github.com/loremipsum/mocking-hans *20
   - TS

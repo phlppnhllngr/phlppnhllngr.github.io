@@ -11,25 +11,25 @@ parent: JavaScript
   - *Comprehensive and exhaustive JavaScript & Node.js testing best practices*
 
 ## Frameworks, Runners
-- Karma
+- **Karma**
   - https://karma-runner.github.io/latest/index.html
-- Jasmine
+- **Jasmine**
   - https://jasmine.github.io/
-- Wallaby
+- **Wallaby**
   - https://wallabyjs.com/
-- Mocha
+- **Mocha**
   - https://mochajs.org/
-- cypress
-- ava
+- **cypress**
+- **ava**
   - https://github.com/avajs/ava ⭐17.4k
-- Jest
+- **Jest**
   - https://facebook.github.io/jest/
   - https://github.com/facebook/jest ⭐29k
   - Tipps
     - manche flags sind nur als cli-args möglich, und nicht im config-file (z.B. `detectOpenHandles` und `runInBand`)
     - `--bail` führt dazu, dass nach der ersten fehlgeschlagenen suite (=file) abgebrochen wird. um schon nach dem ersten fehlgeschlagenen it/test abzubrechen, braucht man `jest-circus`: https://github.com/facebook/jest/issues/6527#issuecomment-734917527
-  - tooling
-    - https://github.com/jest-community/awesome-jest
+  - <u>Tooling</u>
+    - <https://github.com/jest-community/awesome-jest>
     - majestic
       - https://github.com/Raathigesh/majestic ⭐4800
       - *Zero config GUI for Jest*
@@ -69,24 +69,24 @@ parent: JavaScript
         expect(image).toMatchImageSnapshot();
         ```
       - https://github.com/americanexpress/jest-image-snapshot
-- testing-library
+- **testing-library**
   - https://testing-library.com/
   - Erweiterungen für Angular, Vue, svelte, cypress, puppeteer, ...
   - dom-testing-library
     - https://github.com/testing-library/dom-testing-library
-- testem
+- **testem**
   - https://github.com/testem/testem ⭐2.9k
   - *Support for Jasmine, QUnit, Mocha, Others, through custom test framework adapters. Run tests in all major browsers as well as Node and PhantomJS*
-- cucumber
+- **cucumber**
   - https://cucumber.io/
   - https://github.com/cucumber/cucumber-js
 
 
 ## Assertions
-- Chai
-- jest
-- jasmine
-- cypress
+- **Chai**
+- **jest**
+- **jasmine**
+- **cypress**
 
 
 ## Mock, Spy
@@ -94,10 +94,10 @@ parent: JavaScript
 - http://sinonjs.org/
 - https://github.com/Netflix/pollyjs (Http)
 - https://github.com/jsdom/jsdom
-- jasmine
-- jest
-- enzyme
+- **jasmine**
+- **jest**
+- **enzyme**
 
 
 ## Code coverage
-- istanbul
+- **istanbul**

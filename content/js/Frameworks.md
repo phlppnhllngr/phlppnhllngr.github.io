@@ -45,11 +45,11 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
       - https://github.com/elderjs/elderjs
     - snowpack
     - https://github.com/GeopJr/SveltePress
-- Ionic
+- **Ionic**
   - https://ionicframework.com/
-- hyperapp
+- **hyperapp**
   - https://github.com/jorgebucaran/hyperapp *17k
-- apprun
+- **apprun**
   - https://github.com/yysun/apprun *900
 - **preact**
   - https://preactjs.com/
@@ -58,32 +58,32 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
   - preact vs react
     - https://preactjs.com/guide/v10/differences-to-react/
     - *we don't ship our own Synthetic Event system [...] follow a bit more closely the DOM specification*
-- domponent
+- **domponent**
   - https://github.com/tamb/domponent *50
-- stimulus
+- **stimulus**
   - https://github.com/stimulusjs/stimulus *7.8k
-- project-x
+- **project-x**
   - https://github.com/calebporzio/project-x *500
-- alpine
+- **alpine**
   - https://github.com/alpinejs/alpine *2.3k
   - *A rugged, minimal framework for composing JavaScript behavior in your markup.*
-- mint
+- **mint**
   - https://www.mint-lang.com/
   - *programming language for writing single page applications*
   - compiled zu react
-- fluorjs
+- **fluorjs**
   - https://fluorjs.github.io/
-- moon
+- **moon**
   - https://github.com/kbrsh/moon *5.1k
   - inaktiv seit 03/2020
 - **solid**
   - https://github.com/ryansolid/solid
   - nach eigenen Angaben das performanteste JS-Framework (12/2020; https://javascript.plainenglish.io/javascript-frameworks-performance-comparison-2020-cd881ac21fce)
-- turbolinks
+- **turbolinks**
   - https://github.com/turbolinks/turbolinks *11.8k
   - *Get the performance benefits of a single-page application without the added complexity of a client-side JavaScript framework.*
   - *Use HTML to render your views on the server side and link to pages as usual. When you follow a link, Turbolinks automatically fetches the page, swaps in its `<body>`, and merges its `<head>`, all without incurring the cost of a full page load.*
-- htmx
+- **htmx**
   - https://htmx.org/
   - *allows you to access AJAX, WebSockets and Server Sent Events directly in HTML, using attributes*
   - *htmx is the successor to intercooler.js*
@@ -95,7 +95,7 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
     <button hx-post="/clicked" hx-swap="outerHTML">Click Me</button>
     ```
     *The hx-post and hx-swap attributes tell htmx: "When a user clicks on this button, issue an AJAX request to /clicked, and replace the entire button with the response"*
-- single-spa
+- **single-spa**
   - *allows you to: Use multiple frameworks on the same page*
   - *a JavaScript router for front-end microservices. With single-spa you can use multiple frameworks in a single-page application, allowing you to split code by functionality and have Angular, React, Vue.js, etc. apps all living in harmony. single-spa makes them work together and won't load them until they're needed.*
   - https://github.com/single-spa/single-spa

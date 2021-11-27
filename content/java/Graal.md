@@ -7,17 +7,17 @@ parent: Java
 ---
 
 # Graal
-- https://www.graalvm.org/
-- https://github.com/oracle/graal
+- <https://www.graalvm.org/>
+- <https://github.com/oracle/graal>
 - *a high-performance multilingual runtime*
 - *possible to mix multiple programming languages in a single application*
 - java, js, ruby, ...
-- Docker images: https://www.graalvm.org/docs/getting-started/container-images/
-- https://www.graalvm.org/reference-manual/native-image/
-- https://www.graalvm.org/docs/getting-started/#native-images
-- https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241
-- docker
-  - https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm
+- <https://www.graalvm.org/reference-manual/native-image/>
+- <https://www.graalvm.org/docs/getting-started/#native-images>
+- <https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241>
+- <Docker
+  - <https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm>
+  - <https://www.graalvm.org/docs/getting-started/container-images/>
 
 
 ## native-image
@@ -29,12 +29,12 @@ Most importantly though, the executables built with Native Image are standalone 
 - läuft dann nicht im JVM, sondern in einer embedded "Substrate VM" (gc, thread scheduler, ...)
 - wenn die `glibc`-Implementierung ("GNU C Library") der Build-Maschine eine andere ist, als die der Maschine, auf das Image läuft, muss mit `--static` compiled werden (Bsp.: oracle/graalvm-docker für Build, alpine-docker für App)
 - hat Limitationen (Reflection, static initializers, ...)
-  - https://www.graalvm.org/reference-manual/native-image/Limitations/
-  - https://github.com/oracle/graal/blob/master/substratevm/BuildConfiguration.md
-    - https://github.com/oracle/graal/blob/master/substratevm/BuildConfiguration.md#assisted-configuration-of-native-image-builds
+  - <https://www.graalvm.org/reference-manual/native-image/Limitations/>
+  - <https://github.com/oracle/graal/blob/master/substratevm/BuildConfiguration.md>
+    - <https://github.com/oracle/graal/blob/master/substratevm/BuildConfiguration.md#assisted-configuration-of-native-image-builds>
   - Reflection
     - Graal versucht beim Compilen rauszufinden, welche Klassen per Reflection verwendet werden. Wenn das nicht gelingt, muss man selbst konfigurieren
-    - https://github.com/oracle/graal/blob/master/substratevm/Reflection.md
+    - <https://github.com/oracle/graal/blob/master/substratevm/Reflection.md>
     - ```json
       {
         "name" : "java.lang.Class",
@@ -62,11 +62,11 @@ Most importantly though, the executables built with Native Image are standalone 
   - Resources
     - bei Resources gibt es keine automatische Erkennung. Alle müssen manuell/explizit genannt werden (aber: siehe assisted configuration oben).
     - in den Beispielen werden die glob-patterns z.B. als "*/test.txt$" angegeben (Datei in src/main/resources), was aber anscheinend nur funktioniert: "test.txt"
-    - https://github.com/oracle/graal/blob/master/substratevm/Resources.md
+    - <https://github.com/oracle/graal/blob/master/substratevm/Resources.md>
 - nur Java 8 & 11 (Stand 06/20)
 - Tools
   - Maven-Plugin → Java/Maven
   - graalvm dashboard
-    - *web-based visualization tool to help make sense of the information on methods compilation, reachability, class usability, profiling data, preinitialized heap data and the static analysis results. In other words, you can monitor what classes, packages, and preinitialized objects fill up the executable, see how much space certain package occupies, and what classes objects take most of the heap. All this data is very helpful at understanding how to optimize the application to make its binary even smaller.* (https://medium.com/graalvm/making-sense-of-native-image-contents-741a688dab4d)
-    - https://www.graalvm.org/docs/tools/dashboard/?ojr=dashboard
+    - *web-based visualization tool to help make sense of the information on methods compilation, reachability, class usability, profiling data, preinitialized heap data and the static analysis results. In other words, you can monitor what classes, packages, and preinitialized objects fill up the executable, see how much space certain package occupies, and what classes objects take most of the heap. All this data is very helpful at understanding how to optimize the application to make its binary even smaller.* (<https://medium.com/graalvm/making-sense-of-native-image-contents-741a688dab4d>)
+    - <https://www.graalvm.org/docs/tools/dashboard/?ojr=dashboard>
 

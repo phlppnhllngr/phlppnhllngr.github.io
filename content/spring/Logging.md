@@ -11,8 +11,8 @@ parent: Spring
 - *The mandatory logging dependency in Spring is the Jakarta Commons Logging API (JCL)* [2]
 - *the modules in Spring depend explicitly on (Apache-)commons-logging (the canonical implementation of JCL)* [2]
 - *Default configurations are provided for Java Util Logging, Log4J2, and Logback.*
-- commons-logging nicht benutzen: https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-not-using-commons-logging
-- Slf4j benutzen: https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-logging-slf4j
+- commons-logging nicht benutzen: <https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-not-using-commons-logging>
+- Slf4j benutzen: <https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-logging-slf4j>
 
 
 ## spring-boot-starter-logging
@@ -23,8 +23,8 @@ parent: Spring
 
 ## spring-cloud-sleuth
 - *automatically adds trace and span IDs to our logs and propagates them from one service to the next via request headers when using supported HTTP clients*
-  (https://reflectoring.io/structured-logging/)
-- https://github.com/spring-cloud/spring-cloud-sleuth
+  (<https://reflectoring.io/structured-logging/>)
+- <https://github.com/spring-cloud/spring-cloud-sleuth>
 
 
 ## MDC

@@ -9,7 +9,7 @@ parent: API
 # Tools
 - → Automatisierung/Lowcode (low code APIs)
 - **supabase**
-  - https://github.com/supabase/supabase *12.1k
+  - <https://github.com/supabase/supabase/> *12.1k
   - *The open source Firebase alternative.*
   - *adds realtime and RESTful APIs to your existing PostgreSQL database without a single line of code*
   - *listen to database changes*
@@ -25,18 +25,18 @@ parent: API
 - **api-platform**
   - *web framework designed to easily create API-first projects*
   - php, db, frontend (vue/react), api
-  - https://api-platform.com/
+  - <https://api-platform.com/>
 - **postgREST**
-  - https://github.com/PostgREST/postgrest *16.2k
+  - <https://github.com/PostgREST/postgrest/> *16.2k
   - *serves a fully RESTful API from any existing PostgreSQL database*
   - *handles authentication (via JSON Web Tokens) and delegates authorization to the role information defined in the database*
-- **directus**
-  - https://github.com/directus/docs
+- **Directus**
+  - <https://github.com/directus/docs/>
   - *suite of software that wraps custom SQL databases with a dynamic API and intuitive Admin App*
   - *Directus is database-first at it's foundation, far more "open", performant, and flexible. [compared to other headless cms]*
 - **appwrite**
-  - https://github.com/appwrite/appwrite
-  - https://appwrite.io/
+  - <https://github.com/appwrite/appwrite/>
+  - <https://appwrite.io/>
   - *Appwrite API services aim to make developer's life a lot easier by hiding the complexity of common and repetitive software development tasks. Using Appwrite, you can easily manage*
     - *user authentication with multiple sign-in methods*
     - *a database for storing and querying user and team data*

@@ -31,39 +31,39 @@ parent: Spring
 - *@Transactional also works on other things, for instance with our AMQP listener, it puts messages back in the queue if processing fails.*
 - <https://blog.ippon.tech/boost-the-performance-of-your-spring-data-jpa-application>
 - <https://thorben-janssen.com/hibernate-features-with-spring-data-jpa>
-- Tools
-  - jplusone
+- <u>Tools</u>
+  - **jplusone**
     - *automatic detection and asserting "N+1 SELECT problem" occurences in JPA based Spring Boot Java applications and finding origin of JPA issued SQL statements in general*
     - <https://github.com/adgadev/jplusone>
-  - data-envers
+  - **data-envers**
     - *allow access to entity revisions managed by Hibernate Envers*
     - <https://github.com/spring-projects/spring-data-envers>
     - Bsp-Repo: <https://github.com/rashidi/spring-data-envers-audit-entity>
-  - spring-data-jpa-entity-graph
+  - **spring-data-jpa-entity-graph**
     - <https://github.com/Cosium/spring-data-jpa-entity-graph>
-  - spring-data-jpa-temporal
+  - **spring-data-jpa-temporal**
     - *an extension of spring-data-jpa that makes it simple to keep an audit of your data in the same table as your main data itself*
     - <https://github.com/ClaudioConsolmagno/spring-data-jpa-temporal> *1
-- Test
-  - @DataJpaTest (Spring Boot)
+- <u>Test</u>
+  - **@DataJpaTest** (Spring Boot)
     - *used to test JPA repositories*
     - *By default, tests annotated with @DataJpaTest use an embedded in-memory database*
     - *by default, each test method runs in its own transaction, which is rolled back after the method has executed.*
     - <https://reflectoring.io/spring-boot-data-jpa-test>
-  - @AutoConfigureTestDatabase
+  - **@AutoConfigureTestDatabase**
     - *can be applied to a test class to configure a test database to use instead of the application-defined or auto-configured DataSource*
-  - spring-test-dbunit
+  - **spring-test-dbunit**
     - *Integration between the Spring testing framework and DBUnit*
     - <https://github.com/springtestdbunit/spring-test-dbunit>
 
 
 ## Vergleich
-- JDBC ohne Spring Data
+- **JDBC ohne Spring Data**
   - *You get 100% fine-grained control over what is happening*
   - *You probably want to use some library in order to cut down on boilerplate code (jooq, mybatis, Spring JdbcTemplate)*
-- JDBC mit Spring Data
+- **JDBC mit Spring Data**
   - *You get the benefits of Spring Data, combined with those of JDBC*
-- Hibernate (oder anderes JPA-ORM) mit Spring Data
+- **Hibernate (oder anderes JPA-ORM) mit Spring Data**
   - *JPA does a lot of things over JDBC: Caching (1st, 2nd level, and query cache), Automated creation of instances from queries, Navigation between entities, Lazy loading*
   - *With all this stuff happening it can be difficult understanding what is happening and why*
 
@@ -71,7 +71,7 @@ parent: Spring
 ## Migration
 → Datenbank/Migration
 Besser, die DB-Migration von der Anwendung zu trennen?
-- Flyway
+- **Flyway**
   - <https://reflectoring.io/database-migration-spring-boot-flyway>
   - <https://reflectoring.io/spring-boot-flyway-testcontainers>
   - mit Hibernate

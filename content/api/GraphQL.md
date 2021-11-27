@@ -7,7 +7,7 @@ parent: API
 ---
 
 # GraphQL
-- https://graphql.org/
-- https://github.com/graphql/graphiql
-- https://www.apollographql.com/
+- <https://graphql.org/>
+- <https://github.com/graphql/graphiql/>
+- <https://www.apollographql.com/>
 

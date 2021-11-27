@@ -20,67 +20,67 @@ parent: JavaScript
 - https://github.com/vuejs/vue-cli
 - https://github.com/vuejs/vue-dev-server
 - https://github.com/vuejs/vue-devtools
-- volar
+- **volar**
   - VSCode-Plugin für Vue 3
   - vue3 docs: *The recommended IDE setup is VSCode + the Volar extension*
   - https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar
-- vetur
+- **vetur**
   - https://github.com/vuejs/vetur
 - https://github.com/HcySunYang/vuese
-- prevue
+- **prevue**
   - https://github.com/teamprevue/PreVue
   - *All in One Prototyping Tool For Vue Developers*
-- overvue
+- **overvue**
   - https://medium.com/better-programming/overvue-a-vue-prototyping-tool-f2b8a2f0c229
   - https://www.overvue.io/
   - https://github.com/TeamOverVue/OverVue ⭐2k
   - erstellen von Components anhand von Designs (Bilder)
 - https://github.com/chrisvfritz/vue-enterprise-boilerplate
-- vue-styleguidist
+- **vue-styleguidist**
   - https://github.com/vue-styleguidist/vue-styleguidist ⭐2.1k
   - ähnlich storybook
-- vite → JavaScript/Entwicklungstools
+- **vite** → JavaScript/Entwicklungstools
 - → Webdev/Devserver
 
 
 ## Frameworks
-- nuxt
+- **nuxt**
   - SSR / SPA / Static site
   - https://nuxtjs.org/
   - https://github.com/nuxt/nuxt.js ⭐37.4k
   - https://github.com/nuxt/create-nuxt-app ⭐3k
     - project generator
     - choose ui framework, linter, testing, rendering mode, deployment (static/node)
-- vuepress
+- **vuepress**
   - https://vuepress.vuejs.org/
   - https://github.com/vuejs/vuepress ⭐19.3k
   - static site generator
-- vitepress
+- **vitepress**
   - bessere performance als vuepress
   - https://github.com/vuejs/vitepress ⭐2.9k
   - https://vitepress.vuejs.org/
-- vue-native
+- **vue-native**
   - https://vue-native.io/
-- electron-vue
+- **electron-vue**
   - https://github.com/SimulatedGREG/electron-vue
-- vuido
+- **vuido**
   - https://github.com/mimecorg/vuido
-- nativescript-vue
+- **nativescript-vue**
   - https://nativescript-vue.org/
-- gridsome
+- **gridsome**
   - https://github.com/gridsome/gridsome ⭐7.8k
   - https://gridsome.org/
   - starters
     - https://gridsome.org/docs/starters/
   - *static site generator for building CDN-ready websites for any headless CMS, local files or APIs*
-- quasar
+- **quasar**
   - https://github.com/quasarframework/quasar ⭐12.3k
   - https://quasar-framework.org/
-- vue-storefront
+- **vue-storefront**
   - https://github.com/DivanteLtd/vue-storefront
   - *PWA for eCommerce*
   - *integrations with Magento, commercetools, Shopware and Shopify*
-- vue-nodegui
+- **vue-nodegui**
   - https://github.com/nodegui/vue-nodegui
 
 
@@ -94,79 +94,79 @@ parent: JavaScript
 
 
 ## UI Frameworks
-- vuesax
+- **vuesax**
   - https://github.com/lusaxweb/vuesax ⭐5.2k
   - https://lusaxweb.github.io/vuesax/development/
-- iview
+- **iview**
   - https://github.com/iview/iview ⭐23.8k
   - http://iview.talkingdata.com/#/components/guide/install-en
   - vue 2
-- element
+- **element**
   - https://github.com/ElemeFE/element ⭐50.6k
   - https://element.eleme.io/#/en-US/component/installation
   - (vue2)
-- element-plus
+- **element-plus**
   - https://github.com/element-plus/element-plus ⭐11.2k
   - https://element-plus.org/#/en-US/component/installation
   - (vue3)
-- buefy
+- **buefy**
   - https://github.com/buefy/buefy ⭐8.8k
   - https://buefy.org/documentation
   - basiert auf Bulma
-- bootstrap-vue
+- **bootstrap-vue**
   - https://bootstrap-vue.js.org/
-- ant-design-vue
+- **ant-design-vue**
   - https://antdv.com/docs/vue/introduce/
   - https://github.com/vueComponent/ant-design-vue ⭐15k
-- vue-material
+- **vue-material**
   - https://github.com/vuematerial/vue-material
-- shards-vue
+- **shards-vue**
   - https://github.com/designrevision/shards-vue ⭐400
-- vue-argon
+- **vue-argon**
   - https://github.com/creativetimofficial/vue-argon-design-system
-- vuejs/ui
+- **vuejs/ui**
   - https://github.com/vuejs/ui
   - *UI components for official Vue organization apps*
-- vuetify
+- **vuetify**
   - https://vuetifyjs.com/
   - https://github.com/vuetifyjs/vuetify ⭐31.7k
   - material
-- Ionic/Vue
-- vant
+- **Ionic/Vue**
+- **vant**
   - https://github.com/youzan/vant ⭐18k
   - https://youzan.github.io/vant/#/en-US/
   - *Lightweight Mobile UI Components*
-- primevue
+- **primevue**
   - https://github.com/primefaces/primevue ⭐1.5k
   - https://primefaces.org/primevue/showcase/#/
   - vue 2 & 3
   - design agnostic
   - base themes (bootstrap, material, tailwind, ...), theme designer, visual editor, admin templates
-- headlessui
+- **headlessui**
   - *A set of completely unstyled, fully accessible UI components, designed to integrate beautifully with Tailwind CSS.*
   - react & vue
   - https://github.com/tailwindlabs/headlessui ⭐10.3k
   - https://headlessui.dev/
-- naive-ui
+- **naive-ui**
   - *Vue 3 Component Library*
   - https://github.com/TuSimple/naive-ui ⭐4.9k
-- BalmUI
+- **BalmUI**
   - https://github.com/balmjs/balm-ui ⭐200
   - material
-- framevuerk
+- **framevuerk**
   - https://github.com/framevuerk/framevuerk ⭐250
   - https://framevuerk.com/installation/setup
-- vue-tailwind
+- **vue-tailwind**
   - https://github.com/alfonsobries/vue-tailwind ⭐1500
-- viewUI
+- **viewUI**
   - https://github.com/view-design/ViewUI ⭐2.4k
   - vue 2
-- oruga
+- **oruga**
   - https://oruga.io/
   - https://github.com/oruga-ui/oruga ⭐420
   - https://oruga.io/documentation/
   - *doesn't depend on any specific style or CSS framework and it doesn't provide any grid system or CSS utility, it just offer a set of components easy to customize only modifying your stylesheets or integrating it with a CSS framework*
-- chakra-ui
+- **chakra-ui**
   - https://github.com/chakra-ui/chakra-ui-vue ⭐1.2k
   - https://vue.chakra-ui.com/getting-started
 
@@ -190,7 +190,7 @@ parent: JavaScript
 - https://github.com/LinusBorg/portal-vue
 - https://github.com/antfu/vueuse
 - https://github.com/websanova/vue-auth
-- vue-winbox
+- **vue-winbox**
   - *wrapper component for WinBox.js with the ability to mount Vue components.*
   - https://github.com/wobsoriano/vue-winbox
 
