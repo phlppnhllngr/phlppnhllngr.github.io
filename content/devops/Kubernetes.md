@@ -16,7 +16,9 @@ parent: DevOps
 - <https://yankee.dev/6-tools-to-run-kubernetes-locally>
 - **Helm**
   - <https://helm.sh>
-  - *help you define, install, and upgrade even the most complex Kubernetes application*
+  - *The package manager for Kubernetes*
+  - *Helm is the best way to find, share, and use software built for Kubernetes.*
+  - *Helm Charts help you define, install, and upgrade even the most complex Kubernetes application*
 - **minikube**
   - <https://github.com/kubernetes/minikube>
   - *Run Kubernetes locally*
