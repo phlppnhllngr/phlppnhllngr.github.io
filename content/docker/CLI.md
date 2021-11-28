@@ -12,15 +12,21 @@ parent: Docker
   - `-v`
     - relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
     - volume-Varianten
-      - bind mount
+      - → Docker/Storage
+      - bind mount ("host voulume")
         - `-v /host/path/:/container/path`
       - managed
-        - unnamed managed
+        - unnamed (anonymous) managed
           - `-v /container/path/`
           - *create a volume on the host system at a location owned by the docker daemon and mount it in the container at /container/path*
+          - im Host (automatisch erzeugt) unter `/var/lib/docker/volumes/<random-hash>/_data`
           - *To find out where docker created the volume on host:* {% raw %} `docker inspect -f "{{.Mounts}}" <ContainerName>` {% endraw %}
         - named managed
-          - `-v <name>`
+          - `-v <name>:/container/path`
           - *Same as previous, only instead of volume being assigned a hash, you can provide it with a meaningful name*
 - **attach**
   - *attach your terminal’s standard input, output, and error (or any combination of the three) to a running container*
+- **exec**
+  - `docker exec -it <name/id> /bin/bash`
+- **logs**
+  - `docker logs <name/id>`

@@ -83,3 +83,10 @@ parent: Docker
   - https://github.com/sickcodes/Docker-OSX
   - *Run Mac in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X!*
   - Stand 03/21 nicht mit Windows (WSL2) möglich (https://github.com/sickcodes/Docker-OSX/issues/37)
+
+**Android**
+- Waydroid
+  - *A container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.*
+  - <https://waydro.id/>
+- Anbox
+  - <https://github.com/anbox/anbox>

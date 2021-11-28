@@ -58,6 +58,11 @@ parent: Diverses
 - **hotjar**
   - *heatmaps, recordings, feedback forms, surveys*
   - https://www.hotjar.com/
+- **goatcounter**
+  - *Easy web analytics. No tracking of personal data.*
+  - *available as a hosted service (free for non-commercial use) or self-hosted app.*
+  - *easy to use and meaningful privacy-friendly web analytics as an alternative to Google Analytics or Matomo.*
+  - <https://github.com/arp242/goatcounter>
 
 
 ## A/B Tests

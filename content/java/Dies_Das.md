@@ -59,6 +59,9 @@ parent: Java
   - Easy Rules
     - https://github.com/j-easy/easy-rules
   - Drools → Frameworks/Business Process
+  - Evrete
+    - *lightweight alternative to the Drools Rule Engine*
+    - <https://www.baeldung.com/java-evrete-rule-engine>
 
 
 ## Scripting

@@ -68,14 +68,18 @@ parent: Java
 
 
 ## <span id="mapper">Mapper</span>
-- https://github.com/akullpp/awesome-java#bean-mapping
-- https://github.com/arey/java-object-mapper-benchmark
+- <https://github.com/akullpp/awesome-java#bean-mapping>
+- <https://github.com/arey/java-object-mapper-benchmark>
 - **mapstruct**
   - *Java annotation processor for the generation of type-safe and performant mappers*
   - http://mapstruct.org/
   - https://github.com/mapstruct/mapstruct 3.8k
 - **dozer bean mapper**
   - https://github.com/DozerMapper/dozer *1.9k
+- **ModelMapper**
+  - *intelligent object mapping library that automatically maps objects to each other*
+  - *uses a convention based approach while providing a simple refactoring safe API for handling specific use cases.*
+  - <https://github.com/modelmapper/modelmapper> *1.9k
 
 
 ## <span id="serial">(De)Serialisierung</span>
@@ -291,6 +295,10 @@ parent: Java
 - **avaje-inject**
   - *Uses Java annotation processing for dependency injection, Generates source code, Avoids any use of reflection or classpath scanning (so low overhead and fast startup)*
   - https://github.com/avaje/avaje-inject *64
+- **feather**
+  - *ultra-lightweight dependency injection*
+  - *based on optimal use of reflection to provide dependencies. No code generating, classpath scanning, proxying or anything costly involved.*
+  - <https://github.com/zsoltherpai/feather> *328
 
 
 ## Metrics
@@ -434,6 +442,9 @@ parent: Java
     - https://github.com/aspose-words/Aspose.Words-for-Java *237
   - **syncfusion** (💰)
     - https://www.syncfusion.com/word-framework/java/word-library
+  - **poi-tl**
+    - *Generate awesome word(docx) with template*
+    - <https://github.com/Sayi/poi-tl>
 - <u>Excel</u>
   - siehe docx4j
   - **fastexcel**

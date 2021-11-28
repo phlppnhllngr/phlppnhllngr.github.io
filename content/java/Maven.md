@@ -136,6 +136,9 @@ parent: Java
 - **build helper**
   - <https://www.mojohaus.org/build-helper-maven-plugin/index.html>
   - z. B. Auslesen der aktuellen pom.version (nützlich für Zusammenspiel mit versions-plugin), ...
+- **changelog**
+  - *generates reports regarding the recent changes in your SCM*
+  - <https://maven.apache.org/plugins/maven-changelog-plugin/>
 - **checkstyle**
   - <https://maven.apache.org/plugins/maven-checkstyle-plugin>
 - **clean**

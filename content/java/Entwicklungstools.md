@@ -101,6 +101,9 @@ parent: Java
 - **uncrustify**
   - *A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA*
   - <https://github.com/uncrustify/uncrustify>
+- **palantir-java-format**
+  - *based on the excellent google-java-format*
+  - <https://github.com/palantir/palantir-java-format>
 
 
 ## Diverse

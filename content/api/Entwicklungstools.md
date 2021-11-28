@@ -81,6 +81,9 @@ parent: API
 
 ## Andere
 - **swagger**
+  - swagger-inflector
+    - *uses the Swagger Specification to drive an API implementation. The spec drives the creation of routes and controllers automatically, matching methods and method signatures from the implementation. To allow for an iterative development, the framework will mock responses for any unimplemented methods, based on the specification. You have full control over the mapping of controllers to classes and methods as well as models.*
+    - <https://github.com/swagger-api/swagger-inflector>
 - **openapi-cop**
   - <https://github.com/EXXETA/openapi-cop/>
   - node_module

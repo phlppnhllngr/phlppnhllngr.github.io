@@ -10,4 +10,7 @@ parent: API
 - <https://graphql.org/>
 - <https://github.com/graphql/graphiql/>
 - <https://www.apollographql.com/>
+- graphql-voyager
+    - *Represent any GraphQL API as an interactive graph*
+    - <https://github.com/APIs-guru/graphql-voyager>
 

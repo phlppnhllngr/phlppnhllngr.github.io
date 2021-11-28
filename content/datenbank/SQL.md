@@ -38,3 +38,7 @@ parent: Datenbank
   - Python
   - beta (18.5.21)
   - https://github.com/sqlfluff/sqlfluff
+- **SQLPad**
+  - *A web app for writing and running SQL queries and visualizing the results.*
+  - *supports Postgres, MySQL, SQL Server, ClickHouse, Crate, Vertica, Trino, Presto, SAP HANA, Cassandra, Snowflake, Google BigQuery, SQLite, TiDB and many more via ODBC.*
+  - <https://github.com/sqlpad/sqlpad>

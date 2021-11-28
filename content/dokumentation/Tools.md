@@ -57,3 +57,6 @@ parent: Dokumentation
   - *static site generator. Documentation source files are written in Markdown, and configured with a single YAML configuration file*
   - https://www.mkdocs.org/
   - https://github.com/mkdocs/mkdocs/
+- **mdBook**
+  - *Create book from markdown files*
+  - <https://github.com/rust-lang/mdBook>

@@ -155,6 +155,9 @@ parent: Java
 - **AssertJ**
   - <http://joel-costigliola.github.io/assertj>
   - fluent API
+- **truth**
+  - *Fluent assertions*
+  - <https://github.com/google/truth/>
 
 
 ## Coverage
