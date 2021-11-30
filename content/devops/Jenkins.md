@@ -129,6 +129,21 @@ def call() {
 oder <http://notes.asaleh.net/posts/debugging-jenkins-pipeline>
 
 
+### properties
+
+**parameters**
+- boolean
+  ```
+  properties([
+    parameters([
+      booleanParam(name: 'foo', defaultValue: false, description: 'bar')
+    ])
+  ])
+
+  node { ... }
+  ```
+
+
 ## Plugins
 - docker
   - <https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow>
