@@ -128,12 +128,24 @@ def call() {
 ```
 oder <http://notes.asaleh.net/posts/debugging-jenkins-pipeline>
 
+**stage überspringen, als UNSTABLE markieren**
+```groovy
+stage('foo') {
+  if (skip) {
+    catchError(message: "Stage 'foo' übersprungen", stageResult: 'UNSTABLE', buildResult: 'SUCCESS') {
+      sh "exit 1"
+    }
+    return
+  }
+}
+```
+
 
 ### properties
 
 **parameters**
 - boolean
-  ```
+  ```groovy
   properties([
     parameters([
       booleanParam(name: 'foo', defaultValue: false, description: 'bar')
