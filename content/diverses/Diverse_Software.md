@@ -87,46 +87,12 @@ parent: Diverses
   - https://github.com/filebrowser/filebrowser
 - **VcXsrv Windows X Server**
   - https://sourceforge.net/projects/vcxsrv/
-- <u>Notizen</u>
-  - https://github.com/zadam/trilium
-  - **jupyter notebook**
-    - https://jupyter.org/
-    - https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
-  - **jupyterlite**
-    - *Wasm powered Jupyter running in the browser* *1.5k
-    - https://github.com/jupyterlite/jupyterlite
-  - **apache zeppelin**
-    - *enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more*
-    - https://github.com/apache/zeppelin
-    - https://zeppelin.apache.org/
-  - **znote**
-    - js
-    - *executing code directly in your Markdown*
-    - https://znote.io/lab.html
-  - **joplin**
-    - https://github.com/laurent22/joplin *24k
-    - *synchronization capabilities for Windows, macOS, Linux, Android and iOS*
-    - *The notes are in Markdown format.*
 - **deskreen**
   - *turns any device with a web browser into a secondary screen for your computer*
   - https://github.com/pavlobu/deskreen
 - **dall-e**
   - *We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language*
   - https://openai.com/blog/dall-e/
-- <u>Passwort-Manager</u>
-  - **keeweb**
-    - *cross-platform password manager compatible with KeePass*
-    - *browser and desktop password manager compatible with KeePass databases*
-    - Webapp: self hosted oder https://app.keeweb.info/
-    - https://github.com/keeweb/keeweb *10.2k
-  - **bitwarden**
-    - https://bitwarden.com/
-  - **keepass**
-    - *does not require synchronization. The trick is to compute passwords rather than generate and store random passwords.*
-    - *No need to save your passwords in an encrypted file. You just need to access the tool to recalculate a password from information that you know (mostly the login).*
-    - *generates unique passwords for websites, email accounts, or anything else based on a master password and information you know.*
-    - https://github.com/lesspass/lesspass
-  - **lesspass**
 - **syncthing**
   - *Continuous File Synchronization*
   - https://github.com/syncthing/syncthing
@@ -151,3 +117,64 @@ parent: Diverses
       - *CLI, SDK, Toolkit for Teams app development*
       - *currently in Public Preview* (19.11.21)
       - <https://github.com/OfficeDev/TeamsFx>
+- **Airbyte**
+  - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
+  - <https://github.com/airbytehq/airbyte>
+
+## Passwort-Manager
+- **keeweb**
+  - *cross-platform password manager compatible with KeePass*
+  - *browser and desktop password manager compatible with KeePass databases*
+  - Webapp: self hosted oder https://app.keeweb.info/
+  - https://github.com/keeweb/keeweb *10.2k
+- **bitwarden**
+  - https://bitwarden.com/
+- **keepass**
+- **lesspass**
+  - *LessPass is a stateless password manager. Stop wasting your time synchronizing your encrypted vault. Remember one master password to access your passwords, anywhere, anytime. No sync needed.*
+   - https://github.com/lesspass/lesspass
+
+
+## Notizen
+- **Trilium**
+  - https://github.com/zadam/trilium
+- **jupyter notebook**
+  - https://jupyter.org/
+  - https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
+- **jupyterlite**
+  - *Wasm powered Jupyter running in the browser* *1.5k
+  - https://github.com/jupyterlite/jupyterlite
+- **apache zeppelin**
+  - *enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more*
+  - https://github.com/apache/zeppelin
+  - https://zeppelin.apache.org/
+- **znote**
+  - JS
+  - *executing code directly in your Markdown*
+  - https://znote.io/lab.html
+- **joplin**
+  - https://github.com/laurent22/joplin *24k
+  - *synchronization capabilities for Windows, macOS, Linux, Android and iOS*
+  - *The notes are in Markdown format.*
+
+
+## ETL
+- **Apache nifi**
+  - https://github.com/apache/nifi
+- **Spring Batch**
+- **talend**
+  - <https://www.talend.com/>
+
+
+## Textanalyse, Datenextraktion
+- **MonkeyLearn** 💰
+  - <https://monkeylearn.com/>
+- **Mailparser** 💰
+  - *Extract key data from your emails, automatically.*
+  - <https://mailparser.io/>
+- **Docparser** 💰
+  - *Extract important data from Word, PDF and image files. Send to Excel, Google Sheets and 100’s of other formats and integrations.*
+  - <https://docparser.com/>
+- **Parseur** 💰
+  - *Extract text from emails and PDFs*
+  - <https://parseur.com/>

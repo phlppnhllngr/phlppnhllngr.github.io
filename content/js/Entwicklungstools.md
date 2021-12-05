@@ -42,8 +42,10 @@ parent: JavaScript
     - https://github.com/antfu/vitesse
 - **wmr**
   - https://github.com/preactjs/wmr
-- webpack → JS/Webpack
-- **rollup**
+- **Webpack** → JS/Webpack
+- **Rollup**
+  - https://github.com/rollup
+  - https://github.com/rollup/awesome
 
 
 ## Dokumentation

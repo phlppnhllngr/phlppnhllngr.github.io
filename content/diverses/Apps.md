@@ -72,5 +72,5 @@ parent: Diverses
   - https://github.com/codenameone/CodenameOne
 - **Gluon**
   - Java
-  - $$, free tier
+  - $, free tier
   - https://gluonhq.com/products/mobile/

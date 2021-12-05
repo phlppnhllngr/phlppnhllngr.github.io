@@ -14,7 +14,9 @@ parent: DevOps
     - [https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API](https://www.jfrog.com/confluence/display/JFROG/Artifactory+REST+API)
     - Beispiele
       - Jar hochladen
-        `curl -XPUT "http://hostname:8081/artifactory/libs-release-local/foo/bar/baz/1.2.0/baz-1.2.0.jar" -T "target/baz-1.2.0.jar"`
+        ```
+        curl -XPUT "http://hostname:8081/artifactory/libs-release-local/foo/bar/baz/1.2.0/baz-1.2.0.jar" -T "target/baz-1.2.0.jar"
+        ```
 - **CLI**
     - [https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory](https://www.jfrog.com/confluence/display/CLI/CLI+for+JFrog+Artifactory)
 - **mit Maven**

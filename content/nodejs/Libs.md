@@ -97,7 +97,14 @@ parent: Node.js
 
 
 ## Template engines
-- handlebars
+- **handlebars**
+  - <https://github.com/wycats/handlebars.js/> *15.1k
+  - Browser & nodejs
+- **mustache**
+- **pug**
+  - <https://github.com/pugjs/pug> *18.9k
+  - <https://pugjs.org/>
+  - Browser & nodejs
 
 
 ## Email

@@ -79,6 +79,9 @@ parent: Java
 
 ### UI-Libs
 - http://fxexperience.com/controlsfx/
+- **ValidatorFX**
+  - *inspired by ControlsFX but tries to overcome its shortcomings*
+  - https://github.com/effad/ValidatorFX
 - http://aalmiray.github.io/ikonli/
 - https://github.com/schlegel11/JFXAnimation
 - https://github.com/Typhon0/AnimateFX
