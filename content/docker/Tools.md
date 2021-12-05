@@ -62,16 +62,19 @@ parent: Docker
 
 
 ## GUIs
-- docker-desktop
+- **docker-desktop**
   - <https://www.docker.com/products/docker-desktop>
   - mit Kubernetes-Support (single node cluster)
   - *free for small businesses (fewer than 250 employees AND less than $10 million in annual revenue), personal use, education, and non-commercial open source projects*
-- portainer
-  - https://www.portainer.io/
-- dockstation.io
-  - https://dockstation.io/
-- kitematic
+- **portainer**
+  - <https://www.portainer.io/>
+- **dockstation.io**
+  - <https://dockstation.io/>
+- **kitematic**
   - https://github.com/docker/kitematic/ ⭐11k
+- **lazydocker**
+  - *A simple terminal UI for both docker and docker-compose*
+  - <https://github.com/jesseduffield/lazydocker> ⭐20.5k
 
 
 ## Orchestrierung
