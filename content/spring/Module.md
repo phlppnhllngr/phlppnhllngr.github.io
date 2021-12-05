@@ -86,3 +86,8 @@ Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/s
 
 ## Statemachine
 <https://spring.io/projects/spring-statemachine>
+
+
+## Plugin
+- z. B. um das Strategy-Pattern zu implementieren; <https://spring.io/blog/2021/10/13/spring-tips-spring-plugin>
+- <https://github.com/spring-projects/spring-plugin>

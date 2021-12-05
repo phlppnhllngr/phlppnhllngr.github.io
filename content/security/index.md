@@ -15,6 +15,7 @@ has_children: true
 - https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer
 - https://github.com/shieldfy/API-Security-Checklist
 - https://github.com/veeral-patel/how-to-secure-anything
+- <https://github.com/danielmiessler/SecLists> - *the security tester's companion. It's a collection of multiple types of lists used during security assessments, collected in one place. List types include usernames, passwords, URLs, sensitive data patterns, fuzzing payloads, web shells, and many more.*
 - Userinput
     - https://github.com/minimaxir/big-list-of-naughty-strings
     - Zalgo text

@@ -97,6 +97,8 @@ parent: Diverses
 
 
 ## Commands & Packages
+- **rm**
+  - *In Unix, programs generally do not interpret wildcards themselves. The shell interprets unquoted wildcards, and replaces each wildcard argument with a list of matching file names. if `$foo` might contain spaces, then `rm "$foo/*.txt"` might not do what you [want]* => `rm "$foo"/*.txt`
 - **Xvfb**
   - In-memory Display
   - geeignet für headless Testen

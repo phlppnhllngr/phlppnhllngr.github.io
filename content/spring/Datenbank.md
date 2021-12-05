@@ -7,6 +7,7 @@ parent: Spring
 ---
 
 # Datenbank
+- <https://github.com/spring-projects/spring-data-examples>
 
 ## Spring JDBC
 - *Spring abstractions over the plain JDBC*

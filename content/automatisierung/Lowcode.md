@@ -159,6 +159,9 @@ parent: Automatisierung
   - *Drag and drop page builder and CMS for React, Vue, Angular, and more*
   - *Register components for use in the visual editor*
   - <https://github.com/BuilderIO/builder>
+- **Stackbit**
+  - *Jamstack Site Builder for Developers*
+  - <https://www.stackbit.com/>
 
 ### React
 - <https://compositor.io/iso/>
