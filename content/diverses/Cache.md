@@ -1,6 +1,6 @@
 ---
 tags: [Notebooks/Diverses]
-title: 'Cache, IMDG'
+title: 'Cache'
 created: '2019-10-16T21:30:33.994Z'
 modified: '2019-12-01T14:46:06.390Z'
 parent: Diverses
