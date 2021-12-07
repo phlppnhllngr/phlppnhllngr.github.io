@@ -18,8 +18,10 @@ parent: Java
     - optische Hervorhebung von Logs mit konfigurierbaren Regex
     - Defaults funktionieren nicht; z.B. stattdessen `Expression = ^WARN.*$`
     - für neue Eclipse-Versionen nicht verfügbar (kann es aber noch über die Update-site bekommen: http://eclipse.schedenig.name)
-    - Alternative: LogViewer? → nur für Files
-    - Alternative: ~~Easy Consoler Grepper?~~
+    - Alternativen
+      - LogViewer
+        - *for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match. It allows you to have multiple logs open concurrently*
+      - ~~Easy Consoler Grepper~~
 - **Checkstyle** <small>→ siehe auch m2e-code-quality</small>
 - **SpotBugs** <small>→ siehe auch m2e-code-quality</small>
 - **SonarLint**
