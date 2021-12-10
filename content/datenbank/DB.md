@@ -28,13 +28,19 @@ parent: Datenbank
 - **PostgreSQL**
 - **DB2**
   - "LUW" = Linux, Unix, Windows
-  - Docker
-
-    ```sh
-    su - db2inst1
-    db2 "connect to my_db"
-    db2 "select * from my_schema.my_table"
+  - CLI
     ```
+    db2start
+    su - db2admin
+    db2ilist -> listet alle Instanzen
+    db2 attach to <instance>
+    db2 create database foo
+    db2 connect to foo
+    db2 create schema bar
+    db2 create table bar.baz ...
+    db2stop
+    ```
+  - Docker
 
     ```yml
     database:
