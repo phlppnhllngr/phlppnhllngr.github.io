@@ -7,6 +7,7 @@ parent: Java
 ---
 
 # JDK
+- [Oracle JDK Migration Guide](https://docs.oracle.com/en/java/javase/17/migrate/getting-started.html)
 
 ## OpenJDK
 Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle (“Oracle OpenJDK”). Hier gibt es keinen Support und nach 6 Monaten (Release neue Version) keine weiteren Updates, auch nicht für "LTS"-Versionen (hierzu siehe unten).

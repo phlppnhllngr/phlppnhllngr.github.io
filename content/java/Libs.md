@@ -160,7 +160,7 @@ parent: Java
     - Support für Soap, Logging (slf4j), retry, async, ...
     - https://github.com/OpenFeign/feign ⭐7.1k
 - <u>http server</u>
-  - **com.sun.net.httpserver.HttpServer**
+  - **com.sun.net.httpserver.{HttpServer,SimpleFileServer}** -> Java/Server
   - **nanohttpd**
     - https://github.com/NanoHttpd/nanohttpd ⭐5.8k
     - Stand 03/21 inaktiv seit 2 Jahren

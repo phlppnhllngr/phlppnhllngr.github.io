@@ -20,6 +20,17 @@ parent: Spring
   - <https://github.com/tkaczmarzyk/specification-arg-resolver> *405
   - *API for filtering data with Spring MVC & Spring Data JPA*
   - Query params -> JPA Specification
+- **rsql-jpa-specification**
+  - *Translate RSQL query into org.springframework.data.jpa.domain.Specification or com.querydsl.core.types.Predicate*
+  - ```java
+    filter = "company.code=='demo' and company.id>100";
+    repository.findAll(RSQLSupport.toSpecification(filter));
+    ```
+  - <https://github.com/perplexhub/rsql-jpa-specification>
+- **Riptide**
+  - *next generation HTTP client*
+  - *Based on spring-web and uses the same foundation as Spring's RestTemplate*
+  - <https://github.com/zalando/riptide>
 
 
 ## Dokumentation
@@ -36,7 +47,7 @@ parent: Spring
   - *automagically generates a OpenApi v3 specification at runtime for Spring Boot applications*
   - *Integrated Swagger UI*
   - *based on experience while using Spring Fox and SpringDoc OpenApi. As those libraries have turned out to be not flexible enough (...), this library aims at being fully customizable.*
-  - <https://github.com/qaware/openapi-generator-for-spring >
+  - <https://github.com/qaware/openapi-generator-for-spring>
 
 
 ## Admin

@@ -52,7 +52,10 @@ parent: Java
 - *default stack size is usually 1MB on 64bit machines*
 - *configure stack size with `-Xss` and `-XX:ThreadStackSize`*
 
-### GC caveats
+### GC
+- <https://dzone.com/articles/interesting-garbage-collection-patterns>
+
+#### Caveats
 - *The GC is unable to clear static fields unless the class that owns it is unloaded, which only happens if the Classloader that called it is garbage collected.*
 - *Unclosed system resources: The GC indirectly frees up files since classes like FileInputStream are written such that if an instance is garbage collected, the ‘close()’ method will be called first. This way, unclosed system resources don’t always pose a risk, so a lot of developers tend to look over them.*
 - *Unclosed connections: Like with unclosed resources, unclosed database or network connections can lead to significant memory use if not unloaded.*

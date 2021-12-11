@@ -86,3 +86,8 @@ parent: API
   - NodeJs
   - *greatly inspired by wrk and wrk2*
   - <https://github.com/mcollina/autocannon/> *5.2k
+- **locust**
+  - Python
+  - *easy to use, scriptable and scalable performance testing tool. You define the behaviour of your users in regular Python code*
+  - *has a user friendly web interface that shows the progress of your test in real-time*
+  - <https://github.com/locustio/locust>

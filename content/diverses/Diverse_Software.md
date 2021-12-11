@@ -45,7 +45,11 @@ parent: Diverses
 - **restdb.io**
 - **notion.so** 💰
   - https://www.notion.so/
-  - all-in-one Wiki + Todo + DB + CRM
+  - *all-in-one Wiki + Todo + DB + CRM*
+- **appflowy**
+  - *open-source alternative to Notion*
+  - *Built with Flutter and Rust.*
+  - <https://github.com/AppFlowy-IO/appflowy>
 - **knack**
   - https://www.knack.com/
   - Online-DB
@@ -121,6 +125,7 @@ parent: Diverses
   - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
   - <https://github.com/airbytehq/airbyte>
 
+
 ## Passwort-Manager
 - **keeweb**
   - *cross-platform password manager compatible with KeePass*
@@ -160,7 +165,7 @@ parent: Diverses
 
 ## ETL
 - **Apache nifi**
-  - https://github.com/apache/nifi
+  - <https://github.com/apache/nifi>
 - **Spring Batch**
 - **talend**
   - <https://www.talend.com/>

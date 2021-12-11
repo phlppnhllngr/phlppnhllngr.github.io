@@ -36,10 +36,14 @@ parent: JavaScript
   - Stand 4.5.21 beta; nur Linter
 - **vite**
   - Dev-Server + Build
-  - https://github.com/vitejs/vite ⭐30.3k
-  - vitesse
-    - *Opinionated Vite Starter Template*
-    - https://github.com/antfu/vitesse
+  - *Native-ESM powered web dev build tool*
+  - *opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production*
+  - <https://github.com/vitejs/vite> ⭐30.3k
+  - Tools
+    - <https://github.com/vitejs/awesome-vite>
+    - vitesse
+      - *Opinionated Vite Starter Template*
+      - <https://github.com/antfu/vitesse>
 - **wmr**
   - https://github.com/preactjs/wmr
 - **Webpack** → JS/Webpack

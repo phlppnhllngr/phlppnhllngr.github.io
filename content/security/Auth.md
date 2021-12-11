@@ -7,47 +7,48 @@ parent: Security
 ---
 
 # Auth
+- <https://techblog.bozho.net/simple-things-that-are-actually-hard-user-authentication/>
 
 ## Auth Methods
-- https://testdriven.io/blog/web-authentication-methods/
+- <https://testdriven.io/blog/web-authentication-methods/>
 
 ### Single Sign On
 - *allows a user to log in with a single ID and password to any of several related, yet independent, software systems*
-- https://www.onelogin.com/learn/how-single-sign-on-works
-- https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/
+- <https://www.onelogin.com/learn/how-single-sign-on-works>
+- <https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/>
 
 
 ## Tools
 - **Keycloak**
-  - https://www.keycloak.org
-  - https://github.com/thomasdarimont/awesome-keycloak
-  - https://github.com/keycloak/keycloak-quickstarts
+  - <https://www.keycloak.org>
+  - <https://github.com/thomasdarimont/awesome-keycloak>
+  - <https://github.com/keycloak/keycloak-quickstarts>
   - Deployment
     - *Keycloak is a standalone server based in Wildfly. It is not possible to deploy it in other application servers.*
     - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
 - **OAuth(2)**
 - **AWS Cognito**
-  - https://aws.amazon.com/de/cognito/
+  - <https://aws.amazon.com/de/cognito/>
 - **Auth0**
-  - https://auth0.com/
+  - <https://auth0.com/>
 - **Gluu**
-  - https://www.gluu.org/
+  - <https://www.gluu.org/>
 - **Authelia**
   - *The Single Sign-On Multi-Factor portal for web apps*
   - *an open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion of reverse proxies like nginx, Traefik or HAProxy to let them know whether queries should pass through. Unauthenticated users are redirected to Authelia Sign-in portal instead.*
-  - https://github.com/authelia/authelia *5.7k
+  - <https://github.com/authelia/authelia> *5.7k
 - **vault**
   - *A tool for secrets management, encryption as a service, and privileged access management*
   - *a tool for securely accessing secrets (...) such as API keys, passwords, certificates, and more*
-  - https://github.com/hashicorp/vault *20.7k
-  - →; spring-cloud-vault
+  - <https://github.com/hashicorp/vault> *20.7k
+  - → spring-cloud-vault
 - **Okta**
   - *authentication and user management*
-  - https://www.okta.com/
+  - <https://www.okta.com/>
 - **CAS (Central Authentication Service)**
   - *Enterprise Single Sign On*
   - *attempts to be a comprehensive platform for your authentication and authorization needs*
   - .war-File
   - *built upon: Spring Boot and Spring Cloud*
   - *various protocols (saml, oauth, ...), jwt, ldap, Administrative UIs, ...*
-  - https://github.com/apereo/cas *8.9k
+  - <https://github.com/apereo/cas> *8.9k

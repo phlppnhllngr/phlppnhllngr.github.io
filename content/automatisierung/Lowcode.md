@@ -22,6 +22,9 @@ parent: Automatisierung
   - *The Open Source Airtable alternative*
   - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
   - <https://github.com/nocodb/nocodb>
+- **NocoBase**
+  - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
+  - <https://github.com/nocobase/nocobase> *571
 - **sheety**
   - <https://sheety.co/>
   - *Turn any Google sheet into an API instantly, for free*

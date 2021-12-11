@@ -18,10 +18,7 @@ parent: Webdev
   - https://ngrok.com/
   - *ngrok exposes local servers (localhost) behind NATs and firewalls to the public internet over secure tunnels*
   - https://www.npmjs.com/package/ngrok
-- **vite**
-  - https://github.com/vitejs/vite
-  - *Native-ESM powered web dev build tool*
-  - *opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production*
+- **vite** → JavaScript/Entwicklungstools
 - **local-web-server**
   - https://www.npmjs.com/package/local-web-server
 - **cors-anywhere**

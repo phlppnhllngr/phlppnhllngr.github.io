@@ -99,3 +99,9 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
   - *allows you to: Use multiple frameworks on the same page*
   - *a JavaScript router for front-end microservices. With single-spa you can use multiple frameworks in a single-page application, allowing you to split code by functionality and have Angular, React, Vue.js, etc. apps all living in harmony. single-spa makes them work together and won't load them until they're needed.*
   - https://github.com/single-spa/single-spa
+- **mitosis**
+  - *Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more.*
+  - <https://github.com/BuilderIO/mitosis>
+- **qwik**
+  - *designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.*
+  - <https://github.com/BuilderIO/qwik>

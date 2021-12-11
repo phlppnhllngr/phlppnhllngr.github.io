@@ -44,6 +44,9 @@ parent: JavaScript
   - https://github.com/michalsnik/aos
 - **MagneticButtons**
   - https://github.com/codrops/MagneticButtons
+- **motion**
+  - *built on the Web Animations API for the smallest filesize and the fastest performance*
+  - <https://motion.dev/>
 
 
 ## Popups
