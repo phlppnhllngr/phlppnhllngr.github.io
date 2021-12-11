@@ -7,7 +7,8 @@ parent: IDE
 ---
 
 # VS Code
-<https://viatsko.github.io/awesome-vscode/>
+- <https://viatsko.github.io/awesome-vscode/>
+- Online/Browser: <https://vscode.dev/>
 
 ## Snippets
 - <https://code.visualstudio.com/docs/editor/userdefinedsnippets>
