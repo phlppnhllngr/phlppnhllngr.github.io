@@ -7,6 +7,7 @@ parent: Java
 ---
 
 # Eclipse
+- Eclipse bringt unter "C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre" eine eigene JRE mit
 
 ## Plugins
 
