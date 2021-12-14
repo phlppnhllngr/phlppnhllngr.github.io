@@ -27,12 +27,15 @@ parent: Java
     - *high level byte code manipulation, built on top of ASM*
     - auch als Agent erhältlich
     - https://bytebuddy.net/
-    - Bsp: http interceptor: https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/
+    - Beispiele
+      - http interceptor: https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/
+      - log4j-jndi-be-gone: https://github.com/nccgroup/log4j-jndi-be-gone - *A Byte Buddy Java agent-based fix for CVE-2021-44228, the log4j 2.x "JNDI LDAP" vulnerability.*
   - cglib
 - **Agents**
   - premain, class-redefinition, ...
   - https://jaxenter.de/james-bond-laesst-gruessen-28256
   - https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen (01/2020)
+  - hotpatch-for-apache-log4j2: https://github.com/corretto/hotpatch-for-apache-log4j2 - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
 - **Instrumentation**
   - *Instrumentation is the process of adding extra code at runtime to an existing codebase in order to measure timings of different operations.*
 - **AOP**
