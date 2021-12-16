@@ -46,13 +46,30 @@ parent: Spring
     - *an extension of spring-data-jpa that makes it simple to keep an audit of your data in the same table as your main data itself*
     - <https://github.com/ClaudioConsolmagno/spring-data-jpa-temporal> *1
 - <u>Test</u>
-  - **@DataJpaTest** (Spring Boot)
+  - 🥾 = Spring-Boot-API
+  - **@DataJpaTest** (🥾)
+    - für Repository-Layer
     - *used to test JPA repositories*
     - *By default, tests annotated with @DataJpaTest use an embedded in-memory database*
     - *by default, each test method runs in its own transaction, which is rolled back after the method has executed.*
     - <https://reflectoring.io/spring-boot-data-jpa-test>
-  - **@AutoConfigureTestDatabase**
+  - **@AutoConfigureTestDatabase** (🥾)
     - *can be applied to a test class to configure a test database to use instead of the application-defined or auto-configured DataSource*
+    - *you don’t override beans manually to provide an additional configuration, as it would be necessary with @SpringBootTest annotation. @DataJpaTest along with @AutoConfigureTestDatabase automatically prepare the context for the repository component and configure the H2 database engine to mimic an actual database*
+  - **@SQL**
+    - repeatable 
+    - org.springframework.test.context.jdbc.Sql
+    - ```java
+      @Test
+	    @Sql(
+        scripts = { "classpath:sql/prepare-testdata.sql" },
+        statements = { "update foo set bar = 'baz' where qux = 'quux'" },
+        executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD
+       )
+	    public void test() {}
+      ```
+  - **@SQLGroup**
+    - um mehrere `@SQL` zu gruppieren 
   - **spring-test-dbunit**
     - *Integration between the Spring testing framework and DBUnit*
     - <https://github.com/springtestdbunit/spring-test-dbunit>
