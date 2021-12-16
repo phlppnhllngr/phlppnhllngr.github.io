@@ -7,9 +7,9 @@ parent: Spring
 ---
 
 # Test
-- https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/
+- <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
 - Chaos Monkey
-  - https://github.com/codecentric/chaos-monkey-spring-boot
+  - <https://github.com/codecentric/chaos-monkey-spring-boot>
 - Junit4 von spring-boot-starter-test ausschließen
   ```xml
   <dependency>
@@ -45,14 +45,26 @@ parent: Spring
   - <https://www.baeldung.com/spring-testexecutionlistener>
 - **@TestPropertySource**
   - *used to configure the locations of properties files and inlined properties to be added to the Environment's set of PropertySources for an ApplicationContext for integration tests.*
+  - org.springframework.test.context.TestPropertySource
+  - ```java
+    @TestPropertySource(
+      locations = {
+        "classpath:config/test/test.properties"
+      },
+      properties = {
+        "hibernate.hbm2ddl.auto = create-drop",
+        "hibernate.dialect = org.hibernate.dialect.H2Dialect",
+        "hibernate.hbm2ddl.import_files = development/testdata.sql"
+      }
+    )
+    class FooTest {}
+    ```
   - <https://www.baeldung.com/spring-test-property-source>
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html>
 - **@AutoConfigureMockMvc** (🥾)
 - **@MockBean** (🥾)
-- **@DataJpaTest** (🥾)
-  - für Repository-Layer
-- **@AutoConfigureTestDatabase** (🥾)
-  - *you don’t override beans manually to provide an additional configuration, as it would be necessary with @SpringBootTest annotation. @DataJpaTest along with @AutoConfigureTestDatabase automatically prepare the context for the repository component and configure the H2 database engine to mimic an actual database*
+- **@DataJpaTest** -> Spring/Datenbank/Data JPA/Test
+- **@AutoConfigureTestDatabase** -> Spring/Datenbank/Data JPA/Test
 - **@WebMvcTest** (🥾)
   - für Controller-Layer
 - **@WebFluxTest**
