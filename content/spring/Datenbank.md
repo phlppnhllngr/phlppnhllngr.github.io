@@ -46,6 +46,10 @@ parent: Spring
     - *an extension of spring-data-jpa that makes it simple to keep an audit of your data in the same table as your main data itself*
     - <https://github.com/ClaudioConsolmagno/spring-data-jpa-temporal> *1
 - <u>Test</u>
+  - siehe auch org.springframework.jdbc.datasource.init.DatabasePopulator
+  	- <https://www.baeldung.com/spring-data-jpa-repository-populators>
+  	- <https://stackoverflow.com/a/23612293>
+  	- <https://stackoverflow.com/a/23036217>  
   - 🥾 = Spring-Boot-API
   - **@DataJpaTest** (🥾)
     - für Repository-Layer
@@ -57,19 +61,29 @@ parent: Spring
     - *can be applied to a test class to configure a test database to use instead of the application-defined or auto-configured DataSource*
     - *you don’t override beans manually to provide an additional configuration, as it would be necessary with @SpringBootTest annotation. @DataJpaTest along with @AutoConfigureTestDatabase automatically prepare the context for the repository component and configure the H2 database engine to mimic an actual database*
   - **@SQL**
-    - repeatable 
+    - repeatable (auf Klassen- oder Methodenebene)
     - org.springframework.test.context.jdbc.Sql
     - ```java
       @Test
-	    @Sql(
+      @Sql(
         scripts = { "classpath:sql/prepare-testdata.sql" },
         statements = { "update foo set bar = 'baz' where qux = 'quux'" },
-        executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD
+        executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD, // oder AFTER_TEST_METHOD
+	config = @SQLConfig(...)
        )
-	    public void test() {}
+      public void test() {}
       ```
+    - <https://www.baeldung.com/spring-boot-data-sql-and-schema-sql> (`@SQL`, `@SQLGroup`, `@SQLConfig`)
+  - **@SQLConfig**
+  	- Felder
+  		- encodding
+  		- transactionMode
+  		- errorMode
+  		- dataSource
+  		- ...  
   - **@SQLGroup**
-    - um mehrere `@SQL` zu gruppieren 
+    - um mehrere `@SQL` zu gruppieren (ab Java 8 nicht mehr nötig)
+  - **@SQLMergeMode**
   - **spring-test-dbunit**
     - *Integration between the Spring testing framework and DBUnit*
     - <https://github.com/springtestdbunit/spring-test-dbunit>
