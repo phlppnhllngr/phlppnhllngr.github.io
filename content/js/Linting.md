@@ -20,6 +20,8 @@ parent: JavaScript
   - https://eslint.org
   - presets
     - eslint-config-airbnb(-base)
+    - eslint-config-canonical
+      - <https://github.com/gajus/eslint-config-canonical>
   - plugins
     - eslint-plugin-spellcheck
       - https://www.npmjs.com/package/eslint-plugin-spellcheck

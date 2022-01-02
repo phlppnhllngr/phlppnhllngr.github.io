@@ -3,7 +3,8 @@ tags: [Notebooks/Java]
 title: JMS
 created: '2019-02-05T12:06:23.052Z'
 modified: '2021-07-03T14:06:39.914Z'
-parent: Java
+grand_parent: Java
+parent: Enterprise
 ---
 
 # JMS

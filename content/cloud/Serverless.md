@@ -31,3 +31,7 @@ parent: Cloud
 - **consul**
   - <https://www.consul.io/>
   - *Automate network configurations, discover services, and enable secure connectivity across any cloud or runtime.*
+- **serverless-stack**
+  - *framework that makes it easy to build serverless apps. Set breakpoints and test your functions locally*
+  - *It's an extension of AWS CDK and it features: A Live Lambda Development environment*
+  - <https://github.com/serverless-stack/serverless-stack>

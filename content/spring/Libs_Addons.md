@@ -31,6 +31,10 @@ parent: Spring
   - *next generation HTTP client*
   - *Based on spring-web and uses the same foundation as Spring's RestTemplate*
   - <https://github.com/zalando/riptide>
+- **moduliths**
+  - *Spring Boot extension based on ArchUnit*
+  - *Enable developers to write architecturally evident code, i.e. provide means to express architectural concepts in code to close the gap between the two*
+  - <https://github.com/odrotbohm/moduliths>
 
 
 ## Dokumentation

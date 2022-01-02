@@ -31,3 +31,6 @@ has_children: true
 - **books**
   - *A demo project for Spring Boot / Data / security, social / oauth2 logons, JWT, Mongo, SpringBootAdmin, Docker, docker-compose, Github Actions and stateless apps*
   - <https://github.com/aidanwhiteley/books> *80
+- **spring-warehouse**
+  - <https://github.com/averageflow/spring-warehouse>
+  - [Diskussion auf /r/java](https://www.reddit.com/r/java/comments/rqqvbh/spring_warehouse_a_quest_to_learn_more_java_and.compact)

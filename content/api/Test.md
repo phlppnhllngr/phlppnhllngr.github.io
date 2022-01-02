@@ -51,6 +51,12 @@ parent: API
   - *enables you to generate hundreds of API tests within seconds with no coding effort.*
   - *All tests cases are generated and run automatically based on a pre-defined set of 72 Fuzzers. The Fuzzers cover different types of testing like: negative testing, boundary testing, structural validations, security and even end-to-end functional flows.*
   - <https://github.com/Endava/cats/> *395
+- **RESTest**
+  - *Automated Black-Box Testing of RESTful Web APIs*
+  - *test cases are automatically derived from the OpenAPI Specification (OAS) of the API under test*
+  - *RESTest generates REST Assured test cases* (Java)
+  - *test failures are collected and they can be easily spotted and analyzed in a user-friendly GUI, built with Allure*
+  - <https://github.com/isa-group/RESTest>
 
 
 ## Stress, Load, Resilience

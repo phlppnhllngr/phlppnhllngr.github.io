@@ -77,6 +77,10 @@ parent: API
 - **milkman**
   - <https://github.com/warmuuh/milkman/> *385
   - *heavily inspired by Postman. not limited to e.g. http requests. other things are possible, like database-requests or GRPC, GraphQl, etc...*
+- **HTTP Toolkit**
+  - *for debugging, testing and building with HTTP(S) on Windows, Linux & Mac*
+  - *intercept, inspect & rewrite HTTP(S) traffic, from everything to anywhere. Explore Android app traffic, mock requests between your microservices, and x-ray your browser traffic to debug, understand and test anything*
+  - <https://github.com/httptoolkit/httptoolkit>
 
 
 ## Andere

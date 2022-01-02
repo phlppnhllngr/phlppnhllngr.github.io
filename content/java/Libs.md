@@ -532,3 +532,9 @@ parent: Java
   - Lib für Graphen (data structure)
   - (un)directed, weighted, ... (https://jgrapht.org/guide/UserOverview#graph-structures)
   - https://github.com/jgrapht/jgrapht
+- <u>LDAP</u>
+  - **UnboundID**
+    - *for communicating with LDAP directory servers*
+    - *includes an in-memory directory server is available to allow you easily create one or more simple LDAPv3-compliant servers to use in your testing frameworks*
+    - <https://ldap.com/unboundid-ldap-sdk-for-java/>
+    - <https://github.com/pingidentity/ldapsdk>

@@ -161,6 +161,9 @@ parent: Diverses
   - https://github.com/laurent22/joplin *24k
   - *synchronization capabilities for Windows, macOS, Linux, Android and iOS*
   - *The notes are in Markdown format.*
+- **bangle.io**
+  - *web based, local only, markdown*
+  - <https://github.com/bangle-io/bangle-io>
 
 
 ## ETL

@@ -53,3 +53,10 @@ parent: Security
 - **mitmproxy**
   - *An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers*
   - <https://github.com/mitmproxy/mitmproxy>
+- **LunaSec**
+  - *Security & Compliance SDKs to stop data leaks in your software. With just a few lines, LunaSec adds a Zero Trust Architecture across your stack, Unique Per-Record Encryption, and protection from common security issues like XSS, SQL Injection, and RCE.*
+  - <https://github.com/lunasec-io/lunasec>
+- **nuclei**
+  - *Fast and customizable vulnerability scanner based on simple YAML based DSL.*
+  - *used to send requests across targets based on a template leading to zero false positives and providing fast scanning on large number of hosts*
+  - <https://github.com/projectdiscovery/nuclei>

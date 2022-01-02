@@ -7,14 +7,15 @@ parent: Java
 ---
 
 # Lernen
-- https://github.com/mission-peace/interview
-- https://github.com/binkley/modern-java-practices
-- https://www.marcobehler.com/guides
-- https://www.baeldung.com/java-compiled-interpreted
-- https://piotrminkowski.com/
+- <https://github.com/mission-peace/interview>
+- <https://github.com/binkley/modern-java-practices>
+- <https://www.marcobehler.com/guides>
+- <https://www.baeldung.com/java-compiled-interpreted>
+- <https://piotrminkowski.com/>
+- <https://theamiableapi.com/2012/01/16/java-api-design-checklist/>
 
 
-## Examples, Repos
+## Beispiele, Repos
 - https://github.com/corona-warn-app/cwa-server
 - https://github.com/corona-warn-app/cwa-verification-server
 - https://github.com/signalapp/Signal-Server

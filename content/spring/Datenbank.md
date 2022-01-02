@@ -12,7 +12,16 @@ parent: Spring
 ## Spring JDBC
 - *Spring abstractions over the plain JDBC*
 - Spring Boot Starter: `spring-boot-starter-jdbc`
-- Klassen: @Transactional, DataSource, JdbcTemplate, ResultSet
+- Klassen
+  - @Transactional
+    - <https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/>
+  - TransactionTemplate
+    - Alternative zu `@Transactional`
+    - <https://www.baeldung.com/spring-programmatic-transaction-management>
+      - *Mixing the database I/O with other types of I/O in a transactional context is a bad smell. So, the first solution for these sorts of problems is to separate these types of I/O altogether. If for whatever reason we can't separate them, we can still use Spring APIs to manage transactions manually.*
+  - DataSource
+  - JdbcTemplate
+  - ResultSet
 - JDBC & DATA-JDBC: <https://4comprehension.com/lightweight-jpa-hibernate-alternatives>
 
 
@@ -69,8 +78,8 @@ parent: Spring
         scripts = { "classpath:sql/prepare-testdata.sql" },
         statements = { "update foo set bar = 'baz' where qux = 'quux'" },
         executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD, // oder AFTER_TEST_METHOD
-	config = @SQLConfig(...)
-       )
+	      config = @SQLConfig(...)
+      )
       public void test() {}
       ```
     - <https://www.baeldung.com/spring-boot-data-sql-and-schema-sql> (`@SQL`, `@SQLGroup`, `@SQLConfig`)

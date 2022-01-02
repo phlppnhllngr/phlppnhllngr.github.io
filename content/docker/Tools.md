@@ -94,3 +94,6 @@ parent: Docker
   - <https://github.com/docker/docker-bench-security> ⭐5.2k
   - *script that checks for dozens of common best-practices around deploying Docker containers in production*
   - prüft keine Images, sondern Host
+- **grype**
+  - *A vulnerability scanner for container images and filesystems*
+  - <https://github.com/anchore/grype>

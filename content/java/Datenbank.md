@@ -102,42 +102,46 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - **jpa buddy**
   - *plugin for IntelliJ IDEA intended to simplify and accelerate everything related to JPA and surrounding mainstream technology*
   - *Create JPA entities and Spring Data repositories fast. Easily generate migration scripts for Liquibase and Flyway.*
-  - https://www.jpa-buddy.com/
+  - <https://www.jpa-buddy.com/>
+- **JaVers**
+  - *library for auditing changes in your data*
+  - *easy to use in applications based on the Spring Framework*
+  - <https://github.com/javers/javers>
 
 
 ## NON-JPA-Libs/ORMs
 - **jooq**
   - query builder
-  - https://github.com/jOOQ/jOOQ *3.4k
-  - https://www.jooq.org/
+  - <https://github.com/jOOQ/jOOQ> *3.4k
+  - <https://www.jooq.org/>
   - FOSS (nur open source DBs unterstützt) oder Premium
 - **mybatis**
   - SQL-Mapper
-  - https://github.com/mybatis/mybatis-3 *12.1k
+  - <https://github.com/mybatis/mybatis-3> *12.1k
 - **javalite activejdbc**
-  - https://github.com/javalite/javalite *700
-  - http://javalite.io/activejdbc
+  - <https://github.com/javalite/javalite> *700
+  - <http://javalite.io/activejdbc>
 - **apache cayenne**
-  - https://cayenne.apache.org/
-  - https://github.com/apache/cayenne
+  - <https://cayenne.apache.org/>
+  - <https://github.com/apache/cayenne>
 - **querydsl**
-  - https://github.com/querydsl/querydsl/
+  - <https://github.com/querydsl/querydsl/>
   - *type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.*
 - **persism**
   - *A zero ceremony ORM for Java*
-  - https://github.com/sproket/Persism *10
+  - <https://github.com/sproket/Persism> *10
 - **ebean**
-  - https://github.com/ebean-orm/ebean *1200
+  - <https://github.com/ebean-orm/ebean> *1200
 - **doma**
   - *DAO oriented database mapping framework*
   - *generates source code at compile time using annotation processing.*
   - *Provides type-safe Criteria API*
-  - https://github.com/domaframework/doma
+  - <https://github.com/domaframework/doma>
 - **jdbi**
   - *uses lambda expressions and reflection to provide a friendlier, higher level interface than JDBC to access the database*
   - *has an optional SQL Object mapping module*
-  - http://jdbi.org/
-  - https://www.baeldung.com/jdbi
+  - <http://jdbi.org/>
+  - <https://www.baeldung.com/jdbi>
 
 
 ## In-memory
@@ -146,24 +150,24 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 
 
 ## Diverse
-- seata
-  - https://github.com/seata/seata
+- **seata**
+  - <https://github.com/seata/seata>
   - ehemals alibaba/fescar
 - **velvetdb**
-  - https://github.com/zakgof/velvetdb
+  - <https://github.com/zakgof/velvetdb>
   - embedded oder cloud
   - *high-level API for NoSQL storage perfectly fitting for small websites, desktop and mobile applications*
 - <u>connection pool</u>
   - **hikari**
-    - https://github.com/brettwooldridge/HikariCP
+    - <https://github.com/brettwooldridge/HikariCP>
   - **tomcat jdbc**
-    - https://www.baeldung.com/spring-boot-tomcat-connection-pool
+    - <https://www.baeldung.com/spring-boot-tomcat-connection-pool>
 - **datasource-proxy**
   - *intercept JDBC interactions and allows user to perform own logic before/after query or method executions*
   - *Pre-defined listeners support query logging, slow query detection, query execution statistics, interaction tracing, etc.*
-  - http://ttddyy.github.io/datasource-proxy/docs/current/user-guide/
+  - <http://ttddyy.github.io/datasource-proxy/docs/current/user-guide/>
 - **R2DBC**
-  - https://r2dbc.io/
+  - <https://r2dbc.io/>
   - *R2DBC is an endeavor to bring a reactive programming API to relational data stores.*
   - 9.3.18: Support für postgres, h2, mssql
 - **fastnate**

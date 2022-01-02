@@ -3,7 +3,8 @@ tags: [Notebooks/Java]
 title: Java EE
 created: '2021-03-14T14:43:26.672Z'
 modified: '2021-03-14T14:44:52.562Z'
-parent: Java
+parent: Enterprise
+grand_parent: Java
 ---
 
 # Java EE
