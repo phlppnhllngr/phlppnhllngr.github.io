@@ -20,12 +20,15 @@ parent: Security
 
 ## Tools
 - **Keycloak**
+  - *The Keycloak Server is effectively a large JAX-RS web application deployed in an application server platform that is either Wildfly (Keycloak Community) or JBoss EAP (Red Hat SSO). The web application is served via the embedded Undertow HTTP server.*
   - <https://www.keycloak.org>
   - <https://github.com/thomasdarimont/awesome-keycloak>
   - <https://github.com/keycloak/keycloak-quickstarts>
   - Deployment
     - *Keycloak is a standalone server based in Wildfly. It is not possible to deploy it in other application servers.*
     - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
+  - <u>Keycloak.X</u>
+    - *As part of the Keycloak.X efforts, the underlying platform is to be changed from Wildfly/Undertow to Quarkus/Vertx.* (12/2021))
 - **OAuth(2)**
 - **AWS Cognito**
   - <https://aws.amazon.com/de/cognito/>
