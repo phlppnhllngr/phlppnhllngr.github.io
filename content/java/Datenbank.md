@@ -109,7 +109,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://github.com/javers/javers>
 
 
-## NON-JPA-Libs/ORMs
+## NON-JPA-Libs
 - **jooq**
   - query builder
   - <https://github.com/jOOQ/jOOQ> *3.4k
@@ -142,6 +142,15 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - *has an optional SQL Object mapping module*
   - <http://jdbi.org/>
   - <https://www.baeldung.com/jdbi>
+- **Quick SQL test data**
+  - *aims to ease the generation of datasets to test SQL queries. It produces INSERT statements taking account of integrity constraints.*
+  - *This library can be helpful in the two following situations: Create a dataset before starting the writing of an SQL query. Test an existing SQL query.*
+  - ```java
+    QuickSqlTestData quickSqlTestData = QuickSqlTestData.buildFrom(dataSource);
+    DatasetRow datasetRow = DatasetRow.ofTable("Player").addColumnValue("lastName","Pogba");
+    List<String> insertStatements = quickSqlTestData.generateInsertListFor(datasetRow);
+    ```
+  - <https://github.com/quick-perf/quick-sql-test-data>
 
 
 ## In-memory

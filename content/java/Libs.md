@@ -28,7 +28,7 @@ parent: Java
   <a href="#mapper">Mapper</a>
   <a href="#serial">(De)Serialisierung</a>
   <a href="#web">Web</a>
-  <a>resilience</a>
+  <a>Resilience</a>
   <a href="#cache">Cache</a>
   <a href="#pdf">PDF</a>
   <a>AOP</a>
@@ -478,7 +478,7 @@ parent: Java
 
 ## <span id="divers">Diverses</span>
 - **jasypt**
-  - http://www.jasypt.org/
+  - <http://www.jasypt.org/>
   - *add basic encryption capabilities to his/her projects with minimum effort, and without the need of having deep knowledge on how cryptography works*
   - EncryptableProperties
 - **javax.measure**

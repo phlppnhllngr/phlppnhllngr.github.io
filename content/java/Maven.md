@@ -308,7 +308,7 @@ parent: Java
   - *replace placeholder-strings in resources at build time*: <https://maven.apache.org/plugins/maven-resources-plugin/examples/filter.html>
 - **rewrite**
   - *Eliminate Tech-Debt. At build time.*
-  - &rightarrow; Java/Entwicklungstools/OpenRewrite
+  - -> Java/Entwicklungstools/OpenRewrite
   - <https://github.com/openrewrite/rewrite-maven-plugin>
 - **semantic-release**
   - *This tool is intended to be used on github projects that use a Travis-CI server*

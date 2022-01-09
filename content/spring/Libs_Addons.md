@@ -35,6 +35,11 @@ parent: Spring
   - *Spring Boot extension based on ArchUnit*
   - *Enable developers to write architecturally evident code, i.e. provide means to express architectural concepts in code to close the gap between the two*
   - <https://github.com/odrotbohm/moduliths>
+- **jasypt-spring-boot**
+  - *provides Encryption support for property sources in Spring Boot Applications*
+  - <https://github.com/ulisesbocchio/jasypt-spring-boot>
+  - <https://www.baeldung.com/spring-boot-jasypt>
+  - -> Java/Libs/Jasypt
 
 
 ## Dokumentation

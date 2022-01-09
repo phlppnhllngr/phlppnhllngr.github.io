@@ -83,7 +83,7 @@ parent: Java
   - *Camel empowers you to define routing and mediation rules in a variety of domain-specific languages, including a Java-based Fluent API, Spring or ...
 Apache Camel uses URIs to work directly with any kind of Transport or messaging model such as HTTP, JMS, ..., as well as pluggable Components and Data Format options. Apache Camel is a small library with minimal dependencies for easy embedding in any Java application. Apache Camel lets you work with the same API regardless which kind of Transport is used - so learn the API once and you can interact with all the Components provided out-of-box.*
   - Übersicht Komponenten: <https://github.com/apache/camel/blob/master/components/readme.adoc>
-  - mit Spring: <https://reflectoring.io/spring-camel/>
+  - mit Spring: <https://reflectoring.io/spring-camel/>, [Spring Tips: Apache Camel](https://www.youtube.com/watch?v=-KupcZ3bA-Y)
 - **Spring Integration**
   - [Spring/Integration](@note/Modul Integration.md)
   - ca. 20 Connectors

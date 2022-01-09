@@ -78,6 +78,7 @@ parent: Java
   - https://github.com/jbangdev/jbang
   - *run self-contained source-only Java programs*
   - *be able to run java from anywhere without any or very minimal setup*
+  - <https://www.javaadvent.com/2021/12/jbang-gift-that-keeps-on-giving.html>
 - **beanshell**
   - https://github.com/beanshell/beanshell
 

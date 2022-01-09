@@ -70,8 +70,9 @@ parent: Spring
 
 
 ## Integration
-<https://docs.spring.io/spring-integration/docs/current/reference/html>
-Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
+- <https://docs.spring.io/spring-integration/docs/current/reference/html>
+- Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
+- <https://www.reddit.com/r/java/comments/rscyoe/when_would_you_use_spring_integration/>
 
 
 ## Batch
