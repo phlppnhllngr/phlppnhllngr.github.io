@@ -21,9 +21,13 @@ parent: API
   - <https://github.com/rest-assured/rest-assured/>
   - Java
 - **karate**
-  - <https://github.com/intuit/karate/> *2.5k
+  - <https://github.com/intuit/karate/> *5.5k
   - DSL, Java
-  - *combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework. The BDD syntax popularized by Cucumber is language-neutral, and easy for even non-programmers. Powerful JSON & XML assertions are built-in, and you can run tests in parallel for speed. Test execution and report generation feels like any standard Java project. But there's also a stand-alone executable for teams not comfortable with Java. You don't have to compile code. Just write tests in a simple, readable syntax - carefully designed for HTTP, JSON, GraphQL and XML. And you can mix API and UI test-automation within the same test script.*
+  - *combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.*
+  - *The BDD syntax popularized by Cucumber is language-neutral, and easy for even non-programmers.*
+  - Powerful JSON & XML assertions are built-in, and you can run tests in parallel for speed. Test execution and report generation feels like any standard Java project.*
+  - *A Java API exists for those who prefer to programmatically integrate Karate's rich automation and data-assertion capabilities.*
+  - *But there's also a stand-alone executable for teams not comfortable with Java. You don't have to compile code. Just write tests in a simple, readable syntax - carefully designed for HTTP, JSON, GraphQL and XML. And you can mix API and UI test-automation within the same test script.*
 - **frisby**
   - <https://github.com/vlucas/frisby/>
   - *built on top of Jest*
@@ -32,9 +36,6 @@ parent: API
   - *testing HTTP and message integrations using contract tests*
   - <https://docs.pact.io/>
   - JS, Java, ...
-- **loader.io** 💰
-  - <https://loader.io/>
-  - *load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections*
 - **RAFT**
   - REST API Fuzz Testing
   - <https://github.com/microsoft/rest-api-fuzz-testing/>
@@ -97,3 +98,6 @@ parent: API
   - *easy to use, scriptable and scalable performance testing tool. You define the behaviour of your users in regular Python code*
   - *has a user friendly web interface that shows the progress of your test in real-time*
   - <https://github.com/locustio/locust>
+- **loader.io** 💰
+  - <https://loader.io/>
+  - *load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections*
