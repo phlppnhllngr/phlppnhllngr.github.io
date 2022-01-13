@@ -16,7 +16,9 @@ parent: API
     - <https://support.insomnia.rest/article/26-plugins/>
     - <https://npms.io/search?q=insomnia-plugin/>
     - <https://www.npmjs.com/package/insomnia-plugin-faker/>
-  - CLI ("Inso")
+  - CLI
+    - "Inso"
+    - benötigt nodejs
 - **Postman**
   - <https://www.getpostman.com/>
   - Tests (JavaScript), Mock-Server
@@ -61,7 +63,7 @@ parent: API
     library.myFunc1();
     ```
   - newman
-    - <https://www.npmjs.com/package/newman/>
+    - node_module; <https://www.npmjs.com/package/newman/>
     - *the cli companion for postman*
     - *allows you to effortlessly run and test a Postman collection directly from the command-line. ... easily integrate it with your continuous integration servers and build systems.*
 - **talend api tester**
