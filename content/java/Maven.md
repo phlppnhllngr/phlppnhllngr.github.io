@@ -47,7 +47,7 @@ parent: Java
 
   mvn -Dfoo.phase=none ....
   ```
-- Goals eines Plugins können mit ```mvn help:describe -Dplugin=group:plugin``` angezeigt werden
+- Goals eines Plugins können mit `mvn help:describe -Dplugin=group:plugin` angezeigt werden
 
 ### Übersicht über die 3 Lifecycles und ihre zugehörigen Phasen
 <style>small { color: grey; }</style>
