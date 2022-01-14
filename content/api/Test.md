@@ -22,6 +22,7 @@ parent: API
   - Java
 - **karate**
   - <https://github.com/intuit/karate/> *5.5k
+  - [Docs](<https://karatelabs.github.io/karate/)
   - DSL, Java
   - *combine API test-automation, mocks, performance-testing and even UI automation into a single, unified framework.*
   - *The BDD syntax popularized by Cucumber is language-neutral, and easy for even non-programmers.*
