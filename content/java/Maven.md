@@ -155,9 +155,11 @@ parent: Java
 - **dependency**
   - <https://maven.apache.org/plugins/maven-dependency-plugin>
   - *find duplicates / unused, download dependencies, ...*
-  - Beliebige Dependency runterladen:
-    `mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=groupId:artifactId:version`
-    `mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=org.projectlombok:lombok:1.18.12`
+  - Beliebige Dependency runterladen
+    ```
+    mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=groupId:artifactId:version
+    mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=org.projectlombok:lombok:1.18.12
+    ```
 - **dependency-check**
   - Maven-Plugin für OWASP DependencyCheck
   - <https://jeremylong.github.io/DependencyCheck/dependency-check-maven>
