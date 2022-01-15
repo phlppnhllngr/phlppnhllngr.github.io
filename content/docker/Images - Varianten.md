@@ -90,3 +90,5 @@ parent: Docker
   - <https://waydro.id/>
 - Anbox
   - <https://github.com/anbox/anbox>
+- ReDroid
+  - <https://github.com/remote-android/redroid-doc#overview>

@@ -7,7 +7,8 @@ parent: Webdev
 ---
 
 # E2E-Test
-- https://storybook.js.org/blog/how-to-actually-test-uis/
+- <https://storybook.js.org/blog/how-to-actually-test-uis/>
+- <https://css-tricks.com/front-end-testing-is-for-everyone/>
 
 ## Tools
 - **puppeteer & playwright**

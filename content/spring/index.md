@@ -39,6 +39,10 @@ has_children: true
   - <https://stackoverflow.com/a/56044110/7437541>
 
 
+## Validierung
+- <https://reflectoring.io/bean-validation-with-spring-boot/>
+
+
 ## Example projects
 - **piggymetrics**
   - *tutorial project, which demonstrates Microservice Architecture Pattern using Spring Boot, Spring Cloud and Docker*

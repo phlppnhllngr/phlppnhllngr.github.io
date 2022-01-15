@@ -50,6 +50,9 @@ parent: Java
   - <https://github.com/oracle/helidon> *1.8k
 - **blade**
   - <https://github.com/lets-blade/blade> *5.2k
+- **Armeria**
+  - *your go-to microservice framework for any situation. You can build any type of microservice leveraging your favorite technologies, including gRPC, Thrift, Kotlin, Retrofit, Reactive Streams, Spring Boot and Dropwizard.*
+  - <https://github.com/line/armeria>
 
 
 ## Business Process

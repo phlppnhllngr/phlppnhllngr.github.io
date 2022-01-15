@@ -153,6 +153,8 @@ parent: JavaScript
 - **i18n**
   - https://github.com/ngneat/transloco (i18n)
   - https://github.com/rxweb/rxweb/tree/master/packages/translate (i18n)
+- https://www.npmjs.com/package/@ngspot/ngx-errors
+- https://github.com/ngneat/error-tailor
 
 ### Forms
 - **ngx-sub-forms**
@@ -214,10 +216,13 @@ parent: JavaScript
 - **scully**
   - https://github.com/scullyio/scully
   - *The Static Site Generator for Angular apps*
-- angular state inspector
+- **angular state inspector**
   - chrome plugin
   - *Helps you debug Angular component state*
   - https://chrome.google.com/webstore/detail/angular-state-inspector/nelkodgfpddgpdbcjinaaalphkfffbem
+- **JitBlox**
+  - *visual prototyping tool and code generator for single-page applications*
+  - <https://www.jitblox.com/blog/online-visual-prototyping-of-angular-apps-with-jitblox>
 
 
 ### environment

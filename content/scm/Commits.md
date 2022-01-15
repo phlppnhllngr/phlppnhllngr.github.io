@@ -9,6 +9,7 @@ parent: SCM
 # Commits
 
 ## Konventionen
+- <https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733>
 - **commit-messages-guide**
   - [https://github.com/RomuloOliveira/commit-messages-guide](https://github.com/RomuloOliveira/commit-messages-guide) *6k
   - *A guide to understand the importance of commit messages and how to write them well*

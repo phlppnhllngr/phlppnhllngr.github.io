@@ -68,3 +68,6 @@ parent: CSS
   - https://www.carbondesignsystem.com/
   - https://github.com/carbon-design-system/carbon ⭐2000
   - Komponenten für Vanilla, React, Vue, Angular
+- **UniformCSS**
+  - *A fully configurable utility class generator and CSS framework built for Sass projects*
+  - <https://github.com/ThinkUniform/uniformcss>

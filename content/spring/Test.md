@@ -67,6 +67,7 @@ parent: Spring
 - **@AutoConfigureTestDatabase** -> Spring/Datenbank/Data JPA/Test
 - **@WebMvcTest** (🥾)
   - für Controller-Layer
+  - <https://reflectoring.io/spring-boot-web-controller-test/>
 - **@WebFluxTest**
   - *We can use the @WebFluxTest annotation to test Spring WebFlux controllers. It's often used along with @MockBean to provide mock implementations for required dependencies.*
 - **@JdbcTest**

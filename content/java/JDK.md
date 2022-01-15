@@ -7,22 +7,25 @@ parent: Java
 ---
 
 # JDK
+- The Java Version Almanac - <https://javaalmanac.io/>
+
+## Distributionen
+- **OpenJDK**
+    - Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle (“Oracle OpenJDK”). Hier gibt es keinen Support und nach 6 Monaten (Release neue Version) keine weiteren Updates, auch nicht für "LTS"-Versionen (hierzu siehe unten).
+- **OracleJDK**
+    - OpenJDK mit ein paar Erweiterungen. Kostenpflichtig ab Java 12. Längerer Support für LTS-Versionen. Es gibt Lizenzen für Entwickler oder persönlichen Gebrauch, kommerzielle Verwendung ist hier aber ausgeschlossen.
+    - LTS
+        - *Oracle's stated opinion is that there's nothing special about LTS releases, and they merely correspond to an Oracle support product and should not be significant to anyone who is not a paying customer that buys support from Oracle.*
+- **Andere OpenJDK Distributionen**
+    - mit LTS-Support, zum Teil kostenpflichtig
+    - Amazon Corretto (kostenlos, Updates für 8 bis 2023, 11 ab April 19 und bis 2024)
+    - IBM
+    - Red Hat
+    - ~~AdoptOpenJDK~~ Adoptium
+        - [https://adoptium.net/](https://adoptium.net/)
+    - ...
+
+
+## Upgrade guides
 - [Oracle JDK Migration Guide](https://docs.oracle.com/en/java/javase/17/migrate/getting-started.html)
-
-## OpenJDK
-Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle (“Oracle OpenJDK”). Hier gibt es keinen Support und nach 6 Monaten (Release neue Version) keine weiteren Updates, auch nicht für "LTS"-Versionen (hierzu siehe unten).
-
-## OracleJDK
-OpenJDK mit ein paar Erweiterungen. Kostenpflichtig ab Java 12. Längerer Support für LTS-Versionen. Es gibt Lizenzen für Entwickler oder persönlichen Gebrauch, kommerzielle Verwendung ist hier aber ausgeschlossen.
-
-**LTS**<br/>
-*Oracle's stated opinion is that there's nothing special about LTS releases, and they merely correspond to an Oracle support product and should not be significant to anyone who is not a paying customer that buys support from Oracle.*
-
-## Andere OpenJDK Distributionen
-mit LTS-Support, zum Teil kostenpflichtig
-- Amazon Corretto (kostenlos, Updates für 8 bis 2023, 11 ab April 19 und bis 2024)
-- IBM
-- Red Hat
-- ~~AdoptOpenJDK~~ Adoptium
-    - [https://adoptium.net/](https://adoptium.net/)
-- ...
+- <https://blogs.oracle.com/javamagazine/post/its-time-to-move-your-applications-to-java-17-heres-why-and-heres-how>

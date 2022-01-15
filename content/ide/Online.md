@@ -23,7 +23,9 @@ parent: IDE
   - <https://codeshare.io/>
   - *Share Code in Real-time*
   - erfordert Registrierung
-- **Visual Studio Online**
+- **VSCode**
+  - <https://vscode.dev/>
+  - <https://www.infoq.com/news/2021/11/vscode-dev-launched/>
 - [repl.it](https://repl.it/)
   - Java (langsam, keine Code-Completion), JS, ...
   - Maven-Deps möglich

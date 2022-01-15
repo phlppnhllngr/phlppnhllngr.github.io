@@ -28,6 +28,9 @@ parent: CSS
   - https://www.npmjs.com/package/postcss-cssnext
 - **Autoprefixer online**
   - https://autoprefixer.github.io/
+- **@parcel/css**
+  - *A CSS parser, transformer, and minifier written in Rust*
+  - <https://github.com/parcel-bundler/parcel-css>
 
 
 ### Responsive

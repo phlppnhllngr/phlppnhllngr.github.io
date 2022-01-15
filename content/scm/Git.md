@@ -10,6 +10,12 @@ parent: SCM
 - <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work>
 - <https://github.com/git-tips/tips>
 - <https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow>
+- [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+  - bisect, push, log, rebase, revert
+  - `git log --graph --decorate --abbrev-commit --pretty=medium --branches --remotes`
+- <https://girliemac.com/blog/2017/12/26/git-purr/>
+- <https://ohshitgit.com/>
+
 
 ## Stages
 - **working directory**
@@ -22,7 +28,13 @@ parent: SCM
   - *the most recent committed version of code*
   - `git push` *changes to remote repository*
 
+
+## Commit
+- `git add . && git commit -m "..."` -> `git commit -am "..."`
+
+
 ## Branching
+- <https://learngitbranching.js.org/>
 - Haupt-Branch heißt 'master' oder 'main' (Konvention)
 - `git status` *shows the current branch*
 - **create new branch**
@@ -111,6 +123,10 @@ parent: SCM
 - dann später zurückholen (zum Committen): `git stash pop`
 - Stash leeren: `git stash clear`
 - <https://www.atlassian.com/git/tutorials/saving-changes/git-stash>
+
+
+## Aliases
+- `git config --global alias.foo "pull --rebase"` -> `git foo`
 
 
 ## Worktree

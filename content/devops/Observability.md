@@ -11,6 +11,8 @@ parent: DevOps
   - application performance monitoring/management
 - Observability
   - Metrics, Tracing, Logs
+- <https://haydenjames.io/observability-plus-20-observability-software-vendors/>
+
 
 ## Tracing
 - → Diverses/Logging

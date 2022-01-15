@@ -85,6 +85,9 @@ parent: Datenbank
 
 ## NOSQL
 - **mongodb**
+- **FerretDB**
+  - *A truly Open Source MongoDB alternative*
+  - <https://github.com/FerretDB/FerretDB>
 - **cassandra**
   - <https://cassandra.apache.org/>
   

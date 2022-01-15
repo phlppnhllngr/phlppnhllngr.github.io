@@ -113,6 +113,10 @@ parent: Diverses
 - **flagsmith**
   - *Feature flagging and remote config service. Host yourself or use our hosted version*
   - https://github.com/flagsmith/flagsmith *1000
+- **unleash**
+  - *feature toggle service*
+  - *comes with official client SDKs for all the popular languages*
+  - <https://github.com/Unleash/unleash>
 - **MS Teams**
   - Dev docs
     - Webhooks/Connectors
@@ -124,6 +128,16 @@ parent: Diverses
 - **Airbyte**
   - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
   - <https://github.com/airbytehq/airbyte>
+- **Tabby**
+  - *A terminal for the modern age*
+  - *Runs on Windows, Mac and Linux*
+  - <https://tabby.sh/>
+- **Browsix**
+  - *Unix-like operating system for the browser*
+  - <https://github.com/plasma-umass/browsix>
+- **focalboard**
+  - *open source, self-hosted project management tool that's an alternative to Trello, Notion, and Asana*
+  - <https://github.com/mattermost/focalboard>
 
 
 ## Passwort-Manager

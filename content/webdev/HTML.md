@@ -7,12 +7,17 @@ parent: Webdev
 ---
 
 # HTML
+- **ct.css**
+  - *Your `<head>` is the single biggest render-blocking part of your page—ensuring it is well-formed is critical. ct.css is a diagnostic CSS snippet that exposes potential performance issues in your page’s `<head>` tags.*
+  - <https://csswizardry.com/ct/>
+
 
 ## Preprocessors
 - **pug**
   - <https://github.com/pugjs/pug>
 - **haml**
   - <https://haml.info/>
+
 
 ## Zeichen & Entitäten
 - **soft hyphen**
