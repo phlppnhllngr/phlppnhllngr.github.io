@@ -114,6 +114,9 @@ parent: Java
       </tr>
     </table>
   - [https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
+- Spark Builder Generator
+  - *Generates a builder according to the GoF pattern for Java domain objects* 
+  - <https://marketplace.eclipse.org/content/spark-builder-generator>
 
 
 ### m2e
