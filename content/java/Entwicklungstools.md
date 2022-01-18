@@ -32,8 +32,10 @@ parent: Java
   - Konfigs von Sun & Google: <https://checkstyle.org/style_configs.html> (nicht erweiterbar)
   - eigene Regeln und Ignores möglich
 - **PMD**
+  - *source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports many languages. It can be extended with custom rules* 
   - <https://pmd.github.io>
   - <https://github.com/pmd/pmd> ⭐2500
+  - Eclipse-Plugin
 - **ErrorProne**
   - <https://github.com/google/error-prone> ⭐4800
   - <https://errorprone.info/index>
@@ -67,6 +69,7 @@ parent: Java
   - *can help you get an overview of the project you are working on or a product that you depend on*
   - *will provide you with reports that can help you Find missing classes from the classpath, Find similar JAR files that have different version numbers, Find unused JAR archives, ...*
 - **sourcetrail**
+  - Entwicklung eingestellt September '21 
   - <https://github.com/CoatiSoftware/Sourcetrail>
   - <https://www.sourcetrail.com/#intro>
   - *source explorer that helps you get productive on unfamiliar source code*
