@@ -170,12 +170,17 @@ parent: Java
 - **JMH**
   - <http://openjdk.java.net/projects/code-tools/jmh>
   - <https://github.com/Valloric/jmh-playground>
+    - *Setting [jmh] up (especially with Gradle) and learning how to use it can be a bit difficult; hopefully this repo makes this process easier for others.*
+    - *The absolute best way to learn how to use JMH is to read through the official JMH samples. All of them are included in this repo.*
+    - *Does NOT use the jmh-gradle-plugin which is confusing, brittle and difficult to use correctly.*
+    - *Benchmarking pitfalls to be aware of. JMH tips & tricks*
   - <https://www.retit.de/continuous-benchmarking-with-jmh-and-junit>
 - **caliper**
+  - *tool for measuring Java code performance, primarily focused on microbenchmarks.* 
   - <https://github.com/google/caliper> *620
 - **quickperf**
   - *quickly evaluate and improve some performance-related*
-  - Annotationen für `@Test`-Methoden
+  - Annotationen für `@Test`-Methoden (z. B. @MeasureHeapAllocation, @ExpectSelect (sql))
   - *configure test-jvm* (xmx, xms, jvm-options)
   - *measure & dump heap*
   - <https://github.com/quick-perf/quickperf>
