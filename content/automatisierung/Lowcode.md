@@ -119,6 +119,10 @@ parent: Automatisierung
   - *Open source no-code database and Airtable alternative*
   - <https://baserow.io/>
   - SaaS oder self hosted
+- **Huginn**
+  - *Create agents that monitor and act on your behalf*
+  - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
+  - <https://github.com/huginn/huginn>
 
 
 ## Webseiten

@@ -55,3 +55,9 @@ parent: Security
   - *built upon: Spring Boot and Spring Cloud*
   - *various protocols (saml, oauth, ...), jwt, ldap, Administrative UIs, ...*
   - <https://github.com/apereo/cas> *8.9k
+- **kratos**
+  - *Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, profile management, identity schemas, social sign in, registration, account recovery, and IoT auth. Golang, headless, API-only - without templating or theming headaches.*
+  - <https://github.com/ory/kratos>
+- **SuperTokens**
+  - *alternative to Auth0 / Firebase Auth / AWS Cognito*
+  - <https://github.com/supertokens/supertokens-core>

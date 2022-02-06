@@ -60,6 +60,7 @@ parent: API
   - *RESTest generates REST Assured test cases* (Java)
   - *test failures are collected and they can be easily spotted and analyzed in a user-friendly GUI, built with Allure*
   - <https://github.com/isa-group/RESTest>
+- **Testsigma** -> Webdev/E2E-Test
 
 
 ## Stress, Load, Resilience

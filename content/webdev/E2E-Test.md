@@ -177,6 +177,11 @@ parent: Webdev
   - https://github.com/galenframework/galen
 - **web test runner**
   - https://modern-web.dev/docs/test-runner/overview/
+- **Testsigma**
+  - *test automation platform that works out of the box. Rapidly(5X faster) automate web, mobile app, and API tests in plain English*
+  - *Smart test recorder auto-converts user actions into editable steps.*
+  - *Automate end-to-end testing for web, mobile apps & APIs.*
+  - <https://github.com/testsigmahq/testsigma>
 
 
 ### Cloud, SaaS
