@@ -12,8 +12,6 @@ parent: Dokumentation
   - <https://awesome.cube.dev>
   - *Awesome data visualization tools for software developers*
   - Liste von Charts, maps, 3d tools, exploration tools, data grids
-- **draw.io**
-  - <https://www.draw.io>
 - **graphviz**
   - <https://graphviz.gitlab.io>
 - **mermaid**
@@ -29,6 +27,7 @@ parent: Dokumentation
   - <https://github.com/davidkpiano/xstate>
   - state charts
 - **diagrams.net**
+  - ehemals "draw.io" 
   - <https://www.diagrams.net>
 - **excalidraw**
   - *Virtual whiteboard for sketching hand-drawn like diagrams*
