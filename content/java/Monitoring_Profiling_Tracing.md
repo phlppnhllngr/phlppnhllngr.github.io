@@ -14,7 +14,7 @@ parent: Java
 <br/>
 - /jdk/bin
   - **jcmd** (java diagnostic command tool)
-    - https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr006.html
+    - <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr006.html>
     - *The jcmd utility is used to send diagnostic command requests to the JVM, where these requests are useful for controlling Java Flight Recordings, troubleshoot, and diagnose JVM and Java Applications.*
     - *it must be used on the same machine on which JVM is running*
   - jinfo
