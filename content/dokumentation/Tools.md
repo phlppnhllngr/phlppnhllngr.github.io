@@ -9,54 +9,54 @@ parent: Dokumentation
 # Tools
 
 ## Readme
-- https://github.com/kefranabg/readme-md-generator
+- <https://github.com/kefranabg/readme-md-generator>
 - readme.so
   - wysiwyg
-  - https://readme.so/
+  - <https://readme.so/>
 
 
 ## Code- und Api-Dokumentation
-- https://github.com/kylelobo/The-Documentation-Compendium/
+- <https://github.com/kylelobo/The-Documentation-Compendium/>
   - Guides, Templates
 - **RAML**
   - Tools
-    - https://github.com/raml2html/raml2html
+    - <https://github.com/raml2html/raml2html>
     - apiworkbench
-      - http://apiworkbench.com/
+      - <http://apiworkbench.com/>
       - *development environment (IDE) for designing, building, testing, documenting and sharing RESTful HTTP APIs*
 - **Swagger**
   - *OpenAPI = Specification, Swagger = Tools for implementing the specification*
-  - https://swagger.io/
+  - <https://swagger.io/>
 - **docsify**
-  - https://docsify.js.org
+  - <https://docsify.js.org>
   - docs site generator
 - **Docusaurus**
-  - https://docusaurus.io/ 
+  - <https://docusaurus.io/>
   - *Documentation Websites*
 - **apiary.io** 💰
-  - https://apiary.io/
+  - <https://apiary.io/>
 - **outline**
-  - https://github.com/outline/outline
+  - <https://github.com/outline/outline>
   - Wiki
 - **redoc**
-  - https://github.com/Redocly/redoc *7300
+  - <https://github.com/Redocly/redoc> *7300
   - generiert Webseite anhand von api.json
 - **slate**
-  - https://github.com/slatedocs/slate *32k
+  - <https://github.com/slatedocs/slate> *32k
   - *static documentation for your API*
 - **apiDoc**
   - *apiDoc creates a documentation from API annotations in your source code.*
-  - http://apidocjs.com/
+  - <http://apidocjs.com/>
   - rest api doc generator
   - funktioniert mit js, java, ...
 - **codedoc**
-  - https://codedoc.cc/
-  - *https://github.com/CONNECT-platform/codedoc/*
+  - <https://codedoc.cc/>
+  - <https://github.com/CONNECT-platform/codedoc/>
   - *creates a JAMStack app from your markdown files*
 - **mkdocs**
   - *static site generator. Documentation source files are written in Markdown, and configured with a single YAML configuration file*
-  - https://www.mkdocs.org/
-  - https://github.com/mkdocs/mkdocs/
+  - <https://www.mkdocs.org/>
+  - <https://github.com/mkdocs/mkdocs/>
 - **mdBook**
   - *Create book from markdown files*
   - <https://github.com/rust-lang/mdBook>
