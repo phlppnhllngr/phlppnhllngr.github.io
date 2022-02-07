@@ -7,9 +7,9 @@ parent: Java
 ---
 
 # Monitoring, Profiling
-- https://github.com/akullpp/awesome-java#monitoring
-- (2) https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know
-- (1) https://blog.codota.com/top-9-free-java-process-monitoring-tools/
+- <https://github.com/akullpp/awesome-java#monitoring>
+- (2) <https://dzone.com/articles/java-performance-monitoring-5-open-source-tools-you-should-know>
+- (1) <https://blog.codota.com/top-9-free-java-process-monitoring-tools/>
 <br/>→ DevOps/Monitoring
 <br/>
 - /jdk/bin
@@ -37,19 +37,19 @@ parent: Java
       passing diagnostic commands of the jcmd tool when a Java application is already running*
     - https://github.com/flight-recorder/health-report
     - jfr events
-      - https://bestsolution-at.github.io/jfr-doc/
+      - <https://bestsolution-at.github.io/jfr-doc/>
       - custom events (jdk.jfr api; java 9+)
-        - https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/
-    - https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14
-    - https://www.baeldung.com/java-flight-recorder-monitoring
+        - <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
+    - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
+    - <https://www.baeldung.com/java-flight-recorder-monitoring>
 
 
 ## Profilers
 - *profilers should detail out all memory usage by the JVM including object creation, method executions, iterative executions, thread executions, and garbage collection*
 - **micrometer**
-  - https://micrometer.io
+  - <https://micrometer.io>
 - **MoSKito**
-  - https://www.moskito.org/index.html
+  - <https://www.moskito.org/index.html>
   - aus Hands-On High Performance with Spring 5:
     - *MoSKito	is	a	group	of	three	tools:*
       - *MoSKito-Essential:	This	standalone	project	is	the	core	of	MoSKito.	It makes	it	possible	to	monitor	the	application.*
@@ -66,13 +66,13 @@ parent: Java
   - diverse Plugins
     - https://visualvm.github.io/plugins.html
     - Menü>Tools>Plugins
-  - https://engineering.talkdesk.com/ninjas-guide-to-getting-started-with-visualvm-f8bff061f7e7 (docker/remote)
+  - <https://engineering.talkdesk.com/ninjas-guide-to-getting-started-with-visualvm-f8bff061f7e7> (docker/remote)
 - **YourKit** 💰
-  - https://www.yourkit.com/java/profiler/features/
+  - <https://www.yourkit.com/java/profiler/features/>
 - **JProfiler** 💰
-  - https://www.ej-technologies.com/products/jprofiler/overview.html
+  - <https://www.ej-technologies.com/products/jprofiler/overview.html>
 - **HeapHero**
-  - https://heaphero.io/
+  - <https://heaphero.io/>
   - *Java & Android Heap Dump Analyzer*
   - *Auto Memory Leak Detection*
   - *Tips to Reduce Memory 30-70%*
@@ -81,15 +81,15 @@ parent: Java
 
 ## APM
 - **OverOps** 💰
-  - https://www.overops.com/product
+  - <https://www.overops.com/product>
 - **javamelody**
-  - https://github.com/javamelody/javamelody
+  - <https://github.com/javamelody/javamelody>
   - *monitoring of JavaEE applications*
   - <mark>free</mark>
 - **appdynamics** 💰
-  - https://www.appdynamics.de/java/
+  - <https://www.appdynamics.de/java/>
 - **newrelic** 💰
-  - https://newrelic.com/java
+  - <https://newrelic.com/java>
   - aus Hands-On High Performance with Spring 5:
     - *New	Relic	supports	applications	developed	in	Java,	Scala,	Ruby,	Python,	PHP, .NET,	and	Node.js*
     - *New	Relic	offers	four	different	approaches	for	backend monitoring*
@@ -98,54 +98,54 @@ parent: Java
       - *Database	monitoring:	In	New	Relic,	the	dashboard	for	the	database	is	a part	of	the	application	performance	management	dashboard.	It	is	possible	to view	database	monitoring	metrics	through	plugins.*
       - *Insights	and	analytics:	New	Relic	has	a	built-in,	opt-in	database,	which stores	statistics	and	enables	querying	the	database.*
 - **scouter**
-  - https://github.com/scouter-project/scouter ⭐1.5k
+  - <https://github.com/scouter-project/scouter> ⭐1.5k
   - *the open source new relic and appdynamics* [1]
   - <mark>free</mark>
 - **dynatrace** 💰
-  - https://www.dynatrace.com/
+  - <https://www.dynatrace.com/>
 - **Stagemonitor**
-  - https://www.stagemonitor.org/de/
-  - https://github.com/stagemonitor/stagemonitor ⭐1.5k
+  - <https://www.stagemonitor.org/de/>
+  - <https://github.com/stagemonitor/stagemonitor> ⭐1.5k
   - aus "Hands-On High Performance with Spring 5":
     - *has	a	monitoring	agent	built	with	support	for	clustered	application stacks*
     - *It is optimized	for	time	series	data management,	which	includes	arrays	of	numbers,	indexed	by	time.	Such databases	include	elasticsearch, graphite, and InfluxDB*
     - *Stagemonitor	contains	a	Java-based	agent.	The	agent	sits	in	the	Java	application. The agent	connects	to	the	central	database	and	sends	metrics	and	request	traces and	statistics.	Stagemonitor	requires	one	instance	for	monitoring	all	applications, instances, and	hosts.*
 - **Pinpoint**
-  - http://naver.github.io/pinpoint/
+  - <http://naver.github.io/pinpoint/>
   - *if you’re looking to monitor the performance of large-scale distributed systems written in Java* [1]
   - <mark>free</mark>
   - aus "Hands-On High Performance with Spring 5":
     - Pinpoint is	different	from	Stagemonitor,	in that it was developed with large-scale applications in	mind
 - **Glowroot**
-  - https://glowroot.org/
-  - https://demo.glowroot.org/
-  - https://github.com/glowroot/glowroot ⭐700
+  - <https://glowroot.org/>
+  - <https://demo.glowroot.org/>
+  - <https://github.com/glowroot/glowroot> ⭐700
   - <mark>free</mark>, simple APM (javaagent)
 - **Kamon** 💰
-  - https://kamon.io/
+  - <https://kamon.io/>
 - **Chronon** 💰
-  - http://chrononsystems.com/
+  - <http://chrononsystems.com/>
 - **Apache Skywalking**
-  - https://github.com/apache/skywalking
+  - <https://github.com/apache/skywalking>
 - **fusion-reactor** 💰
-  - https://www.fusion-reactor.com/
+  - <https://www.fusion-reactor.com/>
 - **Rookout** 💰
-  - https://www.rookout.com/
+  - <https://www.rookout.com/>
   - *remote debugging, logging, monitoring, profiling*
 - **OpenTelemetry**
   - → DevOps/Monitoring
   - SDK
-    - https://github.com/open-telemetry/opentelemetry-java
+    - <https://github.com/open-telemetry/opentelemetry-java>
   - Java-Agent
     - *offload responsibility from the application (no application code required)*
     - viele [frameworks und libs](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/supported-libraries.md#libraries---frameworks) ohne zusätzl. konfiguration unterstützt ("auto instrumentation"), custom telemetry für alle anderen (über code + annotationen)
     - https://github.com/open-telemetry/opentelemetry-java-instrumentation
     - [Youtube: OpenTelemetry Agent and Collector: Telemetry Built-in Into All Software](https://www.youtube.com/watch?v=cHiFSprUqa0)
 - **ycrash** 💰
-  - https://ycrash.io/
+  - <https://ycrash.io/>
   - *Automatically captures & analyzes GC Logs, thread dumps, heap dumps & several more artifacts to identify root cause.*
   - *compliments Monitoring Tools*
 - **Arthas**
   - *allows developers to troubleshoot production issues for Java applications without modifying code or restarting servers*
   - *Often times, the production system network is inaccessible from the local development environment. If issues are encountered in production systems, it is impossible to use IDEs to debug the application remotely. More importantly, debugging in production environment is unacceptable, as it will suspend all the threads, resulting in the suspension of business services.*
-  - https://github.com/alibaba/arthas/
+  - <https://github.com/alibaba/arthas/>
