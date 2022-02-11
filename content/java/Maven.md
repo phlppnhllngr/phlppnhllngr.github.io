@@ -136,6 +136,30 @@ parent: Java
 - **build helper**
   - <https://www.mojohaus.org/build-helper-maven-plugin/index.html>
   - z. B. Auslesen der aktuellen pom.version (nützlich für Zusammenspiel mit versions-plugin), ...
+  - ```
+    <execution>
+      <id>parse-version</id>
+      <phase>initialize</phase>
+      <goals>
+        <!-- https://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html -->
+        <goal>parse-version</goal>
+      </goals>
+      <configuration>
+        <propertyPrefix>parsedVersion</propertyPrefix>
+      </configuration>
+    </execution>
+    <execution>
+      <goals>
+        <goal>bsh-property</goal>
+      </goals>
+      <configuration>
+        <properties>
+          <property>foo.bar</property>
+        </properties>
+        <source>foo.bar = project.getVersion().endsWith("SNAPSHOT") ? "foo" : "bar";</source>
+      </configuration>
+    </execution>
+    ```
 - **changelog**
   - *generates reports regarding the recent changes in your SCM*
   - <https://maven.apache.org/plugins/maven-changelog-plugin/>
@@ -166,6 +190,20 @@ parent: Java
   - *identify the use of known vulnerable components*
 - **deploy**
   - <http://maven.apache.org/plugins/maven-deploy-plugin>
+  - ```
+    <distributionManagement>
+      <repository>
+        <id>libs-release-local</id>
+        <name>libs-release-local</name>
+        <url>${deploy.root}/libs-release-local</url>
+      </repository>
+      <snapshotRepository>
+        <id>libs-snapshot-local</id>
+        <name>libs-snapshot-local</name>
+        <url>${deploy.root}/libs-snapshot-local</url>
+      </snapshotRepository>
+	  </distributionManagement>
+    ```
 - **directory**
   - *discovery of various project-related paths*
   - <https://github.com/jdcasey/directory-maven-plugin>
@@ -303,6 +341,32 @@ parent: Java
   - <https://www.baeldung.com/java-accessing-maven-properties>
 - **release**
   - <http://maven.apache.org/maven-release/maven-release-plugin>
+  - ```
+    <scm>
+      <developerConnection>scm:svn:${svn.url}/trunk</developerConnection>
+      <connection>scm:svn:${svn.url}/trunk</connection>
+      <url>${svn.url}</url>
+	  </scm>
+
+    <distributionManagement>
+      <repository>
+        <id>libs-release-local</id>
+        <name>libs-release-local</name>
+        <url>${deploy.root}/libs-release-local</url>
+      </repository>
+      <snapshotRepository>
+        <id>libs-snapshot-local</id>
+        <name>libs-snapshot-local</name>
+        <url>${deploy.root}/libs-snapshot-local</url>
+      </snapshotRepository>
+    </distributionManagement>
+    
+    <configuration>
+      <autoVersionSubmodules>true</autoVersionSubmodules>
+      <developmentVersion>${parsedVersion.majorVersion}.${parsedVersion.nextMinorVersion}.0-SNAPSHOT</developmentVersion>
+      <tagNameFormat>@{project.version}</tagNameFormat>
+    </configuration>
+    ```
 - **replacer**
   - <https://code.google.com/archive/p/maven-replacer-plugin>
   - *replace tokens within a file with a given value and fully supports regular expressions*
