@@ -9,6 +9,7 @@ parent: API
 # Test
 
 - **strest**
+  - Github archived/read-only seit 03/2020
   - <https://github.com/eykhagen/strest/> *1700
   - node_module, docker image
   - yaml
