@@ -190,7 +190,7 @@ parent: Java
   - *identify the use of known vulnerable components*
 - **deploy**
   - <http://maven.apache.org/plugins/maven-deploy-plugin>
-  - ```
+  - ```xml
     <distributionManagement>
       <repository>
         <id>libs-release-local</id>
@@ -202,7 +202,7 @@ parent: Java
         <name>libs-snapshot-local</name>
         <url>${deploy.root}/libs-snapshot-local</url>
       </snapshotRepository>
-	  </distributionManagement>
+    </distributionManagement>
     ```
 - **directory**
   - *discovery of various project-related paths*
@@ -341,12 +341,12 @@ parent: Java
   - <https://www.baeldung.com/java-accessing-maven-properties>
 - **release**
   - <http://maven.apache.org/maven-release/maven-release-plugin>
-  - ```
+  - ```xml
     <scm>
       <developerConnection>scm:svn:${svn.url}/trunk</developerConnection>
       <connection>scm:svn:${svn.url}/trunk</connection>
       <url>${svn.url}</url>
-	  </scm>
+    </scm>
 
     <distributionManagement>
       <repository>
