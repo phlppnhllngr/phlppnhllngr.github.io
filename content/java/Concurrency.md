@@ -85,6 +85,12 @@ parent: Java
 - **ScheduledThreadPoolExecutor**
   - extends ThreadPoolExecutor implements ScheduledExecutorService 
   - *A ThreadPoolExecutor that can additionally schedule commands to run after a given delay, or to execute periodically.*
+  - Methoden
+    - `void setContinueExistingPeriodicTasksAfterShutdownPolicy(boolean value)`
+      - *Sets the policy on whether to continue executing existing periodic tasks even when this executor has been shutdown.* 
+    - `void setExecuteExistingDelayedTasksAfterShutdownPolicy(boolean value)`
+      - *Sets the policy on whether to execute existing delayed tasks even when this executor has been shutdown.*
+    - ... 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ScheduledThreadPoolExecutor.html>
 - **Executors**
   - *Factory and utility methods for `Executor`, `ExecutorService`, `ScheduledExecutorService`, `ThreadFactory`, and `Callable` classes defined in this package*
