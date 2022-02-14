@@ -7,6 +7,23 @@ parent: Java
 
 ## JDK
 
+### java.lang.Thread
+- *A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.*
+- Methoden
+  - `long	getId()`
+  - `String	getName()`
+  - `int getPriority()`
+  - `Thread.UncaughtExceptionHandler	getUncaughtExceptionHandler()`
+  - `boolean isDaemon()`
+  - `void	join()` (+2 Overloads)
+  - `void	run()`
+  - `void	start()`
+    - *Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.*
+  - `static void yield()`
+    - *A hint to the scheduler that the current thread is willing to yield its current use of a processor.*
+  - ...
+- <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html>
+
 ### java.util
 - **Timer**
   - *A facility for threads to schedule tasks for future execution in a background thread.*
@@ -41,11 +58,19 @@ parent: Java
     - `ScheduledFuture<?>	scheduleAtFixedRate(Runnable command, long initialDelay, long period, TimeUnit unit)`
     - `ScheduledFuture<?>	scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit)`
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ScheduledExecutorService.html>
+- **AbstractExecutorService**
+  - *Provides default implementations of `ExecutorService` execution methods* 
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/AbstractExecutorService.html>
 - **ThreadPoolExecutor**
+  - extends AbstractExecutorService 
   - *executes each submitted task using one of possibly several pooled threads, normally configured using `Executors` factory methods.*
   - *To be useful across a wide range of contexts, this class provides many adjustable parameters and extensibility hooks*
-  - *However, programmers are urged to use the more convenient Executors factory methods (...), that preconfigure settings for the most common usage scenarios. Otherwise, use the following guide when manually configuring and tuning this class:*
+  - *However, <mark>programmers are urged to use the more convenient Executors factory methods</mark> (...), that preconfigure settings for the most common usage scenarios. Otherwise, use the following guide when manually configuring and tuning this class:*
   - Es folgen Hinweise zu den Themen: *Core and maximum pool sizes, On-demand construction, Creating new threads, Keep-alive times, Queuing, Rejected tasks, Hook methods, Queue maintenance, Finalization*
+  - Methoden
+    - `void	setCorePoolSize(int corePoolSize)`
+    - `void	setMaximumPoolSize(int maximumPoolSize)`
+    - ... 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ThreadPoolExecutor.html> 
 - **ScheduledThreadPoolExecutor**
   - extends ThreadPoolExecutor implements ScheduledExecutorService 
@@ -72,3 +97,7 @@ parent: Java
     - `static ExecutorService newWorkStealingPool()`
     - ... 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html> 
+- **ForkJoinPool**
+  - extends AbstractExecutorService
+  - *An `ExecutorService` for running `ForkJoinTasks`* 
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ForkJoinPool.html> 
