@@ -90,6 +90,7 @@ parent: Java
       - *Sets the policy on whether to continue executing existing periodic tasks even when this executor has been shutdown.* 
     - `void setExecuteExistingDelayedTasksAfterShutdownPolicy(boolean value)`
       - *Sets the policy on whether to execute existing delayed tasks even when this executor has been shutdown.*
+    - `BlockingQueue<Runnable> getQueue()`
     - ... 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ScheduledThreadPoolExecutor.html>
 - **Executors**
