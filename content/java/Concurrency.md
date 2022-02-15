@@ -68,6 +68,7 @@ parent: Java
       - *Creates and executes a periodic action that becomes enabled first after the given initial delay, and subsequently with the given delay between the termination of one execution and the commencement of the next.*
       - *<mark>If any execution of the task encounters an exception, subsequent executions are suppressed</mark>. Otherwise, the task will only terminate via cancellation or termination of the executor.* 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ScheduledExecutorService.html>
+  - *(...) This is done by re-adding the periodic task to the queue only after it's execution. The task itself is not present in the queue during it's execution and will never be present in it multiple times.* (<https://stackoverflow.com/a/53529273>) => Wenn die execution time länger ist als delay/period, sammeln sich KEINE verzögerten Tasks in der internen Queue an
 - **AbstractExecutorService**
   - *Provides default implementations of `ExecutorService` execution methods* 
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/AbstractExecutorService.html>
