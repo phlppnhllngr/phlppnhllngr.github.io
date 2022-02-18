@@ -29,7 +29,7 @@ parent: Spring
 - **SseEmitter**
   - *subclass of ResponseBodyEmitter and provides additional Server-Sent Event (SSE) support out-of-the-box.*
 - **StreamingResponseBody**
-  - https://technicalsand.com/streaming-data-spring-boot-restful-web-service/
+  - <https://technicalsand.com/streaming-data-spring-boot-restful-web-service/>
     - Beispiele
        - text data
        - json
