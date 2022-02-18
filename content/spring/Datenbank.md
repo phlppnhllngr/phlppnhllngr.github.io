@@ -13,15 +13,7 @@ parent: Spring
 - *Spring abstractions over the plain JDBC*
 - Spring Boot Starter: `spring-boot-starter-jdbc`
 - Klassen
-  - @Transactional
-    - <https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/>
-  - TransactionTemplate
-    - Alternative zu `@Transactional`
-    - <https://www.baeldung.com/spring-programmatic-transaction-management>
-      - *Mixing the database I/O with other types of I/O in a transactional context is a bad smell. So, the first solution for these sorts of problems is to separate these types of I/O altogether. If for whatever reason we can't separate them, we can still use Spring APIs to manage transactions manually.*
-  - DataSource
   - JdbcTemplate
-  - ResultSet
 - JDBC & DATA-JDBC: <https://4comprehension.com/lightweight-jpa-hibernate-alternatives>
 
 
@@ -107,6 +99,15 @@ parent: Spring
 - **Hibernate (oder anderes JPA-ORM) mit Spring Data**
   - *JPA does a lot of things over JDBC: Caching (1st, 2nd level, and query cache), Automated creation of instances from queries, Navigation between entities, Lazy loading*
   - *With all this stuff happening it can be difficult understanding what is happening and why*
+
+
+## Transactions
+- @Transactional
+	- <https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/>
+- TransactionTemplate
+	- Alternative zu `@Transactional`
+	- <https://www.baeldung.com/spring-programmatic-transaction-management>
+	- *Mixing the database I/O with other types of I/O in a transactional context is a bad smell. So, the first solution for these sorts of problems is to separate these types of I/O altogether. If for whatever reason we can't separate them, we can still use Spring APIs to manage transactions manually.*
 
 
 ## Migration
