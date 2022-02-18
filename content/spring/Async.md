@@ -10,25 +10,25 @@ parent: Spring
 
 ## Klassen
 - *If you do not define an `Executor` bean, Spring creates a `SimpleAsyncTaskExecutor` and uses that.*
-- @Async(bean?)
+- **@Async(bean?)**
   - bean = Name der `Executor`-@Bean
   - Return-Types: void, Future, CompletableFuture
   - *if the return type is void, exceptions will not be propagated to the calling thread*
   - AsyncUncaughtExceptionHandler (I)
-- @EnableAsync
+- **@EnableAsync**
   - *switches on Spring’s ability to run @Async methods in a background thread pool*
-- AsyncConfigurer (I)
+- **interface AsyncConfigurer**
   - `Executor getAsyncExecutor()`
     - dieser Executor wird anwendungsweit der Default-Threadpool für Methoden mit `@Async`
-- ThreadPoolTaskExecutor
+- **ThreadPoolTaskExecutor**
   - [java docs](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.html)
   - intern: ThreadPoolExecutor
-- ResponseBodyEmitter
+- **ResponseBodyEmitter**
   - *handles async responses*
   - *we can sidestep needing to use CompleteableFutures, more complicated asynchronous promises, or use of the @Async annotation*
-- SseEmitter
+- **SseEmitter**
   - *subclass of ResponseBodyEmitter and provides additional Server-Sent Event (SSE) support out-of-the-box.*
-- StreamingResponseBody
+- **StreamingResponseBody**
   - https://technicalsand.com/streaming-data-spring-boot-restful-web-service/
     - Beispiele
        - text data
@@ -38,6 +38,6 @@ parent: Spring
 
 
 ## Docs
-- https://www.baeldung.com/spring-async
-- https://www.baeldung.com/spring-mvc-sse-streams
-- https://spring.io/guides/gs/async-method/
+- <https://www.baeldung.com/spring-async>
+- <https://www.baeldung.com/spring-mvc-sse-streams>
+- <https://spring.io/guides/gs/async-method/>
