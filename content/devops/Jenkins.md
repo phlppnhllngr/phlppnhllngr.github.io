@@ -15,6 +15,46 @@ parent: DevOps
 
 ## Jenkinsfile
 
+**Beispiel**
+```groovy
+properties([
+	parameters([
+        booleanParam(name: 'CLEAN_WS', defaultValue: false, description: 'Workspace vorher löschen?'),
+        choice(
+            name: 'BAR',
+            choices: [
+                'lorem'
+                'ipsum',
+                'dolor'
+            ],
+            description: 'bar'
+        ),
+        string(name: 'BAZ', defaultValue: '2.3.0-SNAPSHOT', description: '')
+	]),
+  [$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10']]
+])
+
+node {
+  currentBuild.description = "${params}"
+	stage('Clean WS') {
+		if (!params.CLEAN_WS) {
+			catchError(message: "Stage 'Clean WS' übersprungen", buildResult: "SUCCESS", stageResult: "UNSTABLE") {
+				sh "exit 1"
+			}
+			return;
+		}
+		cleanWs()
+	}
+	stage('Checkout') {
+		checkout scm
+	}
+  stage('foo.sh') {
+    sh "chmod 755 ${env.WORKSPACE}/foo.sh"
+    sh "${env.WORKSPACE}/foo.sh"
+  }
+}
+```
+
 **Groovy**
 ```groovy
 // a.groovy
