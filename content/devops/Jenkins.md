@@ -38,7 +38,8 @@ properties([
 		),
 		string(name: 'BAZ', defaultValue: '2.3.0-SNAPSHOT', description: '')
 	]),
-  	[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10']]
+  	[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10']],
+	[$class: 'DurabilityHintJobProperty', hint: 'PERFORMANCE_OPTIMIZED']
 ])
 
 node {
