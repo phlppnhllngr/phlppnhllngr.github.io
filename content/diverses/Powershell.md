@@ -8,3 +8,14 @@ parent: Diverses
 
 # Powershell
 - [Powershell - Notes for Professionals](https://books.goalkicker.com/PowerShellBook/)
+
+## Snippets
+**Prüfen, ob Ordner existiert**
+`$exists = Test-Path "C:\foo\bar"`
+
+**Prüfen, ob Datei existiert; mit Wildcard**
+```powershell
+if (Test-Path "C:\foo\bar-*.txt" -pathtype leaf) {
+  ...
+}
+```
