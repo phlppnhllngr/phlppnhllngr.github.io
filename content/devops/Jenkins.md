@@ -11,6 +11,10 @@ parent: DevOps
 - [globale Variablen](https://opensource.triology.de/jenkins/pipeline-syntax/globals)
   - [currentBuild](https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild)
     - siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
+  - params
+  - env
+  - pipeline
+  - scm
 
 
 ## Jenkinsfile
@@ -208,6 +212,9 @@ stage('foo') {
     ```
 - configuration-as-code
   - <https://github.com/jenkinsci/configuration-as-code-plugin>
+- Timestamper
+	- *adds timestamps to the console output of Jenkins jobs*
+	- <https://plugins.jenkins.io/timestamper/> 
 
 
 ## Tools
