@@ -11,7 +11,9 @@ parent: Diverses
 
 ## Snippets
 **Prüfen, ob Ordner existiert**
-`$exists = Test-Path "C:\foo\bar"`
+```ps1
+$exists = Test-Path "C:\foo\bar"
+```
 
 **Prüfen, ob Datei existiert; mit Wildcard**
 ```powershell
