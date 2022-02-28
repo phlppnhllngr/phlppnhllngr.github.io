@@ -13,6 +13,9 @@ parent: DevOps
     - siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
   - params
   - env
+  	- WORKSPACE
+  		- `${env.WORKSPACE}`
+  		- absoluter Pfad des Workspace, z. B. /var/jenkins_home/workspace/foo
   - pipeline
   - scm
 
