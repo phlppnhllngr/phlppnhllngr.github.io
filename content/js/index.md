@@ -28,28 +28,28 @@ has_children: true
 - https://github.com/trekhleb/javascript-algorithms
 - https://github.com/TheAlgorithms/Javascript
 - https://books.goalkicker.com/JavaScriptBook/
-
-
-## Office Addin
-- https://github.com/OfficeDev/Office-Addin-Scripts
-- https://github.com/OfficeDev/office-js-snippets
-
-
-## WebRTC
-- <https://webrtc.org/>
-- <https://github.com/webrtc-for-the-curious/webrtc-for-the-curious>
-- <https://github.com/webrtc/adapter>
-- **simplewebrtc**
-  - React
-- **easyrtc**
-  - https://github.com/priologic/easyrtc
-- **peerjs**
-  - https://peerjs.com/
-  - https://github.com/peers/peerjs
-  - 59,1kb minified, 14,7kb gzipped
-  - peerjs-server
-    - https://github.com/peers/peerjs-server
-    - *helps establishing connections between PeerJS clients. Data is not proxied through the server.*
-- **coturn**
-  - https://github.com/coturn/coturn
-  - *Free open source implementation of TURN and STUN Server*
+- **Bookmarklet**
+    ```js
+    javascript:(function() { alert('hello world'); }())
+    ```
+- **Office Addin**
+    - https://github.com/OfficeDev/Office-Addin-Scripts
+    - https://github.com/OfficeDev/office-js-snippets
+- **WebRTC**
+    - <https://webrtc.org/>
+    - <https://github.com/webrtc-for-the-curious/webrtc-for-the-curious>
+    - <https://github.com/webrtc/adapter>
+    - **simplewebrtc**
+      - React
+    - **easyrtc**
+      - https://github.com/priologic/easyrtc
+    - **peerjs**
+      - https://peerjs.com/
+      - https://github.com/peers/peerjs
+      - 59,1kb minified, 14,7kb gzipped
+      - peerjs-server
+        - https://github.com/peers/peerjs-server
+        - *helps establishing connections between PeerJS clients. Data is not proxied through the server.*
+    - **coturn**
+      - https://github.com/coturn/coturn
+      - *Free open source implementation of TURN and STUN Server*
