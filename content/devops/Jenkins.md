@@ -8,16 +8,49 @@ parent: DevOps
 
 # Jenkins
 
-- [globale Variablen](https://opensource.triology.de/jenkins/pipeline-syntax/globals)
-  - [currentBuild](https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild)
-    - siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
-  - params
-  - env
-  	- WORKSPACE
-  		- `${env.WORKSPACE}`
-  		- absoluter Pfad des Workspace, z. B. /var/jenkins_home/workspace/foo
-  - pipeline
-  - scm
+## Steps
+- <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/>
+- **properties**
+- **sh**
+- **checkout**
+- **timeout**
+  - `timeout(time: 20, unit: 'SECONDS', activity: true) { ... }`
+  - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/#timeout-enforce-time-limit>
+- **parallel**
+- **retry**
+- **stage**
+- **sleep**
+- **input**
+	- properties
+		- message
+		- parameters?
+		- ...  
+	- <https://www.jenkins.io/doc/pipeline/steps/pipeline-input-step/> 
+- ...
+
+
+## Symbols
+- **node**
+- **parameters**
+- **cleanWs**
+- **pipelineTriggers**
+- **disableConcurrentBuilds**
+- ...
+
+
+## Globals
+- <https://opensource.triology.de/jenkins/pipeline-syntax/globals>
+- siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
+- **currentBuild**
+	- description 
+	- <https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild>
+- **params**
+- **env**
+	- WORKSPACE
+		- `${env.WORKSPACE}`
+		- absoluter Pfad des Workspace, z. B. /var/jenkins_home/workspace/foo
+- **pipeline**
+- **scm**
 
 
 ## Jenkinsfile
@@ -57,8 +90,13 @@ node {
 		checkout scm
 	}
   	stage('foo.sh') {
-    		sh "chmod 755 ${env.WORKSPACE}/foo.sh"
-    		sh "${env.WORKSPACE}/foo.sh"
+		timeout(time: 10, unit: 'SECONDS') {
+			sh "chmod 755 ${env.WORKSPACE}/foo.sh"
+			retry(2) {
+				sh "${env.WORKSPACE}/foo.sh"
+			}
+
+		}
   	}
 }
 ```
