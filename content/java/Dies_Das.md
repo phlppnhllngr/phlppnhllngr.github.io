@@ -11,13 +11,13 @@ parent: Java
 - **JNI**
   - Java Native Interface
   - *bridge between the bytecode running in our JVM and the native code*
-  - https://www.baeldung.com/jni
+  - <https://www.baeldung.com/jni>
   - neuere Alternative: foreign linker api, jextract (jdk15)
 - **JNA**
-  - https://github.com/java-native-access/jna
+  - <https://github.com/java-native-access/jna>
   - *JNA provides Java programs easy access to native shared libraries without writing anything but Java code - no JNI or native code is required*
 - **Process API**
-  - https://www.baeldung.com/java-lang-processbuilder-api
+  - <https://www.baeldung.com/java-lang-processbuilder-api>
 - **Reflection**
   - Proxies
     - https://www.baeldung.com/java-dynamic-proxies
@@ -28,27 +28,27 @@ parent: Java
     - auch als Agent erhältlich
     - https://bytebuddy.net/
     - Beispiele
-      - http interceptor: https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/
-      - log4j-jndi-be-gone: https://github.com/nccgroup/log4j-jndi-be-gone - *A Byte Buddy Java agent-based fix for CVE-2021-44228, the log4j 2.x "JNDI LDAP" vulnerability.*
+      - http interceptor: <https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/>
+      - log4j-jndi-be-gone: <https://github.com/nccgroup/log4j-jndi-be-gone> - *A Byte Buddy Java agent-based fix for CVE-2021-44228, the log4j 2.x "JNDI LDAP" vulnerability.*
   - cglib
 - **Agents**
   - premain, class-redefinition, ...
-  - https://jaxenter.de/james-bond-laesst-gruessen-28256
-  - https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen (01/2020)
-  - hotpatch-for-apache-log4j2: https://github.com/corretto/hotpatch-for-apache-log4j2 - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
+  - <https://jaxenter.de/james-bond-laesst-gruessen-28256>
+  - <https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen> (01/2020)
+  - hotpatch-for-apache-log4j2: <https://github.com/corretto/hotpatch-for-apache-log4j2> - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
 - **Instrumentation**
   - *Instrumentation is the process of adding extra code at runtime to an existing codebase in order to measure timings of different operations.*
 - **AOP**
 - **AnnotationProcessing API** (compiler)
 - **sun.misc.Unsafe**
-  - https://www.javacodegeeks.com/2013/12/the-infamous-sun-misc-unsafe-explained.html
-  - http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/
+  - <https://www.javacodegeeks.com/2013/12/the-infamous-sun-misc-unsafe-explained.html>
+  - <http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/>
   - Objekt erzeugen ohne Konstruktoraufruf: `allocateInstance(Class<T> clazz)`
 - **JavaPoet**
   - *Java API for generating .java source files*
-  - https://github.com/square/javapoet
+  - <https://github.com/square/javapoet>
 - **ServiceLoader**
-  - https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html
+  - <https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html>
 - [https://blog.frankel.ch/hacking-third-party-api-jvm/](https://blog.frankel.ch/hacking-third-party-api-jvm/)
   - Beispiele für classpath shadowing, reflection, agent, aop
 - **Kotlin**
@@ -56,8 +56,8 @@ parent: Java
 
 
 ## Rule Engines (JSR 94)
-- https://www.oracle.com/technical-resources/articles/javase/javarule.html
-- https://www.baeldung.com/java-rule-engines
+- <https://www.oracle.com/technical-resources/articles/javase/javarule.html>
+- <https://www.baeldung.com/java-rule-engines>
 - Impls
   - Easy Rules
     - https://github.com/j-easy/easy-rules
@@ -70,35 +70,35 @@ parent: Java
 ## Scripting
 - **single file** (java 11+)
   - unterstützt "shebang"; `#!/usr/local/bin/java --source 11`
-  - https://www.baeldung.com/java-single-file-source-code
+  - <https://www.baeldung.com/java-single-file-source-code>
 - **jshell** (java 9+)
   - tryjshell
     - https://www.tryjshell.org/
 - **jbang**
-  - https://github.com/jbangdev/jbang
+  - <https://github.com/jbangdev/jbang>
   - *run self-contained source-only Java programs*
   - *be able to run java from anywhere without any or very minimal setup*
   - <https://www.javaadvent.com/2021/12/jbang-gift-that-keeps-on-giving.html>
 - **beanshell**
-  - https://github.com/beanshell/beanshell
+  - <https://github.com/beanshell/beanshell>
 
 
 ## Dokumentation
 - **java2uml**
-  - http://www.java2uml.com/
+  - <http://www.java2uml.com/>
   - macht per drag-and-drop aus Java-Klassen UML-Diagramme
 
 
 ## i18n
 - **java.util.ResourceBundle**
   - ResourceBundle.getBundle liefert ein PropertyResourceBundle. Dieses ResourceBundle geht intern davon aus, dass die .properties-Datei
-    ISO-8859-1-formatiert ist. Bei einer UTF-8-formatierten Datei braucht es einen Workaround: https://stackoverflow.com/questions/4659929/how-to-use-utf-8-in-resource-properties-with-resourcebundle
+    ISO-8859-1-formatiert ist. Bei einer UTF-8-formatierten Datei braucht es einen Workaround: <https://stackoverflow.com/questions/4659929/how-to-use-utf-8-in-resource-properties-with-resourcebundle>
   - List- und PropertyResourceBundle sind thread-safe
   - getBundle liefert gecachte Instanzen (Caching ist konfigurierbar)
-  - https://docs.oracle.com/javase/8/docs/api/java/util/ResourceBundle.html
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/ResourceBundle.html>
   - → Libs/YamlResourceBundle
 - **java.text.MessageFormat**
-  - https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html
+  - <https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html>
 - **localizer**
   - *Type-safe localization message acces*
   - ```java
@@ -107,4 +107,4 @@ parent: Java
     public static String foo(Object arg1, Object arg2) { ... }
     ```
   - Maven-Plugin
-  - https://github.com/kohsuke/localizer
+  - <https://github.com/kohsuke/localizer>
