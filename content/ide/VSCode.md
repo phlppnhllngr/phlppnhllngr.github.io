@@ -45,6 +45,10 @@ parent: IDE
   - ~~https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2~~
   - <https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization>
 - **REST Client**
+- **Thunder Client**
+  - *lightweight Rest Client for Testing APIs* 
+  - <https://www.thunderclient.com/>
+  - <https://github.com/rangav/thunder-client-support#features>
 - **Windows Explorer Context Menu**
 - **Docker**
 - **DotENV**
