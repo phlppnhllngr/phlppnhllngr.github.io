@@ -30,40 +30,40 @@ parent: Diverses
   - *allows developers to define their application build, deploy, and release lifecycle as code*
   - *supports a number of build methods and target platforms out of the box and more can be easily added via plugins*
   - docker, k8s, netlify, ...
-  - https://github.com/hashicorp/waypoint
-- https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
+  - <https://github.com/hashicorp/waypoint>
+- <https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/>
 - **libraries.io**
-  - https://libraries.io/ 
+  - <https://libraries.io/>
   - *monitors open source packages across different package managers*
 - **pmd**
-  - https://github.com/pmd/pmd *2500
+  - <https://github.com/pmd/pmd> *2500
   - *multilanguage static code analyzer* (java, js, ...)
   - *Additionally it includes CPD, the copy-paste-detector*
 - **istio**
-  - https://istio.io/
+  - <https://istio.io/>
   - *Connect, secure, control, and observe services.*
 - **restdb.io**
 - **notion.so** 💰
-  - https://www.notion.so/
+  - <https://www.notion.so/>
   - *all-in-one Wiki + Todo + DB + CRM*
 - **appflowy**
   - *open-source alternative to Notion*
   - *Built with Flutter and Rust.*
   - <https://github.com/AppFlowy-IO/appflowy>
 - **knack**
-  - https://www.knack.com/
+  - <https://www.knack.com/>
   - Online-DB
 - **trevor.io** 💰
   - *no-code db-backed dashboards*
 - **RethinkDB**
   - *realtime no-sql db (push/stream)*
-  - https://rethinkdb.com/
-  - https://github.com/rethinkdb/rethinkdb
+  - <https://rethinkdb.com/>
+  - <https://github.com/rethinkdb/rethinkdb>
 - **bugherd**
-  - https://bugherd.com
+  - <https://bugherd.com>
   - "sticky notes" für Website-Bugs-Reporting
 - **triggercmd**
-  - https://www.triggercmd.com
+  - <https://www.triggercmd.com>
   - *run commands remotely*
   - *There are many ways to trigger your commands, including IFTTT, Alexa, Google Home, SmartThings, and Zapier.*
 - **code climate** 💰
@@ -73,46 +73,46 @@ parent: Diverses
 - **mouseflow**
   - session replay / recording and website heatmap tool
 - **meilisearch**
-  - https://github.com/meilisearch/MeiliSearch
+  - <https://github.com/meilisearch/MeiliSearch>
   - search engine
 - **spectral**
-  - https://github.com/stoplightio/spectral
+  - <https://github.com/stoplightio/spectral>
   - json & yaml linter
 - **typesense**
   - Suche für strukturierte Daten (json)
   - Api-Clients in mehreren Sprachen, Server als Docker-Image verfügbar
   - mit Schreibfehler-handling
-  - https://github.com/typesense/typesense
+  - <https://github.com/typesense/typesense>
 - **files**
   - *A modern file explorer that pushes the boundaries of the platform*
   - <https://github.com/files-community/Files/>
 - **filebrowser**
   - *Web File Browser*
-  - https://github.com/filebrowser/filebrowser
+  - <https://github.com/filebrowser/filebrowser>
 - **VcXsrv Windows X Server**
-  - https://sourceforge.net/projects/vcxsrv/
+  - <https://sourceforge.net/projects/vcxsrv/>
 - **deskreen**
   - *turns any device with a web browser into a secondary screen for your computer*
-  - https://github.com/pavlobu/deskreen
+  - <https://github.com/pavlobu/deskreen>
 - **dall-e**
   - *We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language*
-  - https://openai.com/blog/dall-e/
+  - <https://openai.com/blog/dall-e/>
 - **syncthing**
   - *Continuous File Synchronization*
-  - https://github.com/syncthing/syncthing
+  - <https://github.com/syncthing/syncthing>
 - **ungoogled chromium**
   - *Google Chromium, sans integration with Google*
-  - https://github.com/Eloston/ungoogled-chromium *12.5k
+  - <https://github.com/Eloston/ungoogled-chromium> *12.5k
 - **KasmVNC**
   - *docker container streaming platform that enables you to deliver browser-based access to desktops, applications, and web services*
-  - https://github.com/kasmtech/KasmVNC
+  - <https://github.com/kasmtech/KasmVNC>
 - **whoogle-search**
   - *A self-hosted, ad-free, privacy-respecting metasearch engine*
   - *Get Google search results, but without any ads, javascript, AMP links, cookies, or IP address tracking*
-  - https://github.com/benbusby/whoogle-search
+  - <https://github.com/benbusby/whoogle-search>
 - **flagsmith**
   - *Feature flagging and remote config service. Host yourself or use our hosted version*
-  - https://github.com/flagsmith/flagsmith *1000
+  - <https://github.com/flagsmith/flagsmith> *1000
 - **unleash**
   - *feature toggle service*
   - *comes with official client SDKs for all the popular languages*
@@ -144,35 +144,35 @@ parent: Diverses
 - **keeweb**
   - *cross-platform password manager compatible with KeePass*
   - *browser and desktop password manager compatible with KeePass databases*
-  - Webapp: self hosted oder https://app.keeweb.info/
-  - https://github.com/keeweb/keeweb *10.2k
+  - Webapp: self hosted oder <https://app.keeweb.info/>
+  - <https://github.com/keeweb/keeweb> *10.2k
 - **bitwarden**
-  - https://bitwarden.com/
+  - <https://bitwarden.com/>
 - **keepass**
 - **lesspass**
   - *LessPass is a stateless password manager. Stop wasting your time synchronizing your encrypted vault. Remember one master password to access your passwords, anywhere, anytime. No sync needed.*
-   - https://github.com/lesspass/lesspass
+   - <https://github.com/lesspass/lesspass>
 
 
 ## Notizen
 - **Trilium**
-  - https://github.com/zadam/trilium
+  - <https://github.com/zadam/trilium>
 - **jupyter notebook**
-  - https://jupyter.org/
-  - https://github.com/jupyter/jupyter/wiki/Jupyter-kernels
+  - <https://jupyter.org/>
+  - <https://github.com/jupyter/jupyter/wiki/Jupyter-kernels>
 - **jupyterlite**
   - *Wasm powered Jupyter running in the browser* *1.5k
-  - https://github.com/jupyterlite/jupyterlite
+  - <https://github.com/jupyterlite/jupyterlite>
 - **apache zeppelin**
   - *enables data-driven, interactive data analytics and collaborative documents with SQL, Scala and more*
-  - https://github.com/apache/zeppelin
-  - https://zeppelin.apache.org/
+  - <https://github.com/apache/zeppelin>
+  - <https://zeppelin.apache.org/>
 - **znote**
   - JS
   - *executing code directly in your Markdown*
-  - https://znote.io/lab.html
+  - <https://znote.io/lab.html>
 - **joplin**
-  - https://github.com/laurent22/joplin *24k
+  - <https://github.com/laurent22/joplin> *24k
   - *synchronization capabilities for Windows, macOS, Linux, Android and iOS*
   - *The notes are in Markdown format.*
 - **bangle.io**
