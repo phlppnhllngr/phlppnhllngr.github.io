@@ -7,15 +7,16 @@ parent: Diverses
 ---
 
 # Diverse Software
-- https://github.com/Awesome-Windows/Awesome
-- https://github.com/sindresorhus/awesome
-- https://github.com/jhuangtw-dev/xg2xg - *A handy lookup table of similar technology and services to help ex-googlers survive the real world*
-- https://github.com/ripienaar/free-for-dev
-- https://github.com/awesome-selfhosted/awesome-selfhosted
+- <https://github.com/Awesome-Windows/Awesome>
+- <https://github.com/sindresorhus/awesome>
+- <https://github.com/jhuangtw-dev/xg2xg> - *A handy lookup table of similar technology and services to help ex-googlers survive the real world*
+- <https://github.com/ripienaar/free-for-dev>
+- <https://github.com/awesome-selfhosted/awesome-selfhosted>
+- <https://github.com/RunaCapital/awesome-oss-alternatives> - *list of open-source startup alternatives to well-known SaaS products*
 - **opensource.builders**
-  - https://opensource.builders/
+  - <https://opensource.builders/>
   - *Find open-source alternatives for your favorite apps*
-- https://github.com/trimstray/the-book-of-secret-knowledge
+- <https://github.com/trimstray/the-book-of-secret-knowledge>
   - [cli tools](https://github.com/trimstray/the-book-of-secret-knowledge#cli-tools-toc)
   - [gui tools](https://github.com/trimstray/the-book-of-secret-knowledge#gui-tools-toc)
   - [web tools](https://github.com/trimstray/the-book-of-secret-knowledge#web-tools-toc)
@@ -23,7 +24,7 @@ parent: Diverses
   - [one-liners](https://github.com/trimstray/the-book-of-secret-knowledge#one-liners-toc)
   - [shell functions](https://github.com/trimstray/the-book-of-secret-knowledge#shell-functions-toc)
 - **Vagrant**
-  - https://www.vagrantup.com/
+  - <https://www.vagrantup.com/>
   - Dev-VMs
 - **waypoint**
   - *A tool to build, deploy, and release any application on any platform.*
