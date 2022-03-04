@@ -42,6 +42,7 @@ parent: Java
         - <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
+    - <https://cryostat.io/> - *JFR for Containerized Java Applications*
 
 
 ## Profilers
