@@ -18,12 +18,12 @@ parent: Datenbank
   - <https://hashids.org/>
 - ULID
   - Universally Unique Lexicographically Sortable Identifier
-  -<> https://github.com/ulid/spec>
+  - <https://github.com/ulid/spec>
 
 
 ## DBMS
 - **Apache Derby**
-  - https://db.apache.org/derby/
+  - <https://db.apache.org/derby/>
 - **MySQL**
 - **PostgreSQL**
 - **DB2**
