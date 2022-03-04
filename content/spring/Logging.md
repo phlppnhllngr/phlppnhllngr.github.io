@@ -40,11 +40,11 @@ parent: Spring
 <br/>
 <hr/>
 **Quellen**
-- 1: https://www.baeldung.com/spring-boot-logging
-- 2: https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-logging
-- 3: https://reflectoring.io/springboot-logging/
-- 4: https://oddblogger.com/spring-boot-mdc-logging (14.3.21)
-- 5: https://dzone.com/articles/mdc-better-way-of-logging-1
-- 6: https://www.sipios.com/blog-tech/how-to-use-logj-and-mdc-in-java-spring-boot-application
-- 7: https://dzone.com/articles/setting-up-mdc-context-with-aop-in-spring-boot-app
-- 8: https://reflectoring.io/structured-logging/
+- 1: <https://www.baeldung.com/spring-boot-logging>
+- 2: <https://docs.spring.io/spring/docs/5.0.0.M5/spring-framework-reference/html/overview.html#overview-logging>
+- 3: <https://reflectoring.io/springboot-logging/>
+- 4: <https://oddblogger.com/spring-boot-mdc-logging> (14.3.21)
+- 5: <https://dzone.com/articles/mdc-better-way-of-logging-1>
+- 6: <https://www.sipios.com/blog-tech/how-to-use-logj-and-mdc-in-java-spring-boot-application>
+- 7: <https://dzone.com/articles/setting-up-mdc-context-with-aop-in-spring-boot-app>
+- 8: <https://reflectoring.io/structured-logging/>
