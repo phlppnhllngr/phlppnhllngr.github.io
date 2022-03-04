@@ -11,7 +11,7 @@ parent: Automatisierung
     - <https://www.autohotkey.com/>
 - **WinAutomation**
     - *is now part of Microsoft Power Automate*
-    - https://www.winautomation.com/
+    - <https://www.winautomation.com/>
 - **AutoIT**
     - <https://www.autoitscript.com/site/>
     - *automate apps & build GUIs*
