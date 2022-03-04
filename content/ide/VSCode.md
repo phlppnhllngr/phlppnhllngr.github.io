@@ -279,7 +279,7 @@ parent: IDE
 - <https://github.com/Microsoft/vscode-dev-containers> - *A repository of development container definitions for the VS Code Remote* → diese Container können noch angepasst werden
 - Java-Beispiele: <https://medium.com/@brunoborges/java-dev-environments-with-containers-66d6797b2753>
 - <https://code.visualstudio.com/docs/remote/containers-advanced>
-- `npm install` langsam: <https://code.visualstudio.com/docs/remote/containers-advanced#_improving-container-disk-performance>
+- `npm install` langsam: <https://code.visualstudio.com/remote/advancedcontainers/improve-performance>
 - <https://github.com/manekinekko/awesome-devcontainers>
 
 #### WSL
