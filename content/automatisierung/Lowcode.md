@@ -177,6 +177,7 @@ parent: Automatisierung
   - *Open-source low-code framework for building React-based web applications and internal tools*
   - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
   - <https://github.com/ToolJet/ToolJet>
+  - <https://www.reddit.com/r/javascript/comments/sotwla/tooljet_extensible_opensource_5k_stars_on_github/.compact>
 
 ### E-Commerce
 - <http://shopify.com/>
