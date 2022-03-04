@@ -83,6 +83,13 @@ parent: API
   - *for debugging, testing and building with HTTP(S) on Windows, Linux & Mac*
   - *intercept, inspect & rewrite HTTP(S) traffic, from everything to anywhere. Explore Android app traffic, mock requests between your microservices, and x-ray your browser traffic to debug, understand and test anything*
   - <https://github.com/httptoolkit/httptoolkit>
+- **HTTPie**
+  - 03/2022: private beta 
+  - <https://httpie.io/>
+- **Thunder Client** -> IDE/VSCode/Plugins
+- **Nightingale**
+  - closed source 
+  - <https://nightingale.rest/>  
 
 
 ## Andere
