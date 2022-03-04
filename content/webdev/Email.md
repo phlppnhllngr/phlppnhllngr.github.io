@@ -14,3 +14,6 @@ parent: Webdev
 - **caniemail**
   - <https://www.caniemail.com/>
   - *similar to caniuse.com dedicated to support in email clients*
+- **mailwind**
+  - *Use Tailwind CSS to design HTML emails.* 
+  - <https://github.com/soheilpro/mailwind> *2k
