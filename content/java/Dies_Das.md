@@ -26,11 +26,17 @@ parent: Java
   - ByteBuddy
     - *high level byte code manipulation, built on top of ASM*
     - auch als Agent erhältlich
-    - https://bytebuddy.net/
+    - <https://bytebuddy.net/>
     - Beispiele
       - http interceptor: <https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/>
       - log4j-jndi-be-gone: <https://github.com/nccgroup/log4j-jndi-be-gone> - *A Byte Buddy Java agent-based fix for CVE-2021-44228, the log4j 2.x "JNDI LDAP" vulnerability.*
   - cglib
+  - javassist
+    - *makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java; it enables Java programs to define a new class at runtime and to modify a class file when the JVM loads it.*
+    - *Unlike other similar bytecode editors, Javassist provides two levels of API: source level and bytecode level.*
+    - *If the users use the source- level API, they can edit a class file without knowledge of the specifications of the Java bytecode. The whole API is designed with only the vocabulary of the Java language. You can even specify inserted bytecode in the form of source text; Javassist compiles it on the fly.*
+    - *On the other hand, the bytecode-level API allows the users to directly edit a class file as other editors.* 
+    - <https://github.com/jboss-javassist/javassist> *3.4k
 - **Agents**
   - premain, class-redefinition, ...
   - <https://jaxenter.de/james-bond-laesst-gruessen-28256>
