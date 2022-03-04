@@ -1,12 +1,12 @@
 ---
 tags: [Notebooks/API]
-title: 'Tools'
+title: 'Tools, Generatoren'
 created: '2021-07-09T18:00:56.352Z'
 modified: '2021-09-02T10:15:44.116Z'
 parent: API
 ---
 
-# Tools
+# Tools, Generatoren
 - → Automatisierung/Lowcode (low code APIs)
 - **supabase**
   - <https://github.com/supabase/supabase/> *12.1k
