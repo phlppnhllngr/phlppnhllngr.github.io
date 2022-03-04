@@ -276,6 +276,7 @@ parent: IDE
 - Java-Beispiele: <https://medium.com/@brunoborges/java-dev-environments-with-containers-66d6797b2753>
 - <https://code.visualstudio.com/docs/remote/containers-advanced>
 - `npm install` langsam: <https://code.visualstudio.com/docs/remote/containers-advanced#_improving-container-disk-performance>
+- <https://github.com/manekinekko/awesome-devcontainers>
 
 #### WSL
 - <https://code.visualstudio.com/docs/remote/wsl>
