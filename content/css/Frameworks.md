@@ -33,15 +33,15 @@ parent: CSS
 - **w3css**
   - https://www.w3schools.com/w3css/
 - **tailwind**
-  - https://tailwindcss.com/
+  - <https://tailwindcss.com/>
   - *not a UI kit. no built-in UI components. Instead, Tailwind provides highly composable, low-level utility classes that make it easy to build complex user interfaces.*
-  - Sandbox: https://play.tailwindcss.com/
+  - Sandbox: <https://play.tailwindcss.com/>
   - Component-Libs
-    - https://github.com/mertJF/tailblocks
-    - https://github.com/saadeghi/daisyui
+    - <https://github.com/mertJF/tailblocks>
+    - <https://github.com/saadeghi/daisyui>
 - **windicss**
   - *an on-demanded alternative to Tailwind, which provides faster load times, fully compatible with Tailwind v2.0 and with a bunch of additional cool features.*
-  - https://github.com/windicss/windicss ⭐2100
+  - <https://github.com/windicss/windicss> ⭐2100
 - **elastic ui**
   - https://github.com/elastic/eui ⭐1500
   - https://elastic.github.io/eui/#/
@@ -52,12 +52,16 @@ parent: CSS
   - https://mildrenben.github.io/surface/index.html
   - material
 - **sakura**
-  - https://oxal.org/projects/sakura/
-  - https://github.com/oxalorg/sakura ⭐2200
+  - <https://oxal.org/projects/sakura/>
+  - <https://github.com/oxalorg/sakura> ⭐2200
   - klassenlos
 - **watercss**
-  - https://github.com/kognise/water.css ⭐800
+  - <https://github.com/kognise/water.css> ⭐800
   - klassenlos
+- **almond.css**
+  - *Collection of CSS styles to make simple websites look nicer* 
+  - <https://github.com/alvaromontoro/almond.css>
+  - <https://alvaromontoro.github.io/almond.css/demo/>
 - **UIkit**
   - https://getuikit.com/
   - https://github.com/uikit/uikit ⭐14.500
