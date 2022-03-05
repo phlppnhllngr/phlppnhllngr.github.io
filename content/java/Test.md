@@ -193,15 +193,16 @@ parent: Java
       - *It is also called a trail. A trail contains a set of warmups and iterations.*
       - *By default JHM forks a new java process for each trial (set of iterations). This is required to defend the test from previously collected “profiles” – information about other loaded classes and their execution information. For example, if you have 2 classes implementing the same interface and test the performance of both of them, then the first implementation (in order of testing) is likely to be faster than the second one (in the same JVM), because JIT replaces direct method calls to the first implementation with interface method calls after discovering the second implementation.*
       - *The JVM optimizes an application by creating a profile of the application's behavior. The fork is created to reset this profile. Otherwise, running:
-```
-benchmarkFoo();
-benchmarkBar();
-```
-might result in different measurements than
-```
-benchmarkBar();
-benchmarkFoo();
-```*
+      ```
+      benchmarkFoo();
+      benchmarkBar();
+      ```
+      might result in different measurements than
+      ```
+      benchmarkBar();
+      benchmarkFoo();
+      ```
+*
       - *This annotation may be put at Benchmark method to have effect on that method only, or at the enclosing class instance to have the effect over all Benchmark methods in the class. This annotation may be overridden with the runtime options.* 
     - Warmup (`@Warmup(iterations = int, time = int, timeUnit = TimeUnit)`) 
       - *JMH roughly does few runs of a given benchmark but it discards the results. That constitutes the warmup phase, and its role is to allow the JVM to perform any class loading, compilation to native code, and caching steps it would normally do in a long-running application before starting to collect actual results. it is recommended that the benchmark is run with some warmups then only it executes the actual run.*
