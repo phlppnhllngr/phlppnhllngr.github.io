@@ -175,6 +175,46 @@ parent: Java
     - *Does NOT use the jmh-gradle-plugin which is confusing, brittle and difficult to use correctly.*
     - *Benchmarking pitfalls to be aware of. JMH tips & tricks*
   - <https://www.retit.de/continuous-benchmarking-with-jmh-and-junit>
+  - <https://www.baeldung.com/java-microbenchmark-harness>
+  - <https://medium.com/javarevisited/understanding-java-microbenchmark-harness-or-jmh-tool-5b9b90ccbe8d> (03/2021)
+    - Maven
+    - org.openjdk.jmh.runner.options.Options, org.openjdk.jmh.runner.Runner 
+    - Benchmark modes (`@BenchmarkMode(value = Mode)`)
+      - Throughput/thrpt (default)
+        - *This is used to measure the number of times a method is executed at a certain time. Normally its output unit is the number of outputs per second.* 
+      - AverageTime/avgt
+        - *The AverageTime measures the average time it takes for your benchmark method to be executed* 
+      - SampleTime/sample
+        - *Runs by continuously calling methods, and randomly samples the time needed for the call. This mode automatically adjusts the sampling frequency but may omit some pauses which missed the sampling measurement. This mode is time-based, and it will run until the iteration time expires.* 
+      - SingleShotTime/ss
+        - *This measures the time for a single operation. Use this when you want to account for the cold start time also.* 
+      - All/all
+    - Fork (`@Fork(value = int, jvmArgs = String[], warmups = int)`)
+      - *It is also called a trail. A trail contains a set of warmups and iterations.*
+      - *By default JHM forks a new java process for each trial (set of iterations). This is required to defend the test from previously collected “profiles” – information about other loaded classes and their execution information. For example, if you have 2 classes implementing the same interface and test the performance of both of them, then the first implementation (in order of testing) is likely to be faster than the second one (in the same JVM), because JIT replaces direct method calls to the first implementation with interface method calls after discovering the second implementation.*
+      - *The JVM optimizes an application by creating a profile of the application's behavior. The fork is created to reset this profile. Otherwise, running:
+```
+benchmarkFoo();
+benchmarkBar();
+```
+might result in different measurements than
+```
+benchmarkBar();
+benchmarkFoo();
+```*
+      - *This annotation may be put at Benchmark method to have effect on that method only, or at the enclosing class instance to have the effect over all Benchmark methods in the class. This annotation may be overridden with the runtime options.* 
+    - Warmup (`@Warmup(iterations = int, time = int, timeUnit = TimeUnit)`) 
+      - *JMH roughly does few runs of a given benchmark but it discards the results. That constitutes the warmup phase, and its role is to allow the JVM to perform any class loading, compilation to native code, and caching steps it would normally do in a long-running application before starting to collect actual results. it is recommended that the benchmark is run with some warmups then only it executes the actual run.*
+      - Default: 5 iterations
+    - Iteration (`@Measurement(iterations = int, time = int, timeUnit = TimeUnit)`)
+    - State (`@State(value = Scope)`)
+      - *Suppose you want to initialize some variables that your benchmark code needs, but which you do not want to be part of the code your benchmark measures. Such variables are called “state” variables. State variables are declared in special state classes, and an instance of that state class can then be provided as a parameter to the benchmark method.*
+    - Setup (`@Setup`) & TearDown (`@TearDown`)
+      - *The @Setup annotation tells JMH that this method should be called to setup the state object before it is passed to the benchmark method. The @TearDown annotation tells JMH that this method should be called to clean up ("tear down") the state object after the benchmark has been executed.*
+    - Parameters (`@Param(value = String[])`)  
+    - Output (`@OutputTimeUnit(value = TimeUnit)`)
+  - <https://mkyong.com/java/java-jmh-benchmark-tutorial/>
+    - *There are two ways to run the JMH benchmark, uses Maven or run it via a JMH Runner class directly.*  
 - **caliper**
   - *tool for measuring Java code performance, primarily focused on microbenchmarks.* 
   - <https://github.com/google/caliper> *620
