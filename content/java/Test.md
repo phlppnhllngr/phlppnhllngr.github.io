@@ -169,6 +169,7 @@ parent: Java
 - → Junit/JfrUnit
 - **JMH**
   - <http://openjdk.java.net/projects/code-tools/jmh>
+  - <https://github.com/openjdk/jmh/tree/master/jmh-samples>
   - <https://github.com/Valloric/jmh-playground>
     - *Setting [jmh] up (especially with Gradle) and learning how to use it can be a bit difficult; hopefully this repo makes this process easier for others.*
     - *The absolute best way to learn how to use JMH is to read through the official JMH samples. All of them are included in this repo.*
