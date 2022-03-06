@@ -61,6 +61,7 @@ parent: Java
 - **JavaPoet**
   - *Java API for generating .java source files*
   - <https://github.com/square/javapoet>
+  - <https://www.baeldung.com/java-poet>
 - **ServiceLoader**
   - <https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html>
 - [https://blog.frankel.ch/hacking-third-party-api-jvm/](https://blog.frankel.ch/hacking-third-party-api-jvm/)
