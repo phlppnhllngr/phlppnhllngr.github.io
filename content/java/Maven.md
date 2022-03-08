@@ -367,6 +367,10 @@ parent: Java
       <tagNameFormat>@{project.version}</tagNameFormat>
     </configuration>
     ```
+    ```
+    mvn --batch-mode clean build-helper:parse-version release:clean release:prepare
+    mvn --batch-mode release:perform // mvn --batch-mode release:rollback
+    ```
 - **replacer**
   - <https://code.google.com/archive/p/maven-replacer-plugin>
   - *replace tokens within a file with a given value and fully supports regular expressions*
