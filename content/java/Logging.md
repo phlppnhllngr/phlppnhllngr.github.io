@@ -13,6 +13,7 @@ parent: Java
 - <https://github.com/akullpp/awesome-java#logging>
 <br/>
 - **JUL** (java.util.logging)
+- **System.Logger** (JDK 9+)
 - **SLF4J**
   - <https://www.slf4j.org/>
   - bridging
@@ -55,6 +56,10 @@ parent: Java
   - *Implements ANSI escape colorization*
   - Windows & Linux
   - <https://github.com/fusesource/jansi>
+- **tinylog**
+  - *lightweight logging framework for Java, Kotlin, Scala, and Android*
+  - *is significantly faster than other logging frameworks, as can be seen in the [benchmark](https://tinylog.org/v2/benchmark/).* 
+  - <https://github.com/tinylog-org/tinylog> 
 
 
 ## Mapped Diagnostic Context (MDC)
