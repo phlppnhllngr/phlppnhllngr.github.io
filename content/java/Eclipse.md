@@ -175,12 +175,26 @@ parent: Java
   - -Xms512m
 - General.Workspace → Text file encoding = UTF-8
 - General.Editors.Text Editors → Show whitespace characters
+- Java.Appearance → Sort library entries alphabetically in Package Explorer
+- Java.Editor.Code Minings.General
 - Java.Editor.Save Actions → Organize Imports + Additional actions
 - Java.Debug.Step Filtering → Use step filters (Code beim Debuggen ausschließen)
 - Run/Debug.Console.Limit Console Output → unchecked
+- Terminal → Terminal buffer lines
 - Font
   - [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
   - [https://github.com/be5invis/Iosevka](https://github.com/be5invis/Iosevka)
+
+## Tipps
+- Ctrl+Shift+Hover über Klasse oder Methode, um trotz Warning das Javadoc zu sehen
+- Shift+Hover um den Sourcecode einer Methode zu sehen
+- Man kann einen Stacktrace - z. B. aus Logfile - mit Ctrl+Shift+V in Eclipse einfügen um Hyperlinks zu den entspr. Stellen im Code zu erhalten
+- Man kann an einem Breakpoint schnell zu einer folgenden Stelle im Code springen, ohne einen neuen Breakpoint zu setzen und "Resume" zu drücken, in dem man in der Zeile auf "Run to line" klickt
+- Breakpoints können gruppiert werden (Triple dot menu)
+- Neben Breakpoints gibt es auch Tracepoints (Run -> Toggle tracepoint), an denen nicht angehalten, sondern nur geloggt wird
+- Breakpoints können Bedingungen und "hit counts" haben
+- Breakpoints können "Trigger points" sein; alle anderen Breakpoints werden ignoriert, bis der trigger point erreicht wird
+- [Mastering your Eclipse IDE - Java tooling, Tips & Tricks!](https://www.youtube.com/watch?v=8WcntACvfl4)
 
 
 ## Rechtschreibprüfung
