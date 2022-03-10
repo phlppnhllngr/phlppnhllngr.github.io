@@ -184,6 +184,10 @@ parent: Java
     mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=groupId:artifactId:version
     mvn org.apache.maven.plugins:maven-dependency-plugin:3.2.0:get -Dartifact=org.projectlombok:lombok:1.18.12
     ```
+  - Abhängigkeiten des Projekts in ein spez. Verzeichnis runterladen
+    ```
+    mvn -DoutputDirectory="." dependency:copy-dependencies
+    ```
 - **dependency-check**
   - Maven-Plugin für OWASP DependencyCheck
   - <https://jeremylong.github.io/DependencyCheck/dependency-check-maven>
