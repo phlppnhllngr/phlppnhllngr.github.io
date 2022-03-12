@@ -23,9 +23,9 @@ parent: Webdev
   - wowchemy
     - *The website builder for Hugo. Build and deploy a beautiful website in minutes!*
     - *Choose a beautiful template, color theme, and font. Build anything with the Page Builder - over 50 widgets, themes, and language packs included*
-    - https://github.com/wowchemy/wowchemy-hugo-modules
+    - <https://github.com/wowchemy/wowchemy-hugo-modules>
 - **nift**
-  - https://www.nift.cc/
+  - <https://www.nift.cc/>
 - **Gatsby**
   - React
 - **Next**
@@ -39,14 +39,14 @@ parent: Webdev
   - <https://sapper.svelte.dev/>
 - **Gridsome**
   - Vue
-  - https://gridsome.org/
+  - <https://gridsome.org/>
 - **11ty** (Eleventy)
   - JS
   - <https://11ty.dev/>
   - *works with multiple template languages*
 - **jbake**
   - Java
-  - https://github.com/jbake-org/jbake
+  - <https://github.com/jbake-org/jbake>
 - **Vuepress**
   - Vue
 - **Scully**
@@ -56,17 +56,17 @@ parent: Webdev
   - Ruby
 - **Cactus**
   - Python
-  - https://github.com/koenbok/Cactus/
+  - <https://github.com/koenbok/Cactus/>
 - **MkDocs**
   - Python
 - **redwoodjs**
-  - https://redwoodjs.com/
+  - <https://redwoodjs.com/>
   - *Bringing full-stack to the Jamstack*
   - *Built on React, GraphQL, and Prisma*
 - **astro**
   - *Bring Your Own Framework (BYOF)*
   - *renders your entire page to static HTML, removing all JavaScript from your final build by default*
-  - https://github.com/snowpackjs/astro
+  - <https://github.com/snowpackjs/astro>
 
 
 ## Hosting
