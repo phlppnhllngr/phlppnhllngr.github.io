@@ -13,6 +13,7 @@ parent: Diverses
   - closed source 
   - <https://www.seeddms.org/index.php>
 - **teedy**
+  - Java 
   - Features
     - OCR
     - Full text search
