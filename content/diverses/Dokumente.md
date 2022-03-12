@@ -10,11 +10,26 @@ parent: Diverses
 
 ## DMS
 - **seeddms**
+  - closed source 
   - <https://www.seeddms.org/index.php>
 - **teedy**
+  - Features
+    - OCR
+    - Full text search
+    - Workflow system
+    - User/group permission system
+    - RESTful Web API  
   - <https://github.com/sismics/docs>
 - **papermerge**
   - *Document Management System for Digital Archives (Scanned Documents)*
+  - *designed for archiving and retrieving your digital documents*
+  - Features
+    - Full Text Search
+    - Versioning
+    - Multi-User (Groups, Roles)
+    - REST API
+    - ... 
+  - *It is built on Django 3.1.*
   - <https://github.com/ciur/papermerge>
 
 
