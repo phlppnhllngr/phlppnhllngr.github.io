@@ -14,6 +14,7 @@ parent: Automatisierung
 - **budibase**
   - *low-code development platform*
   - *design, build, and ship business apps*
+  - *Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s*
   - <https://github.com/Budibase/budibase>
 - **Airtable**
   - <https://airtable.com/>
@@ -47,6 +48,7 @@ parent: Automatisierung
   - *UIs in Lowdefy are built using blocks, which are React components*
   - *you can also create your own custom blocks.*
   - *doesn't have any data storage built in. Instead, it provides connections to external services like databases and APIs*
+  - *self hosted; Currently you can host Lowdefy apps: As a Docker container. On AWS Lambda using Serverless. On Netlify using Netlify functions.*
   - <https://github.com/lowdefy/lowdefy>
 - **zoho**
   - <https://www.zoho.com/creator>
@@ -105,6 +107,7 @@ parent: Automatisierung
   - *build admin panels, CRUD apps and workflows*
   - self- oder cloud-hosted
   - 💰 für "enterprise features"
+  - Supported Databases: kein DB2
   - <https://github.com/appsmithorg/appsmith> *5.2k
   - <https://www.appsmith.com/>
 - **bubble**

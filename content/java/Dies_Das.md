@@ -90,9 +90,11 @@ parent: Java
   - tryjshell
     - https://www.tryjshell.org/
 - **jbang**
-  - <https://github.com/jbangdev/jbang>
   - *run self-contained source-only Java programs*
   - *be able to run java from anywhere without any or very minimal setup*
+  - *Automatic fetching of any dependency*
+  - *Java will automatically be downloaded when needed.*
+  - <https://github.com/jbangdev/jbang>
   - <https://www.javaadvent.com/2021/12/jbang-gift-that-keeps-on-giving.html>
 - **beanshell**
   - <https://github.com/beanshell/beanshell>

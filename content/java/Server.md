@@ -13,6 +13,7 @@ parent: Java
   - *The Simple Web Server is run with jwebserver on the command line. It serves static files in a single directory hierarchy over HTTP/1.1; dynamic content and other HTTP versions are not supported.*
   - <https://inside.java/2021/12/06/working-with-the-simple-web-server/>
 
+
 ## Tomcat
   - *Tomcat is a web server / web container / servlet container. It is often used as an application server for strictly web-based applications but does not include the entire suite of capabilities that a Java EE application server would supply. It does not implement the whole Java EE API.*
   - embedded tomcat
@@ -27,9 +28,14 @@ parent: Java
 
 
 ## Jetty
-- https://www.eclipse.org/jetty/
-- https://github.com/eclipse/jetty.project
+- <https://www.eclipse.org/jetty/>
+- <https://github.com/eclipse/jetty.project>
 - verbraucht weniger RAM als Tomcat
+
+
+## Netty
+- *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
+- <https://netty.io/>
 
 
 ## Websphere
@@ -107,30 +113,37 @@ parent: Java
   - [https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files](https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files)
 
 
-### Liberty
-  - <https://hub.docker.com/_/websphere-liberty>
-  - *You can tell Liberty to treat certain files as "minor" changes - which would not require a restart by using this system property (you can add this in your jvm.options file in your server directory - create it if it is not already there): `-Dcom.ibm.ws.app.manager.minorUpdateFileExtensions=.html,.png,.jpg,.myOtherExtension`*
-  - Open Liberty
-    - *opensource subset of websphere liberty*
-    - [Stack Overflow: What is the difference between OpenLiberty and WebSphere Liberty?](https://stackoverflow.com/a/46306037/7437541)
+## (Open) Liberty
+- *A lightweight open framework for building fast and efficient cloud-native Java microservices.*
+- *Open Liberty is a lightweight open source Java™ runtime that is built by using modular features. WebSphere Liberty is a commercial version of Open Liberty.*
+- [Stack Overflow: What is the difference between OpenLiberty and WebSphere Liberty?](https://stackoverflow.com/a/46306037/7437541)
+- *Liberty features support for the following application frameworks:*
+  - *MicroProfile, an open source project that defines new standards and APIs to accelerate and simplify the creation of microservices.*
+  - *Jakarta EE and Java™ EE, including features for individual specifications, like JNDI or JAX-RS.*
+  - *Spring Framework and Spring Boot, including mechanisms to make compact containers from Spring Boot's fat .jar's.*
+- *You can tell Liberty to treat certain files as "minor" changes - which would not require a restart by using this system property (you can add this in your jvm.options file in your server directory - create it if it is not already there): `-Dcom.ibm.ws.app.manager.minorUpdateFileExtensions=.html,.png,.jpg,.myOtherExtension`*
+- <https://openliberty.io/>
+- <https://hub.docker.com/_/open-liberty/>
+- <https://hub.docker.com/_/websphere-liberty>
+- <https://openliberty.io/blog/2018/07/02/creating-dual-layer-docker-images-for-spring-boot-apps.html>
 
 
 ## WildFly
-- [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
+- <https://github.com/wildfly/wildfly>
 
 
 ## TomEE
-- [https://github.com/apache/tomee](https://github.com/apache/tomee)
+- <https://github.com/apache/tomee>
 
 
 ## GlassFish
 - *a Jakarta EE compatible implementation sponsored by the Eclipse Foundation. Eclipse GlassFish 5.1 is also Java EE 8 Compatible.*
-- [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
+- <https://github.com/eclipse-ee4j/glassfish>
 
 
 ## WebLogic
-- [https://www.oracle.com/middleware/technologies/weblogic.html](https://www.oracle.com/middleware/technologies/weblogic.html)
+- <https://www.oracle.com/middleware/technologies/weblogic.html>
 
 
 ## JBoss EAP
-- [https://www.redhat.com/en/technologies/jboss-middleware/application-platform](https://www.redhat.com/en/technologies/jboss-middleware/application-platform)
+- <https://www.redhat.com/en/technologies/jboss-middleware/application-platform>

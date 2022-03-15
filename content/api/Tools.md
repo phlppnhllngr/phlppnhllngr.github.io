@@ -24,6 +24,8 @@ parent: API
   - [supabase crash course - traversy youtube, 07/21](https://www.youtube.com/watch?v=7uKQBl9uZ00)
 - **api-platform**
   - *web framework designed to easily create API-first projects*
+  - *dedicated to API-driven projects and implementing the Jamstack architecture*
+  - *contains a PHP library (Core) to create fully featured hypermedia (or GraphQL) web APIs*
   - php, db, frontend (vue/react), api
   - <https://api-platform.com/>
 - **postgREST**
@@ -31,12 +33,14 @@ parent: API
   - *serves a fully RESTful API from any existing PostgreSQL database*
   - *handles authentication (via JSON Web Tokens) and delegates authorization to the role information defined in the database*
 - **Directus**
-  - <https://github.com/directus/docs/>
+  - <https://github.com/directus/directus>
   - *suite of software that wraps custom SQL databases with a dynamic API and intuitive Admin App*
-  - *Directus is database-first at it's foundation, far more "open", performant, and flexible. [compared to other headless cms]*
+  - *database-first at it's foundation, far more "open", performant, and flexible [compared to other headless cms]*
+  - Supported Databases: kein DB2
 - **appwrite**
   - <https://github.com/appwrite/appwrite/>
   - <https://appwrite.io/>
+  - *end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices*
   - *Appwrite API services aim to make developer's life a lot easier by hiding the complexity of common and repetitive software development tasks. Using Appwrite, you can easily manage*
     - *user authentication with multiple sign-in methods*
     - *a database for storing and querying user and team data*

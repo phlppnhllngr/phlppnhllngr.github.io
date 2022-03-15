@@ -8,9 +8,10 @@ parent: Java
 
 # Frameworks
 - [Techempower Benchmarks](https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune&l=zik0vz-sf)
-- [Quarkus vs Micronaut, 02/2020](https://www.reddit.com/r/java/comments/ey5szi/quarkus_vs_micronaut_a_feature_and_performance/)
-<br/><br/>
+- [Quarkus vs Micronaut, 02/2020](https://www.reddit.com/r/java/comments/ey5szi/quarkus_vs_micronaut_a_feature_and_performance/) <br/><br/>
 - **dropwizard**
+  - *framework for developing ops-friendly, high-performance, RESTful web services.*
+  - *Dropwizard uses the Jetty HTTP library to embed an incredibly tuned HTTP server directly into your project. Instead of handing your application off to a complicated application server, Dropwizard projects have a main method which spins up an HTTP server.*
   - <https://www.dropwizard.io/>
 - **vertx**
   - <https://vertx.io/>
@@ -22,37 +23,112 @@ parent: Java
 - **quarkus**
   - <https://github.com/quarkusio/quarkus> *4.2k
   - *Container First framework for writing Java applications.*
-  - <https://code.quarkus.io/> (wie spring-starter)
+  - <https://code.quarkus.io/> (wie spring-initializer)
 - **micronaut**
   - <http://micronaut.io/>
-  - https://github.com/micronaut-projects/
-  - https://github.com/micronaut-projects/micronaut-core *2600
-  - https://github.com/micronaut-projects/micronaut-data
+  - projects
+    - <https://github.com/micronaut-projects/>
+    - core
+      - <https://github.com/micronaut-projects/micronaut-core> *2600
+    - data
+      - *database access toolkit that uses Ahead of Time (AoT) compilation to pre-compute queries for repository interfaces that are then executed by a thin, lightweight runtime layer.*
+      - <https://github.com/micronaut-projects/micronaut-data>
+    - servlet
+      - *Provides integration between Micronaut and the Servlet API*
+      - *provides support for replacing the Netty-based HTTP server that comes with the Micronaut framework with either Jetty, Tomcat, or Undertow*
+      - *for users who*
+        - *want to use Micronaut but the target deployment environment is based on Servlets*
+        - *prefer the thread per connection model of the Servlet API over the Event Loop model provided by the default Netty-based HTTP server*
+        - *have existing Servlets and/or Filters that they wish to combine with Micronaut.*
+      - wenig Docs
+      - <https://micronaut-projects.github.io/micronaut-servlet/latest/guide/>
+      - <https://github.com/micronaut-projects/micronaut-servlet>
+    - maven-plugin
+      - <https://github.com/micronaut-projects/micronaut-maven-plugin>
+  - <https://micronaut.io/launch> (wie Spring initializer)
 - **javalin**
   - <https://javalin.io/>
   - *very lightweight web framework*
+  - ```java
+    import io.javalin.Javalin;
+
+    public class HelloWorld {
+        public static void main(String[] args) {
+            Javalin app = Javalin.create().start(7070);
+            app.get("/", ctx -> ctx.result("Hello World"));
+        }
+    }
+    ```
   - <https://github.com/tipsy/javalin> *3100
 - **light4j**
-  - <https://github.com/networknt/light-4j> *2400
+  - *A fast, lightweight and cloud-native microservices framework.*
+  - Packaging: Jar
+  - <https://github.com/networknt/light-4j> *3.4k
 - **spark**
-  - http://sparkjava.com/
+  - <http://sparkjava.com/>
   - "tiny", keine Annotationen, kein Xml, Kotlin & Java
-  - https://github.com/perwendel/spark/ *8500
+  - ```java
+    import static spark.Spark.*;
+
+    public class HelloWorld {
+        public static void main(String[] args) {
+            get("/hello", (req, res) -> "Hello World");
+        }
+    }
+    ```
+  - <https://github.com/perwendel/spark/> *8500
 - **play**
-  - https://www.playframework.com
-  - https://github.com/playframework/playframework *11000
+  - *Integrated HTTP server (Akka HTTP or Netty)*
+  - <https://www.playframework.com>
+  - <https://github.com/playframework/playframework> *11000
 - **eclipse microprofile**
+  - *aims to optimize Enterprise Java for the Microservices architecture*
+  - *based on a subset of Jakarta EE WebProfile APIs*
+  - *A MicroProfile application is portable and should run in any compliant MicroProfile runtime [Open Liberty, TomEE, ...]*
+  - <https://microprofile.io/>
+  - <https://www.baeldung.com/eclipse-microprofile>
   - <https://start.microprofile.io/>
 - **jooby**
+  - ```java
+    import io.jooby.Jooby;
+
+    public class App extends Jooby {
+
+      {
+        get("/", ctx -> "Welcome to Jooby!");
+      }
+
+      public static void main(String[] args) {
+        runApp(args, App::new);
+      }
+    }
+    ```
   - <https://jooby.io/>
-  - <https://github.com/jooby-project/jooby>
+  - <https://github.com/jooby-project/jooby> *1.4k
 - **helidon**
+  - *cloud-native, open‑source set of Java libraries for writing microservices that run on a fast web core powered by Netty.*
+  - *supports two programming models*
+    - *Helidon MP: MicroProfile 3.3*
+    - *Helidon SE: a small, functional style API.*
+    - *In either case your application is just a Java SE program.*
+  - *supports GraalVM Native Image so you can compile your Helidon application into a small-footprint native executable. Or you can package your application as a jlink image or a traditional application JAR.*
+  - <https://helidon.io/>
   - <https://github.com/oracle/helidon> *1.8k
 - **blade**
+  - *Based on Java8 + Netty4 to create a lightweight, high-performance, simple and elegant Web framework*
+  - ```java
+    public static void main(String[] args) {
+      Blade.of().get("/", ctx -> ctx.text("Hello Blade")).start();
+    }
+    ```
   - <https://github.com/lets-blade/blade> *5.2k
 - **Armeria**
   - *your go-to microservice framework for any situation. You can build any type of microservice leveraging your favorite technologies, including gRPC, Thrift, Kotlin, Retrofit, Reactive Streams, Spring Boot and Dropwizard.*
-  - <https://github.com/line/armeria>
+  - <https://github.com/line/armeria> *3.5k
+- **restlet**
+  - *REST API framework for Java*
+  - *powerful routing and filtering capabilities, unified client and server Java API*
+  - <https://github.com/restlet/restlet-framework-java>
 
 
 ## Business Process
@@ -80,6 +156,7 @@ parent: Java
     <summary>Patterns</summary>
     <img loading="lazy" src="https://static.packt-cdn.com/products/9781787126992/graphics/Insert-Image_03_10.png"/>
 </details>
+
 - **Apache Camel**
   - <http://camel.apache.org/>
   - hohe Anzahl an Connectors (~200)
