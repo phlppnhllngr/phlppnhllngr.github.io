@@ -43,6 +43,9 @@ parent: Java
       - wenig Docs
       - <https://micronaut-projects.github.io/micronaut-servlet/latest/guide/>
       - <https://github.com/micronaut-projects/micronaut-servlet>
+    - http-client
+      - *By default, Micronaut’s HTTP client is configured to support HTTP 1.1. To enable support for HTTP/2, set the supported HTTP version in configuration*
+      - <https://guides.micronaut.io/latest/micronaut-http-client.html>
     - maven-plugin
       - <https://github.com/micronaut-projects/micronaut-maven-plugin>
   - <https://micronaut.io/launch> (wie Spring initializer)
@@ -112,6 +115,7 @@ parent: Java
     - *Helidon SE: a small, functional style API.*
     - *In either case your application is just a Java SE program.*
   - *supports GraalVM Native Image so you can compile your Helidon application into a small-footprint native executable. Or you can package your application as a jlink image or a traditional application JAR.*
+  - *Helidon requires Java 11 (or newer) and Maven.*
   - <https://helidon.io/>
   - <https://github.com/oracle/helidon> *1.8k
 - **blade**

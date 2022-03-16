@@ -151,14 +151,21 @@ parent: Java
     - basiert auf OkHttp, bringt json-Support mit
     - <https://square.github.io/retrofit/> ⭐38.2k
   - **okhttp**
-    - <https://github.com/square/okhttp>
+    - *HTTP/2 support*
+    - <https://github.com/square/okhttp> ⭐41.8k
   - **unirest**
+    - <https://github.com/Kong/unirest-java>
+    - <https://www.baeldung.com/unirest>
   - **feign**
     - *inspired by Retrofit*
     - *java clients for ReST or SOAP services*
     - konfigurierbarer Wrapper um apache-http/okhttp/spring/... + jackson/gson/...
     - Support für Soap, Logging (slf4j), retry, async, ...
     - <https://github.com/OpenFeign/feign> ⭐7.1k
+  - **Apache HttpComponents**
+    - v5.1
+      - *Standards based, pure Java, implementation of HTTP versions 1.0, 1.1, 2.0*
+    - <https://hc.apache.org/index.html>
 - <u>http server</u>
   - **com.sun.net.httpserver.{HttpServer,SimpleFileServer}** -> Java/Server
   - **nanohttpd**

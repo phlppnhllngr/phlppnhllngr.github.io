@@ -46,7 +46,8 @@ parent: IDE
   - <https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization>
 - **REST Client**
 - **Thunder Client**
-  - *lightweight Rest Client for Testing APIs* 
+  - *lightweight Rest Client for Testing APIs*
+  - unterstüzt HTTP/2
   - <https://www.thunderclient.com/>
   - <https://github.com/rangav/thunder-client-support#features>
 - **Windows Explorer Context Menu**
@@ -74,22 +75,22 @@ parent: IDE
 - ~~Settings Sync~~
   - jetzt Teil von VSCode
 - **Project Manager**
-  - https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+  - <https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager>
 - **SVG Viewer**
 - **Trailing Spaces**
 - **Fabulous**
-  - https://github.com/Raathigesh/fabulous
+  - <https://github.com/Raathigesh/fabulous>
   - css properties sidebar
 - **auto-open markdown preview**
 - **Sort lines**
-  - https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+  - <https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines>
 - **EditorConfig**
   - *attempts to override user/workspace settings with settings found in .editorconfig files*
 - **path intellisense**
   - für Dateipfade im Workspace
 - **msjsdiag.debugger-for-chrome**
-  - https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
-  - https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+  - <https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome>
+  - <https://code.visualstudio.com/docs/nodejs/nodejs-debugging>
   - attach to already running server (running on localhost:8081)
     1) configure .vscode/launch.json
       ```json
@@ -128,13 +129,13 @@ parent: IDE
       }
       ```
 - **firefox-devtools.vscode-firefox-debug**
-  - https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug
+  - <https://marketplace.visualstudio.com/items?itemName=firefox-devtools.vscode-firefox-debug>
 - **Assistant**
-  - https://marketplace.visualstudio.com/items?itemName=tomasz-smykowski.assistant
+  - <https://marketplace.visualstudio.com/items?itemName=tomasz-smykowski.assistant>
   - eigene Linter-Regeln per Regex
   - *Realtime Linter & Quality Assurance For Your Team*
-  - https://itnext.io/8-visual-studio-code-assistant-rules-for-nasty-angular-bugs-9f186277e0ab
-  - https://medium.com/@tomaszs2/12-assistant-rules-to-boost-productivity-a0c12bea3d19 (ng)
+  - <https://itnext.io/8-visual-studio-code-assistant-rules-for-nasty-angular-bugs-9f186277e0ab>
+  - <https://medium.com/@tomaszs2/12-assistant-rules-to-boost-productivity-a0c12bea3d19> (ng)
 - **SonarLint**
   - UID: sonarsource.sonarlint-vscode
   - JS, Java, TS, ...
@@ -179,13 +180,13 @@ parent: IDE
 
 ### SCM
 - **GitLens**
-  - https://github.com/eamodio/vscode-gitlens
+  - <https://github.com/eamodio/vscode-gitlens>
 - **Git History**
 - **SVN**
 
 ### sprachspezifische
 - **Auto Import**
-  - https://marketplace.visualstudio.com/items?itemName=steoates.autoimport
+  - <https://marketplace.visualstudio.com/items?itemName=steoates.autoimport>
   - TypeScript
 - **shellcheck**
   - wie Sonarlint für Linux-Shell-Skripte
@@ -200,31 +201,31 @@ parent: IDE
 #### JS
 - **Import Cost**
 - **Jest**
-  - https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest
+  - <https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest>
 - **JS Parameter Annotations**
-  - https://marketplace.visualstudio.com/items?itemName=lannonbr.vscode-js-annotations
+  - <https://marketplace.visualstudio.com/items?itemName=lannonbr.vscode-js-annotations>
   - buggy (Annot. fehlen manchmal)
 - **Vetur**
   - für Vue
 - **ESLint**
 - **Yo**
-  - https://marketplace.visualstudio.com/items?itemName=samverschueren.yo
+  - <https://marketplace.visualstudio.com/items?itemName=samverschueren.yo>
 - **npm**
 - **npm Intellisense**
 - **Quokka.js**
-  - https://quokkajs.com/
+  - <https://quokkajs.com/>
   - *for rapid JavaScript / TypeScript prototyping. Runtime values are updated and displayed in your IDE next to your code, as you type*
 - ~~wallaby.js~~ 💰
-  - https://wallabyjs.com/
+  - <https://wallabyjs.com/>
   - *tool that runs your JavaScript and TypeScript tests immediately as you type, highlighting results in your IDE right next to your code*
 - **version lens**
   - zeigt neue Versionen von Deps in package.json
 - **snipsnap**
-  - https://github.com/snipsnapdev/snipsnap
+  - <https://github.com/snipsnapdev/snipsnap>
   - *automatically exposes all available snippets for every library you are using in your project*
 - **vuln cost**
   - Vulnerability scanning (js, ts, html)
-  - https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost
+  - <https://marketplace.visualstudio.com/items?itemName=snyk-security.vscode-vuln-cost>
 
 
 ##### Polymer
@@ -257,12 +258,24 @@ parent: IDE
   - Java Test Runner
   - Maven Project Explorer
 - **Lombok Annotation Support**
-- **Tomcat for Java**
+- ~~Tomcat for Java~~
+  - <https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat>
+- **Community Server Connectors**
+  - *provides a Remote Server Protocol based server connector, which can start, stop, publish to, and otherwise control Community runtimes and servers like Apache Felix, Karaf, and Tomcat.*
+  - *Supported Servers*
+    - *Apache Tomcat [ 5.5 | 6.0 | 7.0 | 8.0 | 8.5 | 9.0 ]*
+    - *Apache Karaf [ 4.8 ]*
+    - *Apache Felix [ 3.2 | 4.6 | 5.6 | 6.0 ]*
+    - *Jetty [ 9.x ]*
+    - *Glassfish [ 5.x ]*
+    - *Websphere Liberty [ 21.x ]*
+  - <https://marketplace.visualstudio.com/items?itemName=redhat.vscode-community-server-connector>
+  - <https://code.visualstudio.com/docs/java/java-tomcat-jetty>
 - **Checkstyle for Java**
-  - https://github.com/jdneo/vscode-checkstyle)
+  - <https://github.com/jdneo/vscode-checkstyle>
   - Bei Verwendung einer lokalen Datei (“checkstyle.configurationPath”) muss darauf geachtet werden, dass die Datei kompatibel zur Version von Checkstyle (“checkstyle.version”) ist. Es wird nur Inhalt der gespeicherten Datei validiert.
 - **Spring Boot Extension Pack**
-  - https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack
+  - <https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack>
   - Spring Boot Tools
   - Spring Initializer
   - Spring Boot Dashboard
