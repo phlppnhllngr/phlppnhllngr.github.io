@@ -5,24 +5,38 @@ parent: Java
 
 # Concurrency
 
-## JDK
+## Keywords
+- **volatile**
+  - *are variables that are always read directly from main memory. When a new value is assigned to a volatile variable the value is always written immediately to main memory. This guarantees that the latest value of a volatile variable is always visible to other threads running on other CPUs*
+  - *Other threads will read the value of the volatile from main memory every time, instead of from e.g. the CPU cache of the CPU the threads are running on.*
+  - *Volatile variables are non-blocking. The writing of a value to a volatile variable is an atomic operation*
+  - *However, a read-update-write sequence performed on a volatile variable is not atomic. Thus, this code may still lead to race conditions if performed by more than one thread: `private volatile int var = 0; ... var++;` When executed, the value of var is read into a CPU register or the local CPU cache, one is added, and then the value from the CPU register or CPU cache is written back to main memory.*
+  - *In some cases you only have a single thread writing to a shared variable, and multiple threads reading the value of that variable. No race conditions can occur when only a single thread is updating a variable, no matter how many threads are reading it. Therefore, whenever you have only a single writer of a shared variable you can use a volatile variable.*
+- **synchronized**
 
-### java.lang.Thread
-- *A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.*
-- Methoden
-  - `long	getId()`
-  - `String	getName()`
-  - `int getPriority()`
-  - `Thread.UncaughtExceptionHandler getUncaughtExceptionHandler()`
-  - `boolean isDaemon()`
-  - `void	join()` (+2 Overloads)
-  - `void	run()`
-  - `void	start()`
-    - *Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.*
-  - `static void yield()`
-    - *A hint to the scheduler that the current thread is willing to yield its current use of a processor.*
-  - ...
-- <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html>
+## JDK API
+
+### java.lang
+- **Thread**
+  - *A thread is a thread of execution in a program. The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.*
+  - Methoden
+    - `long	getId()`
+    - `String	getName()`
+    - `int getPriority()`
+    - `Thread.UncaughtExceptionHandler getUncaughtExceptionHandler()`
+    - `boolean isDaemon()`
+    - `void	join()` (+2 Overloads)
+    - `void	run()`
+    - `void	start()`
+      - *Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.*
+    - `static void yield()`
+      - *A hint to the scheduler that the current thread is willing to yield its current use of a processor.*
+    - ...
+  - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html>
+- **ThreadLocal**
+  - *allows us to store data that will be accessible only by a specific thread.*
+  - *Simply put, we can think that ThreadLocal stores data inside of a map – with the thread as the key.*
+  - <https://www.baeldung.com/java-threadlocal>
 
 ### java.util
 - **Timer**
@@ -32,6 +46,21 @@ parent: Java
   - <https://docs.oracle.com/javase/8/docs/api/java/util/Timer.html> 
 
 ### java.util.concurrent
+- <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/package-summary.html#package.description>
+- **Future**
+  - *represents a future result of an asynchronous computation*
+  - <https://www.baeldung.com/java-future>
+- **CompletableFuture**
+  - *enhances `Future` with chaining, manual completion, exception handling, ...*
+  - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html> 
+  - <https://www.baeldung.com/java-completablefuture>
+- **Atomic-**
+  - <https://www.baeldung.com/java-atomic-variables>
+  - AtomicReference
+  - AtomicInteger
+
+#### Executors
 - **Executor**
   - Interface
   - *An object that executes submitted Runnable tasks*
@@ -117,8 +146,44 @@ parent: Java
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Executors.html> 
 - **ForkJoinPool**
   - extends AbstractExecutorService
-  - *An `ExecutorService` for running `ForkJoinTasks`* 
+  - *An `ExecutorService` for running `ForkJoinTasks`*
+  - *These classes employ a work-stealing scheduler that attains high throughput for tasks conforming to restrictions that often hold in computation-intensive parallel processing.*
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ForkJoinPool.html> 
-- **CompletableFuture**
-  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html> 
-  - <https://www.baeldung.com/java-completablefuture> 
+
+
+#### Synchronizers
+- **CountDownLatch**
+- **CyclicBarrier**
+  - *allows a set of threads to wait for each other to reach a common execution point, also called a barrier*
+  - <https://www.baeldung.com/java-cyclic-barrier>
+- **Phaser**
+  - *a barrier on which the dynamic number of threads need to wait before continuing execution*
+  - *very similar construct to the CountDownLatch that allows us to coordinate execution of threads. In comparison to the CountDownLatch, it has some additional functionality.*
+  - *In the CountDownLatch that number cannot be configured dynamically and needs to be supplied when we're creating the instance.*
+  - <https://www.baeldung.com/java-phaser>
+- **Exchanger**
+  - *works as a common point for two threads in Java to exchange objects between them.*
+  - *The class provides only a single overloaded method exchange(T t). When invoked exchange waits for the other thread in the pair to call it as well.*
+  - <https://www.baeldung.com/java-exchanger>
+- **Semaphore**
+  - *can use semaphores to limit the number of concurrent threads accessing a specific resource.*
+  - <https://www.baeldung.com/java-semaphore>
+
+
+#### Queues
+- **Queue**
+  - Interface
+- **BlockingQueue**
+  - Interface, extends Queue
+  - <https://www.baeldung.com/java-blocking-queue>
+- **BlockingDeque**
+  - Interface, extends BlockingQueue
+- **SynchronousQueue**
+  - Class, implements BlockingQueue
+  - *we should think about it as an exchange point for a <mark>single element</mark> between two threads, in which one thread is handing off an element, and another thread is taking that element.*
+  - <https://www.baeldung.com/java-synchronous-queue>
+
+
+#### Concurrent Collections
+- **CopyOnWriteArrayList**
+- **ConcurrentHashMap**
