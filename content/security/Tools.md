@@ -10,6 +10,8 @@ parent: Security
 - <https://techblog.bozho.net/list-of-open-source-security-tools/>
 - <https://portswigger.net/>
 - <https://github.com/toniblyx/my-arsenal-of-aws-security-tools>
+- <https://github.com/sottlmarek/DevSecOps>
+  - *This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.* 
 - **Osmodeus**
   - <https://j3ssie.github.io/Osmedeus/>
   - <https://github.com/j3ssie/Osmedeus>
