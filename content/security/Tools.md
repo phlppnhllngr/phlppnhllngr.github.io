@@ -62,3 +62,6 @@ parent: Security
   - *Fast and customizable vulnerability scanner based on simple YAML based DSL.*
   - *used to send requests across targets based on a template leading to zero false positives and providing fast scanning on large number of hosts*
   - <https://github.com/projectdiscovery/nuclei>
+- **ThreatMapper**
+  - *hunts for vulnerabilities in your production platforms, and ranks these vulnerabilities based on their risk-of-exploit* 
+  - <https://github.com/deepfence/ThreatMapper> 
