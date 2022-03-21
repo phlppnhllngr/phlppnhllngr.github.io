@@ -58,6 +58,7 @@ parent: CSS
 - **prefers-color-scheme**
   - ob dark- oder light-theme oder nichts bevorzugt
   - <https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme>
+  - <https://web.dev/user-preference-media-features-headers/>
 - **scripting**
   - *can be used to test whether scripting (such as JavaScript) is available*
   - 03/22 kein Browser-Support

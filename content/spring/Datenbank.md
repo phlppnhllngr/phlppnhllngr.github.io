@@ -33,6 +33,7 @@ parent: Spring
 - *@Transactional also works on other things, for instance with our AMQP listener, it puts messages back in the queue if processing fails.*
 - <https://blog.ippon.tech/boost-the-performance-of-your-spring-data-jpa-application>
 - <https://thorben-janssen.com/hibernate-features-with-spring-data-jpa>
+- <https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/>
 - <u>Tools</u>
   - **jplusone**
     - *automatic detection and asserting "N+1 SELECT problem" occurences in JPA based Spring Boot Java applications and finding origin of JPA issued SQL statements in general*

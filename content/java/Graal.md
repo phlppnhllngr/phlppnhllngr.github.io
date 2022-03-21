@@ -69,4 +69,8 @@ Most importantly though, the executables built with Native Image are standalone 
   - graalvm dashboard
     - *web-based visualization tool to help make sense of the information on methods compilation, reachability, class usability, profiling data, preinitialized heap data and the static analysis results. In other words, you can monitor what classes, packages, and preinitialized objects fill up the executable, see how much space certain package occupies, and what classes objects take most of the heap. All this data is very helpful at understanding how to optimize the application to make its binary even smaller.* (<https://medium.com/graalvm/making-sense-of-native-image-contents-741a688dab4d>)
     - <https://www.graalvm.org/docs/tools/dashboard/?ojr=dashboard>
+  - Liberica Native Image Kit
+    - *utility for making native images for the JVM, letting you compile applications to executables using the GraalVM native-image compiler.*
+    - *why just not use the GraalVM toolkit directly? As with Spring Native, NIK in essence is a layer over GraalVM which makes interfacing with it much easier by taking care of the necessary configuration out of the box.*
+    - <https://www.i-programmer.info/news/80-java/15284-making-graalvm-based-executables-easy.html>
 

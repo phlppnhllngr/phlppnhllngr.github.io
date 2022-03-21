@@ -34,3 +34,9 @@ has_children: true
     - *podman is an alternative to Docker, but get mentioned as a replacement for the Docker component (not Kubernetes) of Docker Desktop.*
     - https://podman.io/>
     - <https://github.com/containers/podman> *8k
+- **containerd**
+    - *An open and reliable container runtime*
+    - <https://github.com/containerd/containerd>
+    - nerdctl
+        - *Docker-compatible CLI for containerd*
+        - <https://github.com/containerd/nerdctl>

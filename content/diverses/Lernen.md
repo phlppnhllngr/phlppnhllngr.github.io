@@ -60,3 +60,4 @@ parent: Diverses
 - <https://online-learning.harvard.edu/catalog>
 - <https://www.reddit.com/r/webdev/comments/i4mise/a_list_of_700_free_online_cs_and_programming>
 - <https://www.reddit.com/r/programming/comments/ja5mdu/150_stanford_oncampus_computer_science_courses>
+- <https://www.katacoda.com/learn>

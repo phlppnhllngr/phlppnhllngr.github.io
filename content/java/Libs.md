@@ -398,6 +398,8 @@ parent: Java
 - **jbock**
   - <https://github.com/h908714124/jbock>
   - *annotation based command line args parser*
+- **Spring Shell**
+  - <https://spring.io/projects/spring-shell>
 
 
 ## <span id="utility">Utility</span>

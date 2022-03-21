@@ -62,6 +62,10 @@ parent: Java
 - **EqualsVerifier**
   - *verify whether the contract for the equals and hashCode methods in a class is met*
   - <https://github.com/jqno/equalsverifier>
+- **To String Verifier**
+  - *provides an easy and convenient way to test the toString method on your class*
+  - *It is very easy to add a new field to your class and forget to update the toString method. Without tests in place, you won’t know something is missing until you are sitting looking through logs or debugging your application and by that time its already too late.*
+  - <https://github.com/jparams/to-string-verifier>
 
 
 ## Mock
@@ -129,6 +133,10 @@ parent: Java
 - **Java Faker**
   - <https://github.com/DiUS/java-faker>
   - Namen, Telefon, IBAN, ...
+- **Data Faker**
+  - *a modern and more up to date port of Javafaker*
+  - <https://www.reddit.com/r/java/comments/rvuyf7/datafaker_an_alternative_to_using_production_data/>
+  - <https://github.com/datafaker-net/datafaker/>
 - **beanmother**
   - generiert Zufallsobjekte anhand yaml-template
   - <https://github.com/keepcosmos/beanmother>
@@ -265,6 +273,14 @@ parent: Java
   - Tutorials
     - <https://blogs.oracle.com/javamagazine/unit-test-your-architecture-with-archunit>
     - <https://www.baeldung.com/java-archunit-intro>
+- **jQAssistant**
+  - *allows the definition and validation of project specific rules on a structural level*
+  - *Example use cases:*
+    - *Enforce naming conventions, e.g. EJBs, JPA entities, test classes, packages, Maven modules etc.*
+    - *Validate dependencies between modules of your project*
+    - *Separate API and implementation packages*
+    - *Detect common problems like cyclic dependencies or tests without assertions*
+  - <https://jqassistant.org/>
 
 
 ## Mutation

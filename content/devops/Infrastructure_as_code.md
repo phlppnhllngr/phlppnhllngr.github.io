@@ -21,3 +21,9 @@ parent: DevOps
 - **checkov**
   - *Prevent cloud misconfigurations during build-time for Terraform, Cloudformation, Kubernetes, Serverless framework and other infrastructure-as-code-languages*
   - <https://github.com/bridgecrewio/checkov>
+- **regula**
+  - *checks infrastructure as code templates (Terraform, CloudFormation, k8s manifests) for AWS, Azure, Google Cloud, and Kubernetes security and compliance using Open Policy Agent/Rego*
+  - <https://github.com/fugue/regula/>
+- **Conftest**
+  - *write tests against structured configuration data. Using Conftest you can write tests for your Kubernetes configuration, Tekton pipeline definitions, Terraform code, Serverless configs or any other config files.*
+  - <https://github.com/open-policy-agent/conftest/>

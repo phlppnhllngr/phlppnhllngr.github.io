@@ -337,6 +337,8 @@ parent: Java
 - **proguard**
   - <https://github.com/wvengen/proguard-maven-plugin>
 - **project-info-reports**
+  - *generate reports information about the project.*
+  - *ci-management, dependencies, licenses, ...*
   - <https://maven.apache.org/plugins/maven-project-info-reports-plugin>
 - **properties**
   - <https://www.mojohaus.org/properties-maven-plugin/index.html>

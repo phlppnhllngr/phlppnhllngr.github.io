@@ -7,6 +7,13 @@ parent: Spring
 ---
 
 # Async
+- <https://www.baeldung.com/spring-async>
+- <https://www.baeldung.com/spring-mvc-sse-streams>
+- <https://spring.io/guides/gs/async-method/>
+- <https://codingtim.github.io/spring-threadpooltaskexecutor/>
+- <https://medium.com/trendyol-tech/spring-boot-async-executor-management-with-threadpooltaskexecutor-f493903617d>
+- <https://dzone.com/articles/multi-threading-in-spring-boot-using-completablefu>
+
 
 ## Klassen
 - *If you do not define an `Executor` bean, Spring creates a `SimpleAsyncTaskExecutor` and uses that.*
@@ -35,9 +42,3 @@ parent: Spring
        - json
        - file: txt, pdf, csv; You will see a file immediately get downloaded and the streaming response keeps on writing on that file.
        - audio, video
-
-
-## Docs
-- <https://www.baeldung.com/spring-async>
-- <https://www.baeldung.com/spring-mvc-sse-streams>
-- <https://spring.io/guides/gs/async-method/>

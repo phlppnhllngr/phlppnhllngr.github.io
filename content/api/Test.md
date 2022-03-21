@@ -62,6 +62,11 @@ parent: API
   - *test failures are collected and they can be easily spotted and analyzed in a user-friendly GUI, built with Allure*
   - <https://github.com/isa-group/RESTest>
 - **Testsigma** -> Webdev/E2E-Test
+- **Citrus**
+  - *Framework for automated integration tests with focus on messaging integration*
+  - *Citrus simulates surrounding interface partners supporting a huge set of different transports and protocols like Http, JMS, TCP/IP, FTP, SOAP, XML and JSON.*
+  - Java 11+
+  - <https://github.com/citrusframework/citrus>
 
 
 ## Stress, Load, Resilience

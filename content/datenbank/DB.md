@@ -94,17 +94,17 @@ parent: Datenbank
 
 ## GUI Clients
 - **dbeaver**
-  - [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+  - <https://github.com/dbeaver/dbeaver>
 - **falcon**
-  - [https://github.com/plotly/falcon](https://github.com/plotly/falcon) *4.8k
+  - <https://github.com/plotly/falcon> *4.8k
   - für Windows & Mac
   - SQL-Client & Visualisierung (Charts)
   - *supports connecting to RedShift, MySQL, PostgreSQL, IBM DB2, Impala, MS SQL, Oracle, SQLite and more*
 - **jailer**
   - *Database Subsetting and Relational Data Browsing Tool.*
-  - https://github.com/Wisser/Jailer *800
+  - <https://github.com/Wisser/Jailer> *800
 - **SQuirreL SQL**
-  - [http://squirrel-sql.sourceforge.net/](http://squirrel-sql.sourceforge.net/)
+  - <http://squirrel-sql.sourceforge.net>
 
 
 ## Migration

@@ -59,6 +59,10 @@ parent: Docker
 - **buildpacks**
   - <buildpacks.io>
   - *transform your application source code into images that can run on any cloud*
+- **syft**
+  - *CLI tool and library for generating a Software Bill of Materials from container images and filesystems*
+  - *Exceptional for vulnerability detection when used with a scanner tool like Grype.*
+  - <https://github.com/anchore/syft>
 
 
 ## GUIs

@@ -10,6 +10,7 @@ parent: DevOps
 - <https://kubernetes.io>
 - *also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications*
 - <https://dev.to/sandrogiacom/kubernetes-for-java-developers-setup-41nk> (minikube, kubectl, virtualbox)
+- <https://github.com/jayendrapatil/kubernetes-exercises>
 
 
 ## Komponenten, Terminologie
@@ -193,3 +194,9 @@ parent: DevOps
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
   - *On MacOS and Linux, Rancher Desktop leverages a virtual machine to run containerd and Kubernetes. Windows Subsystem for Linux v2 is leveraged for Windows systems.*
   - <https://rancherdesktop.io/>
+- **telepresence**
+  - *Local development against a remote Kubernetes or OpenShift cluster*
+  - <https://github.com/telepresenceio/telepresence>
+- **mizu**
+  - *API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes*
+  - <https://github.com/up9inc/mizu>
