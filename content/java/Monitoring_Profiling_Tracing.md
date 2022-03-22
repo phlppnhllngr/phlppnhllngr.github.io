@@ -35,11 +35,10 @@ parent: Java
     - *not a standalone tool*
     - *activate it in two ways: when starting a Java application or
       passing diagnostic commands of the jcmd tool when a Java application is already running*
-    - https://github.com/flight-recorder/health-report
-    - jfr events
-      - <https://bestsolution-at.github.io/jfr-doc/>
-      - custom events (jdk.jfr api; java 9+)
-        - <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
+    - <https://github.com/flight-recorder/health-report>
+    - <https://www.javaadvent.com/2021/12/keep-your-sql-in-check-with-flight-recorder-jmc-agent-and-jfrunit.html>
+    - Übersicht jfr events: <https://bestsolution-at.github.io/jfr-doc/>
+    - Custom events (jdk.jfr api; java 9+): <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
     - <https://cryostat.io/> - *JFR for Containerized Java Applications*
@@ -65,7 +64,7 @@ parent: Java
   - *VisualVM can be used do dump the heap and view the allocated objects. It displays the byte count for every object, and allocated overall size.*
   - <mark>kostenlos</mark>
   - diverse Plugins
-    - https://visualvm.github.io/plugins.html
+    - <https://visualvm.github.io/plugins.html>
     - Menü>Tools>Plugins
   - <https://engineering.talkdesk.com/ninjas-guide-to-getting-started-with-visualvm-f8bff061f7e7> (docker/remote)
 - **YourKit** 💰

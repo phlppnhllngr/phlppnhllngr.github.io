@@ -166,6 +166,10 @@ parent: Java
 - **truth**
   - *Fluent assertions*
   - <https://github.com/google/truth/>
+- **AssertJ-DB**
+  - *provides assertions to test values in a database*
+  - `assertThat(table).row(1).value().isEqualTo("foo")`
+  - <https://github.com/assertj/assertj-db>
 
 
 ## Coverage

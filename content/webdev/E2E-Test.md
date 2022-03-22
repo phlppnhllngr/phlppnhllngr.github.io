@@ -14,45 +14,45 @@ parent: Webdev
 - **puppeteer & playwright**
   - ~~Puppeteer~~Headless Recorder
     - *Chrome extension that records your browser interactions and generates a Puppeteer/playwright script*
-    - Stand 27.11.20 kein Support für Shadow-DOM [(https://github.com/checkly/headless-recorder/issues/51)](https://github.com/checkly/headless-recorder/issues/51)
-    - https://github.com/checkly/headless-recorder
+    - Stand 27.11.20 kein Support für Shadow-DOM <https://github.com/checkly/headless-recorder/issues/51>
+    - <https://github.com/checkly/headless-recorder>
   - theheadless.dev
-    - https://theheadless.dev/
+    - <https://theheadless.dev/>
     - *open source knowledge base for Puppeteer and Playwright*
 - **playwright**
-  - https://github.com/microsoft/playwright
-  - https://github.com/microsoft/playwright-java
+  - <https://github.com/microsoft/playwright>
+  - <https://github.com/microsoft/playwright-java>
   - alle Browser (playwright) oder individuell (playwright-chrome, ...) oder mit vorinstalliertem Browser (playwright-core) nutzbar
   - Docs
-    - https://github.com/microsoft/playwright/blob/master/docs/api.md
+    - <https://github.com/microsoft/playwright/blob/master/docs/api.md>
     - [troubleshooting](https://github.com/microsoft/playwright/blob/master/docs/troubleshooting.md)
   - Tipps
     - [browser launch options](https://github.com/microsoft/playwright/blob/master/docs/api.md#browsertypelaunchoptions)
       - `args: [--start-maximized]` um Chrome fullscreen zu starten (`contextConfig.viewport = null`)
   - Tools
     - docker-image
-      - https://playwright.dev/docs/docker/
+      - <https://playwright.dev/docs/docker/>
     - @playwright/test
       - *Browser automation, Jest-like assertions and built-in support for TypeScript*
       - junit test reports
-      - https://playwright.dev/docs/test-intro/
+      - <https://playwright.dev/docs/test-intro/>
     - inspector
       - *GUI tool that helps authoring and debugging Playwright scripts*
-      - https://playwright.dev/docs/inspector
+      - <https://playwright.dev/docs/inspector>
   - Tools (3rd party)
-    - https://github.com/mxschmitt/awesome-playwright
-    - https://playwright.dev/docs/showcase/
+    - <https://github.com/mxschmitt/awesome-playwright>
+    - <https://playwright.dev/docs/showcase/>
     - ~~https://github.com/mmarkelov/jest-playwright-example~~
     - expect-playwright
       - (Erweiterung von) `expect` für playwright (mit oder ohne jest)
       - `await expect(page).toHaveText("#foo", "my text")`
       - `toHaveSelector, toHaveSelectorCount, toHaveText, toEqualText, toEqualValue`
-      - https://github.com/playwright-community/expect-playwright
+      - <https://github.com/playwright-community/expect-playwright>
     - jest-playwright
-      - https://github.com/mmarkelov/jest-playwright
+      - <https://github.com/mmarkelov/jest-playwright>
       - *Jest preset to run Playwright tests with Jest*
-      - https://dev.to/mxschmitt/using-jest-with-playwright-28dh
-    - https://github.com/alisterscott/playwright-jest-demo
+      - <https://dev.to/mxschmitt/using-jest-with-playwright-28dh>
+    - <https://github.com/alisterscott/playwright-jest-demo>
     - qawolf
       - https://github.com/qawolf/qawolf
       - Wrapper um playwright

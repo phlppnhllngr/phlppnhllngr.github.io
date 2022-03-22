@@ -25,6 +25,7 @@ parent: Java
 - **sun.misc.Unsafe**
   - <https://www.javacodegeeks.com/2013/12/the-infamous-sun-misc-unsafe-explained.html>
   - <http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/>
+  - <https://www.baeldung.com/java-unsafe>
   - Objekt erzeugen ohne Konstruktoraufruf: `allocateInstance(Class<T> clazz)`
 - **JavaPoet**
   - *Java API for generating .java source files*
@@ -81,7 +82,7 @@ parent: Java
 - <https://www.baeldung.com/java-rule-engines>
 - Impls
   - Easy Rules
-    - https://github.com/j-easy/easy-rules
+    - <https://github.com/j-easy/easy-rules>
   - Drools → Frameworks/Business Process
   - Evrete
     - *lightweight alternative to the Drools Rule Engine*

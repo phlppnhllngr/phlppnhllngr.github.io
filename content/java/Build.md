@@ -99,11 +99,15 @@ parent: Java
   - <https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javapackager.html>
   - *Performs tasks related to packaging and signing Java and JavaFX applications*
 - **moditect**
-  - <i>Currently the following tasks are supported:
-    - Generating module-info.java descriptors for given artifacts (Maven dependencies or local JAR files)
-    - Adding module descriptors to your project's JAR as well as existing JAR files (dependencies)
-    - Creating module runtime images</i>
+  - *Currently the following tasks are supported:*
+    - *Generating module-info.java descriptors for given artifacts (Maven dependencies or local JAR files)*
+    - *Adding module descriptors to your project's JAR as well as existing JAR files (dependencies)*
+    - *Creating module runtime images*
   - <https://github.com/moditect/moditect>
+- **jdeploy**
+  - *Deploy your app to Mac, Linux, and Windows users without the usual hassles.*
+  - <https://www.jdeploy.com/>
+  - <https://www.reddit.com/r/java/comments/sqbz69/deploy_java_desktop_apps_as_native_bundles_for/.compact>
 
 
 ## Release

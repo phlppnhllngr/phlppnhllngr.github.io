@@ -54,6 +54,7 @@ parent: Java
 
 ### GC
 - <https://dzone.com/articles/interesting-garbage-collection-patterns>
+- <https://www.reddit.com/r/java/comments/qlxopy/how_to_choose_the_best_java_garbage_collector/.compact>
 
 #### Caveats
 - *The GC is unable to clear static fields unless the class that owns it is unloaded, which only happens if the Classloader that called it is garbage collected.*

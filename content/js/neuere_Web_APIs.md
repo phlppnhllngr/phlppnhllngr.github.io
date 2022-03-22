@@ -9,6 +9,7 @@ parent: JavaScript
 # neuere Web APIs
 - <https://www.chromestatus.com/features>
 - <https://github.com/luruke/browser-2020>
+- <https://fugu-tracker.web.app/>
 - <https://whatwebcando.today/><br/>
 - **(Web) Worker**
   - <https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers>
