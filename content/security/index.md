@@ -6,10 +6,18 @@ has_children: true
 
 # Security
 - <https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE>
+    - *Learn ethical hacking.Learn about reconnaissance,windows/linux hacking,attacking web technologies,and pen testing wireless networks.Resources for learning malware analysis and reverse engineering.*
+    - *Explore more than 2000 hacking articles saved over time as PDF.* 
 - <https://www.reddit.com/r/javascript/comments/fnpzdx/stanford_cs253_web_security/>
 - <https://www.hacker101.com/>
+    - *free class for web security. Whether you’re a programmer with an interest in bug bounties or a seasoned security professional, Hacker101 has something to teach you*
+    - *Put your skills into practice with CTF levels inspired by the real world*
+    - *Learn to hack with our free video lessons, guides, and resources*
 - <https://www.hackthebox.eu/>
+    - *online cybersecurity training platform* 
 - <https://github.com/sundowndev/hacker-roadmap>
+    - *A collection of hacking tools, resources and references to practice ethical hacking.*
+    - *overview of what you need to learn penetration testing and a collection of hacking tools, resources and references to practice ethical hacking. Most of the tools are UNIX compatible, free and open source.* 
 - <https://www.owasp.org/index.php/Main_Page>
 - <https://mozilla.github.io/server-side-tls/ssl-config-generator/> - für diverse Webserver (nginx, Apache, ...)
 - <https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer>
