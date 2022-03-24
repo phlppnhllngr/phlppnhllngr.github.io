@@ -1,12 +1,14 @@
 ---
 tags: [Notebooks/Java]
-title: 'JavaFX'
+title: 'GUI'
 parent: Java
 ---
 
-# JavaFX
+# GUI
 
-## Docs
+## JavaFX
+
+### Docs
 - https://github.com/openjfx/samples
 - native
   - https://github.com/mipastgt/JFXToolsAndDemos/blob/master/docs/articles/JFX-Native/JFX-Native.adoc
@@ -19,7 +21,7 @@ parent: Java
     - http://docs.oracle.com/javase/8/javafx/api/javafx/scene/doc-files/cssref.html
 
 
-## Entwicklungstools
+### Entwicklungstools
 - https://github.com/mhrimaz/AwesomeJavaFX
 - **maven archetypes**
   - https://github.com/openjfx/javafx-maven-archetypes
@@ -56,14 +58,19 @@ parent: Java
     - https://github.com/edvin/fxlauncher
 
 
-## Libs
+### Libs
 
-### Frameworks
+#### Meta-Frameworks
 - **WorkbenchFX**
   - *build large applications from multiple views*
   - https://github.com/dlsc-software-consulting-gmbh/WorkbenchFX
+- **jpro**
+  - https://www.jpro.one/
+  - *JavaFX-Anwendungen ohne nötiges Java-Plug-in im Browser ausführen*
+  - *führt die JavaFX-Anwendung auf einem Server oder in Docker aus und mappt den JavaFX-Scenegraph, der das User Interface beschreibt, direkt auf einen HTML-DOM-Graphen im Browser des Clients.*
+  - self hosted/free oder cloud/paid
 
-### UI-Frameworks
+#### UI Components
 - **JFoenix**
   - http://jfoenix.com/
   - https://github.com/jfoenixadmin/JFoenix
@@ -76,9 +83,8 @@ parent: Java
 - **MaterialFX**
   - *successor to the already available JFoenix library, which is a bit old and has a lot of issues*
   - https://github.com/palexdev/MaterialFX
-
-### UI-Libs
-- http://fxexperience.com/controlsfx/
+- **controlsfx**
+  - http://fxexperience.com/controlsfx/
 - **ValidatorFX**
   - *inspired by ControlsFX but tries to overcome its shortcomings*
   - https://github.com/effad/ValidatorFX
@@ -105,13 +111,8 @@ parent: Java
   - *You will benefit from Flowless (compared to ListView) the most if you have many add/delete items occuring in the viewport and an expensive updateItem method.*
   - https://github.com/FXMisc/Flowless
 
-### jpro
-- https://www.jpro.one/
-- *JavaFX-Anwendungen ohne nötiges Java-Plug-in im Browser ausführen*
-- *führt die JavaFX-Anwendung auf einem Server oder in Docker aus und mappt den JavaFX-Scenegraph, der das User Interface beschreibt, direkt auf einen HTML-DOM-Graphen im Browser des Clients.*
-- self hosted/free oder cloud/paid
 
-### diverse
+#### diverse
 - https://github.com/ReactiveX/RxJavaFX
 - **ReactFX**
   - https://github.com/TomasMikula/ReactFX 
@@ -135,7 +136,7 @@ parent: Java
   - https://github.com/dlsc-software-consulting-gmbh/PreferencesFX
 
 
-## Test
+### Test
 - **TestFX**
   - https://github.com/TestFX/TestFX *600
   - headless oder headed
@@ -143,12 +144,18 @@ parent: Java
   - Integrationen für junit, spock
 
 
-## mit Spring
+### mit Spring
 - https://spring.io/blog/2019/01/16/spring-tips-javafx
 - https://github.com/roskenet/springboot-javafx-support
 - http://www.greggbolinger.com/let-spring-be-your-javafx-controller-factory/
 - https://www.youtube.com/watch?v=Lse51SpfKHo
 
 
-## Tipps
+### Tipps
 - Listener wieder entfernen, sonst memory leaks
+
+
+## SnapKit
+- *tools for creating rich Java Client applications that achieve the original promise of Java by running pixel-perfect and native on the desktop and in the browser*
+- *comparatively small and simple, light-weight and performant. When compiled to the browser (via TeaVM), many apps are only 1 MB in size.*
+- <https://github.com/reportmill/SnapKit>
