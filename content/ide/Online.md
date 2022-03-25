@@ -11,14 +11,12 @@ parent: IDE
 - **editorconfig**
   - <https://editorconfig.org/>
   - *helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs*
-  - https://reflectoring.io/painless-code-formatting-with-editor-config/
+  - <https://reflectoring.io/painless-code-formatting-with-editor-config/>
 - **Eclipse Che**
   - *Eclipse Che / Eclipse Next-Generation IDE, Cloud IDE, and Workspace Server*
-  - https://github.com/eclipse/che
+  - <https://github.com/eclipse/che>
   - Scheint weniger konfigurierbar und komplizierter als normales Eclipse zu sein.
 - ~~code-server~~
-- **Theia**
-  - <https://github.com/eclipse-theia/theia> *8200
 - **Codeshare**
   - <https://codeshare.io/>
   - *Share Code in Real-time*
@@ -26,12 +24,10 @@ parent: IDE
 - **VSCode**
   - <https://vscode.dev/>
   - <https://www.infoq.com/news/2021/11/vscode-dev-launched/>
-- [repl.it](https://repl.it/)
+- **replit**
+  - <https://replit.com/> 
   - Java (langsam, keine Code-Completion), JS, ...
   - Maven-Deps möglich
-- **Repl.it**
-  - <https://replit.com/>
-
 
 ## Java
 - **Codiva**
