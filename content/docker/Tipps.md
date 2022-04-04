@@ -7,15 +7,13 @@ parent: Docker
 ---
 
 # Tipps
-- https://github.com/wsargent/docker-cheat-sheet
+- <https://github.com/wsargent/docker-cheat-sheet>
 - in Shell starten
   `docker run --entrypoint /bin/sh -it`
 - IP-Adresse des (Windows-)Host bekommen
   `getent hosts docker.for.win.localhost | cut -d ' ' -f1`
   oder
   `getent hosts host.docker.internal | cut -d ' ' -f1`
-- best practices für Installation von Linux-Paketen in Docker images
-  https://pythonspeed.com/articles/system-packages-docker/
 - Container (einschl. beendet) auflisten
   `docker ps -a`
 - Images mit `<none>` löschen

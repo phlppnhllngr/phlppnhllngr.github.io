@@ -21,6 +21,7 @@ has_children: true
 
 ## GUI Apps
 - <https://dev.to/darksmile92/run-gui-app-in-linux-docker-container-on-windows-host-4kde>
+- <https://news.ycombinator.com/item?id=30810410>
 - Linux host: xvfb, xorg
 - Windows host: VcXsrv → Diverses/Diverse Software
 

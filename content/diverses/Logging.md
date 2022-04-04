@@ -50,6 +50,20 @@ parent: Diverses
 - **loki**
   - *log aggregation system, native support in Grafana*
   - <https://github.com/grafana/loki>
+- **Apache Chainsaw**
+  - *GUI-based Log viewer*
+  - <details>
+      <img src="https://logging.apache.org/chainsaw/2.x/images/chainsaw-1.jpg"/>
+    </details>
+  - <https://logging.apache.org/chainsaw/2.x/>
+- **Otros Log Viewer**
+  - Features
+    - *Loading logs from remote servers*
+    - *Tailing logs from local disk and sftp*
+    - *Decompressing "gziped" logs on the fly*
+    - *Pluginable log highlightings*
+    - ...
+  - <https://github.com/otros-systems/otroslogviewer>
 
 
 ## Elastic (ELK) Stack

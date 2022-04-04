@@ -38,30 +38,30 @@ parent: Cloud
 ### Libs
 - <https://github.com/awslabs>
 - → Cloud/Serverless
-- middy
-  - https://github.com/middyjs/middy
+- **middy**
+  - <https://github.com/middyjs/middy>
   - *Node.js middleware engine for AWS Lambda*
-- localstack
-  - https://github.com/localstack/localstack *23.5k
+- **localstack**
+  - <https://github.com/localstack/localstack> *23.5k
   - *A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!*
 
 ### Tools
-- cloudcraft
-  - https://cloudcraft.co/
+- **cloudcraft**
+  - <https://cloudcraft.co/>
   - *Visualize your cloud architecture like a pro, Create smart AWS diagrams*
 
 
 ## Google
-- Firebase
+- **Firebase**
   - <https://firebase.google.com/>
   - wird allgemein als simpler i. Vgl. zu azure/aws angesehen
     - *Firebase is a relatively small service, with limited options, so everything takes only a few steps. AWS, Azure, etc. are much bigger, with many more features and options, so everything is more complex.*
     - *Firebase is like riding a bike with training wheels. Super easy learning curve, but you’re limited when it comes to advanced techniques. AWS/Azure is a bike without the training wheels. You’re going to fall a few times because of the steeper learning curve, but you’ll have very few restrictions at the top of the mountain. Simply put, you need to put in more time learning AWS/Azure than you do for firebase.*
   - functions
     - <https://firebase.google.com/docs/functions/>
-- appengine
+- **appengine**
   - <https://cloud.google.com/appengine/>
-- cloud functions
+- **cloud functions**
   - <https://cloud.google.com/functions/>
 
 
@@ -80,22 +80,22 @@ parent: Cloud
 - <https://www.netlify.com/>
 - *An all-in-one workflow that combines global deployment, continuous integration, and automatic HTTPS*
 - Hosting für static pages und Node apps 
-- Netfliy drop
-  - https://app.netlify.com/drop
+- **Netfliy drop**
+  - <https://app.netlify.com/drop>
   - Webseite veröffentlichen per Drag n Drop
-- Netlify Dev
+- **Netlify Dev**
   - <https://www.netlify.com/products/dev/>
-  - https://www.youtube.com/watch?v=FMhVXOA54x8 (traversy)
+  - <https://www.youtube.com/watch?v=FMhVXOA54x8> (traversy)
     - integriert in die netlify CLI (```npm i netlify-cli```)
     - (bei Bedarf öffentlicher) dev server
     - lambda functions
     - deploy to netlify
-- Functions
+- **Functions**
   - <https://functions.netlify.com/>
-  - https://docs.netlify.com/functions/overview/
+  - <https://docs.netlify.com/functions/overview/>
   - *Powered by AWS Lambda. Simplified by Netlify.*
   - nur js und go
-- Forms
+- **Forms**
 
 
 ## Apache OpenWhisk
@@ -128,3 +128,8 @@ parent: Cloud
 - serverless
   - <https://vercel.com/docs/serverless-functions/introduction>
   - <https://vercel.com/docs/runtimes>
+
+
+## Deno Deploy
+  - *Globally Distributed JavaScript. Instant deployments. Zero config, zero maintenance. TypeScript, WASM, ES Modules*
+  - <https://deno.com/deploy>

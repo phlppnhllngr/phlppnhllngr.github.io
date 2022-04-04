@@ -89,7 +89,11 @@ parent: API
 - **Thunder Client** -> IDE/VSCode/Plugins
 - **Nightingale**
   - closed source 
-  - <https://nightingale.rest/>  
+  - <https://nightingale.rest/> 
+- **Yaade**
+  - *open-source, self-hosted, collaborative API development environment.*
+  - *self-hosted Postman alternative*
+  - <https://news.ycombinator.com/item?id=30895372>
 
 
 ## Andere

@@ -119,3 +119,6 @@ parent: Diverses
   - Paketmanager: yum
 - Debian
   - Paketmanager: dpkg
+- Linux Mint
+  - *designed to work 'out of the box' and comes fully equipped with the apps most people need.*
+  - <https://linuxmint.com/>

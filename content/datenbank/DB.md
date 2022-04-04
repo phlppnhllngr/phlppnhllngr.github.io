@@ -68,6 +68,9 @@ parent: Datenbank
       - '55000:55000'
       privileged: true
     ```
+- **Dolt**
+  - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
+  - <https://www.dolthub.com/>
 
 ### In-memory
 - **h2**
@@ -76,6 +79,13 @@ parent: Datenbank
 - **duckdb**
   - <https://duckdb.org/>
   - Java, Python, ...
+
+### Cloud
+- **PlanetScale**
+  - *Serverless databases*
+  - *Deploy, branch, and query your database directly from the UI, or download our CLI and run commands there.*
+  - *fully managed database with the reliability of MySQL (our databases run on MySQL 8.0) and the scale of open source Vitess*
+  - <https://planetscale.com/>
 
 
 ## Graphendatenbank

@@ -51,3 +51,7 @@ parent: API
 - **hasura**
   - *turn your SQL database into a GraphQL API*
   - [Hasura in 100 Seconds - Fireship Youtube, 06/21](https://www.youtube.com/watch?v=xiZ61BkMKo8)
+- **crux.land**
+  - *free registry service meant for hosting small (≤ 20kB) single deno scripts*
+  - *To use crux.land simply upload a file with one of the supported file extensions (ts, tsx, js, jsx) and if successful you will recieve a permanent link to said file. This link may be used in deno or browsers import*
+  - <https://crux.land/>

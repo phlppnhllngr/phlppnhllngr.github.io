@@ -245,6 +245,10 @@ parent: Java
   - htmltopdf-java
     - <https://github.com/wooio/htmltopdf-java> ⭐100
     - *Access to wkhtmltopdf is performed via JNA, exposed through a Java-friendly layer*
+- **Aspose.PDF for Java**
+  - *supports the creation of PDF documents through both an API and from XML templates*
+  - closed source, kostenpflichtig
+  - <https://docs.aspose.com/pdf/java/>
 
 
 ## <span id="db">DB</span>

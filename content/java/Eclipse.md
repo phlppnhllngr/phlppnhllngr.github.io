@@ -12,47 +12,34 @@ parent: Java
 ## Plugins
 
 - ~~Indent Guide~~ siehe Konfig/whitespace
-- **Ansi escape in console**
-  - *interprets the ANSI escape sequences to color the console output*
-  - https://marketplace.eclipse.org/content/ansi-escape-console
-- **Grep Console**
-    - optische Hervorhebung von Logs mit konfigurierbaren Regex
-    - Defaults funktionieren nicht; z.B. stattdessen `Expression = ^WARN.*$`
-    - für neue Eclipse-Versionen nicht verfügbar (kann es aber noch über die Update-site bekommen: http://eclipse.schedenig.name)
-    - Alternativen
-      - LogViewer
-        - *for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match. It allows you to have multiple logs open concurrently*
-      - ~~Easy Consoler Grepper~~
 - **Checkstyle** <small>→ siehe auch m2e-code-quality</small>
 - **SpotBugs** <small>→ siehe auch m2e-code-quality</small>
 - **SonarLint**
 - **Enhanced Class Decompiler**
 - **Lombok**
 - **Buildship Gradle**
-- **Spring Tools**
 - **YEdit** (yaml-Editor)
 - **Eclipse Docker Tooling**
-- ~~jdt codemining~~
-  - ~~https://github.com/angelozerr/jdt-codemining~~
 - **pmd** <small>→ siehe auch m2e-code-quality</small>
 - **infinitest**
-  - https://infinitest.github.io/
-  - https://github.com/infinitest/infinitest/
+  - <https://infinitest.github.io/>
+  - <https://github.com/infinitest/infinitest/>
   - continuous testing, watch mode
 - **exporter for eclipse**
   - aka Yatta Profiles aka Yatta Eclipse Launcher aka Yatta Eclipse Exporter
   - *easy way to save your Eclipse setups and Workspace configurations – for yourself or your team*
   - *Export your Eclipse configuration, installed plug-ins, workspace settings and project configuration quickly and easily to a single local file*
-  - https://marketplace.eclipse.org/content/exporter-eclipse
-  - https://www.yatta.de/profiles/
+  - <https://marketplace.eclipse.org/content/exporter-eclipse>
+  - <https://www.yatta.de/profiles/>
 - **memory analyzer (MAT)**
   - erstellt und analysiert Heap-dumps ('hprof') und stellt grafisch dar, versucht Memory-Leaks zu erkennen
 - **jar2uml**
 - **unnecessary code detector (UCD)**
 - **wildwebdeveloper**
-  - https://github.com/eclipse/wildwebdeveloper
-- **spring sts**
-  - https://spring.io/tools
+  - *Edit of HTML, CSS, JavaScript, TypeScript, JSON+schema, XML+schema, YAML+schema+Kubernetes and debug Node.js and HTML+JS web-apps simply and efficiently in the Eclipse IDE*
+  - <https://github.com/eclipse/wildwebdeveloper>
+- **Spring Tools**
+  - <https://spring.io/tools>
 - **IBM WebSphere Application Server V9.x Developer Tools**
   - unterstützte Versionen von Eclipse: nicht neuer als 2020-06
   - die deployten Files sind unter `<Eclipse-Workspace>/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/`:
@@ -119,17 +106,37 @@ parent: Java
   - <https://marketplace.eclipse.org/content/spark-builder-generator>
 
 
+### Logging
+- **Ansi escape in console**
+  - *interprets the ANSI escape sequences to color the console output*
+  - <https://marketplace.eclipse.org/content/ansi-escape-console>
+- **Grep Console**
+  - optische Hervorhebung von Logs mit konfigurierbaren Regex
+  - Defaults funktionieren nicht; z.B. stattdessen `Expression = ^WARN.*$`
+  - für neue Eclipse-Versionen nicht verfügbar (kann es aber noch über die Update-site bekommen: <http://eclipse.schedenig.name>)
+  - Alternativen
+    - LogViewer
+      - *for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match. It allows you to have multiple logs open concurrently*
+    - ~~Easy Consoler Grepper~~
+- **LogViewer**
+  - *for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match*
+  - *Project is discontinued and not maintained anymore!*
+  - <details>
+      <img src="https://raw.githubusercontent.com/anb0s/logviewer/master/de.anbos.eclipse.logviewer.plugin/screens/LogViewer_view_File_0.9.8.jpg">
+    </details>
+  - <https://github.com/anb0s/logviewer>
+
+
 ### m2e
 - https://www.eclipse.org/m2e/index.html
 - [default lifecycle mapping: lifecycle-mapping-metadata.xml](https://github.com/eclipse/m2e-core/blob/master/org.eclipse.m2e.lifecyclemapping.defaults/lifecycle-mapping-metadata.xml)
-- "plugin execution not covered by lifecycle configuration":
-  [https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html](https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html)
+- "plugin execution not covered by lifecycle configuration": <https://www.eclipse.org/m2e/documentation/m2e-execution-not-covered.html>
 - in Eclipse den Lifecycle eines Projekts sehen: Properties → Maven → Lifecycle
 - **m2e-apt** 
   - *aims at providing automatic Annotation Processing configuration in Eclipse, based on your project's pom.xml and its classpath dependencies*
 - **m2e-code-quality**
-  - [https://github.com/m2e-code-quality/m2e-code-quality](https://github.com/m2e-code-quality/m2e-code-quality)
-  - nicht (mehr) im Marktplatz; Update site: [http://m2e-code-quality.github.io/m2e-code-quality/](http://m2e-code-quality.github.io/m2e-code-quality/)
+  - <https://github.com/m2e-code-quality/m2e-code-quality>
+  - nicht (mehr) im Marktplatz; Update site: <http://m2e-code-quality.github.io/m2e-code-quality/>
   - *collection of Eclipse plugins for M2Eclipse that carry configuration from the Checkstyle, FindBugs and PMD Maven plugins to their corresponding Eclipse plugins* (und SpotBugs)
   - installiert alle diese Plugins
   - an den Eclipse-Plugins sollte dann nichts weiter konfiguriert werden müssen (zumindest nicht der Dateipfad zu den Checkstyle-Regeln)
@@ -182,8 +189,8 @@ parent: Java
 - Run/Debug.Console.Limit Console Output → unchecked
 - Terminal → Terminal buffer lines
 - Font
-  - [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
-  - [https://github.com/be5invis/Iosevka](https://github.com/be5invis/Iosevka)
+  - <https://github.com/tonsky/FiraCode>
+  - <https://github.com/be5invis/Iosevka>
 
 ## Tipps
 - Ctrl+Shift+Hover über Klasse oder Methode, um trotz Warning das Javadoc zu sehen

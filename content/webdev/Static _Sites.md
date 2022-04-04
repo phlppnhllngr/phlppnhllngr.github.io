@@ -57,8 +57,6 @@ parent: Webdev
 - **Cactus**
   - Python
   - <https://github.com/koenbok/Cactus/>
-- **MkDocs**
-  - Python
 - **redwoodjs**
   - <https://redwoodjs.com/>
   - *Bringing full-stack to the Jamstack*
