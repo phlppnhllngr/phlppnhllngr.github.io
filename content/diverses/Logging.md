@@ -53,7 +53,7 @@ parent: Diverses
 - **Apache Chainsaw**
   - *GUI-based Log viewer*
   - <details>
-      <img src="https://logging.apache.org/chainsaw/2.x/images/chainsaw-1.jpg"/>
+      <img src="https://logging.apache.org/chainsaw/2.x/images/chainsaw-1.jpg" loading="lazy"/>
     </details>
   - <https://logging.apache.org/chainsaw/2.x/>
 - **Otros Log Viewer**

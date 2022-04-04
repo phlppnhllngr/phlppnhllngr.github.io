@@ -11,7 +11,7 @@ grand_parent: Java
 - Java EE 8 war die letzte Version von Oracle, zukünftig Eclipse Foundation/"Jakarta EE"
 - <https://en.wikipedia.org/wiki/Jakarta_EE>
 - <https://docs.oracle.com/javaee/7/tutorial/>
-<br/><br/><img src="https://blog.doubleslash.de/wp-content/uploads/2018/07/JEE_Komponenten_Technologien-1-e1530537749157.png.webp"/>
+<br/><br/><img src="https://blog.doubleslash.de/wp-content/uploads/2018/07/JEE_Komponenten_Technologien-1-e1530537749157.png.webp" loading="lazy"/>
 
 
 ## Servlet

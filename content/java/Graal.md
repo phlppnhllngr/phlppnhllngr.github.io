@@ -21,7 +21,7 @@ parent: Java
 
 
 ## native-image
-<img src="https://miro.medium.com/max/1000/1*_DVpea8yyxx39T4cLCTquQ.png"/>
+<img src="https://miro.medium.com/max/1000/1*_DVpea8yyxx39T4cLCTquQ.png" loading="lazy"/>
 - AoT-compiled => native Anwendung
 - *These performance benefits come from precompiling the code of your application ahead-of-time and initializing some classes of the application in advance. So when the applications starts — it is ready to do useful work and doesn’t need the infrastructure for dealing with bytecode loading, interpretation, compiling it with the just-in-time compiler and so on.
 Most importantly though, the executables built with Native Image are standalone and don’t depend on the JVM for the execution because the necessary runtime components, like the garbage collector, are built into the same binary. Also, because of the inclusion of the preinitialized heap data and the compiled code of the whole applications, the binaries are typically larger than the JAR files.*

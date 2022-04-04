@@ -122,7 +122,7 @@ parent: Java
   - *for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match*
   - *Project is discontinued and not maintained anymore!*
   - <details>
-      <img src="https://raw.githubusercontent.com/anb0s/logviewer/master/de.anbos.eclipse.logviewer.plugin/screens/LogViewer_view_File_0.9.8.jpg">
+      <img src="https://raw.githubusercontent.com/anb0s/logviewer/master/de.anbos.eclipse.logviewer.plugin/screens/LogViewer_view_File_0.9.8.jpg" loading="lazy">
     </details>
   - <https://github.com/anb0s/logviewer>
 

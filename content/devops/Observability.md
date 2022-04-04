@@ -89,7 +89,7 @@ parent: DevOps
   - Libs, SDKs und Tools um Metriken, Traces und Logs vendor-unabhängig/-übergreifend zu sammeln
   - kein Backend enthalten, d.h. man braucht zusätzlich einen separaten Service, der das Gesammelte aufnimmt
   - https://www.dynatrace.com/news/blog/what-is-opentelemetry/
-  <img src="https://dt-cdn.net/wp-content/uploads/2020/07/OT.png">
+  <img src="https://dt-cdn.net/wp-content/uploads/2020/07/OT.png" loading="lazy">
 - **signoz**
   - *helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.*
   - *We support OpenTelemetry as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz.*
