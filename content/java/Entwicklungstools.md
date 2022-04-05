@@ -148,3 +148,4 @@ parent: Java
   - *mass refactoring ecosystem for Java and other source code*
   - *Migrate to Java 11 from Java 8, Migrate to JUnit 5 from JUnit 4, Migrate to SLF4J from Log4j*
   - <https://github.com/openrewrite/rewrite>
+  - <https://github.com/openrewrite/rewrite-spring>

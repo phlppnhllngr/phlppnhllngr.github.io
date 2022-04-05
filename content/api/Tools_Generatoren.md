@@ -18,7 +18,7 @@ parent: API
     - *Authentication*
     - *instant APIs*
     - *realtime subscriptions and Storage*
-    - *Serverless functions coming soon*
+    - *Serverless functions ("Edge Functions")*
   - basiert u.a. auf postgrest
   - [Is Supabase Legit? Firebase Alternative Breakdown - Fireship Youtube, 04/2021](https://www.youtube.com/watch?v=WiwfiVdfRIc)
   - [supabase crash course - traversy youtube, 07/21](https://www.youtube.com/watch?v=7uKQBl9uZ00)

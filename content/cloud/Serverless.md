@@ -11,6 +11,10 @@ parent: Cloud
 - Prinzip: man bezahlt die tatsächliche Verwendung der Anwendung (z.B. jeden REST-API-Aufruf) statt einen permanent laufenden Server
 - Vorteil: optimale Ressourcenauslastung, Skalierbarkeit
 - Voraussetzung: gute Performance (v.a. Bootzeit) der Anwendung
+- *Serverless compute options can be broken down into two broad categories:*
+  - *Containers as a Service (e.g. Google Cloud Run, Fly.io)*
+  - *Functions as a Service (e.g. AWS Lambda, Cloudflare Workers, Fastly Compute @ Edge, Suborbital)*
+  - *Additionally, there are self-hosted offerings within each category as well (e.g. Firecracker sort-of for the former, OpenFaaS for the latter).*
 
 ## Plattformen & Frameworks
 - **fn**

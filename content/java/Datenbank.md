@@ -156,6 +156,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 ## In-memory
 - → Datenbank
 - <https://www.baeldung.com/java-in-memory-databases>
+- <https://github.com/bwaldvogel/mongo-java-server>
 
 
 ## Diverse

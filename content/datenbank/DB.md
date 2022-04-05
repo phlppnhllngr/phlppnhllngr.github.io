@@ -91,6 +91,11 @@ parent: Datenbank
 ## Graphendatenbank
 - **neo4j**
   - <https://neo4j.com/>
+- **TerminusDB**
+  - *immutable graph database that creates a graph from JSON documents*
+  - *toolkit for building collaborative applications*
+  - *If your application or data product needs approval workflows, implement them with TerminusDB's Git-like collaboration features.*
+  - <https://terminusdb.com/>
 
 
 ## NOSQL

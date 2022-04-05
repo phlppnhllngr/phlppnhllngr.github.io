@@ -191,6 +191,7 @@ parent: Java
 - Font
   - <https://github.com/tonsky/FiraCode>
   - <https://github.com/be5invis/Iosevka>
+  - <https://www.jetbrains.com/de-de/lp/mono/>
 
 ## Tipps
 - Ctrl+Shift+Hover über Klasse oder Methode, um trotz Warning das Javadoc zu sehen

@@ -14,10 +14,6 @@ parent: Webdev
 - **tapio/live-server**
   - <https://github.com/tapio/live-server>
   - Dev Server mit live reload
-- **ngrok**
-  - <https://ngrok.com/>
-  - *ngrok exposes local servers (localhost) behind NATs and firewalls to the public internet over secure tunnels*
-  - <https://www.npmjs.com/package/ngrok>
 - **vite** → JavaScript/Entwicklungstools
 - **local-web-server**
   - <https://www.npmjs.com/package/local-web-server>
@@ -50,3 +46,23 @@ parent: Webdev
   - *Generates SSL/TLS certificates automatically*
   - *combines Caddy and smallstep/certificates with automated configuration and hot reload*
   - <https://github.com/luisfarzati/localdots>
+
+
+## ngrok und Alternativen
+- **ngrok**
+  - <https://ngrok.com/>
+  - *ngrok exposes local servers (localhost) behind NATs and firewalls to the public internet over secure tunnels*
+  - *has a request log in its web UI. And, it allows replaying requests*
+  - <https://www.npmjs.com/package/ngrok>
+  - [Hackernews: Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://news.ycombinator.com/item?id=30891494)
+- **sish**
+  - *HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.*
+  - *An open source serveo/ngrok alternative.*
+  - <https://github.com/antoniomika/sish>
+- **localhost.run**
+  - *a client-less tool to instantly make a locally running application available on an internet accessible URL*
+  - <https://localhost.run/docs/>
+- **localtunnel**
+  - *allows you to easily share a web service on your local development machine without messing with DNS and firewall settings*
+  - *will assign you a unique publicly accessible url that will proxy all requests to your locally running webserver.*
+  - <https://theboroer.github.io/localtunnel-www/>
