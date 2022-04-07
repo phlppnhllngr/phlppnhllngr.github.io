@@ -143,6 +143,36 @@ parent: Java
 - **Activiti**
   - <https://github.com/Activiti/Activiti>
 - **camunda**
+  - basiert auf Activiti
+  - BPMN
+    - Busniness Process Model and Notation
+    - *standard for business process modeling that provides a graphical notation for specifying business processes in a Business Process Diagram (BPD),[3] based on a flowcharting technique very similar to activity diagrams from Unified Modeling Language (UML)*
+    - *BPMN has been maintained by the Object Management Group (OMG)*
+    - *Components: Camunda Platform provides a rich set of components centered around the BPM lifecycle.*
+      - *Process Implementation and Execution*
+        - *Camunda Engine - The core component responsible for executing BPMN 2.0 processes.*
+        - *REST API - The REST API provides remote access to running processes.*
+        - *Spring, CDI Integration - Programming model integration that allows developers to write Java Applications that interact with running processes.*
+      - *Process Design*
+        - *Camunda Modeler - A standalone desktop application that allows business users and developers to design & configure processes.*
+      - *Process Operations*
+        - *Camunda Engine - JMX and advanced Runtime Container Integration for process engine monitoring.*
+        - *Camunda Cockpit - Web application tool for process operations.*
+        - *Camunda Admin - Web application for managing users, groups, and their access permissions.*
+      - *Human Task Management*
+        - *Camunda Tasklist - Web application for managing and completing user tasks in the context of processes.*
+      - *And there's more...*
+        - <bpmn.io> - *Toolkits for BPMN, CMMN, and DMN in JavaScript (rendering, modeling)*
+        - [Community Extensions](https://docs.camunda.org/manual/7.5/introduction/extensions/) - *Extensions on top of Camunda Platform provided and maintained by our great open source community*
+  - Distributionen
+    - Platform Run (zip)
+      - Camunda Open Source Community Edition 
+    - Tomcat
+    - Docker
+    - Platform Initializer
+      - Generator für Spring Boot Projekt  
+      - <https://start.camunda.com>  
+  - https://docs.camunda.org/manual/current>
   - <https://github.com/camunda/camunda-bpm-platform>
   - zeebe
     - *Distributed Workflow Engine for Microservices Orchestration*
