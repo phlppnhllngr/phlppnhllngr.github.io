@@ -162,17 +162,40 @@ parent: Java
       - *Human Task Management*
         - *Camunda Tasklist - Web application for managing and completing user tasks in the context of processes.*
       - *And there's more...*
-        - <bpmn.io> - *Toolkits for BPMN, CMMN, and DMN in JavaScript (rendering, modeling)*
+        - [bpmn.io](https://bpmn.io) - *Toolkits for BPMN, CMMN, and DMN in JavaScript (rendering, modeling)*
         - [Community Extensions](https://docs.camunda.org/manual/7.5/introduction/extensions/) - *Extensions on top of Camunda Platform provided and maintained by our great open source community*
+  - Architektur
+    - *can be deployed in different scenarios*
+    - Embedded Process Engine
+      - *In this case, the process engine is added as an application library to a custom application. This way, the process engine can easily be started and stopped with the application lifecycle.* 
+      - Spring Boot App
+        - <https://docs.camunda.org/manual/latest/user-guide/spring-boot-integration/> 
+    - Shared, Container-Managed Process Engine
+      - *In this case, the process engine is started inside the runtime container (Servlet Container, Application Server, …). The process engine is provided as a container service and can be shared by all applications deployed inside the container.*
+      - <https://docs.camunda.org/manual/latest/installation/full/>
+      - Tomcat
+      - Wildfly
+      - WebSphere
+        - <https://docs.camunda.org/manual/latest/installation/full/was/> 
+      - WebLogic
+    - Standalone (Remote) Process Engine Server
+      - *In this case, the process engine is provided as a network service. Different applications running on the network can interact with the process engine through a remote communication channel. The easiest way to make the process engine accessible remotely is to use the built-in REST API.* 
+    - <https://docs.camunda.org/manual/current/introduction/architecture/> 
   - Distributionen
     - Platform Run (zip)
-      - Camunda Open Source Community Edition 
+      - *a pre-packaged, lightweight distribution of the Camunda Platform. Camunda Platform Run is easy to configure and does not require Java knowledge.* 
+      - Camunda Open Source Community Edition
+      - <https://docs.camunda.org/manual/current/user-guide/camunda-bpm-run/>
     - Tomcat
     - Docker
+      - Camunda Platform Run
+      - Camunda Platform (Tomcat)
+      - Enterprise Edition 
+      - <https://docs.camunda.org/manual/current/installation/docker/> 
     - Platform Initializer
       - Generator für Spring Boot Projekt  
-      - <https://start.camunda.com>  
-  - https://docs.camunda.org/manual/current>
+      - <https://start.camunda.com>
+  - <https://docs.camunda.org/manual/current>
   - <https://github.com/camunda/camunda-bpm-platform>
   - zeebe
     - *Distributed Workflow Engine for Microservices Orchestration*
