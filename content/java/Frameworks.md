@@ -218,10 +218,16 @@ parent: Java
     - <https://github.com/camunda/zeebe>
     - <https://github.com/camunda-community-hub/spring-zeebe> (Spring Boot Starter)
   - ...  
-- auch self-managed möglich: <https://docs.camunda.io/docs/self-managed/overview/>
+- self-managed
+  - *Self-Managed is free forever with non-production usage of Operate, Tasklist, and Optimize* [1] 
+  - <https://docs.camunda.io/docs/self-managed/overview/>
+  - 1: <https://camunda.com/platform/faq>
 - Migration Guide
   - <https://docs.camunda.io/docs/guides/migrating-from-Camunda-Platform/>
-  - *the workflow engine in Camunda Cloud is always a remote resource for your application, while the embedded engine mode is not supported* 
+  - *the workflow engine in Camunda Cloud is always a remote resource for your application, while the embedded engine mode is not supported*
+
+#### Camunda Modeler
+- <https://camunda.com/products/camunda-platform/modeler/>
 
 
 ## Enterprise Integration
