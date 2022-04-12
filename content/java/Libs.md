@@ -55,7 +55,7 @@ parent: Java
 - **RxJava**
   - <https://github.com/ReactiveX/RxJava>
 - **Disruptor**
-  - <https://github.com/LMAX-Exchange/disruptor
+  - <https://github.com/LMAX-Exchange/disruptor>
   - *concurrent programming framework for the processing of a large number of transactions, with low-latency*
   - *faster than ArrayBlockingQueue and LinkedBlockingQueue*
 - **jobrunr**
