@@ -223,7 +223,7 @@ parent: Java
 - **iText**
   - <https://itextpdf.com/>
   - 4.2.0 (letzte FOSS): <https://mvnrepository.com/artifact/com.lowagie/itext/4.2.0>
-  - ab 4.2.1: Community-Edition (Lizenz: AGPL 3.0; https://itextpdf.com/en/how-buy/agpl-license) oder Commercial edition (💰)
+  - ab 4.2.1: Community-Edition (Lizenz: AGPL 3.0; <https://itextpdf.com/en/how-buy/agpl-license>) oder Commercial edition (💰)
   - tools
     - i7j-pdfhtml
       - *iText 7 add-on... convert HTML and CSS into standards compliant PDFs*
@@ -249,6 +249,7 @@ parent: Java
   - *supports the creation of PDF documents through both an API and from XML templates*
   - closed source, kostenpflichtig
   - <https://docs.aspose.com/pdf/java/>
+- **Apache FOP** -> ./Diverses
 
 
 ## <span id="db">DB</span>
@@ -551,3 +552,7 @@ parent: Java
     - *includes an in-memory directory server is available to allow you easily create one or more simple LDAPv3-compliant servers to use in your testing frameworks*
     - <https://ldap.com/unboundid-ldap-sdk-for-java/>
     - <https://github.com/pingidentity/ldapsdk>
+- **Apache FOP**
+  - Formatting Objects Processor
+  - *reads a formatting object (FO) tree and renders the resulting pages to a specified output. Output formats currently supported include PDF, PS, PCL, AFP, XML, Print, AWT and PNG, and to a lesser extent, RTF and TXT. The primary output target is PDF.* 
+  - <https://xmlgraphics.apache.org/> 
