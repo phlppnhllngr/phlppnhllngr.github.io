@@ -146,6 +146,8 @@ parent: IDE
   - cweijan.vscode-mysql-client2
   - *supports MySQL/MariaDB, Microsoft SQL Server, PostgreSQL, SQLite, MongoDB, Redis, and ElasticSearch.*
   - <https://github.com/cweijan/vscode-database-client>
+- **vscode-pdf**
+  - PDF Viewer 
 
 ### Rechtschreibung
 - **Spell Right**
