@@ -132,7 +132,18 @@ parent: Java
 - ehemals "JBoss AS"
 - <https://www.wildfly.org/>
 - <https://github.com/wildfly/wildfly>
-- <https://github.com/jboss-dockerfiles/wildfly>
+- <https://github.com/wildfly/quickstart>
+- **Docker**
+  - <https://github.com/jboss-dockerfiles/wildfly>
+  - <https://quay.io/repository/wildfly/wildfly>
+  - ```
+    docker run -name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly:23.0.2.Final /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+    docker exec -it wildfly /bin/sh
+    /opt/jboss/wildfly/bin/add-user.sh -> admin
+    ```
+- **Hinweise**
+  - messaging-activemq
+    - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>  
 
 
 ## TomEE
