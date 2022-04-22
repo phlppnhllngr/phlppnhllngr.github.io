@@ -129,8 +129,10 @@ parent: Java
 
 
 ## WildFly
+- ehemals "JBoss AS"
 - <https://www.wildfly.org/>
 - <https://github.com/wildfly/wildfly>
+- <https://github.com/jboss-dockerfiles/wildfly>
 
 
 ## TomEE
@@ -147,4 +149,5 @@ parent: Java
 
 
 ## JBoss EAP
+- kommerzielle Version von WildFly, Support durch RedHat
 - <https://www.redhat.com/en/technologies/jboss-middleware/application-platform>
