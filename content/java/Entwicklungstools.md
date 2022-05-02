@@ -149,3 +149,6 @@ parent: Java
   - *Migrate to Java 11 from Java 8, Migrate to JUnit 5 from JUnit 4, Migrate to SLF4J from Log4j*
   - <https://github.com/openrewrite/rewrite>
   - <https://github.com/openrewrite/rewrite-spring>
+- **Quiltflower**
+  - *general purpose decompiler focused on improving code quality, speed, and usability. Quiltflower is a fork of Fernflower and Forgeflower.*
+  - <https://github.com/QuiltMC/quiltflower>

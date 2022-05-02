@@ -79,6 +79,9 @@ parent: Docker
 - **lazydocker**
   - *A simple terminal UI for both docker and docker-compose*
   - <https://github.com/jesseduffield/lazydocker> ⭐20.5k
+- **Yacht**
+  - *with a focus on templates and 1-click deployments*
+  - <https://github.com/SelfhostedPro/Yacht>
 
 
 ## Orchestrierung

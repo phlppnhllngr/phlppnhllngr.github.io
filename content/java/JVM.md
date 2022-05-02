@@ -75,6 +75,9 @@ parent: Java
   - [1, 31.10.19](https://www.ccampo.me/java/docker/containers/kubernetes/2019/10/31/java-in-a-container.html)
   - [2, 10.2019](https://www.reddit.com/r/java/comments/dhr2tn/dont_put_fat_jars_in_docker_images/)
   - [3, 11.2020](https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/)
+- <https://www.reddit.com/r/java/comments/u349h2/containerize_your_java_applications_a_guide_for/>
+- <https://www.reddit.com/r/java/comments/u70j8l/java_17_whats_new_in_openjdks_container_awareness/>
+- <https://www.reddit.com/r/java/comments/u7057f/running_java_in_singlecore_containers/>
 
 ### Environment & JVM-properties
 - Env-Vars sollten/können keine "." enthalten;

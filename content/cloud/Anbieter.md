@@ -95,6 +95,10 @@ parent: Cloud
   - <https://docs.netlify.com/functions/overview/>
   - *Powered by AWS Lambda. Simplified by Netlify.*
   - nur js und go
+- **Edge Functions**
+  - *enables you to run serverless JavaScript/TypeScript functions*
+  - *built on Deno*
+  - <https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions/>
 - **Forms**
 
 

@@ -11,6 +11,7 @@ parent: DevOps
 - *also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications*
 - <https://dev.to/sandrogiacom/kubernetes-for-java-developers-setup-41nk> (minikube, kubectl, virtualbox)
 - <https://github.com/jayendrapatil/kubernetes-exercises>
+- <https://flant.com/k8s-iceberg.svg>
 
 
 ## Komponenten, Terminologie

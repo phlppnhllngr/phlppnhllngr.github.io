@@ -9,22 +9,26 @@ parent: Webdev
 # Webserver
 - robots.txt - <http://www.robotstxt.org/robotstxt.html>
 - **nginx**
-  - https://github.com/trimstray/nginx-quick-reference - *This notes describes how to improve Nginx performance, security and other important things*
-  - https://vishnu.hashnode.dev/nginx-cheatsheet
-  - https://github.com/valentinxxx/nginxconfig.io - Konfig-Generator
+  - <https://github.com/trimstray/nginx-quick-reference> - *This notes describes how to improve Nginx performance, security and other important things*
+  - <https://vishnu.hashnode.dev/nginx-cheatsheet>
+  - <https://github.com/valentinxxx/nginxconfig.io> - Konfig-Generator
   - <u>Module</u>
       - ngx_http_gzip_static_module
         - *allows sending precompressed files with the “.gz” filename extension instead of regular files*
   - bunkerized-nginx
-    - https://github.com/bunkerity/bunkerized-nginx
+    - <https://github.com/bunkerity/bunkerized-nginx>
     - *nginx Docker image secure by default*
   - tengine
     - *A distribution of Nginx with some advanced features*
-    - https://github.com/alibaba/tengine
+    - <https://github.com/alibaba/tengine>
 - **asmttpd**
   - *Web server for Linux written in amd64 assembly.*
-  - https://github.com/nemasu/asmttpd
-  - https://devopsdirective.com/posts/2021/04/tiny-container-image/
+  - <https://github.com/nemasu/asmttpd>
+  - <https://devopsdirective.com/posts/2021/04/tiny-container-image/>
 - **caddy**
   - *Fast, multi-platform web server with automatic HTTPS*
-  - https://github.com/caddyserver/caddy
+  - <https://github.com/caddyserver/caddy>
+- **thttpd**
+  - *a simple, small, portable, fast, and secure HTTP server.*
+  - Unix
+  - <https://www.acme.com/software/thttpd/>

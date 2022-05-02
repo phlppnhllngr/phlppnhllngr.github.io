@@ -66,3 +66,8 @@ parent: Webdev
   - *allows you to easily share a web service on your local development machine without messing with DNS and firewall settings*
   - *will assign you a unique publicly accessible url that will proxy all requests to your locally running webserver.*
   - <https://theboroer.github.io/localtunnel-www/>
+- **bore**
+  - *CLI tool for making tunnels to localhost*
+  - *will expose your local port at localhost to the public internet at bore.pub:PORT*
+  - *Similar to localtunnel and ngrok, except bore is intended to be a highly efficient, unopinionated tool for forwarding TCP traffic that is simple to install and easy to self-host, with no frills attached.*
+  - <https://github.com/ekzhang/bore>

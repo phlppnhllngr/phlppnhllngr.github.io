@@ -21,6 +21,9 @@ parent: Spring
 - **spring-javaformat**
   - Maven- und Checkstyle-Plugin für Source-Code-Formatierung
   - <https://github.com/spring-io/spring-javaformat>
+- **ngrok-spring-boot-starter**
+  - *will automatically download Ngrok binary corresponding to your operating system (Windows, Linux, OSX or even Docker) and then cache it into home_directory/.ngrok2. Then every time you will run your Spring Boot application, Ngrok will automatically build http tunnel pointing to your springs web server*
+  - <https://github.com/kilmajster/ngrok-spring-boot-starter>
 
 
 ## Codegeneratoren, Meta-Frameworks

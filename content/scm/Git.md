@@ -15,6 +15,7 @@ parent: SCM
   - `git log --graph --decorate --abbrev-commit --pretty=medium --branches --remotes`
 - <https://girliemac.com/blog/2017/12/26/git-purr/>
 - <https://ohshitgit.com/>
+- <https://gitimmersion.com/>
 
 
 ## Stages

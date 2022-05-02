@@ -27,6 +27,14 @@ parent: DevOps
   - *use Earthly to create Docker images and artifacts (e.g., binaries, packages, arbitrary files).*
   - *meant to be used both on your development machine and in CI. It can run on top of popular CI systems (like Jenkins, Circle, GitHub Actions). It is typically the layer between language-specific tooling (like maven, gradle, npm, pip, go build) and the CI build spec.*
   - <https://github.com/earthly/earthly>
+- **Woodpecker**
+  - *uses docker containers to execute pipeline steps*
+  - <https://github.com/woodpecker-ci/woodpecker>
+- **dagger**
+  - *portable devkit for CICD*
+  - *can develop powerful CICD pipelines with minimal effort, then run them anywhere*
+  - *can be used with any CI environment (with Docker pre-installed)*
+  - *does not replace your CI: it improves it by adding a portable development layer on top of it.*
 
 
 ## Build steps
