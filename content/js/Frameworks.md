@@ -105,3 +105,5 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
 - **qwik**
   - *designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.*
   - <https://github.com/BuilderIO/qwik>
+- **marko**
+  - <https://github.com/marko-js/marko> *11.3k

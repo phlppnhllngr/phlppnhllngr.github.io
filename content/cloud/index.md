@@ -13,10 +13,13 @@ has_children: true
     - *Docker powered mini-Heroku [self-hosted]. The smallest PaaS implementation you've ever seen.*
     - <https://github.com/dokku/dokku>
 - **zookeeper**
-    - https://zookeeper.apache.org/
-    - https://curator.apache.org/
-    - https://github.com/DeemOpen/zkui
+    - <https://zookeeper.apache.org/>
+    - <https://curator.apache.org/>
+    - <https://github.com/DeemOpen/zkui>
 - **apollo**
     - *centrally manage the configurations of different applications and different clusters. It is suitable for microservice configuration management scenarios.*
     - *based on Spring Boot and Spring Cloud*
-    - https://github.com/ctripcorp/apollo
+    - <https://github.com/ctripcorp/apollo>
+- **consul**
+    - <https://www.consul.io/>
+    - *Automate network configurations, discover services, and enable secure connectivity across any cloud or runtime.*

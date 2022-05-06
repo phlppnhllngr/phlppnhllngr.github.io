@@ -7,14 +7,15 @@ parent: Java
 ---
 
 # Graal
-- <https://www.graalvm.org/>
-- <https://github.com/oracle/graal>
 - *a high-performance multilingual runtime*
 - *possible to mix multiple programming languages in a single application*
 - java, js, ruby, ...
+- <https://www.graalvm.org/>
+- <https://github.com/oracle/graal>
 - <https://www.graalvm.org/reference-manual/native-image/>
 - <https://www.graalvm.org/docs/getting-started/#native-images>
 - <https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241>
+- <https://www.infoq.com/articles/native-java-graalvm>
 - <Docker
   - <https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm>
   - <https://www.graalvm.org/docs/getting-started/container-images/>

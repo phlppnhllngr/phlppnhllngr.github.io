@@ -41,6 +41,7 @@ parent: Diverses
 - <https://google.github.io/styleguide/shellguide.html>
 - <https://www.reddit.com/r/programming/comments/qjnzmn/underwhelmed_by_bash_functions_maybe_youre_using>
 - <https://github.com/jlevy/the-art-of-command-line>
+- <https://github.com/onceupon/Bash-Oneliner> - *A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.*
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands

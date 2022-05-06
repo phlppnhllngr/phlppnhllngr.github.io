@@ -128,9 +128,6 @@ parent: Webdev
   - *A high-level browser automation library.*
   - basiert auf electron
   - record-to-test-script: https://github.com/segmentio/daydream
-- **rrweb**
-  - Zeichnet Events (Klicks, Mausbewegungen, ...) auf. Kann als json gespeichert und dann wieder abgespielt werden.
-  - https://github.com/rrweb-io/rrweb ⭐5.7k
 - **cypress**
   - https://www.cypress.io/
   - *All-in-one testing framework, assertion library, with mocking and stubbing, all without Selenium.*
@@ -239,3 +236,11 @@ parent: Webdev
 - **jlineup**
   - https://github.com/otto-de/jlineup *40
 - **jest-image-snapshot** → js/test
+
+
+### Recorder
+- **Chrome Recorder Panel**
+  - <https://www.youtube.com/watch?v=rMUayh1QPYs>
+- **rrweb**
+  - Zeichnet Events (Klicks, Mausbewegungen, ...) auf. Kann als json gespeichert und dann wieder abgespielt werden.
+  - <https://github.com/rrweb-io/rrweb> ⭐5.7k

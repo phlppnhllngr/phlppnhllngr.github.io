@@ -12,6 +12,9 @@ parent: Dokumentation
   - <https://awesome.cube.dev>
   - *Awesome data visualization tools for software developers*
   - Liste von Charts, maps, 3d tools, exploration tools, data grids
+- **text-to-diagram**
+  - *A comprehensive list of various text to diagram tools*
+  - <https://xosh.org/text-to-diagram/>
 - **graphviz**
   - <https://graphviz.gitlab.io>
 - **mermaid**

@@ -129,7 +129,11 @@ Besser, die DB-Migration von der Anwendung zu trennen?
   - *keep track of who created or changed an entity and when the change happened* (envers wohl mächtiger weil es auch die Änderungen persistiert)
 
 
-## JOOQ
-- <https://blog.jooq.org/tag/spring-boot>
-- <https://www.baeldung.com/jooq-with-spring>
-- <https://www.baeldung.com/spring-boot-support-for-jooq>
+## Libs
+- **JOOQ**
+  - -> Java/Datenbank
+  - <https://blog.jooq.org/tag/spring-boot>
+  - <https://www.baeldung.com/jooq-with-spring>
+  - <https://www.baeldung.com/spring-boot-support-for-jooq>
+- **querydsl-spring-integration**
+  - -> Java/Datenbank

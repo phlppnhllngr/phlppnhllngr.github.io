@@ -8,15 +8,20 @@ parent: JavaScript
 
 # React
 
-## Frameworks etc
-- https://github.com/zeit/next.js
+## Meta-Frameworks etc
+- **next**
+  - https://github.com/zeit/next.js
 - https://www.styled-components.com/
-- https://www.gatsbyjs.org/
+- **gatsby**
+  - https://www.gatsbyjs.org/
 - https://github.com/facebook/create-react-app
 - https://github.com/andycall/RCRE - für "complex applications"
-- blitz.js
+- **blitz.js**
   - https://blitzjs.com/
   - *The Fullstack React Framework*
+- **remix**
+  - <https://github.com/remix-run/remix>
+
 
 ## Libs
 - https://github.com/jamiebuilds/react-loadable

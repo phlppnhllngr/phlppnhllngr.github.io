@@ -76,6 +76,17 @@ parent: Automatisierung
   - *Open source no-code database and Airtable alternative*
   - <https://baserow.io/>
   - SaaS oder self hosted
+- **windmill**
+  - *uickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
+  - *What is the general idea behind Windmill*
+    - *Define a minimal and generic script in Python or Typescript that solve a specific task.*
+    - *Your scripts parameters are automatically parsed and generate a frontend. Each script correspond to an app by itself*
+    - *You can chain your scripts or scripts made by the community inside flow by piping output to input*
+  - *Stack*
+    - *postgres as the database*
+    - *backend in Rust*
+    - *frontend in svelte*
+  - <https://github.com/windmill-labs/windmill>
 
 
 ## Workflows, Pipelines

@@ -18,6 +18,7 @@ parent: DevOps
   - <https://github.com/pulumi/pulumi> *5.3k
   - *Declare cloud infrastructure using real languages*
   - aws, azure, google, k8s
+  - <https://www.pulumi.com/blog/announcing-infrastructure-as-code-with-java-and-pulumi/>
 - **checkov**
   - *Prevent cloud misconfigurations during build-time for Terraform, Cloudformation, Kubernetes, Serverless framework and other infrastructure-as-code-languages*
   - <https://github.com/bridgecrewio/checkov>

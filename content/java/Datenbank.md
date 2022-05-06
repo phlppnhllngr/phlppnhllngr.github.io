@@ -125,10 +125,11 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://cayenne.apache.org/>
   - <https://github.com/apache/cayenne>
 - **querydsl**
-  - <https://github.com/querydsl/querydsl/>
+  - <https://github.com/querydsl/querydsl/> *3.8k
   - *type-safe SQL-like queries for multiple backends including JPA, MongoDB and SQL in Java.*
 - **persism**
   - *A zero ceremony ORM for Java*
+  - *Derby, Firebird, H2, HSQLDB, Informix, MSAccess, MSSQL, MySQL/MariaDB, Oracle (12+), PostgreSQL, SQLite.*
   - <https://github.com/sproket/Persism> *10
 - **ebean**
   - <https://github.com/ebean-orm/ebean> *1200
@@ -136,12 +137,16 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - *DAO oriented database mapping framework*
   - *generates source code at compile time using annotation processing.*
   - *Provides type-safe Criteria API*
-  - <https://github.com/domaframework/doma>
+  - <https://github.com/domaframework/doma> *311
 - **jdbi**
   - *uses lambda expressions and reflection to provide a friendlier, higher level interface than JDBC to access the database*
   - *has an optional SQL Object mapping module*
+  - <https://github.com/jdbi/jdbi> *1.6k
   - <http://jdbi.org/>
   - <https://www.baeldung.com/jdbi>
+- **jasync-sql**
+  - *Async DataBase Driver for MySQL and PostgreSQL*
+  - <https://github.com/jasync-sql/jasync-sql>
 - **Quick SQL test data**
   - *aims to ease the generation of datasets to test SQL queries. It produces INSERT statements taking account of integrity constraints.*
   - *This library can be helpful in the two following situations: Create a dataset before starting the writing of an SQL query. Test an existing SQL query.*

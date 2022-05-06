@@ -32,9 +32,6 @@ parent: Cloud
   - *deploy event-driven functions and microservices to Kubernetes without repetitive, boiler-plate coding*
   - *Build both microservices & functions in any language.*
   - *Avoid lock-in through the use of Docker. Run on any public or private cloud.*
-- **consul**
-  - <https://www.consul.io/>
-  - *Automate network configurations, discover services, and enable secure connectivity across any cloud or runtime.*
 - **serverless-stack**
   - *framework that makes it easy to build serverless apps. Set breakpoints and test your functions locally*
   - *It's an extension of AWS CDK and it features: A Live Lambda Development environment*

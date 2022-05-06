@@ -25,7 +25,8 @@ parent: Java
   - jdeps
   - jstat
   - javap
-  - jstack
+  - **jstack**
+    - *attaches to the specified process or core file and prints the stack traces of all threads that are attached to the virtual machine, including Java threads and VM internal threads, and optionally native stack frames. The utility also performs deadlock detection.*
   - **jmc** (java mission control)
       - *contains a plugin that allows us to visualize the data collected by JFR*
   - **jfr** (java flight recorder)
@@ -42,6 +43,9 @@ parent: Java
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
     - <https://cryostat.io/> - *JFR for Containerized Java Applications*
+  - **jconsole**
+    - *The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.*
+    - <https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html>
 
 
 ## Profilers

@@ -24,6 +24,7 @@ parent: Security
   - <https://www.keycloak.org>
   - <https://github.com/thomasdarimont/awesome-keycloak>
   - <https://github.com/keycloak/keycloak-quickstarts>
+  - <https://news.ycombinator.com/item?id=31258469>
   - Deployment
     - *Keycloak is a standalone server based in Wildfly. It is not possible to deploy it in other application servers.*
     - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
