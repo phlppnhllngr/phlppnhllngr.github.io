@@ -48,3 +48,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+gh_edit_link: true
+gh_edit_view_mode: "edit"
+gh_edit_repository: "https://github.com/phlppnhllngr/phlppnhllngr.github.io"
