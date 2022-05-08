@@ -18,6 +18,7 @@ parent: DevOps
 - Rancher -> DevOps/Rancher
 - Nomad
     - *Nomad is a simple and flexible workload orchestrator to deploy and manage containers (docker, podman), non-containerized applications (executable, Java), and virtual machines (qemu) across on-prem and clouds at scale.*
+    - *enables an organization to run containers, legacy, and batch applications together on the same infrastructure.*
     - *Nomad is supported on Linux, Windows, and macOS. A commercial version of Nomad, Nomad Enterprise, is also available.*
     - <https://github.com/hashicorp/nomad>
     - <https://www.nomadproject.io/>
