@@ -1,0 +1,78 @@
+---
+title: Konzepte
+parent: Kubernetes
+grand_parent: DevOps
+---
+
+# Konzepte
+
+## Komponenten, Terminologie
+- **Pod**
+  - *smallest unit of k8s*
+  - *abstraction over container*
+  - *usually one container per pod*
+  - *each pod gets own ip address*
+  - *new ip address on re-creation*
+- **Service**
+  - *permanent (static) ip address & DNS name that can be 'attached' to a pod*
+  - *lifecycle of service and pod are not connected*
+  - *load balancer; can be attached to multiple pods (on different nodes)*
+- **Node**
+  - *simple server, physical or virtual machine*
+  - *worker node*
+    - *multiple pods can run on one node (eg. application pod, database pod)*
+    - *3 processes must be installed on every node*
+      - *container runtime*
+      - *kubelet*
+        - *interacts with the container and the node*
+        - *starts the pod with a container inside*
+        - *assigns resources (CPU, RAM, storage) from node to the container*
+      - *Kube proxy (k-proxy)*
+        - *forwards requests from services to pods*
+  - *master node*
+    - *demand less resources than worker nodes*
+    - *4 processes run on every master node*
+      - *API Server*
+        - *cluster gateway*
+        - *validates authentication*
+        - *forwards requests: deploy new apps, create new services, schedule pods*
+      - *Scheduler*
+        - *schedule new pods*
+        - *decides on which node (based on resource exhaustion) to put the pod*
+      - *Controller manager*
+        - *detects and re-schedules (via request to Scheduler) crashed pods*
+      - *etcd*
+        - *key-value-store of cluster state (resources, health)*
+        - *distributed among the cluster's master nodes*
+        - *the cluster's "brain"*
+        - *does not contain application data*
+- **Ingress**
+  - *entry point for external requests*
+  - *forwards incoming requests to services*
+- **ConfigMap**
+  - *external configuration of application*
+  - *connected to pod*
+  - *usually contains URLs of database*
+  - *accessed via environment variables or properties file*
+- **Secret**
+  - *like ConfigMap, for secret data (credentials, certificates)*
+  - *stored in Base64*
+- **Volumes**
+  - *for persistent data*
+  - *attaches physical storage to pod*
+  - *storage is on local node or remote (outside of k8s cluster)*
+- **Deployment**
+  - *abstraction on top of pod*
+  - *blueprint for creating pods*
+  - *in practice, you don't create or work with pods directly*
+  - *checks on the health of your Pod and restarts the Pod's Container if it terminates. Deployments are the recommended way to manage the creation and scaling of Pods.*
+  - *DBs can't be replicated via Deployment (not stateless)*
+  - *manages replicasets*
+  - *everything below deployments is managed automatically by k8s*
+- **StatefulSet**
+  - *meant for stateful applications like databases*
+  - *replicate stateful apps*
+  - *DBs are often hosted outside of the k8s cluster*
+- **Replicaset**
+  - *manages the replicas of a pod*
+  - *in practice, you don't create, update or delete replicasets, you work with deployments*

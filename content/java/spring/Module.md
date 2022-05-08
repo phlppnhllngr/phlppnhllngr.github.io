@@ -1,6 +1,7 @@
 ---
 title: Module
 parent: Spring
+grand_parent: Java
 ---
 
 # Module

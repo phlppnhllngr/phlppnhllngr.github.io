@@ -4,6 +4,7 @@ title: Tools
 created: '2019-02-14T20:19:00.854Z'
 modified: '2021-09-13T13:38:11.554Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # Tools

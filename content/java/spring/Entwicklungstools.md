@@ -4,6 +4,7 @@ title: Entwicklungstools
 created: '2019-02-10T19:11:12.051Z'
 modified: '2021-04-22T16:28:21.473Z'
 parent: Spring
+grand_parent: Java
 ---
 
 # Entwicklungstools

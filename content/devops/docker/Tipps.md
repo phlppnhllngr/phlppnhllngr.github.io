@@ -4,6 +4,7 @@ title: Tipps
 created: '2020-03-09T14:21:51.109Z'
 modified: '2021-04-03T10:55:43.836Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # Tipps

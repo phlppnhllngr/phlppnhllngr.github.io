@@ -4,6 +4,7 @@ title: Images - Varianten
 created: '2019-02-14T20:19:30.421Z'
 modified: '2021-04-02T14:37:12.937Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # Images - Varianten

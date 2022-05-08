@@ -4,6 +4,7 @@ title: CLI
 created: '2020-08-29T16:59:31.019Z'
 modified: '2021-07-19T08:13:11.037Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # CLI

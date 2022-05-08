@@ -9,7 +9,7 @@ parent: DevOps
 # Rancher
 - <https://github.com/rancher/rancher>
 
-## 1.6
+## Rancher 1
 - unterstützt docker-compose v1 & v2 (d.h. '2', '2.1' und neuer nicht)
 
 ### Installation (docker image)
@@ -28,4 +28,9 @@ parent: DevOps
 - <https://rancher.com/docs/rancher/v1.6/en/cattle/rancher-compose/commands/>
 - yml
   - *rancher-compose.yml which extends and overwrites the docker-compose.yml. For example, scale of services and health checks would be in the rancher-compose.yml file.*
+
+
+## Rancher 2
+- *Rancher was originally built to work with multiple orchestrators, and it included its own orchestrator called Cattle. With the rise of Kubernetes in the marketplace, Rancher 2 exclusively deploys and manages Kubernetes clusters running anywhere, on any provider.*
+- <https://rancher.com/docs/rancher/v2.6/en/>
 

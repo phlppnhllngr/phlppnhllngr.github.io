@@ -4,6 +4,7 @@ title: Tools
 created: '2019-02-20T16:07:38.558Z'
 modified: '2021-06-04T08:52:04.178Z'
 parent: Node.js
+grand_parent: JavaScript
 ---
 
 # Tools

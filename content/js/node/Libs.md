@@ -4,6 +4,7 @@ title: Libs
 created: '2019-03-09T12:44:24.695Z'
 modified: '2021-05-28T14:23:16.602Z'
 parent: Node.js
+grand_parent: JavaScript
 ---
 
 # Libs

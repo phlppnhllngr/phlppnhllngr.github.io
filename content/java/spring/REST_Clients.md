@@ -1,6 +1,7 @@
 ---
 title: REST Clients
 parent: Spring
+grand_parent: Java
 ---
 
 # REST Clients

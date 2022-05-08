@@ -71,8 +71,6 @@ parent: Diverses
   - *consolidates the results from a suite of static analysis tools into a single, real-time report*
 - [rollbar](https://rollbar.com/) 💰
   - *provides real-time error alerting & debugging tools for developers*
-- **mouseflow**
-  - session replay / recording and website heatmap tool
 - **meilisearch**
   - <https://github.com/meilisearch/MeiliSearch>
   - search engine

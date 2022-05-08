@@ -4,6 +4,7 @@ title: Datenbank
 created: '2019-02-05T09:27:47.602Z'
 modified: '2021-09-13T13:50:32.985Z'
 parent: Spring
+grand_parent: Java
 ---
 
 # Datenbank

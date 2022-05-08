@@ -4,6 +4,7 @@ title: Storage
 created: '2020-08-09T10:30:01.094Z'
 modified: '2020-08-09T10:48:18.388Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # Storage

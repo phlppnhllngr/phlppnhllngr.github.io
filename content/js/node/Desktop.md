@@ -4,6 +4,7 @@ title: Desktop
 created: '2019-11-13T10:15:53.010Z'
 modified: '2021-05-08T13:38:52.815Z'
 parent: Node.js
+grand_parent: JavaScript
 ---
 
 # Desktop

@@ -4,6 +4,7 @@ title: Logging
 created: '2020-07-27T12:18:30.563Z'
 modified: '2021-09-09T07:01:08.840Z'
 parent: Spring
+grand_parent: Java
 ---
 
 # Logging

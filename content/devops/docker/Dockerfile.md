@@ -4,6 +4,7 @@ title: Dockerfile
 created: '2020-08-15T19:29:53.326Z'
 modified: '2021-07-28T12:50:17.444Z'
 parent: Docker
+grand_parent: DevOps
 ---
 
 # Dockerfile

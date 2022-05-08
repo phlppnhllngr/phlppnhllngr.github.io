@@ -244,3 +244,5 @@ parent: Webdev
 - **rrweb**
   - Zeichnet Events (Klicks, Mausbewegungen, ...) auf. Kann als json gespeichert und dann wieder abgespielt werden.
   - <https://github.com/rrweb-io/rrweb> ⭐5.7k
+- **mouseflow**
+  - *session replay / recording and website heatmap tool*

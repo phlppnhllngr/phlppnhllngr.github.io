@@ -4,6 +4,7 @@ title: Package Management
 created: '2019-02-17T20:48:46.024Z'
 modified: '2021-07-21T06:55:12.003Z'
 parent: Node.js
+grand_parent: JavaScript
 ---
 
 # Package Management
