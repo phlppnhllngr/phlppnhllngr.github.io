@@ -2,6 +2,7 @@
 layout: default
 title: Spring
 has_children: true
+parent: Java
 ---
 
 - <https://reflectoring.io/spring-bean-lifecycle/>
