@@ -64,6 +64,9 @@ grand_parent: DevOps
   - *CLI tool and library for generating a Software Bill of Materials from container images and filesystems*
   - *Exceptional for vulnerability detection when used with a scanner tool like Grype.*
   - <https://github.com/anchore/syft>
+- **harbormaster**
+  - *small utility that lets you easily deploy multiple Docker-Compose applications. It does this by taking a list of git repository URLs that contain Docker Compose files and running the Compose apps they contain. It will also handle updating/restarting the apps when the repositories change*
+  - <https://gitlab.com/stavros/harbormaster>
 
 
 ## GUIs
@@ -83,14 +86,6 @@ grand_parent: DevOps
 - **Yacht**
   - *with a focus on templates and 1-click deployments*
   - <https://github.com/SelfhostedPro/Yacht>
-
-
-## Orchestrierung
-- Kubernetes (k8s) → [DevOps/Kubernetes](/content/devops/kubernetes)
-- Rancher → [DevOps/Rancher](/content/devops/Rancher)
-- harbormaster
-  - *small utility that lets you easily deploy multiple Docker-Compose applications. It does this by taking a list of git repository URLs that contain Docker Compose files and running the Compose apps they contain. It will also handle updating/restarting the apps when the repositories change*
-  - <https://gitlab.com/stavros/harbormaster>
 
 
 ## Security
