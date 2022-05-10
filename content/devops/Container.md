@@ -18,7 +18,7 @@ parent: DevOps
 - **Podman**
     - *Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: alias docker=podman.*
     - *podman is an alternative to Docker, but get mentioned as a replacement for the Docker component (not Kubernetes) of Docker Desktop.*
-    - https://podman.io/>
+    - <https://podman.io/>
     - <https://github.com/containers/podman> *8k
         
 
