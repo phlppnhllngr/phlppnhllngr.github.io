@@ -8,18 +8,31 @@ parent: Java
 
 # JVM
 
-## Diverses
-- sun.net.client.defaultConnectTimeout & sun.net.client.defaultReadTimeout
+## Parameter, Flags
+- **JAVA_OPTS**
+- **classpath**
+  - spezifiziert Classpath
+  - alias `cp`
+  - siehe auch `-Djava.class.path`, `CLASSPATH`-Env-Var, `Class-Path`-Manifest-Eintrag
+
+### -D
+- **sun.net.client.defaultConnectTimeout, sun.net.client.defaultReadTimeout**
   - *Modern applications use numerous protocols (i.e. SOAP, REST, HTTP, HTTPS, JDBC, RMI, etc.) to connect with remote applications. Sometimes remote applications might take a long time to respond. Sometimes they may not respond at all. If you don’t have proper timeout settings, and if remote applications don’t respond fast enough, then your application threads/resources will get stuck.*
   - *You can pass these two powerful timeout networking properties at the JVM level that can be globally applicable to all protocol handlers that uses java.net.URLConnection*
   - *By default, values for these two properties are -1, which means no timeout is set*
   - `-Dsun.net.client.defaultConnectTimeout=2000 -Dsun.net.client.defaultReadTimeout=2000`
   - beeinflusst offenbar nur URLConnection, aber nicht java.net.http.HttpClient
-- user.timezone
+- **user.timezone**
   - *you might be using java.util.Date or java.util.Calendar objects. These objects, by default, pick up time zone information from the underlying operating system. This will become a problem if your application is running in a distributed environment.*
   - `-Duser.timezone=US/Eastern`
-- user.language
-- `user.country`
+- **user.language**
+- **user.country**
+- **java.endorsed.dirs**
+  - *From time to time it is necessary to update the Java platform in order to incorporate newer versions of standards that are created outside of the Java Community Process (Endorsed Standards), or in order to update the version of a technology included in the platform to correspond to a later standalone version of that technology (Standalone Technologies). The Endorsed Standards Override Mechanism provides a means whereby later versions of classes and interfaces that implement Endorsed Standards or Standalone Technologies may be incorporated into the Java Platform.*
+  - *If no value is set for java.endorsed.dirs, then Oracle's implementation of the Java platform looks for JAR files in a default standard location: Microsoft Windows: <java-home>\lib\endorsed / Solaris or Linux: <java-home>/lib/endorsed* 
+  - *With the exception of packages listed here and the technologies listed in the Standalone Technologies section below, no other packages from the Java SE platform API specification may be overridden (...) javax.rmi.CORBA, org.w3c.dom, org.xml.sax, org.omg.CosNaming, (...)*
+  - <https://docs.oracle.com/javase/8/docs/technotes/guides/standards/>
+- **java.ext.dirs** -> Extension Mechanism
 
 
 ## Memory
@@ -61,6 +74,13 @@ parent: Java
 - *Unclosed system resources: The GC indirectly frees up files since classes like FileInputStream are written such that if an instance is garbage collected, the ‘close()’ method will be called first. This way, unclosed system resources don’t always pose a risk, so a lot of developers tend to look over them.*
 - *Unclosed connections: Like with unclosed resources, unclosed database or network connections can lead to significant memory use if not unloaded.*
 
+
+## Extension Mechanism
+- `java.ext.dirs`
+- *standard, scalable way to make custom APIs available to all applications running on the Java platform*
+- *all applications using that JRE (or potentially all applications on the host) can see the same classes without need to explicitly specify them on the classpath*
+- Reihenfolge class loading: bootstrap, extensions, classpath
+  
 
 ## Container
 - statt der JVM- sollten die Container-Limits (RAM, CPU) gesetzt werden [1]
