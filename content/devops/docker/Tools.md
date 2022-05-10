@@ -67,11 +67,6 @@ grand_parent: DevOps
 - **harbormaster**
   - *small utility that lets you easily deploy multiple Docker-Compose applications. It does this by taking a list of git repository URLs that contain Docker Compose files and running the Compose apps they contain. It will also handle updating/restarting the apps when the repositories change*
   - <https://gitlab.com/stavros/harbormaster>
-- **Rancher Desktop**
-  - *provides container management and Kubernetes on the desktop*
-  - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
-  - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
-  - <https://docs.rancherdesktop.io/>
 
 
 ## GUIs
