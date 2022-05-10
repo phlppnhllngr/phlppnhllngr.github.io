@@ -39,7 +39,7 @@ parent: Security
       - *converts the binary DER to base64, broken into conveniently sized lines and with header and trailer lines added, which is more convenient for people, especially for things like cut-and-paste.*
       - *On Windows, also be careful NOT to use 'UTF-8' format which usually adds a Byte Order Mark that is not visible on the display but interferes with a program reading the file.*
       - *Although PEM is widely used for certificates and many PEM files are certificates, be aware PEM is used for many other things as well.*
-- **PKCS #12, p12**
+- **PKCS #12**
   - *defines an archive file format for storing many cryptography objects as a single file* 
   - *normally used to contain a privatekey PLUS the corresponding certificate PLUS in most cases one or more 'chain' or 'intermediate' certificate(s) that are needed to form a trust chain to validate the end-entity certificate.*
 - **p12**
