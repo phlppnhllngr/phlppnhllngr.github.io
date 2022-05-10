@@ -9,9 +9,11 @@ parent: DevOps
 - **containerd**
     - CLI: nerdctl
         - <https://github.com/containerd/nerdctl>
+        - -> DevOps/Kubernetes
     - <https://github.com/containerd/containerd>
 - **Docker Engine**
-    - CLI: Docker CLI 
+    - CLI: Docker CLI
+    - -> DevOps/Docker
 - **CRI-O**
 - **Podman**
     - *Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: alias docker=podman.*
@@ -29,7 +31,7 @@ parent: DevOps
 - Monitoring
 - Secret Management
 
-### Engines
+### O. Engines
 - Rancher -> DevOps/Rancher
 - Nomad
     - *Nomad is a simple and flexible workload orchestrator to deploy and manage containers (docker, podman), non-containerized applications (executable, Java), and virtual machines (qemu) across on-prem and clouds at scale.*
