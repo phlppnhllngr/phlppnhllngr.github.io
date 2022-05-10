@@ -31,7 +31,7 @@ parent: Security
 - **Root Certificate** 
 - **cer, crt, der, pem**
   - *CER and CRT are (both) commonly used as extensions for a file containing an X.509 certificate*
-  - *There are two common encodings used for the file contents:"
+  - *There are two common encodings used for the file contents:*
     - *DER*
       - *a binary encoding (Distinguished Encoding Rules) defined by ASN.1*
     - *PEM*
@@ -40,6 +40,7 @@ parent: Security
       - *On Windows, also be careful NOT to use 'UTF-8' format which usually adds a Byte Order Mark that is not visible on the display but interferes with a program reading the file.*
       - *Although PEM is widely used for certificates and many PEM files are certificates, be aware PEM is used for many other things as well.*
 - **PKCS #12, p12**
+  - *defines an archive file format for storing many cryptography objects as a single file* 
   - *normally used to contain a privatekey PLUS the corresponding certificate PLUS in most cases one or more 'chain' or 'intermediate' certificate(s) that are needed to form a trust chain to validate the end-entity certificate.*
 - **p12**
   - *commonly used to identify files in the PKCS12 aka PFX format*
