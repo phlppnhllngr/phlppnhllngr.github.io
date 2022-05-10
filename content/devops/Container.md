@@ -8,8 +8,9 @@ parent: DevOps
 ## Runtimes
 - **containerd**
     - CLI: nerdctl
+        - *Same UI/UX as docker*
+        - *Supports Docker Compose* 
         - <https://github.com/containerd/nerdctl>
-        - -> DevOps/Kubernetes
     - <https://github.com/containerd/containerd>
 - **Docker Engine**
     - CLI: Docker CLI
@@ -20,6 +21,9 @@ parent: DevOps
     - *podman is an alternative to Docker, but get mentioned as a replacement for the Docker component (not Kubernetes) of Docker Desktop.*
     - <https://podman.io/>
     - <https://github.com/containers/podman> *8k
+    - podman-compose
+        - *a script to run docker-compose.yml using podman*   
+        - <https://github.com/containers/podman-compose> 
         
 
 ## Orchestration Engines
