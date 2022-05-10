@@ -45,4 +45,7 @@ grand_parent: DevOps
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
   - *On MacOS and Linux, Rancher Desktop leverages a virtual machine to run containerd and Kubernetes. Windows Subsystem for Linux v2 is leveraged for Windows systems.*
-  - <https://rancherdesktop.io/>
+  - *provides container management and Kubernetes on the desktop*
+  - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
+  - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
+  - <https://docs.rancherdesktop.io/>
