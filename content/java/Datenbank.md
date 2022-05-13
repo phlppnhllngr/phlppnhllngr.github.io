@@ -26,6 +26,7 @@ parent: Java
     - @Access: ob Getter/Setter oder Fields für Zugriff verwendet werden sollen
     - @EntityListeners: @PrePersist etc in separate Klasse auslagern
     - @UniqueConstraint: auf @Table-Ebene (Kombinationen von Spalten) als unique festlegen
+  - *JPA is not just a SQL generator. It is a write-through cache - a layer between your application and your database with a short-lived session storage. In practice, this means that when you fetch an entity and update it, then even saving it explicitly does not immediately execute SQL statements. Instead, JPA accumulates changes and "flushes" them in one optimized batch when the transaction is commited. It can do this because your entities are "managed", meaning that they are proxies with field-based change tracking. Sometimes you want your SQL statements to be executed immediately, for example, if you mix native and JPA queries. In this case you can call flush immediately and this executes SQL statements for all accumulated changes so far (basically, syncs local and database states). Note that this does not commit the transaction and it still can be rolled back.* (<https://www.reddit.com/r/java/comments/uommj4/flushing_in_jpa/i8fdual/>)
   - Tipps
     - <https://java-persistence-performance.blogspot.com/2011/06/how-to-improve-jpa-performance-by-1825.html>
     - mit lombok
