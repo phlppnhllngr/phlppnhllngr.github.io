@@ -21,9 +21,9 @@ parent: Datenbank
   - <https://github.com/ulid/spec>
 
 
-## DBMS
-- **Apache Derby**
-  - <https://db.apache.org/derby/>
+## Relationale DBMS
+
+### Client/Server
 - **MySQL**
 - **PostgreSQL**
 - **DB2**
@@ -72,13 +72,43 @@ parent: Datenbank
   - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
   - <https://www.dolthub.com/>
 
-### In-memory
-- **h2**
+### Embedded
+- **H2**
+  - *either embedded into a Java application or used as a database server*
+  - *Embedded and server modes; disk-based or in-memory databases*
 - **hsqldb**
-- **sqlite**
-- **duckdb**
+  - Java
+  - *Embedded (into Java applications) and Client-Server operating modes*
+  - *In-memory tables for fastest operation. Disk based tables for large data sets*
+- **SQLite**
+  - *SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world.*
+  - [FAQ](https://www.sqlite.org/faq.html)
+    - *What datatypes does SQLite support?*
+      - *SQLite uses dynamic typing. Content can be stored as INTEGER, REAL, TEXT, BLOB, or as NULL.*
+    - *Can multiple applications or multiple instances of the same application access a single database file at the same time?*
+      - *Multiple processes can have the same database open at the same time. Multiple processes can be doing a SELECT at the same time. But only one process can be making changes to the database at any moment in time, however. SQLite uses reader/writer locks to control access to the database.* 
+  - [Appropriate Uses For SQLite](https://www.sqlite.org/whentouse.html)
+    - *Situations Where A Client/Server RDBMS May Work Better*
+      - *If there are many client programs sending SQL to the same database over a network*
+      - *if the website is write-intensive or is so busy that it requires multiple servers*
+      - *Very large datasets*
+      - *High Concurrency: SQLite supports an unlimited number of simultaneous readers, but it will only allow one writer at any instant in time. For many situations, this is not a problem. Writers queue up.*
+    - *Checklist For Choosing The Right Database Engine*
+      - *Is the data separated from the application by a network? → choose client/server*
+      - *Many concurrent writers? → choose client/server*
+      - *Big data? → choose client/server*
+      - *Otherwise → choose SQLite! For device-local storage with low writer concurrency and less than a terabyte of content, SQLite is almost always a better solution.*
+  - <https://www.sqlite.org/index.html>    
+- **DuckDB**
+  - *in-process SQL OLAP Database Management System* 
+  - <https://github.com/duckdb/duckdb> 
   - <https://duckdb.org/>
   - Java, Python, ...
+- **Apache Derby**
+  - *based on the Java, JDBC, and SQL standards.* 
+  - *provides an embedded JDBC driver that lets you embed Derby in any Java-based solution.*
+  - *also supports the more familiar client/server mode*
+  - <https://db.apache.org/derby/>
 
 ### Cloud
 - **PlanetScale**
