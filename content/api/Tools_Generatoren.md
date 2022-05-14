@@ -8,6 +8,8 @@ parent: API
 
 # Tools, Generatoren
 - → Automatisierung/Lowcode (low code APIs)
+
+## Server
 - **supabase**
   - <https://github.com/supabase/supabase/> *12.1k
   - *The open source Firebase alternative.*
@@ -55,3 +57,17 @@ parent: API
   - *free registry service meant for hosting small (≤ 20kB) single deno scripts*
   - *To use crux.land simply upload a file with one of the supported file extensions (ts, tsx, js, jsx) and if successful you will recieve a permanent link to said file. This link may be used in deno or browsers import*
   - <https://crux.land/>
+ - **swagger-inflector**
+  - *uses the Swagger Specification to drive an API implementation. The spec drives the creation of routes and controllers automatically, matching methods and method signatures from the implementation. To allow for an iterative development, the framework will mock responses for any unimplemented methods, based on the specification. You have full control over the mapping of controllers to classes and methods as well as models.*
+  - *Inflector uses the following libraries: swagger models for the swagger definition, Jackson for JSON processing, Jersey 2.32 for REST, Minimum Java 8*
+  - <https://github.com/swagger-api/swagger-inflector>
+
+
+## Client
+- **quicktype**
+  - *generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries*
+  - *Target Languages: js, java, ...*
+  - <https://github.com/quicktype/quicktype/>
+- **openapi-generator**
+  - <https://github.com/OpenAPITools/openapi-generator/>
+  - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
