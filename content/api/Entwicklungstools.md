@@ -98,16 +98,10 @@ parent: API
 
 ## Andere
 - **swagger**
-  - swagger-inflector
-    - *uses the Swagger Specification to drive an API implementation. The spec drives the creation of routes and controllers automatically, matching methods and method signatures from the implementation. To allow for an iterative development, the framework will mock responses for any unimplemented methods, based on the specification. You have full control over the mapping of controllers to classes and methods as well as models.*
-    - <https://github.com/swagger-api/swagger-inflector>
 - **openapi-cop**
   - <https://github.com/EXXETA/openapi-cop/>
   - node_module
   - *A proxy that validates responses and requests against an OpenAPI document*
-- **openapi-generator**
-  - <https://github.com/OpenAPITools/openapi-generator/>
-  - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
 - **Akita**
   - *watches API traffic to automatically generate OpenAPI specs in just minutes, completely black box, without requiring any code or config changes.*
   - *Akita is able to tell you:*
@@ -116,7 +110,3 @@ parent: API
     - *Simple type changes (ex string to int) that can pollute data pipelines*
     - *Complex type changes (ex phone number to datetime) that can break dependencies*
   - <https://docs.akita.software/docs/>
-- **quicktype**
-  - *generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries*
-  - *Target Languages: js, java, ...*
-  - <https://github.com/quicktype/quicktype/>
