@@ -58,7 +58,11 @@ parent: Datenbank
 - **H2**
   - *either embedded into a Java application or used as a database server*
   - *Embedded and server modes; disk-based or in-memory databases*
-- **hsqldb**
+  - vs SQLite
+    - *More data types than SQLite.*
+    - *H2 is encrypted. It is multi-user, password-protected database. This feature is not available in SQLite.*
+    - *Has inbuilt database management console*
+- **HSQLDB**
   - Java
   - *Embedded (into Java applications) and Client-Server operating modes*
   - *In-memory tables for fastest operation. Disk based tables for large data sets*
