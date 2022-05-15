@@ -30,9 +30,22 @@ parent: Java
     - <https://github.com/micronaut-projects/>
     - core
       - <https://github.com/micronaut-projects/micronaut-core> *2600
-    - data
-      - *database access toolkit that uses Ahead of Time (AoT) compilation to pre-compute queries for repository interfaces that are then executed by a thin, lightweight runtime layer.*
-      - <https://github.com/micronaut-projects/micronaut-data>
+    - <u>Datenbank</u>
+      - data
+        - *database access toolkit that uses Ahead of Time (AoT) compilation to pre-compute queries for repository interfaces that are then executed by a thin, lightweight runtime layer.*
+        - *provides a general API for translating a compile time Query model into a query at compilation time and provides runtime support for the following backends: JPA (Hibernate), SQL (JDBC, R2DBC), MongoDB*
+        - *data-jpa*
+          - <https://micronaut-projects.github.io/micronaut-data/latest/guide/#introduction> 
+        - *data-jdbc*
+          - *Micronaut Data JDBC / R2DBC supports all of the features of Micronaut Data for JPA including dynamic finders, pagination, projections, Data Transfer Objects (DTO), Batch Updates, Optimistic locking and so on. However, Micronaut Data JDBC / R2DBC is not a Object Relational Mapping (ORM) implementation and does not and will not include any of the following concepts: Lazy Loading or Proxying of Associations, Dirty Checking, Persistence Contexts / Sessions, First Level Caching and Entity Proxies. Micronaut Data JDBC / R2DBC is designed for users who prefer a lower-level experience and working directly with SQL.* 
+          - *Micronaut Data JDBC / R2DBC is useful for implementing the majority of the simple SQL queries that exist in a typical application and does not include any runtime query building DSLs. For more complex queries Micronaut Data JDBC / R2DBC can be paired with one of the many great existing Java SQL DSLs out there like JOOQ, QueryDSL, Requery or even JPA*
+          - *An important aspect of Micronaut Data JDBC / R2DBC is that regardless whether you use JPA annotations or Micronaut Data annotations the entity classes must be compiled with Micronaut Data. This is because Micronaut Data pre-computes the persistence model (the relationships between entities, the class/property name to table/column name mappings) at compilation time, which is one of the reasons Micronaut Data JDBC can startup so fast.*
+          - <https://micronaut-projects.github.io/micronaut-data/latest/guide/#sql> 
+        - <https://micronaut-projects.github.io/micronaut-data/latest/guide/>
+        - <https://github.com/micronaut-projects/micronaut-data>
+      - sql
+        - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/> 
+        - <https://github.com/micronaut-projects/micronaut-sql> 
     - servlet
       - *Provides integration between Micronaut and the Servlet API*
       - *provides support for replacing the Netty-based HTTP server that comes with the Micronaut framework with either Jetty, Tomcat, or Undertow*
