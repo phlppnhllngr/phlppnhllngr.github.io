@@ -58,6 +58,31 @@ parent: Datenbank
 - **H2**
   - *either embedded into a Java application or used as a database server*
   - *Embedded and server modes; disk-based or in-memory databases*
+  - <u>Connection modes</u>
+    - <http://h2database.com/html/features.html#connection_modes> 
+    - *Embedded mode*
+      - *local connections using JDBC* 
+      - *an application opens a database from within the same JVM using JDBC. This is the fastest and easiest connection mode. The disadvantage is that a database may only be open in one virtual machine (and class loader) at any time. As in all modes, both persistent and in-memory databases are supported. There is no limit on the number of database open concurrently, or on the number of open connections.*
+    - *Server mode*
+      - *remote connections using JDBC or ODBC over TCP/IP*
+      - *When using the server mode (sometimes called remote mode or client/server mode), an application opens a database remotely using the JDBC or ODBC API. A server needs to be started within the same or another virtual machine, or on another computer. Many applications can connect to the same database at the same time, by connecting to this server. Internally, the server process opens the database(s) in embedded mode.*
+    - *Mixed mode*
+      - *local and remote connections at the same time*
+      - *The first application that connects to a database does that in embedded mode, but also starts a server so that other applications (running in different processes or virtual machines) can concurrently access the same data. The local connections are as fast as if the database is used in just the embedded mode, while the remote connections are a bit slower.*
+        - Automatic mixed mode
+          - <http://h2database.com/html/features.html#auto_mixed_mode>
+          - *Multiple processes can access the same database without having to start the server manually. To do that, append `;AUTO_SERVER=TRUE` to the database URL. You can use the same database URL independent of whether the database is already open or not. This feature doesn't work with in-memory databases.*
+          - *Internally, when using this mode, the first connection to the database is made in embedded mode, and additionally a server is started internally (as a daemon thread).*
+          - *the first connection to the database uses the embedded mode, which is faster than the server mode. Therefore the main application should open the database first if possible.*
+  - [Settings](http://h2database.com/html/features.html?highlight=AUTO_SERVER&search=AUTO_SERVER#database_url)
+    - Encryption
+      - <http://h2database.com/html/features.html#file_encryption>
+    - Compatibility modes
+      - *For certain features, this database can emulate the behavior of specific databases. However, only a small subset of the differences between databases are implemented in this way.* 
+      - <http://h2database.com/html/features.html#compatibility>
+  - [FAQ](http://h2database.com/html/faq.html)
+    - *Is it reliable?*
+      - *When using one of the following features for production, please ensure your use case is well tested (if possible with automated test cases). The areas that are not well tested are: (...) AUTO_SERVER and AUTO_RECONNECT (...)*  
   - vs SQLite
     - *More data types than SQLite.*
     - *H2 is encrypted. It is multi-user, password-protected database. This feature is not available in SQLite.*
