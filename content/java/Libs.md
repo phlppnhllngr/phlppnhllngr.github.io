@@ -166,6 +166,9 @@ parent: Java
     - v5.1
       - *Standards based, pure Java, implementation of HTTP versions 1.0, 1.1, 2.0*
     - <https://hc.apache.org/index.html>
+  - **king-http**
+    - *An asynchronous http client with support for sse [server sent events]* 
+    - <https://github.com/king/king-http-client#api>
 - <u>http server</u>
   - **com.sun.net.httpserver.{HttpServer,SimpleFileServer}** -> Java/Server
   - **nanohttpd**
