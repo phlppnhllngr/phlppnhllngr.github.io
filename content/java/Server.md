@@ -14,7 +14,9 @@ parent: Java
   - <https://inside.java/2021/12/06/working-with-the-simple-web-server/>
 
 
-## Tomcat
+## Servlet Container
+
+### Tomcat
   - *Tomcat is a web server / web container / servlet container. It is often used as an application server for strictly web-based applications but does not include the entire suite of capabilities that a Java EE application server would supply. It does not implement the whole Java EE API.*
   - embedded tomcat
   - Konfig
@@ -27,24 +29,27 @@ parent: Java
     - encoding
 
 
-## Jetty
+### Jetty
 - <https://www.eclipse.org/jetty/>
 - <https://github.com/eclipse/jetty.project>
 - verbraucht weniger RAM als Tomcat
 
 
-## Netty
+## Andere
+
+### Netty
 - *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
+- *Netty is able to run inside a servlet container*
 - <https://netty.io/>
 
 
-## Websphere
+## Application Server
+- <https://en.wikipedia.org/wiki/List_of_application_servers#Java>
+
+### Websphere Application Server (Traditional aka "tWAS")
 - <https://www.ibm.com/cloud/blog/websphere-trial-options-and-downloads>
 - <https://en.wikipedia.org/wiki/IBM_WebSphere_Application_Server#Version_history>
 - <https://stackoverflow.com/questions/45815445/ibm-webpshere-full-profile-webpshere-traditional-profile-and-websphere-classic>
-
-### Traditional
-- aka "tWAS"
 - **Installation**
   - <https://geekflare.com/was9-installation-guide>
 - **Tipps**
@@ -113,7 +118,7 @@ parent: Java
   - [https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files](https://www.ibm.com/docs/en/was-zos/9.0.5?topic=applications-updating-enterprise-application-files)
 
 
-## (Open) Liberty
+### (Open) Liberty
 - *A lightweight open framework for building fast and efficient cloud-native Java microservices.*
 - *Open Liberty is a lightweight open source Java™ runtime that is built by using modular features. WebSphere Liberty is a commercial version of Open Liberty.*
 - [Stack Overflow: What is the difference between OpenLiberty and WebSphere Liberty?](https://stackoverflow.com/a/46306037/7437541)
@@ -128,7 +133,7 @@ parent: Java
 - <https://openliberty.io/blog/2018/07/02/creating-dual-layer-docker-images-for-spring-boot-apps.html>
 
 
-## WildFly
+### WildFly
 - ehemals "JBoss AS"
 - <https://www.wildfly.org/>
 - <https://github.com/wildfly/wildfly>
@@ -141,24 +146,29 @@ parent: Java
     docker exec -it wildfly /bin/sh
     /opt/jboss/wildfly/bin/add-user.sh -> admin
     ```
+- <u>Extras</u>
+  - **Bootable Jar**
+    - *contains both the server and your packaged application (a JAR, an EAR or a WAR)*
+    - *Some limitations exist*
+    - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin> 
 - **Hinweise**
   - messaging-activemq
     - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>  
 
 
-## TomEE
+### TomEE
 - <https://github.com/apache/tomee>
 
 
-## GlassFish
+### GlassFish
 - *a Jakarta EE compatible implementation sponsored by the Eclipse Foundation. Eclipse GlassFish 5.1 is also Java EE 8 Compatible.*
 - <https://github.com/eclipse-ee4j/glassfish>
 
 
-## WebLogic
+### WebLogic
 - <https://www.oracle.com/middleware/technologies/weblogic.html>
 
 
-## JBoss EAP
+### JBoss EAP
 - kommerzielle Version von WildFly, Support durch RedHat
 - <https://www.redhat.com/en/technologies/jboss-middleware/application-platform>
