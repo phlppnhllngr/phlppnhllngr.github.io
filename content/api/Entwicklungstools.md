@@ -110,3 +110,6 @@ parent: API
     - *Simple type changes (ex string to int) that can pollute data pipelines*
     - *Complex type changes (ex phone number to datetime) that can break dependencies*
   - <https://docs.akita.software/docs/>
+- **mitmproxy2swagger**
+  - *automatically converting mitmproxy captures to OpenAPI 3.0 specifications. This means that you can automatically reverse-engineer REST APIs by just running the apps and capturing the traffic.*   
+  - <https://github.com/alufers/mitmproxy2swagger> 
