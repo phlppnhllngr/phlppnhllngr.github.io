@@ -93,7 +93,6 @@ parent: Java
 
 
 ## Variablen
-- Inhalt anzeigen: `mvn help:evaluate -Dexpression=foo.bar`
 - **${project.basedir}**
   - *The directory that the current project resides in*
   - *in a module of a multi module project this is the root of the module (not root of the parent)*
@@ -212,7 +211,7 @@ parent: Java
   - *discovery of various project-related paths*
   - <https://github.com/jdcasey/directory-maven-plugin>
 - **dockerfile**
-  - https://github.com/spotify/dockerfile-maven
+  - <https://github.com/spotify/dockerfile-maven>
   - *If you bind the default phases, when you type mvn package, you get a Docker image. When you type mvn deploy, your image gets pushed*
 - **download**
   - *download files (...) different protocols*
@@ -223,10 +222,10 @@ parent: Java
 - **enforcer**
   - <https://maven.apache.org/enforcer/maven-enforcer-plugin>
   - *provides goals to control certain environmental constraints such as Maven version, JDK version and OS family along with many more built-in rules and user created rules*
-  - built-ins: requireReleaseDeps, requireJavaVersion , ... (https://maven.apache.org/enforcer/enforcer-rules/index.html)
+  - built-ins: requireReleaseDeps, requireJavaVersion , ... (<https://maven.apache.org/enforcer/enforcer-rules/index.html>)
   - auch custom (java-code) rules
 - **errorprone**
-  - https://errorprone.info/index
+  - <https://errorprone.info/index>
 - **exec**
   - <http://www.mojohaus.org/exec-maven-plugin>
 - **failsafe**
@@ -241,39 +240,49 @@ parent: Java
   - <https://github.com/coveooss/fmt-maven-plugin>
   - *Formats your code using google-java-format which follows Google's code styleguide*
 - **formatter**
-  - https://code.revelc.net/formatter-maven-plugin/
+  - <https://code.revelc.net/formatter-maven-plugin/>
   - *formatting java source code using the Eclipse code formatter*
 - **frontend**
-  - https://github.com/eirslett/frontend-maven-plugin
+  - <https://github.com/eirslett/frontend-maven-plugin>
 - **git-spezifische Plugins**
   - hooks
     - ~~https://github.com/olukyrich/githook-maven-plugin *17~~
       - seit 06/17 inaktiv & nirgends verfügbar
     - githook-maven-plugin
-      - https://github.com/phillipuniverse/githook-maven-plugin *16 (fork von ^)
+      - <https://github.com/phillipuniverse/githook-maven-plugin> *16 (fork von ^)
       - nachdem man das Plugin im pom.xml hinzugefügt hat, `mvn initialize` ausführen zum Installieren der Hooks
     - pre-commit-maven-plugin
-      - https://github.com/oslomarketsolutions/pre-commit-maven-plugin *10
+      - <https://github.com/oslomarketsolutions/pre-commit-maven-plugin> *10
       - *plugin for the pre-commit framework*
       - *When compiling a maven project, this plugin will install the git hooks automatically in the developer's Git project*
       - hooks: pre-commit, pre-push, commit-msg
       - Setup relativ kompliziert
     - git-build-hook
-      - https://github.com/rudikershaw/git-build-hook *6
+      - <https://github.com/rudikershaw/git-build-hook> *6
       - nicht in Doku: muss explizit an Phase gebindet werden
     - git-hook-maven-plugin
-      - https://github.com/arthinking/git-hook-maven-plugin
+      - <https://github.com/arthinking/git-hook-maven-plugin>
       - Doku chinesisch
     - git-code-format-maven-plugin
-      - *automatically deploys https://github.com/google/google-java-format code formatter as a pre-commit git hook*
-      - https://github.com/Cosium/git-code-format-maven-plugin
+      - *automatically deploys <https://github.com/google/google-java-format> code formatter as a pre-commit git hook*
+      - <https://github.com/Cosium/git-code-format-maven-plugin>
   - gitflow
-    - https://github.com/aleksandr-m/gitflow-maven-plugin
+    - <https://github.com/aleksandr-m/gitflow-maven-plugin>
+- **help**
+  - goals
+    - evaluate
+      - `mvn help:evaluate -Dexpression=foo.bar`
+    - effective-pom
+    - effective-settings
+    - system
+      - *displays a list of the platform details like system properties and environment variables.* 
+    - ...
+  - <https://maven.apache.org/plugins/maven-help-plugin/> 
 - **hibernate-enhance**
-  - https://vladmihalcea.com/maven-gradle-hibernate-enhance-plugin/
+  - <https://vladmihalcea.com/maven-gradle-hibernate-enhance-plugin/>
 - **install**
 - **jar**
-  - https://maven.apache.org/plugins/maven-jar-plugin/
+  - <https://maven.apache.org/plugins/maven-jar-plugin/>
 - **jaxws**
   - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
   - <https://www.mojohaus.org/jaxws-maven-plugin>
