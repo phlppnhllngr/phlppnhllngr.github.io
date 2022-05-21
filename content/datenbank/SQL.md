@@ -45,3 +45,24 @@ parent: Datenbank
 - **SQL Fiddle**
   - MySQL, MS SQL Server, PostgreSQL, SQLite
   - <http://sqlfiddle.com/> 
+
+
+## Schnipsel
+- **composite key**
+  - `create table mytable (col1, col2, primary key(col1, col2))`
+- **insert on duplicate key update**
+  - ```
+    create table persons(id int primary key, lastname varchar)
+    insert into persons(id, lastname) values (1, 'Miller') -- insert 1
+    insert into persons(id, lastname) values (1, 'Smith') on duplicate key update lastname = 'Smith' -- update 1
+    insert into persons(id, lastname) values (2, 'Jonson') on duplicate key update lastname = 'Jonson' -- insert 2
+    insert into persons(id, lastname) values (2, 'Jonson') on duplicate key update lastname = 'Jonson' -- 0 row(s) affected
+    ```
+- **insert ignore**
+  - kein insert bei
+    - duplicate key (primary key, unique)
+    - null obwohl not null constraint
+  - `insert ignore into persons (...) values (...)`
+- **replace**
+- **merge**
+- **if not exists(query) then insert**
