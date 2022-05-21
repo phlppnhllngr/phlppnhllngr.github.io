@@ -65,4 +65,5 @@ parent: Datenbank
   - `insert ignore into persons (...) values (...)`
 - **replace**
 - **merge**
-- **if not exists(query) then insert**
+- **insert wenn nicht schon vorhanden**
+  - `insert into persons(firstname, lastname) select 'John', 'Smith' where not exists (select 1 from persons where firstname = 'John' and lastname = 'Smith')` 
