@@ -95,15 +95,18 @@ parent: Java
 
 ## Formatter
 - **google-java-format**
+  - *exposes extremely few configuration options that govern formatting behavior. goals of this tool are to bring consistency to the codebase, and to free developers from arguments over style choices. It is an explicit non-goal to support developers' individual preferences* 
   - <https://github.com/google/google-java-format>
   - Eclipse- & Maven-Plugins
+  - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 - **prettier-java**
   - *opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules*
   - <https://github.com/jhipster/prettier-java>
   - node_module & Maven-Plugin (→ maven/plugins)
 - **spotless**
-  - import order, unused imports, indentation, ...
-  - Wrapper um prettier/google-format/eclipse-jdt (?)
+  - *general-purpose formatting*
+  - Java und viele andere Sprachen, Intergration per Maven, Gradle, IDE etc
+  - unterstützt prettier, google-format, eclipse-jdt, ...
   - Maven-Plugin → maven/spotless-plugin
 - **uncrustify**
   - *A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA*
