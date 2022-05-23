@@ -67,3 +67,13 @@ parent: Datenbank
 - **merge**
 - **insert wenn nicht schon vorhanden**
   - `insert into persons(firstname, lastname) select 'John', 'Smith' where not exists (select 1 from persons where firstname = 'John' and lastname = 'Smith')` 
+- <u>joins</u>
+  - (inner) join
+    - *Returns records that have matching values in both tables* 
+  - left (outer) join
+    - *Returns all records from the left table, and the matched records from the right table* 
+  - right (outer) join
+    - *Returns all records from the right table, and the matched records from the left table* 
+  - full (outer) join
+    - *Returns all records when there is a match in either left or right table*
+  - cross join
