@@ -12,8 +12,10 @@ parent: Java
 - **SpotBugs**
   - <https://spotbugs.github.io/>
   - <https://github.com/spotbugs/spotbugs> ⭐1500
-  - Plugins für Eclipse und Maven
-  - <https://github.com/KengoTODA/findbugs-slf4j> - *A SpotBugs/FindBugs plugin to verify usage of SLF4J*
+  - Integration mit Eclipse und Maven
+  - Extensions
+    - <https://spotbugs.github.io/#extensions>
+    - <https://github.com/KengoTODA/findbugs-slf4j> - *A SpotBugs/FindBugs plugin to verify usage of SLF4J*
 - **SonarLint**
   - <https://www.sonarlint.org/>
   - Regeln für Java und viele andere Sprachen. (Optional:) Bezieht Regeln von einem SonarQube-Server. SonarQube gibt es z.B. als Docker-Image: <https://docs.docker.com/samples/library/sonarqube/>
