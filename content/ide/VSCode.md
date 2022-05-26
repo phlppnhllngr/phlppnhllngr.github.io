@@ -270,9 +270,9 @@ parent: IDE
 - **Community Server Connectors**
   - *provides a Remote Server Protocol based server connector, which can start, stop, publish to, and otherwise control Community runtimes and servers like Apache Felix, Karaf, and Tomcat.*
   - *Supported Servers*
-    - *Apache Tomcat [ 5.5 | 6.0 | 7.0 | 8.0 | 8.5 | 9.0 ]*
+    - *Apache Tomcat [ 5.5 - 9.0 ]*
     - *Apache Karaf [ 4.8 ]*
-    - *Apache Felix [ 3.2 | 4.6 | 5.6 | 6.0 ]*
+    - *Apache Felix [ 3.2 - 6.0 ]*
     - *Jetty [ 9.x ]*
     - *Glassfish [ 5.x ]*
     - *Websphere Liberty [ 21.x ]*
