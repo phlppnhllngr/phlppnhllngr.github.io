@@ -139,6 +139,7 @@ parent: IDE
 - **SonarLint**
   - UID: sonarsource.sonarlint-vscode
   - JS, Java, TS, ...
+  - erfordert Java 11+
 - **Blockman**
   - Highlight Nested Code Blocks
   - <https://marketplace.visualstudio.com/items?itemName=leodevbro.blockman>
@@ -287,7 +288,6 @@ parent: IDE
   - Spring Initializer
   - Spring Boot Dashboard
   - ...
-- **SonarLint**
 
 
 ### Remote
