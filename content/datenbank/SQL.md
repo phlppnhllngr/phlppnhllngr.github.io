@@ -77,3 +77,8 @@ parent: Datenbank
   - full (outer) join
     - *Returns all records when there is a match in either left or right table*
   - cross join
+  - natural join
+- <u>Funktionen</u>
+  - current_timestamp
+  - utc_timestamp
+  - unix_timestamp 
