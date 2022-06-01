@@ -133,3 +133,15 @@ parent: Java
     ```
   - Maven-Plugin
   - <https://github.com/kohsuke/localizer>
+
+
+## Datum & Zeit
+- -> Diverses/Datum & Zeit
+- <u>Zeitstempel</u>
+  - **java.time.Instant**
+  - **System.currentTimeMillis()**
+  - **java.sql.Timestamp**
+    - *A thin wrapper around java.util.Date that allows the JDBC API to identify this as an SQL TIMESTAMP value*
+    - ´Timestamp(long time)` *Constructs a Timestamp object using a milliseconds time value.*
+    - `Instant toInstant()`
+    - <https://docs.oracle.com/javase/8/docs/api/java/sql/Timestamp.html> 
