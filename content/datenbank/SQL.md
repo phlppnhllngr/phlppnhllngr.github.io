@@ -79,6 +79,11 @@ parent: Datenbank
   - cross join
   - natural join
 - <u>Funktionen</u>
-  - current_timestamp
-  - utc_timestamp
-  - unix_timestamp 
+  - current_timestamp()
+    - *In MySQL, the CURRENT_TIMESTAMP returns the current date and time in ‘YYYY-MM-DD HH:MM:SS’ format or YYYYMMDDHHMMSS.uuuuuu format depending on whether numeric or string is used in the function. NOW() and CURRENT_TIMESTAMP() are the synonym of CURRENT_TIMESTAMP.*
+    - *determined by the time zone of your MySQL server.*
+  - utc_timestamp()
+    - *used to check current Coordinated Universal Time (UTC) date and time value. It returns the current UTC date and time value in YYYY-MM-DD HH:MM:SS or YYYYMMDDHHMMSS.uuu format, depending on whether the function is used in string or numeric context.* 
+  - unix_timestamp(date?)
+    - *The server interprets date as a value in the current time zone and converts it to an internal value in UTC.* 
+    - returned Unix-Zeitstempel (Sekunden von 1970-01-01 00:00:00 bis date-Argument bzw. bis jetzt) 
