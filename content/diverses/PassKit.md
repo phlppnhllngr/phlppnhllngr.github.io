@@ -10,7 +10,7 @@ parent: Diverses
   - *There are a few special considerations for Passbook* (<https://stackoverflow.com/a/15878404/7437541>, 4/2013)
     - *1. All Pass push requests must be sent to the production APNS server (gateway.push.apple.com on port 2195)*
     - *2. You must use your Pass Type ID certificate and key to authenticate with the APNS server (do not use App APNS certificates)*
-    - *4. The payload should be an empty - E.g. {"aps":""}*
+    - *~~4. The payload should be an empty - E.g. {"aps":""}~~* Payload = `{}`
     - *5. alert, badge, sound and custom property keys are all ignored - the push's only purpose is to notify Passbook that your web service has a fresh pass. The notification text will be determined by the changeMessage key in pass.json and the differences between the old and the new .pkpass bundles*
     - *6. The changeMessage string should contain %@ if you wish for the content of the value key to be displayed. Change messages may have static text in addition to the %@ variable, such as this: "changeMessage":"New updates: %@". If no %@ is provided, a generic message with the kind of pass is displayed: "Store card changed".*
     - *7. As of iOS9, if you modify more than one field at a time, only one generic message will be displayed on the lock screen.*
