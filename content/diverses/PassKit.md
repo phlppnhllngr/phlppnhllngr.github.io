@@ -40,5 +40,5 @@ parent: Diverses
 | Name        | URL                                                                                  | Store Downloads | API? | .pkpass importieren? |
 |:------------|:-------------------------------------------------------------------------------------|:----------------|:-----|:---------------------|
 |Wallet Passes|https://play.google.com/store/apps/details?id=io.walletpasses.android&hl=de&gl=US     | 10 Mio+         |ja    |                      |
-|PassWallet   |https://play.google.com/store/apps/details?id=com.attidomobile.passwallet&hl=de&gl=US <br/> https://github.com/Kwiket/passwallet | 5 Mio+          |      |                      |
+|PassWallet   |https://play.google.com/store/apps/details?id=com.attidomobile.passwallet&hl=de&gl=US <br/><br/> https://github.com/Kwiket/passwallet | 5 Mio+          |      |                      |
 |Pass2U       |https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=de&gl=US   | 1 Mio+          |      |                      |
