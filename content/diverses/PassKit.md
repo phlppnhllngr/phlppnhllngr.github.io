@@ -37,7 +37,7 @@ parent: Diverses
   - *Tokens for uninstalled apps will return "success" for a while, until at some point the system decides it is OK to start returning 410. This can take several days after a notification is sent to a token after the app has been uninstalled. This is to prevent tracking of user behavior about installing/uninstalling apps, and is by design. It is acceptable to send notifications to these tokens until you receive a 410, after which you can delete the token from your database.* (<https://developer.apple.com/forums/thread/109376>)
 
 ## Wallet-Apps für Android
-| Name        | URLs                                                                                  | Store Downloads | API? | .pkpass importieren? |
+| Name        | URLs                                                                                 | Store Downloads | API? | .pkpass importieren? |
 |:------------|:-------------------------------------------------------------------------------------|:----------------|:-----|:---------------------|
 |Wallet Passes|https://play.google.com/store/apps/details?id=io.walletpasses.android&hl=de&gl=US     | 10 Mio+         |ja    |                      |
 |PassWallet   |https://play.google.com/store/apps/details?id=com.attidomobile.passwallet&hl=de&gl=US <br/><br/> https://github.com/Kwiket/passwallet | 5 Mio+          |ja      |                      |
