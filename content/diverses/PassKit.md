@@ -4,10 +4,12 @@ parent: Diverses
 ---
 
 # PassKit
-- [Apple - PassKit Web Service Reference](https://developer.apple.com/library/archive/documentation/PassKit/Reference/PassKit_WebService/WebService.html)
-- [Apple - Updating passes](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Updating.html)
-  - URL = https://api.push.apple.com(:443)/3/device/${pushToken} ?
-  - Header apns-topic=${passTypeIdentifier} benötigt?
+- <u>Apple Developer Docs</u>
+  - [PassKit Web Service Reference](https://developer.apple.com/library/archive/documentation/PassKit/Reference/PassKit_WebService/WebService.html)
+  - [Wallet Passes](https://developer.apple.com/documentation/walletpasses)
+  - [Updating passes](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Updating.html)
+    - URL = https://api.push.apple.com(:443)/3/device/${pushToken} ?
+    - Header apns-topic=${passTypeIdentifier} benötigt?
 - <u>StackOverflow/User PassKit</u>
   - *1. All Pass push requests must be sent to the production APNS server (gateway.push.apple.com on port 2195), there is no way to use the sandbox.*
   - *2. You must use your Pass Type ID certificate and key to authenticate with the APNS server (do not use App APNS certificates)*
