@@ -21,39 +21,39 @@ parent: CSS
 ## Animationen
 - **Animate.css**
   - entrance, exit, attention seekers, ...
-  - https://animate.style/
-  - https://github.com/daneden/animate.css
+  - <https://animate.style/>
+  - <https://github.com/daneden/animate.css>
 - **hover.css**
   - <http://ianlunn.github.io/Hover/>
 - <http://cssanimation.io/>
 - <https://www.minimamente.com/project/magic/>
 - **vivify**
-  - http://vivify.mkcreative.cz/
-- https://animista.net/
-- https://www.minimamente.com/project/magic/
-- https://jonsuh.com/hamburgers/
+  - <http://vivify.mkcreative.cz/>
+- <https://animista.net/>
+- <https://www.minimamente.com/project/magic/>
+- <https://jonsuh.com/hamburgers/>
 - <u>Image</u>
   - **imagehover**
-    - http://imagehover.io/
+    - <http://imagehover.io/>
 - **csshake**
   - Rüttel-/Zittereffekte
-  - https://github.com/elrumordelaluz/csshake
+  - <https://github.com/elrumordelaluz/csshake>
 - <u>Loading</u>
-  - https://github.com/jh3y/whirl
-  - http://tobiasahlin.com/spinkit/
-  - https://github.com/nzbin/three-dots
+  - <https://github.com/jh3y/whirl>
+  - <http://tobiasahlin.com/spinkit/>
+  - <https://github.com/nzbin/three-dots>
 
 
 ## Diverses
 - **filters.css**
   - *apply color filters*
   - `.backdrop-blur-3 .hover-grayscale-7`
-  - https://github.com/bansal/filters.css
-- https://cssfx.dev/
+  - <https://github.com/bansal/filters.css>
+- <https://cssfx.dev/>
   - Button, Menu Item Effekte, Spinners
 - **pattern.css**
-  - https://github.com/bansal-io/pattern.css
+  - <https://github.com/bansal-io/pattern.css>
   - *fill your empty background with beautiful patterns*
 - **charts.css**
   - *It replaces traditional JS charting libraries with a CSS framework*
-  - https://github.com/ChartsCSS/charts.css *3.2k
+  - <https://github.com/ChartsCSS/charts.css> *3.2k
