@@ -9,29 +9,29 @@ parent: CSS
 # Frameworks
 - <https://github.com/troxler/awesome-css-frameworks>
 - **foundation**
-  - https://foundation.zurb.com
+  - <https://foundation.zurb.com>
   - Webseiten & Emails
   - Templates & [Components](https://foundation.zurb.com/sites/docs/kitchen-sink.html)
 - **bulma**
-  - https://github.com/jgthms/bulma ⭐38.200
+  - <https://github.com/jgthms/bulma> ⭐38.200
   - Basiert auf Flexbox. CSS only.
-  - https://bulma.io/
+  - <https://bulma.io/>
 - **minicss**
-  - https://minicss.org/
+  - <https://minicss.org/>
   - *minimal, responsive, style-agnostic CSS framework*
 - **bootstrap**
-  - https://getbootstrap.com/
-  - https://github.com/twbs/bootstrap ⭐138k
+  - <https://getbootstrap.com/
+  - <https://github.com/twbs/bootstrap ⭐138k
 - **semantic-ui**
-  - https://semantic-ui.com/ 
-  - https://github.com/semantic-org/semantic-ui/ ⭐47.200
+  - <https://semantic-ui.com/>
+  - <https://github.com/semantic-org/semantic-ui/> ⭐47.200
 - **materialize**
-  - http://materializecss.com/
+  - <http://materializecss.com/>
 - **mui**
-  - https://www.muicss.com/
+  - <https://www.muicss.com/>
   - material
 - **w3css**
-  - https://www.w3schools.com/w3css/
+  - <https://www.w3schools.com/w3css/>
 - **tailwind**
   - <https://tailwindcss.com/>
   - *not a UI kit. no built-in UI components. Instead, Tailwind provides highly composable, low-level utility classes that make it easy to build complex user interfaces.*
@@ -43,13 +43,13 @@ parent: CSS
   - *an on-demanded alternative to Tailwind, which provides faster load times, fully compatible with Tailwind v2.0 and with a bunch of additional cool features.*
   - <https://github.com/windicss/windicss> ⭐2100
 - **elastic ui**
-  - https://github.com/elastic/eui ⭐1500
-  - https://elastic.github.io/eui/#/
+  - <https://github.com/elastic/eui> ⭐1500
+  - <https://elastic.github.io/eui/#/>
   - React & Vanilla
 - **spectre**
-  - https://picturepan2.github.io/spectre/index.html
+  - <https://picturepan2.github.io/spectre/index.html>
 - **surface**
-  - https://mildrenben.github.io/surface/index.html
+  - <https://mildrenben.github.io/surface/index.html>
   - material
 - **sakura**
   - <https://oxal.org/projects/sakura/>
@@ -63,14 +63,14 @@ parent: CSS
   - <https://github.com/alvaromontoro/almond.css>
   - <https://alvaromontoro.github.io/almond.css/demo/>
 - **UIkit**
-  - https://getuikit.com/
-  - https://github.com/uikit/uikit ⭐14.500
+  - <https://getuikit.com/>
+  - <https://github.com/uikit/uikit> ⭐14.500
 - **tachyons**
-  - https://tachyons.io/
+  - <https://tachyons.io/
   - minimal
 - **carbon**
-  - https://www.carbondesignsystem.com/
-  - https://github.com/carbon-design-system/carbon ⭐2000
+  - <https://www.carbondesignsystem.com/>
+  - <https://github.com/carbon-design-system/carbon> ⭐2000
   - Komponenten für Vanilla, React, Vue, Angular
 - **UniformCSS**
   - *A fully configurable utility class generator and CSS framework built for Sass projects*
