@@ -20,7 +20,7 @@ parent: CSS
   - <https://minicss.org/>
   - *minimal, responsive, style-agnostic CSS framework*
 - **bootstrap**
-  - <https://getbootstrap.com/
+  - <https://getbootstrap.com/>
   - <https://github.com/twbs/bootstrap> ⭐138k
 - **semantic-ui**
   - <https://semantic-ui.com/>
