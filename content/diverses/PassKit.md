@@ -33,3 +33,10 @@ parent: Diverses
 - Apple Push Feedback Service
   - *The feedback service no longer exists in the HTTP/2-based APNs API. Instead, the APNs server will respond to a request to send a notification to a device that has uninstalled the destination app with an HTTP/410 response and a rejection reason of "unregistered," along with a timestamp at which the device token stopped being valid. Please see Sending Notification Requests to APNs for details. So, in short, no, you definitely don't need to be calling the feedback service if you're using the HTTP/2-based APNs API.*
   - *Tokens for uninstalled apps will return "success" for a while, until at some point the system decides it is OK to start returning 410. This can take several days after a notification is sent to a token after the app has been uninstalled. This is to prevent tracking of user behavior about installing/uninstalling apps, and is by design. It is acceptable to send notifications to these tokens until you receive a 410, after which you can delete the token from your database.* (<https://developer.apple.com/forums/thread/109376>)
+
+## Wallet-Apps für Android
+| Name        | URL                                                                                  | Store Downloads | API? | .pkpass importieren? |
+|:------------|:-------------------------------------------------------------------------------------|:----------------|:-----|:---------------------|
+|Wallet Passes|https://play.google.com/store/apps/details?id=io.walletpasses.android&hl=de&gl=US     | 10 Mio+         |      |                      |
+|PassWallet   |https://play.google.com/store/apps/details?id=com.attidomobile.passwallet&hl=de&gl=US | 5 Mio+          |      |                      |
+|Pass2U       |https://play.google.com/store/apps/details?id=com.passesalliance.wallet&hl=de&gl=US   | 1 Mio+          |      |                      |
