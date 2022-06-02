@@ -21,7 +21,7 @@ parent: CSS
   - *minimal, responsive, style-agnostic CSS framework*
 - **bootstrap**
   - <https://getbootstrap.com/
-  - <https://github.com/twbs/bootstrap ⭐138k
+  - <https://github.com/twbs/bootstrap> ⭐138k
 - **semantic-ui**
   - <https://semantic-ui.com/>
   - <https://github.com/semantic-org/semantic-ui/> ⭐47.200
@@ -66,7 +66,7 @@ parent: CSS
   - <https://getuikit.com/>
   - <https://github.com/uikit/uikit> ⭐14.500
 - **tachyons**
-  - <https://tachyons.io/
+  - <https://tachyons.io/>
   - minimal
 - **carbon**
   - <https://www.carbondesignsystem.com/>
