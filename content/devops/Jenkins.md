@@ -44,7 +44,8 @@ parent: DevOps
 - <https://opensource.triology.de/jenkins/pipeline-syntax/globals>
 - siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
 - **currentBuild**
-	- description 
+	- description
+	- result
 	- <https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild>
 - **params**
 - **env**
