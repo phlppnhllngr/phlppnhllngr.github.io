@@ -10,6 +10,8 @@ parent: DevOps
 
 ## Steps
 - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/>
+- **echo**
+	- `echo "message"` 
 - **properties**
 - **sh**
 - **checkout**
@@ -187,6 +189,20 @@ pipelineTriggers([
 def buildCausedByUser = !new java.util.ArrayList<Object>(
     currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
 ).isEmpty()
+```
+Branch Indexing löst alle Builds einer Multibranch-Pipeline aus:
+Es gibt ein Property "Suppress Automatic SCM trigger" mit dem das verhindert werden kann, allerdings schaltet das auch eventuell vorhandene Commit-Trigger aus.
+Daher:
+```
+node {
+	boolean buildCausedByBranchIndexing = !new java.util.ArrayList<Object>(
+	    currentBuild.getBuildCauses('jenkins.branch.BranchIndexingCause')
+	).isEmpty()
+	if (buildCausedByBranchIndexing) {
+		echo "Build durch Branch-Indexing ausgelöst => abbrechen"
+		currentBuild.result = 'ABORTED'
+		return
+	}
 ```
 
 **pseudo breakpoint**
