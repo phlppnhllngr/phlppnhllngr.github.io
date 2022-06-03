@@ -194,7 +194,7 @@ def buildCausedByUser = !new java.util.ArrayList<Object>(
 Branch Indexing löst alle Builds einer Multibranch-Pipeline aus:
 Es gibt ein Property "Suppress Automatic SCM trigger" mit dem das verhindert werden kann, allerdings schaltet das auch eventuell vorhandene Commit-Trigger aus.
 Daher:
-```
+```groovy
 node {
 	boolean buildCausedByBranchIndexing = !new java.util.ArrayList<Object>(
 	    currentBuild.getBuildCauses('jenkins.branch.BranchIndexingCause')
