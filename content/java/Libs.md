@@ -65,7 +65,14 @@ parent: Java
 - **RSocket**
   - <https://github.com/rsocket/rsocket-java>
   - *async binary messaging*
-
+- **RxJava**
+  - *Reactive Extensions for the JVM*
+  - *extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.*
+  - <https://github.com/ReactiveX/RxJava>
+- **Reactor**
+  - *Non-Blocking Reactive Streams Foundation for the JVM both implementing a Reactive Extensions inspired API and efficient event streaming support.*
+  - <https://github.com/reactor/reactor-core>
+- **Netty**
 
 ## <span id="mapper">Mapper</span>
 - <https://github.com/akullpp/awesome-java#bean-mapping>
