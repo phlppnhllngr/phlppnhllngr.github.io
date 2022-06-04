@@ -70,11 +70,11 @@ parent: Java
   - *On the other hand, the bytecode-level API allows the users to directly edit a class file as other editors.* 
   - <https://github.com/jboss-javassist/javassist> *3.4k
 - **Agents**
-- premain, class-redefinition, ...
-- <https://jaxenter.de/james-bond-laesst-gruessen-28256>
-- <https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen> (01/2020)
-- hotpatch-for-apache-log4j2: <https://github.com/corretto/hotpatch-for-apache-log4j2> - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
-- <https://ivanyu.me/blog/2017/11/04/java-agents-javassist-and-byte-buddy/>
+  - premain, class-redefinition, ...
+  - <https://jaxenter.de/james-bond-laesst-gruessen-28256>
+  - <https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen> (01/2020)
+  - hotpatch-for-apache-log4j2: <https://github.com/corretto/hotpatch-for-apache-log4j2> - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
+  - <https://ivanyu.me/blog/2017/11/04/java-agents-javassist-and-byte-buddy/>
 
 
 ## Rule Engines (JSR 94)
