@@ -52,8 +52,6 @@ parent: Java
 - **EA-Async**
   - Sync Syntax ("async/await") für CompletableFuture
   - <https://github.com/electronicarts/ea-async> 
-- **RxJava**
-  - <https://github.com/ReactiveX/RxJava>
 - **Disruptor**
   - <https://github.com/LMAX-Exchange/disruptor>
   - *concurrent programming framework for the processing of a large number of transactions, with low-latency*
