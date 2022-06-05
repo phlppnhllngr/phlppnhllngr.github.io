@@ -8,11 +8,12 @@ parent: Java
 
 # Build
 
-## Annotation Processors
+## Annotation Processors, Compiler Plugins
 - <https://github.com/gunnarmorling/awesome-annotation-processing>
 - **jabel**
   - <https://github.com/bsideup/jabel>
   - *unlock Javac 12+ syntax when targeting Java 8*
+  - Plugins für: Maven, Gradle, IntelliJ
 - **Lombok**
   - <http://projectlombok.org>
 - **manifold**
