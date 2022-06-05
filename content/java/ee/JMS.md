@@ -27,6 +27,9 @@ parent: Enterprise
 - RabbitMQ
    - <https://www.rabbitmq.com/>
    - <https://github.com/rabbitmq> 
-- ActiveMQ (standalone oder embedded)
+- ActiveMQ
+  - standalone oder embedded
+  - *There's another broker under the ActiveMQ umbrella code-named Artemis. (...) was donated from the JBoss community to the Apache ActiveMQ community in 2015. Artemis is the "next generation" broker from ActiveMQ and will ultimately become the next major version of ActiveMQ.*
+  - <https://en.wikipedia.org/wiki/Apache_ActiveMQ> 
 - Amazon SQS JMS Client
 - Websphere MQ (standalone oder embedded)
