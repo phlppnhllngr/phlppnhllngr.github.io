@@ -35,14 +35,6 @@ parent: Java
 - verbraucht weniger RAM als Tomcat
 
 
-## Andere
-
-### Netty
-- *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
-- *Netty is able to run inside a servlet container*
-- <https://netty.io/>
-
-
 ## Application Server
 - <https://en.wikipedia.org/wiki/List_of_application_servers#Java>
 
@@ -172,3 +164,11 @@ parent: Java
 ### JBoss EAP
 - kommerzielle Version von WildFly, Support durch RedHat
 - <https://www.redhat.com/en/technologies/jboss-middleware/application-platform>
+
+
+## Andere
+
+### Netty
+- *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
+- *Netty is able to run inside a servlet container*
+- <https://netty.io/>
