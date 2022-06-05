@@ -7,6 +7,7 @@ parent: Diverses
 - <u>Apple Developer Docs</u>
   - [PassKit Web Service Reference](https://developer.apple.com/library/archive/documentation/PassKit/Reference/PassKit_WebService/WebService.html)
   - [Wallet Passes](https://developer.apple.com/documentation/walletpasses)
+    - [Adding a Web Service to Update Passes](https://developer.apple.com/documentation/walletpasses/adding_a_web_service_to_update_passes/) 
   - [Updating passes](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Updating.html)
     - URL = https://api.push.apple.com(:443)/3/device/${pushToken} ?
     - Header apns-topic=${passTypeIdentifier} benötigt?
