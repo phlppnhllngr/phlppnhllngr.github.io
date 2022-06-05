@@ -169,7 +169,7 @@ parent: Java
   - <https://github.com/jboss-dockerfiles/wildfly>
   - <https://quay.io/repository/wildfly/wildfly>
   - ```
-    docker run -name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly:23.0.2.Final /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+    docker run --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly:23.0.2.Final /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
     docker exec -it wildfly /bin/sh
     /opt/jboss/wildfly/bin/add-user.sh -> admin
     ```
