@@ -218,40 +218,6 @@ class Observe {
     </web-app>
     ```
 
-  - <u>ibm-web-ext.xml</u>
-    - nicht zwinged erforderlich
-    - *allows you to configure some settings for web module e.g. context-root, directory browsing, etc and JSP engine parameters* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
-    
-    ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <web-ext
-      xmlns="http://websphere.ibm.com/xml/ns/javaee"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-web-ext_1_1.xsd"
-      version="1.1">
-      <reload-interval value="3"/>
-      <enable-directory-browsing value="false"/>
-      <enable-file-serving value="true"/>
-      <enable-reloading value="true"/>
-      <enable-serving-servlets-by-class-name value="false"/>
-      <context-root uri="myapp"/>
-    </web-ext>
-    ```
-
-  - <u>ibm-web-bnd.xml</u>
-    - nicht zwinged erforderlich
-    - *provides binding between resource references used in web module and actual components, like datasouces, queues, etc. However since Java EE 6, you can actually use the lookup attribute from the @Resource annotation to provide them in the code* (https://stackoverflow.com/questions/49790297/why-we-need-ibm-web-bnd-xml-and-ibm-web-ext-xml)
-    
-    ```xml
-    <?xml version="1.0" encoding="UTF-8"?>
-    <web-bnd 
-      xmlns="http://websphere.ibm.com/xml/ns/javaee"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-web-bnd_1_2.xsd"
-      version="1.2">
-      <virtual-host name="default_host"/>
-    </web-bnd>
-    ```
 
 ### mit Maven
 <table>
@@ -266,16 +232,6 @@ class Observe {
     <tr>
       <td>src/main/webapp/web.xml</td>
       <td>WEB-INF/web.xml</td>
-    </tr>
-    <tr>
-      <td>src/main/webapp/ibm-web-ext.xml</td>
-      <td>WEB-INF/ibm-web-ext.xml</td>
-      <td>für WebSphere</td>
-    </tr>
-    <tr>
-      <td>src/main/webapp/ibm-web-bnd.xml</td>
-      <td>WEB-INF/ibm-web-bnd.xml</td>
-      <td>für WebSphere</td>
     </tr>
     <tr>
       <td>src/main/java</td>
