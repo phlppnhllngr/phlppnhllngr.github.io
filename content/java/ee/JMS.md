@@ -33,3 +33,7 @@ parent: Enterprise
   - <https://en.wikipedia.org/wiki/Apache_ActiveMQ> 
 - Amazon SQS JMS Client
 - Websphere MQ (standalone oder embedded)
+- RocketMQ
+  - *distributed messaging and streaming platform* 
+  - *Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging* 
+  - <https://github.com/apache/rocketmq> 
