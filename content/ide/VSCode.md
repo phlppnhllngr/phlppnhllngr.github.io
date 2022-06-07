@@ -10,6 +10,11 @@ parent: IDE
 - <https://viatsko.github.io/awesome-vscode/>
 - Online/Browser: <https://vscode.dev/>
 
+## Einstellungen
+- Keyboard Shortcuts (File > Preferences > Keyboard Shortcuts)
+  - workbench.action.terminal.clear -> Ctrl+K, Change when expression = terminalFocus 
+
+
 ## Snippets
 - <https://code.visualstudio.com/docs/editor/userdefinedsnippets>
 - global oder pro Workspace
