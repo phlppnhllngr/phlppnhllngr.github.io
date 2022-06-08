@@ -6,7 +6,7 @@ modified: '2021-08-15T13:17:48.578Z'
 parent: Diverses
 ---
 
-# Analytics
+# Analytics, Business Intelligence
 
 ## Tracking
 - <https://enmascript.com/articles/2019/07/15/efficient-behavioral-tracking-in-javascript-applications>
