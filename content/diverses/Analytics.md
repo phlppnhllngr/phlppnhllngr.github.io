@@ -1,6 +1,6 @@
 ---
 tags: [Notebooks/Diverses]
-title: Analytics
+title: Analytics, Business Intelligence
 created: '2020-03-23T21:05:49.414Z'
 modified: '2021-08-15T13:17:48.578Z'
 parent: Diverses
@@ -110,4 +110,8 @@ parent: Diverses
   - <https://github.com/cube-js/cube.js> ⭐5500
   - *modular framework to build analytical web applications*
   - node_module
+- **Power BI**
+  - *Access data from hundreds of supported on-premises and cloud-based sources*
+  - *Power BI Desktop (free to use) and Power BI Pro (available for a low monthly price per user).*
+  - <https://powerbi.microsoft.com/>
 
