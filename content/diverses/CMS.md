@@ -79,3 +79,6 @@ parent: Diverses
   - *headless commerce engine*
   - *may use it as the backend for an app, a voice application, social commerce experiences or a traditional e-commerce website*
   - <https://github.com/medusajs/medusa>
+- **payload**
+  - *Headless CMS and Application Framework built with TypeScript, Node.js, React and MongoDB* 
+  - <https://github.com/payloadcms/payload> 
