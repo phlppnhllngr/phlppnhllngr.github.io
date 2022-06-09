@@ -22,6 +22,8 @@ parent: Java
   - <https://jbehave.org>
 - **serenity**
   - <https://serenity-bdd.info>
+- **spock**
+  - <https://github.com/spockframework/spock> 
 
 
 ## Unit
