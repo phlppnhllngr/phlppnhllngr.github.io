@@ -7,6 +7,7 @@ parent: Java
 ---
 
 # JDK
+<img src="https://opensource.com/sites/default/files/2022-03/jdk.jpg" loading="lazy"/><br/><br/>
 - The Java Version Almanac - <https://javaalmanac.io/>
 
 ## Distributionen
