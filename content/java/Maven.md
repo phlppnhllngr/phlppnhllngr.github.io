@@ -268,6 +268,9 @@ parent: Java
       - <https://github.com/Cosium/git-code-format-maven-plugin>
   - gitflow
     - <https://github.com/aleksandr-m/gitflow-maven-plugin>
+- **googleformatter**
+  - *reformat a projects source/test-sources using the google-java-format project to conform with the Google Code Style Guide* 
+  - <https://github.com/talios/googleformatter-maven-plugin> 
 - **help**
   - goals
     - evaluate
