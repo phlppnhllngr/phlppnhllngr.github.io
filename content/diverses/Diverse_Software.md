@@ -44,6 +44,8 @@ parent: Diverses
   - <https://istio.io/>
   - *Connect, secure, control, and observe services.*
 - **restdb.io**
+  - *Simple online NoSQL database backend with automatic APIs and low code javascript hooks*
+  - <https://restdb.io/>
 - **notion.so** 💰
   - <https://www.notion.so/>
   - *all-in-one Wiki + Todo + DB + CRM*
@@ -56,6 +58,7 @@ parent: Diverses
   - Online-DB
 - **trevor.io** 💰
   - *no-code db-backed dashboards*
+  - On-premise oder cloud
 - **RethinkDB**
   - *realtime no-sql db (push/stream)*
   - <https://rethinkdb.com/>
@@ -69,8 +72,10 @@ parent: Diverses
   - *There are many ways to trigger your commands, including IFTTT, Alexa, Google Home, SmartThings, and Zapier.*
 - **code climate** 💰
   - *consolidates the results from a suite of static analysis tools into a single, real-time report*
-- [rollbar](https://rollbar.com/) 💰
+  - <https://codeclimate.com/>
+- **rollbar** 💰
   - *provides real-time error alerting & debugging tools for developers*
+  - <https://rollbar.com/>
 - **meilisearch**
   - <https://github.com/meilisearch/MeiliSearch>
   - search engine
