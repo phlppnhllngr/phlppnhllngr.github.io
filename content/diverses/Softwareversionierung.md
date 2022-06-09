@@ -12,4 +12,5 @@ parent: Diverses
 - commit hash
 - calver
   - calendar versioning
+  - <https://calver.org/>
   - <https://github.com/mahmoud/calver>
