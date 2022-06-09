@@ -76,17 +76,9 @@ parent: Diverses
 - **rollbar** 💰
   - *provides real-time error alerting & debugging tools for developers*
   - <https://rollbar.com/>
-- **meilisearch**
-  - <https://github.com/meilisearch/MeiliSearch>
-  - search engine
 - **spectral**
   - <https://github.com/stoplightio/spectral>
   - json & yaml linter
-- **typesense**
-  - Suche für strukturierte Daten (json)
-  - Api-Clients in mehreren Sprachen, Server als Docker-Image verfügbar
-  - mit Schreibfehler-handling
-  - <https://github.com/typesense/typesense>
 - **files**
   - *A modern file explorer that pushes the boundaries of the platform*
   - <https://github.com/files-community/Files/>
@@ -204,3 +196,17 @@ parent: Diverses
 - **Parseur** 💰
   - *Extract text from emails and PDFs*
   - <https://parseur.com/>
+
+
+## (Text)Suche
+- **FlexSearch**
+  - *full text search library for Browser and Node.js* 
+  - <https://github.com/nextapps-de/flexsearch>
+- **typesense**
+  - Suche für strukturierte Daten (json)
+  - Api-Clients in mehreren Sprachen, Server als Docker-Image verfügbar
+  - mit Schreibfehler-handling
+  - <https://github.com/typesense/typesense>
+- **meilisearch**
+  - <https://github.com/meilisearch/MeiliSearch>
+  - search engine
