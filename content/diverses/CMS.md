@@ -16,6 +16,13 @@ parent: Diverses
       - *WooCommerce and WordPress are both free, open source software.*
     - shopify
       - <https://wordpress.org/plugins/wpshopify/>
+    - SeedProd
+      - *Easy Drag & Drop Page Builder, Custom Theme Builder, Landing Page Builder, <mark>Coming Soon</mark>, <mark>Maintenance Mode</mark> & more*
+    - Starter Templates
+      - *growing library of 300+ ready-to-use templates that work with all WordPress themes including Astra, Hello, OceanWP, GeneratePress and more* 
+  - Hosting-Anbieter
+    - all-inkl
+      - <https://all-inkl.com/wordpress-hosting/>
 - **Netlify**
   - <https://github.com/netlify/netlify-cms> ⭐7700
   - *A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator. Netlify CMS is a single-page app that you pull into the /admin part of your site.*
