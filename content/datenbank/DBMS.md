@@ -87,6 +87,8 @@ parent: Datenbank
     - *More data types than SQLite.*
     - *H2 is encrypted. It is multi-user, password-protected database. This feature is not available in SQLite.*
     - *Has inbuilt database management console*
+  - <http://www.h2database.com/html/features.html>
+  - <https://www.baeldung.com/h2-embedded-db-data-storage> 
 - **HSQLDB**
   - Java
   - *Embedded (into Java applications) and Client-Server operating modes*
