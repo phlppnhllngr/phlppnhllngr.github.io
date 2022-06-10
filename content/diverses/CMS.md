@@ -8,11 +8,14 @@ parent: Diverses
 
 # CMS
 - **Wordpress**
-  - <https://docs.docker.com/compose/wordpress/>
+  - Docker
+    - <https://docs.docker.com/compose/wordpress/>
   - Plugins
-    - [woocommerce](https://woocommerce.com/)
+    - woocommerce
+      - <https://woocommerce.com/>
       - *WooCommerce and WordPress are both free, open source software.*
-    - [shopify](https://wordpress.org/plugins/wpshopify/)
+    - shopify
+      - <https://wordpress.org/plugins/wpshopify/>
 - **Netlify**
   - <https://github.com/netlify/netlify-cms> ⭐7700
   - *A CMS for static site generators. Give non-technical users a simple way to edit and add content to any site built with a static site generator. Netlify CMS is a single-page app that you pull into the /admin part of your site.*
