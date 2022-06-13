@@ -92,6 +92,14 @@ grand_parent: Java
     - <https://github.com/springtestdbunit/spring-test-dbunit>
 
 
+### Locking
+- **@Lock**
+	- `@Lock(javax.persistence.LockModeType.PESSIMISTIC_READ)`
+	- erfordert aktive Transaktion
+- **@QueryHints, @QueryHint**
+	- `@QueryHints({ @QueryHint(name = "javax.persistence.lock.timeout", value = "3000") })`
+
+
 ## Vergleich
 - **JDBC ohne Spring Data**
   - *You get 100% fine-grained control over what is happening*
