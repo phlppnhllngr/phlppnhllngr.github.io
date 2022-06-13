@@ -42,9 +42,25 @@ parent: Java
 *Will you do <mark>mostly complex reading and simple writing</mark>, or will you engage in complex writing? <mark>SQL</mark> really shines when reading is complex. When you join many tables, when you aggregate data in your database, when you do reporting etc.
 If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a complex object graph with 20 entities involved into memory, perform optimistic locking on it, modify it in many different ways and then persist it again in one go, then SQL / jOOQ will not help you. This is what <mark>Hibernate</mark> has originally been created for.*
 
-## ORM (JPA)
 
-### Hibernate
+## JPA
+
+### Locking
+- javax.persistence.Version
+- <u>javax.persistence.LockModeType</u>
+  - NONE 
+  - OPTIMISTIC (alias WRITE)
+  - OPTIMISTIC_FORCE_INCREMENT (alias READ)
+  - PESSIMISTIC_READ
+    - *For repeatable reads, used to ensure that data isn't updated between reads. It is a shared lock meaning different processes can perform read operations (no write operations are permitted).* 
+  - PESSIMISTIC_WRITE
+    - *An exclusive lock which forces serialization of updates. Where optimistic locking only saved state, here it is locked to prevent transaction failure/deadlock in cases where this would happen with concurrent operations.* 
+  - PESSIMISTIC_FORCE_INCREMENT
+    - *Analogous to its optimistic counterpart, a pessimistic write that updates the object's version. Throws an exception for non-versioned objects.* 
+
+### ORMs
+
+#### Hibernate
 - Buch: [Hibernate Notes For Professionals](https://goalkicker.com/HibernateBook/HibernateNotesForProfessionals.pdf)
 - **Tipps**
     - mit [ColumnTransformer](https://docs.jboss.org/hibernate/orm/current/javadocs/org/hibernate/annotations/ColumnTransformer.html) können bei read und write SQL-Funktionen auf Felder aufgerufen werden
@@ -90,7 +106,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - slow-query-log: <https://thorben-janssen.com/hibernate-slow-query-log>
 
 
-### Andere
+#### Andere
 - **objectdb**
   - <https://www.objectdb.com>
   - *ObjectDB is about 10 times faster than other JPA/DBMS solutions*
@@ -110,7 +126,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://github.com/javers/javers>
 
 
-## NON-JPA-Libs
+## Non-JPA-Libs, Query-Builder
 - **jooq**
   - query builder
   - <https://github.com/jOOQ/jOOQ> *3.4k
