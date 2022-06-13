@@ -56,7 +56,8 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - PESSIMISTIC_WRITE
     - *An exclusive lock which forces serialization of updates. Where optimistic locking only saved state, here it is locked to prevent transaction failure/deadlock in cases where this would happen with concurrent operations.* 
   - PESSIMISTIC_FORCE_INCREMENT
-    - *Analogous to its optimistic counterpart, a pessimistic write that updates the object's version. Throws an exception for non-versioned objects.* 
+    - *Analogous to its optimistic counterpart, a pessimistic write that updates the object's version. Throws an exception for non-versioned objects.*
+- <https://www.baeldung.com/jpa-pessimistic-locking>
 
 ### ORMs
 
