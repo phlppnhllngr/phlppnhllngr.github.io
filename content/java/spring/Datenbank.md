@@ -93,6 +93,7 @@ grand_parent: Java
 
 
 ### Locking
+- siehe Java/Datenbank/JPA/Locking
 - **@Lock**
 	- `@Lock(javax.persistence.LockModeType.PESSIMISTIC_READ)`
 	- erfordert aktive Transaktion
