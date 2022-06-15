@@ -112,6 +112,8 @@ parent: Java
     BigDecimal.valueOf(0.1); // 0.1 - can lose precision if many fraction digits
     new BigDecimal("0.1"); // 0.1 - preferred over valueOf (no precision lost)
     ```
+  - *the equals method considers two BigDecimal objects equal only if they are equal in both value and scale*
+  - *compareTo: Two BigDecimal objects that are equal in value but have a different scale (like 2.0 and 2.00) are considered equal by this method.*
 - Fixe Anzahl Nachkommastellen
   ```java
   value = value.setScale(2, RoundingMode.XY)
