@@ -29,9 +29,6 @@ grand_parent: Java
 
 
 ## Spring Data JPA
-- <https://www.marcobehler.com/guides/spring-transaction-management-unconventional-guide>
-- *keep in mind is that @Transactional methods use up a DB connection from the connection pool. If your method does HTTP calls or heavy computation while within a transaction, you might run out of DB connections. The scope of a transaction should be as narrow as possible.*
-- *@Transactional also works on other things, for instance with our AMQP listener, it puts messages back in the queue if processing fails.*
 - <https://blog.ippon.tech/boost-the-performance-of-your-spring-data-jpa-application>
 - <https://thorben-janssen.com/hibernate-features-with-spring-data-jpa>
 - <https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/>
@@ -92,15 +89,6 @@ grand_parent: Java
     - <https://github.com/springtestdbunit/spring-test-dbunit>
 
 
-### Locking
-- siehe Java/Datenbank/JPA/Locking
-- **@Lock**
-	- `@Lock(javax.persistence.LockModeType.PESSIMISTIC_READ)`
-	- erfordert aktive Transaktion
-- **@QueryHints, @QueryHint**
-	- `@QueryHints({ @QueryHint(name = "javax.persistence.lock.timeout", value = "3000") })`
-
-
 ## Vergleich
 - **JDBC ohne Spring Data**
   - *You get 100% fine-grained control over what is happening*
@@ -115,10 +103,27 @@ grand_parent: Java
 ## Transactions
 - @Transactional
 	- <https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/>
+  - <https://vladmihalcea.com/spring-transactional-annotation/>
+  - <https://www.baeldung.com/spring-transactional-propagation-isolation>
+  - *keep in mind is that @Transactional methods use up a DB connection from the connection pool. If your method does HTTP calls or heavy computation while within a transaction, you might run out of DB connections. The scope of a transaction should be as narrow as possible.*
+- *@Transactional also works on other things, for instance with our AMQP listener, it puts messages back in the queue if processing fails.*
 - TransactionTemplate
 	- Alternative zu `@Transactional`
 	- <https://www.baeldung.com/spring-programmatic-transaction-management>
 	- *Mixing the database I/O with other types of I/O in a transactional context is a bad smell. So, the first solution for these sorts of problems is to separate these types of I/O altogether. If for whatever reason we can't separate them, we can still use Spring APIs to manage transactions manually.*
+- <https://www.marcobehler.com/guides/spring-transaction-management-unconventional-guide>
+- <https://vladmihalcea.com/spring-transaction-best-practices/>
+
+### Locking
+- -> Datenbank/DB/Transactions/Locking
+- -> Java/Datenbank/JPA/Locking
+- **@Lock**
+	- `@Lock(javax.persistence.LockModeType.PESSIMISTIC_READ)`
+	- erfordert aktive Transaktion
+- **@QueryHints, @QueryHint**
+	- `@QueryHints({ @QueryHint(name = "javax.persistence.lock.timeout", value = "3000") })`
+- <https://www.baeldung.com/java-jpa-transaction-locks>
+- <https://medium.com/javarevisited/concurrency-and-locking-on-databases-daa14e2aa68d>
 
 
 ## Migration

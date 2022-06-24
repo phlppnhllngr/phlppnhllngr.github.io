@@ -55,21 +55,24 @@ parent: JavaScript
 
 
 ## Deno
-- https://deno.land/
-- REPL: https://deno.town/
+- <https://deno.land/>
+- REPL: <https://deno.town/>
 - *has the TypeScript compiler built in, so while there still is transpilation, it's invisible to the developer.*
 
 ### Libs
 - **Reno**
     - *routing library designed to sit on top of Deno's standard HTTP module*
-    - https://github.com/reno-router/reno
+    - <https://github.com/reno-router/reno>
 - **Aleph.js**
     - *The React Framework in Deno, inspired by Next.js*
     - *file-system routing, SSR & SSG, HMR with Fast Refresh, and more*
-    - https://github.com/alephjs/aleph.js
+    - <https://github.com/alephjs/aleph.js>
 - **oak**
-    - https://github.com/oakserver/oak
+    - <https://github.com/oakserver/oak>
     - *middleware framework for Deno's net server*
 - **DenoDB**
     - *MySQL, SQLite, MariaDB, PostgreSQL and MongoDB ORM for Deno*
-    - https://github.com/eveningkid/denodb *1.1k
+    - <https://github.com/eveningkid/denodb> *1.1k
+- **fresh**
+    - *web framework, built for speed, reliability, and simplicity*
+    - <https://fresh.deno.dev/>

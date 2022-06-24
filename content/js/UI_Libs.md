@@ -7,43 +7,43 @@ parent: JavaScript
 ---
 
 # UI Libs
-- https://bit.dev/components
-- https://bit.dev/collections
+- <https://bit.dev/components>
+- <https://bit.dev/collections>
 
 ## Animationen
 - **gsap**
-- animierte URLs http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/
+- animierte URLs <http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/>
 - Scrolling
-  - http://scrollmagic.io/
-  - https://github.com/alexfoxy/lax.js (aka laxxx)
-- https://popmotion.io/ 
-- https://github.com/gmrchk/swup - page transitions
-- https://nickpiscitelli.github.io/Glider.js/ - carousel
-- https://scroll-out.github.io/ - viewport/resize animations
-- http://kenwheeler.github.io/slick/ - carousel
-- https://github.com/juliangarnier/anime/ ⭐30.000
-- https://vincentgarreau.com/particles.js/#default
-- https://github.com/matteobruni/tsparticles
+  - <http://scrollmagic.io/>
+  - <https://github.com/alexfoxy/lax.js> (aka laxxx)
+- <https://popmotion.io/>
+- <https://github.com/gmrchk/swup> - page transitions
+- <https://nickpiscitelli.github.io/Glider.js/> - carousel
+- <https://scroll-out.github.io/> - viewport/resize animations
+- <http://kenwheeler.github.io/slick/> - carousel
+- <https://github.com/juliangarnier/anime/> ⭐30.000
+- <https://vincentgarreau.com/particles.js/#default>
+- <https://github.com/matteobruni/tsparticles>
 - scene.js
-  - https://daybrush.com/scenejs/
+  - <https://daybrush.com/scenejs/>
   - *Scene.js is an JavaScript & CSS timeline-based animation library*
-  - https://github.com/daybrush/scenejs ⭐500
-  - https://github.com/daybrush/scenejs-effects
+  - <https://github.com/daybrush/scenejs> ⭐500
+  - <https://github.com/daybrush/scenejs-effects>
 - **barba**
-  - https://github.com/barbajs/barba ⭐7.8k
+  - <https://github.com/barbajs/barba >⭐7.8k
   - *Create badass, fluid and smooth transition between your website's pages*
 - **swiper**
   - *Most modern mobile touch slider with hardware accelerated transitions*
-  - https://swiperjs.com/demos
-  - https://github.com/nolimits4web/swiper
+  - <https://swiperjs.com/demos>
+  - <https://github.com/nolimits4web/swiper>
 - **greensock**
-  - https://greensock.com/
+  - <https://greensock.com/>
   - gsap
 - **aos**
   - animate on scroll
-  - https://github.com/michalsnik/aos
+  - <https://github.com/michalsnik/aos>
 - **MagneticButtons**
-  - https://github.com/codrops/MagneticButtons
+  - <https://github.com/codrops/MagneticButtons>
 - **motion**
   - *built on the Web Animations API for the smallest filesize and the fastest performance*
   - <https://motion.dev/>
@@ -51,56 +51,58 @@ parent: JavaScript
 
 ## Popups
 - **SweetAlert2**
-  - https://sweetalert2.github.io/
+  - <https://sweetalert2.github.io/>
   - multi-step, custom content, ...
 - **micromodal**
   - *lightweight, configurable and a11y-enabled modal library*
-  - https://micromodal.now.sh/
+  - <https://micromodal.now.sh/>
 - **winbox**
   - fullscreen, minimize, drag, resize, url (iframe)
-  - https://nextapps-de.github.io/winbox/
+  - <https://nextapps-de.github.io/winbox/>
 
 
 ## Loading
 - **loadingio**
-  - https://loading.io/
+  - <https://loading.io/>
   - create customized loading spinner in browser
 - **pace**
-  - https://github.com/HubSpot/pace
+  - <https://github.com/HubSpot/pace>
   - *Automatically add a progress bar to your site*
+- **SVG Spinners**
+  - <https://github.com/n3r4zzurr0/svg-spinners>
 
 
 ## Forms
 - **SurveyJS**
-  - https://github.com/surveyjs/surveyjs ⭐2.2k
+  - <https://github.com/surveyjs/surveyjs> ⭐2.2k
 - **formio.js**
-  - https://github.com/formio/formio.js
+  - <https://github.com/formio/formio.js>
   - *JavaScript powered Forms with JSON Form Builder*
 
 
 ## Charts
 - **highcharts**
-  - https://www.highcharts.com/
-  - https://github.com/highcharts/highcharts ⭐9.2k
+  - <https://www.highcharts.com/>
+  - <https://github.com/highcharts/highcharts> ⭐9.2k
 - **chart.js**
-  - https://www.chartjs.org/
-  - https://github.com/chartjs/Chart.js ⭐47k
+  - <https://www.chartjs.org/>
+  - <https://github.com/chartjs/Chart.js> ⭐47k
 - **d3**
-  - https://d3js.org/
-  - https://github.com/d3/d3 ⭐89.7k
+  - <https://d3js.org/>
+  - <https://github.com/d3/d3> ⭐89.7k
 - ~~bizcharts~~
-  - https://github.com/alibaba/BizCharts ⭐3700
-  - doku nur chinesisch
+  - <https://github.com/alibaba/BizCharts> ⭐3700
+  - Doku nur chinesisch
 - **billboard.js**
-  - https://github.com/naver/billboard.js ⭐3.8k
+  - <https://github.com/naver/billboard.js> ⭐3.8k
   - *based on D3 v4+*
 - **frappe charts**
-  - https://github.com/frappe/charts ⭐13.1k
+  - <https://github.com/frappe/charts> ⭐13.1k
 - **echarts**
-  - https://echarts.apache.org/
-  - https://github.com/apache/incubator-echarts ⭐39.2k
+  - <https://echarts.apache.org/>
+  - <https://github.com/apache/incubator-echarts> ⭐39.2k
 - **apexcharts.js**
-  - https://github.com/apexcharts/apexcharts.js ⭐10.2k
+  - <https://github.com/apexcharts/apexcharts.js> ⭐10.2k
   - *built on SVG*
 
 

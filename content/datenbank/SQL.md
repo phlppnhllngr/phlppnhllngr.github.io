@@ -63,10 +63,13 @@ parent: Datenbank
     - duplicate key (primary key, unique)
     - null obwohl not null constraint
   - `insert ignore into persons (...) values (...)`
+  - *the INSERT IGNORE can also increments the auto-increment value when the insertion fails*
 - **replace**
+  - *MySQL actually does a DELETE followed by an INSERT internally, which has some unexpected side effects: A new auto-increment ID is allocated. Dependent rows with foreign keys may be deleted (if you use cascading foreign keys) or else prevent the REPLACE.*
 - **merge**
 - **insert wenn nicht schon vorhanden**
-  - `insert into persons(firstname, lastname) select 'John', 'Smith' where not exists (select 1 from persons where firstname = 'John' and lastname = 'Smith')` 
+  - `insert into persons(firstname, lastname) select 'John', 'Smith' where not exists (select 1 from persons where firstname = 'John' and lastname = 'Smith')`
+  - mögliche Alternative (?): `IF NOT EXISTS(QUERY) Then INSERT`
 - <u>joins</u>
   - (inner) join
     - *Returns records that have matching values in both tables* 

@@ -81,3 +81,5 @@ grand_parent: DevOps
 - **kustomize**
   - *introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as `apply -k`.*
   - <https://kustomize.io/>
+- **kubernetes-client/java**
+  - <https://github.com/kubernetes-client/java>

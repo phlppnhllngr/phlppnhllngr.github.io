@@ -62,3 +62,7 @@ parent: Security
 - **SuperTokens**
   - *alternative to Auth0 / Firebase Auth / AWS Cognito*
   - <https://github.com/supertokens/supertokens-core>
+- **ZITADEL**
+  - *combines the ease of Auth0 and the versatility of Keycloak*
+  - *out of the box features like secure login, self-service, OpenID Connect, OAuth2.x, SAML2, branding, Passwordless with FIDO2, OTP, U2F, and an unlimited audit trail*
+  - <https://github.com/zitadel/zitadel>

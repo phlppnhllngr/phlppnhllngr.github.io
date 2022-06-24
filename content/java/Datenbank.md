@@ -43,21 +43,61 @@ parent: Java
 If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a complex object graph with 20 entities involved into memory, perform optimistic locking on it, modify it in many different ways and then persist it again in one go, then SQL / jOOQ will not help you. This is what <mark>Hibernate</mark> has originally been created for.*
 
 
+## JDBC
+- *The default behavior of a Connection is auto-commit. To clarify, what this means is that every single statement is treated as a transaction and is automatically committed right after execution.*
+
+
 ## JPA
 
-### Locking
-- javax.persistence.Version
+### Transactions, Query Hints & Locking
+- -> Datenbank/DB/Transactions/Locking
+- *By default JPA impose Read committed isolation level if you don't specify any locking (same behaviour as using LockModeType.NONE).*
+
+#### Locking
+- **optimistic**
+  - *Using optimistic locking in JPA rises isolation level to Repetable reads.*
+  - *JPA achieves Repetable reads in the simplest way possible: by preventing Non-Repetable read phenomenon. JPA is not sophisticated enough to keep snapshots of your reads. It simply prevents second read from happening by rising an exception (if the data has changed from the first read).*
+  - *fully controlled by JPA, completely independent of underlying DB engine*
+  - *The downside of optimistic locking is that a rollback will be triggered by the data access framework upon catching an OptimisticLockException, therefore losing all the work we've done previously by the currently executing transaction.*
+  - @javax.persistence.Version
+  - <https://www.baeldung.com/jpa-optimistic-locking>
+- **pessimistic**
+  - *uses locking mechanism provided by underlying database to lock existing records in tables. JPA needs to know how to trigger these locks and some databases do not support them or only partially.*
+  - <https://www.baeldung.com/jpa-pessimistic-locking>
 - <u>javax.persistence.LockModeType</u>
-  - NONE 
-  - OPTIMISTIC (alias WRITE)
-  - OPTIMISTIC_FORCE_INCREMENT (alias READ)
-  - PESSIMISTIC_READ
+  - **NONE**
+    - *this is the default if entities don't provide a version field. It means that no locking is enabled conflicts will be resolved on best effort basis and will not be detected. This is the only lock mode allowed outside of a transaction*
+  - **OPTIMISTIC** (alias READ)
+    - *If entities specify a version field, this is the default.*
+    - *it increments the version while committing*
+  - **OPTIMISTIC_FORCE_INCREMENT** (alias WRITE)
+    - *it increments the version column even though the entity is not updated.*
+  - **PESSIMISTIC_READ**
     - *For repeatable reads, used to ensure that data isn't updated between reads. It is a shared lock meaning different processes can perform read operations (no write operations are permitted).* 
-  - PESSIMISTIC_WRITE
+    - *issues a select for update nowait (if no hint timeout specified)*
+    - *it should not block reading the entity. It also allows other transactions to lock using LockModeType.PESSIMISTIC_READ.*
+  - **PESSIMISTIC_WRITE**
     - *An exclusive lock which forces serialization of updates. Where optimistic locking only saved state, here it is locked to prevent transaction failure/deadlock in cases where this would happen with concurrent operations.* 
-  - PESSIMISTIC_FORCE_INCREMENT
+    - *LockModeType.PESSIMISTIC_WRITE translates to using a READ_COMMITTED isolation level with a SELECT .. FOR UPDATE in SQL*
+    - *also issues a select for update nowait (if no hint timeout specified).*
+    - *this is a stronger version of LockModeType.PESSIMISTIC_READ. When WRITE lock is in place, JPA with the help of the database will prevent any other transaction to read the entity, not only to write as with READ lock.*
+  - **PESSIMISTIC_FORCE_INCREMENT**
     - *Analogous to its optimistic counterpart, a pessimistic write that updates the object's version. Throws an exception for non-versioned objects.*
-- <https://www.baeldung.com/jpa-pessimistic-locking>
+    - *this does select for update nowait (if no hint timeout specified) and also increments the version number.*
+    - *it is an option where you need to combine PESSIMISTIC and OPTIMISTIC mechanisms. Using plain PESSIMISTIC_WRITE would fail in following scenario:*
+      ```
+      transaction A uses optimistic locking and reads entity E
+      transaction B acquires WRITE lock on entity E
+      transaction B commits and releases lock of E
+      transaction A updates E and commits
+      ```
+  - <https://docs.oracle.com/javaee/7/api/javax/persistence/LockModeType.html>
+- <https://dzone.com/articles/concurrency-and-locking-with-jpa-everything-you-ne>
+
+#### Query Hints
+- javax.persistence.lock.timeout
+- javax.persistence.query.timeout
+
 
 ### ORMs
 
@@ -165,6 +205,25 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - **jasync-sql**
   - *Async DataBase Driver for MySQL and PostgreSQL*
   - <https://github.com/jasync-sql/jasync-sql>
+- **sql2o**
+  - *makes it easy to convert the result of your sql-statements into objects*
+  - *A key feature of sql2o is performance. Execute 1000 SELECT statements against a DB and map the data returned to a POJO.*
+
+    Method                                                              | Duration               |
+    ------------------------------------------------------------------- | ---------------------- |
+    Hand coded <code>ResultSet</code>                                   | 60ms                   |
+    Sql2o                                                               | 75ms (25% slower)      |
+    [Apache DbUtils](http://commons.apache.org/proper/commons-dbutils/) | 98ms (63% slower)      |
+    [JDBI](http://jdbi.org/)                                            | 197ms (228% slower)    |
+    [MyBatis](http://mybatis.github.io/mybatis-3/)                      | 293ms (388% slower)    |
+    [jOOQ](http://www.jooq.org)                                         | 447ms (645% slower)    |
+    [Hibernate](http://hibernate.org/)                                  | 494ms (723% slower)    |
+    [Spring JdbcTemplate](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html) | 636ms (960% slower) |
+
+  - <https://github.com/aaberg/sql2o>
+
+
+## Test
 - **Quick SQL test data**
   - *aims to ease the generation of datasets to test SQL queries. It produces INSERT statements taking account of integrity constraints.*
   - *This library can be helpful in the two following situations: Create a dataset before starting the writing of an SQL query. Test an existing SQL query.*
@@ -174,6 +233,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
     List<String> insertStatements = quickSqlTestData.generateInsertListFor(datasetRow);
     ```
   - <https://github.com/quick-perf/quick-sql-test-data>
+- **Testcontainers** -> Java/Test
 
 
 ## In-memory
@@ -183,9 +243,6 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 
 
 ## Diverse
-- **seata**
-  - <https://github.com/seata/seata>
-  - ehemals alibaba/fescar
 - **velvetdb**
   - <https://github.com/zakgof/velvetdb>
   - embedded oder cloud

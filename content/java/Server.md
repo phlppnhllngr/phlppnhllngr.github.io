@@ -178,6 +178,8 @@ parent: Java
     - *contains both the server and your packaged application (a JAR, an EAR or a WAR)*
     - *Some limitations exist*
     - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin> 
+- **Security**
+  - <https://wildfly-security.github.io/wildfly-elytron/>
 - **Hinweise**
   - messaging-activemq
     - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>  

@@ -61,3 +61,6 @@ parent: Dokumentation
 - **mdBook**
   - *Create book from markdown files*
   - <https://github.com/rust-lang/mdBook>
+- **code hike**
+  - *Build first-class code walkthroughs for the web. Whether you are writing blog posts, documentation, tutorials, coding videos, or any type of technical content, Code Hike helps you create a superior code reading experience.*
+  - <https://github.com/code-hike/codehike>

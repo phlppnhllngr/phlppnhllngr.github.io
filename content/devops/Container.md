@@ -24,6 +24,8 @@ parent: DevOps
     - podman-compose
         - *a script to run docker-compose.yml using podman*   
         - <https://github.com/containers/podman-compose> 
+    - podman-desktop-companion
+        - <https://github.com/iongion/podman-desktop-companion>
         
 
 ## Orchestration Engines

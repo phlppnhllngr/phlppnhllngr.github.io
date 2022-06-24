@@ -67,6 +67,10 @@ grand_parent: DevOps
 - **harbormaster**
   - *small utility that lets you easily deploy multiple Docker-Compose applications. It does this by taking a list of git repository URLs that contain Docker Compose files and running the Compose apps they contain. It will also handle updating/restarting the apps when the repositories change*
   - <https://gitlab.com/stavros/harbormaster>
+- **skopeo**
+  - *Work with remote images registries - retrieving information, images, signing content*
+  - *can perform operations which consist of: Inspecting a remote image showing its properties including its layers, without requiring you to pull the image to the host. (...)*
+  - <https://github.com/containers/skopeo>
 
 
 ## GUIs

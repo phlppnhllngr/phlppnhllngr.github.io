@@ -5,9 +5,11 @@ has_children: true
 parent: Java
 ---
 
+# Spring
 - <https://reflectoring.io/spring-bean-lifecycle/>
 - [SpringDeveloper@YouTube](https://www.youtube.com/channel/UC7yfnfvEUlXUIfm8rGLwZdA)
 - <https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/>
+- <https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/>
 
 ## Tipps
 - <https://www.baeldung.com/spring-boot-startup-speed>

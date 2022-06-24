@@ -1,9 +1,11 @@
 ---
-title: PassKit
+title: PassKit & Google Wallet
 parent: Diverses
 ---
 
-# PassKit
+# PassKit & Google Wallet
+
+## PassKit
 - <u>Apple Developer Docs</u>
   - [PassKit Package Format Reference](https://developer.apple.com/library/archive/documentation/UserExperience/Reference/PassKit_Bundle/Chapters/PackageStructure.html) 
   - [PassKit Web Service Reference](https://developer.apple.com/library/archive/documentation/PassKit/Reference/PassKit_WebService/WebService.html)
@@ -44,7 +46,7 @@ The value has changed. The changeMessage contains the %@ string. Id the %@ strin
   - *Tokens for uninstalled apps will return "success" for a while, until at some point the system decides it is OK to start returning 410. This can take several days after a notification is sent to a token after the app has been uninstalled. This is to prevent tracking of user behavior about installing/uninstalling apps, and is by design. It is acceptable to send notifications to these tokens until you receive a 410, after which you can delete the token from your database.* (<https://developer.apple.com/forums/thread/109376>)
 - <https://medium.com/@yangzhoupostbox/asp-net-web-api-example-for-apple-wallet-passbook-a124a1d90bb3>
 
-## Wallet-Apps für Android
+### PassKit/Wallet-Apps für Android
 <table>
   <thead>
     <tr>
@@ -79,3 +81,22 @@ The value has changed. The changeMessage contains the %@ string. Id the %@ strin
     </tr>
   </tbody>
 </table>
+
+
+## Google Wallet
+- **Google Docs**
+  - <https://developers.google.com/wallet>
+  - [Generic pass codelab: Integrate the Google Wallet API to digitize passes on web](https://codelabs.developers.google.com/add-to-wallet-web#0)
+  - [YT 05/22: How to digitize any wallet object with the Google Wallet API](https://www.youtube.com/watch?v=iZz_8N9WPVA)
+  - Google Wallet Samples
+    - *contains samples for using the Google Wallet REST APIs*
+    - *Each sample demonstrates the following: Authenticating using a Google Cloud service account, Creating Pass Classes, Creating/retrieving Pass Objects, Creating a signed JWT for use in a "Add to Google Wallet" URL*
+    - letzter Commit: Mai 2022
+    - <https://github.com/google-pay/wallet-samples>
+  - passes-rest-samples
+    - *demonstrates integration of the basic components of the Google Pay API for Passes*
+    - *howcases several aspects of the API: Defining Class and Object resource definitions, Insertion of classes and objects via Google Pay API for Passes REST API, Signing a JSON Web Token that is used to generate save links or used in JS Web button*
+    - letzter Commit: Juli 2020
+    - <https://github.com/google-pay/passes-rest-samples>
+- **Libs**
+  - <https://developers.google.com/pay/passes/support/libraries>

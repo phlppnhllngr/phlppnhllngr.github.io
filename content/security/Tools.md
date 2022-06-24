@@ -8,10 +8,12 @@ parent: Security
 
 # Tools
 - <https://techblog.bozho.net/list-of-open-source-security-tools/>
-- <https://portswigger.net/>
 - <https://github.com/toniblyx/my-arsenal-of-aws-security-tools>
 - <https://github.com/sottlmarek/DevSecOps>
-  - *This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.* 
+- <https://www.hacker101.com/resources#Web+hacking+tools>
+  - *This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.*
+- <https://github.com/Z4nzu/hackingtool>
+  - *ALL IN ONE Hacking Tool*
 - **Osmodeus**
   - <https://j3ssie.github.io/Osmedeus/>
   - <https://github.com/j3ssie/Osmedeus>
@@ -67,3 +69,10 @@ parent: Security
   - <https://github.com/deepfence/ThreatMapper> 
 - **Burp Suite**
   - <https://portswigger.net/burp/communitydownload>
+  - Burp Proxy
+    - *lets you intercept, view, and modify all requests and responses passing between your browser and destination web servers.*
+    - <https://portswigger.net/burp/documentation/desktop/tools/proxy>
+  - Burp Repeater
+    - *reissue an interesting request over and over again. This lets you study the target website's response to different input without having to intercept the request each time.*
+  - Burp Intruder
+    - *tool for automating customized attacks against web applications*

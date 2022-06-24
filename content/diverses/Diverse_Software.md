@@ -93,6 +93,7 @@ parent: Diverses
 - **dall-e**
   - *We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language*
   - <https://openai.com/blog/dall-e/>
+  - <https://github.com/saharmor/dalle-playground>
 - **syncthing**
   - *Continuous File Synchronization*
   - <https://github.com/syncthing/syncthing>

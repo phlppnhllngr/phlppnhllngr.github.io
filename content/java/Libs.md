@@ -82,6 +82,7 @@ parent: Java
   - *Java annotation processor for the generation of type-safe and performant mappers*
   - <http://mapstruct.org/>
   - <https://github.com/mapstruct/mapstruct> 3.8k
+  - [One-Stop Guide to Mapping with MapStruct](https://reflectoring.io/java-mapping-with-mapstruct/)
 - **dozer bean mapper**
   - <https://github.com/DozerMapper/dozer> *1.9k
 - **ModelMapper**
@@ -109,7 +110,7 @@ parent: Java
 - <u>Libs</u>
   - <https://github.com/akullpp/awesome-java#json>
   - **Jackson**
-    - https://github.com/FasterXML/jackson
+    - <https://github.com/FasterXML/jackson>
     - Extensions
       - <https://github.com/FasterXML/jackson#third-party-datatype-modules> (hibernate, lombok, java.time, ...)
       - <https://github.com/zalando/jackson-datatype-money>
@@ -121,9 +122,9 @@ parent: Java
     - etwas langsamer als Jackson
     - 12/2020: deprecated
   - **moshi**
-    - https://github.com/square/moshi
+    - <https://github.com/square/moshi>
   - **dsl-json**
-    - https://github.com/ngs-doo/dsl-json
+    - <https://github.com/ngs-doo/dsl-json>
     - *faster than any other Java JSON library. On par with fastest binary JVM codecs*
   - **jsonschema2pojo**
     - *Generate Java types from JSON or JSON Schema and annotates those types for data-binding with Jackson, Gson, etc*
@@ -137,7 +138,7 @@ parent: Java
 - <u>Scraping</u>
   - <https://github.com/akullpp/awesome-java#web-crawling>
   - **HtmlUnit**
-    - https://github.com/HtmlUnit/htmlunit
+    - <https://github.com/HtmlUnit/htmlunit>
     - *not a generic unit testing framework. simulate a browser for testing purposes and is intended to be used within another testing framework such as JUnit or TestNG.*
     - JS: ja
     - htmlunit vs selenium
@@ -177,6 +178,9 @@ parent: Java
   - **king-http**
     - *An asynchronous http client with support for sse [server sent events]* 
     - <https://github.com/king/king-http-client#api>
+  - **cxf-rt-rs-sse**
+    - *Apache CXF client implementation of JAX RS Client API for SSE*
+    - <https://www.baeldung.com/java-ee-jax-rs-sse>
 - <u>http server</u>
   - **com.sun.net.httpserver.{HttpServer,SimpleFileServer}** -> Java/Server
   - **nanohttpd**
@@ -499,13 +503,11 @@ parent: Java
 - **CSV**
   - super-csv
     - <https://github.com/super-csv/super-csv/>
+  - FastCSV
+    - <https://github.com/osiegmar/FastCSV>
 
 
 ## <span id="divers">Diverses</span>
-- **jasypt**
-  - <http://www.jasypt.org/>
-  - *add basic encryption capabilities to his/her projects with minimum effort, and without the need of having deep knowledge on how cryptography works*
-  - EncryptableProperties
 - **javax.measure**
   - JSR-363 (formerly JSR-275)
   - <https://www.baeldung.com/javax-measure>
@@ -516,10 +518,20 @@ parent: Java
     - <https://github.com/JavaMoney/jsr354-api>
   - **joda-money**
     - <https://www.joda.org/joda-money/>
-- **config**
-  - <https://github.com/lightbend/config> *4.7k
-  - Configuration library
-  - *supports files in three formats: Java properties, JSON, and a human-friendly JSON superset*
+- <u>Configuration</u>
+  - **config**
+    - <https://github.com/lightbend/config> *4.7k
+    - Configuration library
+    - *supports files in three formats: Java properties, JSON, and a human-friendly JSON superset*
+  - **jasypt**
+    - <http://www.jasypt.org/>
+    - *add basic encryption capabilities to his/her projects with minimum effort, and without the need of having deep knowledge on how cryptography works*
+    - EncryptableProperties
+  - **Externalized Properties**
+    - *resolve application properties from various external sources.*
+    - <https://github.com/joeljeremy7/externalized-properties>
+  - **owner**
+    - <https://github.com/matteobaccan/owner>
 - **yaml-resource-bundle**
   - <https://github.com/akihyro/yaml-resource-bundle>
 - **fswatch**

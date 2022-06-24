@@ -7,6 +7,15 @@ parent: Diverses
 ---
 
 # Apps
+- **7GUIs**
+  - *A GUI Programming Benchmark*
+  - *There are countless GUI toolkits in different languages and with diverse approaches to GUI development. Yet, diligent comparisons between them are rare.*
+  - *defines seven tasks that represent typical challenges in GUI programming. In addition, 7GUIs provides a recommended set of evaluation dimensions.*
+  - <https://eugenkiss.github.io/7guis/>
+- **Microsoft Adaptive Cards**
+  - *are platform-agnostic snippets of UI, authored in JSON, that apps and services can openly exchange. When delivered to a specific app, the JSON is transformed into native UI that automatically adapts to its surroundings. It helps design and integrate light-weight UI for all major platforms and frameworks.*
+  - *MADE FOR: Android, iOS, JavaScript, ASP.NET, .NET, WPF, Windows, ReactNative*
+  - <https://adaptivecards.io/>
 
 ## Desktop
 - **JavaFX** (Multi-Plattform mit Gluon)
@@ -51,6 +60,8 @@ parent: Diverses
   - *Open source framework for building truly native mobile apps with Angular, Vue.js, TypeScript, or JavaScript* (und svelte)
   - *access native apis from JavaScript directly*
   - *Mobile applications built with NativeScript result in fully native apps*
+- **hyperview**
+  - <https://github.com/instawork/hyperview>
 
 ### Hybrid (web & native)
 - **ionic**
