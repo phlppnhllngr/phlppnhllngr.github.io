@@ -96,9 +96,14 @@ parent: Java
 - **system rules**
   - "mocks" java.lang.System
   - <https://www.baeldung.com/java-system-rules-junit>
-- **jimfs**
-  - *An in-memory file system for Java 7+*
-  - <https://github.com/google/jimfs>
+- <u>File sytem</u>
+  - **jimfs**
+    - *An in-memory file system for Java 7+*
+    - <https://github.com/google/jimfs>
+  - **memoryfilesystem**
+    - <https://github.com/marschall/memoryfilesystem>
+  - **Commons Virtual File System**
+    - <https://commons.apache.org/proper/commons-vfs/index.html> 
 - <u>HTTP/API</u>
   - **wiremock**
     - mit Junit4-Rule
