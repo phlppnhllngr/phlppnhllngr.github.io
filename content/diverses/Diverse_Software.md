@@ -7,6 +7,14 @@ parent: Diverses
 ---
 
 # Diverse Software
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
+## Diverse
 - <https://github.com/Awesome-Windows/Awesome>
 - <https://github.com/sindresorhus/awesome>
 - <https://github.com/jhuangtw-dev/xg2xg> - *A handy lookup table of similar technology and services to help ex-googlers survive the real world*
@@ -128,13 +136,19 @@ parent: Diverses
 - **Tabby**
   - *A terminal for the modern age*
   - *Runs on Windows, Mac and Linux*
-  - <https://tabby.sh/>
+  - <https://tabby.sh>
 - **Browsix**
   - *Unix-like operating system for the browser*
   - <https://github.com/plasma-umass/browsix>
 - **focalboard**
   - *open source, self-hosted project management tool that's an alternative to Trello, Notion, and Asana*
   - <https://github.com/mattermost/focalboard>
+- **Github Copilot**
+  - *uses AI to suggest code in real-time, right from your editor*
+  - <https://github.com/features/copilot>
+- **Tabnine**
+  - *AI Assistant For Software Developers*
+  - <https://www.tabnine.com>
 
 
 ## Passwort-Manager
