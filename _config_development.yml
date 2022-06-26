@@ -1,2 +1,4 @@
 theme: "just-the-docs"
 remote_theme:
+pwa:
+  enabled: false

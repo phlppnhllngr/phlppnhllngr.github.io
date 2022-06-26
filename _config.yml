@@ -26,7 +26,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 #theme: "just-the-docs"
 remote_theme: pmarsceill/just-the-docs
-#plugins:
+plugins:
+  - jekyll-pwa-plugin
   # - jekyll-feed
 
 # Exclude from processing.
@@ -54,3 +55,16 @@ gh_edit_view_mode: "edit"
 gh_edit_repository: "https://github.com/phlppnhllngr/phlppnhllngr.github.io"
 gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_branch: "master"
+
+pwa:
+  enabled: true # Optional
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 5 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"
