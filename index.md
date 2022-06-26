@@ -12,4 +12,4 @@ layout: home
 - <https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll>
 - <https://jekyllrb.com/docs/github-pages>
 
-`bundle exec jekyll serve --livereload --force_polling --incremental`
+`bundle exec jekyll serve --livereload --force_polling --incremental --config _config.yml,_config_development.yml`
