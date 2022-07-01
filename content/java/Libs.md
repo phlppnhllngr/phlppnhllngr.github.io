@@ -541,6 +541,13 @@ parent: Java
   - **ThreeTen**
     - <https://www.threeten.org/threetenbp/>
     - *provides a backport of the Java SE 8 date-time classes to Java SE 6 and 7*
+  - **Time4J**
+    - *Advanced date, time and interval library* 
+    - <https://github.com/MenoData/Time4J> 
+  - **PrettyTime**
+    - *creates human readable, relative timestamps in over 43 languages*
+    - *moments ago, 10 minutes from now*   
+    - <https://github.com/ocpsoft/prettytime> 
 - <u>state management</u>
   - **stateless4j**
     - state machine
