@@ -415,6 +415,7 @@ parent: Java
 - **spotless**
   - <https://github.com/diffplug/spotless/tree/main/plugin-maven#java>
   - Formatter (elcipse jdt, prettier, google-format)
+  - nur die gestageten Files formatieren: <https://github.com/diffplug/spotless/issues/178#issuecomment-351638034>
 - **sortpom**
   - *helps the user sort pom.xml*
   - <https://github.com/Ekryd/sortpom>
