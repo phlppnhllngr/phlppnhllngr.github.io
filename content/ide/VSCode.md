@@ -316,3 +316,22 @@ parent: IDE
 - in Docker-Settings "use the wsl2 based engine" aktivieren
 - <https://code.visualstudio.com/blogs/2020/07/01/containers-wsl>
 - Ports müssen trotzdem freigegeben werden (`forwardedPorts` in devcontainer.json)
+
+
+## Tasks
+- **Windows-Task in git bash ausführen**
+  - sh.exe aus git/bin muss im Path sein
+  - ```json
+    {
+      "type": "shell",
+      "args": [ "-v" ],
+      "windows": {
+        "command": "./mvnw",
+        "options": {
+          "shell": {
+            "executable": "sh.exe"
+          }
+        }
+      }
+    }
+    ```
