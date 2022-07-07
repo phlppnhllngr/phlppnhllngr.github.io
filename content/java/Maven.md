@@ -316,6 +316,9 @@ parent: Java
     - excludeMissing
       - Dependencies, dier hier aufgeführt sind, werden nicht durchsucht, auch die transitiven Dependencies nicht
       - die gelisteten Dependencies müssen eine Version haben
+  - <details>
+      <summary>license.xml</summary>
+    </details>
 - **m2e-lifecycle-mapping**
   - kein eigentliches Plugin
   - damit können Plugins, die eigentlich an keine Phase gebunden sind (gebunden werden können), an eine gebunden werden
