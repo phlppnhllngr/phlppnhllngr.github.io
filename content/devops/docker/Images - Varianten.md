@@ -27,27 +27,27 @@ grand_parent: DevOps
   - buster-slim
 - **phusion**
   - 8 MB
-  - https://github.com/phusion/baseimage-docker 
+  - <https://github.com/phusion/baseimage-docker>
   - *...much more powerful than Busybox or Alpine. Baseimage-docker is a special Docker image that is configured for correct use within Docker containers. It is Ubuntu, plus: Modifications for Docker-friendliness. Administration tools that are especially useful in the context of Docker. Mechanisms for easily <mark>running multiple processes</mark>, without violating the Docker philosophy.*
 - **Google distroless**
-  - https://aboullaite.me/docker-distroless-image/
-  - https://github.com/GoogleContainerTools/distroless *5.5k
+  - <https://aboullaite.me/docker-distroless-image/>
+  - <https://github.com/GoogleContainerTools/distroless> *5.5k
   - *"Distroless" images contain only your application and its runtime dependencies. They <mark>don’t contain any programs like shells and package managers</mark> usually found in a Linux distribution.*
   - Images für Java, Nodejs, ...
 
 **Microsoft**
 - <mark>Um Windows-Container zu nutzen, muss man in Docker für Windows 'switch to windows containers' auswählen und dann Docker neu starten</mark>
 - nur mit Windows-Host möglich & nicht jede Image-Version passt zu jeder Host-Windows-Version
-- https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container
-- https://hub.docker.com/u/microsoft/
+- <https://docs.microsoft.com/en-us/virtualization/windowscontainers/quick-start/run-your-first-container>
+- <https://hub.docker.com/u/microsoft/>
 - alle auch mit 'insider'-Variante
 - Windows
-  - https://hub.docker.com/_/microsoft-windows
+  - <https://hub.docker.com/_/microsoft-windows>
   - ~20 GB
 - server core
-  - https://hub.docker.com/_/microsoft-windows-servercore
+  - <https://hub.docker.com/_/microsoft-windows-servercore>
 - nano server
-  - https://hub.docker.com/_/microsoft-windows-nanoserver
+  - <https://hub.docker.com/_/microsoft-windows-nanoserver>
   - ~260MB
   - *Windows Server Core and Nanoserver are the most common base images to target. The key difference between these images is that Nanoserver has a significantly smaller API surface. **PowerShell, WMI, and the Windows servicing stack are absent from the Nanoserver image.** Nanoserver was built to provide just enough API surface to run apps that have a dependency on .NET core or other modern open source frameworks. As a tradeoff to the smaller APi surface, the Nanoserver image has a significantly smaller on-disk footprint than the rest of the Windows base images.*
   - → powershell:nanoserver-Varianten?
@@ -60,30 +60,30 @@ grand_parent: DevOps
       - 1809 → 2018/09, 2004 → 2020/04
       - ~6GB
     - linux
-  - https://hub.docker.com/_/microsoft-powershell
-  - https://github.com/PowerShell/PowerShell-Docker
+  - <https://hub.docker.com/_/microsoft-powershell>
+  - <https://github.com/PowerShell/PowerShell-Docker>
 - dotnet-framework
-  - https://hub.docker.com/_/microsoft-dotnet-framework
-  - https://github.com/microsoft/dotnet-framework-docker
+  - <https://hub.docker.com/_/microsoft-dotnet-framework>
+  - <https://github.com/microsoft/dotnet-framework-docker>
   - Varianten
     - mcr.microsoft.com/dotnet/framework/sdk
       ~ 9GB
 - dotnet
-  - https://hub.docker.com/_/microsoft-dotnet
+  - <https://hub.docker.com/_/microsoft-dotnet>
 - Community
   - diverse
-    - https://github.com/StefanScherer/dockerfiles-windows
+    - <https://github.com/StefanScherer/dockerfiles-windows>
       - Dockerfiles für alle möglichen Sprachen, Frameworks, ...
   - Java
-    - https://hub.docker.com/r/winamd64/openjdk/
-    - https://hub.docker.com/_/openjdk/?tab=tags&page=1&name=windows
-    - https://github.com/carlossg/docker-maven
+    - <https://hub.docker.com/r/winamd64/openjdk/>
+    - <https://hub.docker.com/_/openjdk/?tab=tags&page=1&name=windows>
+    - <https://github.com/carlossg/docker-maven>
 
 **MacOS**
 - Docker-OSX
-  - https://github.com/sickcodes/Docker-OSX
+  - <https://github.com/sickcodes/Docker-OSX>
   - *Run Mac in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X!*
-  - Stand 03/21 nicht mit Windows (WSL2) möglich (https://github.com/sickcodes/Docker-OSX/issues/37)
+  - Stand 03/21 nicht mit Windows (WSL2) möglich (<https://github.com/sickcodes/Docker-OSX/issues/37>)
 
 **Android**
 - Waydroid
