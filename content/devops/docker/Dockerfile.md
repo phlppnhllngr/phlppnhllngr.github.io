@@ -30,15 +30,22 @@ grand_parent: DevOps
     - *ignored if passing any arguments when starting the container*
     - `CMD ["/myscript.sh", "hello world"]`
     - auch hier gibt es "shell"- und "exec"-Form (siehe entrypoint)
+    - *the exec form is required for CMD if you are using it as parameters/arguments to ENTRYPOINT that are intended to be overwritten.*
   - **ENTRYPOINT**
     - <https://docs.docker.com/engine/reference/builder/#entrypoint>
     - *the default command to run when the container starts. Moreover, we're now able to provide extra arguments.*
     - `ENTRYPOINT ["/myscript.sh"]`
     - der entrypoint kann ins "shell"- oder in "exec"-Form angegeben werden
-      - shell-Form: `ENTRYPOINT command param1 param2`
-        auf Windows ist die default-shell `cmd /S /C` (siehe SHELL)
-        `RUN powershell -command Write-Host hello` wird also zu `cmd /S /C powershell -command Write-Host hello`
-      - exec-Form: `ENTRYPOINT ["executable", "param1", "param2"]`
+      - shell-Form
+        - `ENTRYPOINT command param1 param2`
+        - auf Windows ist die default-shell `cmd /S /C` (siehe SHELL)
+        - `RUN powershell -command Write-Host hello` wird also zu `cmd /S /C powershell -command Write-Host hello`
+        - *In the shell form you can use a \ (backslash) to continue a single RUN instruction onto the next line.*
+        - *using the shell form for ENTRYPOINT likely means you're not propagating signals correctly to your app, which can cause problems, in particular in Kubernetes clusters.*
+      - exec-Form
+        - `ENTRYPOINT ["executable", "param1", "param2"]`
+        - *Unlike the shell form, the exec form does not invoke a command shell. This means that normal shell processing does not happen. For example, CMD [ "echo", "$HOME" ] will not do variable substitution on $HOME. If you want shell processing then either use the shell form or execute a shell directly, for example: CMD [ "sh", "-c", "echo $HOME" ].*
+        - *The exec form makes it possible to avoid shell string munging, and to RUN commands using a base image that does not contain the specified shell executable.*
   - *can use cmd and entrypoint in combination. One such use-case is to define default arguments for entrypoint*
 
     ```
