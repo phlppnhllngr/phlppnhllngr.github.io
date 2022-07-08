@@ -12,7 +12,8 @@ parent: IDE
 
 ## Einstellungen
 - Keyboard Shortcuts (File > Preferences > Keyboard Shortcuts)
-  - workbench.action.terminal.clear -> Ctrl+K, Change when expression = terminalFocus 
+  - workbench.action.terminal.clear -> Ctrl+K, Change when expression = terminalFocus
+- "java.maven.downloadSources": true
 
 
 ## Snippets
