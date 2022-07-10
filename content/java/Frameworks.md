@@ -26,6 +26,8 @@ parent: Java
   - <https://code.quarkus.io/> (wie spring-initializer)
 - **micronaut**
   - <http://micronaut.io/>
+  - <https://micronaut.io/launch> (wie Spring initializer)
+  - [Introduction to Micronaut • Graeme Rocher • GOTO 2019](https://www.youtube.com/watch?v=RtjSqRZ_md4)
   - projects
     - <https://github.com/micronaut-projects/>
     - core
@@ -69,7 +71,6 @@ parent: Java
   - Tools
     - VSCode-Plugin
       - -> IDE/VSCode 
-    - <https://micronaut.io/launch> (wie Spring initializer)
 - **javalin**
   - <https://javalin.io/>
   - *very lightweight web framework*
