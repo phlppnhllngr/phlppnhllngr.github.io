@@ -294,6 +294,13 @@ parent: IDE
   - Spring Initializer
   - Spring Boot Dashboard
   - ...
+- **GraalVM Tools for Micronaut**
+  - *Code completion and navigation for Micronaut configuration (YAML) files*
+  - *Debugging capabilities*
+    - *To run the Micronaut application in debug mode, switch to the Run and Debug view by clicking on the bug icon in the left-hand side panel, select the Java 8+ environment* 
+  - *CodeLens for continuous mode of operation (running Micronaut project and reloading automatically when source code is changed)*
+  - *Quick commands to create and deploy Docker images*
+  - <https://github.com/graalvm/vscode-extensions/tree/master/micronaut>
 
 
 ### Remote
