@@ -16,6 +16,7 @@ parent: Diverses
           = gateway.push.apple.com:2195 ?
     - Header apns-topic=${passTypeIdentifier} benötigt?
   - [API Collection Wallet](https://developer.apple.com/documentation/passkit/wallet)
+- <https://developer.apple.com/de/support/expiration/>
 - <u>StackOverflow/User PassKit</u>
   - *1. All Pass push requests must be sent to the production APNS server (gateway.push.apple.com on port 2195), there is no way to use the sandbox.*
   - *2. You must use your Pass Type ID certificate and key to authenticate with the APNS server (do not use App APNS certificates)*
