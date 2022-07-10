@@ -38,7 +38,7 @@ parent: Java
   - wenig Docs
   - HealthCheck-Bug: <https://github.com/micronaut-projects/micronaut-servlet/issues/296>
   - H2-Console
-    `tomcatFactory.getApplicationContext().registerSingleton(org.h2.server.web.WebServlet);`
+    ```tomcatFactory.getApplicationContext().registerSingleton(org.h2.server.web.WebServlet);```
     (<https://github.com/tevore/micronaut-h2-console/blob/master/h2/src/main/java/com/tevore/h2/console/H2ConsoleSupport.java>)
   - <https://micronaut-projects.github.io/micronaut-servlet/latest/guide/>
   - <https://github.com/micronaut-projects/micronaut-servlet>
