@@ -320,6 +320,14 @@ parent: IDE
 
 
 ## Tasks
+- ```json
+  {
+      "label": "clear-terminal",
+      "type": "shell",
+      "command": "echo ${command:workbench.action.terminal.clear}",
+      "group": "none"
+  }
+  ```
 - **Windows-Task in git bash ausführen**
   - sh.exe aus git/bin muss im Path sein
   - ```json
