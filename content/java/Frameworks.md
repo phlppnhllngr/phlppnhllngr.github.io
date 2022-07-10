@@ -55,6 +55,10 @@ parent: Java
         - *prefer the thread per connection model of the Servlet API over the Event Loop model provided by the default Netty-based HTTP server*
         - *have existing Servlets and/or Filters that they wish to combine with Micronaut.*
       - wenig Docs
+      - HealthCheck-Bug: <https://github.com/micronaut-projects/micronaut-servlet/issues/296>
+      - H2-Console
+        `tomcatFactory.getApplicationContext().registerSingleton(org.h2.server.web.WebServlet);`
+        (<https://github.com/tevore/micronaut-h2-console/blob/master/h2/src/main/java/com/tevore/h2/console/H2ConsoleSupport.java>)
       - <https://micronaut-projects.github.io/micronaut-servlet/latest/guide/>
       - <https://github.com/micronaut-projects/micronaut-servlet>
     - http-client
@@ -62,7 +66,10 @@ parent: Java
       - <https://guides.micronaut.io/latest/micronaut-http-client.html>
     - maven-plugin
       - <https://github.com/micronaut-projects/micronaut-maven-plugin>
-  - <https://micronaut.io/launch> (wie Spring initializer)
+  - Tools
+    - VSCode-Plugin
+      - -> IDE/VSCode 
+    - <https://micronaut.io/launch> (wie Spring initializer)
 - **javalin**
   - <https://javalin.io/>
   - *very lightweight web framework*
