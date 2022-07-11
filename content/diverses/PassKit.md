@@ -12,10 +12,12 @@ parent: Diverses
   - [Wallet Passes](https://developer.apple.com/documentation/walletpasses)
     - [Adding a Web Service to Update Passes](https://developer.apple.com/documentation/walletpasses/adding_a_web_service_to_update_passes/) 
   - [Updating passes](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/PassKit_PG/Updating.html)
-    - URL = https://api.push.apple.com(:443)/3/device/${pushToken} ?
+  - [API Collection Wallet](https://developer.apple.com/documentation/passkit/wallet)
+  - APNs
+    - URL = https://api.push.apple.com(:443)/3/device/${pushToken}
           = gateway.push.apple.com:2195 ?
     - Header apns-topic=${passTypeIdentifier} benötigt?
-  - [API Collection Wallet](https://developer.apple.com/documentation/passkit/wallet)
+    - <https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html>
 - <https://developer.apple.com/de/support/expiration/>
 - <u>StackOverflow/User PassKit</u>
   - *1. All Pass push requests must be sent to the production APNS server (gateway.push.apple.com on port 2195), there is no way to use the sandbox.*
