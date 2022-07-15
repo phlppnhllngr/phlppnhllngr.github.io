@@ -53,6 +53,8 @@ parent: Java
 - **jobrunr-micronaut-feature**
   - -> Java/Libs/Jobrunr 
   - <https://www.jobrunr.io/en/documentation/configuration/micronaut/>
+- **micronaut-camunda**
+  - <https://github.com/camunda-community-hub/micronaut-camunda-platform-7> 
 
 
 ## Tools
