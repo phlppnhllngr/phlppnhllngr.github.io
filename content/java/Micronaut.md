@@ -49,6 +49,12 @@ parent: Java
   - <https://guides.micronaut.io/latest/micronaut-http-client.html>
 
 
+## Libs
+- **jobrunr-micronaut-feature**
+  - -> Java/Libs/Jobrunr 
+  - <https://www.jobrunr.io/en/documentation/configuration/micronaut/>
+
+
 ## Tools
 - maven-plugin
   - <https://github.com/micronaut-projects/micronaut-maven-plugin>
