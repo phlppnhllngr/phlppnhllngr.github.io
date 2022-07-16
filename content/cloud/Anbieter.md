@@ -137,3 +137,6 @@ parent: Cloud
 ## Deno Deploy
   - *Globally Distributed JavaScript. Instant deployments. Zero config, zero maintenance. TypeScript, WASM, ES Modules*
   - <https://deno.com/deploy>
+
+## Hetzner
+- <https://www.hetzner.com/>

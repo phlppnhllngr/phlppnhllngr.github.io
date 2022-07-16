@@ -110,3 +110,8 @@ parent: API
 - **loader.io** 💰
   - <https://loader.io/>
   - *load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections*
+- **Siege**
+  - *regression test and benchmark utility*
+  - *can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously*
+  - *reports the total number of hits recorded, bytes transferred, response time, concurrency, and return status*
+  - <https://github.com/JoeDog/siege>

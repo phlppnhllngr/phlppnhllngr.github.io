@@ -49,6 +49,7 @@ parent: Webdev
 
 
 ## ngrok und Alternativen
+- <https://github.com/anderspitman/awesome-tunneling>
 - **ngrok**
   - <https://ngrok.com/>
   - *ngrok exposes local servers (localhost) behind NATs and firewalls to the public internet over secure tunnels*
@@ -61,6 +62,7 @@ parent: Webdev
   - <https://github.com/antoniomika/sish>
 - **localhost.run**
   - *a client-less tool to instantly make a locally running application available on an internet accessible URL*
+  - *uses SSH as a client*
   - <https://localhost.run/docs/>
 - **localtunnel**
   - *allows you to easily share a web service on your local development machine without messing with DNS and firewall settings*
@@ -71,3 +73,7 @@ parent: Webdev
   - *will expose your local port at localhost to the public internet at bore.pub:PORT*
   - *Similar to localtunnel and ngrok, except bore is intended to be a highly efficient, unopinionated tool for forwarding TCP traffic that is simple to install and easy to self-host, with no frills attached.*
   - <https://github.com/ekzhang/bore>
+- **boringproxy**
+  - *combination of a reverse proxy and a tunnel manager*
+  - *Designed from the ground up with self-hosters in mind.*
+  - <https://github.com/boringproxy/boringproxy>
