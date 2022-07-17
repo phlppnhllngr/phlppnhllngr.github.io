@@ -19,6 +19,13 @@ parent: DevOps
   - `timeout(time: 20, unit: 'SECONDS', activity: true) { ... }`
   - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/#timeout-enforce-time-limit>
 - **parallel**
+	- ```
+	  parallel([
+	    'failFast': true,
+	    'foo': { echo "foo" },
+	    'bar': { echo "bar" }
+	  ])
+	  ``` 
 - **retry**
 - **stage**
 - **sleep**
