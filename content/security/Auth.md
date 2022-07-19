@@ -30,7 +30,20 @@ parent: Security
     - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
   - <u>Keycloak.X</u>
     - *As part of the Keycloak.X efforts, the underlying platform is to be changed from Wildfly/Undertow to Quarkus/Vertx.* (12/2021))
+- **Auth0**
+  - *a company that sells an identity management platform with authentication and authorization services that implements the OAuth2 protocol (among others).* 
+  - <https://auth0.com> 
 - **OAuth(2)**
+  - *a standardized authorization protocol*
+  - *a protocol that allows a user to grant limited access to their resources on one site, to another site, without having to expose their credentials.*
+  - <https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html>
+    - *an open-standard authorization protocol or framework that describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial, related, single logon credential. In authentication parlance, this is known as secure, third-party, user-agent, delegated authorization.*
+    - *OAuth scenarios almost always represent two unrelated sites or services trying to accomplish something on behalf of users or their software. All three have to work together involving multiple approvals for the completed transaction to get authorized.*
+    - *OAuth essentially allows the user, via an authentication provider that they have previously successfully authenticated with, to give another website/service a limited access authentication token for authorization to additional resources.*
+    - *Additionally, OAuth 2.0 is a framework, not a protocol (like version 1.0).*
+  - <https://hackernoon.com/oauth-20-for-dummies>
+    - <img loading="lazy" src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FBlBIttNGqzO1aF2OOzYkWig7w1V2-3ve2gzk.png"/> 
+    - *a security standard where you give one application permission to access your data in another application. The steps to grant permission, or consent, are often referred to as authorization or even delegated authorization.*
 - **AWS Cognito**
   - <https://aws.amazon.com/de/cognito/>
 - **Auth0**
