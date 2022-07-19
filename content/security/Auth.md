@@ -44,6 +44,7 @@ parent: Security
   - <https://hackernoon.com/oauth-20-for-dummies>
     - <img loading="lazy" src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FBlBIttNGqzO1aF2OOzYkWig7w1V2-3ve2gzk.png&w=828&q=75"/> 
     - *a security standard where you give one application permission to access your data in another application. The steps to grant permission, or consent, are often referred to as authorization or even delegated authorization.*
+  - <https://darutk.medium.com/the-simplest-guide-to-oauth-2-0-8c71bd9a15bb>
 - **AWS Cognito**
   - <https://aws.amazon.com/de/cognito/>
 - **Auth0**
