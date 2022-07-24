@@ -21,10 +21,10 @@ grand_parent: DevOps
 - **ubuntu**
   - 120 MB
   - Paketmanager: apt
-- **stretch**
-- **buster**
-- **debian**  
-  - buster-slim
+- **debian**
+  - 9: stretch
+  - 10: buster
+  - 11: bullseye
 - **phusion**
   - 8 MB
   - <https://github.com/phusion/baseimage-docker>
