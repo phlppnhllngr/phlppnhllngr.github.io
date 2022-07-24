@@ -120,7 +120,7 @@ parent: Java
         - [Stack Overflow: Serialize null object as empty](https://stackoverflow.com/a/45566139)
   - **Gson**
     - etwas langsamer als Jackson
-    - 12/2020: deprecated
+    - <https://github.com/google/gson>
   - **moshi**
     - <https://github.com/square/moshi>
   - **dsl-json**
