@@ -84,6 +84,14 @@ parent: Java
   
 
 ## Container
+
+### Base-Images
+- adoptopenjdk/openjdk11
+- gcr.io/distroless/java11-debian11
+- openjdk
+- registry.access.redhat.com/ubi8/openjdk-11-runtime
+
+### Tipps
 - statt der JVM- sollten die Container-Limits (RAM, CPU) gesetzt werden [1]
 - *By default, the JVM heap gets 25% of the container’s memory* [1]
 - *As of Java 8u191, the JVM is pretty “container aware” by default and interprets CPU share allocation correctly* [1] (auch Memory)
