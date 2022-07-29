@@ -65,8 +65,9 @@ parent: DevOps
 
 ## Jenkinsfile
 
-**Beispiel**
+**Beispiele**
 ```groovy
+// scripted
 properties([
 	parameters([
         	booleanParam(name: 'CLEAN_WS', defaultValue: false, description: 'Workspace vorher löschen?'),
@@ -108,6 +109,58 @@ node {
 
 		}
   	}
+}
+```
+
+```groovy
+// declarative
+def sayHello(to) {
+    println('hello ' + to) 
+}
+
+pipeline {
+    agent any
+    parameters {
+        booleanParam(name: 'bool', defaultValue: false, description: 'yes?')
+    }
+    options {
+        buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10'))
+        disableConcurrentBuilds()
+        timeout(time: 10, unit: 'MINUTES', activity: true)
+        skipDefaultCheckout()
+    }
+    tools {
+        jdk 'openjdk-11'
+	maven 'maven-3.6.3'
+    }
+    stages {
+    	 stage('checkout') {
+ 	     steps {
+	         checkout scm
+	     }
+	 }
+         stage('1') {
+	     steps {
+	         sayHello('world')
+		 sh "mvn --batch-mode --no-transfer-progress clean package -DskipTests=false"
+		 sh """
+		     docker run -p 8080:8080 \
+		     --env FOO=bar \
+		     some-image
+		 """
+	     }
+	 }
+	 stage('parallel') {
+	     parallel {
+	          stage('A') {
+		      echo "A"
+		  }
+		  stage('B') {
+		      echo "B"
+		  }
+	     }
+	 }
+    }
 }
 ```
 
