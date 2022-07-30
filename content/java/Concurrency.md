@@ -26,12 +26,26 @@ parent: Java
     - `int getPriority()`
     - `Thread.UncaughtExceptionHandler getUncaughtExceptionHandler()`
     - `boolean isDaemon()`
+      default: false
+      ```
+      t.setDaemon(true);
+      t.start();
+      ```
+      *if the last non-daemon thread exits then [remaining daemon] thread[s] will be killed by the JVM*
     - `void	join()` (+2 Overloads)
     - `void	run()`
     - `void	start()`
       - *Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.*
     - `static void yield()`
       - *A hint to the scheduler that the current thread is willing to yield its current use of a processor.*
+    - `void interrupt()`
+      - keine Garantie, funktioniert z. B. nicht bei infinite loops 
+      - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#interrupt--> 
+    - `void stop(Throwable?)`
+      - deprecated
+      - *thread is forced to stop whatever it is doing abnormally and to throw a newly created ThreadDeath object as an exception.*
+      - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#stop-->
+      - <https://www.baeldung.com/java-thread-stop> 
     - ...
   - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html>
 - **ThreadLocal**
@@ -63,10 +77,14 @@ parent: Java
       System.out.println(LocalTime.now() + ": 2");
       sleep.accept(20000);
       System.out.println(LocalTime.now() + ": 3");
+      // mit infinite loop while(true); statt sleep() würde zwar "done" erreicht werden, aber "shutting down" nicht (async task lebt weiter)
     };
+    
+    Runtime.getRuntime().addShutdownHook(new Thread(() -> System.out.println("shutting down")));
     ExecutorService executor = Executors.newSingleThreadExecutor();
     Future<?> future = executor.submit(task);
     try {
+      // blocks main thread
       future.get(3500, TimeUnit.MILLISECONDS);
     } catch (TimeoutException tex) {
       System.out.println(LocalTime.now() +  ": timed out");
@@ -80,7 +98,17 @@ parent: Java
     // 12:13:23.094122851: 2
     // 12:13:24.388485138: timed out
     // 12:13:24.389773458: done
+    // shutting down
   ```
+  ```java
+  // non-blocking:
+  ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
+  Future future = executor.submit(new LongRunningTask());
+  Runnable cancelTask = () -> future.cancel(true);
+  executor.schedule(cancelTask, 3000, TimeUnit.MILLISECONDS);
+  executor.shutdown();
+  ```
+  *There's no guarantee that the execution is stopped after a certain time. The main reason is that not all blocking methods are interruptible. In fact, there are only a few well-defined methods that are interruptible. So, if a thread is interrupted, nothing else will happen until it reaches one of these interruptible methods.*
 - **CompletableFuture**
   - *enhances `Future` with chaining, manual completion, exception handling, ...*
   - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
