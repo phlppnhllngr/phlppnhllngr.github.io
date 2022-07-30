@@ -105,6 +105,7 @@ parent: Java
     // 12:13:24.389773458: done
     // shutting down
   ```
+
   ```java
   // non-blocking:
   ScheduledExecutorService executor = Executors.newScheduledThreadPool(2);
