@@ -76,10 +76,10 @@ parent: Java
     }
     System.out.println(LocalTime.now() + ": done");
     
-    // 11:41:18: 1
-    // 11:41:20: 2
-    // 11:41:22: timed out
-    // 11:41:22: done
+    // 12:13:20.994605618: 1
+    // 12:13:23.094122851: 2
+    // 12:13:24.388485138: timed out
+    // 12:13:24.389773458: done
   ```
 - **CompletableFuture**
   - *enhances `Future` with chaining, manual completion, exception handling, ...*
