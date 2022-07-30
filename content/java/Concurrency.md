@@ -114,6 +114,7 @@ parent: Java
   executor.schedule(cancelTask, 3000, TimeUnit.MILLISECONDS);
   executor.shutdown();
   ```
+
 - **CompletableFuture**
   - *enhances `Future` with chaining, manual completion, exception handling, ...*
   - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
