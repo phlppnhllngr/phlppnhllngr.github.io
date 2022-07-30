@@ -26,7 +26,7 @@ parent: Java
     - `int getPriority()`
     - `Thread.UncaughtExceptionHandler getUncaughtExceptionHandler()`
     - `boolean isDaemon()`
-      default: false
+      <br/>default: false
       ```
       t.setDaemon(true);
       t.start();
