@@ -4,6 +4,7 @@ parent: Java
 ---
 
 # Concurrency
+- <https://www.baeldung.com/java-stop-execution-after-certain-time>
 
 ## Keywords
 - **volatile**
