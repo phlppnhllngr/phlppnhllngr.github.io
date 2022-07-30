@@ -39,8 +39,13 @@ parent: Java
     - `static void yield()`
       - *A hint to the scheduler that the current thread is willing to yield its current use of a processor.*
     - `void interrupt()`
-      - keine Garantie, funktioniert z. B. nicht bei infinite loops 
-      - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#interrupt--> 
+      - keine Garantie, funktioniert z. B. nicht bei infinite loops
+      - *There's no guarantee that the execution is stopped after a certain time. The main reason is that not all blocking methods are interruptible. In fact, there are only a few well-defined methods that are interruptible. So, if a thread is interrupted, nothing else will happen until it reaches one of these interruptible methods.*
+      - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#interrupt-->
+        - *If this thread is blocked in an invocation of the wait(), wait(long), or wait(long, int) methods of the Object class, or of the join(), join(long), join(long, int), sleep(long), or sleep(long, int), methods of this class, then its interrupt status will be cleared and it will receive an InterruptedException.*
+        - *If this thread is blocked in an I/O operation upon an InterruptibleChannel then the channel will be closed, the thread's interrupt status will be set, and the thread will receive a ClosedByInterruptException.*
+        - *If this thread is blocked in a Selector then the thread's interrupt status will be set and it will return immediately from the selection operation, possibly with a non-zero value, just as if the selector's wakeup method were invoked.*
+        - *If none of the previous conditions hold then this thread's interrupt status will be set.* 
     - `void stop(Throwable?)`
       - deprecated
       - *thread is forced to stop whatever it is doing abnormally and to throw a newly created ThreadDeath object as an exception.*
@@ -108,7 +113,6 @@ parent: Java
   executor.schedule(cancelTask, 3000, TimeUnit.MILLISECONDS);
   executor.shutdown();
   ```
-  *There's no guarantee that the execution is stopped after a certain time. The main reason is that not all blocking methods are interruptible. In fact, there are only a few well-defined methods that are interruptible. So, if a thread is interrupted, nothing else will happen until it reaches one of these interruptible methods.*
 - **CompletableFuture**
   - *enhances `Future` with chaining, manual completion, exception handling, ...*
   - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
