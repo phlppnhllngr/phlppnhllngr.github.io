@@ -51,11 +51,46 @@ parent: Java
 - **Future**
   - *represents a future result of an asynchronous computation*
   - <https://www.baeldung.com/java-future>
+  - Task abbrechen
+    ```java
+    Consumer<Integer> sleep = millis -> {
+      try { Thread.sleep(millis);
+      } catch (Exception ex) {}
+    };
+    Runnable task = () -> {
+      System.out.println(LocalTime.now() + ": 1");
+      sleep.accept(2000);
+      System.out.println(LocalTime.now() + ": 2");
+      sleep.accept(20000);
+      System.out.println(LocalTime.now() + ": 3");
+    };
+    ExecutorService executor = Executors.newSingleThreadExecutor();
+    Future<?> future = executor.submit(task);
+    try {
+      future.get(3500, TimeUnit.MILLISECONDS);
+    } catch (TimeoutException tex) {
+      System.out.println(LocalTime.now() +  ": timed out");
+      future.cancel(true);
+    } finally {
+      executor.shutdownNow();
+    }
+    System.out.println(LocalTime.now() + ": done");
+    
+    // 11:41:18: 1
+    // 11:41:20: 2
+    // 11:41:22: timed out
+    // 11:41:22: done
+  ```
 - **CompletableFuture**
   - *enhances `Future` with chaining, manual completion, exception handling, ...*
   - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html> 
   - <https://www.baeldung.com/java-completablefuture>
+- **FutureTask**
+  - implements Runnable, Future 
+  - *A cancellable asynchronous computation*
+  - *can be used to wrap a Callable or Runnable object. Because FutureTask implements Runnable, a FutureTask can be submitted to an Executor for execution.* 
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/FutureTask.html> 
 - **Atomic-**
   - <https://www.baeldung.com/java-atomic-variables>
   - AtomicReference
@@ -183,6 +218,8 @@ parent: Java
   - Class, implements BlockingQueue
   - *we should think about it as an exchange point for a <mark>single element</mark> between two threads, in which one thread is handing off an element, and another thread is taking that element.*
   - <https://www.baeldung.com/java-synchronous-queue>
+- **PriorityBlockingQueue**
+- **DelayQueue**
 
 
 #### Concurrent Collections
