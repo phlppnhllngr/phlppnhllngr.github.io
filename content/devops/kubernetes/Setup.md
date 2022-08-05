@@ -9,6 +9,7 @@ grand_parent: DevOps
 ## Tools
 - **kind**
   - *lets you run Kubernetes on your local computer*
+  - *tool for running local Kubernetes clusters using Docker container "nodes"*
   - <https://kind.sigs.k8s.io/docs/>
 - **minikube**
   - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a single-node Kubernetes cluster on your personal computer*
