@@ -113,6 +113,8 @@ parent: Diverses
 - **jq**
   - *command-line JSON processor*
   - <https://earthly.dev/blog/jq-select>
+- **watch**
+  - `watch -n 1 date +%s` 
 
 
 ## Distributionen
