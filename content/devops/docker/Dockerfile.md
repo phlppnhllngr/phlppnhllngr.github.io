@@ -8,6 +8,7 @@ grand_parent: DevOps
 ---
 
 # Dockerfile
+- <https://docs.docker.com/engine/reference/builder/>
 - <https://www.reddit.com/r/programming/comments/jb2jwq/dockerfile_security_best_practices>
 - <https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
 - <https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices>
@@ -64,3 +65,5 @@ grand_parent: DevOps
       SHELL ["powershell", "-command"]
       RUN Write-Host hello
       ```
+- **HEALTHCHECK**
+  - <https://docs.docker.com/engine/reference/builder/#healthcheck> 
