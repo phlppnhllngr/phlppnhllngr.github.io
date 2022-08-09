@@ -159,6 +159,10 @@ parent: Java
       </configuration>
     </execution>
     ```
+- **buildplan**
+  - *inspect project lifecyle*
+  - *List plugin executions within a project: `mvn buildplan:list`* 
+  - <https://github.com/mojohaus/buildplan-maven-plugin> 
 - **changelog**
   - *generates reports regarding the recent changes in your SCM*
   - <https://maven.apache.org/plugins/maven-changelog-plugin/>
@@ -278,7 +282,9 @@ parent: Java
     - effective-pom
     - effective-settings
     - system
-      - *displays a list of the platform details like system properties and environment variables.* 
+      - *displays a list of the platform details like system properties and environment variables.*
+    - describe
+      - `mvn help:describe -cmd=package` -> zeigt die Phasen und zugeordnete Plugins+Goals
     - ...
   - <https://maven.apache.org/plugins/maven-help-plugin/> 
 - **hibernate-enhance**
