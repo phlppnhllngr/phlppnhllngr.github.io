@@ -10,6 +10,9 @@ parent: Java
 
 ## Parameter, Flags
 - **JAVA_OPTS**
+  - Env-Var
+- **JAVA_TOOL_OPTIONS**
+  - Env-Var  
 - **classpath**
   - spezifiziert Classpath
   - alias `cp`
@@ -35,6 +38,15 @@ parent: Java
 - **java.ext.dirs** -> Extension Mechanism
 - **file.encoding**
   - `-Dfile.encoding=UTF-8`
+  
+### -XX
+- non-standard
+- -XX:+Foo | -XX:-Foo für Flags, -XX:Foo=Bar für Werte
+- **+/-PrintFlagsFinal**
+- **+/-UseContainerSupport**
+- **MAXRamPercentage**
+- **InitialRAMPercentage**
+- **-XX:showSettings:vm**
   
 
 ## Memory
@@ -100,7 +112,7 @@ parent: Java
 - "fat jars" sollten nicht in Containern deployed werden, da die Dependencies sich kaum ändern und jedes Mal neu mitkopiert werden müssen (jib maven plugin berücksichtigt dies).<br/> *With a fat-jar, all your dependencies get bundled with your own code, in one jar, which then docker puts in a single layer. This means that if your dependencies are 200mb, you will need another 200mb for each code change, and each build.*<br/> Evtl. hat z. B. hat eine 0815-Spring-Boot-App hat nur wenig "eigenen" Code, aber 60mb Deps und 10mb Resources. Deps und Resources sollten stattdessen eigene Layer bekommen:<br/>
   OS -> JRE -> Deps -> Resources -> Code [2]
 - JRE-Größe reduzieren mit jlink (strip debug, no headers, no man pages, compress, ...) und jdeps
-- *always make sure you allocate at least 25% more memory to your container (i.e. ‘-m’) than your heap size value* [3]
+- *always make sure you allocate at least 25% more memory to your container (i.e. ‘-m’) than your heap size value. Besides heap space your application needs space for Java threads, Garbage collection, metaspace, native memory, socket buffers. All these components require additional memory outside allocated heap size. Besides that, other small processes (like APM agents, splunk scripts, etc.) will also require memory.* [3]
 - *if you are running only your Java application within the container, then set initial heap size (...) to the same size as max heap size.* [3]
 - Quellen
   - [1, 31.10.19](https://www.ccampo.me/java/docker/containers/kubernetes/2019/10/31/java-in-a-container.html)
@@ -109,6 +121,7 @@ parent: Java
 - <https://www.reddit.com/r/java/comments/u349h2/containerize_your_java_applications_a_guide_for/>
 - <https://www.reddit.com/r/java/comments/u70j8l/java_17_whats_new_in_openjdks_container_awareness/>
 - <https://www.reddit.com/r/java/comments/u7057f/running_java_in_singlecore_containers/>
+- <https://www.baeldung.com/ops/docker-jvm-heap-size>
 
 ### Environment & JVM-properties
 - Env-Vars sollten/können keine "." enthalten;
