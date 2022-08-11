@@ -66,4 +66,5 @@ grand_parent: DevOps
       RUN Write-Host hello
       ```
 - **HEALTHCHECK**
-  - <https://docs.docker.com/engine/reference/builder/#healthcheck> 
+  - <https://docs.docker.com/engine/reference/builder/#healthcheck>
+  - <https://medium.com/geekculture/how-to-successfully-implement-a-healthcheck-in-docker-compose-efced60bc08e>
