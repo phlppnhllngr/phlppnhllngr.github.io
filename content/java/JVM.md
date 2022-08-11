@@ -33,7 +33,9 @@ parent: Java
   - *With the exception of packages listed here and the technologies listed in the Standalone Technologies section below, no other packages from the Java SE platform API specification may be overridden (...) javax.rmi.CORBA, org.w3c.dom, org.xml.sax, org.omg.CosNaming, (...)*
   - <https://docs.oracle.com/javase/8/docs/technotes/guides/standards/>
 - **java.ext.dirs** -> Extension Mechanism
-
+- **file.encoding**
+  - `-Dfile.encoding=UTF-8`
+  
 
 ## Memory
 
