@@ -49,6 +49,10 @@ parent: Java
   - <https://guides.micronaut.io/latest/micronaut-http-client.html>
 
 
+## Test
+- <https://melix.github.io/blog/2022/08/micronaut-test-resources.html>
+
+
 ## Libs
 - **jobrunr-micronaut-feature**
   - -> Java/Libs/Jobrunr 
