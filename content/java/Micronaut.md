@@ -51,6 +51,8 @@ parent: Java
 
 ## Test
 - <https://melix.github.io/blog/2022/08/micronaut-test-resources.html>
+  - *Micronaut Test Resources simplifies testing of applications which depend on external resources, by handling the provisioning and lifecycle of such resources automatically*
+  - *while lots of test resources use Testcontainers under the hood, you can use any other technology to create resources* 
 
 
 ## Libs
