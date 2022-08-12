@@ -75,14 +75,15 @@ parent: API
   - *provides the ability to run both Shutdown and CPU attacks on your hosts or containers, controlled by a simple user interface at no cost*
   - free & 💰
 - **Apache Jmeter**
-  - <http://jmeter.apache.org/index.html/>
+  - <https://jmeter.apache.org/>
+  - <https://github.com/apache/jmeter> *6.4k
   - *100% pure Java application designed to load test functional behavior and measure performance*
   - *Ability to load and performance test many different applications/server/protocol types: Web - HTTP, HTTPS, SOAP / REST Webservices, FTP, Database via JDBC, ...*
 - **Gatling**
   - <https://gatling.io/>
   - <https://github.com/gatling/gatling/> *4400
   - *load test your web applications*
-  - Scala DSL
+  - Scala/Java/Kotlin
   - Plugin für Maven
 - **k6**
   - <https://k6.io/>
