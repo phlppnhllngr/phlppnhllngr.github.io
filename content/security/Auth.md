@@ -80,3 +80,8 @@ parent: Security
   - *combines the ease of Auth0 and the versatility of Keycloak*
   - *out of the box features like secure login, self-service, OpenID Connect, OAuth2.x, SAML2, branding, Passwordless with FIDO2, OTP, U2F, and an unlimited audit trail*
   - <https://github.com/zitadel/zitadel>
+- **Logto**
+  - *A frontend-to-backend identity solution*  
+  - *helps you build the sign-in, auth, and user identity within minutes*
+  - *We provide an OIDC-based identity service and the end-user experience with username, phone number, email, and social sign-in, for web and native apps.*
+  - <https://github.com/logto-io/logto>
