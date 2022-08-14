@@ -16,6 +16,9 @@ parent: DevOps
     - CLI: Docker CLI
     - -> DevOps/Docker
 - **CRI-O**
+    - *Open Container Initiative-based implementation of Kubernetes Container Runtime Interface*
+    - *is meant to provide an integration path between OCI conformant runtimes and the Kubelet*   
+    - <https://github.com/cri-o/cri-o> 
 - **Podman**
     - *Podman is a daemonless container engine for developing, managing, and running OCI Containers on your Linux System. Containers can either be run as root or in rootless mode. Simply put: alias docker=podman.*
     - *podman is an alternative to Docker, but get mentioned as a replacement for the Docker component (not Kubernetes) of Docker Desktop.*
