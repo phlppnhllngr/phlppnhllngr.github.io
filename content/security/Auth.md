@@ -85,3 +85,7 @@ parent: Security
   - *helps you build the sign-in, auth, and user identity within minutes*
   - *We provide an OIDC-based identity service and the end-user experience with username, phone number, email, and social sign-in, for web and native apps.*
   - <https://github.com/logto-io/logto>
+- **Casdoor**
+  - *An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS*
+  - *A UI-first centralized authentication / Single-Sign-On (SSO) platform based on OAuth 2.0 / OIDC.* 
+  - <https://github.com/casdoor/casdoor> 
