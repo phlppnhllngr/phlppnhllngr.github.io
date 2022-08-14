@@ -14,6 +14,7 @@ has_children: true
 - <https://dev.to/sandrogiacom/kubernetes-for-java-developers-setup-41nk> (minikube, kubectl, virtualbox)
 - <https://github.com/jayendrapatil/kubernetes-exercises>
 - <https://flant.com/k8s-iceberg.svg>
+- <https://github.com/kelseyhightower/kubernetes-the-hard-way> - *Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.*
 
 
 ## YAML-Konfigurationsdateien
