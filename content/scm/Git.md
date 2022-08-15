@@ -16,6 +16,7 @@ parent: SCM
 - <https://girliemac.com/blog/2017/12/26/git-purr/>
 - <https://ohshitgit.com/>
 - <https://gitimmersion.com/>
+- [HN - Git from the Inside Out, 06/2022](https://news.ycombinator.com/item?id=31964814)
 
 
 ## Stages
