@@ -149,6 +149,8 @@ parent: Diverses
 - **Tabnine**
   - *AI Assistant For Software Developers*
   - <https://www.tabnine.com>
+- **jira-cli**
+  - <https://github.com/ankitpokhrel/jira-cli> 
 
 
 ## Passwort-Manager
