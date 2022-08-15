@@ -8,7 +8,8 @@ parent: Java
 
 # Frameworks
 - [Techempower Benchmarks](https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune&l=zik0vz-sf)
-- [Quarkus vs Micronaut, 02/2020](https://www.reddit.com/r/java/comments/ey5szi/quarkus_vs_micronaut_a_feature_and_performance/) <br/><br/>
+- [Quarkus vs Micronaut, 02/2020](https://www.reddit.com/r/java/comments/ey5szi/quarkus_vs_micronaut_a_feature_and_performance/)
+- <https://web-frameworks-benchmark.netlify.app/result?l=java> <br/><br/>
 - **dropwizard**
   - *framework for developing ops-friendly, high-performance, RESTful web services.*
   - *Dropwizard uses the Jetty HTTP library to embed an incredibly tuned HTTP server directly into your project. Instead of handing your application off to a complicated application server, Dropwizard projects have a main method which spins up an HTTP server.*
