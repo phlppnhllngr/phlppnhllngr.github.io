@@ -49,6 +49,7 @@ parent: Java
     - `void stop(Throwable?)`
       - deprecated
       - *thread is forced to stop whatever it is doing abnormally and to throw a newly created ThreadDeath object as an exception.*
+      - *stopping a thread means that it won't send any of the notifies (etc) that it should have sent. And that leaves other threads stuck waiting for things that won't ever happen. Even though you have (in a sense) broken the deadlock. This kind of thing is part of why Thread.stop() was deprecated ... in the 1990's*
       - <https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.html#stop-->
       - <https://www.baeldung.com/java-thread-stop> 
     - ...
