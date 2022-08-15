@@ -102,7 +102,6 @@ parent: Java
 - **yamlbeans**
   - <https://github.com/EsotericSoftware/yamlbeans>
 
-
 ### json
 - **Benchmarks**
   - <https://github.com/fabienrenaud/java-json-benchmark>
@@ -129,6 +128,13 @@ parent: Java
   - **jsonschema2pojo**
     - *Generate Java types from JSON or JSON Schema and annotates those types for data-binding with Jackson, Gson, etc*
     - <https://github.com/joelittlejohn/jsonschema2pojo> *5.2k
+
+### binary
+- **kryo**
+  - *binary object graph serialization framework for Java*
+  - *The project is useful any time objects need to be persisted, whether to a file, database, or over the network*
+  - *can also perform automatic deep and shallow copying/cloning. This is direct copying from object to object, not object to bytes to object*
+  - <https://github.com/EsotericSoftware/kryo> 
 
 
 ## <span id="web">Web</span>
