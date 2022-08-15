@@ -18,3 +18,9 @@ has_children: true
 - **automa**
     - *browser extension for browser automation*
     - <https://github.com/AutomaApp/automa> 
+- **mautic**
+    - *Open Source Marketing Automation Software*
+    - *Connect with your contacts over channels like Emails, Text Messages, Social media, and Focus Items.*
+    - *Use performance metrics in Dashboards, Reports, Points, and Stages to measure the efficiency of your marketing strategy.*
+    - *Forms, landing pages*
+    - <https://github.com/mautic/mautic>
