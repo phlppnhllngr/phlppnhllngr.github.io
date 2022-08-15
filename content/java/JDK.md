@@ -23,6 +23,7 @@ parent: Java
     - IBM
     - Red Hat
     - ~~AdoptOpenJDK~~ Adoptium
+        - *The Adoptium Working Group promotes and supports (...) runtimes and associated technology for use across the Java ecosystem. <mark>Eclipse Temurin</mark> is the name of the OpenJDK distribution from Adoptium.* 
         - [https://adoptium.net/](https://adoptium.net/)
     - ...
 
