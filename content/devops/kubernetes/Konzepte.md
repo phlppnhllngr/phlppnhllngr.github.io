@@ -73,6 +73,7 @@ grand_parent: DevOps
   - *meant for stateful applications like databases*
   - *replicate stateful apps*
   - *DBs are often hosted outside of the k8s cluster*
+  - [HN - Kubernetes StatefulSets are Broken, 13.8.22](https://news.ycombinator.com/item?id=32439255)
 - **Replicaset**
   - *manages the replicas of a pod*
   - *in practice, you don't create, update or delete replicasets, you work with deployments*
