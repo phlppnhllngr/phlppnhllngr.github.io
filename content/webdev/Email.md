@@ -8,9 +8,11 @@ parent: Webdev
 
 # Email
 - **mjml**
+  - Transpiler für Email-Templates 
   - <https://github.com/mjmlio/mjml>
   - *the only framework that makes responsive-email easy*
   - <https://mjml.io/try-it-live>
+  - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
 - **caniemail**
   - <https://www.caniemail.com/>
   - *similar to caniuse.com dedicated to support in email clients*
