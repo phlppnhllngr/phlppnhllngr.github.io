@@ -10,6 +10,7 @@ parent: API
 
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
+- [HN - Paginating Requests in APIs](https://news.ycombinator.com/item?id=31541070)
 
 
 ## binäre Datenformate
