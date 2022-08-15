@@ -13,6 +13,7 @@ parent: Java
 - <https://www.baeldung.com/java-compiled-interpreted>
 - <https://piotrminkowski.com/>
 - <https://theamiableapi.com/2012/01/16/java-api-design-checklist/>
+- <https://github.com/s4kibs4mi/java-developer-roadmap>
 
 
 ## Beispiele, Repos
