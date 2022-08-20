@@ -77,6 +77,9 @@ parent: Java
   - *extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.*
   - <https://github.com/ReactiveX/RxJava>
 - **Akka Streams**
+- **Alpakka**
+  - *Reactive Enterprise Integration library for Java and Scala, based on Reactive Streams and Akka*  
+  - <https://github.com/akka/alpakka>   
 - **BlockHound**
   - *Java agent to detect blocking calls from non-blocking threads*
   - *comes with a few built-in integrations: Project Reactor, RxJava 2 is supported.*
