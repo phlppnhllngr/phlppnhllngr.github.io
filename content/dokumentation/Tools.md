@@ -64,3 +64,8 @@ parent: Dokumentation
 - **code hike**
   - *Build first-class code walkthroughs for the web. Whether you are writing blog posts, documentation, tutorials, coding videos, or any type of technical content, Code Hike helps you create a superior code reading experience.*
   - <https://github.com/code-hike/codehike>
+- **RapiDoc**
+  - *Custom Element for Open-API spec viewing*
+  - *Supports Swagger 2.0, OpenAPI 3.x.x*
+  - node_module
+  - <https://github.com/rapi-doc/RapiDoc> 
