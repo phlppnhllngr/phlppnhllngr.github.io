@@ -109,6 +109,10 @@ parent: Java
   - *REST API framework for Java*
   - *powerful routing and filtering capabilities, unified client and server Java API*
   - <https://github.com/restlet/restlet-framework-java>
+- **ratpack**
+  - *Lean & powerful HTTP apps* 
+  - *built on the Netty event-driven networking engine* 
+  - <https://github.com/ratpack/ratpack> 
 
 
 ## Enterprise Integration
