@@ -76,7 +76,10 @@ parent: Java
   - *Reactive Extensions for the JVM*
   - *extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.*
   - <https://github.com/ReactiveX/RxJava>
-
+- **BlockHound**
+  - *Java agent to detect blocking calls from non-blocking threads*
+  - *comes with a few built-in integrations: Project Reactor, RxJava 2 is supported.*
+  - <https://github.com/reactor/BlockHound> 
 
 ## <span id="mapper">Mapper</span>
 - <https://github.com/akullpp/awesome-java#bean-mapping>
