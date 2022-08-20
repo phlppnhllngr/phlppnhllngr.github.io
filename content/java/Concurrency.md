@@ -260,3 +260,28 @@ parent: Java
 #### Concurrent Collections
 - **CopyOnWriteArrayList**
 - **ConcurrentHashMap**
+
+
+#### Reactive Streams
+- <http://www.reactive-streams.org/>
+  - *an initiative to provide a standard for asynchronous stream processing with non-blocking back pressure*
+  - *The interfaces available in JDK >= 9 java.util.concurrent.Flow, are 1:1 semantically equivalent to their respective Reactive Streams counterparts.*
+- java.util.concurrent.Flow
+  - interface Flow.Subscriber<T>
+    - onSubscribe(Subscription)
+    - onNext(T item)
+    - onComplete()
+    - onError(Throwable)
+  - interface Flow.Publisher
+    - subscribe(Subscriber)
+  - interface Flow.Processor<T, R>
+  - Subscription
+    - request(long)
+    - cancel()
+- <https://www.lightbend.com/blog/reactive-streams-java>
+  - *Now if you take two subsequent stages and treat them as a producer and a consumer of data, the producer can either be slower or faster than the consumer. While it’s fine when the producer is the slower party, the situation gets complicated when the consumer is the slower one. The reason is that the consumer can then be flooded with data, which it has to handle more or less gracefully.*
+  - *The simplest way to deal with too much data is simply to drop anything that cannot be handled - this is a common behavior e.g. in the world of networking hardware. But what if we don’t want to discard anything? Then <mark>backpressure</mark> comes to the rescue.*
+  - *the idea of backpressure boils down to bounding the amount of data being transmitted between the stages of the pipeline, so that no stage gets flooded. And since the reactive approach is about not blocking unless really necessary, the backpressure implementation in a reactive stream must be non-blocking as well.*
+  
+- <https://www.baeldung.com/java-9-reactive-streams>
+- -> Java/Libs/Async/Reactive
