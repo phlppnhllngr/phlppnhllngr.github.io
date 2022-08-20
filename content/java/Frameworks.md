@@ -130,3 +130,4 @@ Apache Camel uses URIs to work directly with any kind of Transport or messaging 
 - **MuleESB**
   - Mule ist zusätzlich ein ESB = Enterprise Service Bus
   - closed source, CPAL-Lizenz
+- **Alpakka** -> Java/Libs/Async/Reactive 
