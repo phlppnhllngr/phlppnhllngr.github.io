@@ -241,6 +241,10 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - <https://github.com/bwaldvogel/mongo-java-server>
 
 
+## Migration
+- -> Datenbank/DB/Migration
+
+
 ## Diverse
 - **velvetdb**
   - <https://github.com/zakgof/velvetdb>
@@ -289,3 +293,10 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - **jasync-sql**
   - *Async DataBase Driver for MySQL and PostgreSQL*
   - <https://github.com/jasync-sql/jasync-sql>
+
+### Migration
+- Flyway: Nein, <https://github.com/flyway/flyway/issues/2502>
+- Liquibase: Nein, <https://github.com/liquibase/liquibase/issues/1470>
+- r2dbc-migrate
+  - *Supported databases: PostgreSQL, Microsoft SQL Server, MySQL, H2, MariaDB. It also supports user-provided dialect* 
+  - <https://github.com/nkonev/r2dbc-migrate> *77
