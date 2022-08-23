@@ -95,6 +95,9 @@ parent: API
 - **wrk**
   - CLI
   - <https://github.com/wg/wrk/> *29.3k
+- **wrk2**
+  - *a HTTP benchmarking tool based mostly on wrk* 
+  - <https://github.com/giltene/wrk2> *3.5k 
 - **plow**
   - <https://github.com/six-ddc/plow/> *2k
   - *high-performance HTTP benchmarking tool with real-time web UI and terminal displaying*
