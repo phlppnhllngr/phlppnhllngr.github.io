@@ -25,9 +25,20 @@ parent: Java
     - *An important aspect of Micronaut Data JDBC / R2DBC is that regardless whether you use JPA annotations or Micronaut Data annotations the entity classes must be compiled with Micronaut Data. This is because Micronaut Data pre-computes the persistence model (the relationships between entities, the class/property name to table/column name mappings) at compilation time, which is one of the reasons Micronaut Data JDBC can startup so fast.*
     - *Supported JDBC / R2DBC Dialects: H2, MYSQL, POSTGRES, SQL_SERVER, ORACLE*
     - <https://micronaut-projects.github.io/micronaut-data/latest/guide/#sql> 
-  - **sql**
-    - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/> 
-    - <https://github.com/micronaut-projects/micronaut-sql> 
+- **sql**
+  - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/> 
+  - <https://github.com/micronaut-projects/micronaut-sql>
+  - jooq
+    - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jooq>
+    - <https://github.com/micronaut-projects/micronaut-sql/tree/master/jooq> 
+  - jdbi
+    - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbi> 
+  - vertx-pg
+    - <https://github.com/micronaut-projects/micronaut-sql/tree/master/vertx-pg-client>
+  - jasync
+    - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jasync>
+- **r2dbc**
+  -  <https://github.com/micronaut-projects/micronaut-r2dbc>
 - **servlet**
   - *Provides integration between Micronaut and the Servlet API*
   - *provides support for replacing the Netty-based HTTP server that comes with the Micronaut framework with either Jetty, Tomcat, or Undertow*
@@ -47,6 +58,14 @@ parent: Java
 - **http-client**
   - *By default, Micronaut’s HTTP client is configured to support HTTP 1.1. To enable support for HTTP/2, set the supported HTTP version in configuration*
   - <https://guides.micronaut.io/latest/micronaut-http-client.html>
+- **problem-json**
+  - *makes it easy to produce application/problem+json responses from a Micronaut application*
+  - *connects the [Problem library](https://github.com/zalando/problem) and Micronaut Error Formatting capabilities.* 
+  - <https://micronaut-projects.github.io/micronaut-problem-json/latest/guide/>
+- **flyway**
+- **management**
+- **micrometer**
+  - <https://micronaut-projects.github.io/micronaut-micrometer/latest/guide/> 
 
 
 ## Test
@@ -66,5 +85,9 @@ parent: Java
 ## Tools
 - maven-plugin
   - <https://github.com/micronaut-projects/micronaut-maven-plugin>
+- aot
+  - *implements ahead-of-time (AOT) optimizations for Micronaut application and libraries*
+  - *Micronaut AOT is an experimental project. Use at your own risk.* (23.8.22) 
+  - <https://micronaut-projects.github.io/micronaut-aot/latest/guide/> 
 - VSCode-Plugin
   - -> IDE/VSCode 
