@@ -9,7 +9,7 @@ parent: Java
 # Frameworks
 - Techempower Benchmarks
   - [Ergebnisse](https://www.techempower.com/benchmarks/#section=data-r20&hw=ph&test=fortune&l=zik0vz-sf)
-  - [github]([https://github.com/TechEmpower/FrameworkBenchmarks](https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks/Java))
+  - [github](https://github.com/TechEmpower/FrameworkBenchmarks/tree/master/frameworks/Java)
 - [Quarkus vs Micronaut, 02/2020](https://www.reddit.com/r/java/comments/ey5szi/quarkus_vs_micronaut_a_feature_and_performance/)
 - <https://web-frameworks-benchmark.netlify.app/result?l=java> <br/><br/>
 - **dropwizard**
