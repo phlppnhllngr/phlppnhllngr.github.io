@@ -173,6 +173,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://github.com/jOOQ/jOOQ> *3.4k
   - <https://www.jooq.org/>
   - FOSS (nur open source DBs unterstützt) oder Premium
+  - R2dbc: ja
 - **mybatis**
   - SQL-Mapper
   - <https://github.com/mybatis/mybatis-3> *12.1k
@@ -199,12 +200,10 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - **jdbi**
   - *uses lambda expressions and reflection to provide a friendlier, higher level interface than JDBC to access the database*
   - *has an optional SQL Object mapping module*
+  - R2dbc: Nein
   - <https://github.com/jdbi/jdbi> *1.6k
   - <http://jdbi.org/>
   - <https://www.baeldung.com/jdbi>
-- **jasync-sql**
-  - *Async DataBase Driver for MySQL and PostgreSQL*
-  - <https://github.com/jasync-sql/jasync-sql>
 - **sql2o**
   - *makes it easy to convert the result of your sql-statements into objects*
   - *A key feature of sql2o is performance. Execute 1000 SELECT statements against a DB and map the data returned to a POJO.*
@@ -256,10 +255,6 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - *intercept JDBC interactions and allows user to perform own logic before/after query or method executions*
   - *Pre-defined listeners support query logging, slow query detection, query execution statistics, interaction tracing, etc.*
   - <http://ttddyy.github.io/datasource-proxy/docs/current/user-guide/>
-- **R2DBC**
-  - <https://r2dbc.io/>
-  - *R2DBC is an endeavor to bring a reactive programming API to relational data stores.*
-  - 9.3.18: Support für postgres, h2, mssql
 - **fastnate**
   - *tool on top of JPA to generate SQL statements without having access to a database. Its main usecase is to import a bunch of initial data.*
   - <https://github.com/liefke/org.fastnate/wiki>
@@ -270,3 +265,27 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 ## Dies & das
 - **mysql jdbc driver**
   - Zeitzone festlegen (für date columns) `jdbc:mysql:...?serverTimezone=Europe/Berlin`
+
+
+## R2dbc
+- <https://r2dbc.io/>
+- *R2DBC is an endeavor to bring a reactive programming API to relational data stores.*
+- Connection Pool
+  - <https://github.com/r2dbc/r2dbc-pool> 
+- H2
+  - *Because various parts of H2 are blocking, like file and network access, the only non-blocking assurances are in the layers above H2. Nevertheless, r2dbc-h2 is a great way to warm up to the usage of R2DBC with a small footprint.* 
+  - <https://github.com/r2dbc/r2dbc-h2> 
+- Postgres
+  - <https://github.com/pgjdbc/r2dbc-postgresql> 
+- MSSQL
+- MySQL
+  - <https://github.com/mirromutth/r2dbc-mysql>
+
+### Clients
+- **vertx-sql-client**
+  - reactive
+  - Support: Postgres, MySQL, MSSQL, DB2, Oracle 
+  - <https://github.com/eclipse-vertx/vertx-sql-client>
+- **jasync-sql**
+  - *Async DataBase Driver for MySQL and PostgreSQL*
+  - <https://github.com/jasync-sql/jasync-sql>
