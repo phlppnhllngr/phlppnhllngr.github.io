@@ -23,7 +23,9 @@ parent: API
       "balance": 30,
       "accounts": ["/account/12345", "/account/67890"]
     }
-    ``` 
+    ```
+  - <https://datatracker.ietf.org/doc/html/rfc7807>
+  - <https://codeopinion.com/problem-details-for-better-rest-http-api-errors/>
   - <https://www.mscharhag.com/api-design/rest-error-format> 
 
 
