@@ -7,6 +7,7 @@ parent: Java
 - <http://micronaut.io/>
 - <https://micronaut.io/launch> (wie Spring initializer)
 - [Introduction to Micronaut • Graeme Rocher • GOTO 2019](https://www.youtube.com/watch?v=RtjSqRZ_md4)
+- <https://github.com/micronaut-projects/micronaut-comparisons>
 
 ## Projects
 - <https://github.com/micronaut-projects/>
@@ -83,11 +84,13 @@ parent: Java
 
 
 ## Tools
-- maven-plugin
+- **maven-plugin**
   - <https://github.com/micronaut-projects/micronaut-maven-plugin>
-- aot
+- **aot*
   - *implements ahead-of-time (AOT) optimizations for Micronaut application and libraries*
   - *Micronaut AOT is an experimental project. Use at your own risk.* (23.8.22) 
   - <https://micronaut-projects.github.io/micronaut-aot/latest/guide/> 
-- VSCode-Plugin
+- **VSCode-Plugin**
   - -> IDE/VSCode 
+- **generator-jhipster-micronaut**
+  - <https://github.com/jhipster/generator-jhipster-micronaut> 
