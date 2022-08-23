@@ -275,19 +275,19 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
 - <https://r2dbc.io/>
 - *R2DBC is an endeavor to bring a reactive programming API to relational data stores.*
 - Connection Pool
-  - <https://github.com/r2dbc/r2dbc-pool> 
+  - <https://github.com/r2dbc/r2dbc-pool>
 - H2
   - *Because various parts of H2 are blocking, like file and network access, the only non-blocking assurances are in the layers above H2. Nevertheless, r2dbc-h2 is a great way to warm up to the usage of R2DBC with a small footprint.* 
-  - <https://github.com/r2dbc/r2dbc-h2> 
+  - <https://github.com/r2dbc/r2dbc-h2>
 - Postgres
-  - <https://github.com/pgjdbc/r2dbc-postgresql> 
+  - <https://github.com/pgjdbc/r2dbc-postgresql>
 - MSSQL
 - MySQL
   - <https://github.com/mirromutth/r2dbc-mysql>
 
 ### Clients
+- <https://r2dbc.io/clients/> 
 - **vertx-sql-client**
-  - reactive
   - Support: Postgres, MySQL, MSSQL, DB2, Oracle 
   - <https://github.com/eclipse-vertx/vertx-sql-client>
 - **jasync-sql**
