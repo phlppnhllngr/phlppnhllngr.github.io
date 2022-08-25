@@ -11,10 +11,11 @@ grand_parent: DevOps
 - <https://github.com/wsargent/docker-cheat-sheet>
 - in Shell starten
   `docker run --entrypoint /bin/sh -it`
-- IP-Adresse des (Windows-)Host bekommen
-  `getent hosts docker.for.win.localhost | cut -d ' ' -f1`
-  oder
-  `getent hosts host.docker.internal | cut -d ' ' -f1`
+- IP-Adresse des (Windows-)Host bekommen <br/>
+  `getent hosts docker.for.win.localhost | cut -d ' ' -f1` <br/>
+  oder <br/>
+  `getent hosts host.docker.internal | cut -d ' ' -f1` <br/>
+  siehe auch <https://stackoverflow.com/questions/48546124/what-is-linux-equivalent-of-host-docker-internal/48547074#48547074>
 - Container (einschl. beendet) auflisten
   `docker ps -a`
 - Images mit `<none>` löschen
