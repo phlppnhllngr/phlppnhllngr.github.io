@@ -9,21 +9,21 @@ grand_parent: DevOps
 
 # Tipps
 - <https://github.com/wsargent/docker-cheat-sheet>
-- in Shell starten
+- in Shell starten <br/>
   `docker run --entrypoint /bin/sh -it`
 - IP-Adresse des (Windows-)Host bekommen <br/>
   `getent hosts docker.for.win.localhost | cut -d ' ' -f1` <br/>
   oder <br/>
   `getent hosts host.docker.internal | cut -d ' ' -f1` <br/>
   siehe auch <https://stackoverflow.com/questions/48546124/what-is-linux-equivalent-of-host-docker-internal/48547074#48547074>
-- Container (einschl. beendet) auflisten
+- Container (einschl. beendet) auflisten <br/>
   `docker ps -a`
-- Images mit `<none>` löschen
+- Images mit `<none>` löschen <br/>
   `docker rmi $(docker images --filter="dangling=true" -q)`
-- alte Images löschen
+- alte Images löschen <br/>
   `docker rmi $(docker images | grep -E "months ago|years ago")`
 - *processes in containers should not be run as root*
-- File aus einem Image zum Host kopieren (?)
+- File aus einem Image zum Host kopieren (?) <br/>
   `docker cp $(docker create <image>:latest):/path/in/image /path/in/host`
 - *Anywhere that you find a command that takes container ID, you only need to specify as much of the ID as makes it unique (so "616abcde" could just "616" usually). You could specify the full container name if you'd like, e.g. wonderful_davinci. If you prefer using the name, then you should probably assign a name by yourself at run time (`docker run --name foo`)*
 - *Changes to a service can be applied in-place, so for example, if you have 5 tasks running in a service and need two extra tasks, you can change your docker-compose.yml, then rerun `docker stack deploy` and you will only modify two tasks instead of recreating the original five.*
