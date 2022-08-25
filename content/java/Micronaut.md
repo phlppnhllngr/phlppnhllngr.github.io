@@ -26,17 +26,17 @@ parent: Java
     - *An important aspect of Micronaut Data JDBC / R2DBC is that regardless whether you use JPA annotations or Micronaut Data annotations the entity classes must be compiled with Micronaut Data. This is because Micronaut Data pre-computes the persistence model (the relationships between entities, the class/property name to table/column name mappings) at compilation time, which is one of the reasons Micronaut Data JDBC can startup so fast.*
     - *Supported JDBC / R2DBC Dialects: H2, MYSQL, POSTGRES, SQL_SERVER, ORACLE*
     - <https://micronaut-projects.github.io/micronaut-data/latest/guide/#sql> 
-- **sql**
+- <u>sql</u>
   - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/> 
   - <https://github.com/micronaut-projects/micronaut-sql>
-  - jooq
+  - **jooq**
     - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jooq>
     - <https://github.com/micronaut-projects/micronaut-sql/tree/master/jooq> 
-  - jdbi
+  - **jdbi**
     - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jdbi> 
-  - vertx-pg
+  - **vertx-pg**
     - <https://github.com/micronaut-projects/micronaut-sql/tree/master/vertx-pg-client>
-  - jasync
+  - **jasync**
     - <https://micronaut-projects.github.io/micronaut-sql/latest/guide/index.html#jasync>
 - **r2dbc**
   -  <https://github.com/micronaut-projects/micronaut-r2dbc>
