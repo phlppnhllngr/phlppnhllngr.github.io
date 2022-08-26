@@ -7,31 +7,31 @@ parent: JavaScript
 ---
 
 # Entwicklungstools
-- https://tooling.js.org/
-- https://bundlers.tooling.report/
+- <https://tooling.js.org/>
+- <https://bundlers.tooling.report/>
 
 ## Build
 - https://css-tricks.com/comparing-the-new-generation-of-build-tools/ (8.4.21)
 - **Parcel**
-  - https://github.com/parcel-bundler/parcel
-  - https://github.com/parcel-bundler/awesome-parcel
+  - <https://github.com/parcel-bundler/parcel>
+  - <https://github.com/parcel-bundler/awesome-parcel>
 - **esbuild**
-  - <span>https://github.com/evanw/esbuild <img src="https://badgen.net/github/stars/evanw/esbuild" alt="evanw/esbuild gh stars"/></span>
+  - <span><https://github.com/evanw/esbuild> <img src="https://badgen.net/github/stars/evanw/esbuild" alt="evanw/esbuild gh stars"/></span>
   - *The current build tools for the web are at least an order of magnitude slower*
   - Tools
     - estrella
       - *lightweight and versatile build tool based on the fantastic esbuild TypeScript and JavaScript compiler.*
       - *Rebuild automatically when source files change, ...*
-      - https://github.com/rsms/estrella
+      - <https://github.com/rsms/estrella>
 - **snowpack**
-    - https://github.com/snowpackjs/snowpack *12.8k
+    - <https://github.com/snowpackjs/snowpack> *12.8k
     - *Build web applications with less tooling and 10x faster iteration. No bundler required.*
     - benutzt intern esbuild
 - **lyo**
-  - https://github.com/bokub/lyo
+  - <https://github.com/bokub/lyo>
   - *Lyo is the easiest way to transform Node.js modules into browser-compatible libraries*
 - **Rome**
-  - https://github.com/rome/tools
+  - <https://github.com/rome/tools>
   - Toolchain (build, lint, test, ...)
   - Stand 4.5.21 beta; nur Linter
 - **vite**
@@ -45,17 +45,17 @@ parent: JavaScript
       - *Opinionated Vite Starter Template*
       - <https://github.com/antfu/vitesse>
 - **wmr**
-  - https://github.com/preactjs/wmr
+  - <https://github.com/preactjs/wmr>
 - **Webpack** → JS/Webpack
 - **Rollup**
-  - https://github.com/rollup
-  - https://github.com/rollup/awesome
+  - <https://github.com/rollup>
+  - <https://github.com/rollup/awesome>
 
 
 ## Dokumentation
 - **JSDoc**
-  - http://usejsdoc.org/
-  - https://fettblog.eu/typescript-jsdoc-superpowers/
+  - <http://usejsdoc.org/>
+  - <https://fettblog.eu/typescript-jsdoc-superpowers/>
   - um in VSCode zu "aktivieren", braucht es eine `jsconfig.json`-Datei im workspace-root mit Inhalt:
     ```json
     {
@@ -114,16 +114,16 @@ parent: JavaScript
 
 ## CDNs
 - **unpkg**
-  - https://unpkg.com/
+  - <https://unpkg.com/>
   - *unpkg is a fast, global content delivery network for everything on npm. Use it to quickly and easily load any file from any package using a URL like: unpkg.com/:package@:version/:file*
 - **skypack**
   - *packages are preoptimized for browser use. it handles minification, browser polyfilling, gzip/brotli, HTTP/3, caching, and more!*
-  - https://www.skypack.dev/
+  - <https://www.skypack.dev/>
 - **jspm**
   - *All modules on npm are converted into ES modules*
   - *Packages are served heavily optimized*
-  - https://jspm.org/
+  - <https://jspm.org/>
 - **esm.sh**
   - *global content delivery network to transform NPM packages to standard ES Modules*
   - optional: self-hosted
-  - https://esm.sh/
+  - <https://esm.sh/>
