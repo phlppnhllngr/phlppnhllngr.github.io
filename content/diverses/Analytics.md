@@ -114,4 +114,7 @@ parent: Diverses
   - *Access data from hundreds of supported on-premises and cloud-based sources*
   - *Power BI Desktop (free to use) and Power BI Pro (available for a low monthly price per user).*
   - <https://powerbi.microsoft.com/>
+  - Power BI Gateway
+    - *Connect to on-premises data sources* 
+    - <https://powerbi.microsoft.com/en-us/gateway/> 
 
