@@ -88,4 +88,7 @@ parent: Security
 - **Casdoor**
   - *An Identity and Access Management (IAM) / Single-Sign-On (SSO) platform with web UI supporting OAuth 2.0, OIDC, SAML and CAS*
   - *A UI-first centralized authentication / Single-Sign-On (SSO) platform based on OAuth 2.0 / OIDC.* 
-  - <https://github.com/casdoor/casdoor> 
+  - <https://github.com/casdoor/casdoor>
+- **Authing**
+  - *serves as an identity infrastructure, or Identity As A Service (IDaaS) for cloud computing* 
+  - <https://github.com/Authing/Authing> 
