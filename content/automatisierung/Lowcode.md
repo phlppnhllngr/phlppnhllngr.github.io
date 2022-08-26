@@ -87,6 +87,9 @@ parent: Automatisierung
     - *backend in Rust*
     - *frontend in svelte*
   - <https://github.com/windmill-labs/windmill>
+- **Superblocks** 💰
+  - *programmable IDE for developers to build any internal app, workflow or scheduled job* 
+  - <https://www.superblocks.com/> 
 
 
 ## Workflows, Pipelines
