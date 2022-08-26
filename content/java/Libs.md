@@ -40,7 +40,7 @@ parent: Java
   <a>Metrics</a>
   <a>Template engines</a>
   <a href="#regex">Regex</a>
-  <a href="#reflection">Reflection</a>
+  <a href="#reflection">Reflection & Bytecode</a>
   <a href="#cli">CLI</a>
   <a href="#utility">Utility</a>
   <a href="#func">Functional</a>
@@ -411,7 +411,7 @@ parent: Java
   - *build regex using human language*
 
 
-## <span id="reflection">Reflection</span>
+## <span id="reflection">Reflection & Bytecode</span>
 - **reflections**
   - <https://github.com/ronmamo/reflections>
 - **joor**
@@ -426,6 +426,28 @@ parent: Java
 - **permit-reflect**
   - <https://github.com/nqzero/permit-reflect>
   - *permit reflective access for java 11+ (modules)*
+- **Objenesis**
+  - *serves one purpose: To instantiate a new object of a particular class*
+  - *Java already supports this dynamic instantiation of classes using Class.newInstance(). However, this only works if the class has an appropriate constructor. There are many times when a class cannot be instantiated this way*
+  - <http://objenesis.org/>
+- **ByteBuddy**
+  - *high level byte code manipulation, built on top of ASM*
+  - auch als Agent erhältlich
+  - <https://bytebuddy.net/>
+  - Beispiele
+    - http interceptor: <https://httptoolkit.tech/blog/how-to-intercept-debug-java-http/>
+    - log4j-jndi-be-gone: <https://github.com/nccgroup/log4j-jndi-be-gone> - *A Byte Buddy Java agent-based fix for CVE-2021-44228, the log4j 2.x "JNDI LDAP" vulnerability.*
+- **cglib**
+  - *high level API to generate and transform Java byte code.*
+  - *IMPORTANT NOTE: cglib is unmaintained and does not work well (or possibly at all?) in newer JDKs, particularly JDK17+. If you need to support newer JDKs, we will accept well-tested well-thought-out patches... but you'll probably have better luck migrating to something like ByteBuddy.* 
+  - <https://github.com/cglib/cglib> 
+  - <https://www.baeldung.com/cglib> 
+- **javassist**
+  - *makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java; it enables Java programs to define a new class at runtime and to modify a class file when the JVM loads it.*
+  - *Unlike other similar bytecode editors, Javassist provides two levels of API: source level and bytecode level.*
+  - *If the users use the source- level API, they can edit a class file without knowledge of the specifications of the Java bytecode. The whole API is designed with only the vocabulary of the Java language. You can even specify inserted bytecode in the form of source text; Javassist compiles it on the fly.*
+  - *On the other hand, the bytecode-level API allows the users to directly edit a class file as other editors.* 
+  - <https://github.com/jboss-javassist/javassist> *3.4k
 
 
 ## <span id="cli">CLI</span>
