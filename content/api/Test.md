@@ -74,11 +74,14 @@ parent: API
   - <https://www.gremlin.com/blog/introducing-gremlin-free/>
   - *provides the ability to run both Shutdown and CPU attacks on your hosts or containers, controlled by a simple user interface at no cost*
   - free & 💰
-- **Apache Jmeter**
+- **Apache JMeter**
   - <https://jmeter.apache.org/>
   - <https://github.com/apache/jmeter> *6.4k
   - *100% pure Java application designed to load test functional behavior and measure performance*
   - *Ability to load and performance test many different applications/server/protocol types: Web - HTTP, HTTPS, SOAP / REST Webservices, FTP, Database via JDBC, ...*
+- **JMeter DSL**
+  - <https://abstracta.github.io/jmeter-java-dsl/>
+  - Vergleich mit Gatling etc: <https://abstracta.github.io/jmeter-java-dsl/motivation/#alternatives-analysis>
 - **Gatling**
   - <https://gatling.io/>
   - <https://github.com/gatling/gatling/> *4400
