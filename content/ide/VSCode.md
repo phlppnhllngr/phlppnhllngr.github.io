@@ -202,6 +202,7 @@ parent: IDE
   - [benötigtes Binary für Windows](https://storage.googleapis.com/shellcheck/shellcheck-latest.zip)
 - **XML Tools**
 - **redhat.vscode-xml**
+  - <https://github.com/redhat-developer/vscode-xml> 
 - **sort json objects**
 - **vscode-groovy-lint**
   - *lint, correct and format groovy and Jenkinsfile*
