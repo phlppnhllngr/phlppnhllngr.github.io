@@ -75,6 +75,9 @@ parent: Java
   - <https://projectreactor.io/>
   - <https://projectreactor.io/learn>
   - <https://projectreactor.io/docs>
+    - <https://projectreactor.io/docs/core/release/reference/#metrics>
+    - <https://projectreactor.io/docs/core/release/reference/#debugging>
+    - <https://projectreactor.io/docs/core/release/reference/#testing>
 - **RxJava**
   - *Reactive Extensions for the JVM*
   - *extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.*
