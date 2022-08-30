@@ -29,6 +29,7 @@ parent: Java
     - *attaches to the specified process or core file and prints the stack traces of all threads that are attached to the virtual machine, including Java threads and VM internal threads, and optionally native stack frames. The utility also performs deadlock detection.*
   - **jmc** (java mission control)
       - *contains a plugin that allows us to visualize the data collected by JFR*
+      <img src="https://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.2.0/eclipse/images/screen-capture-01-large.png" loading="lazy" />
   - **jfr** (java flight recorder)
     - *collects information about the events in a Java Virtual Machine (JVM) during the execution of a Java application*
     - *is a tool for collecting diagnostic and profiling data about a running Java application. It is integrated into the Java Virtual Machine (JVM)*
