@@ -47,6 +47,7 @@ parent: Java
   - **jconsole**
     - *The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.*
     - <https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html>
+    <img src="https://docs.oracle.com/javase/8/docs/technotes/guides/management/figures/overviewtab.gif" loading="lazy" />
 
 
 ## Profilers
