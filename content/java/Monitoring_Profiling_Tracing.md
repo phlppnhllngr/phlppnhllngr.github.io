@@ -146,6 +146,9 @@ parent: Java
   - *allow self-hosting*
   - *Either use Sidekick's Web IDE, VS Code & IntelliJ IDEA extensions to control your Sidekick Actions or use headless clients to bring Sidekick to your workflow in any way you want!*
   - Support für Java (`-javaagent`), Nodejs, Python
+  - IDE-Integration
+    - VSCode: Node, Python
+    - Intellij: Java 
   - <https://github.com/runsidekick/sidekick>
   - <https://docs.runsidekick.com/>
 - **Lightrun** 💰
