@@ -140,3 +140,9 @@ parent: Cloud
 
 ## Hetzner
 - <https://www.hetzner.com/>
+
+## netcup
+- <https://www.netcup.de/>
+
+## Contabo
+- <https://contabo.com/de/>
