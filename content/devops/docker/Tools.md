@@ -15,6 +15,7 @@ grand_parent: DevOps
   - compose-file v2: <https://docs.docker.com/compose/compose-file/compose-file-v2>
   - compose-file v3: <https://docs.docker.com/compose/compose-file>
   - extending: <https://docs.docker.com/compose/extends>
+  - [HN - Docker Compose best practices for dev and prod, 08/22](https://news.ycombinator.com/item?id=32484008)
 - **Composerize**
   - *Turns docker run commands into docker-compose files*
   - <https://github.com/magicmark/composerize>
