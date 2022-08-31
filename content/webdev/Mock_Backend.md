@@ -88,6 +88,9 @@ parent: Webdev
   - <https://github.com/mswjs/msw>
   - benutzt Serviceworker
   - *Utilizing the Service Worker API, MSW responds to requests with your mock definition on the network level. This way your application knows nothing about the mocking.*
+- **Mocks Server**
+  - *Define your mocked API routes in YAML, JSON, JavaScript or TypeScript files* 
+  - <https://github.com/mocks-server/main>
 
 ### Java
 - **WireMock**
