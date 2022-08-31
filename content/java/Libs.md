@@ -37,8 +37,8 @@ parent: Java
   <a>XML</a>
   <a href="#di">DI</a>
   <span>Logging → Java/Logging</span>
-  <a>Metrics</a>
-  <a>Template engines</a>
+  <a href="#metrics">Metrics</a>
+  <a href="#template">Template engines</a>
   <a href="#regex">Regex</a>
   <a href="#reflection">Reflection & Bytecode</a>
   <a href="#cli">CLI</a>
@@ -350,13 +350,13 @@ parent: Java
   - <https://github.com/zsoltherpai/feather> *328
 
 
-## Metrics
+## <span id="metrics">Metrics</span>
 - **micrometer**
   - <https://github.com/micrometer-metrics/micrometer> *2.1k
   - *An application metrics facade for the most popular monitoring tools. Think SLF4J, but for metrics.*
 
 
-## Template engines
+## <span id="template">Template engines</span>
 - <https://github.com/akullpp/awesome-java#template-engine>
 - <https://github.com/xmlet/template-benchmark>
 - <https://github.com/jreijn/spring-comparing-template-engines>
@@ -394,7 +394,9 @@ parent: Java
   - Intellij-, Maven-Plugins
   - behauptet schneller als "rocker" zu sein
 - **freemarker**
-- **pebble**
+- **Pebble**
+  - <https://pebbletemplates.io/>
+  - <https://github.com/PebbleTemplates/pebble>
 - **velocity**
 - **jinjava**
   - <https://github.com/HubSpot/jinjava>
