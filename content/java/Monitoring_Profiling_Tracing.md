@@ -134,10 +134,24 @@ parent: Java
 - **Apache Skywalking**
   - <https://github.com/apache/skywalking>
 - **fusion-reactor** 💰
+  - *will instantly discover Java application errors, memory & CPU bottlenecks and code & SQL performance problems*
+  - *Real-Time Monitoring, Continuous Profiling, Database Monitoring, Live Debugging, Multi-Channel Alerts*
   - <https://www.fusion-reactor.com/>
 - **Rookout** 💰
   - <https://www.rookout.com/>
   - *remote debugging, logging, monitoring, profiling*
+- **Sidekick**
+  - *Like chrome dev tools but for your backend*
+  - *Add dynamic logs and put non-breaking breakpoints in your running application without the need of stopping & redeploying*
+  - *allow self-hosting*
+  - *Either use Sidekick's Web IDE, VS Code & IntelliJ IDEA extensions to control your Sidekick Actions or use headless clients to bring Sidekick to your workflow in any way you want!*
+  - Support für Java (`-javaagent`), Nodejs, Python
+  - <https://github.com/runsidekick/sidekick>
+  - <https://docs.runsidekick.com/>
+- **Lightrun** 💰
+  - *Dev Observability Platform for Production Debugging*
+  - *Instrument Your Live Application with Dynamic Logs, Metrics and Traces Directly from Your IDE. No Reproducing or Redeployments required*
+  - <https://lightrun.com/> 
 - **OpenTelemetry**
   - → DevOps/Monitoring
   - SDK
