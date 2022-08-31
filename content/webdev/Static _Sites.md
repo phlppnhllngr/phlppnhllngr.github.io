@@ -65,6 +65,7 @@ parent: Webdev
   - *Bring Your Own Framework (BYOF)*
   - *renders your entire page to static HTML, removing all JavaScript from your final build by default*
   - <https://github.com/snowpackjs/astro>
+  - [YT Travery Media - Astro Crash Course, 08/22](https://www.youtube.com/watch?v=Oi9z5gfIHJs) 
 
 
 ## Hosting
