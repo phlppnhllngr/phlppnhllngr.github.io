@@ -85,4 +85,8 @@ grand_parent: DevOps
   - <https://github.com/kubernetes-client/java>
 - **opencost**
   - *visibility into current and historical Kubernetes spend and resource allocation* 
-  - <https://github.com/opencost/opencost> 
+  - <https://github.com/opencost/opencost>
+- **kubescape**
+  - *providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning*
+  - *scans K8s clusters, YAML files, and HELM charts, detecting misconfigurations according to multiple frameworks, software vulnerabilities, and RBAC (role-based-access-control) violations at early stages of the CI/CD pipeline, calculates risk score instantly and shows risk trends over time* 
+  - <https://github.com/kubescape/kubescape> 
