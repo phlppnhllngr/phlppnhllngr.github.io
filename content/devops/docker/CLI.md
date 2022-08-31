@@ -15,6 +15,7 @@ grand_parent: DevOps
   - *The new Compose V2, which supports the compose command as part of the Docker CLI, is now available.*
   - *Run docker compose up and the Docker compose command starts and runs your entire app. You can alternatively run docker-compose up using Compose standalone (docker-compose binary).*
   - <https://docs.docker.com/compose/reference/>
+  - -> Docker/Tools/compose
 - **events**
   - *get real-time events from the server* 
   - <https://docs.docker.com/engine/reference/commandline/events/> 
