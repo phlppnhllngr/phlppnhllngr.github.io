@@ -107,3 +107,5 @@ https://medium.com/dailyjs/a-realworld-comparison-of-front-end-frameworks-2020-4
   - <https://github.com/BuilderIO/qwik>
 - **marko**
   - <https://github.com/marko-js/marko> *11.3k
+- **astro**
+  - [YT - Astro Crash Course, 08/22](https://www.youtube.com/watch?v=Oi9z5gfIHJs) 
