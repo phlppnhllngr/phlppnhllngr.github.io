@@ -238,6 +238,8 @@ parent: Java
 - **caliper**
   - *tool for measuring Java code performance, primarily focused on microbenchmarks.* 
   - <https://github.com/google/caliper> *620
+  - <https://github.com/google/caliper/wiki>
+  - <https://github.com/google/caliper/tree/master/caliper-examples/src/main/java>
 - **quickperf**
   - *quickly evaluate and improve some performance-related*
   - Annotationen für `@Test`-Methoden (z. B. @MeasureHeapAllocation, @ExpectSelect (sql))
