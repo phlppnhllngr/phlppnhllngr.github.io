@@ -105,6 +105,9 @@ parent: Java
   - *intelligent object mapping library that automatically maps objects to each other*
   - *uses a convention based approach while providing a simple refactoring safe API for handling specific use cases.*
   - <https://github.com/modelmapper/modelmapper> *1.9k
+- **ShapeShift**
+  - reflection based 
+  - <https://github.com/krud-dev/shapeshift> 
 
 
 ## <span id="serial">(De)Serialisierung</span>
