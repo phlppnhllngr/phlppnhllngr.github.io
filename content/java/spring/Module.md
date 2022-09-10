@@ -61,6 +61,8 @@ grand_parent: Java
     - *filter a collection argument before executing the method*
   - @PostFilter
     - *filter the returned collection of a method*
+- **WebSecurityConfigurerAdapter**
+- **AuthenticationManager**
 
 ### Test
 - @WithMockUser
