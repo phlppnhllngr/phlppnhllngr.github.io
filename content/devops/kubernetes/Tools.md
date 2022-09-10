@@ -6,7 +6,6 @@ grand_parent: DevOps
 
 # Tools
 - docker-desktop → Docker/Tools
-- <https://yankee.dev/6-tools-to-run-kubernetes-locally>
 - **kubectl**
   - *The kubectl command line tool lets you control Kubernetes clusters. deploy applications, inspect and manage cluster resources, and view logs*
   - *submits commands to master-node's api server*
