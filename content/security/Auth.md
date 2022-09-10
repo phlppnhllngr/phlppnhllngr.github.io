@@ -92,3 +92,11 @@ parent: Security
 - **Authing**
   - *serves as an identity infrastructure, or Identity As A Service (IDaaS) for cloud computing* 
   - <https://github.com/Authing/Authing> 
+
+
+## LDAP & AD
+- *LDAP (Lightweight Directory Access Protocol) is an application protocol for querying and modifying items in directory service providers like Active Directory, which supports a form of LDAP.*
+- *Active Directory (AD) is a database based system that provides authentication, directory, policy, and other services in a Windows environment*
+- *LDAP, is a standards based specification for interacting with directory data. Directory Services can implement support of LDAP to provide interoperability among 3rd party applications. Active Directory is Microsoft's implementation of a directory service that, among other protocols, supports LDAP to query it's data.*
+- *Active Directory isn't just an implementation of LDAP by Microsoft, that is only a small part of what AD is. Active Directory is (in an overly simplified way) a service that provides LDAP based authentication with Kerberos based Authorization.*
+- *LDAP sits on top of the TCP/IP stack and controls internet directory access. It is environment agnostic.*
