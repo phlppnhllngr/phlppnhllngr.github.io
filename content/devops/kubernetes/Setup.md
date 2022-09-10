@@ -75,3 +75,5 @@ grand_parent: DevOps
   - *Perfect for: Developer workstations IoT Edge CI/CD*
   - *Unlike miniKube, microK8S can run multiple nodes in the local Kubernetes cluster*
   - <https://github.com/canonical/microk8s> *6.7k
+- <https://yankee.dev/6-tools-to-run-kubernetes-locally>
+- <https://www.jambit.com/aktuelles/toilet-papers/minikube-vs-kind-vs-k3s-welches-lokale-kubernetes-cluster-eignet-sich-am-besten/>
