@@ -62,6 +62,7 @@ grand_parent: DevOps
   - *offers a VM based Kubernetes environment*
   - *is designed for use in production, which makes it one of the best options to simulate a real production environment locally*
   - <https://github.com/k3s-io/k3s> *20.9k
+  - <https://k3s.io/>
 - **k3d**
   - *Little helper to run CNCF's k3s in Docker*
   - *k3s is the lightweight Kubernetes distribution by Rancher*
