@@ -96,6 +96,16 @@ parent: Java
   - *Helidon requires Java 11 (or newer) and Maven.*
   - <https://helidon.io/>
   - <https://github.com/oracle/helidon> *1.8k
+  - Helido Nima (Níma)
+    - *a Java 19 (currently early access) based implementation of a server designed for Java Virtual Threads (product of Project Loom)* 
+    - *the first microservices framework based on virtual threads*
+    - *The Helidon Níma web server intends to replace Netty in the Helidon ecosystem*
+    - *will be a part of the next major Helidon release which is currently planned at the end of 2023*
+    - *Prior to Helidon Nima, developers would have a choice to use Helidon MP and write JAX-RS applications, or if they needed a higher level of performance and throughput they could use Helidon SE and write reactive based services. However, the reactive based services are more complex to write, maintain, and debug.*
+    - *Development with Helidon Níma is much easier as it follows a simplified programming model with (almost) unlimited virtual threading resources available. The JVM takes care of the optimizations.*
+    - <https://medium.com/helidon/helidon-n%C3%ADma-helidon-on-virtual-threads-130bb2ea2088> 12.09.22
+      - Features
+      - Getting Started 
 - **blade**
   - *Based on Java8 + Netty4 to create a lightweight, high-performance, simple and elegant Web framework*
   - ```java
