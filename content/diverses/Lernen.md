@@ -12,7 +12,7 @@ parent: Diverses
 - <https://github.com/williamfiset/Algorithms>
 - <https://github.com/fpereiro/backendlore> ⭐3.8k - *How I write backends*
 - <https://github.com/justinamiller/SoftwareArchitect> ⭐5.2k
-- <https://github.com/GoogleCloudPlatform/microservices-demo>
+- <https://github.com/GoogleCloudPlatform/microservices-demo> - *Sample cloud-native application with 10 microservices showcasing Kubernetes, Istio, gRPC and OpenCensus*
 - <https://github.com/PizzaPokerGuy/ultimate-coding-resources>
 - <https://github.com/sdmg15/Best-websites-a-programmer-should-visit#readme>
 - <https://github.com/ossu/computer-science>
