@@ -66,6 +66,13 @@ parent: Diverses
   - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e> (exit on error)
 - **set -x**
   *which is like DOS’ ECHO ON: it prints every command before it runs. Free progress log*
+- **Strings prüfen**
+  - Ob leer (zero-length, null): `if [ -z "$str" ];`
+  - Ob nicht leer: `if [ -n "$str" ];`
+- **Dateien prüfen**
+  - Ob Datei existiert: `if [ -d $dir ];`
+  - Ob Datei nicht existiert: `if [ ! -d $dir ];`
+  - 
 
 ### Tools
   - **shellspec**
@@ -114,7 +121,9 @@ parent: Diverses
   - *command-line JSON processor*
   - <https://earthly.dev/blog/jq-select>
 - **watch**
-  - `watch -n 1 date +%s` 
+  - `watch -n 1 date +%s`
+- **sed**
+  - foo in text.txt durch bar ersetzen (`-i` = replace inline): `sed -i "s/foo/bar/" "./text.txt"`
 
 
 ## Distributionen
