@@ -72,7 +72,6 @@ parent: Diverses
 - **Dateien prüfen**
   - Ob Datei existiert: `if [ -d $dir ];`
   - Ob Datei nicht existiert: `if [ ! -d $dir ];`
-  - 
 
 ### Tools
   - **shellspec**
