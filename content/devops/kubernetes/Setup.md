@@ -61,6 +61,7 @@ grand_parent: DevOps
   - *single binary, wraps Kubernetes and other components in a single, simple launcher*
   - *offers a VM based Kubernetes environment*
   - *is designed for use in production, which makes it one of the best options to simulate a real production environment locally*
+  - kein Windows-Support: <https://github.com/k3s-io/k3s/issues/114>
   - <https://github.com/k3s-io/k3s> *20.9k
   - <https://k3s.io/>
 - **k3d**
