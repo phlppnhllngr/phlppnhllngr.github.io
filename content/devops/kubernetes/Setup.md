@@ -66,8 +66,9 @@ grand_parent: DevOps
   - <https://k3s.io/>
 - **k3d**
   - *Little helper to run CNCF's k3s in Docker*
-  - *k3s is the lightweight Kubernetes distribution by Rancher*
-  - *you can spin up a multi-node k3s cluster on a single machine using docker*
+  - *one of the apparent differences is that k3s deploys a virtual machine-based Kubernetes cluster while k3d deploys Docker-based k3s Kubernetes clusters*
+  - *k3d is more suitable for use in even smaller environments like Raspberry Pi, IoT, and Edge devices.*
+  - *k3d appears to be a more flexible and improved version of k3s even though their features and usage are similar.*
   - <https://github.com/k3d-io/k3d> *3.8k
   - VSC-Plugin: <https://github.com/inercia/vscode-k3d>
   - GUI: <https://github.com/inercia/k3x>
