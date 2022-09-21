@@ -64,6 +64,11 @@ grand_parent: Java
 - **WebSecurityConfigurerAdapter**
 - **AuthenticationManager**
 
+
+### LDAP
+- <https://stevenschwenke.de/LDAPWithSpringSecurity>
+- <https://www.baeldung.com/spring-security-ldap>
+
 ### Test
 - @WithMockUser
 - @WithAnonymousUser
