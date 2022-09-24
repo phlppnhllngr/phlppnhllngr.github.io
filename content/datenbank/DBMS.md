@@ -33,6 +33,16 @@ parent: Datenbank
           - *Multiple processes can access the same database without having to start the server manually. To do that, append `;AUTO_SERVER=TRUE` to the database URL. You can use the same database URL independent of whether the database is already open or not. This feature doesn't work with in-memory databases.*
           - *Internally, when using this mode, the first connection to the database is made in embedded mode, and additionally a server is started internally (as a daemon thread).*
           - *the first connection to the database uses the embedded mode, which is faster than the server mode. Therefore the main application should open the database first if possible.*
+  - Shell
+    ```java -cp ~/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar org.h2.tools.Shell```
+    Transaction:
+    ```
+    autocommit false
+    prepare commit test_ta;
+    create table foo (id int identity primary key, value varchar(255));
+    insert into foo (value) values ('A'), ('B');
+    commit transaction test_ta; / rollback transaction test_ta;
+    ```
   - [Settings](http://h2database.com/html/features.html?highlight=AUTO_SERVER&search=AUTO_SERVER#database_url)
     - Encryption
       - <http://h2database.com/html/features.html#file_encryption>
