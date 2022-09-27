@@ -34,7 +34,9 @@ parent: Datenbank
           - *Internally, when using this mode, the first connection to the database is made in embedded mode, and additionally a server is started internally (as a daemon thread).*
           - *the first connection to the database uses the embedded mode, which is faster than the server mode. Therefore the main application should open the database first if possible.*
   - Shell
-    ```java -cp ~/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar org.h2.tools.Shell```
+    ```
+    java -cp ~/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar org.h2.tools.Shell
+    ```
     Transaction:
     ```
     autocommit false
