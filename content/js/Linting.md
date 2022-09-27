@@ -10,56 +10,56 @@ parent: JavaScript
 
 ## Tooling
 - **lint-staged**
-  - https://github.com/okonet/lint-staged
+  - <https://github.com/okonet/lint-staged>
 - **prettier**
-  - https://prettier.io
+  - <https://prettier.io>
   - pretty-quick
-    - https://github.com/azz/pretty-quick
+    - <https://github.com/azz/pretty-quick>
     - *Runs Prettier on your changed files.* (Git)
 - **ESLint**
-  - https://eslint.org
+  - <https://eslint.org>
   - presets
     - eslint-config-airbnb(-base)
     - eslint-config-canonical
       - <https://github.com/gajus/eslint-config-canonical>
   - plugins
     - eslint-plugin-spellcheck
-      - https://www.npmjs.com/package/eslint-plugin-spellcheck
+      - <https://www.npmjs.com/package/eslint-plugin-spellcheck>
       - Das Plugin bringt nur Englisch mit. Da es auf [hunspell] basiert, könnte man aber eigene dictionaries in sein Verzeichnis kopieren.
     - ~~https://www.npmjs.com/package/eslint-plugin-polymer~~
     - eslint-plugin-prefer-logger
-      - https://github.com/wreulicke/eslint-plugin-prefer-logger
+      - <https://github.com/wreulicke/eslint-plugin-prefer-logger>
     - eslint-plugin-fp
       - (functional programming)
-      - https://github.com/jfmengels/eslint-plugin-fp
+      - <https://github.com/jfmengels/eslint-plugin-fp>
     - eslint-plugin-import
-      - https://github.com/benmosher/eslint-plugin-import
+      - <https://github.com/benmosher/eslint-plugin-import>
       - *import/export syntax, and prevent issues with misspelling of file paths and import names*
     - eslint-plugin-you-dont-need-lodash-underscore
     - eslint-plugin-standard
       - deprecated
-      - https://www.npmjs.com/package/eslint-plugin-standard
+      - <https://www.npmjs.com/package/eslint-plugin-standard>
     - eslint-plugin-html
       - *lint and fix inline scripts contained in HTML files*
-      - https://www.npmjs.com/package/eslint-plugin-html
+      - <https://www.npmjs.com/package/eslint-plugin-html>
     - eslint-plugin-promise
-      - https://www.npmjs.com/package/eslint-plugin-promise
+      - <https://www.npmjs.com/package/eslint-plugin-promise>
     - eslint-plugin-jsdoc
-      - https://www.npmjs.com/package/eslint-plugin-jsdoc
+      - <https://www.npmjs.com/package/eslint-plugin-jsdoc>
     - eslint-plugin-unicorn
       - *Various awesome ESLint rules*
-      - https://github.com/sindresorhus/eslint-plugin-unicorn
+      - <https://github.com/sindresorhus/eslint-plugin-unicorn>
   - eslint-friendly-formatter
     - formatter/reporter
-    - https://www.npmjs.com/package/eslint-friendly-formatter
+    - <https://www.npmjs.com/package/eslint-friendly-formatter>
   - eigene Regeln
-    - https://blog.theodo.com/2020/04/create-your-own-eslint-rules/
+    - <https://blog.theodo.com/2020/04/create-your-own-eslint-rules/>
 - **standard**
-  - https://github.com/standard/standard *22400
+  - <https://github.com/standard/standard> *22400
   - *JavaScript Style Guide, with linter & automatic code fixer*
   - 0-config
 - **rslint**
-  - https://github.com/rslint/rslint
+  - <https://github.com/rslint/rslint>
   - rust based
 
 
@@ -71,10 +71,10 @@ parent: JavaScript
 
 ### VSCode + prettier + eslint
 - *ESLint’s JSON files also allow JavaScript-style comments*
-- kann eslint config auch in package.json stehen haben
+- kann eslint-Konfig auch in package.json stehen haben
 - commit-hook → run lint-staged
-- https://www.youtube.com/watch?v=SydnKbGc7W8 - traversy media 19.7.19
-- https://silvenon.com/blog/integrating-and-enforcing-prettier-and-eslint - 25.3.19
+- <https://www.youtube.com/watch?v=SydnKbGc7W8> - traversy media 19.7.19
+- <https://silvenon.com/blog/integrating-and-enforcing-prettier-and-eslint> - 25.3.19
 - <u>VSCode-Plugins</u>
   - **prettier**
     - settings (→ inwiefern überschneidet/beißt sich das mit .prettierrc?)

@@ -6,9 +6,23 @@ has_children: true
 
 # Webdev
 - <https://developers.google.com/web/updates/capabilities>
-- <https://websitelaunchchecklist.com/>
 - <https://uitest.com/> - *Test your website in more than 80 tools*
 - Webseite als Link (data:text/html): <https://www.reddit.com/r/webdev/comments/uxuqdx/websitewebapp_that_lives_entirely_in_a_link_dont/.compact>
+- <https://frontendmasters.com/books/front-end-handbook/2018/>
+- <https://www.reddit.com/r/webdev/comments/bcj1hw/frontend_developer_handbook_2019/>
+- <https://github.com/kamranahmedse/developer-roadmap>
+- <https://roadmap.sh/frontend>
+- <https://engineering.videoblocks.com/web-architecture-101-a3224e126947>
+- <https://andreasbm.github.io/web-skills/>
+
+
+## Checklists
+- <https://github.com/thedaviddias/Front-End-Checklist>
+- <http://dhilipsiva.com/webapp-checklist/>
+- <https://websitelaunchchecklist.com/>
+
+
+## HTTP
 - **Http/2 (Http 2)**
   - *HTTP/2 leaves most of HTTP 1.1's high-level syntax, such as methods, status codes, header fields, and URIs, the same. What is new is how the data is framed and transported between the client and the server*
   - *HTTP/2 allows the server to "push" content, that is, to respond with data for more queries than the client requested. This allows the server to supply data it knows a web browser will need to render a web page, without waiting for the browser to examine the first response, and without the overhead of an additional request cycle*
@@ -24,3 +38,43 @@ has_children: true
   - <http://browserl.ist/>
 - **caniuse**
   - <https://caniuse.com/>
+
+
+## Recorder
+- **Chrome Recorder Panel**
+  - <https://www.youtube.com/watch?v=rMUayh1QPYs>
+- **rrweb**
+  - Zeichnet Events (Klicks, Mausbewegungen, ...) auf. Kann als json gespeichert und dann wieder abgespielt werden.
+  - <https://github.com/rrweb-io/rrweb> ⭐5.7k
+- **mouseflow**
+  - *session replay / recording and website heatmap tool*
+- **replay.io** 💰
+  - *Record and replay web applications with familiar browser dev tools.* 
+  - <https://www.replay.io/> 
+- **TimeCat**
+  - <https://github.com/oct16/TimeCat>
+- **openreplay**
+  - <https://github.com/openreplay/openreplay>
+
+
+## Diverse Tools
+- <https://toolkit.addy.codes/<>
+  - *531 hand-picked tools & resources for web designers & developers*
+- **hoard.fyi**
+  - <https://hoard.fyi/>
+  - *Curated tools & resources for web designers, developers & makers*
+- <https://www.reddit.com/r/webdev/comments/cge238/i_compiled_a_list_of_the_all_the_web_devdesign/>
+- **Screenshoteer**
+  - *Make website screenshots and mobile emulations from the command line*
+  - <https://github.com/vladocar/screenshoteer>
+- **Nativefier**
+  - *Make any web page a desktop application*
+  - <https://github.com/jiahaog/nativefier>
+- **VisBug**
+  - <https://github.com/GoogleChromeLabs/ProjectVisBug>
+- **html5boilerplate**
+  - <https://html5boilerplate.com/>
+- **Blisk**
+  - Chromium-basierter Browser für mobile development
+  - <https://blisk.io/>
+  - freemium
