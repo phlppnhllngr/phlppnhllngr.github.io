@@ -61,4 +61,6 @@ parent: Webdev
   - <https://github.com/golang/go/wiki/WebAssembly>
   - PDF: jung-kurt/gofpdf?
 - <u>Rust</u>
-  - <https://github.com/yewstack/yew>
+  - **yew**
+    - *Rust framework for creating multi-threaded front-end web apps with WebAssembly* 
+    - <https://github.com/yewstack/yew>
