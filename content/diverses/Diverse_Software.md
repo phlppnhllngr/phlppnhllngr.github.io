@@ -21,6 +21,10 @@ parent: Diverses
 - <https://github.com/ripienaar/free-for-dev>
 - <https://github.com/awesome-selfhosted/awesome-selfhosted>
 - <https://github.com/RunaCapital/awesome-oss-alternatives> - *list of open-source startup alternatives to well-known SaaS products*
+- Trending
+  - <https://ossinsight.io/#trending-repos>
+  - <https://trends.vercel.app/>
+  - <https://www.libhunt.com/> 
 - **opensource.builders**
   - <https://opensource.builders/>
   - *Find open-source alternatives for your favorite apps*
