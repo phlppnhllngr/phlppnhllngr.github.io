@@ -15,6 +15,8 @@ has_children: true
 - <https://github.com/jayendrapatil/kubernetes-exercises>
 - <https://flant.com/k8s-iceberg.svg>
 - <https://github.com/kelseyhightower/kubernetes-the-hard-way> - *Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.*
+- <https://github.com/bregman-arie/devops-resources/blob/master/resources/kubernetes.md>
+- <https://github.com/bregman-arie/devops-exercises/blob/master/topics/kubernetes/README.md>
 
 
 ## YAML-Konfigurationsdateien
