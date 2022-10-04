@@ -37,7 +37,7 @@ grand_parent: DevOps
     - relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
     - volume-Varianten
       - → Docker/Storage
-      - bind mount ("host voulume")
+      - bind mount ("host volume")
         - `-v /host/path/:/container/path`
       - managed
         - unnamed (anonymous) managed
