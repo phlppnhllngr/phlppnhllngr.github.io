@@ -101,4 +101,18 @@ parent: DevOps
 - **statsd**
   - *Daemon for easy but powerful stats aggregation*
   - *A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services (e.g., Graphite).* 
-  - <https://github.com/statsd/statsd> 
+  - <https://github.com/statsd/statsd>
+- **Promscale**
+  - *a unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB*
+  - *Unlike other observability backends, it has a simple and easy-to-manage architecture with just two components: the Promscale Connector and the Promscale Database (PostgreSQL with the TimescaleDB and Promscale extensions)*
+  - <https://github.com/timescale/promscale>
+- **Uptrace**
+  - *APM tool with support for distributed tracing, metrics, and logs*
+  - *You can use it to monitor applications and set up automatic alerts to receive notifications via email, Slack, Telegram, and more*
+  - *uses OpenTelelemetry to collect data and ClickHouse database to store it. ClickHouse is the only dependency.* 
+  - <https://github.com/uptrace/uptrace>
+- **VictoriaMetrics**
+  - *fast, cost-effective monitoring solution and time series database*
+  - *can be used as long-term storage for Prometheus. can be used as a drop-in replacement for Prometheus in Grafana, because it supports Prometheus querying API. can be used as a drop-in replacement for Graphite in Grafana, because it supports Graphite API.*
+  - *consists of a single small executable without external dependencies*
+  - <https://github.com/VictoriaMetrics/VictoriaMetrics> 
