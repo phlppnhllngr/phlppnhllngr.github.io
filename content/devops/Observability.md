@@ -98,3 +98,7 @@ parent: DevOps
   - *helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.*
   - *We support OpenTelemetry as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz.*
   - <https://github.com/SigNoz/signoz> *4.4k
+- **statsd**
+  - *Daemon for easy but powerful stats aggregation*
+  - *A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services (e.g., Graphite).* 
+  - <https://github.com/statsd/statsd> 
