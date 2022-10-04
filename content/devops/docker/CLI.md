@@ -44,7 +44,7 @@ grand_parent: DevOps
           - `-v /container/path/`
           - *create a volume on the host system at a location owned by the docker daemon and mount it in the container at /container/path*
           - im Host (automatisch erzeugt) unter `/var/lib/docker/volumes/<random-hash>/_data`
-          - *To find out where docker created the volume on host:* {% raw %} `docker inspect -f "{{.Mounts}}" <ContainerName>` {% endraw %}
+          - *To find out where docker created the volume on host:* `docker inspect -f "{{.Mounts}}" <ContainerName>`
         - named managed
           - `-v <name>:/container/path`
           - *Same as previous, only instead of volume being assigned a hash, you can provide it with a meaningful name*
