@@ -17,10 +17,10 @@ parent: Java
   - *Dropwizard uses the Jetty HTTP library to embed an incredibly tuned HTTP server directly into your project. Instead of handing your application off to a complicated application server, Dropwizard projects have a main method which spins up an HTTP server.*
   - <https://www.dropwizard.io/>
 - **vertx**
+  - reactive
+  - polyglot (jvm & js)
   - <https://vertx.io/>
   - <https://github.com/eclipse-vertx/vert.x> *9800
-  - sehr performant
-  - polyglot (jvm & js)
 - **vaadin**
   - <https://vaadin.com/>
 - **quarkus**
@@ -62,7 +62,7 @@ parent: Java
   - *Integrated HTTP server (Akka HTTP or Netty)*
   - <https://www.playframework.com>
   - <https://github.com/playframework/playframework> *11000
-- **eclipse microprofile**
+- **microprofile**
   - *aims to optimize Enterprise Java for the Microservices architecture*
   - *based on a subset of Jakarta EE WebProfile APIs*
   - *A MicroProfile application is portable and should run in any compliant MicroProfile runtime [Open Liberty, TomEE, ...]*
