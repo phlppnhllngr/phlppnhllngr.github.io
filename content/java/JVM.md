@@ -38,6 +38,13 @@ parent: Java
 - **java.ext.dirs** -> Extension Mechanism
 - **file.encoding**
   - `-Dfile.encoding=UTF-8`
+- **javax.net.debug**
+  - für http-Tracing  
+  - `-Djavax.net.debug=all`
+  - <https://colinpaice.blog/2020/04/05/using-java-djavax-net-debug-to-examine-data-flows-including-tls/>
+- **java.security.debug**
+
+#### Proxy
 - **http(s).proxyHost**
   - `-Dhttp.proxyHost=example.com`
 - **http(s).proxyPort**
@@ -48,11 +55,17 @@ parent: Java
 - **http(s).proxyPassword**
 - **java.net.useSystemProxies**
   - `-Djava.net.useSystemProxies=true`
-- **javax.net.debug**
-  - für http-Tracing  
-  - `-Djavax.net.debug=all`
-  - <https://colinpaice.blog/2020/04/05/using-java-djavax-net-debug-to-examine-data-flows-including-tls/>
-- **java.security.debug**
+
+#### JMX (remote)
+```
+-Dcom.sun.management.jmxremote=true
+-Dcom.sun.management.jmxremote.port=8989
+-Dcom.sun.management.jmxremote.rmi.port=8989
+-Dcom.sun.management.jmxremote.authenticate=false
+-Dcom.sun.management.jmxremote.ssl=false
+-Djava.rmi.server.hostname=localhost (docker)
+-Dcom.sun.management.jmxremote.local.only=false
+```
   
 ### -XX
 - non-standard
