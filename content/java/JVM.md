@@ -48,6 +48,11 @@ parent: Java
 - **http(s).proxyPassword**
 - **java.net.useSystemProxies**
   - `-Djava.net.useSystemProxies=true`
+- **javax.net.debug**
+  - für http-Tracing  
+  - `-Djavax.net.debug=all`
+  - <https://colinpaice.blog/2020/04/05/using-java-djavax-net-debug-to-examine-data-flows-including-tls/>
+- **java.security.debug**
   
 ### -XX
 - non-standard
