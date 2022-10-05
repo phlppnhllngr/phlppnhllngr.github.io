@@ -38,6 +38,16 @@ parent: Java
 - **java.ext.dirs** -> Extension Mechanism
 - **file.encoding**
   - `-Dfile.encoding=UTF-8`
+- **http(s).proxyHost**
+  - `-Dhttp.proxyHost=example.com`
+- **http(s).proxyPort**
+  - `-Dhttp.proxyPort=1234`
+- **http(s).nonProxyHosts**
+  - `-Dhttp.nonProxyHosts=localhost|127.0.0.1|...`
+- **http(s).proxyUser**
+- **http(s).proxyPassword**
+- **java.net.useSystemProxies**
+  - `-Djava.net.useSystemProxies=true`
   
 ### -XX
 - non-standard
