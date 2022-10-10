@@ -35,6 +35,9 @@ parent: Dokumentation
 - **excalidraw**
   - *Virtual whiteboard for sketching hand-drawn like diagrams*
   - <https://github.com/excalidraw/excalidraw> *23k
+- **tldraw**
+  - <https://www.tldraw.com/>
+  - <https://github.com/tldraw/tldraw>
 - **systemizer**
   - *A system design tool that allows you to simulate data flow of distributed systems*
   - <https://github.com/honzaap/Systemizer>
