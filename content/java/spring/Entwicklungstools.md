@@ -25,6 +25,10 @@ grand_parent: Java
 - **ngrok-spring-boot-starter**
   - *will automatically download Ngrok binary corresponding to your operating system (Windows, Linux, OSX or even Docker) and then cache it into home_directory/.ngrok2. Then every time you will run your Spring Boot application, Ngrok will automatically build http tunnel pointing to your springs web server*
   - <https://github.com/kilmajster/ngrok-spring-boot-starter>
+- **Spring Boot Migrator**
+  - *allows developers to convert existing, non Spring Boot applications, which are based on technologies such as JAX-RS, EJB and JMS to Spring Boot or upgrade older Spring Boot applications to the latest version*
+  - *is based on OpenRewrite*
+  - <https://github.com/spring-projects-experimental/spring-boot-migrator> 
 
 
 ## Codegeneratoren, Meta-Frameworks
