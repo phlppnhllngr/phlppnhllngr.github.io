@@ -44,6 +44,10 @@ parent: Dokumentation
 - **Diagrams**
   - *Diagram as Code for prototyping cloud system architectures*
   - <https://github.com/mingrammer/diagrams>
+- **Structurizr DSL**
+  - *a way to create Structurizr software architecture models*
+  - <https://structurizr.com/dsl?example=getting-started> 
+  - <https://github.com/structurizr/dsl> 
 
 
 ## UML
