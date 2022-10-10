@@ -83,6 +83,9 @@ parent: Datenbank
       - *Big data? → choose client/server*
       - *Otherwise → choose SQLite! For device-local storage with low writer concurrency and less than a terabyte of content, SQLite is almost always a better solution.*
   - <https://www.sqlite.org/index.html>    
+- **libSQL**
+  - *fork of SQLite that is both Open Source, and Open Contributions* 
+  - <https://github.com/libsql/libsql> 
 - **DuckDB**
   - *in-process SQL OLAP Database Management System* 
   - <https://github.com/duckdb/duckdb> 
