@@ -154,7 +154,10 @@ parent: Diverses
   - *AI Assistant For Software Developers*
   - <https://www.tabnine.com>
 - **jira-cli**
-  - <https://github.com/ankitpokhrel/jira-cli> 
+  - <https://github.com/ankitpokhrel/jira-cli>
+- **novu**
+  - *real-time notification center for your web and react apps. The only open-source notifications infrastructure that manages multi-channel content, scheduled notifications, digest engine, user preferences, and delivers Email, SMS, Push and Chat notifications using a single API* 
+  - <https://github.com/novuhq/novu> 
 
 
 ## Passwort-Manager
