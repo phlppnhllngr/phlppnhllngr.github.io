@@ -69,7 +69,7 @@ parent: Java
   
 ### -XX
 - non-standard
-- -XX:+Foo | -XX:-Foo für Flags, -XX:Foo=Bar für Werte
+- -XX:+Foo / -XX:-Foo für Flags, -XX:Foo=Bar für Werte
 - **+/-PrintFlagsFinal**
 - **+/-UseContainerSupport**
 - **MAXRamPercentage**
