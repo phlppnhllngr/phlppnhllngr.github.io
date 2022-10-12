@@ -17,6 +17,13 @@ parent: Java
   - spezifiziert Classpath
   - alias `cp`
   - siehe auch `-Djava.class.path`, `CLASSPATH`-Env-Var, `Class-Path`-Manifest-Eintrag
+- **client, server**
+  - `java -server ...`
+  - *The JDK includes two flavors of the VM -- a client-side offering, and a VM tuned for server applications*
+  - *Although the Server and the Client VMs are similar, the Server VM has been specially tuned to maximize peak operating speed. It is intended for executing long-running server applications, which need the fastest possible operating speed more than a fast start-up time or smaller runtime memory footprint.*
+  - *The Client VM compiler serves as an upgrade for both the Classic VM and the just-in-time (JIT) compilers used by previous versions of the JDK. The Client VM offers improved run time performance for applications and applets. The Java HotSpot Client VM has been specially tuned to reduce application start-up time and memory footprint, making it particularly well suited for client environments. In general, the client system is better for GUIs.*
+  - *A 64-bit capable JDK currently ignores this option and instead uses the Java Hotspot Server VM. The Sun/Oracle 64 builds did not even ship with a client JVM.*
+  - wie es bestimmt wird: siehe <https://developers.redhat.com/articles/2022/04/19/best-practices-java-single-core-containers#the_jvm_as_a_dynamic_execution_platform>
 
 ### -D
 - **sun.net.client.defaultConnectTimeout, sun.net.client.defaultReadTimeout**
@@ -75,6 +82,15 @@ parent: Java
 - **MAXRamPercentage**
 - **InitialRAMPercentage**
 - **-XX:showSettings:vm**
+- **-XX:-StackTraceInThrowable**
+- **-XX:+UseStringDeduplication**
+- **-XX:-UseBiasedLocking**
+- **-XX:+UseParallelGC**
+- **-XX:+UnlockDiagnosticVMOptions**
+- **-XX:+DebugNonSafepoints**
+- **-Xlog**
+  - `-Xlog:gc:file=gc.txt`
+- **-XX:+UseAppCDS**
   
 
 ## Memory
@@ -136,6 +152,7 @@ parent: Java
 ### Tipps
 - statt der JVM- sollten die Container-Limits (RAM, CPU) gesetzt werden [1]
 - *By default, the JVM heap gets 25% of the container’s memory* [1]
+- *By default, a container has no resource constraints* (-> Docker: `--cpus`, `--memory`)
 - *As of Java 8u191, the JVM is pretty “container aware” by default and interprets CPU share allocation correctly* [1] (auch Memory)
 - "fat jars" sollten nicht in Containern deployed werden, da die Dependencies sich kaum ändern und jedes Mal neu mitkopiert werden müssen (jib maven plugin berücksichtigt dies).<br/> *With a fat-jar, all your dependencies get bundled with your own code, in one jar, which then docker puts in a single layer. This means that if your dependencies are 200mb, you will need another 200mb for each code change, and each build.*<br/> Evtl. hat z. B. hat eine 0815-Spring-Boot-App hat nur wenig "eigenen" Code, aber 60mb Deps und 10mb Resources. Deps und Resources sollten stattdessen eigene Layer bekommen:<br/>
   OS -> JRE -> Deps -> Resources -> Code [2]
@@ -150,7 +167,22 @@ parent: Java
 - <https://www.reddit.com/r/java/comments/u70j8l/java_17_whats_new_in_openjdks_container_awareness/>
 - <https://www.reddit.com/r/java/comments/u7057f/running_java_in_singlecore_containers/>
 - <https://www.baeldung.com/ops/docker-jvm-heap-size>
-
+- <https://developers.redhat.com/articles/2022/04/19/best-practices-java-single-core-containers>
+- <https://learn.microsoft.com/en-us/azure/developer/java/containers/overview>
+  - *The JVM has heuristics to determine the number of "available processors" based on CPU quota, which can dramatically influence the performance of Java applications.*
+  - *The memory allocated to the container itself and the size of the heap area for the JVM are as important as the processors. These factors will determine the behavior of the garbage collector (GC) and the overall performance of the system.*
+  - *The JVM has default ergonomics with pre-defined values that are based on number of available processors and amount of memory in the system*
+  - *If you don't know how much memory to allocate, a good starting point is 4 GB.*
+  - *Allocate 75% of container memory for the JVM heap.* (`-XX:MaxRAMPercentage=75`)
+  - *For most general-purpose microservice applications, start with the Parallel GC.*
+  - *For any GC other than SerialGC, we recommend two or more vCPU cores. We don't recommend selecting anything less than 1 vCPU core on containerized environments. If you don't know how many cores to start with, a good choice is 2 vCPU cores.*
+- [Containerize your Java applications for Kubernetes](https://learn.microsoft.com/en-us/azure/developer/java/containers/kubernetes)
+  - Set CPU requests and limits
+  - Set memory request and limits
+- [Secrets of Performance Tuning Java on Kubernetes - (Bruno Borges - Microsoft), 09/22](https://vimeo.com/748031919)
+- Kubernetes: *As a general rule, requests.memory should be equal to limits.memory. Then, instead of using Xms and Xmx, I like to use XX:MaxRAMPercentage=75*
+- *many of the concurrent benefits from the default G1 garbage collector on recent Java virtual machines (JVMs) vanish when running with fewer than two cores. All those single-core instances may as well be using the serial collector—and paying the performance cost of that—but many probably don’t even know it.*
+  
 ### Environment & JVM-properties
 - Env-Vars sollten/können keine "." enthalten;
   NICHT möglich (docker-compose.yml):
