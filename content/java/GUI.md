@@ -111,6 +111,9 @@ parent: Java
   - *only the currently visible cells are rendered in the scene. You may have a list of thousands of items, but only, say, 30 cells are rendered at any given time.*
   - *You will benefit from Flowless (compared to ListView) the most if you have many add/delete items occuring in the viewport and an expensive updateItem method.*
   - <https://github.com/FXMisc/Flowless>
+- **AtlantaFX**
+  - <https://github.com/mkpaz/atlantafx> 
+  - *Modern JavaFX CSS theme collection with additional controls*
 
 
 #### diverse
