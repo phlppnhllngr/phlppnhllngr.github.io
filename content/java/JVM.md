@@ -82,6 +82,7 @@ parent: Java
 - -XX:+Foo / -XX:-Foo für Flags, -XX:Foo=Bar für Werte
 - **+/-PrintFlagsFinal**
 - **+/-UseContainerSupport**
+  - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.*  
 - **MAXRamPercentage**
 - **InitialRAMPercentage**
 - **-XX:showSettings:vm**
