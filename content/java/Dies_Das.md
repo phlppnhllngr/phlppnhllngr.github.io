@@ -22,6 +22,7 @@ parent: Java
   - Proxies
     - <https://www.baeldung.com/java-dynamic-proxies>
 - **AnnotationProcessing API** (compiler)
+  - <https://old.reddit.com/r/java/comments/y24k1z/build_your_own_framework_using_an_annotation/.compact> 
 - **sun.misc.Unsafe**
   - <https://www.javacodegeeks.com/2013/12/the-infamous-sun-misc-unsafe-explained.html>
   - <http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/>
