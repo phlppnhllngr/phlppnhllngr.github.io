@@ -16,7 +16,8 @@ parent: Java
 - <https://www.graalvm.org/docs/getting-started/#native-images>
 - <https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241>
 - <https://www.infoq.com/articles/native-java-graalvm>
-- <Docker
+- [YT: A 1.5MB Java Container App? Yes you can! by Shaun Smith, 10/22](https://www.youtube.com/watch?v=6wYrAtngIVo)
+- Docker
   - <https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm>
   - <https://www.graalvm.org/docs/getting-started/container-images/>
 
