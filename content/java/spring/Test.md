@@ -9,6 +9,7 @@ grand_parent: Java
 
 # Test
 - <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
+- [YT - Things I Wish I Knew When I Started Testing Spring Boot Applications by Philip Riecks, 10/22](https://www.youtube.com/watch?v=5Td7vAS9qJI)
 - Chaos Monkey
   - <https://github.com/codecentric/chaos-monkey-spring-boot>
 - Junit4 von spring-boot-starter-test ausschließen
