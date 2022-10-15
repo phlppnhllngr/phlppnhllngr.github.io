@@ -15,9 +15,9 @@ grand_parent: Java
 - **Events**
   - <https://www.baeldung.com/spring-events>
 - **Caching (client side)**
-  - https://www.baeldung.com/spring-mvc-cache-headers
+  - <https://www.baeldung.com/spring-mvc-cache-headers>
 - **Resource Updates**
-  - https://www.baeldung.com/spring-rest-json-patch
+  - <https://www.baeldung.com/spring-rest-json-patch>
 
 
 ## Security
@@ -26,11 +26,12 @@ grand_parent: Java
   - langfristig abgelöst durch Spring Authorization Server
 - **Submodul Authorization Server**
   - *focused on delivering OAuth 2.1 Authorization Server support*
-  - https://github.com/spring-projects/spring-authorization-server
-- https://www.baeldung.com/spring-boot-authentication-audit
+  - <https://github.com/spring-projects/spring-authorization-server>
+- <https://www.baeldung.com/spring-boot-authentication-audit>
   - *Spring Boot Actuator module and the support for publishing authentication and authorization events in conjunction with Spring Security*
-- https://boudhayan-dev.medium.com/demystifying-spring-security-setup-e0491acc7df7
-- https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html
+- <https://boudhayan-dev.medium.com/demystifying-spring-security-setup-e0491acc7df7>
+- <https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html>
+- [YT - Spring Security, demystified by Daniel Garnier Moiroux, 10/22](https://www.youtube.com/watch?v=iJ2muJniikY)
 
 ### API
 - **@EnableWebSecurity**
