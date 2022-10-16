@@ -8,6 +8,7 @@ parent: Java
 
 # Logging
 → Diverses/Logging
+- Logging-Libs in Maven-Projekt per dependency.exclusions und Enforcer-Plugin ausschließen: <https://filip-prochazka.com/blog/consolidating-logging-in-your-java-applications>
 
 ## Libs
 - <https://github.com/akullpp/awesome-java#logging>
