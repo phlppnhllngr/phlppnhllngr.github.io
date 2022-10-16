@@ -226,7 +226,8 @@ parent: Java
 - **enforcer**
   - <https://maven.apache.org/enforcer/maven-enforcer-plugin>
   - *provides goals to control certain environmental constraints such as Maven version, JDK version and OS family along with many more built-in rules and user created rules*
-  - built-ins: requireReleaseDeps, requireJavaVersion , ... (<https://maven.apache.org/enforcer/enforcer-rules/index.html>)
+  - built-ins: requireReleaseDeps, requireJavaVersion, ... (<https://maven.apache.org/enforcer/enforcer-rules/index.html>)
+  - best. Dependencies verbieten, best. Imports verbieten, ...
   - auch custom (java-code) rules
 - **errorprone**
   - <https://errorprone.info/index>
