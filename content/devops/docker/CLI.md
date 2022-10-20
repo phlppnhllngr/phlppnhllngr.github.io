@@ -20,7 +20,8 @@ grand_parent: DevOps
   - *get real-time events from the server* 
   - <https://docs.docker.com/engine/reference/commandline/events/> 
 - **exec**
-  - `docker exec -it <name/id> /bin/bash`
+  - `docker exec -it <name/id> /bin/sh`
+  - "Inline": `docker exec <name/id> /bin/sh -c "echo $HOME"`
 - **history**
   - *Show the history of an image* 
   - <https://docs.docker.com/engine/reference/commandline/history/> 
