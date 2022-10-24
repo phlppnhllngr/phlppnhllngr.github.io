@@ -20,6 +20,56 @@ parent: Java
   - jinfo
   - jmap
   - jlink
+    ```
+    # Führt zu "java: not found" in 2. Stage, daher corretto:
+    # FROM adoptopenjdk/openjdk11:jdk-11.0.11_9-alpine as jre-builder
+
+    FROM amazoncorretto:11-alpine3.16 as jre-builder
+
+    WORKDIR /build
+
+    COPY target/classes classes
+
+    COPY target/dependency/* libs/
+
+    RUN $JAVA_HOME/bin/jdeps \
+        --ignore-missing-deps \
+        --multi-release 11 \
+        --print-module-deps  \
+        --recursive \
+        --class-path=libs/* \
+        --module-path=libs/* \
+        ./classes \
+        > jre-deps.info
+
+    RUN $JAVA_HOME/bin/jlink \
+        --verbose \
+        --add-modules $(cat jre-deps.info) \
+        --strip-debug \
+        --no-man-pages \
+        --no-header-files \
+        --compress=2 \
+        --output /custom-jre
+
+
+    FROM alpine:3.16.2
+
+    COPY --from=jre-builder /custom-jre /jre
+
+    WORKDIR /app
+
+    COPY target/classes classes
+
+    COPY target/dependency/* libs/
+
+    ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=75"
+
+    ENTRYPOINT [ "/jre/bin/java", \
+        "-cp", \
+        "libs/*:classes/", \
+        "com.example.Main" \
+    ]
+    ```
   - jmod
   - jimage
   - jdeps
