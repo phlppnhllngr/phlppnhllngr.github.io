@@ -156,6 +156,7 @@ parent: Java
 - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
 - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
 - eclipse-temurin
+- <https://hub.docker.com/_/amazoncorretto>
 
 ### Tipps
 - statt der JVM- sollten die Container-Limits (RAM, CPU) gesetzt werden [1]
