@@ -155,6 +155,7 @@ parent: Java
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
 - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
 - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
+- <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
 - eclipse-temurin
 - <https://hub.docker.com/_/amazoncorretto>
 
