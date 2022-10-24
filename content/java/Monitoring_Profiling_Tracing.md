@@ -70,6 +70,11 @@ parent: Java
         "com.example.Main" \
     ]
     ```
+    - <https://www.morling.dev/blog/smaller-faster-starting-container-images-with-jlink-and-appcds/>
+    - <https://medium.com/hotels-com-technology/honey-i-shrank-the-java-image-9f737aef8963>
+    - <https://blog.wolt.com/engineering/2022/05/13/how-to-reduce-jvm-docker-image-size/>
+    - <https://blogs.oracle.com/javamagazine/post/containerizing-apps-with-jlink>
+    - <https://levelup.gitconnected.com/java-developing-smaller-docker-images-with-jdeps-and-jlink-d4278718c550>
   - jmod
   - jimage
   - jdeps
