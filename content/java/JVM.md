@@ -155,6 +155,7 @@ parent: Java
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
 - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
 - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
+- eclipse-temurin
 
 ### Tipps
 - statt der JVM- sollten die Container-Limits (RAM, CPU) gesetzt werden [1]
