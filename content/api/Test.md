@@ -67,6 +67,9 @@ parent: API
   - *Citrus simulates surrounding interface partners supporting a huge set of different transports and protocols like Http, JMS, TCP/IP, FTP, SOAP, XML and JSON.*
   - Java 11+
   - <https://github.com/citrusframework/citrus>
+- **stepci**
+  - *makes testing and monitoring APIs simple* 
+  - <https://github.com/stepci/stepci> 
 
 
 ## Stress, Load, Resilience
@@ -122,6 +125,3 @@ parent: API
   - *can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously*
   - *reports the total number of hits recorded, bytes transferred, response time, concurrency, and return status*
   - <https://github.com/JoeDog/siege>
-- **stepci**
-  - *makes testing and monitoring APIs simple* 
-  - <https://github.com/stepci/stepci> 
