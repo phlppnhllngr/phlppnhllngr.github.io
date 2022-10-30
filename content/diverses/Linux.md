@@ -19,14 +19,20 @@ parent: Diverses
   - modify file access rights
   - r = read, w = write, x = execute
   - 4 = read, 2 = write, 1 = execute
-  - `chmod 761 foo` -> owner of file foo: rwx (7=4+2+1), group that owns file foo: rw (6=4+2), other: x 
+  - `chmod 761 foo` -> owner of file foo: rwx (7=4+2+1), group that owns file foo: rw (6=4+2), other: x
+  - *The file's owner or root can change permissions*
+  - <https://www.guru99.com/file-permissions.html#linux_file_permissions>
 - **chown**
   - change file ownership
   - Every file is owned by a specific user (or UID) and a specific group (or GID)
   - `sudo chown $USER foo`
-  - `chown user:group file`
+  - `chown user:group file
+  - *the owner can permit the other types of users to access that file and folder*
+  - *only root can run chown to change a file's owner to another user*
+  - <https://www.guru99.com/file-permissions.html#linux_file_ownership>
 - **chgrp**
   - change file group ownership
+  - *The owner of a file may change the group of the file to any group of which that owner is a member.*
 - **sudo**
   - temporarily become the superuser
 - **su**
@@ -42,6 +48,7 @@ parent: Diverses
 - <https://www.reddit.com/r/programming/comments/qjnzmn/underwhelmed_by_bash_functions_maybe_youre_using>
 - <https://github.com/jlevy/the-art-of-command-line>
 - <https://github.com/onceupon/Bash-Oneliner> - *A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.*
+- [HN: Shell script best practices, from a decade of scripting things ](https://news.ycombinator.com/item?id=33354286)
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
@@ -65,7 +72,7 @@ parent: Diverses
   - <http://redsymbol.net/articles/unofficial-bash-strict-mode>
   - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e> (exit on error)
 - **set -x**
-  *which is like DOS’ ECHO ON: it prints every command before it runs. Free progress log*
+  <br/> *which is like DOS’ ECHO ON: it prints every command before it runs. Free progress log*
 - **Strings prüfen**
   - Ob leer (zero-length, null): `if [ -z "$str" ];`
   - Ob nicht leer: `if [ -n "$str" ];`
@@ -93,7 +100,7 @@ parent: Diverses
     - *static analysis tool for shell scripts. gives warnings and suggestions for bash/sh shell scripts*
     - Plugins für diverse IDEs, u.a. VSCode
   - **thefuck**
-    - https://github.com/nvbn/thefuck
+    - <https://github.com/nvbn/thefuck>
     - *corrects your previous console command*
   - **nushell**
     - https://github.com/nushell/nushell
