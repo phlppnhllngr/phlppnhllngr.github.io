@@ -160,23 +160,27 @@ parent: Java
 - **zalando/problem**
   - <https://github.com/zalando/problem>
   - *a library that implements application/problem+json*
+- **HtmlUnit**
+  - <https://github.com/HtmlUnit/htmlunit>
+  - *not a generic unit testing framework. simulate a browser for testing purposes and is intended to be used within another testing framework such as JUnit or TestNG.*
+  - JS: ja
+  - htmlunit vs selenium
+    <br/>
+    *HtmlUnit is a java based implementation of a WebBrowser without a GUI and a way to simulate a browser for testing purposes and Selenium-WebDriver makes direct calls to the browser using each browser’s native support for automation. we can see that HtmlUnit provides API without GUI possibility for automation whereas WebDriver provides internal browsers' possibilities for automation.*
+- **jsoup**
+  - <https://github.com/jhy/jsoup/> ⭐8.1k
+  - Html-Parser
+  - JS: nein
+- **Jericho**
+  - Html-Parser 
+  - <http://jericho.htmlparser.net/docs/index.html> 
 - <u>Scraping</u>
   - <https://github.com/akullpp/awesome-java#web-crawling>
-  - **HtmlUnit**
-    - <https://github.com/HtmlUnit/htmlunit>
-    - *not a generic unit testing framework. simulate a browser for testing purposes and is intended to be used within another testing framework such as JUnit or TestNG.*
-    - JS: ja
-    - htmlunit vs selenium
-      *HtmlUnit is a java based implementation of a WebBrowser without a GUI and a way to simulate a browser for testing purposes and Selenium-WebDriver makes direct calls to the browser using each browser’s native support for automation. we can see that HtmlUnit provides API without GUI possibility for automation whereas WebDriver provides internal browsers' possibilities for automation.*
-  - **jsoup**
-    - <https://github.com/jhy/jsoup/> ⭐8.1k
-    - Html-Parser
-    - JS: nein
   - **crawler4j**
     - <https://github.com/yasserg/crawler4j> ⭐3.9k
   - **webmagic**
     - <https://github.com/code4craft/webmagic> ⭐9.2k
-  - **playwright/java**
+- **playwright/java**
 - **jjwt**
   - <https://github.com/jwtk/jjwt> ⭐6.7k
   - *creating and verifying JSON Web Tokens (JWTs)*
@@ -207,7 +211,16 @@ parent: Java
     - *Apache CXF client implementation of JAX RS Client API for SSE*
     - <https://www.baeldung.com/java-ee-jax-rs-sse>
 - <u>http server</u>
-  - **com.sun.net.httpserver.{HttpServer,SimpleFileServer}** -> Java/Server
+  - **com.sun.net.httpserver**
+    - HttpServer
+      - Java 6 
+    - SimpleFileServer
+      - Java 18
+      - basiert auf HttpServer
+    - jwebserver
+      - Java 18
+      - CLI command, basiert auf sun.net.httpserver.simpleserver.Main 
+    - -> Java/Server
   - **nanohttpd**
     - <https://github.com/NanoHttpd/nanohttpd> ⭐5.8k
     - Stand 03/21 inaktiv seit 2 Jahren
@@ -220,9 +233,13 @@ parent: Java
 - **openapi4j**
   - *openapi4j is a suite of tools, including the following: OpenAPI 3 parser, JSON schema and request validator*
   - <https://github.com/openapi4j/openapi4j>
+- **WebView.jar**
+  - *cross-platform WebView*
+  - *executable jar file [...], or using the Java API*
+  - <https://github.com/shannah/webviewjar> 
 
 
-## resilience
+## Resilience
 - **failsafe**
   - <https://github.com/jhalterman/failsafe> ⭐2900
   - *Fault tolerance and resilience patterns for the JVM*
@@ -365,7 +382,7 @@ parent: Java
 - <https://github.com/jreijn/spring-comparing-template-engines>
 - → build/manifold
 
-### text file based
+### text (file) based
 - **thymeleaf**
   - <https://www.thymeleaf.org>
   - <https://github.com/thymeleaf> *2100
@@ -403,6 +420,21 @@ parent: Java
 - **velocity**
 - **jinjava**
   - <https://github.com/HubSpot/jinjava>
+- **jstachio**
+  - *typesafe Java Mustache templating engine*
+  - ```java
+    @JStache(template = """
+        {{#people}}
+        {{message}} {{name}}! You are {{#ageInfo}}{{age}}{{/ageInfo}} years old!
+        {{#-last}}
+        That is all for now!
+        {{/-last}}
+        {{/people}}
+        """)
+    public record HelloWorld(String message, List<Person> people) implements AgeLambdaSupport {
+    }
+    ```
+  - <https://github.com/jstachio/jstachio>
 
 ### java-code based
 - **HtmlFlow**
@@ -634,4 +666,26 @@ parent: Java
 - **Apache FOP**
   - Formatting Objects Processor
   - *reads a formatting object (FO) tree and renders the resulting pages to a specified output. Output formats currently supported include PDF, PS, PCL, AFP, XML, Print, AWT and PNG, and to a lesser extent, RTF and TXT. The primary output target is PDF.* 
-  - <https://xmlgraphics.apache.org/> 
+  - <https://xmlgraphics.apache.org/>
+- **Javet**
+  - *an awesome way of embedding Node.js and V8 in Java*
+  - ```
+    // server.js:
+    const express = require("express");
+    const app = express();
+    
+    var test = () => console.log(`hello`);
+    ...
+    // Main.java:
+    File jsFile = ... // server.js
+    try (NodeRuntime nodeRuntime = V8Host.getNodeInstance().createV8Runtime()) {
+      new Thread(() -> {
+        nodeRuntime.getExecutor(jsFile).executeVoid()).start();
+        nodeRuntime.await();
+      }
+      try (V8ValueFunction v8ValueFunction = nodeRuntime.getGlobalObject().get("test")) {
+        v8ValueFunction.callVoid(null, i);
+      }
+    }
+    ```
+  - <https://github.com/caoccao/Javet> 
