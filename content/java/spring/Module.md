@@ -64,6 +64,8 @@ grand_parent: Java
     - *filter the returned collection of a method*
 - **WebSecurityConfigurerAdapter**
 - **AuthenticationManager**
+- **AbstractSecurityWebApplicationInitializer**
+  - <https://www.javatpoint.com/spring-security-java-example> 
 
 
 ### LDAP
@@ -102,3 +104,9 @@ grand_parent: Java
 ## Plugin
 - z. B. um das Strategy-Pattern zu implementieren; <https://spring.io/blog/2021/10/13/spring-tips-spring-plugin>
 - <https://github.com/spring-projects/spring-plugin>
+
+
+## Modulith
+- *build well-structured Spring Boot applications and guides developers in finding and working with application modules driven by the domain*
+- <https://spring.io/projects/spring-modulith>
+- <https://spring.io/blog/2022/10/21/introducing-spring-modulith>
