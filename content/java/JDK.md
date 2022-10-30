@@ -122,7 +122,7 @@ parent: Java
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
     - <https://cryostat.io/> - *JFR for Containerized Java Applications*
-  - **jconsole**
+- **jconsole**
     - *The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.*
     - <https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html>
     <br/><img src="https://docs.oracle.com/javase/8/docs/technotes/guides/management/figures/overviewtab.gif" loading="lazy" />
