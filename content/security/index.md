@@ -25,6 +25,7 @@ has_children: true
     - *probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools*
     - <https://www.owasp.org/index.php/OWASP_Juice_Shop_Project>
     - <http://demo.owasp-juice.shop/>
+- <https://github.com/shieldfy/API-Security-Checklist>
 
 
 ## Übungen, CTFs
