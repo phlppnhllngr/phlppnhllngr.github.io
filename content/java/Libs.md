@@ -680,9 +680,9 @@ parent: Java
     File jsFile = ... // server.js
     try (NodeRuntime nodeRuntime = V8Host.getNodeInstance().createV8Runtime()) {
       new Thread(() -> {
-        nodeRuntime.getExecutor(jsFile).executeVoid()).start();
+        nodeRuntime.getExecutor(jsFile).executeVoid();
         nodeRuntime.await();
-      }
+      }).start();
       try (V8ValueFunction v8ValueFunction = nodeRuntime.getGlobalObject().get("test")) {
         v8ValueFunction.callVoid(null, i);
       }
