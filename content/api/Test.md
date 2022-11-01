@@ -31,6 +31,16 @@ parent: API
   - *Powerful JSON & XML assertions are built-in, and you can run tests in parallel for speed. Test execution and report generation feels like any standard Java project.*
   - *A Java API exists for those who prefer to programmatically integrate Karate's rich automation and data-assertion capabilities.*
   - *But there's also a stand-alone executable for teams not comfortable with Java. You don't have to compile code. Just write tests in a simple, readable syntax - carefully designed for HTTP, JSON, GraphQL and XML. And you can mix API and UI test-automation within the same test script.*
+- **hurl**
+  - *run and test HTTP requests with plain text*
+  - jsonpath, xpath, SOAP, performance test, ...
+  - ähnlich karate 
+  - <https://github.com/Orange-OpenSource/hurl>
+- **Venom**
+  - *CLI that aim to create, manage and run your integration tests*
+  - yaml
+  - Neben Http auch Support für SQL, Shell, Redis, Browser-Automatisierung, ...
+  - <https://github.com/ovh/venom> 
 - **frisby**
   - <https://github.com/vlucas/frisby/>
   - *built on top of Jest*
