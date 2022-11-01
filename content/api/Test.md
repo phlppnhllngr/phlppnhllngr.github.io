@@ -83,6 +83,7 @@ parent: API
 
 
 ## Stress, Load, Resilience
+- <https://www.marcobehler.com/guides/load-testing>
 - **Gremlin**
   - <https://www.gremlin.com/blog/introducing-gremlin-free/>
   - *provides the ability to run both Shutdown and CPU attacks on your hosts or containers, controlled by a simple user interface at no cost*
