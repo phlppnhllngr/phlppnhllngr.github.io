@@ -38,6 +38,9 @@ parent: Diverses
 - **Vagrant**
   - <https://www.vagrantup.com/>
   - Dev-VMs
+- **Devbox**
+  - *command-line tool that lets you easily create isolated shells and containers* 
+  - <https://github.com/jetpack-io/devbox> 
 - **waypoint**
   - *A tool to build, deploy, and release any application on any platform.*
   - *allows developers to define their application build, deploy, and release lifecycle as code*
