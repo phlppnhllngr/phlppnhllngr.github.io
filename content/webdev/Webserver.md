@@ -7,7 +7,8 @@ parent: Webdev
 ---
 
 # Webserver
-- robots.txt - <http://www.robotstxt.org/robotstxt.html>
+
+## Software
 - **nginx**
   - <https://github.com/trimstray/nginx-quick-reference> - *This notes describes how to improve Nginx performance, security and other important things*
   - <https://vishnu.hashnode.dev/nginx-cheatsheet>
@@ -32,3 +33,8 @@ parent: Webdev
   - *a simple, small, portable, fast, and secure HTTP server.*
   - Unix
   - <https://www.acme.com/software/thttpd/>
+
+
+## robots.txt
+- <https://searchfacts.com/robots-txt-allow-disallow-all/>
+- <http://www.robotstxt.org/robotstxt.html>
