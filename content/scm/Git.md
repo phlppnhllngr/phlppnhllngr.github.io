@@ -75,6 +75,7 @@ parent: SCM
     - *all commits from branch will be rebased and added to the base branch*
     - *we don’t squash the branch commits together. Instead, we directly replay them on top of main/master.*
   - **C) squash and merge**
+    - `git merge --squash` 
     - *all commits from branch will be combined into one commit in the base branch*
     - *we mash together the changes introduced by the branch commits into a single commit, and then replay that commit on top of main/master*
     - *you can rewrite a branch 10x over, add and remove log and debug at will, and in the end, commit a clear and concise just of changes back to the main branch.*
