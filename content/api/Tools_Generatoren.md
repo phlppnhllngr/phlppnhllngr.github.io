@@ -61,6 +61,8 @@ parent: API
   - *uses the Swagger Specification to drive an API implementation. The spec drives the creation of routes and controllers automatically, matching methods and method signatures from the implementation. To allow for an iterative development, the framework will mock responses for any unimplemented methods, based on the specification. You have full control over the mapping of controllers to classes and methods as well as models.*
   - *Inflector uses the following libraries: swagger models for the swagger definition, Jackson for JSON processing, Jersey 2.32 for REST, Minimum Java 8*
   - <https://github.com/swagger-api/swagger-inflector>
+- **PocketBase**
+  - <https://www.youtube.com/watch?v=Wqy3PBEglXQ> 
 
 
 ## Client
