@@ -8,6 +8,7 @@ parent: Diverses
 
 # Powershell
 - [Powershell - Notes for Professionals](https://books.goalkicker.com/PowerShellBook/)
+- Aliase: <https://stackoverflow.com/questions/24914589/how-to-create-permanent-powershell-aliases/29806921#29806921>
 
 ## Snippets
 **Prüfen, ob Ordner existiert**
