@@ -27,6 +27,7 @@ parent: Webdev
 - <https://developers.google.com/web/fundamentals/performance/resource-prioritization>
 - <https://calendar.perfplanet.com/2019/>
 - <https://itnext.io/high-performance-web-apps-2a469cfd3550>
+- <https://www.ditdot.hr/en/boost-rankings-with-core-web-vitals>
 
 
 ## case studies
