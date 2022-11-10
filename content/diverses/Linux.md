@@ -130,7 +130,45 @@ parent: Diverses
   - `watch -n 1 date +%s`
 - **sed**
   - foo in text.txt durch bar ersetzen (`-i` = replace inline): `sed -i "s/foo/bar/" "./text.txt"`
+- **exit**
+  - *command often used to exit or logout of a session. For example, during an FTP session the bye command will exit FTP.*
+  - *aliases for exit include "bye", "logout", and "lo".*
 
+### FTP
+- <https://www.computerhope.com/unix/ftp.htm>
+- <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
+- **ftp**
+  - establish connection 
+  - `ftp 192.168.42.77`
+- **lcd**
+  - *change directory on the local machine* 
+- **help or ?**
+  - *list all available FTP commands.*
+- **cd**
+  - *change directory on the remote machine.*
+- **lcd**
+  - *change directory on the local machine.*
+- **ls**
+  - *list the names of the files and directories in the current remote directory.*
+- **mkdir**
+  - *create a new directory within the current remote directory.*
+- **pwd**
+  - *print the current working directory on the remote machine.*
+- **delete**
+  - *remove a file in the current remote directory.*
+- **rmdir**
+  - *remove a directory in the current remote directory.*
+- **get**
+  - *copy one file from the remote to the local machine.*
+- **mget**
+  - *copy multiple files from the remote to the local machine.*
+  - `mget *.html`
+- **put**
+  - *copy one file from the local to the remote machine.*
+- **mput**
+  - *copy multiple files from the local to the remote machine.*
+- **sftp**
+- **scp**
 
 ## Distributionen
 - Oracle Linux
