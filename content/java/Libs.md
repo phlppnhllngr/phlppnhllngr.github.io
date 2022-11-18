@@ -192,6 +192,7 @@ parent: Java
     - *HTTP/2 support*
     - <https://github.com/square/okhttp> ⭐41.8k
   - **unirest**
+    - basiert auf Apache Http 
     - <https://github.com/Kong/unirest-java>
     - <https://www.baeldung.com/unirest>
   - **feign**
