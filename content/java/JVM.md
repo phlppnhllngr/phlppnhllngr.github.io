@@ -60,7 +60,7 @@ parent: Java
 - **http(s).proxyPort**
   - `-Dhttp.proxyPort=1234`
 - **http(s).nonProxyHosts**
-  - `-Dhttp.nonProxyHosts=localhost|127.0.0.1|...`
+  - `-Dhttp.nonProxyHosts=localhost|127.0.0.1|*.foo.com|example.com|...`
 - **http(s).proxyUser**
 - **http(s).proxyPassword**
 - **java.net.useSystemProxies**
