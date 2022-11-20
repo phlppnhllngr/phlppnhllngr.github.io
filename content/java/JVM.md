@@ -77,25 +77,46 @@ parent: Java
 -Dcom.sun.management.jmxremote.local.only=false
 ```
   
-### -XX
-- non-standard
-- -XX:+Foo / -XX:-Foo für Flags, -XX:Foo=Bar für Werte
+### -X, -XX
+
+#### X
+- **share**
+  - `Xshare:dump`
+  - `Xshare:on`
+    - *While class data sharing is enabled by default on JDK 12 and newer, explicitely enforcing it will ensure an error is raised if something is wrong, e.g. a mismatch of Java versions between building and using the archive*
+- **log**
+  - `-Xlog:gc:file=gc.txt`
+  - `-Xlog:class+load:file=/path/to/classload.log`
+
+#### XX
+- -XX = non-standard
+- -XX:+Foo / -XX:-Foo für Boolean-Flags, -XX:Foo=Bar für Werte
+<br/><br/>
 - **+/-PrintFlagsFinal**
 - **+/-UseContainerSupport**
   - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.*  
 - **MAXRamPercentage**
 - **InitialRAMPercentage**
-- **-XX:showSettings:vm**
-- **-XX:-StackTraceInThrowable**
-- **-XX:+UseStringDeduplication**
-- **-XX:-UseBiasedLocking**
-- **-XX:+UseParallelGC**
-- **-XX:+UnlockDiagnosticVMOptions**
-- **-XX:+DebugNonSafepoints**
-- **-Xlog**
-  - `-Xlog:gc:file=gc.txt`
-- **-XX:+UseAppCDS**
-- **-XX:+ShowCodeDetailsInExceptionMessages**
+- **showSettings:vm**
+- **+/-StackTraceInThrowable**
+- **+/-UseStringDeduplication**
+- **+/-UseBiasedLocking**
+- **+/-UseParallelGC**
+- **+/-UnlockDiagnosticVMOptions**
+- **+/-DebugNonSafepoints**
+- **+/-UseAppCDS**
+  - *made obsolete in JDK 11, expired in JDK 12*
+- **SharedArchiveFile**
+  - `-XX:SharedArchiveFile=/path/to/classes.jsa`
+- **+/-ShowCodeDetailsInExceptionMessages**
+- **DumpLoadedClassList**
+  - `-XX:DumpLoadedClassList=/path/to/classes.lst`
+- **ArchiveClassesAtExit*
+  - *Triggers creation of a AppCDS archive at the given location upon application shutdown*
+  - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
+  - `ArchiveClassesAtExit=/path/to/app-cds.jsa`  
+- **SharedClassListFile**
+  - `-XX:SharedClassListFile=/path/to/classes.lst`
   
 
 ## Memory
