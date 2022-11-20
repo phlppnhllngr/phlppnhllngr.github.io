@@ -93,9 +93,13 @@ parent: Java
   - <http://jmock.org>
 - **jmockit**
   - <https://jmockit.github.io>
+  - <https://github.com/jmockit/jmockit1>
 - **system rules**
   - "mocks" java.lang.System
   - <https://www.baeldung.com/java-system-rules-junit>
+- **system lambda**
+  - *collection of functions for testing code that uses java.lang.System* 
+  - <https://github.com/stefanbirkner/system-lambda> 
 - <u>File sytem</u>
   - **jimfs**
     - *An in-memory file system for Java 7+*
