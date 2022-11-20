@@ -13,3 +13,5 @@ has_children: true
     - *goal of this project is to make the easiest, fastest, and most painless way of setting up a self-hosted Git service*
     - *includes a package registry for various package managers (Composer, Conan, Generic, Helm, Maven, npm, NuGet, OCI Containers (Docker), PyPI and RubyGems)* 
     - <https://github.com/go-gitea/gitea> 
+- **Sapling**
+    - <https://github.com/facebook/sapling>   
