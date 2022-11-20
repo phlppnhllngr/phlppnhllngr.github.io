@@ -44,6 +44,7 @@ parent: Java
   - *allows a set of classes to be pre-processed into a shared archive file that can then be memory-mapped at runtime to reduce startup time which can also reduce dynamic memory footprint when multiple JVMs share the same archive file.*
   - <https://simonis.github.io/cl4cds/> - *tool which helps exploring the new Application Class Data Sharing (AppCDS) feature in OpenJDK 10*
   - <https://www.baeldung.com/java-10-performance-improvements#application-class-data-sharing>
+  - <https://www.morling.dev/blog/building-class-data-sharing-archives-with-apache-maven/>
 
 
 ## Bytecode-Manipulation, Agents, Instrumentation
