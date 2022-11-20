@@ -255,6 +255,10 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
     - <https://github.com/brettwooldridge/HikariCP>
   - **tomcat jdbc**
     - <https://www.baeldung.com/spring-boot-tomcat-connection-pool>
+  - **MiniConnectionPoolManager**
+    - *A lightweight standalone Java JDBC connection pool manager* 
+    - <https://github.com/chdh/miniconnectionpoolmanager> 
+
 - **datasource-proxy**
   - *intercept JDBC interactions and allows user to perform own logic before/after query or method executions*
   - *Pre-defined listeners support query logging, slow query detection, query execution statistics, interaction tracing, etc.*
