@@ -17,6 +17,7 @@ has_children: true
 - <https://github.com/kelseyhightower/kubernetes-the-hard-way> - *Bootstrap Kubernetes the hard way on Google Cloud Platform. No scripts.*
 - <https://github.com/bregman-arie/devops-resources/blob/master/resources/kubernetes.md>
 - <https://github.com/bregman-arie/devops-exercises/blob/master/topics/kubernetes/README.md>
+- <https://github.com/techiescamp/kubernetes-learning-path> - *A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)*
 
 
 ## YAML-Konfigurationsdateien
