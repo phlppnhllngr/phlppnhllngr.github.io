@@ -211,6 +211,9 @@ parent: Java
   - **cxf-rt-rs-sse**
     - *Apache CXF client implementation of JAX RS Client API for SSE*
     - <https://www.baeldung.com/java-ee-jax-rs-sse>
+  - **Jersey 2**
+    - <https://howtodoinjava.com/jersey/jersey-restful-client-examples/>
+    - <https://www.baeldung.com/jersey-jax-rs-client> 
 - <u>http server</u>
   - **com.sun.net.httpserver**
     - HttpServer
