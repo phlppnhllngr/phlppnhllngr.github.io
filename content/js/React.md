@@ -21,6 +21,9 @@ parent: JavaScript
   - *The Fullstack React Framework*
 - **remix**
   - <https://github.com/remix-run/remix>
+- **Refine**
+  - *provides industry standard solutions for critical parts like authentication, access control, routing, networking, state management, and i18n* 
+  - <https://github.com/refinedev/refine> 
 
 
 ## Libs
