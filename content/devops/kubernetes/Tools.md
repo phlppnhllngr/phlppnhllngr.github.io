@@ -47,6 +47,8 @@ grand_parent: DevOps
   - *The package manager for Kubernetes*
   - *Helm is the best way to find, share, and use software built for Kubernetes.*
   - *Helm Charts help you define, install, and upgrade even the most complex Kubernetes application*
+  - Helm Dashboard
+    - <https://github.com/komodorio/helm-dashboard> 
 - **lens**
   - *The Kubernetes IDE*
   - <https://github.com/lensapp/lens>
