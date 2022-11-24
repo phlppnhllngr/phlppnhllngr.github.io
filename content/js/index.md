@@ -8,7 +8,7 @@ has_children: true
 - <https://github.com/sorrycc/awesome-javascript>
 - <https://github.com/tc39/proposals>
 - <https://dorey.github.io/JavaScript-Equality-Table/> (truthy, falsy)
-- ECMAScript compatibility table https://kangax.github.io/compat-table/es6/>
+- ECMAScript compatibility table <https://kangax.github.io/compat-table/es6/>
 - <https://github.com/denysdovhan/wtfjs>
     - *A list of funny and tricky JavaScript examples*
 - <https://github.com/lydiahallie/javascript-questions/blob/master/en-EN/README.md>
