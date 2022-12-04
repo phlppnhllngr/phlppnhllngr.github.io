@@ -90,4 +90,11 @@ grand_parent: DevOps
 - **kubescape**
   - *providing a multi-cloud K8s single pane of glass, including risk analysis, security compliance, RBAC visualizer and image vulnerabilities scanning*
   - *scans K8s clusters, YAML files, and HELM charts, detecting misconfigurations according to multiple frameworks, software vulnerabilities, and RBAC (role-based-access-control) violations at early stages of the CI/CD pipeline, calculates risk score instantly and shows risk trends over time* 
-  - <https://github.com/kubescape/kubescape> 
+  - <https://github.com/kubescape/kubescape>
+- **Tanzu Community Edition**
+  - free 
+  - *no longer an actively maintained project. Code is available for historical purposes only.* 
+  - <https://github.com/vmware-tanzu/community-edition>
+  - [YT - VMware Tanzu Community Edition Installation and creating an unmanaged Kubernetes cluster](https://www.youtube.com/watch?v=dEMuiagEAg4)
+- **Tanzu Kubernetes Grid**
+  - <https://tanzu.vmware.com/kubernetes-grid> 
