@@ -304,12 +304,14 @@ stage('foo') {
 ```
 
 **PATH (scripted)**
+```groovy
 def javaHome = tool name: 'openjdk-8'
 def mvnHome = tool name: 'maven-3.6.3'
 withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) {
     sh "java -version"
     sh "mvn -version"
 }
+```
 
 ### properties
 
