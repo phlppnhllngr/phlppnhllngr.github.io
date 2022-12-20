@@ -114,6 +114,7 @@ parent: SCM
 
 
 ## Code zurücksetzen
+- <https://stackoverflow.com/a/42903805/7437541>
 - **reset**
   - local auf remote zurücksetzen
     ```
