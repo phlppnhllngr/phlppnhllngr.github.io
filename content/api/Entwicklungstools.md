@@ -94,14 +94,33 @@ parent: API
   - *open-source, self-hosted, collaborative API development environment.*
   - *self-hosted Postman alternative*
   - <https://news.ycombinator.com/item?id=30895372>
+- **Hurl**
+  - *command line tool that runs HTTP requests defined in a simple plain text format*
+  - *can chain requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for fetching data, testing HTTP sessions and testing XML / JSON APIs.* 
+  - <https://hurl.dev/>
+  - <https://gitlab.com/everyonecancontribute/dev/hurl-playground>
 
+## Generatoren
+- **quicktype**
+  - *generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries*
+  - *Target Languages: js, java, ...*
+  - <https://github.com/quicktype/quicktype/>
+- **openapi-generator**
+  - <https://github.com/OpenAPITools/openapi-generator/>
+  - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
 
 ## Andere
 - **swagger**
+  - <https://swagger.io/> 
+- **OpenAPI.Tools**
+  - <https://openapi.tools/> 
 - **openapi-cop**
   - <https://github.com/EXXETA/openapi-cop/>
   - node_module
   - *A proxy that validates responses and requests against an OpenAPI document*
+- **har2openapi**
+  - *automatically creates API documentation via a OpenApi Spec (OAS) file by using network requests captured in one or more HAR files* 
+  - <https://github.com/dcarr178/har2openapi> 
 - **Akita**
   - *watches API traffic to automatically generate OpenAPI specs in just minutes, completely black box, without requiring any code or config changes.*
   - *Akita is able to tell you:*
@@ -112,4 +131,7 @@ parent: API
   - <https://docs.akita.software/docs/>
 - **mitmproxy2swagger**
   - *automatically converting mitmproxy captures to OpenAPI 3.0 specifications. This means that you can automatically reverse-engineer REST APIs by just running the apps and capturing the traffic.*   
-  - <https://github.com/alufers/mitmproxy2swagger> 
+  - <https://github.com/alufers/mitmproxy2swagger>
+- **Charles**
+  - *is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).* 
+  - <https://www.charlesproxy.com/> 
