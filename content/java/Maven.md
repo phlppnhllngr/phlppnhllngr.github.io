@@ -436,6 +436,9 @@ parent: Java
   → Spring/Entwicklungstools/Maven-Plugin
 - **surefire**
   - <http://maven.apache.org/surefire/maven-surefire-plugin>
+- **openapi-generator-maven-plugin**
+  - <https://openapi-generator.tech/docs/plugins/> 
+  - <https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md> 
 - **swagger**
   - *JAX-RS & SpringMVC supported maven build plugin, helps you generate Swagger JSON and API document in build phase.*
   - <https://github.com/kongchen/swagger-maven-plugin>
