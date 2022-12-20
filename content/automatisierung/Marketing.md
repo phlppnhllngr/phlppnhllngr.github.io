@@ -17,3 +17,7 @@ parent: Automatisierung
     Automation (triggered and RSS campaigns), Multiple users with granular user permissions and flexible sharing, Hierarchical namespaces for enterprise-level situations, 
     Builtin Zone-MTA (https://github.com/zone-eu/zone-mta) for close-to-zero setup of mail delivery*
   - <https://github.com/Mailtrain-org/mailtrain> 
+- **SendPortal**
+    - *Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.*
+    - *SendPortal integrates with Amazon SES, Postmark, Sendgrid, Mailgun and Mailjet.* 
+    - <https://github.com/mettle/sendportal> 
