@@ -111,7 +111,9 @@ parent: API
 
 ## Andere
 - **swagger**
-  - <https://swagger.io/> 
+  - *OpenAPI = Specification, Swagger = Tools for implementing the specification* 
+  - <https://swagger.io/>
+  - <https://swagger.io/swagger-editor/>
 - **OpenAPI.Tools**
   - <https://openapi.tools/> 
 - **openapi-cop**
