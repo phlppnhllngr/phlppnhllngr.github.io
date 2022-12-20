@@ -122,5 +122,8 @@ parent: Diverses
   - <https://powerbi.microsoft.com/>
   - Power BI Gateway
     - *Connect to on-premises data sources* 
-    - <https://powerbi.microsoft.com/en-us/gateway/> 
+    - <https://powerbi.microsoft.com/en-us/gateway/>
+- **Lightdash**
+  - *The open-source Looker alternative* 
+  - <https://github.com/lightdash/lightdash> 
 
