@@ -49,6 +49,7 @@ parent: Diverses
 - <https://leetcode.com/>
 - <https://www.codewars.com/>
 - <https://codingbat.com/>
+- <https://adventofcode.com/2022/>
 
 
 ## Kurse
