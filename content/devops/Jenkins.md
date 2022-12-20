@@ -329,7 +329,7 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 
 
 ## Plugins
-- docker
+- **docker**
   - <https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow>
   - File aus Container zum Host kopieren:
     ```groovy
@@ -338,11 +338,13 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
       sh "docker cp ${container.id}:/path/in/container/file.txt /path/in/host/file.txt" 
     }
     ```
-- configuration-as-code
+- **configuration-as-code**
   - <https://github.com/jenkinsci/configuration-as-code-plugin>
-- Timestamper
+- **Timestamper**
 	- *adds timestamps to the console output of Jenkins jobs*
-	- <https://plugins.jenkins.io/timestamper/> 
+	- <https://plugins.jenkins.io/timestamper/>
+- **Config File Provider**
+	- <https://plugins.jenkins.io/config-file-provider/> 
 
 
 ## Tools
