@@ -50,6 +50,7 @@ parent: Diverses
 - <https://www.codewars.com/>
 - <https://codingbat.com/>
 - <https://adventofcode.com/2022/>
+- <https://github.com/CollabCodeTech/backend-challenges>
 
 
 ## Kurse
