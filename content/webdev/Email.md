@@ -19,3 +19,14 @@ parent: Webdev
 - **mailwind**
   - *Use Tailwind CSS to design HTML emails.* 
   - <https://github.com/soheilpro/mailwind> *2k
+- **Testi@**
+  - *Email render testing preview*
+  - $$$ (free tier)
+  - <https://testi.at/>
+- **Litmus**
+  - email testing
+  - $$$
+  - <https://www.litmus.com/email-testing/>
+- **Cerberus**
+  - *A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.*
+  - <https://github.com/TedGoas/Cerberus> 
