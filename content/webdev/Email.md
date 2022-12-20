@@ -7,6 +7,8 @@ parent: Webdev
 ---
 
 # Email
+- **emailresourc.es**
+  - <https://emailresourc.es/>
 - **mjml**
   - Transpiler für Email-Templates 
   - <https://github.com/mjmlio/mjml>
@@ -29,4 +31,9 @@ parent: Webdev
   - <https://www.litmus.com/email-testing/>
 - **Cerberus**
   - *A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.*
-  - <https://github.com/TedGoas/Cerberus> 
+  - <https://github.com/TedGoas/Cerberus>
+- **BEE**
+  - *Create beautiful emails and landing pages, fast. BEE is the best drag & drop editor for designing mobile responsive emails and landing pages.* 
+  - <https://beefree.io/>
+- **Foundation for Emails**
+  - <https://get.foundation/emails.html> 
