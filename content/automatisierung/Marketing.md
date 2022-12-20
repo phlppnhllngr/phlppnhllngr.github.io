@@ -10,6 +10,7 @@ parent: Automatisierung
     - *Use performance metrics in Dashboards, Reports, Points, and Stages to measure the efficiency of your marketing strategy.*
     - *Forms, landing pages*
     - <https://github.com/mautic/mautic>
+    - <https://github.com/mautic/docker-mautic>
 - **Mailtrain**
   - *Self hosted newsletter app*
   - *built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).*
