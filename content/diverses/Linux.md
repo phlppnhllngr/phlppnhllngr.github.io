@@ -50,6 +50,7 @@ parent: Diverses
 - <https://github.com/onceupon/Bash-Oneliner> - *A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.*
 - [HN: Shell script best practices, from a decade of scripting things ](https://news.ycombinator.com/item?id=33354286)
 - [HN: Linux command line for you and me](https://news.ycombinator.com/item?id=32886315)
+- <https://github.com/trinib/Linux-Bash-Commands> - *Ultimate list of Linux bash commands, cheatsheet and resources*
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
