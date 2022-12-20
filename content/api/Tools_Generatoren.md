@@ -1,15 +1,13 @@
 ---
 tags: [Notebooks/API]
-title: 'Tools, Generatoren'
+title: 'Backends'
 created: '2021-07-09T18:00:56.352Z'
 modified: '2021-09-02T10:15:44.116Z'
 parent: API
 ---
 
-# Tools, Generatoren
+# Backends
 - → Automatisierung/Lowcode (low code APIs)
-
-## Server
 - **supabase**
   - <https://github.com/supabase/supabase/> *12.1k
   - *The open source Firebase alternative.*
@@ -62,14 +60,4 @@ parent: API
   - *Inflector uses the following libraries: swagger models for the swagger definition, Jackson for JSON processing, Jersey 2.32 for REST, Minimum Java 8*
   - <https://github.com/swagger-api/swagger-inflector>
 - **PocketBase**
-  - <https://www.youtube.com/watch?v=Wqy3PBEglXQ> 
-
-
-## Client
-- **quicktype**
-  - *generates strongly-typed models and serializers from JSON, JSON Schema, TypeScript, and GraphQL queries*
-  - *Target Languages: js, java, ...*
-  - <https://github.com/quicktype/quicktype/>
-- **openapi-generator**
-  - <https://github.com/OpenAPITools/openapi-generator/>
-  - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
+  - <https://www.youtube.com/watch?v=Wqy3PBEglXQ>
