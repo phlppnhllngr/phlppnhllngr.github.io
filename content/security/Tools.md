@@ -85,4 +85,9 @@ parent: Security
   - → spring-cloud-vault
 - **Infisical**
   - *simple tool to manage and sync environment variables across your team and infrastructure* 
-  - <https://github.com/Infisical/infisical> 
+  - <https://github.com/Infisical/infisical>
+- **Supabase Vault**
+  - *Extension for storing encrypted secrets in the Vault* 
+  - <https://github.com/supabase/vault> 
+  - <https://supabase.com/blog/supabase-vault> 
+  - <https://supabase.com/blog/vault-now-in-beta> 
