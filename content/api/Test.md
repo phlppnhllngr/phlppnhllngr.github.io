@@ -79,7 +79,10 @@ parent: API
   - <https://github.com/citrusframework/citrus>
 - **stepci**
   - *makes testing and monitoring APIs simple* 
-  - <https://github.com/stepci/stepci> 
+  - <https://github.com/stepci/stepci>
+- **WebTau**
+  - *is a testing API, command line tool and a framework to write unit, integration and end-to-end tests. Test across REST-API, Graph QL, Browser, Database, CLI and Business Logic with consistent set of matchers and concepts. REPL mode speeds-up tests development. Rich reporting cuts down investigation time* 
+  - <https://github.com/testingisdocumenting/webtau> 
 
 
 ## Stress, Load, Resilience
