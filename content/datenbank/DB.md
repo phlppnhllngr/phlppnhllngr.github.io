@@ -11,16 +11,18 @@ parent: Datenbank
 - <https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
 ## IDs
-- auto generated
+- **auto generated**
   - *doesn't go well with distributed dbs, sharding*
-- UUID
+- **UUID**
   - <https://en.wikipedia.org/wiki/Universally_unique_identifier>
   - <https://www.ietf.org/id/draft-peabody-dispatch-new-uuid-format-03.html>
-- Hash-ID
+- **Hash-ID**
   - <https://hashids.org/>
-- ULID
+- **ULID**
   - Universally Unique Lexicographically Sortable Identifier
   - <https://github.com/ulid/spec>
+- **Snowflake ID**
+  - <https://en.wikipedia.org/wiki/Snowflake_ID> 
 
 
 ## GUI Clients
