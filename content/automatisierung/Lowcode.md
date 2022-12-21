@@ -217,3 +217,4 @@ parent: Automatisierung
 ### E-Commerce
 - <http://shopify.com/>
 - <https://github.com/shopizer-ecommerce/shopizer> (java based)
+- <https://github.com/shopware/platform> (PHP + Vue)
