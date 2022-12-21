@@ -76,3 +76,13 @@ parent: Security
     - *reissue an interesting request over and over again. This lets you study the target website's response to different input without having to intercept the request each time.*
   - Burp Intruder
     - *tool for automating customized attacks against web applications*
+
+## Secret Management
+- **vault**
+  - *A tool for secrets management, encryption as a service, and privileged access management*
+  - *a tool for securely accessing secrets (...) such as API keys, passwords, certificates, and more*
+  - <https://github.com/hashicorp/vault> *20.7k
+  - → spring-cloud-vault
+- **Infisical**
+  - *simple tool to manage and sync environment variables across your team and infrastructure* 
+  - <https://github.com/Infisical/infisical> 
