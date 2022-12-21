@@ -11,6 +11,7 @@ has_children: true
 - <https://github.com/bregman-arie/devops-resources>
     - *This repository is about gathering any useful resources and information regarding DevOps and secondly, provide some roadmap for those who want to practice DevOps*
     - *Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP*
+- <https://github.com/milanm/DevOps-Roadmap>
 - **onedev**
     - *Super Easy All-In-One DevOps Platform*
     - *Git Management, Issue Tracking, and CI/CD*
