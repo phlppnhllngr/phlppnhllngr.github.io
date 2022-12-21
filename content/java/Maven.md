@@ -273,6 +273,9 @@ parent: Java
       - <https://github.com/Cosium/git-code-format-maven-plugin>
   - gitflow
     - <https://github.com/aleksandr-m/gitflow-maven-plugin>
+  - jgit-flow (jgitflow)
+    - *Although this plugin is based on the maven-release-plugin, it does things a bit differently to provide a cleaner workflow.* 
+    - <https://bitbucket.org/atlassian/jgit-flow/wiki/Home.wiki#!maven-jgit-flow-plugin> 
 - **googleformatter**
   - *reformat a projects source/test-sources using the google-java-format project to conform with the Google Code Style Guide* 
   - <https://github.com/talios/googleformatter-maven-plugin> 
