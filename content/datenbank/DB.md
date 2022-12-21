@@ -22,7 +22,8 @@ parent: Datenbank
   - Universally Unique Lexicographically Sortable Identifier
   - <https://github.com/ulid/spec>
 - **Snowflake ID**
-  - <https://en.wikipedia.org/wiki/Snowflake_ID> 
+  - <https://en.wikipedia.org/wiki/Snowflake_ID>
+    - *Snowflakes are sortable by time, because they are based on the time they were created. Additionally, the time a snowflake was created can be calculated from the snowflake. This can be used to get snowflakes (and their associated objects) that were created before or after a particular date.* 
 
 
 ## GUI Clients
