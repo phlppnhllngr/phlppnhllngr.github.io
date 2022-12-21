@@ -23,3 +23,7 @@ has_children: true
 - **consul**
     - <https://www.consul.io/>
     - *Automate network configurations, discover services, and enable secure connectivity across any cloud or runtime.*
+- **Steampipe**
+    - *Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.*
+    - *the universal interface to APIs. Use SQL to query cloud infrastructure, SaaS, code, logs, and more.* 
+    - <https://github.com/turbot/steampipe> 
