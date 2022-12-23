@@ -36,6 +36,7 @@ parent: Java
 - <https://www.reddit.com/r/java/comments/u7057f/running_java_in_singlecore_containers/>
 - <https://www.baeldung.com/ops/docker-jvm-heap-size>
 - <https://developers.redhat.com/articles/2022/04/19/best-practices-java-single-core-containers>
+- <https://developers.redhat.com/blog/2017/04/04/openjdk-and-containers>
 - <https://learn.microsoft.com/en-us/azure/developer/java/containers/overview>
   - *The JVM has heuristics to determine the number of "available processors" based on CPU quota, which can dramatically influence the performance of Java applications.*
   - *The memory allocated to the container itself and the size of the heap area for the JVM are as important as the processors. These factors will determine the behavior of the garbage collector (GC) and the overall performance of the system.*
