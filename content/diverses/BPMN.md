@@ -50,7 +50,8 @@ parent: Diverses
   - Embedded Process Engine
     - *In this case, the process engine is added as an application library to a custom application. This way, the process engine can easily be started and stopped with the application lifecycle.* 
     - Spring Boot App
-      - <https://docs.camunda.org/manual/latest/user-guide/spring-boot-integration/> 
+      - <https://docs.camunda.org/manual/latest/user-guide/spring-boot-integration/>
+      - <https://www.baeldung.com/spring-boot-embedded-camunda>
   - Shared, Container-Managed Process Engine
     - *In this case, the process engine is started inside the runtime container (Servlet Container, Application Server, …). The process engine is provided as a container service and can be shared by all applications deployed inside the container.*
     - <https://docs.camunda.org/manual/latest/installation/full/>
