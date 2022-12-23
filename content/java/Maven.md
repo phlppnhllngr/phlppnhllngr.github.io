@@ -464,6 +464,9 @@ parent: Java
   - → build-helper-plugin
 - **war**
   - <https://maven.apache.org/plugins/maven-war-plugin>
+- **wildfly-jar**
+  - → Java/Server/Wildfly
+  - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin/>
 
 
 ## Konfig
