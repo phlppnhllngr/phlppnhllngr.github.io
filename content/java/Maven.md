@@ -359,6 +359,9 @@ parent: Java
 - **prettier**
   - *Node, prettier, and prettier-java are bundled into the plugin*
   - <https://github.com/HubSpot/prettier-maven-plugin>
+- **process**
+  - *start multiple processes in pre-integration-test phase in order* 
+  - <https://github.com/bazaarvoice/maven-process-plugin> 
 - **proguard**
   - <https://github.com/wvengen/proguard-maven-plugin>
 - **project-info-reports**
