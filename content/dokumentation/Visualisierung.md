@@ -47,7 +47,10 @@ parent: Dokumentation
 - **Structurizr DSL**
   - *a way to create Structurizr software architecture models*
   - <https://structurizr.com/dsl?example=getting-started> 
-  - <https://github.com/structurizr/dsl> 
+  - <https://github.com/structurizr/dsl>
+- **D2**
+  - *a modern diagram scripting language that turns text to diagrams* 
+  - <https://github.com/terrastruct/d2> 
 
 
 ## UML
