@@ -64,6 +64,10 @@ parent: Java
 - **war**
   - <https://docs.gradle.org/current/userguide/war_plugin.html>
   - *extends the Java plugin to add support for assembling web application WAR files*
+- **Kradle**
+  - *sets up your Kotlin/JVM (or Java) project in no time*
+  - *Bootstrap new projects, Run static code analysis, Run vulnerability scans, Create Docker images, ...*
+  - <https://github.com/mrkuz/kradle#feature-java> 
 
 
 ## Diverse
