@@ -11,6 +11,7 @@ parent: Automatisierung
     - *Forms, landing pages*
     - PHP
     - <https://github.com/mautic/mautic>
+    - <https://docs.mautic.org/en>
     - <https://github.com/mautic/docker-mautic>
 - **Mailtrain**
   - *Self hosted newsletter app*
