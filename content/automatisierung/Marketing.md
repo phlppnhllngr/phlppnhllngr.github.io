@@ -9,6 +9,7 @@ parent: Automatisierung
     - *Connect with your contacts over channels like Emails, Text Messages, Social media, and Focus Items.*
     - *Use performance metrics in Dashboards, Reports, Points, and Stages to measure the efficiency of your marketing strategy.*
     - *Forms, landing pages*
+    - PHP
     - <https://github.com/mautic/mautic>
     - <https://github.com/mautic/docker-mautic>
 - **Mailtrain**
