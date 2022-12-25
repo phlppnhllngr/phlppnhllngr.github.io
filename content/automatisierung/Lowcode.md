@@ -26,6 +26,9 @@ parent: Automatisierung
   - *The Open Source Airtable alternative*
   - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
   - <https://github.com/nocodb/nocodb>
+- **APITable**
+  - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
+  - <https://github.com/apitable/apitable> 
 - **NocoBase**
   - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
   - <https://github.com/nocobase/nocobase> *571
