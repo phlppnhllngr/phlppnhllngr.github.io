@@ -25,13 +25,13 @@ parent: Automatisierung
 - **NocoDB**
   - *The Open Source Airtable alternative*
   - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
-  - <https://github.com/nocodb/nocodb>
+  - <https://github.com/nocodb/nocodb> <img loading="lazy" src="https://img.shields.io/github/stars/nocodb/nocodb?style=flat-square"/>
 - **APITable**
   - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
-  - <https://github.com/apitable/apitable> 
+  - <https://github.com/apitable/apitable> <img loading="lazy" src="https://img.shields.io/github/stars/apitable/apitable?style=flat-square"/>
 - **NocoBase**
   - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
-  - <https://github.com/nocobase/nocobase> *571
+  - <https://github.com/nocobase/nocobase> <img loading="lazy" src="https://img.shields.io/github/stars/nocobase/nocobase?style=flat-square"/>
 - **sheety**
   - <https://sheety.co/>
   - *Turn any Google sheet into an API instantly, for free*
@@ -48,27 +48,30 @@ parent: Automatisierung
   - *the fast way to build internal tools — drag-and-drop frontend components together and connect them to any database or API*
 - **Openblocks**
   - *The Open Source Retool Alternative* 
-  - <https://github.com/openblocks-dev/openblocks> 
+  - <https://github.com/openblocks-dev/openblocks> <img loading="lazy" src="https://img.shields.io/github/stars/openblocks-dev/openblocks?style=flat-square"/>
 - **lowdefy**
   - *An open-source low-code framework to build web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML.*
   - *UIs in Lowdefy are built using blocks, which are React components*
   - *you can also create your own custom blocks.*
   - *doesn't have any data storage built in. Instead, it provides connections to external services like databases and APIs*
   - *self hosted; Currently you can host Lowdefy apps: As a Docker container. On AWS Lambda using Serverless. On Netlify using Netlify functions.*
-  - <https://github.com/lowdefy/lowdefy>
+  - <https://github.com/lowdefy/lowdefy> <img loading="lazy" src="https://img.shields.io/github/stars/lowdefy/lowdefy?style=flat-square"/>
 - **zoho**
   - <https://www.zoho.com/creator>
   - *online database builder*
   - Freemium
 - **saltcorn**
-  - <https://github.com/saltcorn/saltcorn> *350
+  - <https://github.com/saltcorn/saltcorn> <img loading="lazy" src="https://img.shields.io/github/stars/saltcorn/saltcorn?style=flat-square"/>
   - *open-source no-code builder for web applications. It is a complete end-to-end solution for the front-end, backend and database of your application, and it manages both the build and the hosting stages of your application life-cycle with an intuitive point-and-click, drag-and-drop user interface.*
 - **appsmith**
   - *build admin panels, CRUD apps and workflows*
+  - *Create apps by connecting UI widgets to any database and writing any logic in JS*
+  - *build dashboards, workflows, forms, and any internal tool.*
+  - *Connect UI to DB queries or APIs to build admin panels*
   - self- oder cloud-hosted
   - 💰 für "enterprise features"
   - Supported Databases: kein DB2
-  - <https://github.com/appsmithorg/appsmith> *5.2k
+  - <https://github.com/appsmithorg/appsmith> <img loading="lazy" src="https://img.shields.io/github/stars/appsmithorg/appsmith?style=flat-square"/>
   - <https://www.appsmith.com/>
 - **bubble**
   - *create interactive, multi-user apps for web browsers*
@@ -77,10 +80,11 @@ parent: Automatisierung
   - <https://bubble.io/>
 - **amplication**
   - *auto-generates backend apps built with TypeScript and Node.js, and a client built with React*
-  - <https://github.com/amplication/amplication> *3.2k
+  - <https://github.com/amplication/amplication> <img loading="lazy" src="https://img.shields.io/github/stars/amplication/amplication?style=flat-square"/>
 - **Baserow**
   - *Open source no-code database and Airtable alternative*
   - <https://baserow.io/>
+  - <https://github.com/bram2w/baserow> <img loading="lazy" src="https://img.shields.io/github/stars/bram2w/baserow?style=flat-square"/>
   - SaaS oder self hosted
 - **windmill**
   - *uickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
@@ -92,16 +96,16 @@ parent: Automatisierung
     - *postgres as the database*
     - *backend in Rust*
     - *frontend in svelte*
-  - <https://github.com/windmill-labs/windmill>
+  - <https://github.com/windmill-labs/windmill> <img loading="lazy" src="https://img.shields.io/github/stars/windmill-labs/windmill?style=flat-square"/>
 - **Superblocks** 💰
   - *programmable IDE for developers to build any internal app, workflow or scheduled job* 
   - <https://www.superblocks.com/>
 - **Robot Framework**
   - *automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with generic and custom libraries.* 
-  - <https://github.com/robotframework/robotframework>
+  - <https://github.com/robotframework/robotframework> <img loading="lazy" src="https://img.shields.io/github/stars/robotframework/robotframework?style=flat-square"/>
 - **ILLA Builder**
   - *low-code platform for developers to build internal tools* 
-  - <https://github.com/illacloud/illa-builder> 
+  - <https://github.com/illacloud/illa-builder> <img loading="lazy" src="https://img.shields.io/github/stars/illacloud/illa-builder?style=flat-square"/>
 
 
 ## Workflows, Pipelines
@@ -112,26 +116,26 @@ parent: Automatisierung
   - *Build and manage both Workflow and Connector APIs. Think Zapier, but with complete control over workflow code (no black boxes) and the ability to build your own custom connectors in minutes*
   - free & 💰
 - **airflow**
-  - <https://github.com/apache/airflow>
+  - <https://github.com/apache/airflow> <img loading="lazy" src="https://img.shields.io/github/stars/apache/airflow?style=flat-square"/>
   - *programmatically author, schedule, and monitor workflows*
   - Python
 - **titanoboa**
-  - <https://github.com/mikub/titanoboa> *173
+  - <https://github.com/mikub/titanoboa> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
   - *highly scalable and fault tolerant workflow orchestration platform for JVM*
 - **pipedream**
   - *Serverless integration and compute platform*
   - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
-  - <https://github.com/PipedreamHQ/pipedream>
+  - <https://github.com/PipedreamHQ/pipedream> <img loading="lazy" src="https://img.shields.io/github/stars/PipedreamHQ/pipedream?style=flat-square"/>
 - **node-red**
   - *Low-code programming for event-driven applications*
-  - <https://github.com/node-red/node-red> ⭐10.9k
+  - <https://github.com/node-red/node-red> <img loading="lazy" src="https://img.shields.io/github/stars/node-red/node-red?style=flat-square"/>
 - **kestra**
   - *reating, running, scheduling, and monitoring pipelines*
   - *Easy to extend*
   - *Make sure you have already installed: Docker, Docker Compose*
-  - <https://github.com/kestra-io/kestra>
+  - <https://github.com/kestra-io/kestra> <img loading="lazy" src="https://img.shields.io/github/stars/kestra-io/kestra?style=flat-square"/>
 - **wexflow**
-  - <https://github.com/aelassas/Wexflow> ⭐1400
+  - <https://github.com/aelassas/Wexflow> <img loading="lazy" src="https://img.shields.io/github/stars/aelassas/Wexflow?style=flat-square"/>
   - *A high-performance, extensible, modular and cross-platform workflow engine. Built for automation.*
   - <mark>free & open source</mark>
   - C# & XML
@@ -145,17 +149,17 @@ parent: Automatisierung
   - *Easily extendable: Create own nodes to integrate third-party services or in-house tools*
   - *React to events: Execute a task every time something happens.*
   - CLI (npm module) & Docker
-  - <https://github.com/n8n-io/n8n> ⭐3.6k
+  - <https://github.com/n8n-io/n8n> <img loading="lazy" src="https://img.shields.io/github/stars/n8n-io/n8n?style=flat-square"/>
   - JS
 - **refinery** 💰
   - <https://www.refinery.io/>
 - **Huginn**
   - *Create agents that monitor and act on your behalf*
   - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
-  - <https://github.com/huginn/huginn>
+  - <https://github.com/huginn/huginn> <img loading="lazy" src="https://img.shields.io/github/stars/huginn/huginn?style=flat-square"/>
 - **DolphinScheduler**
   - *extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.*
-  - <https://github.com/apache/dolphinscheduler> ⭐5.6k
+  - <https://github.com/apache/dolphinscheduler> <img loading="lazy" src="https://img.shields.io/github/stars/apache/dolphinscheduler?style=flat-square"/>
 - **Microsoft Power Automate** 💰
   - <https://flow.microsoft.com/de-de/>
 - **uipath** 💰
@@ -171,7 +175,7 @@ parent: Automatisierung
 - **weebly**
   - <https://www.weebly.com/de>
 - **grapesjs**
-  - <https://github.com/artf/grapesjs>
+  - <https://github.com/artf/grapesjs> <img loading="lazy" src="https://img.shields.io/github/stars/artf/grapesjs?style=flat-square"/>
   - <http://grapesjs.com/demo.html>
 - **dreamweaver**
 - **thunkable**
@@ -186,23 +190,18 @@ parent: Automatisierung
 - **Blocs**
   - <https://blocsapp.com/> 💰
 - **vvvebjs**
-  - <https://github.com/givanz/VvvebJs>
+  - <https://github.com/givanz/VvvebJs> <img loading="lazy" src="https://img.shields.io/github/stars/givanz/VvvebJs?style=flat-square"/>
 - **webflow**
   - <https://webflow.com/>
   - Designer, CMS, E-Commerce
 - **elementor**
-  - <https://github.com/elementor/elementor>
-- **appsmith**
-  - *Create apps by connecting UI widgets to any database and writing any logic in JS*
-  - *build dashboards, workflows, forms, and any internal tool.*
-  - *Connect UI to DB queries or APIs to build admin panels*
-  - <https://github.com/appsmithorg/appsmith>
+  - <https://github.com/elementor/elementor> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
 - **Loopple**
   - *Create Beautiful Dashboards using Drag and Drop*
-  - <https://github.com/Loopple/loopple>
+  - <https://github.com/Loopple/loopple> <img loading="lazy" src="https://img.shields.io/github/stars/Loopple/loopple?style=flat-square"/>
 - **builder**
   - *Drag and drop page builder and CMS for React, Vue, Angular, and more*
-  - *Register components for use in the visual editor*
+  - *Register components for use in the visu <img loading="lazy" src="https://img.shields.io/github/stars/BuilderIO/builder?style=flat-square"/>al editor*
   - <https://github.com/BuilderIO/builder>
 - **Stackbit**
   - *Jamstack Site Builder for Developers*
