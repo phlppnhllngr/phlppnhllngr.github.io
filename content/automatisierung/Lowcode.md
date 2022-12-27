@@ -18,7 +18,7 @@ parent: Automatisierung
   - *low-code development platform*
   - *design, build, and ship business apps*
   - *Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s*
-  - <https://github.com/Budibase/budibase>
+  - <https://github.com/Budibase/budibase> <img loading="lazy" src="https://img.shields.io/github/stars/Budibase/budibase?style=flat-square"/>
 - **Airtable**
   - <https://airtable.com/>
   - *Part spreadsheet, part database*
