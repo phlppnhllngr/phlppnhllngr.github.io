@@ -7,9 +7,6 @@ parent: CSS
 - standardmäßig wird bei `display: grid` pro child-Element eine Zeile angelegt (nicht etwa eine Spalte). Spalten anlegen statt rows: `grid-auto-flow: column`
 - mehrere Elemente können in der selben Grid-Cell sein
 
-<style>
-  [green] { background-color: chartreuse; }
-</style>
 
 ## Grid-Container-Props
 - **grid-template-columns**
