@@ -131,7 +131,7 @@ parent: CSS
     - n (n ist die Column-Line, entweder Index (beginnend bei 1) oder Name (siehe grid-template-columns))
 - **grid-column-end**
   - Werte
-    - n (n ist die Column-Line, NICHT die Column. Ein Grid mit 2 Columns hat z.B. 3 Column-Lines: |abc|xyz|)
+    - n (n ist die Column-Line, NICHT die Column. Ein Grid mit 2 Columns hat z.B. 3 Column-Lines: `|abc|xyz|`)
     - `grid-column-end: -1` um Item in letzter Spalte zu platzieren
 - **grid-column**
   - `grid-column: a`, `grid-column: a / b`, `grid-column: a / span b`
@@ -147,11 +147,11 @@ parent: CSS
   - um die Anordnung für alle Items des Grid zu setzen: siehe `justify-items`
   - values
     - basic
-      - start | end | center | stretch
+      - `start | end | center | stretch`
     - advanced
-      - auto | normal | flex-start | flex-end | self-start | self-end | left | right
-      - baseline | first baseline | last baseline
-      - safe center | unsafe center
+      - `auto | normal | flex-start | flex-end | self-start | self-end | left | right`
+      - `baseline | first baseline | last baseline`
+      - `safe center | unsafe center`
       - **Hinweise**
         - start == flex-start, end == flex-end
   - <https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self>
