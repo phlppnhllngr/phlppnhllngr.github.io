@@ -77,9 +77,9 @@ parent: Webdev
 
 ## Events
 - A click event propagates in 3 phases:
-  **Capture phase** — Starting from window, document and the root element, the event dives down through ancestors of the target element
-  **Target phase** — The event gets triggered on the element on which the user made a click
-  **Bubble phase** — Finally, the event bubbles up through ancestors of the target element until the root element, document, and window.
+  - **Capture phase** — Starting from window, document and the root element, the event dives down through ancestors of the target element
+  - **Target phase** — The event gets triggered on the element on which the user made a click
+  - **Bubble phase** — Finally, the event bubbles up through ancestors of the target element until the root element, document, and window.
 - <https://domevents.dev/>
 - use event delegation where possible (attaching listeners to parent/container elements instead of to each individual (list-)item element)
 
@@ -94,7 +94,7 @@ parent: Webdev
       <picture>
         <source type="image/webp" srcset="https://caniuse.bitsofco.de/image/once-event-listener.webp" loading="lazy">
         <source type="image/png" srcset="https://caniuse.bitsofco.de/image/once-event-listener.png" loading="lazy">
-        <img src="https://caniuse.bitsofco.de/image/once-event-listener.jpg" alt="Data on support for the once-event-listener feature across the major browsers from caniuse.com" width="600">
+        <img src="https://caniuse.bitsofco.de/image/once-event-listener.jpg" alt="Data on support for the once-event-listener feature across the major browsers from caniuse.com" width="600"/>
       </picture>
     </details>
 - statt einer Funktion kann man als erstes Argument auch ein Objekt mit `handleEvent`-property (Funktion) übergeben
@@ -191,7 +191,7 @@ parent: Webdev
   - Stand 09/20 kein Support in Safari
   - [shim](https://gist.github.com/paullewis/55efe5d6f05434a96c36), [polyfill](https://www.npmjs.com/package/requestidlecallback-polyfill) 
   - <https://caniuse.com/#feat=requestidlecallback>
-    <details>
-    <summary>caniuse</summary>
-      <img src="https://caniuse.bitsofco.de/image/requestidlecallback.jpg" width="600" loading="lazy">
-  </details>
+  - <details>
+      <summary>caniuse</summary>
+      <img src="https://caniuse.bitsofco.de/image/requestidlecallback.jpg" width="600" loading="lazy"/>
+    </details>
