@@ -15,3 +15,28 @@ has_children: true
 - <https://www.reddit.com/r/css/comments/r9e3i2/sometimes_you_just_need_to_target_safari_in_your/.compact>
 - <https://www.reddit.com/r/css/comments/rj7cuw/writing_better_css_a_compilation_of_modern/.compact>
 - <https://github.com/adamschwartz/magic-of-css>
+
+## Performance
+- <https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/>
+- **CSS Triggers**
+  - <https://csstriggers.com/>
+  - zeigt, wie performant Änderungen bestimmter Properties sind. Änderungen an `transform` sind z.B. relativ günstig, `width` teuer.
+
+
+## BEM - Block Element Modifier
+- <http://getbem.com/>
+- Konventionen für CSS (z.B. Klassennamen)
+- Bsp.:
+  ```
+  .person
+      .person__head
+          .person__eye.person__eye--blue
+      .person__torso
+  ```
+- Do-s & Dont-s: <https://seesparkbox.com/foundry/bem_by_example>
+- <https://9elements.com/bem-cheat-sheet/>
+- `.person__torso` ist performanter als z.B. `.person .torso`, weil Browser die Regeln von rechts nach links parsen und anwenden. Es wird also zunächst nach ALLEN Elementen mit Klasse "torso" gesucht, und dann nur die behalten, die Parents mit Klasse "person" haben.
+
+
+## Coverage
+ - Anteil an tatsächlich verwendetem CSS: Chrome Devtools (Dot menu > more tools > coverage > type: CSS) oder Puppeteer `page.coverage.startCSSCoverage(); page.coverage.stopCSSCoverage();`
