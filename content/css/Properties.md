@@ -90,7 +90,7 @@ parent: CSS
       offset-x | offset-y | blur-radius | spread-radius | color
       offset-x = px / rem / ... / 'inset' / 'outset'
     - mehrere möglich:
-      ````
+      ```
       box-shadow:
         0 0 0 10px hsl(0, 0%, 80%),
         0 0 0 15px hsl(0, 0%, 90%);
