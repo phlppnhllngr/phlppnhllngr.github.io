@@ -397,7 +397,7 @@ parent: CSS
   - https://caniuse.com/#search=text-space-collapse
 
 
-## scrolling
+## Scrolling
 <span id="scroll"></span>
 - scroll-behavior
   - wie der Browser zum Ziel springt, bei `<a href="#id">`. Default: Direkter "Sprung" ohne Scroll (`auto`)
@@ -421,7 +421,7 @@ parent: CSS
     - https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-stop
 - overscroll-behavior
   - https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior
-  - values: none | contain | auto
+  - values: `none | contain | auto`
   - *By default, mobile browsers tend to provide a "bounce" effect or even a page refresh when the top or bottom of a page (or other scroll area) is reached.*
   - *You may also have noticed that when you have a dialog box with scrolling content on top of a page of scrolling content, once the dialog box's scroll boundary is reached, the underlying page will then start to scroll — this is called scroll chaining.*
   - *Problem with this solution [contain, none] is that it only works if overlay is scrollable. If you have a modal and it all fit on screen so there is no scroll inside — it will not stop the body scroll.*
@@ -439,7 +439,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 ```
 
 
-## images & background
+## Images & Background
 <span id="images"></span>
 - background
   - shorthand
@@ -515,7 +515,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - https://www.freecodecamp.org/news/learn-css-background-properties/#background-clip
 - background-origin
   - *legt den Bereich des Hintergrundbildes fest (bzw. den Ausgangspunkt eines background-image). background-origin hat keinen Effekt, wenn background-attachment auf fixed gesetzt wurde.*
-  - values: border-box | padding-box | content-box | inherit
+  - values: `border-box | padding-box | content-box | inherit`
   - https://www.freecodecamp.org/news/learn-css-background-properties/#background-origin
   - https://developer.mozilla.org/de/docs/Web/CSS/background-origin
 <br/><hr/><br/>
@@ -593,7 +593,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - was font-size und line-height bedeuten: https://tonsky.me/blog/font-size/
 - font-weight
 - font-style
-  - normal | italic | oblique
+  - `normal | italic | oblique`
 - font-stretch
 - **variable fonts**
   - font-variation-settings
