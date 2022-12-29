@@ -30,7 +30,7 @@ parent: Webdev
 - **svgo**
   - *Node.js tool for optimizing SVG files*
   - <https://github.com/svg/svgo>
-- Formate
+- **Formate**
   - Vergleich
     - <https://jakearchibald.com/2020/avif-has-landed/>
     - <https://cloudinary.com/blog/time_for_next_gen_codecs_to_dethrone_jpeg>
@@ -41,10 +41,10 @@ parent: Webdev
     - <https://css-tricks.com/using-webp-images/>
     - <https://caniuse.com/#feat=webp>
     - z.T. bessere Komprimierung als jpg
-    ```html
+    - ```html
     <picture>
-      <source srcset="image.webp" type="image/webp">
-      <img src="image.jpg" type="image/jpeg"> <!-- fallback for older browsers -->
+      <source srcset="image.webp" type="image/webp"/>
+      <img src="image.jpg" type="image/jpeg"/> <!-- fallback for older browsers -->
     </picture>
     ```
   - webp2
@@ -52,7 +52,7 @@ parent: Webdev
     - av1 still image format
     - *AVIF generally has better compression than WebP, JPEG, PNG and GIF and is designed to supersede them.*
     - Stand 11.8.20 schlechter [Browser-Support](https://caniuse.com/#feat=avif)
-      <img src="https://caniuse.bitsofco.de/image/avif.jpg" width="600">
+      <img src="https://caniuse.bitsofco.de/image/avif.jpg" width="600" loading="lazy"/>
     - <https://darekkay.com/blog/avif-images/> (12.4.21)
   - heif
     - high efficiency image file format
@@ -75,18 +75,18 @@ parent: Webdev
 - <https://squoosh.app/>
   - PWA; kann avif und webp
 - <https://github.com/google/guetzli/>
-- sharp
+- **sharp**
   - <https://github.com/lovell/sharp>
-- google/libwebp
+- **google/libwebp**
   - <https://developers.google.com/speed/webp/docs/using>
   - konvertiert jpg/png zu webp
   - `cwebp -q 80 input.png -o output.webp`
-- imagemin
+- **imagemin**
   - cli & npm
   - <https://www.npmjs.com/package/imagemin>
   - diverse Plugins
     - z.b. für [webp](https://www.npmjs.com/package/imagemin-webp)
-- gulp-webp
+- **gulp-webp**
   - <https://github.com/sindresorhus/gulp-webp>
 
 
