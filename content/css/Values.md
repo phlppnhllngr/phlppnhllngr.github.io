@@ -25,5 +25,4 @@ parent: CSS
   - alle Kinder/Wörter in einer Zeile
   - die Box overflowt ihren Container wenn nötig
 - **Funktionen**
-  - -> CSS/Funktionen
   - fit-content, min, max, minmax, clamp, ...
