@@ -9,7 +9,7 @@ parent: API
 # Backends
 - → Automatisierung/Lowcode (low code APIs)
 - **supabase**
-  - <https://github.com/supabase/supabase/> *12.1k
+  - <https://github.com/supabase/supabase/> <img loading="lazy" src="https://img.shields.io/github/stars/supabase/supabase?style=flat-square"/>
   - *The open source Firebase alternative.*
   - *adds realtime and RESTful APIs to your existing PostgreSQL database without a single line of code*
   - *listen to database changes*
@@ -29,16 +29,16 @@ parent: API
   - php, db, frontend (vue/react), api
   - <https://api-platform.com/>
 - **postgREST**
-  - <https://github.com/PostgREST/postgrest/> *16.2k
+  - <https://github.com/PostgREST/postgrest/> <img loading="lazy" src="https://img.shields.io/github/stars/PostgREST/postgrest?style=flat-square"/>
   - *serves a fully RESTful API from any existing PostgreSQL database*
   - *handles authentication (via JSON Web Tokens) and delegates authorization to the role information defined in the database*
 - **Directus**
-  - <https://github.com/directus/directus>
+  - <https://github.com/directus/directus> <img loading="lazy" src="https://img.shields.io/github/stars/directus/directus?style=flat-square"/>
   - *suite of software that wraps custom SQL databases with a dynamic API and intuitive Admin App*
   - *database-first at it's foundation, far more "open", performant, and flexible [compared to other headless cms]*
   - Supported Databases: kein DB2
 - **appwrite**
-  - <https://github.com/appwrite/appwrite/>
+  - <https://github.com/appwrite/appwrite/> <img loading="lazy" src="https://img.shields.io/github/stars/appwrite/appwrite?style=flat-square"/>
   - <https://appwrite.io/>
   - *end-to-end backend server for Web, Mobile, Native, or Backend apps packaged as a set of Docker microservices*
   - *Appwrite API services aim to make developer's life a lot easier by hiding the complexity of common and repetitive software development tasks. Using Appwrite, you can easily manage*
@@ -61,3 +61,4 @@ parent: API
   - <https://github.com/swagger-api/swagger-inflector>
 - **PocketBase**
   - <https://www.youtube.com/watch?v=Wqy3PBEglXQ>
+  - <https://github.com/pocketbase/pocketbase> <img loading="lazy" src="https://img.shields.io/github/stars/pocketbase/pocketbase?style=flat-square"/>
