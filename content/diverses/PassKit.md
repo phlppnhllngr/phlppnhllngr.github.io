@@ -68,4 +68,4 @@ The value has changed. The changeMessage contains the %@ string. Id the %@ strin
     - letzter Commit: Juli 2020
     - <https://github.com/google-pay/passes-rest-samples>
 - **Libs**
-  - <https://developers.google.com/pay/passes/support/libraries>
+  - <https://developers.google.com/wallet/generic/resources/libraries>
