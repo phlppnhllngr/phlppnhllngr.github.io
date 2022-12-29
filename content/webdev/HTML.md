@@ -36,7 +36,7 @@ parent: Webdev
 - <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
 - (semantisch) wichtige
   - main
-    - *represents the dominant content of the <body> of a document.*
+    - *represents the dominant content of the `<body>` of a document.*
   - header
     - *represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements*
   - footer
@@ -83,12 +83,12 @@ parent: Webdev
     - sizes: wann welches Bild angezeigt wird
   - progress --> <progress value="70" max="100">70 %</progress>
   - meter -->
-    ```html
+    <div>
     <meter id="fuel1" min="0" max="100" low="33" high="66" optimum="80" value="24">at 24/100</meter>
     <meter id="fuel2" min="0" max="100" low="33" high="66" optimum="80" value="50">at 50/100</meter>
     <meter id="fuel3" min="0" max="100" low="33" high="66" optimum="80" value="70">at 70/100</meter>
     <meter id="fuel4" min="0" max="100" low="33" high="66" optimum="80" value="80">at 80/100</meter>
-    ```
+    </div>
   - details & summary
     - verhalten sich in etwa so wie ein accordion
   - datalist
@@ -133,11 +133,13 @@ parent: Webdev
 
 ### PWA
 - <https://developer.mozilla.org/de/docs/Web/Manifest>
+
 ```html
 <link rel="manifest" href="manifest.json"/>
 ```
 
 - <https://goo.gl/qRE0vM>
+
 ```html
 <meta name="theme-color" content="#269AD1">
 ```
