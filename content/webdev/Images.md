@@ -42,11 +42,11 @@ parent: Webdev
     - <https://caniuse.com/#feat=webp>
     - z.T. bessere Komprimierung als jpg
     - ```html
-    <picture>
-      <source srcset="image.webp" type="image/webp"/>
-      <img src="image.jpg" type="image/jpeg"/> <!-- fallback for older browsers -->
-    </picture>
-    ```
+      <picture>
+        <source srcset="image.webp" type="image/webp"/>
+        <img src="image.jpg" type="image/jpeg"/> <!-- fallback for older browsers -->
+      </picture>
+      ```
   - webp2
   - avif
     - av1 still image format
