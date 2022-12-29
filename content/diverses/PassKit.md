@@ -62,10 +62,10 @@ The value has changed. The changeMessage contains the %@ string. Id the %@ strin
     - *Each sample demonstrates the following: Authenticating using a Google Cloud service account, Creating Pass Classes, Creating/retrieving Pass Objects, Creating a signed JWT for use in a "Add to Google Wallet" URL*
     - letzter Commit: Mai 2022
     - <https://github.com/google-pay/wallet-samples>
-  - passes-rest-samples
+  - ~~passes-rest-samples~~
+    - archived 
     - *demonstrates integration of the basic components of the Google Pay API for Passes*
     - *howcases several aspects of the API: Defining Class and Object resource definitions, Insertion of classes and objects via Google Pay API for Passes REST API, Signing a JSON Web Token that is used to generate save links or used in JS Web button*
-    - letzter Commit: Juli 2020
     - <https://github.com/google-pay/passes-rest-samples>
 - **Libs**
   - <https://developers.google.com/wallet/generic/resources/libraries>
