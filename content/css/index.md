@@ -66,7 +66,7 @@ has_children: true
   When you click on a non-focusable element, it enters :active (without focus).
   When you click on a focusable element it enters :active:focus (active and focus simultaneously).*
 - **:placeholder-shown**
-- **:-internal-autofill-selected***
+- **:-internal-autofill-selected**
 - **:target**
   - *Element was targeted by `<a href="#thetarget">`*
 - **:where**
