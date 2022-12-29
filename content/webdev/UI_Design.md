@@ -45,6 +45,57 @@ title: UI Design
 - <https://github.com/Yqnn/svg-path-editor>
 
 
+## Resourcen
+- <https://github.com/bradtraversy/design-resources-for-developers>
+- <https://github.com/MohamedYoussouf/Design-Resources>
+- <https://github.com/dypsilon/frontend-dev-bookmarks>
+
+### Templates
+- <https://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/>
+- <https://html5up.net/>
+- <https://onepagelove.com/>
+- <https://github.com/nordicgiant2/awesome-landing-page>
+
+### (lizenzfreie) Bilder
+- <https://www.pexels.com/de/>
+- <https://unsplash.com/>
+- <https://www.freepik.com/>
+- <https://undraw.co/illustrations>
+- <https://allthefreestock.com/>
+- <https://www.motosha.com/>
+- <https://pixabay.com/>
+- <https://www.logoai.com/>
+  - *Let Ai-powered logo maker generate your logo, design brand identities, and automate your brand!*
+- https://www.reddit.com/r/webdev/comments/ogrt5u/100_illustration_resources_for_your_new/
+- DiceBear Avatars
+
+### Fonts
+- <https://fonts.google.com/>
+- <https://typekit.com/> (adobe)
+- <http://www.fonts.com/>
+- <https://type-scale.com/>
+  - zeigt Font in verschiedenen Größen-Abstufungen
+- <https://fontsarena.com/>
+  - fonts & articles
+- <https://github.com/googlefonts/noto-emoji>
+- <https://www.fontshare.com/>
+
+### Icons
+- <https://icomoon.io/#preview-free>
+- <http://fontawesome.io/>
+- <https://github.com/akveo/eva-icons>
+- css.gg
+  - <https://github.com/astrit/css.gg>
+- <https://github.com/tabler/tabler-icons>
+  - customizable svg icons
+- <https://thenounproject.com/>
+- [bootstrap](https://github.com/twbs/icons)
+- <https://github.com/tailwindlabs/heroicons>
+- <https://github.com/bytedance/IconPark>
+- <https://phosphoricons.com/>
+- <https://iconic.app/>
+
+
 ## Inspiration, Tipps, Snippets
 - Standardwerte:
   ```
