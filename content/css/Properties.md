@@ -602,10 +602,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
 
 ## Positionierung
 <span id="pos"></span>
-- position (& top, left, bottom, right)
-  - https://www.chenhuijing.com/blog/understanding-positioning-in-css/
-  - https://ishadeed.com/article/learn-css-positioning
-  - https://developer.mozilla.org/de/docs/Web/CSS/position
+- **position (& top, left, bottom, right)**
+  - <https://www.chenhuijing.com/blog/understanding-positioning-in-css/>
+  - <https://ishadeed.com/article/learn-css-positioning>
+  - <https://developer.mozilla.org/de/docs/Web/CSS/position>
   - values
     - relative
       - specify element's offset from its normal position
@@ -616,7 +616,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
       - *Absolutely positioned elements are completely removed from the document flow, and thus their dimensions cannot alter the dimensions of their parents.*
     - fixed
       - specify element's offset from its containing block
-      - The containing block for fixed positioned elements is the viewport, <u>except</u> when an element's parent has one of the following properites applied to it: transform, filter or perspective (Der Wert muss dabei etwas anderes sein als initial|inherit|none etc.)
+      - The containing block for fixed positioned elements is the viewport, <u>except</u> when an element's parent has one of the following properites applied to it: transform, filter or perspective (Der Wert muss dabei etwas anderes sein als `initial|inherit|none` etc.)
       - *Beim Drucken wird das Element auf jeder Seite an der positionierten Stelle angezeigt.*
       - Wenn ein Element mit `position: fixed` auch `width: 100%` hat, beziehen sich die 100% nicht auf den parent, sondern auf den nächstgelegenen container (mit transform/filter/perspective; wenn nicht vorhanden: document/viewport). Damit das Kind-Element die gleiche Breite hat wie der parent, sollte der parent `width: x` und das child `width: inherit` haben.
     - static
@@ -624,17 +624,18 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
       - *Die Eigenschaften top, right, bottom oder left haben keine Auswirkungen.*
     - sticky
       - *Eine Mischung zwischen fixed und relative: Das Element wird vom normalen Fluss aus verschoben und hat keinen Einfluss auf andere Elemente, solange es sich innerhalb des Viewports befindet. Sobald es sich ausserhalb befindet, wird das Element aus dem normalen Fluss gelöst und bleibt so beim Scrollen an seiner fest definierten Position.* (mdn)
-- transform
+- **transform**
   - will use hardware acceleration where possible
   - values
     - translate
       - performanter als position (siehe css triggers)
     - translate3d(x, y, z)
-- translate
-  - specify translation transforms individually and independently of the `transform` property
-  - Stand 15.08.20 nur Firefox (https://caniuse.com/mdn-css_properties_translate)
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/translate
-- top: bei %-Angaben: siehe CSS/Units
-- right
-- bottom 
-- left
+- **translate**
+  - *specify translation transforms individually and independently of the `transform` property*
+  - Stand 15.08.20 nur Firefox (<https://caniuse.com/mdn-css_properties_translate>)
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/translate>
+- **top**
+  - bei %-Angaben: siehe CSS/Units
+- **right**
+- **bottom**
+- **left**
