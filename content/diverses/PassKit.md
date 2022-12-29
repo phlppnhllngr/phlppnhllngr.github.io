@@ -60,7 +60,6 @@ The value has changed. The changeMessage contains the %@ string. Id the %@ strin
   - Google Wallet Samples
     - *contains samples for using the Google Wallet REST APIs*
     - *Each sample demonstrates the following: Authenticating using a Google Cloud service account, Creating Pass Classes, Creating/retrieving Pass Objects, Creating a signed JWT for use in a "Add to Google Wallet" URL*
-    - letzter Commit: Mai 2022
     - <https://github.com/google-pay/wallet-samples>
   - ~~passes-rest-samples~~
     - archived 
