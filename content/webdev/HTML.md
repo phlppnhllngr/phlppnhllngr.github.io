@@ -174,3 +174,57 @@ parent: Webdev
 <meta name="msapplication-TileColor" content="#00b4f0">
 <meta name="msapplication-tap-highlight" content="no">
 ```
+
+## Inputs & Forms
+- forms best practive
+  - <https://gerireid.com/forms.html>
+
+### Inputs
+- **autofocus**
+- **placeholder**
+- **name**
+  - welche Vorschläge der Browser macht, sobald man in das Feld klick, hängt von diesem Attribut ab. zb name="user" -> zeigt alle gespeicherten Werte (auch von anderen Webseiten) an, die man in ein Input mit gleichem Namen eingegeben hat
+  - Vorschläge deaktivieren mit `autocomplete="off"`
+  - Ziel für `label`s
+    ```<label for="username">Username</label><input name="username"/>```
+- **type**
+  - url, email, search, submit, tel, date, datetime-local, image, file, reset, range, ...
+  - type=phone "hack" für Zahleneingabefelder, ohne die increment/decrement-Pfeile und mit ausschließlich Ziffern als erlaubten Input
+- **inputmode**
+  - damit sich auf Mobilgeräten eine best. Tastaturansicht öffnet
+  - none, numeric, tel, url, email, <mark>decimal</mark>, search
+  - `inputmode="numeric"` => öffnet Zahlentastatur auf Touchgeräten. Fallback für ältere Browser: `<input type="text" pattern="\d*"` oder `="[0-9]*"`
+- **list**
+  - autocomplete input field
+  - ```html
+    <input list="suggestions"/>
+    <datalist id="suggestions">
+      <option value="x">
+      <option value="y">
+    </datalist>
+    ```
+- **Events**:
+  - change → when input loses focus and value is different
+  - beforeinput
+    - <https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event>
+  - input
+  - keyup, keydown
+  - textInput
+  - paste, cut, copy, contextmenu
+  - blur, focus
+  - drop
+  - select (text highlight)
+    - <https://developer.mozilla.org/en-US/docs/Web/API/Element/select_event>
+- **Unerlaubte Eingabe** verhindern
+  - Manche events können nicht mit `preventDefault()` gestoppt werden, z.B. ‘input’. ~~In solchen Fällen muss der neue Wert sofort mit dem letzten validen Wert überschrieben werden. Ein Beispiel dazu findet man in @polymer/iron-input.~~ -> beforeinput
+- **Throttling & Debouncing** → lodash
+- **tabindex**
+- **autocomplete**
+  - 'on', 'off', viele andere mögliche Werte: given-name, familiy-name, honorific-prefix (Anrede), postal-code, bday (Geburtsdatum), sex, tel, current-password, ... 
+  - <https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete#Values>
+- erwartetes Verhalten: press Enter => Action
+  ```html
+    <form>
+      <input hidden type="submit"/>
+    </form>
+  ```
