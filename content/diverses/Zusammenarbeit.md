@@ -4,8 +4,8 @@ title: Zusammenarbeit
 ---
 
 # Zusammenarbeit
-- https://github.com/google/eng-practices/blob/master/review/index.md (how-to code review)
-- https://www.reddit.com/r/programming/comments/oiu3g8/the_ultimate_guide_to_onboarding_new_developers/ (Onboarding)
+- <https://github.com/google/eng-practices/blob/master/review/index.md> (how-to code review)
+- <https://www.reddit.com/r/programming/comments/oiu3g8/the_ultimate_guide_to_onboarding_new_developers/> (Onboarding)
 
 ## Tools
 - <https://www.notion.so/> 💰
