@@ -11,6 +11,9 @@ parent: API
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
 - [HN - Paginating Requests in APIs](https://news.ycombinator.com/item?id=31541070)
+- <https://blog.frankel.ch/evolve-apis/>
+  - API Gateways
+  - API Versioning 
 
 ## Fehlerhandling
 - **RFC 7807 - Problem Details for HTTP APIs**
