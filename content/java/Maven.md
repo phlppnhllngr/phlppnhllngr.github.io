@@ -132,6 +132,7 @@ parent: Java
 - **antrun**
   - <https://maven.apache.org/plugins/maven-antrun-plugin>
 - **assembly**
+  - *extracts all dependency JARs into raw classes and groups them together. It can also be used to build an executable JAR by specifying the main class. It works in project with less dependencies only; for large project with many dependencies, it will cause Java class names to conflict.* 
   - <http://maven.apache.org/plugins/maven-assembly-plugin>
 - **build helper**
   - <https://www.mojohaus.org/build-helper-maven-plugin/index.html>
@@ -297,7 +298,9 @@ parent: Java
   - <https://vladmihalcea.com/maven-gradle-hibernate-enhance-plugin/>
 - **install**
 - **jar**
+  - *provides the capability to build and sign JARs. But it just compiles the java files under src/main/java and src/main/resources/. It doesn't include the dependencies JAR files.* 
   - <https://maven.apache.org/plugins/maven-jar-plugin/>
+  - jar vs assembly vs shade: <https://stackoverflow.com/a/43444019/7437541>
 - **jaxws**
   - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
   - <https://www.mojohaus.org/jaxws-maven-plugin>
