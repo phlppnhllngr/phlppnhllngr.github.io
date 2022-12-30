@@ -201,7 +201,7 @@ parent: Automatisierung
   - <https://github.com/Loopple/loopple> <img loading="lazy" src="https://img.shields.io/github/stars/Loopple/loopple?style=flat-square"/>
 - **builder**
   - *Drag and drop page builder and CMS for React, Vue, Angular, and more*
-  - *Register components for use in the visu <img loading="lazy" src="https://img.shields.io/github/stars/BuilderIO/builder?style=flat-square"/>al editor*
+  - *Register components for use in the visual editor* <img loading="lazy" src="https://img.shields.io/github/stars/BuilderIO/builder?style=flat-square"/>
   - <https://github.com/BuilderIO/builder>
 - **Stackbit**
   - *Jamstack Site Builder for Developers*
