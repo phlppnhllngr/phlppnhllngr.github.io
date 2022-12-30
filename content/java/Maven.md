@@ -12,6 +12,7 @@ parent: Java
 - <https://maven.apache.org/configure.html>
 - <https://blog.frankel.ch/faster-maven-builds/1>
 - <https://blog.frankel.ch/faster-maven-builds/2>
+- <https://andresalmiray.com/a-pom-by-any-other-name/>
 
 
 ## CLI
@@ -284,6 +285,7 @@ parent: Java
     - evaluate
       - `mvn help:evaluate -Dexpression=foo.bar`
     - effective-pom
+      - `mvn help:effective-pom -Dverbose` 
     - effective-settings
     - system
       - *displays a list of the platform details like system properties and environment variables.*
