@@ -55,6 +55,11 @@ parent: DevOps
   - <https://github.com/prometheus/prometheus>
   - metrics
   - *<mark>open-source</mark> systems monitoring and alerting toolkit*
+- **grafana**
+  - <https://grafana.com/>
+  - <https://github.com/grafana/grafana> ⭐31k
+  - *allows you to query, visualize, alert on and understand your metrics no matter where they are stored*
+  - *supports over 30 open source and commercial data sources.*
 - **splunk** 💰
   - <https://www.splunk.com/>
 - **Apache Skywalking**
