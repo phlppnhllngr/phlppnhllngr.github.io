@@ -18,6 +18,7 @@ has_children: true
 - <https://github.com/bregman-arie/devops-resources/blob/master/resources/kubernetes.md>
 - <https://github.com/bregman-arie/devops-exercises/blob/master/topics/kubernetes/README.md>
 - <https://github.com/techiescamp/kubernetes-learning-path> - *A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)*
+- <https://github.com/stefanprodan/podinfo> - *a tiny web application made with Go that showcases best practices of running microservices in Kubernetes.*
 
 
 ## YAML-Konfigurationsdateien
