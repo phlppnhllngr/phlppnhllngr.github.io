@@ -22,11 +22,12 @@ db2stop
 ## Docker
 - [Installing the Db2 Community Edition Docker image on Windows systems](https://www.ibm.com/docs/en/db2/11.5?topic=SSEPGG_11.5.0/com.ibm.db2.luw.qb.server.doc/doc/t_install_db2CE_win_img.html)
 - <https://hub.docker.com/r/ibmcom/db2>
+- exec: `docker exec -it db2 bash -c "su - db2inst1"`
 - select from update
-- ````
-  db2 "create table foo(id int generated always as identity, bar varchar(255))"
-  db2 "select bar from final table (update foo set bar = 'D' where id = 1)"
-  ```
+  - ````
+    db2 "create table foo(id int generated always as identity, bar varchar(255))"
+    db2 "select bar from final table (update foo set bar = 'D' where id = 1)"
+    ```
 
 ## Transaktionen
 - *there is no BEGIN TRANSACTION statement*
