@@ -67,6 +67,9 @@ parent: Java
   - <https://netty.io/> 
   - <https://www.baeldung.com/netty>
   - <https://www.manning.com/books/netty-in-action>
+- **Chronicle Threads**
+  - Event Loop 
+  - <https://github.com/OpenHFT/Chronicle-Threads>
 
 ### Reactive
 - **Reactor**
