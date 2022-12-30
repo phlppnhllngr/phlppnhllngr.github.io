@@ -322,36 +322,37 @@ parent: CSS
   - &rightarrow; isolation
 
 
-## text flow
+## Textflow
 <span id="text"></span>
-- https://www.cjcid.com/articles/wrapping-long-words-css-html/
-- https://css-tricks.com/where-lines-break-is-complicated-heres-all-the-related-css-and-html/
+- <https://www.cjcid.com/articles/wrapping-long-words-css-html/>
+- <https://css-tricks.com/where-lines-break-is-complicated-heres-all-the-related-css-and-html/>
 - [playground (codepen)](https://codepen.io/chriscoyier/pen/qoLLpN)
+- <https://blog.shimin.io/html-css-line-breaks/>
 <br/>
-- letter-spacing
-- line-clamp
+- **letter-spacing**
+- **line-clamp**
   - truncates text at a specific number of lines
-  - nicht supported in Firefox (6.7.19), FF understützt aber **-webkit-line-clamp**
-  - https://caniuse.com/#feat=css-line-clamp
+  - nicht supported in Firefox (6.7.19), FF understützt aber `-webkit-line-clamp`
+  - <https://caniuse.com/#feat=css-line-clamp>
   - nur Verwendung zusammen mit `display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden;` möglich
-- hyphens
-  - overflow wird verhindert, indem an definierten stellen (manual: `&shy;`, `&hyphen;`) oder automatisch (auto) Trennstriche in Wörter eingefügt werden
-  - https://caniuse.com/#feat=css-hyphens
-  - der browser-support (von `auto`) ist auch abh. von der user-sprache (?)
-  - https://developer.mozilla.org/de/docs/Web/CSS/hyphens
-  - https://www.w3schools.com/cssref/css3_pr_hyphens.asp
-  - http://clagnut.com/blog/2395
-- tab-size
-- text-indent
-- text-overflow
-  - https://www.w3schools.com/cssref/css3_pr_text-overflow.asp
+- **hyphens**
+  - Overflow wird verhindert, indem an definierten Stellen (manual: `&shy;`, `&hyphen;`) oder automatisch (auto) Trennstriche in Wörter eingefügt werden
+  - <https://caniuse.com/#feat=css-hyphens>
+  - der Browser-Support (von `auto`) ist auch abh. von der user-sprache (?)
+  - <https://developer.mozilla.org/de/docs/Web/CSS/hyphens>
+  - <https://www.w3schools.com/cssref/css3_pr_hyphens.asp>
+  - <http://clagnut.com/blog/2395>
+- **tab-size**
+- **text-indent**
+- **text-overflow**
+  - <https://www.w3schools.com/cssref/css3_pr_text-overflow.asp>
   - ellipsis
-  - clips
+  - clip
   - `<string>`
     - user defined value
     - firefox only
-- white-space
-  - https://www.cjcid.com/articles/wrapping-long-words-css-html/#white-space
+- **white-space**
+  - <https://www.cjcid.com/articles/wrapping-long-words-css-html/#white-space>
   - is managing how spaces are rendered
   - The default normal value renders text based on the following rules: The text is wrapped to fit the container. MULTIPLE SPACES and TABS are collapsed to a single space. SOFT BREAK LINES are converted to single space.
   - *To make words break within themselves, use overflow-wrap, word-break, or hyphens instead.*
@@ -363,10 +364,10 @@ parent: CSS
     - pre-wrap
     - pre-line
     - break-spaces
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/white-space
-- word-break
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/word-break
-  - https://www.cjcid.com/articles/wrapping-long-words-css-html/#word-break
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/white-space>
+- **word-break**
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/word-break>
+  - <https://www.cjcid.com/articles/wrapping-long-words-css-html/#word-break>
   - is managing how line breaks are rendered
   - values
     - normal
@@ -377,11 +378,12 @@ parent: CSS
     - keep-all
       - *Non-CJK text behavior is the same as for normal*
     - break-word (deprecated)
-- word-spacing
-  - https://developer.mozilla.org/de/docs/Web/CSS/word-spacing
-- overflow-wrap <small>(legacy name: word-wrap)</small>
-  - https://www.cjcid.com/articles/wrapping-long-words-css-html/#overflow-wrap
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap
+- **word-spacing**
+  - <https://developer.mozilla.org/de/docs/Web/CSS/word-spacing>
+- **overflow-wrap**
+  - legacy name: word-wrap
+  - <https://www.cjcid.com/articles/wrapping-long-words-css-html/#overflow-wrap>
+  - <https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap>
   - is enabling the line breaks
   - *In contrast to word-break, overflow-wrap will only create a break if an entire word cannot be placed on its own line without overflowing.*
   - values
@@ -390,11 +392,12 @@ parent: CSS
     - anywhere
       - *To prevent overflow, an otherwise unbreakable string of characters — like a long word or URL — may be broken at any point if there are no otherwise-acceptable break points in the line. No hyphenation character is inserted at the break point. Soft wrap opportunities introduced by the word break are considered when calculating min-content intrinsic sizes.*
     - break-word
-- line-break
+- **line-break**
   - is managing how line breaks are rendered mainly for CJK (chinese, japanese, korean) languages
-- text-space-collapse <small>(legacy name: white-space-collapse)</small>
+- **text-space-collapse**
+  - legacy name: white-space-collapse
   - will allow to control further how the spaces and line breaks are rendering
-  - https://caniuse.com/#search=text-space-collapse
+  - <https://caniuse.com/#search=text-space-collapse>
 
 
 ## Scrolling
@@ -549,7 +552,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@import
   - https://developer.mozilla.org/en-US/docs/Web/CSS/object-position
 
 
-## font
+## Font
 <span id="font"></span>
 - @font-face
   - https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
