@@ -24,6 +24,7 @@ parent: Diverses
   - *The twelve-factor app is a methodology for building software-as-a-service apps*
 - <https://github.com/kokizzu/list-of-tech-migrations/>
 - <https://github.com/kamranahmedse/developer-roadmap>
+- <https://github.com/InterviewReady/system-design-resources>
 
 
 ## Bücher
