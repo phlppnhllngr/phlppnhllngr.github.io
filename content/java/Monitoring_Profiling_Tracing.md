@@ -51,7 +51,7 @@ parent: Java
   - *Auto Memory Leak Detection*
   - *Tips to Reduce Memory 30-70%*
   - als SaaS kostenlos, lokale Installation kostet
-- **hawt.io**
+- **Hawtio**
   - *a lightweight and modular Web console for managing Java applications* 
   - <https://github.com/hawtio/hawtio> 
 
