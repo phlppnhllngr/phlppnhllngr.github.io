@@ -1,14 +1,16 @@
 ---
-tags: [Notebooks/Webdev]
 title: WebAssembly (WASM)
-created: '2019-02-20T20:31:42.000Z'
-modified: '2021-04-15T15:29:05.835Z'
 parent: Webdev
 ---
 
 # WebAssembly (WASM)
 - <https://tourofrust.com/webassembly/TOC_en.html>
 - <https://training.linuxfoundation.org/announcements/an-introduction-to-webassembly/>
+
+
+## WASM + Docker
+- <https://wasmlabs.dev/articles/docker-without-containers/>
+
 
 ## Tools
 - <https://github.com/rustwasm/wasm-bindgen>
