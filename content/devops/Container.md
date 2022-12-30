@@ -4,6 +4,7 @@ parent: DevOps
 ---
 
 # Container
+- *The point of Docker is the ability to take the existing [...] configurations of software, in any and many languages (including the gluing bash scripts), and put it basically unchanged into a controlled, isolated, replicated, shippable environment, with zero performance penalty.*
 
 ## Runtimes
 - **containerd**
