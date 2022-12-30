@@ -1,0 +1,49 @@
+---
+title: Checkliste neues Projekt
+parent: Diverses
+---
+
+# Checkliste neues Projekt
+- <https://github.com/phodal/new-project-checklist#english>
+- Tech-Stack
+  - <https://github.com/TechEmpower/FrameworkBenchmarks>
+  - <https://www.techempower.com/benchmarks>
+  - Lizenzen (Check)
+- Security
+  - Auth
+  - Vuln Checker (npm audit, Trivy, OWASP Maven, ...)
+- Repo
+  - gitignore
+  - Hooks
+- IDE
+  - editorconfig
+  - VSC
+    - Devcontainer
+    - extensions.json
+- Commits
+  - Conventional Commits, commitlint etc
+- Build
+- Deployment
+- Lint/Format
+  - Sonar, prettier, Spotless, ... 
+- Test
+  - Unit
+  - Integration
+  - Performance, Load, Stress
+  - Smoke 
+- Dokumentation
+- Observability
+  - Monitoring
+  - Alerting
+  - Tracing
+  - Metrics
+  - Error (Sentry, ...)
+- Logging
+  - Access Log 
+  - Masking
+  - File (rolling)
+  - Graylog, Loki, ...
+- Tracking, Analytics
+- Resilience
+  - Retry
+  - Circuit Breaker 
