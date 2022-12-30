@@ -19,6 +19,7 @@ parent: SCM
 - [HN - Git from the Inside Out, 06/2022](https://news.ycombinator.com/item?id=31964814)
 - <https://www.gitkraken.com/learn/git/best-practices>
 - <https://www.atlassian.com/de/git>
+- <https://softwaredoug.com/blog/2022/11/09/idiot-proof-git-aliases.html>
 
 
 ## Stages
@@ -166,8 +167,20 @@ parent: SCM
   - <https://github.com/orhun/git-cliff> *2.6k
 
 ### GUI Clients
-- **GitKraken**
+- **GitKraken** [1]
+  - Paid (recurring licence) 
   - <https://www.gitkraken.com>
+- **Fork** [1]
+  - Paid (one-time purchase) 
+  - <https://fork.dev/>
+- **SourceTree** [1]
+  - Free
+  - <https://www.sourcetreeapp.com/>
+- **SmartGit** [1]
+  - Paid (recurring licence) 
+  - <https://www.syntevo.com/smartgit/>
+- [1: Vergleich](https://old.reddit.com/r/programming/comments/yqm0ka/idiot_proof_git/ivracgf/.compact)
+- **TortoiseGit**
 
 ### CLIs
 - **Git bash for windows**
