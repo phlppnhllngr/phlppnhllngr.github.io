@@ -10,6 +10,7 @@ parent: Webdev
 
 ## WASM + Docker
 - <https://wasmlabs.dev/articles/docker-without-containers/>
+  - *How does Wasm work with Docker? Docker Desktop now includes support for WebAssembly. This means that instead of the typical Windows or Linux containers which would run a separate process from a binary in the container image, you can now run a Wasm application in the WasmEdge runtime, mimicking a container. As a result, the container image does not need to contain OS or runtime context for the running application - a single Wasm binary suffices. This is explained in detail in Docker's [Wasm technical preview article](https://www.docker.com/blog/docker-wasm-technical-preview/).*
 
 
 ## Tools
