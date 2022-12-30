@@ -188,6 +188,10 @@ parent: Diverses
     ```
   - <https://jsonnet.org/> 
   - <https://github.com/google/jsonnet>
+- **Violentmonkey**
+  - *provides userscripts support for browsers* 
+  - <https://github.com/violentmonkey/violentmonkey> 
+
 
 ## Passwort-Manager
 - **keeweb**
