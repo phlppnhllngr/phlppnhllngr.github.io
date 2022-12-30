@@ -105,23 +105,28 @@ parent: Java
 - **javap**
 - **jstack**
     - *attaches to the specified process or core file and prints the stack traces of all threads that are attached to the virtual machine, including Java threads and VM internal threads, and optionally native stack frames. The utility also performs deadlock detection.*
-- **jmc** (java mission control)
+- **jmc**
+    - java mission control
     - *contains a plugin that allows us to visualize the data collected by JFR*
       <br/><img src="https://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.2.0/eclipse/images/screen-capture-01-large.png" loading="lazy"/>
-- **jfr** (java flight recorder)
+- **jfr**
+    - JDK Flight Recorder, früher: Java Flight Recorder
     - *collects information about the events in a Java Virtual Machine (JVM) during the execution of a Java application*
     - *is a tool for collecting diagnostic and profiling data about a running Java application. It is integrated into the Java Virtual Machine (JVM)*
     - *low overhead, continuous monitoring*
     - *not a standalone tool*
-    - *activate it in two ways: when starting a Java application or
-      passing diagnostic commands of the jcmd tool when a Java application is already running*
+    - *activate it in two ways: when starting a Java application or passing diagnostic commands of the jcmd tool when a Java application is already running*
     - <https://github.com/flight-recorder/health-report>
     - <https://www.javaadvent.com/2021/12/keep-your-sql-in-check-with-flight-recorder-jmc-agent-and-jfrunit.html>
-    - Übersicht jfr events: <https://bestsolution-at.github.io/jfr-doc/>
+    - Übersicht JFR-Events: <https://bestsolution-at.github.io/jfr-doc/>
     - Custom events (jdk.jfr api; java 9+): <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
     - <https://cryostat.io/> - *JFR for Containerized Java Applications*
+    - [YT: Java - Programmer's Guide to JDK Flight Recorder, 12/2022](https://www.youtube.com/watch?v=K1ApBZGiT-Y)
+        - *extremely low overhead, meant to be used continuously in production*
+        - *Over 150 default events (ThreadStart, FileRead, ...)*
+        - Event Streaming: JFR Events auslesen ohne Dump (zusätzl. Overhead)
 - **jconsole**
     - *The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.*
     - <https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html>
