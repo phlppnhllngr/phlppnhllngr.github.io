@@ -76,6 +76,10 @@ parent: Security
     - *reissue an interesting request over and over again. This lets you study the target website's response to different input without having to intercept the request each time.*
   - Burp Intruder
     - *tool for automating customized attacks against web applications*
+- **Metlo**
+  - *open-source API security platform*
+  - *With Metlo you can: Create an Inventory of all your API Endpoints and Sensitive Data. Detect common API vulnerabilities. Proactively test your APIs before they go into production. Detect API attacks in real time.*
+  - <https://github.com/metlo-labs/metlo>
 
 ## Secret Management
 - **vault**
