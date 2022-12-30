@@ -55,6 +55,7 @@ title: UI Design
 - <https://html5up.net/>
 - <https://onepagelove.com/>
 - <https://github.com/nordicgiant2/awesome-landing-page>
+- <https://github.com/learning-zone/website-templates> - *150+ HTML5 Website Templates*
 
 ### (lizenzfreie) Bilder
 - <https://www.pexels.com/de/>
