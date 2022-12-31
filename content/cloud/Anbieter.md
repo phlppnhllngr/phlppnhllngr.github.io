@@ -146,3 +146,6 @@ parent: Cloud
 
 ## Contabo
 - <https://contabo.com/de/>
+
+## Linode
+- <https://www.linode.com/de/>
