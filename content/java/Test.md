@@ -116,6 +116,10 @@ parent: Java
     - mit Junit-Rule
 - <u>Datum & Zeit</u>
   - <http://blog.tremblay.pro/2021/01/mocking-clock.html>
+- <u>Email</u>
+  - **Wiser**
+    - für jakarta.mail 
+    - <https://www.youtube.com/watch?v=JVPHSdHViMg&t=325s>  
 
 
 ## Generierung von Testdaten
