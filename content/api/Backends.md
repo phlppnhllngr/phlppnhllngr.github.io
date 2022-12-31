@@ -60,6 +60,9 @@ parent: API
   - *Inflector uses the following libraries: swagger models for the swagger definition, Jackson for JSON processing, Jersey 2.32 for REST, Minimum Java 8*
   - <https://github.com/swagger-api/swagger-inflector>
 - **PocketBase**
+  - *Open Source realtime backend in 1 file*
+  - *is an open source Go backend, consisting of: embedded database (SQLite) with realtime subscriptions, built-in files and users management, convenient Admin dashboard UI, and simple REST-ish API*
+  - <https://pocketbase.io/>
   - <https://www.youtube.com/watch?v=Wqy3PBEglXQ>
   - <https://github.com/pocketbase/pocketbase> <img loading="lazy" src="https://img.shields.io/github/stars/pocketbase/pocketbase?style=flat-square"/>
   - [YT: Fireship - I built a $5 chat app with Pocketbase & Svelte. Will it scale?](https://www.youtube.com/watch?v=gUYBFDPZ5qk)
