@@ -121,6 +121,26 @@ parent: Java
 
 
 ## Diverse
+- **Windows: Umgebungsvariablen für spez. Java-Version setzen**
+  - .bat:
+    ```bat
+    @echo off
+
+    rem /M => The /M option sets the variable at SYSTEM scope. The default behaviour is to set it for the USER.
+    rem Usage: Set Env-Vars JAVA_HOME_{8,11,17}, then add the folder with this script to PATH, then execute this script: "j 8|11|17"
+
+    setLocal enableDelayedExpansion
+    set jh=JAVA_HOME_%1
+    "!%jh%!\bin\java.exe" -version
+    if %ERRORLEVEL% NEQ 0 (
+      pause
+    ) else (
+      setx /M JAVA_HOME "!%jh%!"
+      setx /M PATH "!%jh%!\bin;%PATH%"
+      echo Java %1 activated as system-wide default.
+    )
+    ```
+
 - **sdkman**
   - <https://sdkman.io>
   - versch. Versionen von JDK, Maven, ... verwalten
