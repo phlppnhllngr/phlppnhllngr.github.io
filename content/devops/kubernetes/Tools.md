@@ -106,4 +106,8 @@ grand_parent: DevOps
   - *development framework for defining Kubernetes applications and reusable abstractions using familiar programming languages and rich object-oriented APIs. cdk8s apps synthesize into standard Kubernetes manifests which can be applied to any Kubernetes cluster.*
   - Langs: TS, JS, Python, Java, Go
   - <https://github.com/cdk8s-team/cdk8s> 
-  - <https://cdk8s.io/> 
+  - <https://cdk8s.io/>
+- **DevSpace**
+  - *Client-Only Developer Tool for Cloud-Native Development with Kubernetes*
+  - *Build, test and debug applications directly inside Kubernetes. Develop with hot reloading: updates your running containers without rebuilding images or restarting containers.* 
+  - <https://github.com/loft-sh/devspace> 
