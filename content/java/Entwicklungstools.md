@@ -112,6 +112,8 @@ parent: Java
   - Maven-Plugin → maven/spotless-plugin
 - **uncrustify**
   - *A source code beautifier for C, C++, C#, ObjectiveC, D, Java, Pawn and VALA*
+  - *Highly configurable - 828 configurable options as of version 0.76.0*
+  - Binaries für Windows & Linux
   - <https://github.com/uncrustify/uncrustify>
 - **palantir-java-format**
   - *based on the excellent google-java-format*
