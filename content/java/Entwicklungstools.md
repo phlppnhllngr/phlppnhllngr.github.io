@@ -127,7 +127,7 @@ parent: Java
     @echo off
 
     rem /M => The /M option sets the variable at SYSTEM scope. The default behaviour is to set it for the USER.
-    rem Usage: Set Env-Vars JAVA_HOME_{8,11,17}, then add the folder with this script to PATH, then execute this script: "j 8|11|17"
+    rem Usage: Set Env-Vars JAVA_HOME_{8,11,17}, then add the folder with this script ("j.bat") to PATH, then execute this script: "j 8|11|17"
 
     setLocal enableDelayedExpansion
     set jh=JAVA_HOME_%1
