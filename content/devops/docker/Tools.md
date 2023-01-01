@@ -100,6 +100,7 @@ grand_parent: DevOps
 - **trivy**
   - CLI um Docker Images zu überprüfen
   - <https://github.com/knqyf263/trivy>
+  - <https://foreops.com/blog/trivy-intro/> - *Container Scanning with Trivy in Jenkins*
 - **docker-bench-security**
   - <https://github.com/docker/docker-bench-security> ⭐5.2k
   - *script that checks for dozens of common best-practices around deploying Docker containers in production*
