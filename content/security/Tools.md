@@ -95,3 +95,6 @@ parent: Security
   - <https://github.com/supabase/vault> 
   - <https://supabase.com/blog/supabase-vault> 
   - <https://supabase.com/blog/vault-now-in-beta> 
+- **EnvKey**
+  - *End-to-end encrypted configuration and secrets management* 
+  - <https://github.com/envkey/envkey> <img loading="lazy" src="https://img.shields.io/github/stars/envkey/envkey?style=flat-square"/> 
