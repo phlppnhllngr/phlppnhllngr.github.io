@@ -44,7 +44,11 @@ parent: Datenbank
   - <https://github.com/sqlpad/sqlpad>
 - **SQL Fiddle**
   - MySQL, MS SQL Server, PostgreSQL, SQLite
-  - <http://sqlfiddle.com/> 
+  - <http://sqlfiddle.com/>
+- **PRQL**
+  - *a modern language for transforming data — a simple, powerful, pipelined SQL replacement*
+  - compiled zu SQL
+  - <https://prql-lang.org/> 
 
 
 ## Schnipsel
