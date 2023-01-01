@@ -26,6 +26,7 @@ parent: Diverses
 - <https://github.com/kamranahmedse/developer-roadmap>
 - <https://github.com/InterviewReady/system-design-resources>
 - <https://www.baeldung.com/solid-principles>
+- <https://microservices.io/index.html>
 
 
 ## Bücher
