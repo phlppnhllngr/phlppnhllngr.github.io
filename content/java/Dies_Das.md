@@ -50,6 +50,11 @@ parent: Java
     - <https://www.morling.dev/blog/building-class-data-sharing-archives-with-apache-maven/>
     - <https://github.com/ionutbalosin/faster-jvm-start-up-techniques/blob/main/app-dynamic-cds-hotspot/README.md>
     - <https://github.com/SvenWoltmann/application-cds-demo>
+- **Project Leyden**
+  - <https://blogs.oracle.com/javamagazine/post/java-leyden-static-images>
+    - *plans to address Java’s slow startup time and slow time to peak performance via static images*
+    - *A static image is a standalone program, derived from an application and a JDK, which runs that application — and no other.*
+    - *We will lean heavily on existing components of the JDK including the HotSpot JVM, the C2 compiler, application class-data sharing (CDS), and the jlink linking tool.*  
 
 
 ## Bytecode-Manipulation, Agents, Instrumentation
