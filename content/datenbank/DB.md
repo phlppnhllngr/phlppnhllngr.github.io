@@ -11,6 +11,7 @@ parent: Datenbank
 - <https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 
 ## IDs
+- [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
 - **auto generated**
   - *doesn't go well with distributed dbs, sharding*
 - **UUID**
