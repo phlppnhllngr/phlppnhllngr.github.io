@@ -82,17 +82,17 @@ parent: Security
   - <https://github.com/metlo-labs/metlo>
 
 ## Secret Management
-- **vault**
+- **Hashicorp Vault**
   - *A tool for secrets management, encryption as a service, and privileged access management*
   - *a tool for securely accessing secrets (...) such as API keys, passwords, certificates, and more*
-  - <https://github.com/hashicorp/vault> *20.7k
+  - <https://github.com/hashicorp/vault> <img loading="lazy" src="https://img.shields.io/github/stars/hashicorp/vault?style=flat-square"/> 
   - → spring-cloud-vault
 - **Infisical**
   - *simple tool to manage and sync environment variables across your team and infrastructure* 
-  - <https://github.com/Infisical/infisical>
+  - <https://github.com/Infisical/infisical> <img loading="lazy" src="https://img.shields.io/github/stars/Infisical/infisical?style=flat-square"/> 
 - **Supabase Vault**
   - *Extension for storing encrypted secrets in the Vault* 
-  - <https://github.com/supabase/vault> 
+  - <https://github.com/supabase/vault> <img loading="lazy" src="https://img.shields.io/github/stars/supabase/vault?style=flat-square"/> 
   - <https://supabase.com/blog/supabase-vault> 
   - <https://supabase.com/blog/vault-now-in-beta> 
 - **EnvKey**
