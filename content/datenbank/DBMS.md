@@ -123,3 +123,9 @@ parent: Datenbank
   - <https://github.com/FerretDB/FerretDB>
 - **cassandra**
   - <https://cassandra.apache.org/>
+
+
+## NextGen
+- **SurrealDB**
+  - <https://github.com/surrealdb/surrealdb> <img loading="lazy" src="https://img.shields.io/github/stars/surrealdb/surrealdb?style=flat-square"/> 
+  - [YT_: Fireship - SurrealDB in 100 Seconds](https://www.youtube.com/watch?v=C7WFwgDRStM) 
