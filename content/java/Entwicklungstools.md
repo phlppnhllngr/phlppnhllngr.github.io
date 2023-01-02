@@ -140,6 +140,18 @@ parent: Java
       echo Java %1 activated as system-wide default.
     )
     ```
+  - .ps1:
+    ```powershell
+    $jh = "JAVA_HOME_{0}" -f $args[0]
+    $val = [System.Environment]::GetEnvironmentVariable($jh, 'Machine')
+    & "${val}\bin\java.exe" "-version"
+    if ($? -eq "True") {
+    [System.Environment]::SetEnvironmentVariable('JAVA_HOME', "${val}", 'Machine')
+      $p = "${val}\bin;${env:PATH}"
+      [System.Environment]::SetEnvironmentVariable('PATH', "${p}", 'Machine')
+      Write-Host $("Java {0} activated as system-wide default." -f $args[0])
+    }
+    ```
 
 - **sdkman**
   - <https://sdkman.io>
