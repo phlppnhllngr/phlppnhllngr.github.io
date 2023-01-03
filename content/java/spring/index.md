@@ -60,3 +60,9 @@ parent: Java
 - **spring-warehouse**
   - <https://github.com/averageflow/spring-warehouse>
   - [Diskussion auf /r/java](https://www.reddit.com/r/java/comments/rqqvbh/spring_warehouse_a_quest_to_learn_more_java_and.compact)
+
+
+## Docker
+- <https://spring.io/guides/gs/spring-boot-docker/>
+- <https://www.baeldung.com/dockerizing-spring-boot-application>
+  - <https://www.baeldung.com/spring-boot-docker-images#layered-jars>
