@@ -213,9 +213,9 @@ parent: Java
     ```groovy
     sh 'mvn --batch-mode --no-transfer-progress --settings settings.xml dependency-check:check -Ddependency-check.skip=false'
     post {
-        always {
-			    junit(testResults: 'target/dependency-check-junit.xml')
-			    archiveArtifacts artifacts: 'target/dependency-check-report.html', onlyIfSuccessful: false
+    	always {
+		junit(testResults: 'target/dependency-check-junit.xml')
+		archiveArtifacts artifacts: 'target/dependency-check-report.html', onlyIfSuccessful: false
         }
     }
     ```
