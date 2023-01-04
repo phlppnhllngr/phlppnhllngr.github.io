@@ -197,6 +197,28 @@ parent: Java
   - Maven-Plugin für OWASP DependencyCheck
   - <https://jeremylong.github.io/DependencyCheck/dependency-check-maven>
   - *identify the use of known vulnerable components*
+  - Bsp. XML-Konfig:
+    ```xml
+    <configuration>
+      <skip>true</skip>
+      <cveValidForHours>24</cveValidForHours>
+      <formats>JUNIT,HTML</formats>
+      <!-- https://nvd.nist.gov/vuln-metrics/cvss -->
+      <failBuildOnCVSS>7</failBuildOnCVSS>
+      <junitFailOnCVSS>7</junitFailOnCVSS>
+      <suppressionFiles>dependency-check-suppressions.xml</suppressionFiles>
+    </configuration>
+    ```
+  - mit Jenkins:
+    ```groovy
+    sh 'mvn --batch-mode --no-transfer-progress --settings settings.xml dependency-check:check -Ddependency-check.skip=false'
+        post {
+        always {
+			    junit(testResults: 'target/dependency-check-junit.xml')
+			    archiveArtifacts artifacts: 'target/dependency-check-report.html', onlyIfSuccessful: false
+        }
+    }
+    ```
 - **deploy**
   - <http://maven.apache.org/plugins/maven-deploy-plugin>
   - ```xml
