@@ -73,7 +73,7 @@ grand_parent: Java
     - <https://www.baeldung.com/spring-boot-data-sql-and-schema-sql> (`@SQL`, `@SQLGroup`, `@SQLConfig`)
   - **@SQLConfig**
   	- Felder
-  		- encodding
+  		- encoding
   		- transactionMode
   		- errorMode
   		- dataSource
