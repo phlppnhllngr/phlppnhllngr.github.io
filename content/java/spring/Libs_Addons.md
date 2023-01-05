@@ -46,6 +46,7 @@ grand_parent: Java
   - <http://springfox.github.io/springfox/>
   - <https://www.vojtechruzicka.com/documenting-spring-boot-rest-api-swagger-springfox/>
 - **Spring REST Docs**
+  - *It combines hand-written documentation written with Asciidoctor and auto-generated snippets produced with Spring MVC Test. This approach frees you from the limitations of the documentation produced by tools like Swagger.*
   - <https://spring.io/projects/spring-restdocs>
   - <https://github.com/ScaCap/spring-auto-restdocs>
 - **springdoc-openapi**
