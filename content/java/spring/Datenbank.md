@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Spring]
 title: Datenbank
-created: '2019-02-05T09:27:47.602Z'
-modified: '2021-09-13T13:50:32.985Z'
 parent: Spring
 grand_parent: Java
 ---
@@ -128,14 +125,14 @@ grand_parent: Java
 
 ## Migration
 → Datenbank/Migration
-Besser, die DB-Migration von der Anwendung zu trennen?
 - **Flyway**
   - <https://reflectoring.io/database-migration-spring-boot-flyway>
   - <https://reflectoring.io/spring-boot-flyway-testcontainers>
   - mit Hibernate
     - <https://rieckpil.de/howto-best-practices-for-flyway-and-hibernate-with-spring-boot>
       - `ddl-auto` auf `none` oder `validate` stellen
-
+- **Liquibase**
+  - <https://docs.liquibase.com/tools-integrations/springboot/springboot.html>
 
 ## Auditing
 - <https://www.baeldung.com/database-auditing-jpa>
