@@ -32,6 +32,33 @@ parent: Diverses
     - ... 
   - *It is built on Django 3.1.*
   - <https://github.com/ciur/papermerge>
+- **Paperless-ngx**
+  - Features:
+    - *Supports PDF documents, images, plain text files, and Office documents*
+    - *Performs OCR on your documents, adds selectable text to image only documents*
+    - *stores your documents plain on disk. Filenames and folders are managed by paperless and their format can be configured freely.*   
+  - Python, TypeScript 
+  - <https://github.com/paperless-ngx/paperless-ngx> <img loading="lazy" src="https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=flat-square"/>
+- **EveryDocs Core**
+  - *simple DMS for private use*
+  - 1-Mann-Projekt
+  - Ruby
+  - <https://github.com/jonashellmann/everydocs-core> <img loading="lazy" src="https://img.shields.io/github/stars/jonashellmann/everydocs-core?style=flat-square"/>
+- **Mayan EDMS**
+  - *main purpose is to store, introspect, and categorize files, with a strong emphasis on preserving the contextual and business information of documents.*
+  - *It can also OCR, preview, label, sign, send, and receive thoses files. Other features of interest are its workflow system, role based access control, and REST API.* 
+  - Python
+  - <https://docs.mayan-edms.com/>
+  - <https://gitlab.com/mayan-edms/mayan-edms> 
+- **DigiDocu**
+  - PHP 
+  - <https://github.com/harish81/digidocu> <img loading="lazy" src="https://img.shields.io/github/stars/harish81/digidocu?style=flat-square"/>
+- **OpenKM**
+  - 💰 Cloud: <https://www.openkm.com/>
+  - OpenKM Community Edition (abgespeckt): <https://github.com/openkm/document-management-system>
+- **KRYSTAL DMS**
+  - <https://www.krystaldms.in/> 
+  - Community Edition: <https://github.com/primeleaf/krystaldms-community-edition> <img loading="lazy" src="https://img.shields.io/github/last-commit/primeleaf/krystaldms-community-edition?style=flat-square"/>
 
 
 ## Templates
