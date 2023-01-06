@@ -82,7 +82,9 @@ parent: Diverses
 - <https://docs.camunda.org/manual/current>
 - <https://github.com/camunda/camunda-bpm-platform>
 
-#### Camunda Cloud
+#### Camunda Platform 8
+- z. T. FOSS (<https://camunda.com/blog/2022/05/how-open-is-camunda-platform-8/>)
+- Camunda Cloud ist die SaaS-Variante von v8
 - <https://docs.camunda.io/>
 - Komponenten (<https://docs.camunda.io/docs/components/>)
   - Zeebe
