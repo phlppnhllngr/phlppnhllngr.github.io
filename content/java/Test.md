@@ -10,21 +10,6 @@ parent: Java
 - <https://phauer.com/2019/modern-best-practices-testing-java>
 - <https://github.com/akullpp/awesome-java#testing>
 
-## BDD
-- **cucumber**
-  - <https://cucumber.io/docs/guides/10-minute-tutorial>
-  - Integration mit Junit
-  - Tools
-    - courgette
-      - <https://github.com/prashant-ramcharan/courgette-jvm> *60
-      - *Multi-threaded / Parallelize your Java Cucumber tests on a feature level or on a scenario level*
-- **jbehave**
-  - <https://jbehave.org>
-- **serenity**
-  - <https://serenity-bdd.info>
-- **spock**
-  - <https://github.com/spockframework/spock> 
-
 
 ## Unit
 - **JUnit**
@@ -157,6 +142,28 @@ parent: Java
   - <https://github.com/keepcosmos/beanmother>
 - **jqwik**
   - <https://jqwik.net>
+- **Instancio**
+  - *library for creating fully populated objects for your unit tests*
+  - *Instead of manually setting up test data:*
+    ```java
+    Address address  = new Address();
+    address.setStreet("street");
+    address.setCity("city");
+    //...
+    Person person = new Person();
+    person.setFirstName("first-name");
+    person.setLastName("last-name");
+    person.setAge(22);
+    person.setGender(Gender.MALE);
+    person.setAddress(address);
+    //...
+    ```
+    *You can simply do the following:*
+    ```java
+    Person person = Instancio.create(Person.class);
+    ```
+    *This one-liner returns a fully-populated person, including nested objects and collections. The object is populated with random data that can be reproduced in case of test failure.*
+  - <https://github.com/instancio/instancio/> 
 
 
 ## REST
@@ -302,6 +309,21 @@ parent: Java
     - *Separate API and implementation packages*
     - *Detect common problems like cyclic dependencies or tests without assertions*
   - <https://jqassistant.org/>
+
+## BDD
+- **cucumber**
+  - <https://cucumber.io/docs/guides/10-minute-tutorial>
+  - Integration mit Junit
+  - Tools
+    - courgette
+      - <https://github.com/prashant-ramcharan/courgette-jvm> *60
+      - *Multi-threaded / Parallelize your Java Cucumber tests on a feature level or on a scenario level*
+- **jbehave**
+  - <https://jbehave.org>
+- **serenity**
+  - <https://serenity-bdd.info>
+- **spock**
+  - <https://github.com/spockframework/spock> 
 
 
 ## Mutation
