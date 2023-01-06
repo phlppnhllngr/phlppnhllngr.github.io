@@ -494,6 +494,9 @@ parent: Java
   - → build-helper-plugin
 - **war**
   - <https://maven.apache.org/plugins/maven-war-plugin>
+- **wildfly**
+  - *allows you to: Deploy, redeploy or undeploy your application / Execute CLI commands / Run a standalone server within Maven / ackaging of a fully configured server containing application deployment. / ...* 
+  - <https://github.com/wildfly/wildfly-maven-plugin>  
 - **wildfly-jar**
   - → Java/Server/Wildfly
   - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin/>
