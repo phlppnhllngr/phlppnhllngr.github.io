@@ -120,6 +120,7 @@ parent: Java
   
 
 ## Memory
+- <https://www.baeldung.com/java-memory-beyond-heap>
 
 ### Heap
 - Xms
@@ -137,6 +138,7 @@ parent: Java
 - *does not exist anymore since java 8 → metaspace*
 
 ### Metaspace
+- *metadata for classes. When a class is loaded, the JVM allocates the metadata of the class, which is its runtime representation, into Metaspace. Whenever the class loader and all its classes are removed from the heap, then their allocation in Metaspace can be considered to be freed by GC.*
 - *not part of heap*
 - *native memory / process memory*
 - *max size specified by `-XX:MaxMetaspaceSize`, default: effectively infinite*
@@ -148,6 +150,10 @@ parent: Java
 - *each thread has its own private stack*
 - *default stack size is usually 1MB on 64bit machines*
 - *configure stack size with `-Xss` and `-XX:ThreadStackSize`*
+  
+### Code cache
+- *The Just-In-Time (JIT) compiler stores its output in the code cache area. A JIT compiler compiles bytecode to native code for frequently executed sections, aka Hotspots.*
+- *The goal of the tiered compilation is (...) to have both fast startup times and good long-term performance. Tiered compilation increases the amount of code that needs to be cached in memory by up to four times. Since Java 8, this is enabled by default for JIT, although we still can disable tiered compilation.*
 
 ### GC
 - <https://dzone.com/articles/interesting-garbage-collection-patterns>
@@ -157,6 +163,14 @@ parent: Java
 - *The GC is unable to clear static fields unless the class that owns it is unloaded, which only happens if the Classloader that called it is garbage collected.*
 - *Unclosed system resources: The GC indirectly frees up files since classes like FileInputStream are written such that if an instance is garbage collected, the ‘close()’ method will be called first. This way, unclosed system resources don’t always pose a risk, so a lot of developers tend to look over them.*
 - *Unclosed connections: Like with unclosed resources, unclosed database or network connections can lead to significant memory use if not unloaded.*
+
+### Symbol
+- *The JVM uses the Symbol area to store symbols such as field names, method signatures, and interned strings*
+  
+### Arena
+  
+### Other
+- *Every other memory usage that can't be categorized in the native memory area falls in this section. As an example, DirectByteBuffer usage is indirectly visible in this part.*
 
 
 ## Extension Mechanism
