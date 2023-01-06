@@ -100,6 +100,10 @@ parent: Diverses
 - **filebrowser**
   - *Web File Browser*
   - <https://github.com/filebrowser/filebrowser>
+- **filestash**
+  - *modern web client for SFTP, S3, FTP, WebDAV, Git, Minio, LDAP, CalDAV, CardDAV, Mysql, Backblaze, ...*
+  - *Manage your files from a browser, Video player, Image viewer, Upload files and folders, ...* 
+  - <https://github.com/mickael-kerjean/filestash> 
 - **VcXsrv Windows X Server**
   - <https://sourceforge.net/projects/vcxsrv/>
 - **deskreen**
