@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: Linux
-created: '2020-03-23T21:03:45.669Z'
-modified: '2021-09-13T12:06:08.150Z'
 parent: Diverses
 ---
 
@@ -51,6 +48,7 @@ parent: Diverses
 - [HN: Shell script best practices, from a decade of scripting things ](https://news.ycombinator.com/item?id=33354286)
 - [HN: Linux command line for you and me](https://news.ycombinator.com/item?id=32886315)
 - <https://github.com/trinib/Linux-Bash-Commands> - *Ultimate list of Linux bash commands, cheatsheet and resources*
+- [Buch "The Linux Command Line"](https://www.linuxcommand.org/tlcl.php)
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
@@ -140,37 +138,12 @@ parent: Diverses
 - <https://www.computerhope.com/unix/ftp.htm>
 - <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
 - **ftp**
-  - establish connection 
-  - `ftp 192.168.42.77`
-- **lcd**
-  - *change directory on the local machine* 
-- **help or ?**
-  - *list all available FTP commands.*
-- **cd**
-  - *change directory on the remote machine.*
-- **lcd**
-  - *change directory on the local machine.*
-- **ls**
-  - *list the names of the files and directories in the current remote directory.*
-- **mkdir**
-  - *create a new directory within the current remote directory.*
-- **pwd**
-  - *print the current working directory on the remote machine.*
-- **delete**
-  - *remove a file in the current remote directory.*
-- **rmdir**
-  - *remove a directory in the current remote directory.*
-- **get**
-  - *copy one file from the remote to the local machine.*
-- **mget**
-  - *copy multiple files from the remote to the local machine.*
-  - `mget *.html`
-- **put**
-  - *copy one file from the local to the remote machine.*
-- **mput**
-  - *copy multiple files from the local to the remote machine.*
+- **ftps**
 - **sftp**
+- **lftp**
 - **scp**
+  - secure copy protocol
+
 
 ## Distributionen
 - Oracle Linux
