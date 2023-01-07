@@ -14,6 +14,7 @@ parent: Java
 - <https://piotrminkowski.com/>
 - <https://theamiableapi.com/2012/01/16/java-api-design-checklist/>
 - <https://github.com/s4kibs4mi/java-developer-roadmap>
+- <https://github.com/wesleyegberto/java-new-features>
 
 
 ## Beispiele, Repos
