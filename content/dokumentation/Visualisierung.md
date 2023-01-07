@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Dokumentation]
 title: Visualisierung
-created: '2019-02-22T11:24:25.583Z'
-modified: '2021-09-21T12:08:35.910Z'
 parent: Dokumentation
 ---
 
@@ -13,8 +10,9 @@ parent: Dokumentation
   - *Awesome data visualization tools for software developers*
   - Liste von Charts, maps, 3d tools, exploration tools, data grids
 - **text-to-diagram**
-  - *A comprehensive list of various text to diagram tools*
   - <https://xosh.org/text-to-diagram/>
+  - <https://text-to-diagram.com/>
+  - [HN - Text to Diagram Tools](https://news.ycombinator.com/item?id=33818511)
 - **graphviz**
   - <https://graphviz.gitlab.io>
 - **mermaid**
