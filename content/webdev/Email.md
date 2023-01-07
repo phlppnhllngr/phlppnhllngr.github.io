@@ -36,4 +36,7 @@ parent: Webdev
   - *Create beautiful emails and landing pages, fast. BEE is the best drag & drop editor for designing mobile responsive emails and landing pages.* 
   - <https://beefree.io/>
 - **Foundation for Emails**
-  - <https://get.foundation/emails.html> 
+  - <https://get.foundation/emails.html>
+- **react-email**
+  - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
+  - <https://github.com/zenorocha/react-email> 
