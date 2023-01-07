@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: CMS
-created: '2019-10-16T21:31:28.521Z'
-modified: '2021-09-21T12:10:06.934Z'
 parent: Diverses
 ---
 
@@ -48,6 +45,9 @@ parent: Diverses
   - *toolkit for building content management directly into your website*
   - *brings visual editing into React websites. A developer-centric CMS to build contextual and intuitive editing experience*
   - <https://github.com/tinacms/tinacms>
+- **Sanity**
+  - *real-time CMS, that you can customize with JavaScript and React.*
+  - <https://github.com/sanity-io/sanity>
 
 
 ## Headless
