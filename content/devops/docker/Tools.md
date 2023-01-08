@@ -37,7 +37,7 @@ grand_parent: DevOps
     - jib-native-image-extension-maven
     - ...
 - **docker-slim**
-  - <https://github.com/docker-slim/docker-slim> ⭐8.7k
+  - <https://github.com/docker-slim/docker-slim> <img loading="lazy" src="https://img.shields.io/github/stars/docker-slim/docker-slim?style=flat-square"/>
   - *Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too!*
   Node.js application images: from node:alpine - 66.7MB => 34.7MB (minified by 1.92X)
   JAVA application images: from ubuntu:14.04 - 743.6 MB => 100.3 MB
@@ -45,7 +45,7 @@ grand_parent: DevOps
   - <https://github.com/containrrr/watchtower>
   - *application that will monitor your running Docker containers and watch for changes to the images that those containers were originally started from. If watchtower detects that an image has changed, it will automatically restart the container using the new image.*
 - **tini**
-  - <https://github.com/krallin/tini> ⭐3.7k
+  - <https://github.com/krallin/tini> <img loading="lazy" src="https://img.shields.io/github/stars/krallin/tini?style=flat-square"/>
   - *init for containers*
   - Vorteile: <https://github.com/krallin/tini/issues/8>
 - **slim**
@@ -73,6 +73,9 @@ grand_parent: DevOps
   - *Work with remote images registries - retrieving information, images, signing content*
   - *can perform operations which consist of: Inspecting a remote image showing its properties including its layers, without requiring you to pull the image to the host. (...)*
   - <https://github.com/containers/skopeo>
+- **dozzle**
+  - *Realtime log viewer for docker containers. 
+  - <https://github.com/amir20/dozzle> <img loading="lazy" src="https://img.shields.io/github/stars/amir20/dozzle?style=flat-square"/>
 
 
 ## GUIs
@@ -85,10 +88,10 @@ grand_parent: DevOps
 - **dockstation.io**
   - <https://dockstation.io/>
 - **kitematic**
-  - <https://github.com/docker/kitematic/> ⭐11k
+  - <https://github.com/docker/kitematic/> <img loading="lazy" src="https://img.shields.io/github/stars/docker/kitematic?style=flat-square"/>
 - **lazydocker**
   - *A simple terminal UI for both docker and docker-compose*
-  - <https://github.com/jesseduffield/lazydocker> ⭐20.5k
+  - <https://github.com/jesseduffield/lazydocker> <img loading="lazy" src="https://img.shields.io/github/stars/jesseduffield/lazydocker?style=flat-square"/>
 - **Yacht**
   - *with a focus on templates and 1-click deployments*
   - <https://github.com/SelfhostedPro/Yacht>
@@ -102,7 +105,7 @@ grand_parent: DevOps
   - <https://github.com/knqyf263/trivy>
   - <https://foreops.com/blog/trivy-intro/> - *Container Scanning with Trivy in Jenkins*
 - **docker-bench-security**
-  - <https://github.com/docker/docker-bench-security> ⭐5.2k
+  - <https://github.com/docker/docker-bench-security> <img loading="lazy" src="https://img.shields.io/github/stars/docker/docker-bench-security?style=flat-square"/>
   - *script that checks for dozens of common best-practices around deploying Docker containers in production*
   - prüft keine Images, sondern Host
 - **grype**
