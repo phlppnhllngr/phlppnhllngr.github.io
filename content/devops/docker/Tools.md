@@ -74,7 +74,7 @@ grand_parent: DevOps
   - *can perform operations which consist of: Inspecting a remote image showing its properties including its layers, without requiring you to pull the image to the host. (...)*
   - <https://github.com/containers/skopeo>
 - **dozzle**
-  - *Realtime log viewer for docker containers. 
+  - *Realtime log viewer for docker containers.*
   - <https://github.com/amir20/dozzle> <img loading="lazy" src="https://img.shields.io/github/stars/amir20/dozzle?style=flat-square"/>
 
 
