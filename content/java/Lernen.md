@@ -40,3 +40,10 @@ parent: Java
 - <https://github.com/thombergs/buckpal>
   - *An example approach for implementing a Clean/Hexagonal Architecture*
   - *This is the companion code to my eBook Get Your Hands Dirty on Clean Architecture.*
+
+
+## Konferenzen
+- JavaZone (Norwegen)
+  - <https://javazone.no/> 
+- JavaLand (DE)
+  - <https://www.javaland.eu/de/home/> 
