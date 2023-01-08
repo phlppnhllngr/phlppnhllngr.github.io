@@ -15,7 +15,7 @@ has_children: true
 - **onedev**
     - *Super Easy All-In-One DevOps Platform*
     - *Git Management, Issue Tracking, and CI/CD*
-    - <https://github.com/theonedev/onedev> <img loading="lazy" src="https://img.shields.io/github/stars/NginxProxyManager/theonedev/onedev?style=flat-square"/>
+    - <https://github.com/theonedev/onedev> <img loading="lazy" src="https://img.shields.io/github/stars/theonedev/onedev?style=flat-square"/>
 - **traefik**
     - <https://doc.traefik.io/traefik>
 - **nginx-proxy-manager**
