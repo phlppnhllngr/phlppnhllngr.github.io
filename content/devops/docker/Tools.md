@@ -24,7 +24,7 @@ grand_parent: DevOps
   - siehe auch `docker image history`
   - *tool for exploring a docker image, layer contents, and discovering ways to shrink your Docker image size*
   - zeigt die Dockerfile-Zeilen und die daraus resultierenden Dateisystem-Zustände (als Tree), inkl. Dateigrößen
-  - <https://github.com/wagoodman/dive> ⭐17k
+  - <https://github.com/wagoodman/dive> <img loading="lazy" src="https://img.shields.io/github/stars/wagoodman/dive?style=flat-square"/>
   - erhältlich als Binary oder Docker image
 - **jib**
   - *builds optimized Docker images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices. Available as plugins for Maven and Gradle and as a Java library.*
