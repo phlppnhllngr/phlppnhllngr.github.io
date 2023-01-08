@@ -5,6 +5,7 @@ parent: Diverses
 
 # Checkliste neues Projekt
 - <https://github.com/phodal/new-project-checklist#english>
+- <https://www.enterpriseready.io/assessment/>
 - Tech-Stack
   - <https://github.com/TechEmpower/FrameworkBenchmarks>
   - <https://www.techempower.com/benchmarks>
