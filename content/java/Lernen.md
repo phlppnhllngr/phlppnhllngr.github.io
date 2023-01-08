@@ -25,7 +25,11 @@ parent: Java
 
 ## Bücher
 - <https://www.reddit.com/r/java/comments/jpwlci/list_of_java_books/>
-- <https://github.com/david-sauvage/effective-java-summary>
+- Effective Java
+  - <https://github.com/david-sauvage/effective-java-summary>
+- Core Java
+- Java Concurrency In Practice
+- Modern Java In Action
 - [Java for small teams](http://javabook.ncredinburgh.com/)
 - <https://github.com/TheAlgorithms/Java>
 
