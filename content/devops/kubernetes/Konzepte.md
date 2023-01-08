@@ -13,6 +13,9 @@ grand_parent: DevOps
   - *usually one container per pod*
   - *each pod gets own ip address*
   - *new ip address on re-creation*
+  - *every pod gets a unique IP and hostname and within a pod, containers can talk to each other via localhost*
+  - *containers in one pod can communicate via shared memory*
+  - *Under the hood, they heavily rely on Linux namespaces and cgroups*
 - **Service**
   - *permanent (static) ip address & DNS name that can be 'attached' to a pod*
   - *lifecycle of service and pod are not connected*
