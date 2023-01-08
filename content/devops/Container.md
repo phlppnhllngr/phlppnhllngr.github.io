@@ -62,3 +62,8 @@ parent: DevOps
     - *Many container runtime tools like systemd-nspawn, docker, etc. focus on providing infrastructure for system administrators and orchestration tools (e.g. Kubernetes) to run containers. These tools are not suitable to give to unprivileged users, because it is trivial to turn such access into a fully privileged root shell on the host.*
     - <https://github.com/containers/bubblewrap> 
     - <https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/>
+- **cadvisor**
+    - *Analyzes resource usage and performance characteristics of running containers.*
+    - *It is a running daemon that collects, aggregates, processes, and exports information about running containers. Specifically, for each container it keeps resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network statistics. This data is exported by container and machine-wide.*
+    - *exposes a web UI* 
+    - <https://github.com/google/cadvisor> 
