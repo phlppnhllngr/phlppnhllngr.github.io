@@ -52,9 +52,9 @@ grand_parent: DevOps
   - <https://github.com/ottomatica/slim>
   - *Build and run tiny vms from Dockerfiles*
 - **hadolint**
-  - <https://github.com/hadolint/hadolint>
+  - <https://github.com/hadolint/hadolint> <img loading="lazy" src="https://img.shields.io/github/stars/hadolint/hadolint?style=flat-square"/>
   - Dockerfile Linter
-  - als CLI oder Docker image verfügbar
+  - als CLI, Docker-Image oder VSCode-Extension verfügbar
 - **buildkit**
   - *BuildKit has been integrated to docker build since Docker 18.06*
   - <https://github.com/moby/buildkit>
