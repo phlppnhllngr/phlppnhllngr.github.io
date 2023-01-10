@@ -10,7 +10,7 @@ parent: Java
 - gcr.io/distroless/java11-debian11
 - openjdk
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
-  ```
+  ```Dockerfile
   FROM registry.access.redhat.com/ubi8/openjdk-11-runtime:1.14-5
   WORKDIR /deployments
   COPY dependency/* libs/
