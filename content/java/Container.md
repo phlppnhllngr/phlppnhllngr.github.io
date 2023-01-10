@@ -10,7 +10,7 @@ parent: Java
 - gcr.io/distroless/java11-debian11
 - openjdk
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
-  user.home = /home/jboss
+  <br/>user.home = /home/jboss
   ```Dockerfile
   FROM registry.access.redhat.com/ubi8/openjdk-11-runtime:1.14-5
   WORKDIR /deployments
@@ -30,7 +30,7 @@ parent: Java
   ]
   ```
 - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
-  user.home = /root
+  <br/>user.home = /root
   ```Dockerfile
   FROM bellsoft/liberica-openjdk-alpine:11.0.17-7
   WORKDIR /app
