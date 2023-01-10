@@ -10,7 +10,43 @@ parent: Java
 - gcr.io/distroless/java11-debian11
 - openjdk
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
+  ```
+  FROM registry.access.redhat.com/ubi8/openjdk-11-runtime:1.14-5
+  WORKDIR /deployments
+  COPY dependency/* libs/
+  COPY classes classes
+  EXPOSE 8080 8082
+  HEALTHCHECK --interval=10s --timeout=2s --start-period=10s --retries=2 \
+      CMD curl --silent --fail http://localhost:8080/health || exit 1
+  ENTRYPOINT [ "java", \
+      "-XX:MaxRAMPercentage=75", \
+      "-XX:+UseParallelGC", \
+      "-cp", \
+      "libs/*:classes/", \
+      "-Duser.timezone=Europe/Berlin", \
+      "-Dfile.encoding=UTF-8", \
+      "com.example.Application" \
+  ]
+  ```
 - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
+  ```Dockerfile
+  FROM bellsoft/liberica-openjdk-alpine:11.0.17-7
+  WORKDIR /app
+  COPY dependency/* libs/
+  COPY classes classes
+  EXPOSE 8080 8082
+  HEALTHCHECK --interval=10s --timeout=2s --start-period=10s --retries=2 \
+      CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
+  ENTRYPOINT [ "java", \
+      "-XX:MaxRAMPercentage=75", \
+      "-XX:+UseParallelGC", \
+      "-cp", \
+      "libs/*:classes/", \
+      "-Duser.timezone=Europe/Berlin", \
+      "-Dfile.encoding=UTF-8", \
+      "com.example.Application" \
+  ]
+  ```
 - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
 - <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
 - eclipse-temurin
@@ -79,7 +115,8 @@ parent: Java
    JAVA_OPTS: "-Dx.y=foo -Da.b=bar"
   ```
 - *You shouldn't use java $JAVA_OPTS with ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS"]
-  The main problem with it is that with this approach you application won't receive the sigterm so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
+  <br/>
+  The main problem with it is that with this approach you application <mark>won't receive the sigterm</mark> so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
   *If you want customize the java opts on docker environments use JAVA_TOOL_OPTIONS environment property and ENTRYPOINT ["java", ...] With this property you can declare your expected options even in Dockerfile like:
   ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=80"*
   <https://stackoverflow.com/a/58355963/8972265>
