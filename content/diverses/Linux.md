@@ -139,7 +139,9 @@ parent: Diverses
 - <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
 - **ftp**
 - **ftps**
+  - FTP over TLS 
 - **sftp**
+  - *Im Unterschied zum FTP über TLS (FTPS) begnügt sich SFTP mit einer einzigen Verbindung zwischen Client und Server.* 
 - **lftp**
   - *Neben FTP unterstützt das Programm die Protokolle FXP, HTTP, FISH, SFTP, HTTPS, FTPS und BitTorrent.* 
 - **scp**
