@@ -234,7 +234,8 @@ parent: Java
         - enthält `ApacheHttpTransport` etc
       - ...
     - Google Api Client
-      - <https://github.com/googleapis/google-api-java-client> 
+      - <https://github.com/googleapis/google-api-java-client>
+      - <https://www.baeldung.com/google-http-client>
 - <u>http server</u>
   - **com.sun.net.httpserver**
     - HttpServer
