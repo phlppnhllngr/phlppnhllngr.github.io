@@ -141,6 +141,7 @@ parent: Diverses
 - **ftps**
 - **sftp**
 - **lftp**
+  - *Neben FTP unterstützt das Programm die Protokolle FXP, HTTP, FISH, SFTP, HTTPS, FTPS und BitTorrent.* 
 - **scp**
   - secure copy protocol
 
