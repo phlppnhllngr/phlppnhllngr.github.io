@@ -216,7 +216,25 @@ parent: Java
     - <https://www.baeldung.com/java-ee-jax-rs-sse>
   - **Jersey 2**
     - <https://howtodoinjava.com/jersey/jersey-restful-client-examples/>
-    - <https://www.baeldung.com/jersey-jax-rs-client> 
+    - <https://www.baeldung.com/jersey-jax-rs-client>
+  - **Google**
+    - Monorepo: <https://github.com/googleapis/google-http-java-client>
+    - Module:
+      - google-http-client
+        - Core
+        - enthält `HttpRequestFactory`, `HttpRequestInitializer`, `GenericJson`, `JsonFactory` (abstract) etc
+        - enthält `NetHttpTransport`, `ApacheHttpTransport` (deprecated; man soll google-http-client-apache-v2 verwenden)
+      - google-http-client-jackson2
+        - enthält `JacksonFactory` etc
+        - abhängig von google-http-client 
+      - google-http-client-gson
+        - enthält `GsonFactory` etc
+        - abhängig von google-http-client
+      - google-http-client-apache-v2
+        - enthält `ApacheHttpTransport` etc
+      - ...
+    - Google Api Client
+      - <https://github.com/googleapis/google-api-java-client> 
 - <u>http server</u>
   - **com.sun.net.httpserver**
     - HttpServer
