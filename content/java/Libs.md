@@ -233,6 +233,7 @@ parent: Java
       - google-http-client-apache-v2
         - enthält `ApacheHttpTransport` etc
       - ...
+    - <https://googleapis.github.io/google-http-java-client/>
     - Google Api Client
       - <https://github.com/googleapis/google-api-java-client>
       - <https://www.baeldung.com/google-http-client>
