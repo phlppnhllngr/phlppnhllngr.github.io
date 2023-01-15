@@ -55,6 +55,47 @@ parent: DevOps
   - <https://github.com/prometheus/prometheus>
   - metrics
   - *<mark>open-source</mark> systems monitoring and alerting toolkit*
+  - docker-compose:
+    ```yaml
+    version: '3.8'
+    services:
+      grafana:
+        image: grafana/grafana-oss:latest
+        restart: unless-stopped
+        ports:
+          - "3000:3000"
+        links:
+          - prometheus
+        volumes:
+          - /foo:/var/lib/grafana
+      prometheus:
+        image: prom/prometheus:latest
+        restart: unless-stopped
+        volumes:
+          - ./prometheus.yml:/etc/prometheus/prometheus.yml
+          - /bar/:/prometheus
+        ports:
+          - "9090:9090"
+    ```
+    prometheus.yml
+    ```yaml
+    global:
+      scrape_interval: 15s 
+    scrape_configs:
+      # Prometheus itself
+      # This uses the static method to get metrics endpoints
+      - job_name: "prometheus"
+        honor_labels: true
+        static_configs:
+          - targets: ["localhost:9090"]
+      - job_name: "some-app"
+        scrape_interval: 5s
+        static_configs:
+          - targets: ["host.docker.internal:8080"] # "Instance" im Grafana-Dashboard mit ID 4701 ("JVM-Micrometer")
+            labels:
+              application: some-app # Label ist zwingend erforderlich für Grafana-Dashboard mit ID 4701 ("JVM-Micrometer")
+        metrics_path: /prometheus
+    ```
 - **grafana**
   - <https://grafana.com/>
   - <https://github.com/grafana/grafana> ⭐31k
