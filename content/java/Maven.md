@@ -73,7 +73,8 @@ parent: Java
   - ...
   - test <small>run tests using a suitable <mark>unit testing</mark> framework. These tests should not require the code be packaged or deployed.</small>
     - nur die Tests eines best. Pakets ausführen: `mvn -Dtest="my.package.*Test test`
-    - Tests überspringen: `mvn clean package -DskipTests` oder `mvn -Dmaven.test.skip=true clean package`
+    - Test-Ausführung überspringen: `mvn clean package -DskipTests`
+    - Test-Compile und -Ausführung überspringen: `mvn -Dmaven.test.skip=true clean package`
     - nur Tests einer best. Kategorie (z.B. JUnit5 -> `@Tag(my.package.Group1.class) MyTest`, JUnit4 -> @Category) ausführen: `mvn test -Dgroups=my.package.Group1,my.package.Group2`
   -  ...
   - package
