@@ -77,7 +77,9 @@ parent: DevOps
         ports:
           - "9090:9090"
     ```
+
     prometheus.yml
+
     ```yaml
     global:
       scrape_interval: 15s 
@@ -96,6 +98,7 @@ parent: DevOps
               application: some-app # Label ist zwingend erforderlich für Grafana-Dashboard mit ID 4701 ("JVM-Micrometer")
         metrics_path: /prometheus
     ```
+
 - **grafana**
   - <https://grafana.com/>
   - <https://github.com/grafana/grafana> ⭐31k
