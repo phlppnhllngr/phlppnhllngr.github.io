@@ -14,8 +14,16 @@ grand_parent: Java
   - ^sollte man wahrscheinlich mit `@Profile` verbinden
 - [devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools)
 - **Maven-Plugin**
-  - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/html/>
+  - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/>
   - <https://www.baeldung.com/spring-boot-repackage-vs-mvn-package>
+  - Goals
+    - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#?> 
+    - run
+      - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-run> 
+    - build-image
+      - <https://www.baeldung.com/spring-boot-docker-images#buildpacks> 
+    - repackage
+      - *Repackage existing JAR and WAR archives so that they can be executed from the command line using java -jar. With layout=NONE can also be used simply to package a JAR with nested dependencies (and no main class, so not executable).* 
 - **ReBoot**
   - *refactoring tool to automatically apply best practices in Java / Spring-Boot applications*
   - <https://github.com/thanus/reboot>
