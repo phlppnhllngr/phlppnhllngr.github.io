@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks, Notebooks/Docker]
 title: Tools
-created: '2019-02-14T20:19:00.854Z'
-modified: '2021-09-13T13:38:11.554Z'
 parent: Docker
 grand_parent: DevOps
 ---
@@ -84,8 +81,10 @@ grand_parent: DevOps
   - mit Kubernetes-Support (single node cluster)
   - *free for small businesses (fewer than 250 employees AND less than $10 million in annual revenue), personal use, education, and non-commercial open source projects*
 - **portainer**
+  - <https://github.com/portainer/portainer> <img loading="lazy" src="https://img.shields.io/github/stars/portainer/portainer?style=flat-square"/>
   - <https://www.portainer.io/>
 - **dockstation.io**
+  - <https://github.com/DockStation/dockstation> <img loading="lazy" src="https://img.shields.io/github/stars/DockStation/dockstation?style=flat-square"/>
   - <https://dockstation.io/>
 - **kitematic**
   - <https://github.com/docker/kitematic/> <img loading="lazy" src="https://img.shields.io/github/stars/docker/kitematic?style=flat-square"/>
