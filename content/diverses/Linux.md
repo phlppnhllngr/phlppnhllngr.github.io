@@ -120,6 +120,7 @@ parent: Diverses
   - *daemon which runs at the times of system boot*
   - *crontab = cron table. file which contains the schedule of cron entries to be run and at specified times. File location varies by operating systems.*
   - *cron is the name of the tool, crontab is generally the file that lists the jobs that cron will be executing, and those jobs are cron jobs*
+  - <https://tool.crontap.com/cronjob-debugger>
 - **miller**
   - *like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON*
   - https://github.com/johnkerl/miller
