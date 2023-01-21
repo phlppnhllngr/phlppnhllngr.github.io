@@ -7,6 +7,8 @@ parent: DevOps
 ---
 
 # Jenkins
+- Options: <https://www.jenkins.io/doc/book/pipeline/syntax/#available-options>
+- Parameters: <https://www.jenkins.io/doc/book/pipeline/syntax/#parameters>
 
 ## Steps
 - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/>
@@ -44,6 +46,7 @@ parent: DevOps
 - **cleanWs**
 - **pipelineTriggers**
 - **disableConcurrentBuilds**
+	- <https://www.jenkins.io/doc/book/pipeline/syntax/#available-options> 
 - ...
 
 
@@ -341,6 +344,7 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 - **configuration-as-code**
   - <https://github.com/jenkinsci/configuration-as-code-plugin>
 - **Timestamper**
+	- oder: timestamps-Option (<https://www.jenkins.io/doc/book/pipeline/syntax/#available-options>) 
 	- *adds timestamps to the console output of Jenkins jobs*
 	- <https://plugins.jenkins.io/timestamper/>
 - **Config File Provider**
