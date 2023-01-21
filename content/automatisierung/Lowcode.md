@@ -139,10 +139,6 @@ parent: Automatisierung
   - *A high-performance, extensible, modular and cross-platform workflow engine. Built for automation.*
   - <mark>free & open source</mark>
   - C# & XML
-- **zapier**
-  - <https://zapier.com/>
-  - Workflow-Automatisierung für diverse Apps (1500+)
-  - 💰, Cloud
 - **n8n**
   - <https://n8n.io/>
   - *<mark>Free & Open Source</mark> Alternative for Zapier/tray.io*
@@ -151,8 +147,6 @@ parent: Automatisierung
   - CLI (npm module) & Docker
   - <https://github.com/n8n-io/n8n> <img loading="lazy" src="https://img.shields.io/github/stars/n8n-io/n8n?style=flat-square"/>
   - JS
-- **refinery** 💰
-  - <https://www.refinery.io/>
 - **Huginn**
   - *Create agents that monitor and act on your behalf*
   - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
@@ -160,11 +154,20 @@ parent: Automatisierung
 - **DolphinScheduler**
   - *extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.*
   - <https://github.com/apache/dolphinscheduler> <img loading="lazy" src="https://img.shields.io/github/stars/apache/dolphinscheduler?style=flat-square"/>
+- **Automatisch**
+  - js 
+  - <https://github.com/automatisch/automatisch> <img loading="lazy" src="https://img.shields.io/github/stars/automatisch/automatisch?style=flat-square"/>
 - **Microsoft Power Automate** 💰
   - <https://flow.microsoft.com/de-de/>
 - **uipath** 💰
 - **workato** 💰
 - **connex digital** 💰
+- **refinery** 💰
+  - <https://www.refinery.io/>
+- **zapier**
+  - <https://zapier.com/>
+  - Workflow-Automatisierung für diverse Apps (1500+)
+  - 💰, Cloud
 
 
 ## Webseiten
