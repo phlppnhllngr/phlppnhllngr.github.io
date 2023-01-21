@@ -66,3 +66,4 @@ parent: Java
 - <https://spring.io/guides/gs/spring-boot-docker/>
 - <https://www.baeldung.com/dockerizing-spring-boot-application>
 - <https://www.baeldung.com/spring-boot-docker-images>
+- -> Spring-Boot-Maven-Plugin:build-image
