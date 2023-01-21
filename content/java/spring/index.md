@@ -65,4 +65,4 @@ parent: Java
 ## Docker
 - <https://spring.io/guides/gs/spring-boot-docker/>
 - <https://www.baeldung.com/dockerizing-spring-boot-application>
-  - <https://www.baeldung.com/spring-boot-docker-images#layered-jars>
+- <https://www.baeldung.com/spring-boot-docker-images>
