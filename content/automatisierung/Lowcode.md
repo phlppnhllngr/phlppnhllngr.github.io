@@ -106,6 +106,9 @@ parent: Automatisierung
 - **ILLA Builder**
   - *low-code platform for developers to build internal tools* 
   - <https://github.com/illacloud/illa-builder> <img loading="lazy" src="https://img.shields.io/github/stars/illacloud/illa-builder?style=flat-square"/>
+- **Rowy**
+  - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.* 
+  - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
 
 
 ## Workflows, Pipelines
