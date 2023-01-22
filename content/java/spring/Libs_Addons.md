@@ -64,7 +64,4 @@ grand_parent: Java
   - <https://github.com/codecentric/spring-boot-admin>
 - <https://github.com/xeraa/microservice-monitoring>
   - *Monitor your Spring Boot application with the Elastic Stack*
-- **Actuator**
-  - *Monitoring our app, gathering metrics, understanding traffic, or the state of our database become trivial with this dependency. The main benefit of this library is that we can get production-grade tools without having to actually implement these features ourselves. Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.*
-  - <https://www.baeldung.com/spring-boot-actuators>
-  - *support for publishing authentication and authorization events in conjunction with Spring Security* → spring/security
+
