@@ -20,11 +20,11 @@ parent: Java
   - reactive
   - polyglot (jvm & js)
   - <https://vertx.io/>
-  - <https://github.com/eclipse-vertx/vert.x> *9800
+  - <https://github.com/eclipse-vertx/vert.x> <img loading="lazy" src="https://img.shields.io/github/stars/eclipse-vertx/vert.x?style=flat-square">
 - **vaadin**
   - <https://vaadin.com/>
 - **quarkus**
-  - <https://github.com/quarkusio/quarkus> *4.2k
+  - <https://github.com/quarkusio/quarkus> <img loading="lazy" src="https://img.shields.io/github/stars/quarkusio/quarkus?style=flat-square">
   - *Container First framework for writing Java applications.*
   - <https://code.quarkus.io/> (wie spring-initializer)
 - **javalin**
@@ -40,11 +40,11 @@ parent: Java
         }
     }
     ```
-  - <https://github.com/tipsy/javalin> *3100
+  - <https://github.com/tipsy/javalin> <img loading="lazy" src="https://img.shields.io/github/stars/tipsy/javalin?style=flat-square">
 - **light4j**
   - *A fast, lightweight and cloud-native microservices framework.*
   - Packaging: Jar
-  - <https://github.com/networknt/light-4j> *3.4k
+  - <https://github.com/networknt/light-4j> <img loading="lazy" src="https://img.shields.io/github/stars/networknt/light-4j?style=flat-square">
 - **spark**
   - <http://sparkjava.com/>
   - "tiny", keine Annotationen, kein Xml, Kotlin & Java
@@ -57,11 +57,11 @@ parent: Java
         }
     }
     ```
-  - <https://github.com/perwendel/spark/> *8500
+  - <https://github.com/perwendel/spark/> <img loading="lazy" src="https://img.shields.io/github/stars/perwendel/spark?style=flat-square">
 - **play**
   - *Integrated HTTP server (Akka HTTP or Netty)*
   - <https://www.playframework.com>
-  - <https://github.com/playframework/playframework> *11000
+  - <https://github.com/playframework/playframework> <img loading="lazy" src="https://img.shields.io/github/stars/playframework/playframework?style=flat-square">
 - **microprofile**
   - *aims to optimize Enterprise Java for the Microservices architecture*
   - *based on a subset of Jakarta EE WebProfile APIs*
@@ -85,7 +85,7 @@ parent: Java
     }
     ```
   - <https://jooby.io/>
-  - <https://github.com/jooby-project/jooby> *1.4k
+  - <https://github.com/jooby-project/jooby> <img loading="lazy" src="https://img.shields.io/github/stars/jooby-project/jooby?style=flat-square">
 - **helidon**
   - *cloud-native, open‑source set of Java libraries for writing microservices that run on a fast web core powered by Netty.*
   - *supports two programming models*
@@ -95,7 +95,7 @@ parent: Java
   - *supports GraalVM Native Image so you can compile your Helidon application into a small-footprint native executable. Or you can package your application as a jlink image or a traditional application JAR.*
   - *Helidon requires Java 11 (or newer) and Maven.*
   - <https://helidon.io/>
-  - <https://github.com/oracle/helidon> *1.8k
+  - <https://github.com/oracle/helidon> <img loading="lazy" src="https://img.shields.io/github/stars/oracle/helidon?style=flat-square">
   - Helido Nima (Níma)
     - *a Java 19 (currently early access) based implementation of a server designed for Java Virtual Threads (product of Project Loom)* 
     - *the first microservices framework based on virtual threads*
@@ -113,18 +113,22 @@ parent: Java
       Blade.of().get("/", ctx -> ctx.text("Hello Blade")).start();
     }
     ```
-  - <https://github.com/lets-blade/blade> *5.2k
+  - <https://github.com/lets-blade/blade> <img loading="lazy" src="https://img.shields.io/github/stars/lets-blade/blade?style=flat-square">
 - **Armeria**
   - *your go-to microservice framework for any situation. You can build any type of microservice leveraging your favorite technologies, including gRPC, Thrift, Kotlin, Retrofit, Reactive Streams, Spring Boot and Dropwizard.*
-  - <https://github.com/line/armeria> *3.5k
+  - <https://github.com/line/armeria> <img loading="lazy" src="https://img.shields.io/github/stars/line/armeria?style=flat-square">
 - **restlet**
   - *REST API framework for Java*
   - *powerful routing and filtering capabilities, unified client and server Java API*
-  - <https://github.com/restlet/restlet-framework-java>
+  - <https://github.com/restlet/restlet-framework-java> <img loading="lazy" src="https://img.shields.io/github/stars/restlet/restlet-framework-java?style=flat-square">
 - **ratpack**
   - *Lean & powerful HTTP apps* 
   - *built on the Netty event-driven networking engine* 
-  - <https://github.com/ratpack/ratpack> 
+  - <https://github.com/ratpack/ratpack> <img loading="lazy" src="https://img.shields.io/github/stars/ratpack/ratpack?style=flat-square">
+- **RestExpress**
+  - *Uses Netty for HTTP, Jackson for JSON, Metrics for metrics, properties files for configuration.*
+  - *Sub-projects and plugins enable, NoSQL, Swagger, Auth0, HAL integration, etc.* 
+  - <https://github.com/RestExpress/RestExpress> <img loading="lazy" src="https://img.shields.io/github/stars/RestExpress/RestExpress?style=flat-square">
 
 
 ## Enterprise Integration
