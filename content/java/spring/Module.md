@@ -110,3 +110,10 @@ grand_parent: Java
 - *build well-structured Spring Boot applications and guides developers in finding and working with application modules driven by the domain*
 - <https://spring.io/projects/spring-modulith>
 - <https://spring.io/blog/2022/10/21/introducing-spring-modulith>
+
+
+## Actuator
+- *Monitoring our app, gathering metrics, understanding traffic, or the state of our database become trivial with this dependency. The main benefit of this library is that we can get production-grade tools without having to actually implement these features ourselves. Actuator is mainly used to expose operational information about the running application — health, metrics, info, dump, env, etc. It uses HTTP endpoints or JMX beans to enable us to interact with it.*
+- <https://www.baeldung.com/spring-boot-actuators>
+- *support for publishing authentication and authorization events in conjunction with Spring Security* → spring/security
+- <https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html>
