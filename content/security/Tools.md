@@ -16,27 +16,30 @@ parent: Security
   - *ALL IN ONE Hacking Tool*
 - **Osmodeus**
   - <https://j3ssie.github.io/Osmedeus/>
-  - <https://github.com/j3ssie/Osmedeus>
+  - <https://github.com/j3ssie/Osmedeus> <img loading="lazy" src="https://img.shields.io/github/stars/j3ssie/Osmedeus?style=flat-square"/>
   - *Fully automated offensive security framework for reconnaissance and vulnerability scanning*
-- <https://github.com/fuzzitdev/fuzzit>
+- ~~fuzzit~~
+  - inaktiv 
+  - <https://github.com/fuzzitdev/fuzzit>
 - **is-website-vulnerable**
   - <https://github.com/lirantal/is-website-vulnerable>
   - *finds publicly known security vulnerabilities in a website's frontend JavaScript libraries*
 - **OWASP ZAP**
   - <https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project>
   - *automatically find security vulnerabilities in your web applications*
-  - Docker images: <https://github.com/zaproxy/zaproxy/wiki/Docker>
+  - Docker
+    - <https://www.zaproxy.org/docs/docker/> 
   - *packaged scans* (vorgefertigte Scripts)
     - *ZAP Baseline Scan: intended to be ideal to run in a CI/CD environment, even against production sites*
     - ZAP API Scan: gegen API-Definitionsdatei testen
     - Full Scan: *does perform actual 'attacks' and can potentially run for a long period of time*
   - ZAP mit Auth (z.B. Webseite mit Anmeldeformular)
-    - https://github.com/ICTU/zap-baseline - *Zap baseline scanner in Docker with authentication*
+    - <https://github.com/ICTU/zap-baseline> - *Zap baseline scanner in Docker with authentication*
 - **corsy**
   - <https://github.com/s0md3v/Corsy>
   - *scans for all known misconfigurations in CORS implementations*
 - **automatic-api-attack-tool**
-  - <https://github.com/imperva/automatic-api-attack-tool>
+  - <https://github.com/imperva/automatic-api-attack-tool> <img loading="lazy" src="https://img.shields.io/github/stars/imperva/automatic-api-attack-tool?style=flat-square"/>
   - *takes an API specification as an input, generates and runs attacks that are based on it as an output*
 - **mozilla observatory**
   - <https://observatory.mozilla.org/>
@@ -53,7 +56,7 @@ parent: Security
   - <https://lgtm.com/>
 - **tsunami**
   - *general purpose network security scanner with an extensible plugin system for detecting high severity vulnerabilities with high confidence*
-  - <https://github.com/google/tsunami-security-scanner> *7.1k
+  - <https://github.com/google/tsunami-security-scanner> <img loading="lazy" src="https://img.shields.io/github/stars/google/tsunami-security-scanner?style=flat-square"/>
 - **mitmproxy**
   - *An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers*
   - <https://github.com/mitmproxy/mitmproxy>
@@ -63,7 +66,7 @@ parent: Security
 - **nuclei**
   - *Fast and customizable vulnerability scanner based on simple YAML based DSL.*
   - *used to send requests across targets based on a template leading to zero false positives and providing fast scanning on large number of hosts*
-  - <https://github.com/projectdiscovery/nuclei>
+  - <https://github.com/projectdiscovery/nuclei> <img loading="lazy" src="https://img.shields.io/github/stars/projectdiscovery/nuclei?style=flat-square"/>
 - **ThreatMapper**
   - *hunts for vulnerabilities in your production platforms, and ranks these vulnerabilities based on their risk-of-exploit* 
   - <https://github.com/deepfence/ThreatMapper> 
@@ -79,7 +82,7 @@ parent: Security
 - **Metlo**
   - *open-source API security platform*
   - *With Metlo you can: Create an Inventory of all your API Endpoints and Sensitive Data. Detect common API vulnerabilities. Proactively test your APIs before they go into production. Detect API attacks in real time.*
-  - <https://github.com/metlo-labs/metlo>
+  - <https://github.com/metlo-labs/metlo> <img loading="lazy" src="https://img.shields.io/github/stars/metlo-labs/metlo?style=flat-square"/>
 
 ## Secret Management
 - **Hashicorp Vault**
