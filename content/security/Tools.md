@@ -39,6 +39,7 @@ parent: Security
   - <https://github.com/s0md3v/Corsy>
   - *scans for all known misconfigurations in CORS implementations*
 - **automatic-api-attack-tool**
+  - 01/23: Seit 3 Jahren inaktiv 
   - <https://github.com/imperva/automatic-api-attack-tool> <img loading="lazy" src="https://img.shields.io/github/stars/imperva/automatic-api-attack-tool?style=flat-square"/>
   - *takes an API specification as an input, generates and runs attacks that are based on it as an output*
 - **mozilla observatory**
