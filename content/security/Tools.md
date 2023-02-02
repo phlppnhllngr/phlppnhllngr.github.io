@@ -14,7 +14,7 @@ parent: Security
   - *This library contains list of tools and methodologies accompanied with resources. The main goal is to provide to the engineers a guide through opensource DevSecOps tooling. This repository covers only cyber security in the cloud and the DevSecOps scope.*
 - <https://github.com/Z4nzu/hackingtool>
   - *ALL IN ONE Hacking Tool*
-- **Osmodeus**
+- **Osmedeus**
   - <https://j3ssie.github.io/Osmedeus/>
   - <https://github.com/j3ssie/Osmedeus> <img loading="lazy" src="https://img.shields.io/github/stars/j3ssie/Osmedeus?style=flat-square"/>
   - *Fully automated offensive security framework for reconnaissance and vulnerability scanning*
@@ -84,6 +84,8 @@ parent: Security
   - *open-source API security platform*
   - *With Metlo you can: Create an Inventory of all your API Endpoints and Sensitive Data. Detect common API vulnerabilities. Proactively test your APIs before they go into production. Detect API attacks in real time.*
   - <https://github.com/metlo-labs/metlo> <img loading="lazy" src="https://img.shields.io/github/stars/metlo-labs/metlo?style=flat-square"/>
+- **VirusTotal**
+  - API: <https://developers.virustotal.com/reference/overview> 
 
 ## Secret Management
 - **Hashicorp Vault**
