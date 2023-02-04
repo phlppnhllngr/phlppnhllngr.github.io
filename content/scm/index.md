@@ -15,3 +15,10 @@ has_children: true
     - <https://github.com/go-gitea/gitea> 
 - **Sapling**
     - <https://github.com/facebook/sapling>   
+- **Renovate**
+    - *Get automated Pull Requests to update your dependencies*
+    - *Reduce noise by running Renovate on a schedule, for example: on weekends, outside of working hours, each week, each month*
+    - *can be self-hosted*
+    - *works on these platforms: GitHub, GitLab, Bitbucket Cloud, Bitbucket Server, Azure DevOps, AWS CodeCommit, Gitea and Forgejo*
+    - CLI oder Docker-Image
+    - <https://github.com/renovatebot/renovate>
