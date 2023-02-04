@@ -111,3 +111,12 @@ grand_parent: DevOps
   - *Client-Only Developer Tool for Cloud-Native Development with Kubernetes*
   - *Build, test and debug applications directly inside Kubernetes. Develop with hot reloading: updates your running containers without rebuilding images or restarting containers.* 
   - <https://github.com/loft-sh/devspace> 
+
+### Java
+- **Kubernetes & OpenShift Java Client**
+  - <https://github.com/fabric8io/kubernetes-client>
+- **JKube**
+  - *collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too.*
+  - *also provides a set of tools such as watch, debug, log, etc. to improve your developer experience*
+  - <https://github.com/eclipse/jkube>
+  - <https://github.com/eclipse/jkube#kubernetes-maven-plugin>
