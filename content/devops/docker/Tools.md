@@ -73,6 +73,10 @@ grand_parent: DevOps
 - **dozzle**
   - *Realtime log viewer for docker containers.*
   - <https://github.com/amir20/dozzle> <img loading="lazy" src="https://img.shields.io/github/stars/amir20/dozzle?style=flat-square"/>
+- **Dedockify**
+  - *Reverse engineer Docker images into Dockerfiles.*
+  - *Similar to how the `docker history` command works, Dedockify is able to re-create the Dockerfile (approximately) that was used to generate an image using the metadata that Docker stores alongside each image layer.*
+  - <https://github.com/mrhavens/Dedockify>
 
 
 ## GUIs
