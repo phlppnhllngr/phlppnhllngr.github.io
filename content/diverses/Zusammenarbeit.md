@@ -42,7 +42,7 @@ title: Zusammenarbeit
 - **coda**
   - <https://coda.io/>
   - team wiki
-- TestMonitor
+- **TestMonitor**
   - <https://www.testmonitor.com>
   - wie PractiTest
 - **PractiTest** 💰
@@ -53,3 +53,6 @@ title: Zusammenarbeit
 - **peppermint**
   - *A ticket management system which aims to have a nice UI with easy to use features, lightweight infrastructure*
   - <https://github.com/Peppermint-Lab/Peppermint> *200
+- **Logseq**
+  - *platform for knowledge management and collaboration*
+  - <https://github.com/logseq/logseq>
