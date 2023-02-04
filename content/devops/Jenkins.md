@@ -365,3 +365,7 @@ USER root
 RUN apk update && apk upgrade && apk add maven git nodejs npm
 USER jenkins
 ```
+
+## Shared Library
+- <https://github.com/Diabol/jenkins-pipeline-shared-library-template>
+- <https://stackoverflow.com/questions/47205761/how-can-i-define-a-global-variable-or-constant-using-jenkins-pipeline-shared-lib>
