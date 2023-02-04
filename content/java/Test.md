@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Test
-created: '2019-02-10T19:18:08.769Z'
-modified: '2021-09-13T12:20:37.269Z'
 parent: Java
 ---
 
@@ -163,7 +160,10 @@ parent: Java
     Person person = Instancio.create(Person.class);
     ```
     *This one-liner returns a fully-populated person, including nested objects and collections. The object is populated with random data that can be reproduced in case of test failure.*
-  - <https://github.com/instancio/instancio/> 
+  - <https://github.com/instancio/instancio/>
+- **Fixture Monkey**
+  - *generate test instances including edge cases automatically*
+  - <https://github.com/naver/fixture-monkey>
 
 
 ## REST
