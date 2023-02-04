@@ -83,6 +83,7 @@ parent: Java
   - *Allocate 75% of container memory for the JVM heap.* (`-XX:MaxRAMPercentage=75`)
   - *For most general-purpose microservice applications, start with the Parallel GC.*
   - *For any GC other than SerialGC, we recommend two or more vCPU cores. We don't recommend selecting anything less than 1 vCPU core on containerized environments. If you don't know how many cores to start with, a good choice is 2 vCPU cores.*
+- <https://snyk.io/blog/best-practices-to-build-java-containers-with-docker/>
 - [Containerize your Java applications for Kubernetes](https://learn.microsoft.com/en-us/azure/developer/java/containers/kubernetes)
   - Set CPU requests and limits
   - Set memory request and limits
