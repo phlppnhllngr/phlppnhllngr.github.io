@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Automatisierung]
 title: No-/Lowcode
-created: '2020-12-16T13:35:51.458Z'
-modified: '2021-09-05T11:30:27.652Z'
 parent: Automatisierung
 ---
 
@@ -87,7 +84,8 @@ parent: Automatisierung
   - <https://github.com/bram2w/baserow> <img loading="lazy" src="https://img.shields.io/github/stars/bram2w/baserow?style=flat-square"/>
   - SaaS oder self hosted
 - **windmill**
-  - *uickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
+  - *quickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
+  - *allowing Python/Javascript/Go/Bash as steps but the workflows are still GUI based*
   - *What is the general idea behind Windmill*
     - *Define a minimal and generic script in Python or Typescript that solve a specific task.*
     - *Your scripts parameters are automatically parsed and generate a frontend. Each script correspond to an app by itself*
@@ -109,9 +107,6 @@ parent: Automatisierung
 - **Rowy**
   - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.* 
   - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
-
-
-## Workflows, Pipelines
 - **standard library**
   - <https://stdlib.com/>
   - *allows you to effortlessly create automated workflows with a simple, intuitive UI*
@@ -160,6 +155,10 @@ parent: Automatisierung
 - **Automatisch**
   - js 
   - <https://github.com/automatisch/automatisch> <img loading="lazy" src="https://img.shields.io/github/stars/automatisch/automatisch?style=flat-square"/>
+- **Trigger.dev**
+  - *current workflow / automation tools like Zapier and n8n are good for simple tasks, but not for more advanced use cases. Dropping down into code in these tools is just not a great experience.*
+  - *anyone can self-host the platform*
+  - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
 - **Microsoft Power Automate** 💰
   - <https://flow.microsoft.com/de-de/>
 - **uipath** 💰
