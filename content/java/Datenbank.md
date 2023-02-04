@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Datenbank
-created: '2019-02-17T20:25:41.145Z'
-modified: '2021-09-21T12:23:57.799Z'
 parent: Java
 ---
 
@@ -166,6 +163,9 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - *library for auditing changes in your data*
   - *easy to use in applications based on the Spring Framework*
   - <https://github.com/javers/javers>
+- **JPA Streamer**
+  - *library for expressing JPA/Hibernate/Spring queries using standard Java streams*
+  - <https://jpastreamer.org/>
 
 
 ## Non-JPA-Libs, Query-Builder
