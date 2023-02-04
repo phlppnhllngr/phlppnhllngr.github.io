@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/HTML]
 title: Email
-created: '2019-09-10T09:18:26.094Z'
-modified: '2019-10-16T21:42:49.169Z'
 parent: Webdev
 ---
 
@@ -40,3 +37,12 @@ parent: Webdev
 - **react-email**
   - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
   - <https://github.com/zenorocha/react-email> 
+- **MailDev**
+  - *SMTP Server + Web Interface for viewing and testing emails during development*
+  - *optionally supports selectively relaying email to an outgoing SMTP server*
+  - *Features*
+    - *Toggle between HTML, plain text views as well as view email headers*
+    - *Test responsive emails with resizable preview pane available for various screen sizes*
+    - *Ability to receive and view email attachments*
+  - Nodejs, Docker
+  - <https://github.com/maildev/maildev>
