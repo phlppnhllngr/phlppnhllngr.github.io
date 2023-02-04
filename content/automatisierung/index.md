@@ -18,3 +18,7 @@ has_children: true
 - **automa**
     - *browser extension for browser automation*
     - <https://github.com/AutomaApp/automa> 
+**changedetection.io**
+    - *self-hosted free open source website change detection, monitor and notification service*
+    - *Detect website content changes and perform meaningful actions - trigger notifications via Discord, Email, Slack, Telegram, API calls and many more*
+    - <https://github.com/dgtlmoon/changedetection.io>
