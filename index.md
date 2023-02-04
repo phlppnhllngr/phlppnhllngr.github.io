@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+<span style="font-size:3rem;">🤓</span>
