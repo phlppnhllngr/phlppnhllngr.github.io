@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Automatisierung]
 title: Windows
-created: '2020-12-16T13:35:51.458Z'
-modified: '2021-09-05T11:30:27.652Z'
 parent: Automatisierung
 ---
 
@@ -24,3 +21,6 @@ parent: Automatisierung
     - <https://teststackwhite.readthedocs.io/en/latest/>
     - *framework for automating rich client applications based on Win32, WinForms, WPF, Silverlight and SWT (Java) platforms*
 - **Appium, Selenium**
+- **nut.js**
+    - *Cross Platform Desktop Automation*
+    - <https://nutjs.dev/>
