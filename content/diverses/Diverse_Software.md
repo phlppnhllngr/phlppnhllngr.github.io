@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks, Notebooks/Diverses]
 title: Diverse Software
-created: '2019-02-21T15:17:09.975Z'
-modified: '2021-09-21T11:59:50.494Z'
 parent: Diverses
 ---
 
@@ -194,10 +191,14 @@ parent: Diverses
   - <https://github.com/google/jsonnet>
 - **Violentmonkey**
   - *provides userscripts support for browsers* 
-  - <https://github.com/violentmonkey/violentmonkey> 
-
-
+  - <https://github.com/violentmonkey/violentmonkey>
+- **ChatGPT**
+  - <https://github.com/openai/openai-cookbook>
+  - <https://github.com/f/awesome-chatgpt-prompts>
+  - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
 ## Passwort-Manager
+
+
 - **keeweb**
   - *cross-platform password manager compatible with KeePass*
   - *browser and desktop password manager compatible with KeePass databases*
