@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: Dokumente
-created: '2019-10-16T21:35:09.649Z'
-modified: '2021-07-07T05:24:42.829Z'
 parent: Diverses
 ---
 
@@ -11,7 +8,7 @@ parent: Diverses
 ## DMS
 - **seeddms**
   - closed source 
-  - <https://www.seeddms.org/index.php>
+  - <https://www.seeddms.org>
 - **teedy**
   - Java 
   - Features
@@ -20,7 +17,7 @@ parent: Diverses
     - Workflow system
     - User/group permission system
     - RESTful Web API  
-  - <https://github.com/sismics/docs>
+  - <https://github.com/sismics/docs> <img loading="lazy" src="https://img.shields.io/github/stars/sismics/docs?style=flat-square"/>
 - **papermerge**
   - *Document Management System for Digital Archives (Scanned Documents)*
   - *designed for archiving and retrieving your digital documents*
@@ -31,7 +28,7 @@ parent: Diverses
     - REST API
     - ... 
   - *It is built on Django 3.1.*
-  - <https://github.com/ciur/papermerge>
+  - <https://github.com/ciur/papermerge> <img loading="lazy" src="https://img.shields.io/github/stars/ciur/papermerge?style=flat-square"/>
 - **Paperless-ngx**
   - Features:
     - *Supports PDF documents, images, plain text files, and Office documents*
