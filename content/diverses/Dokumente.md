@@ -33,8 +33,11 @@ parent: Diverses
   - Features:
     - *Supports PDF documents, images, plain text files, and Office documents*
     - *Performs OCR on your documents, adds selectable text to image only documents*
-    - *stores your documents plain on disk. Filenames and folders are managed by paperless and their format can be configured freely.*   
-  - Python, TypeScript 
+    - *stores your documents plain on disk. Filenames and folders are managed by paperless and their format can be configured freely.*
+    - REST-API
+        - Download, Upload, Search
+        - <https://docs.paperless-ngx.com/api/>
+  - Python (Django), TypeScript 
   - <https://github.com/paperless-ngx/paperless-ngx> <img loading="lazy" src="https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=flat-square"/>
 - **EveryDocs Core**
   - *simple DMS for private use*
