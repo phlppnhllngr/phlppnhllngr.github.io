@@ -99,17 +99,21 @@ parent: Datenbank
   - <https://db.apache.org/derby/>
 
 
-## Cloud
+## Cloud, Serverless
 - **PlanetScale**
   - *Serverless databases*
   - *Deploy, branch, and query your database directly from the UI, or download our CLI and run commands there.*
   - *fully managed database with the reliability of MySQL (our databases run on MySQL 8.0) and the scale of open source Vitess*
   - <https://planetscale.com/>
-
+- **Neon**
+- **xata**
 
 ## Graphendatenbank
 - **neo4j**
   - <https://neo4j.com/>
+- **Memgraph**
+  - Drop-in-replacement für Neo4j
+  - <https://github.com/memgraph/memgraph> 
 - **TerminusDB**
   - *immutable graph database that creates a graph from JSON documents*
   - *toolkit for building collaborative applications*
@@ -129,4 +133,18 @@ parent: Datenbank
 ## NextGen
 - **SurrealDB**
   - <https://github.com/surrealdb/surrealdb> <img loading="lazy" src="https://img.shields.io/github/stars/surrealdb/surrealdb?style=flat-square"/> 
-  - [YT_: Fireship - SurrealDB in 100 Seconds](https://www.youtube.com/watch?v=C7WFwgDRStM) 
+  - [YT_: Fireship - SurrealDB in 100 Seconds](https://www.youtube.com/watch?v=C7WFwgDRStM)
+- **Dolt**
+  - *Git for data*
+  - *SQL database that you can fork, clone, branch, merge, push and pull just like a Git repository*
+  - *Connect to Dolt just like any MySQL database to run queries or update the data using SQL commands.* 
+  - <https://github.com/dolthub/dolt> <img loading="lazy" src="https://img.shields.io/github/stars/dolthub/dolt?style=flat-square"/>
+  - <https://www.dolthub.com/blog/2022-07-11-dolt-case-studies/>
+- **8base**
+  - mit GraphQL + Lowcode-UI-Builder
+- **fauna**
+- **Meilisearch**
+  - full text search
+  - Mailisearch Instant für Frontend-Integration
+- **KeyDB**
+  - In-memory cache 
