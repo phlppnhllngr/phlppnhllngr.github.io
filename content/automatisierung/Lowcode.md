@@ -44,7 +44,8 @@ parent: Automatisierung
   - <https://retool.com/> 
   - *the fast way to build internal tools — drag-and-drop frontend components together and connect them to any database or API*
 - **Openblocks**
-  - *The Open Source Retool Alternative* 
+  - *The Open Source Retool Alternative*
+  - *An all-in-one IDE to create internal or customer-facing apps. A place to create, build and share building blocks of web applications.*
   - <https://github.com/openblocks-dev/openblocks> <img loading="lazy" src="https://img.shields.io/github/stars/openblocks-dev/openblocks?style=flat-square"/>
 - **lowdefy**
   - *An open-source low-code framework to build web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML.*
