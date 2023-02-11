@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: Logging
-created: '2020-03-23T21:02:43.094Z'
-modified: '2021-09-05T12:33:12.581Z'
 parent: Diverses
 ---
 
@@ -48,7 +45,9 @@ parent: Diverses
   - free & paid tiers
 - **sentry** → DevOps/Observability
 - **loki**
-  - *log aggregation system, native support in Grafana*
+  - *Loki is a multi-tenant log aggregation system inspired by Prometheus.
+It is cost effective, easy to operate and allows viewing logs directly in Grafana.*
+  - Um Container-Logs anzugreifen, gibt es einen Logging driver für Docker
   - <https://github.com/grafana/loki>
 - **Apache Chainsaw**
   - *GUI-based Log viewer*
