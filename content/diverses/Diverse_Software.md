@@ -192,13 +192,9 @@ parent: Diverses
 - **Violentmonkey**
   - *provides userscripts support for browsers* 
   - <https://github.com/violentmonkey/violentmonkey>
-- **ChatGPT**
-  - <https://github.com/openai/openai-cookbook>
-  - <https://github.com/f/awesome-chatgpt-prompts>
-  - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+
+
 ## Passwort-Manager
-
-
 - **keeweb**
   - *cross-platform password manager compatible with KeePass*
   - *browser and desktop password manager compatible with KeePass databases*
@@ -272,3 +268,13 @@ parent: Diverses
 - **meilisearch**
   - <https://github.com/meilisearch/MeiliSearch>
   - search engine
+
+
+## ML, AI
+- **ChatGPT**
+  - <https://github.com/openai/openai-cookbook>
+  - <https://github.com/f/awesome-chatgpt-prompts>
+  - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+- **Open Assistant**
+  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
+  - <https://github.com/LAION-AI/Open-Assistant> 
