@@ -1,14 +1,15 @@
 ---
-tags: [Notebooks/Docker]
 title: Storage
-created: '2020-08-09T10:30:01.094Z'
-modified: '2020-08-09T10:48:18.388Z'
 parent: Docker
 grand_parent: DevOps
 ---
 
 # Storage
+- writable layer
+  - *The writable layer of the container is where all the data will be written in the container if no volume is mounted. It will persist on container restart, but will be deleted if the container is deleted.*
+  - *Writing into a container’s writable layer requires a storage driver to manage the filesystem. The storage driver provides a union filesystem, using the Linux kernel. This extra abstraction reduces performance as compared to using data volumes, which write directly to the host filesystem.*
 - <https://docs.docker.com/storage>
+
 
 ## bind mount
   - *a file or directory on the host machine is mounted into a container*
@@ -26,7 +27,6 @@ grand_parent: DevOps
        source: ./my-file
        target: ./etc/my-file
     ```
-
 
 ## volume
   - <https://docs.docker.com/storage/volumes>
@@ -46,6 +46,21 @@ grand_parent: DevOps
       target: /var/lib/dbdata
     ```
 
-
 ## mount & volume
 *You can't reference either of them in a Dockerfile; the `VOLUME` directive creates a new nameless (with randomly generated id) volume every time you launch a new container and cannot reference an existing volume.*
+
+
+## tmpfs mounts
+- *will persist data as long as the container is running (i.e. the data in the volume will be deleted when the container stops),*
+- *the tmpfs volume size is unlimited by default with the risk of the container using up all the machine memory. Using tmpfs-size flag is recommended to mitigate that risk,*
+
+
+## Temporäre Dateien
+- Linux
+  - *By default, all the files and data that gets stored in /var/tmp live for up to 30 days. Whereas in /tmp, the data gets automatically deleted after ten days. Furthermore, any temporary files that are stored in the /tmp directory get removed immediately on system reboot.*
+- Standardmäßig sind in Container keine cron-Jobs aktiv, daher wird /tmp ohne zusätzliche Konfig nie geleert.
+- tmpfs
+  - *if you need to be able to clean up temporary data while the container is running, this is not a good solution as you will need to stop the container to have your temporary data cleaned.*
+- Mounting host machine /tmp in the container with a bind mount
+  - *result will depend on how the host machine manage /tmp (in most cases, data are cleared upon machine restart)*
+- Volume, mit dedizierten "Cleanup"-Container geteilt
