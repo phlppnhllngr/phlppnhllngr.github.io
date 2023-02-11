@@ -172,6 +172,8 @@ parent: Automatisierung
   - <https://zapier.com/>
   - Workflow-Automatisierung für diverse Apps (1500+)
   - 💰, Cloud
+- **IFTTTT**
+  - <https://ifttt.com/> 
 
 
 ## Webseiten
