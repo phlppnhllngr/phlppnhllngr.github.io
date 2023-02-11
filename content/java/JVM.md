@@ -11,8 +11,16 @@ parent: Java
 ## Parameter, Flags
 - **JAVA_OPTS**
   - Env-Var
+  - *JAVA_OPTS is a convention used by Apache Tomcat and some other apps*
+- **_JAVA_OPTIONS**
+  - *_JAVA_OPTIONS trumps command-line arguments, which in turn trump JAVA_TOOL_OPTIONS*
+  - *_JAVA_OPTIONS is Oracle specific. IBM JVM is using IBM_JAVA_OPTIONS instead*
+  - nicht offiziell dokumentiert
 - **JAVA_TOOL_OPTIONS**
-  - Env-Var  
+  - Env-Var
+  - <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/envvars002.html>
+    - *In many environments the command line is not readily accessible to start the application with necessary command-line options. This often arises with applications that use embedded VMs, or where the startup is deeply nested in scripts. In these environments the JAVA_TOOL_OPTIONS environment variable can be useful to augment a command line.*
+    - *When JAVA_TOOL_OPTIONS is defined, a message is always echoed to stdout, like "Picked up JAVA_TOOL_OPTIONS ..."*
 - **classpath**
   - spezifiziert Classpath
   - alias `cp`
