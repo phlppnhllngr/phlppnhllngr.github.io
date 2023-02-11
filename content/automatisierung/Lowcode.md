@@ -159,6 +159,8 @@ parent: Automatisierung
   - *current workflow / automation tools like Zapier and n8n are good for simple tasks, but not for more advanced use cases. Dropping down into code in these tools is just not a great experience.*
   - *anyone can self-host the platform*
   - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
+- **Activepieces**
+  - <https://github.com/activepieces/activepieces> <img loading="lazy" src="https://img.shields.io/github/stars/activepieces/activepieces?style=flat-square"/>
 - **Microsoft Power Automate** 💰
   - <https://flow.microsoft.com/de-de/>
 - **uipath** 💰
