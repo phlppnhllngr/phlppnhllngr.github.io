@@ -106,10 +106,6 @@ parent: Diverses
 - **deskreen**
   - *turns any device with a web browser into a secondary screen for your computer*
   - <https://github.com/pavlobu/deskreen>
-- **dall-e**
-  - *We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language*
-  - <https://openai.com/blog/dall-e/>
-  - <https://github.com/saharmor/dalle-playground>
 - **syncthing**
   - *Continuous File Synchronization*
   - <https://github.com/syncthing/syncthing>
@@ -151,12 +147,6 @@ parent: Diverses
 - **focalboard**
   - *open source, self-hosted project management tool that's an alternative to Trello, Notion, and Asana*
   - <https://github.com/mattermost/focalboard>
-- **Github Copilot**
-  - *uses AI to suggest code in real-time, right from your editor*
-  - <https://github.com/features/copilot>
-- **Tabnine**
-  - *AI Assistant For Software Developers*
-  - <https://www.tabnine.com>
 - **jira-cli**
   - <https://github.com/ankitpokhrel/jira-cli>
 - **novu**
@@ -271,10 +261,45 @@ parent: Diverses
 
 
 ## ML, AI
-- **ChatGPT**
-  - <https://github.com/openai/openai-cookbook>
-  - <https://github.com/f/awesome-chatgpt-prompts>
-  - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+- <https://www.youtube.com/@TwoMinutePapers/videos>
+- <u>OpenAI</u>
+  - **ChatGPT**
+    - <https://github.com/openai/openai-cookbook>
+    - <https://github.com/f/awesome-chatgpt-prompts>
+    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+  - **Whisper**
+    - *approaches human level robustness and accuracy on English speech recognition* 
+    - <https://openai.com/blog/whisper/>
+  - **DALL-E**
+    - *creates images from text captions for a wide range of concepts expressible in natural language*
+    - <https://openai.com/blog/dall-e/>
+    - <https://github.com/saharmor/dalle-playground>
 - **Open Assistant**
   - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
-  - <https://github.com/LAION-AI/Open-Assistant> 
+  - <https://github.com/LAION-AI/Open-Assistant>
+- **Github Copilot**
+  - *uses AI to suggest code in real-time, right from your editor*
+  - <https://github.com/features/copilot>
+- **Tabnine**
+  - *AI Assistant For Software Developers*
+  - <https://www.tabnine.com>
+- **Hugging Face**
+  - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
+  - Models, Datasets, Docs, ... 
+  - <https://huggingface.co/>
+- **Play.ht**
+  - *AI powered text to voice generator*
+  - <https://play.ht/> 
+- **restorephotos.io**
+- **Midjourney**
+- **Moveworks** 
+  - *Automate your employee support with AI trained on the world's most advanced large language models*
+  - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
+  - <https://www.moveworks.com/>
+- **AWS Lex**
+  - für Chatbots 
+- **Google Dialogflow**
+  - für Chatbots
+- **VALL-E**
+  - Voicecloning von MS
+  - braucht nur 3 Sekunden Input-Material 
