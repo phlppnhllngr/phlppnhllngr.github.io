@@ -134,3 +134,10 @@ parent: Diverses
 - **PDFMonkey** 💰🌥
   - <https://www.pdfmonkey.io/>
   - PDFs generieren anhand von Html-/Css-Templates + JSON-API
+
+
+## ECM
+- <https://en.m.wikipedia.org/wiki/Enterprise_content_management>
+- **Alfresco**
+- **OpenText**
+- **Nuxeo**
