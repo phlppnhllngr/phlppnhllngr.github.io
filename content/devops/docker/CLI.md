@@ -32,26 +32,8 @@ grand_parent: DevOps
   - *Four of the Dockerfile commands cannot be overridden at runtime: FROM, MAINTAINER, RUN, and ADD. Everything else has a corresponding override in docker run.* 
   - `docker run --rm --name=<container-name> <image>`
   - `-v`
-    - relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
-    - Storage-Varianten
-      - → Docker/Storage
-      - bind mount ("host volume")
-        - `-v /host/path/:/container/path`
-      - volume
-          - managed
-            - unnamed (anonymous) managed
-            - `-v /container/path/`
-            - *create a volume on the host system at a location owned by the docker daemon and mount it in the container at /container/path*
-            - im Host (automatisch erzeugt) unter `/var/lib/docker/volumes/<random-hash>/_data`
-            - *To find out where docker created the volume on host:* `docker inspect -f "{{.Mounts}}" <ContainerName>`
-          - named managed
-            - `-v <name>:/container/path`
-            - *Same as previous, only instead of volume being assigned a hash, you can provide it with a meaningful name*
-      - tmpfs mount
-        - *If you’re running Docker on Linux, you have a third option: tmpfs mounts*
-        - *When you create a container with a tmpfs mount, the container can create files outside the container’s writable layer. As opposed to volumes and bind mounts, a tmpfs mount is temporary, and only persisted in the host memory. When the container stops, the tmpfs mount is removed, and files written there won’t be persisted.*
-        - *Unlike volumes and bind mounts, you can’t share tmpfs mounts between containers*
-        - <https://docs.docker.com/storage/tmpfs/>
+    - bind mount: relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
+    - → Docker/Storage
 - **volume**
     - create
         - driver
