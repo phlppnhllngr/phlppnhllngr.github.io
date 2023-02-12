@@ -32,9 +32,12 @@ parent: Java
   - *The Client VM compiler serves as an upgrade for both the Classic VM and the just-in-time (JIT) compilers used by previous versions of the JDK. The Client VM offers improved run time performance for applications and applets. The Java HotSpot Client VM has been specially tuned to reduce application start-up time and memory footprint, making it particularly well suited for client environments. In general, the client system is better for GUIs.*
   - *A 64-bit capable JDK currently ignores this option and instead uses the Java Hotspot Server VM. The Sun/Oracle 64 builds did not even ship with a client JVM.*
   - wie es bestimmt wird: siehe <https://developers.redhat.com/articles/2022/04/19/best-practices-java-single-core-containers#the_jvm_as_a_dynamic_execution_platform>
-- **agentlib**
-  - `-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:<port>`
-  - für Debugging 
+- **agentlib:jdwp**
+  - für Debugging
+  - `-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=<port>`
+  - *It is not required to add the `address` parameter. If not provided the agent is selecting a random port number*
+  - *For remote debugging one should run program with `*` in address: `*:<port>`*
+  - *`suspend=y` : if 'y', tell the JVM to wait until debugger is attached to begin execution, otherwise (if 'n'), starts execution right away*
 
 ### -D
 - **sun.net.client.defaultConnectTimeout, sun.net.client.defaultReadTimeout**
