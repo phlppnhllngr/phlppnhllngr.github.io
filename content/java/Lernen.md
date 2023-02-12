@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Lernen
-created: '2019-06-24T17:47:21.525Z'
-modified: '2021-07-25T16:15:12.051Z'
 parent: Java
 ---
 
@@ -21,6 +18,10 @@ parent: Java
 - <https://github.com/corona-warn-app/cwa-server>
 - <https://github.com/corona-warn-app/cwa-verification-server>
 - <https://github.com/signalapp/Signal-Server>
+- zookeeper
+- vert.x
+- trino
+- kafka streams
 
 
 ## Bücher
