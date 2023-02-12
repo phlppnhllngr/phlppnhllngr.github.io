@@ -36,7 +36,7 @@ parent: Java
   - für Debugging
   - `-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=<port>`
   - *It is not required to add the `address` parameter. If not provided the agent is selecting a random port number*
-  - *For remote debugging one should run program with `*` in address: `*:<port>`*
+  - *For remote debugging one should run program with `*` in address: `address=*:<port>`*
   - *`suspend=y` : if 'y', tell the JVM to wait until debugger is attached to begin execution, otherwise (if 'n'), starts execution right away*
 
 ### -D
