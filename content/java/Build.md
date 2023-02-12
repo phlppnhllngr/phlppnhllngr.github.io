@@ -50,6 +50,8 @@ parent: Java
   - Tasks
     - <https://docs.gradle.org/current/userguide/application_plugin.html#sec:application_tasks>
 - **distribution**
+- **jakartaee-migration**
+  - <https://github.com/nebula-plugins/gradle-jakartaee-migration-plugin>
 - **java**
   - <https://docs.gradle.org/current/userguide/java_plugin.html#java_plugin>
   - *adds Java compilation along with testing and bundling capabilities*
