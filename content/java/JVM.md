@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: JVM
-created: '2020-07-13T08:53:13.664Z'
-modified: '2021-07-28T08:03:50.841Z'
 parent: Java
 ---
 
