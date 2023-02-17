@@ -303,3 +303,6 @@ parent: Diverses
 - **VALL-E**
   - Voicecloning von MS
   - braucht nur 3 Sekunden Input-Material 
+- **Upscayl**
+  - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
+  - <https://github.com/upscayl/upscayl>
