@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: Analytics, Business Intelligence
-created: '2020-03-23T21:05:49.414Z'
-modified: '2021-08-15T13:17:48.578Z'
 parent: Diverses
 ---
 
@@ -107,6 +104,7 @@ parent: Diverses
   - *data exploration and visualization web application*
   - *intuitive interface to explore and visualize datasets, and create interactive dashboards*
   - [*support for most SQL-speaking databases*](https://superset.incubator.apache.org/#databases)
+  - <https://github.com/apache-superset/awesome-apache-superset>
 - **cubejs**
   - <https://github.com/cube-js/cube.js> ⭐5500
   - *modular framework to build analytical web applications*
