@@ -14,13 +14,25 @@ parent: Automatisierung
     - <https://docs.mautic.org/en>
     - <https://github.com/mautic/docker-mautic>
 - **Mailtrain**
-  - *Self hosted newsletter app*
-  - *built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).*
-  - *Features: Subscriber lists management, List segmentation, Custom fields, Email templates (including MJML-based templates), Custom reports,
+    - *Self hosted newsletter app*
+    - *built on Node.js (v14+) and MySQL (v8+) or MariaDB (v10+).*
+    - *Features: Subscriber lists management, List segmentation, Custom fields, Email templates (including MJML-based templates), Custom reports,
     Automation (triggered and RSS campaigns), Multiple users with granular user permissions and flexible sharing, Hierarchical namespaces for enterprise-level situations, 
     Builtin Zone-MTA (https://github.com/zone-eu/zone-mta) for close-to-zero setup of mail delivery*
-  - <https://github.com/Mailtrain-org/mailtrain> 
+    - <https://github.com/Mailtrain-org/mailtrain> 
 - **SendPortal**
     - *Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.*
     - *SendPortal integrates with Amazon SES, Postmark, Sendgrid, Mailgun and Mailjet.* 
-    - <https://github.com/mettle/sendportal> 
+    - <https://github.com/mettle/sendportal>
+- **laudspeaker**
+    - 17.2.23: Public Alpha
+    - *customer journey automation*
+    - *Cross Channel Customer Messaging Platform*
+    - *send product and event triggered emails, slack messages and more*
+    - *Visual Journey Builder*
+    - *Build nice emails and more with our template builder*
+    - *Integrate with PostHog analytics*
+    - *ingest user data from your databases*
+    - *Build and save segments of users*
+    - *Trigger journeys from segment/rudderstack/mixpanel events*
+    - <https://github.com/laudspeaker/laudspeaker>
