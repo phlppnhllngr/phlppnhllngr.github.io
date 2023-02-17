@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/DevOps]
 title: 'Observability'
-created: '2019-02-28T20:30:32.613Z'
-modified: '2021-09-05T12:32:43.703Z'
 parent: DevOps
 ---
 
@@ -165,3 +162,6 @@ parent: DevOps
   - *can be used as long-term storage for Prometheus. can be used as a drop-in replacement for Prometheus in Grafana, because it supports Prometheus querying API. can be used as a drop-in replacement for Graphite in Grafana, because it supports Graphite API.*
   - *consists of a single small executable without external dependencies*
   - <https://github.com/VictoriaMetrics/VictoriaMetrics> 
+- **Keep**
+  - *Simple Alerting tool*
+  - <https://github.com/keephq/keep>
