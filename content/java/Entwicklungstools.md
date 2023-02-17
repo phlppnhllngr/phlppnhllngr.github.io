@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Entwicklungstools
-created: '2019-02-05T10:25:02.900Z'
-modified: '2021-09-13T12:48:59.168Z'
 parent: Java
 ---
 
@@ -18,10 +15,13 @@ parent: Java
     - <https://github.com/KengoTODA/findbugs-slf4j> - *A SpotBugs/FindBugs plugin to verify usage of SLF4J*
 - **SonarLint**
   - <https://www.sonarlint.org/>
-  - Regeln für Java und viele andere Sprachen. (Optional:) Bezieht Regeln von einem SonarQube-Server. SonarQube gibt es z.B. als Docker-Image: <https://docs.docker.com/samples/library/sonarqube/>
+  - Regeln für Java und viele andere Sprachen. (Optional:) Bezieht Regeln von einem SonarQube-Server.
   - Ohne SonarQube-Server sind die Regeln nicht konfigurierbar.
   - Regeln: <https://rules.sonarsource.com/java>
   - Plugins für Eclipse, VS Code
+- **SonarQube**
+  - <https://docs.sonarqube.org/latest/>
+  - <https://github.com/mc1arke/sonarqube-community-branch-plugin>
 - **Checkstyle**
   - <https://checkstyle.org>
   - <https://github.com/checkstyle/checkstyle> ⭐4900
