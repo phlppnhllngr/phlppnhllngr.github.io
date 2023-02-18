@@ -12,9 +12,10 @@ parent: Automatisierung
   - <https://www.makerpad.co/>
   - Tutorials für diverse no-code-Tools
 - **budibase**
-  - *low-code development platform*
-  - *design, build, and ship business apps*
+  - *for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more*
   - *Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s*
+  - docker-compose: <https://raw.githubusercontent.com/Budibase/budibase/master/hosting/docker-compose.yaml>
+  - *Explore over 50 Budibase [templates](https://budibase.com/templates/). Templates are free, 100% customizable, and take a couple of clicks to install*
   - <https://github.com/Budibase/budibase> <img loading="lazy" src="https://img.shields.io/github/stars/Budibase/budibase?style=flat-square"/>
 - **NocoBase**
   - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
