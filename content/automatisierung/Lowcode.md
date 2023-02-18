@@ -102,6 +102,7 @@ parent: Automatisierung
   - free & 💰
 - **airflow**
   - <https://github.com/apache/airflow> <img loading="lazy" src="https://img.shields.io/github/stars/apache/airflow?style=flat-square"/>
+  - docker compose: <https://airflow.apache.org/docs/apache-airflow/2.5.1/docker-compose.yaml>
   - *programmatically author, schedule, and monitor workflows*
   - Python
 - **titanoboa**
