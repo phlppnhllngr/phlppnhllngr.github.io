@@ -26,6 +26,8 @@ parent: Automatisierung
   - <https://www.appsheet.com/>
 - **retool**
   - <https://retool.com/> 
+  - self-hosted oder Cloud
+  - unterstützte DBs und APIs (kein DB2): <https://retool.com/integrations/>
   - *the fast way to build internal tools — drag-and-drop frontend components together and connect them to any database or API*
 - **Openblocks**
   - *The Open Source Retool Alternative*
@@ -68,13 +70,17 @@ parent: Automatisierung
   - *quickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
   - *allowing Python/Javascript/Go/Bash as steps but the workflows are still GUI based*
   - *What is the general idea behind Windmill*
-    - *Define a minimal and generic script in Python or Typescript that solve a specific task.*
-    - *Your scripts parameters are automatically parsed and generate a frontend. Each script correspond to an app by itself*
-    - *You can chain your scripts or scripts made by the community inside flow by piping output to input*
-  - *Stack*
-    - *postgres as the database*
-    - *backend in Rust*
-    - *frontend in svelte*
+    - *Define a minimal and generic script in Python or Typescript [or Go, Bash, SQL] that solve a specific task.*
+  - *Stack: postgres as the database, backend in Rust, frontend in svelte*
+  - *Features*
+    - *a powerful web IDE to write Scripts with autocompletion and syntax checking*
+    - *a low-code UI builder*
+    - *a low-code builder and workflow engine*
+    - Webooks
+    - Scheduler
+    - CLI
+  - Cloud oder self-hosted
+  - docker-compose: <https://github.com/windmill-labs/windmill/blob/main/docker-compose.yml>
   - <https://github.com/windmill-labs/windmill> <img loading="lazy" src="https://img.shields.io/github/stars/windmill-labs/windmill?style=flat-square"/>
 - **Superblocks** 💰
   - *programmable IDE for developers to build any internal app, workflow or scheduled job* 
