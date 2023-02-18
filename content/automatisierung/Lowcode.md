@@ -16,29 +16,12 @@ parent: Automatisierung
   - *design, build, and ship business apps*
   - *Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s*
   - <https://github.com/Budibase/budibase> <img loading="lazy" src="https://img.shields.io/github/stars/Budibase/budibase?style=flat-square"/>
-- **Airtable**
-  - <https://airtable.com/>
-  - *Part spreadsheet, part database*
-- **NocoDB**
-  - *The Open Source Airtable alternative*
-  - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
-  - <https://github.com/nocodb/nocodb> <img loading="lazy" src="https://img.shields.io/github/stars/nocodb/nocodb?style=flat-square"/>
-- **APITable**
-  - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
-  - <https://github.com/apitable/apitable> <img loading="lazy" src="https://img.shields.io/github/stars/apitable/apitable?style=flat-square"/>
 - **NocoBase**
   - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
   - <https://github.com/nocobase/nocobase> <img loading="lazy" src="https://img.shields.io/github/stars/nocobase/nocobase?style=flat-square"/>
-- **sheety**
-  - <https://sheety.co/>
-  - *Turn any Google sheet into an API instantly, for free*
-- **sheetson** 💰
-  - <https://sheetson.com/>
-  - *Instantly turn any Google Sheet into RESTful API*
-- **sheet2site** 💰
-  - <https://www.sheet2site.com/>
-  - *Create a website from Google Sheets without writing code*
-- **AppSheet** 💰
+- **Google AppSheet**
+  - 💰, Cloud
+  - Lowcode Apps (Desktop, Mobile), Workflows
   - <https://www.appsheet.com/>
 - **retool**
   - <https://retool.com/> 
@@ -79,10 +62,6 @@ parent: Automatisierung
 - **amplication**
   - *auto-generates backend apps built with TypeScript and Node.js, and a client built with React*
   - <https://github.com/amplication/amplication> <img loading="lazy" src="https://img.shields.io/github/stars/amplication/amplication?style=flat-square"/>
-- **Baserow**
-  - *Open source no-code database and Airtable alternative*
-  - <https://baserow.io/>
-  - <https://github.com/bram2w/baserow> <img loading="lazy" src="https://img.shields.io/github/stars/bram2w/baserow?style=flat-square"/>
   - SaaS oder self hosted
 - **windmill**
   - *quickly build production-grade multi-steps automations and internal apps from minimal Python and Typescript scripts.*
@@ -174,7 +153,36 @@ parent: Automatisierung
   - Workflow-Automatisierung für diverse Apps (1500+)
   - 💰, Cloud
 - **IFTTTT**
+  - 💰, Cloud
   - <https://ifttt.com/> 
+- **sheety**
+  - <https://sheety.co/>
+  - *Turn any Google sheet into an API instantly, for free*
+- **sheetson** 💰
+  - <https://sheetson.com/>
+  - *Instantly turn any Google Sheet into RESTful API*
+- **sheet2site** 💰
+  - <https://www.sheet2site.com/>
+  - *Create a website from Google Sheets without writing code*
+
+
+## Spreadsheet/DB
+- **Airtable**
+  - <https://airtable.com/>
+  - *Part spreadsheet, part database*
+  - 💰, Cloud only
+- **NocoDB**
+  - *The Open Source Airtable alternative*
+  - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
+  - <https://github.com/nocodb/nocodb> <img loading="lazy" src="https://img.shields.io/github/stars/nocodb/nocodb?style=flat-square"/>
+- **APITable**
+  - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
+  - <https://github.com/apitable/apitable> <img loading="lazy" src="https://img.shields.io/github/stars/apitable/apitable?style=flat-square"/>
+- **Baserow**
+  - *Open source no-code database and Airtable alternative*
+  - self-host oder Cloud
+  - <https://baserow.io/>
+  - <https://github.com/bram2w/baserow> <img loading="lazy" src="https://img.shields.io/github/stars/bram2w/baserow?style=flat-square"/>
 
 
 ## Webseiten
