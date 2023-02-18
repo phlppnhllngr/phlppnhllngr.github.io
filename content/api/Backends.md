@@ -28,6 +28,7 @@ parent: API
   - *contains a PHP library (Core) to create fully featured hypermedia (or GraphQL) web APIs*
   - php, db, frontend (vue/react), api
   - <https://api-platform.com/>
+  - <https://github.com/api-platform/api-platform> <img loading="lazy" src="https://img.shields.io/github/stars/api-platform/api-platform?style=flat-square"/>
 - **postgREST**
   - <https://github.com/PostgREST/postgrest/> <img loading="lazy" src="https://img.shields.io/github/stars/PostgREST/postgrest?style=flat-square"/>
   - *serves a fully RESTful API from any existing PostgreSQL database*
