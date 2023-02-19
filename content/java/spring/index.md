@@ -66,4 +66,11 @@ parent: Java
 - <https://spring.io/guides/gs/spring-boot-docker/>
 - <https://www.baeldung.com/dockerizing-spring-boot-application>
 - <https://www.baeldung.com/spring-boot-docker-images>
+- <https://spring.io/blog/2018/11/08/spring-boot-in-a-container> (8.11.2018)
+  - Performance-Tipps unter "Tweaks"
+    - spring-context-indexer
+    - -Dspring.config.location
+    - -Dspring.jmx.enabled=false
+    - -noverify, -XX:TieredStopAtLevel=1
+    - -XX:+UnlockExperimentalVMOptions, -XX:+UseCGroupMemoryLimitForHeap (Java 8)
 - -> Spring-Boot-Maven-Plugin:build-image
