@@ -20,12 +20,21 @@ parent: Java
   - **Excluding Unnecessary Autoconfiguration**
     - *Spring may initialize beans that our application doesn't require. We can check all autoconfigured beans using startup logs. Setting the logging level to DEBUG on org.springframework.boot.autoconfigure in the application.properties: `logging.level.org.springframework.boot.autoconfigure=DEBUG`*
     - *Using this report, we can exclude parts of the application's configuration. To exclude part of the configuration, we use @EnableAutoConfiguration annotation: `@EnableAutoConfiguration(exclude = {JacksonAutoConfiguration.class, JvmMetricsAutoConfiguration.class, LogbackMetricsAutoConfiguration.class, MetricsAutoConfiguration.class})`*
+    - siehe auch depclean-maven-plugin
   - **Turn off JMX**
     - *Spring Boot offers some MBeans to monitor our application using JMX. Turn off JMX entirely and avoid the cost of creating those beans: `spring.jmx.enabled=false`*
 - **Open Session In View ausschalten**
   - *OSIV is really a bad idea from a performance and scalability perspective*
   - <https://stackoverflow.com/a/48222934/7437541>
   - `spring.jpa.open-in-view=false`
+- <https://spring.io/blog/2018/11/08/spring-boot-in-a-container> (8.11.2018)
+  - Performance-Tipps unter "Tweaks"
+    - spring-context-indexer
+    - -Dspring.config.location; Spring sucht (ggf. unnötig) an verschiedenen Stellen nach Config-Files
+    - -Dspring.jmx.enabled=false; false ist der Default ab Spring Boot 2.2.0
+    - -noverify, -XX:TieredStopAtLevel=1
+    - -XX:+UnlockExperimentalVMOptions, -XX:+UseCGroupMemoryLimitForHeap (Java 8)
+    - keine Actuators (Health, Metrics); Actuators erzeugen ca. 150 zusätzliche Beans
 - <https://piotrminkowski.com/2021/01/13/spring-boot-tips-tricks-and-techniques/>
 - <https://www.baeldung.com/spring-boot-build-properties>
 
@@ -66,11 +75,4 @@ parent: Java
 - <https://spring.io/guides/gs/spring-boot-docker/>
 - <https://www.baeldung.com/dockerizing-spring-boot-application>
 - <https://www.baeldung.com/spring-boot-docker-images>
-- <https://spring.io/blog/2018/11/08/spring-boot-in-a-container> (8.11.2018)
-  - Performance-Tipps unter "Tweaks"
-    - spring-context-indexer
-    - -Dspring.config.location
-    - -Dspring.jmx.enabled=false
-    - -noverify, -XX:TieredStopAtLevel=1
-    - -XX:+UnlockExperimentalVMOptions, -XX:+UseCGroupMemoryLimitForHeap (Java 8)
 - -> Spring-Boot-Maven-Plugin:build-image
