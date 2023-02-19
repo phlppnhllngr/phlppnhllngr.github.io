@@ -101,6 +101,9 @@ parent: Java
 - **verify**
   - `-Xverify:none`
   - siehe -noverify
+- **quickstart**
+  - nur OpenJ9
+  - *causes the JIT compiler to run with a subset of optimizations, which can improve the performance of short-running applications*
 
 #### XX
 - -XX = non-standard
