@@ -35,6 +35,9 @@ parent: Java
   - *It is not required to add the `address` parameter. If not provided the agent is selecting a random port number*
   - *For remote debugging one should run program with `*` in address: `address=*:<port>`*
   - *`suspend=y` : if 'y', tell the JVM to wait until debugger is attached to begin execution, otherwise (if 'n'), starts execution right away*
+- **noverify**
+  - *The JVM checks the byte code of the compile classes it is about to load to see that it is well behaved. This is an essential step for executing untrusted code. Unfortunately this takes time and for a very large application this may increase the startup time quite a bit. The "-noverify" flag turns this off.*
+  - deprecated seit Java 13: *Users who need to run without startup verification can use AppCDS to archive their classes. The classes are verified during archiving and avoid verification at runtime.*
 
 ### -D
 - **sun.net.client.defaultConnectTimeout, sun.net.client.defaultReadTimeout**
@@ -95,6 +98,9 @@ parent: Java
 - **log**
   - `-Xlog:gc:file=gc.txt`
   - `-Xlog:class+load:file=/path/to/classload.log`
+- **verify**
+  - `-Xverify:none`
+  - siehe -noverify
 
 #### XX
 - -XX = non-standard
@@ -125,7 +131,22 @@ parent: Java
   - `ArchiveClassesAtExit=/path/to/app-cds.jsa`  
 - **SharedClassListFile**
   - `-XX:SharedClassListFile=/path/to/classes.lst`
-  
+- **-TieredCompilation**
+  - *disable tiered compilation*  
+- **-TieredStopAtLevel**
+  - beeinflusst Verhalten des JIT-Compilers
+  - Levels
+    - 0
+      - Interpreted Code
+      - <https://www.baeldung.com/jvm-tiered-compilation#1-level-0--interpreted-code>
+    - 1
+      - Limited C1 Compiled Code
+      - auf Level 1 setzen für schnelle Startup-Zeit und weniger Memory (ggf. auf Kosten Throughput)
+    - 2
+    - 3
+    - 4
+  - `-XX:TieredStopAtLevel=1`
+
 
 ## Memory
 - <https://www.baeldung.com/java-memory-beyond-heap>
