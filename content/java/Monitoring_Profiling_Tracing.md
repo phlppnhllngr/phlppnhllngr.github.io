@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: 'Monitoring, Profiling'
-created: '2019-03-21T20:24:50.818Z'
-modified: '2021-08-29T15:46:23.821Z'
 parent: Java
 ---
 
@@ -135,6 +132,7 @@ parent: Java
     - viele [frameworks und libs](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/supported-libraries.md#libraries---frameworks) ohne zusätzl. konfiguration unterstützt ("auto instrumentation"), custom telemetry für alle anderen (über code + annotationen)
     - https://github.com/open-telemetry/opentelemetry-java-instrumentation
     - [Youtube: OpenTelemetry Agent and Collector: Telemetry Built-in Into All Software](https://www.youtube.com/watch?v=cHiFSprUqa0)
+  - <https://github.com/open-telemetry/opentelemetry-demo>
 - **ycrash** 💰
   - <https://ycrash.io/>
   - *Automatically captures & analyzes GC Logs, thread dumps, heap dumps & several more artifacts to identify root cause.*
