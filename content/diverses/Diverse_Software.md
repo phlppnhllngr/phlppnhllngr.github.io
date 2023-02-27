@@ -258,6 +258,9 @@ parent: Diverses
 - **meilisearch**
   - <https://github.com/meilisearch/MeiliSearch>
   - search engine
+- **ZincSearch**
+  - *lightweight alternative to elasticsearch that requires minimal resources*
+  - <https://github.com/zinclabs/zincsearch>
 
 
 ## ML, AI
