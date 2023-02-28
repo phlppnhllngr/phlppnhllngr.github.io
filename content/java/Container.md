@@ -84,6 +84,16 @@ parent: Java
   - *For most general-purpose microservice applications, start with the Parallel GC.*
   - *For any GC other than SerialGC, we recommend two or more vCPU cores. We don't recommend selecting anything less than 1 vCPU core on containerized environments. If you don't know how many cores to start with, a good choice is 2 vCPU cores.*
 - <https://snyk.io/blog/best-practices-to-build-java-containers-with-docker/>
+  - Java nicht als Root ausführen
+    - `adduser -S -s /bin/false -G javauser javauser`
+      - *Alpine uses the command adduser and addgroup for creating users and groups (rather than useradd and usergroup).* 
+      - `-S` *create a system user. A system user can be used for running background services. System users have a different range of user IDs and may not be present on a login screen.*
+      - `-s /bin/false` *The name of the user's login shell*
+      - `-G javauser` *Group*
+      - `javauser` der Username
+      - <https://linux.die.net/man/8/adduser> 
+  - Java soll PID 1 haben
+  - Tipps für Java 8 
 - *Docker, Java and Processes* - <https://paulswithers.github.io/blog/2021/12/12/docker-java> (12/21)
   - CMD vs ENTRYPOINT
   - `docker exec <cont_id> ps waux` => Java-Prozess soll PID 1 haben
@@ -96,13 +106,13 @@ parent: Java
   
 
 ## Environment & JVM-properties
-- Env-Vars sollten/können keine "." enthalten;
+- Env-Vars können keine "." enthalten;
   NICHT möglich (docker-compose.yml):
   ```yml
   environment:
    x.y=foo
   ```
-  möglich:
+  möglich (wenn Tomcat):
   Dockerfile:
   ```Dockerfile
   ENV JAVA_OPTS="-Dx.y=foo -Da.b=bar"
@@ -120,9 +130,5 @@ parent: Java
   environment:
    JAVA_OPTS: "-Dx.y=foo -Da.b=bar"
   ```
-- *You shouldn't use java $JAVA_OPTS with ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS"]
-  <br/>
-  The main problem with it is that with this approach you application <mark>won't receive the sigterm</mark> so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
-  *If you want customize the java opts on docker environments use JAVA_TOOL_OPTIONS environment property and ENTRYPOINT ["java", ...] With this property you can declare your expected options even in Dockerfile like:
-  ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=80"*
-  <https://stackoverflow.com/a/58355963/8972265>
+- *You shouldn't use `ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS"]`: The main problem with it is that with this approach you application <mark>won't receive the sigterm</mark> so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
+- *If you want customize the java opts on docker environments use JAVA_TOOL_OPTIONS environment property and ENTRYPOINT ["java", ...] With this property you can declare your expected options even in Dockerfile like: ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=80"*
