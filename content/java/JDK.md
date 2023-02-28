@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: JDK
-created: '2019-02-21T16:00:15.322Z'
-modified: '2021-07-29T06:10:52.572Z'
 parent: Java
 ---
 
@@ -121,6 +118,7 @@ parent: Java
     - Übersicht JFR-Events: <https://bestsolution-at.github.io/jfr-doc/>
     - Custom events (jdk.jfr api; java 9+): <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
+        - *added in JDK 14, the package jdk.jfr.consumer provides APIs for the consumption of JFR events without requiring a JFR dump to be done*
     - <https://www.baeldung.com/java-flight-recorder-monitoring>
     - <https://cryostat.io/> - *JFR for Containerized Java Applications*
     - [YT: Java - Programmer's Guide to JDK Flight Recorder, 12/2022](https://www.youtube.com/watch?v=K1ApBZGiT-Y)
