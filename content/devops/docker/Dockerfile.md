@@ -46,6 +46,7 @@ grand_parent: DevOps
     RUN Write-Host hello
     ```
 - <u>CMD & ENTRYPOINT</u>
+  - <https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact> 
   - **CMD**
     - *default command that executes when the container is starting*
     - *ignored if passing any arguments when starting the container*
