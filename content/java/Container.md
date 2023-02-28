@@ -84,6 +84,9 @@ parent: Java
   - *For most general-purpose microservice applications, start with the Parallel GC.*
   - *For any GC other than SerialGC, we recommend two or more vCPU cores. We don't recommend selecting anything less than 1 vCPU core on containerized environments. If you don't know how many cores to start with, a good choice is 2 vCPU cores.*
 - <https://snyk.io/blog/best-practices-to-build-java-containers-with-docker/>
+- *Docker, Java and Processes* - <https://paulswithers.github.io/blog/2021/12/12/docker-java> (12/21)
+  - CMD vs ENTRYPOINT
+  - `docker exec <cont_id> ps waux` => Java-Prozess soll PID 1 haben
 - [Containerize your Java applications for Kubernetes](https://learn.microsoft.com/en-us/azure/developer/java/containers/kubernetes)
   - Set CPU requests and limits
   - Set memory request and limits
