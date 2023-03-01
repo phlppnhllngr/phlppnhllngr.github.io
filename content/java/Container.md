@@ -6,14 +6,18 @@ parent: Java
 # Container
 
 ## Base-Images
-- ubuntu, debian: glibc / alpine: musl / alpaquita: musl oder glibc
+-> Docker/Images/Varianten
+- Linux; C-Lib
+    - ubuntu, debian: glibc
+    - alpine: musl
+    - alpaquita: musl oder glibc
 - ~~adoptopenjdk~~ deprecated -> temurin
-- gcr.io/distroless
+- **gcr.io/distroless**
     - *contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution*
     - java11-debian11, java17-debian11
     - <https://github.com/GoogleContainerTools/distroless>
 - ~~openjdk~~ depcrecated -> temurin, corretto
-- registry.access.redhat.com/ubi8/openjdk-11-runtime
+- **redhat ubi**
   <br/>user.home = /home/jboss
   ```Dockerfile
   FROM registry.access.redhat.com/ubi8/openjdk-11-runtime:1.14-5
@@ -33,8 +37,8 @@ parent: Java
       "com.example.Application" \
   ]
   ```
-- liberica
-    - openjdk-alpine
+- <u>liberica</u>
+    - **openjdk-alpine**
       - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
         <br/>user.home = /root
         ```Dockerfile
@@ -55,17 +59,17 @@ parent: Java
           "com.example.Application" \
         ]
         ```
-  - openjre-alpine
+  - **openjre-alpine**
     - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
-  - runtime-container
+  - **runtime-container**
     - *Alpaquita based image for Liberica JDK and JRE.*
     - glibc oder musl
     - <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
-- eclipse-temurin
+- **eclipse-temurin**
     - *JRE images are available for all versions of Eclipse Temurin but it is recommended that you produce a custom JRE-like runtime using jlink*
     - Varianten: jdk, jre, jdk-alpine, jre-alpine, windows
     - <https://hub.docker.com/_/eclipse-temurin/>
-- corretto
+- **corretto**
     - <https://hub.docker.com/_/amazoncorretto>
 
 
