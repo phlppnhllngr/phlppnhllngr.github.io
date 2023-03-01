@@ -6,9 +6,13 @@ parent: Java
 # Container
 
 ## Base-Images
-- adoptopenjdk/openjdk11
-- gcr.io/distroless/java11-debian11
-- openjdk
+- ubuntu, debian: glibc / alpine: musl / alpaquita: musl oder glibc
+- ~~adoptopenjdk~~ deprecated -> temurin
+- gcr.io/distroless
+    - *contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution*
+    - java11-debian11, java17-debian11
+    - <https://github.com/GoogleContainerTools/distroless>
+- ~~openjdk~~ depcrecated -> temurin, corretto
 - registry.access.redhat.com/ubi8/openjdk-11-runtime
   <br/>user.home = /home/jboss
   ```Dockerfile
@@ -29,30 +33,40 @@ parent: Java
       "com.example.Application" \
   ]
   ```
-- <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
-  <br/>user.home = /root
-  ```Dockerfile
-  FROM bellsoft/liberica-openjdk-alpine:11.0.17-7
-  WORKDIR /app
-  COPY dependency/* libs/
-  COPY classes classes
-  EXPOSE 8080 8082
-  HEALTHCHECK --interval=10s --timeout=2s --start-period=10s --retries=2 \
-      CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
-  ENTRYPOINT [ "java", \
-      "-XX:MaxRAMPercentage=75", \
-      "-XX:+UseParallelGC", \
-      "-cp", \
-      "libs/*:classes/", \
-      "-Duser.timezone=Europe/Berlin", \
-      "-Dfile.encoding=UTF-8", \
-      "com.example.Application" \
-  ]
-  ```
-- <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
-- <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
+- liberica
+    - openjdk-alpine
+      - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
+        <br/>user.home = /root
+        ```Dockerfile
+        FROM bellsoft/liberica-openjdk-alpine:11.0.17-7
+        WORKDIR /app
+        COPY dependency/* libs/
+        COPY classes classes
+        EXPOSE 8080 8082
+        HEALTHCHECK --interval=10s --timeout=2s --start-period=10s --retries=2 \
+          CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
+        ENTRYPOINT [ "java", \
+          "-XX:MaxRAMPercentage=75", \
+          "-XX:+UseParallelGC", \
+          "-cp", \
+          "libs/*:classes/", \
+          "-Duser.timezone=Europe/Berlin", \
+          "-Dfile.encoding=UTF-8", \
+          "com.example.Application" \
+        ]
+        ```
+  - openjre-alpine
+    - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
+  - runtime-container
+    - *Alpaquita based image for Liberica JDK and JRE.*
+    - glibc oder musl
+    - <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
 - eclipse-temurin
-- <https://hub.docker.com/_/amazoncorretto>
+    - *JRE images are available for all versions of Eclipse Temurin but it is recommended that you produce a custom JRE-like runtime using jlink*
+    - Varianten: jdk, jre, jdk-alpine, jre-alpine, windows
+    - <https://hub.docker.com/_/eclipse-temurin/>
+- corretto
+    - <https://hub.docker.com/_/amazoncorretto>
 
 
 ## Tipps
