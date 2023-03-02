@@ -20,6 +20,7 @@ db2stop
 ```
 
 ### Reorg
+- *Normally after a large amount of INSERT, UPDATE, DELETE activities on data tables, we generally need a REORG. Why? First of all a table space in DB2 is pretty much like the file system on your hard disk. If we insert many records, there might not be enough free space to keep the records in the clustered sequence.*
 - *A reorgchk can be run either at the table or the database level to help determine which kinds of reorgs are needed for what tables. Reorgchk requires current runstats to correctly make these determinations. Some kinds of reorgs make a table completely offline, while others keep the table online for a portion of the reorg.*
 ```
 db2 "reorgchk current|update statistics on table <schema>.<table>"
