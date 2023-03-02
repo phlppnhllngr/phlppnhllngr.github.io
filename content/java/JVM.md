@@ -110,6 +110,7 @@ parent: Java
 - -XX:+Foo / -XX:-Foo für Boolean-Flags, -XX:Foo=Bar für Werte
 <br/><br/>
 - **+/-PrintFlagsFinal**
+  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*  
 - **+/-UseContainerSupport**
   - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.*  
 - **MAXRamPercentage**
@@ -120,6 +121,7 @@ parent: Java
 - **+/-UseBiasedLocking**
 - **+/-UseParallelGC**
 - **+/-UnlockDiagnosticVMOptions**
+  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*
 - **+/-DebugNonSafepoints**
 - **+/-UseAppCDS**
   - *made obsolete in JDK 11, expired in JDK 12*
@@ -134,9 +136,9 @@ parent: Java
   - `ArchiveClassesAtExit=/path/to/app-cds.jsa`  
 - **SharedClassListFile**
   - `-XX:SharedClassListFile=/path/to/classes.lst`
-- **-TieredCompilation**
+- **TieredCompilation**
   - *disable tiered compilation*  
-- **-TieredStopAtLevel**
+- **TieredStopAtLevel**
   - beeinflusst Verhalten des JIT-Compilers
   - Levels
     - 0
@@ -149,6 +151,8 @@ parent: Java
     - 3
     - 4
   - `-XX:TieredStopAtLevel=1`
+- **+/-ExitOnOutOfMemoryError**
+  - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*  
 
 
 ## Memory
