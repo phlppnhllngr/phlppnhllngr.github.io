@@ -19,6 +19,16 @@ db2 create table bar.baz ...
 db2stop
 ```
 
+### Reorg
+- *A reorgchk can be run either at the table or the database level to help determine which kinds of reorgs are needed for what tables. Reorgchk requires current runstats to correctly make these determinations. Some kinds of reorgs make a table completely offline, while others keep the table online for a portion of the reorg.*
+```
+db2 "reorgchk current|update statistics on table <schema>.<table>"
+db2 "reorg table <schema>.<table>"
+```
+- *After a table space reorganization the fragments are moved around and clustered, however the database still utilizes the old statistic to query the data. So it is recommended to run a RUNSTATS on the table. This command updates the statistic information. Besides it makes sure that the DB2 optimizer takes advantage of the refreshed statistic information.*
+- *Nevertheless, there are <mark>certain operations in DB2 which lead to the REORG_PENDING state</mark> on the changed tables. REORG_PENDING state indicates that we either must or should reorganize the data table, because DB2 will limit the access to the tables in that state. Dropping a column in table for example is one of the REORG_PENDING operations. Since we are application developers and we migrate our databases using Flyway scripts, there will be plenty of statements that can trigger the REORG_PENDING. Then we must add a REORG after such statements. In this case, it is our (in my opinion, developers) responsibility to add a REORG statement into the scripts, when we check the scripts and find out that they lead to REORG_PENDING state.*
+- <https://www.ibm.com/docs/en/db2/11.5?topic=commands-reorg-table>
+
 ## Docker
 - [Installing the Db2 Community Edition Docker image on Windows systems](https://www.ibm.com/docs/en/db2/11.5?topic=SSEPGG_11.5.0/com.ibm.db2.luw.qb.server.doc/doc/t_install_db2CE_win_img.html)
 - <https://hub.docker.com/r/ibmcom/db2>
