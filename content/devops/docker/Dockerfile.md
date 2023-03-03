@@ -35,6 +35,7 @@ grand_parent: DevOps
     - `RUN ["executable", "param1", "param2"]`
     - *Unlike the shell form, the exec form does not invoke a command shell. This means that normal shell processing does not happen. For example, CMD [ "echo", "$HOME" ] will not do variable substitution on $HOME. If you want shell processing then either use the shell form or execute a shell directly, for example: CMD [ "sh", "-c", "echo $HOME" ].*
     - *The exec form makes it possible to avoid shell string munging, and to RUN commands using a base image that does not contain the specified shell executable.*
+    - *The exec form does not expand environment variables while the shell form does*
 - **SHELL**
   - *allows the default shell used for the shell form of commands to be overridden.*
   - *The default shell on Linux is ["/bin/sh", "-c"], and on Windows is ["cmd", "/S", "/C"]*
