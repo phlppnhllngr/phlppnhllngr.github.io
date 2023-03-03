@@ -165,6 +165,7 @@ parent: Java
 - <https://www.wildfly.org/>
 - <https://github.com/wildfly/wildfly>
 - <https://github.com/wildfly/quickstart>
+- <https://docs.wildfly.org/26/Admin_Guide.html>
 - **Docker**
   - <https://github.com/jboss-dockerfiles/wildfly>
   - <https://quay.io/repository/wildfly/wildfly>
@@ -173,6 +174,15 @@ parent: Java
     docker exec -it wildfly /bin/sh
     /opt/jboss/wildfly/bin/add-user.sh -> admin
     ```
+- **Konfig**
+  - *offers three different approaches to configure and manage servers: a web interface, a command line client and a set of XML configuration files*
+  - *Any configuration changes made via the web interface or the CLI are persisted back to the XML configuration files.*
+  - <https://docs.wildfly.org/26/Admin_Guide.html#Management_Clients>
+  - <https://docs.wildfly.org/26/Admin_Guide.html#Management_tasks>
+  - <https://docs.wildfly.org/26/Admin_Guide.html#CLI_Recipes>
+  - <http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-use-environment-variables-in-standalone-xml-or-host-xml/>
+  - <http://www.mastertheboss.com/soa-cloud/docker/how-to-run-cli-commands-in-wildfly-dockerfile/>
+  - <https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/management_cli_guide/running_embedded_server>
 - <u>Extras</u>
   - **Bootable Jar**
     - *contains both the server and your packaged application (a JAR, an EAR or a WAR)*
