@@ -21,7 +21,9 @@ grand_parent: DevOps
   - "Inline": `docker exec <name/id> /bin/sh -c "echo $HOME"`
 - **history**
   - *Show the history of an image* 
-  - <https://docs.docker.com/engine/reference/commandline/history/> 
+  - <https://docs.docker.com/engine/reference/commandline/history/>
+- **image**
+  - ls
 - **inspect**
   - *provides detailed information on constructs controlled by Docker* 
   - <https://docs.docker.com/engine/reference/commandline/inspect/>
@@ -34,6 +36,21 @@ grand_parent: DevOps
   - `-v`
     - bind mount: relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
     - → Docker/Storage
+- **system**
+  - prune
+    - *Remove all unused [stopped] containers, networks, images (both dangling and unreferenced), and optionally, volumes.*
+    - `docker system prune --all --volumes --force`
+    - Optionen
+      - `--all`
+        - *Remove all unused images not just dangling ones*
+        - *An unused image means that it has not been assigned or used in a container. For example, when running docker ps -a - it will list all of your exited and currently running containers. Any images shown being used inside any of containers are a "used image".*
+        - *a dangling image just means that you've created the new build of the image, but it wasn't given a new name. So the old images you have becomes the "dangling image". Those old image are the ones that are untagged and displays "<none>" on its name when you run docker images.*
+      - `--force`
+        - *Do not prompt for confirmation* 
+      - `--volumes`
+        - *Prune volumes* 
+      - `--filter`  
+    - <https://docs.docker.com/engine/reference/commandline/system_prune/>  
 - **volume**
     - create
         - driver
