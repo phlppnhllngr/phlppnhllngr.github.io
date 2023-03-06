@@ -32,6 +32,10 @@ parent: Automatisierung
 - **Openblocks**
   - *The Open Source Retool Alternative*
   - *An all-in-one IDE to create internal or customer-facing apps. A place to create, build and share building blocks of web applications.*
+  - Cloud oder self-host (Community Edition)
+  - self-hosting
+    - *For easy setup and deployment, we provide an all-in-one image which bundles frontend, backend and data persistence services altogether in one single container.*
+    - <https://docs.openblocks.dev/self-hosting>
   - <https://github.com/openblocks-dev/openblocks> <img loading="lazy" src="https://img.shields.io/github/stars/openblocks-dev/openblocks?style=flat-square"/>
 - **lowdefy**
   - *An open-source low-code framework to build web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML.*
