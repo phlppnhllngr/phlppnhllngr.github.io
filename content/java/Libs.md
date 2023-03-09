@@ -204,7 +204,6 @@ parent: Java
     - konfigurierbarer Wrapper um apache-http/okhttp/spring/... + jackson/gson/...
     - Support für Soap, Logging (slf4j), retry, async, ...
     - <https://github.com/OpenFeign/feign> ⭐7.1k
-    - Bug mit Java 11: <https://stackoverflow.com/a/68323341/7437541>
   - **Apache HttpComponents**
     - v5.1
       - *Standards based, pure Java, implementation of HTTP versions 1.0, 1.1, 2.0*
