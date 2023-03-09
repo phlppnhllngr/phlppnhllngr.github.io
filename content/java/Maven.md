@@ -471,11 +471,18 @@ parent: Java
 - **surefire**
   - <http://maven.apache.org/surefire/maven-surefire-plugin>
 - **openapi-generator-maven-plugin**
+  - unterstützte Languages+Libs
+    - Liste 1: <https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator/src/main/java/org/openapitools/codegen/languages>
+    - Liste 2: <https://github.com/OpenAPITools/openapi-generator/tree/master/modules/openapi-generator/src/main/resources>
+    - Feign
+    	- nur wirklich mit Jackson möglich (angeblich werden Gson und Jackson unterstützt) 
   - <https://openapi-generator.tech/docs/plugins/> 
   - <https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md> 
 - **swagger**
   - *JAX-RS & SpringMVC supported maven build plugin, helps you generate Swagger JSON and API document in build phase.*
   - <https://github.com/kongchen/swagger-maven-plugin>
+- **~~swagger-codegen~~**
+  - deprecated, siehe openapi-generator-maven-plugin
 - **tiles**
   - wiederverwendbare pom-Schnipsel (includes)
   - <https://github.com/repaint-io/maven-tiles>
