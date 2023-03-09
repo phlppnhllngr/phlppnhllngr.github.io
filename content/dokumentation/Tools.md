@@ -24,9 +24,7 @@ parent: Dokumentation
     - apiworkbench
       - <http://apiworkbench.com/>
       - *development environment (IDE) for designing, building, testing, documenting and sharing RESTful HTTP APIs*
-- **Swagger**
-  - *OpenAPI = Specification, Swagger = Tools for implementing the specification*
-  - <https://swagger.io/>
+- **Swagger** -> API/Entwicklungstools
 - **docsify**
   - <https://docsify.js.org>
   - docs site generator
