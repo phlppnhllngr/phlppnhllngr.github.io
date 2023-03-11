@@ -125,6 +125,7 @@ parent: Java
         - *extremely low overhead, meant to be used continuously in production*
         - *Over 150 default events (ThreadStart, FileRead, ...)*
         - Event Streaming: JFR Events auslesen ohne Dump (zusätzl. Overhead)
+    - [Programmer's Guide to JDK Flight Recorder, 02/2023](https://inside.java/2023/02/27/programmer-guide-to-jfr/)
 - **jconsole**
     - *The JConsole graphical user interface is a monitoring tool that complies to the Java Management Extensions (JMX) specification. JConsole uses the extensive instrumentation of the Java Virtual Machine (Java VM) to provide information about the performance and resource consumption of applications running on the Java platform.*
     - <https://docs.oracle.com/javase/8/docs/technotes/guides/management/jconsole.html>
