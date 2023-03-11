@@ -31,7 +31,7 @@ parent: Java
   - wie es bestimmt wird: siehe <https://developers.redhat.com/articles/2022/04/19/best-practices-java-single-core-containers#the_jvm_as_a_dynamic_execution_platform>
 - **agentlib:jdwp**
   - für Debugging
-  - `-agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=<port>`
+  - `-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=<port>`
   - *It is not required to add the `address` parameter. If not provided the agent is selecting a random port number*
   - *For remote debugging one should run program with `*` in address: `address=*:<port>`*
   - *`suspend=y` : if 'y', tell the JVM to wait until debugger is attached to begin execution, otherwise (if 'n'), starts execution right away*
@@ -152,7 +152,13 @@ parent: Java
     - 4
   - `-XX:TieredStopAtLevel=1`
 - **+/-ExitOnOutOfMemoryError**
-  - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*  
+  - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
+- **StartFlightRecording**
+  - aktiviert JFR
+  - `-XX:StartFlightRecording`
+  - Options
+    - dumponexit=true|false
+    - filename=/path/to/file.jfr
 
 
 ## Memory
