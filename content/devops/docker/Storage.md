@@ -20,6 +20,7 @@ grand_parent: DevOps
     - *You can’t use Docker CLI commands to directly manage bind mounts*
   - *Bind mounts are very performant*
   - *Bind mounts are much easier to backup. Docker sadly does not provide any command to backup volumes*
+  - *If you use the -v switch from the docker run command and try to mount a non-existent directory from the host — a new directory will be created on the host with root as the owner and 755 permissions making it not writable for any other user than root inside of the container.*
   - CLI: `docker run -v /host/path/:/container/path`
   - *in a docker-compose.yml:*
 
