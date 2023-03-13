@@ -15,7 +15,7 @@ grand_parent: DevOps
 ### Lokal entwickeln
 <img src="https://www.jambit.com/site/assets/files/10220/minikube-kind-k3s-local-kubernetes-cluster-1.-squaremedium.jpg" loading="lazy"/><br/>
 - **Docker Desktop**
-  - hat Support für Single-Node-Cluster (Optionen -> Enable Kubernetes) 
+  - hat Support für <mark>Single-Node-Cluster</mark> (Optionen -> Enable Kubernetes) 
 - **Rancher Desktop**
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
@@ -26,17 +26,18 @@ grand_parent: DevOps
   - containerd oder dockerd wählbar
     - *[dockerd] allows Rancher Desktop to function as a drop-in replacement for Docker Desktop in many cases*
     - *You cannot run both Docker Desktop and Rancher Desktop (in dockerd mode) simultaneously*
-  - 8GB+ RAM, 4+ CPUs
+  - 8GB RAM, 4 CPUs
   - derzeit (03/22) kein Corporate-Proxy-Support (<https://github.com/rancher-sandbox/rancher-desktop/issues/4013>)
   - <https://github.com/rancher-sandbox/rancher-desktop> <img loading="lazy" src="https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=flat-square">
   - <https://docs.rancherdesktop.io/>
 - **minikube**
-  - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a single-node Kubernetes cluster on your personal computer*
+  - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a ~~<mark>single-node</mark>~~ Kubernetes cluster on your personal computer* (mittlerweile wohl auch <mark>Multi-Node</mark> möglich)
   - *Minikube is the officially supported way to run Kubernetes locally on macOS, <mark>Windows</mark>, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
   - *Ansatz: Es wird eine VM [Windows: HyperV oder VirtualBox] erzeugt, die im Wesentlichen ein K8s-Cluster mit einer Node ist.*
   - *test local cluster setup where master processes and worker processes run on one node*
   - *node runs in virtual box*
   - *installs kubectl and docker runtime*
+  - 2GB RAM, 2 CPUs, 20GB HDD, Docker Desktop nicht notwendig
   - CLI commands
     - addons
       - *minikube includes a set of built-in addons that can be enabled, disabled and opened in the local Kubernetes environment.*
@@ -60,10 +61,29 @@ grand_parent: DevOps
   - <https://minikube.sigs.k8s.io/docs/>
   - <https://kubernetes.io/docs/tutorials/hello-minikube/>
 - **kind**
+  - [K]ubernetes [in] [D]ocker 
+  - <mark>Multi-Node</mark>, erfordert Docker 
   - *lets you run Kubernetes on your local computer*
   - Cluster in Docker-Container (keine VM wie bei minikube)
   - *tool for running local Kubernetes clusters using Docker container "nodes"*
   - <mark>Windows: ja</mark>
+  - Setup
+    - exe downloaden, in kind.exe umbenennen, zum PATH hinzufügen
+    - Docker starten
+    - ```
+      kind create cluster
+      kubectl cluster-info --context kind-kind
+      kind delete cluster
+      ```
+    - by Default erzeugt `kind create cluster` ein Cluster mit nur einer Node, um mehrere Nodes zu bekommen siehe `kind-config.yaml` <br/>
+      <https://mcvidanagama.medium.com/set-up-a-multi-node-kubernetes-cluster-locally-using-kind-eafd46dd63e5>
+    - ```
+      cd C:\Apps\kind
+      kind create cluster --name k8s-playground --config kind-config.yaml
+      kubectl cluster-info --context kind-k8s-playground
+      kubectl get nodes // 1x control plane, 2x worker / oder kind get nodes --name k8s-playground
+      docker ps // 3 Container
+      ```
   - <https://github.com/kubernetes-sigs/kind> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes-sigs/kind?style=flat-square">
   - <https://kind.sigs.k8s.io/docs/>
 - **K3s**
@@ -87,7 +107,7 @@ grand_parent: DevOps
 - **MicroK8s**
   - *small, fast, single-package Kubernetes for developers, IoT and edge.*
   - *Perfect for: Developer workstations IoT Edge CI/CD*
-  - *Unlike miniKube, microK8S can run multiple nodes in the local Kubernetes cluster*
+  - *Unlike miniKube, microK8S can run <mark>multiple nodes</mark> in the local Kubernetes cluster*
   - <mark>Windows: ja</mark> (Hyper-V oder VirtualBox), 4GB+ RAM, 40GB+ HDD
   - <https://github.com/canonical/microk8s> <img loading="lazy" src="https://img.shields.io/github/stars/canonical/microk8s?style=flat-square">
 - <https://yankee.dev/6-tools-to-run-kubernetes-locally>
