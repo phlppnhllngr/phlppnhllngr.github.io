@@ -25,8 +25,9 @@ grand_parent: DevOps
   - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
   - containerd oder dockerd wählbar
     - *[dockerd] allows Rancher Desktop to function as a drop-in replacement for Docker Desktop in many cases*
-    - *You cannot run both Docker Desktop and Rancher Desktop (in dockerd mode) simultaneously* 
+    - *You cannot run both Docker Desktop and Rancher Desktop (in dockerd mode) simultaneously*
   - 8GB+ RAM, 4+ CPUs
+  - derzeit (03/22) kein Corporate-Proxy-Support (<https://github.com/rancher-sandbox/rancher-desktop/issues/4013>)
   - <https://github.com/rancher-sandbox/rancher-desktop> <img loading="lazy" src="https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=flat-square">
   - <https://docs.rancherdesktop.io/>
 - **minikube**
