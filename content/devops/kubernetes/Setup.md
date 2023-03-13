@@ -23,6 +23,8 @@ grand_parent: DevOps
   - *provides container management and Kubernetes on the desktop*
   - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
   - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
+  - containerd oder dockerd wählbar
+  - 8GB+ RAM, 4+ CPUs
   - <https://github.com/rancher-sandbox/rancher-desktop> <img loading="lazy" src="https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=flat-square">
   - <https://docs.rancherdesktop.io/>
 - **minikube**
