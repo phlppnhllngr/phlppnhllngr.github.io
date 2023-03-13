@@ -112,7 +112,8 @@ grand_parent: DevOps
   - *Build, test and debug applications directly inside Kubernetes. Develop with hot reloading: updates your running containers without rebuilding images or restarting containers.* 
   - <https://github.com/loft-sh/devspace> 
 
-### Java
+
+## Java
 - **Kubernetes & OpenShift Java Client**
   - <https://github.com/fabric8io/kubernetes-client>
 - **JKube**
