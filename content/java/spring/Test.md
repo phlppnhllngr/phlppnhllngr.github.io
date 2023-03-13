@@ -93,3 +93,7 @@ grand_parent: Java
 - **SpringRunner** (alias für SpringJUnit4ClassRunner; JUnit4 @RunWith)
 - **MockMvc**
 - **TestRestTemplate**
+- **@DirtiesContext**
+  - *marks the ApplicationContext as dirty, so it is closed and removed from the cache after the test*
+  - für Testmethoden, die z. B. den Zustand von Singleton-Beans verändern, und die Änderung den nächsten Test beeinflussen könnte 
+  - <https://www.baeldung.com/spring-boot-testing-pitfalls#1-petservice-sample-solutions> 
