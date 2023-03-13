@@ -15,7 +15,8 @@ grand_parent: DevOps
 ### Lokal entwickeln
 <img src="https://www.jambit.com/site/assets/files/10220/minikube-kind-k3s-local-kubernetes-cluster-1.-squaremedium.jpg" loading="lazy"/><br/>
 - **Docker Desktop**
-  - hat Support für <mark>Single-Node-Cluster</mark> (Optionen -> Enable Kubernetes) 
+  - hat Support für <mark>Single-Node-Cluster</mark> (Optionen -> Enable Kubernetes)
+  - Support für Mult-Node: <https://github.com/docker/roadmap/issues/312>
 - **Rancher Desktop**
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
