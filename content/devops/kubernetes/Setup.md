@@ -10,6 +10,12 @@ grand_parent: DevOps
 - **kubeadm**
   - *create and manage Kubernetes clusters*
   - <https://kubernetes.io/docs/admin/kubeadm/>
+
+ 
+### Lokal entwickeln
+<img src="https://www.jambit.com/site/assets/files/10220/minikube-kind-k3s-local-kubernetes-cluster-1.-squaremedium.jpg" loading="lazy"/><br/>
+- **Docker Desktop**
+  - hat Support für Single-Node-Cluster (Optionen -> Enable Kubernetes) 
 - **Rancher Desktop**
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
@@ -18,9 +24,6 @@ grand_parent: DevOps
   - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
   - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
   - <https://docs.rancherdesktop.io/>
- 
-### Lokal entwickeln
-<img src="https://www.jambit.com/site/assets/files/10220/minikube-kind-k3s-local-kubernetes-cluster-1.-squaremedium.jpg" loading="lazy"/><br/>
 - **minikube**
   - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a single-node Kubernetes cluster on your personal computer*
   - *Minikube is the officially supported way to run Kubernetes locally on macOS, Windows, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
