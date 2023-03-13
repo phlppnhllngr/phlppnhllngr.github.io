@@ -8,13 +8,17 @@ parent: DevOps
 
 ## Runtimes
 - **containerd**
+    - *it’s the de facto standard container runtime used in production Kubernetes installs*
+    - *Within the local cluster space, containerd is also used by kind and in some minikube configurations among others* 
     - CLI: nerdctl
         - *Same UI/UX as docker*
+        - *nerdctl is drop-in compatible for the docker command*
         - *Supports Docker Compose* 
         - <https://github.com/containerd/nerdctl>
     - <https://github.com/containerd/containerd>
 - **Docker Engine**
     - CLI: Docker CLI
+    - *to use Docker as the container runtime for Kubernetes, a translation component named cri-dockerd (formerly dockershim) is necessary*
     - -> DevOps/Docker
 - **CRI-O**
     - *Open Container Initiative-based implementation of Kubernetes Container Runtime Interface*
