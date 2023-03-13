@@ -33,9 +33,8 @@ grand_parent: DevOps
 - **minikube**
   - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a ~~<mark>single-node</mark>~~ Kubernetes cluster on your personal computer* (mittlerweile wohl auch <mark>Multi-Node</mark> möglich)
   - *Minikube is the officially supported way to run Kubernetes locally on macOS, <mark>Windows</mark>, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
-  - *Ansatz: Es wird eine VM [Windows: HyperV oder VirtualBox] erzeugt, die im Wesentlichen ein K8s-Cluster mit einer Node ist.*
-  - *test local cluster setup where master processes and worker processes run on one node*
-  - *node runs in virtual box*
+  - *Ansatz: Es wird eine VM [Windows: HyperV oder VirtualBox] erzeugt, die im Wesentlichen ein K8s-Cluster ~~mit einer Node~~ ist.*
+  - *test local cluster setup where master processes and worker processes run ~~on one node~~*
   - *installs kubectl and docker runtime*
   - 2GB RAM, 2 CPUs, 20GB HDD, Docker Desktop nicht notwendig
   - CLI commands
@@ -83,6 +82,7 @@ grand_parent: DevOps
       kubectl cluster-info --context kind-k8s-playground
       kubectl get nodes // 1x control plane, 2x worker / oder kind get nodes --name k8s-playground
       docker ps // 3 Container
+      docker exec -it k8s-playground-control-plane /bin/sh -c "kubectl cluster-info"
       ```
   - <https://github.com/kubernetes-sigs/kind> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes-sigs/kind?style=flat-square">
   - <https://kind.sigs.k8s.io/docs/>
