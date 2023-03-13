@@ -10,6 +10,7 @@ grand_parent: Java
 # Test
 - <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
 - [YT - Things I Wish I Knew When I Started Testing Spring Boot Applications by Philip Riecks, 10/22](https://www.youtube.com/watch?v=5Td7vAS9qJI)
+- <https://www.baeldung.com/spring-boot-testing-pitfalls>
 - Chaos Monkey
   - <https://github.com/codecentric/chaos-monkey-spring-boot>
 - Junit4 von spring-boot-starter-test ausschließen
@@ -35,7 +36,9 @@ grand_parent: Java
   - *it bootstraps the whole application the same way as it would be running otherwise*
   - *can take a very long time to start—most of it related to database initialization, the configuration of remote sources, and other IO (input/output).*
   - *End-to-end tests would be the best place for the tests with @SpringBootTest, assuming the whole application is a black box.*
-  - need to manually override bean definitions
+  - *need to manually override bean definitions*
+  - *@SpringBootTest, by default, starts searching in the current package of the test class and then searches upwards through the package structure, looking for a class annotated with @SpringBootConfiguration, from which it then reads the configuration to create an application context. This class is usually our main application since the @SpringBootApplication annotation includes the @SpringBootConfiguration annotation. It then creates an application context similar to the one that would be started in a production environment.*
+  - *If we need a different (minimal) ApplicationContext for our test class, we can create a static inner @Configuration class* (<https://www.baeldung.com/spring-boot-testing-pitfalls#2-minimize-applicationcontext>)
 - **@ContextConfiguration**
   - *loads an ApplicationContext for Spring integration test*
   - *can load the JavaConfig annotated with @Configuration. can also load a component annotated with @Component, @Service, @Repository etc.*
@@ -65,6 +68,8 @@ grand_parent: Java
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html>
 - **@AutoConfigureMockMvc** (🥾)
 - **@MockBean** (🥾)
+  - *Spring Test Framework includes Mockito to create and use mocks. When using @MockBean, we let Mockito create a mock instance and put it into the ApplicationContext*
+  - *The consequence is that we cannot share the ApplicationContext with other test classes* (<https://www.baeldung.com/spring-boot-testing-pitfalls#3-pitfall-mocking>)
 - **@DataJpaTest** -> Spring/Datenbank/Data JPA/Test
 - **@AutoConfigureTestDatabase** -> Spring/Datenbank/Data JPA/Test
 - **@WebMvcTest** (🥾)
