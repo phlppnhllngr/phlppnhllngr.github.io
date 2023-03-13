@@ -19,14 +19,15 @@ grand_parent: DevOps
 - **Rancher Desktop**
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
-  - *On MacOS and Linux, Rancher Desktop leverages a virtual machine to run containerd and Kubernetes. Windows Subsystem for Linux v2 is leveraged for Windows systems.*
+  - *On MacOS and Linux, Rancher Desktop leverages a virtual machine to run containerd and Kubernetes. <makr>Windows Subsystem for Linux</mark> v2 is leveraged for Windows systems.*
   - *provides container management and Kubernetes on the desktop*
   - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
   - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
+  - <https://github.com/rancher-sandbox/rancher-desktop> <img loading="lazy" src="https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=flat-square">
   - <https://docs.rancherdesktop.io/>
 - **minikube**
   - *Like kind, minikube is a tool that lets you run Kubernetes locally. runs a single-node Kubernetes cluster on your personal computer*
-  - *Minikube is the officially supported way to run Kubernetes locally on macOS, Windows, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
+  - *Minikube is the officially supported way to run Kubernetes locally on macOS, <mark>Windows</mark>, or Linux. Furthermore, it is the only tool that is a drop-in replacement for Docker Desktop.* (<https://matt-rickard.com/docker-desktop-alternatives/>)
   - *Ansatz: Es wird eine VM [Windows: HyperV oder VirtualBox] erzeugt, die im Wesentlichen ein K8s-Cluster mit einer Node ist.*
   - *test local cluster setup where master processes and worker processes run on one node*
   - *node runs in virtual box*
@@ -50,13 +51,15 @@ grand_parent: DevOps
     - dashboard
   - *minikube is for starting and deleting the cluster, for everything else use kubectl*
   - Drivers: Docker, VirtualBox, Podman, ... (<https://minikube.sigs.k8s.io/docs/drivers/>)
-  - <https://github.com/kubernetes/minikube> *24.7k
+  - <https://github.com/kubernetes/minikube> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes/minikube?style=flat-square">
   - <https://minikube.sigs.k8s.io/docs/>
   - <https://kubernetes.io/docs/tutorials/hello-minikube/>
 - **kind**
   - *lets you run Kubernetes on your local computer*
   - Cluster in Docker-Container (keine VM wie bei minikube)
   - *tool for running local Kubernetes clusters using Docker container "nodes"*
+  - <mark>Windows: ja</mark>
+  - <https://github.com/kubernetes-sigs/kind> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes-sigs/kind?style=flat-square">
   - <https://kind.sigs.k8s.io/docs/>
 - **K3s**
   - *Lightweight Kubernetes*
@@ -64,21 +67,22 @@ grand_parent: DevOps
   - *single binary, wraps Kubernetes and other components in a single, simple launcher*
   - *offers a VM based Kubernetes environment*
   - *is designed for use in production, which makes it one of the best options to simulate a real production environment locally*
-  - kein Windows-Support: <https://github.com/k3s-io/k3s/issues/114>
-  - <https://github.com/k3s-io/k3s> *20.9k
+  - <mark>kein Windows-Support</mark>: <https://github.com/k3s-io/k3s/issues/114>
+  - <https://github.com/k3s-io/k3s> <img loading="lazy" src="https://img.shields.io/github/stars/k3s-io/k3s?style=flat-square">
   - <https://k3s.io/>
 - **k3d**
   - *Little helper to run CNCF's k3s in Docker*
   - *one of the apparent differences is that k3s deploys a virtual machine-based Kubernetes cluster while k3d deploys Docker-based k3s Kubernetes clusters*
   - *k3d is more suitable for use in even smaller environments like Raspberry Pi, IoT, and Edge devices.*
   - *k3d appears to be a more flexible and improved version of k3s even though their features and usage are similar.*
-  - <https://github.com/k3d-io/k3d> *3.8k
+  - <https://github.com/k3d-io/k3d> <img loading="lazy" src="https://img.shields.io/github/stars/k3d-io/k3d?style=flat-square">
   - VSC-Plugin: <https://github.com/inercia/vscode-k3d>
   - GUI: <https://github.com/inercia/k3x>
 - **MicroK8s**
   - *small, fast, single-package Kubernetes for developers, IoT and edge.*
   - *Perfect for: Developer workstations IoT Edge CI/CD*
   - *Unlike miniKube, microK8S can run multiple nodes in the local Kubernetes cluster*
-  - <https://github.com/canonical/microk8s> *6.7k
+  - <mark>Windows: ja</mark> (Hyper-V oder VirtualBox), 4GB+ RAM, 40GB+ HDD
+  - <https://github.com/canonical/microk8s> <img loading="lazy" src="https://img.shields.io/github/stars/canonical/microk8s?style=flat-square">
 - <https://yankee.dev/6-tools-to-run-kubernetes-locally>
 - <https://www.jambit.com/aktuelles/toilet-papers/minikube-vs-kind-vs-k3s-welches-lokale-kubernetes-cluster-eignet-sich-am-besten/>
