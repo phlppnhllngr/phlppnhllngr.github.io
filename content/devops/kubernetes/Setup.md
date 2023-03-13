@@ -24,6 +24,8 @@ grand_parent: DevOps
   - *After Rancher Desktop is installed, users will have access to these supporting utilities: Helm, kubectl, nerdctl, Moby, Docker Compose*
   - *requires Windows Subsystem for Linux on Windows; this will automatically be installed as part of the Rancher Desktop setup*
   - containerd oder dockerd wählbar
+    - *[dockerd] allows Rancher Desktop to function as a drop-in replacement for Docker Desktop in many cases*
+    - *You cannot run both Docker Desktop and Rancher Desktop (in dockerd mode) simultaneously* 
   - 8GB+ RAM, 4+ CPUs
   - <https://github.com/rancher-sandbox/rancher-desktop> <img loading="lazy" src="https://img.shields.io/github/stars/rancher-sandbox/rancher-desktop?style=flat-square">
   - <https://docs.rancherdesktop.io/>
