@@ -80,6 +80,7 @@ grand_parent: DevOps
   - *one of the apparent differences is that k3s deploys a virtual machine-based Kubernetes cluster while k3d deploys Docker-based k3s Kubernetes clusters*
   - *k3d is more suitable for use in even smaller environments like Raspberry Pi, IoT, and Edge devices.*
   - *k3d appears to be a more flexible and improved version of k3s even though their features and usage are similar.*
+  - Windows: ja
   - <https://github.com/k3d-io/k3d> <img loading="lazy" src="https://img.shields.io/github/stars/k3d-io/k3d?style=flat-square">
   - VSC-Plugin: <https://github.com/inercia/vscode-k3d>
   - GUI: <https://github.com/inercia/k3x>
