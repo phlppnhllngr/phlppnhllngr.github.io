@@ -19,6 +19,7 @@ has_children: true
 - <https://github.com/bregman-arie/devops-exercises/blob/master/topics/kubernetes/README.md>
 - <https://github.com/techiescamp/kubernetes-learning-path> - *A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)*
 - <https://github.com/stefanprodan/podinfo> - *a tiny web application made with Go that showcases best practices of running microservices in Kubernetes.*
+- [YT: Docker Containers and Kubernetes Fundamentals – Full Hands-On Course, 6h, 10/2022](https://www.youtube.com/watch?v=kTp5xUtcalw)
 
 
 ## YAML-Konfigurationsdateien
