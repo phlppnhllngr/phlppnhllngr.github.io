@@ -42,7 +42,9 @@ has_children: true
   - **config**
     - current-context
     - get-contexts
-    - use-context [contextName]
+    - set-context
+      - Namespace ändern: `set-context --current --namespace=<ns>`
+    - use-context \<contextName>
     - view
       - `kubectl config view`
   - **create**
@@ -55,21 +57,29 @@ has_children: true
   - **delete**
     - `kubectl delete deployment <deployment>`
     - `kubectl delete -f <config-file>`
+    - `kubectl delete pod --grace-period=<number>`
   - **describe**
     - `kubectl describe pod <pod>`
   - **edit**
     - *edit deployment configurations*
     - `kubectl edit deployment nginx`
   - **exec**
-    - `kubectl exec -it <pod> -- /bin/bash`
+    - `kubectl exec -it <pod> -- /bin/sh`
   - **expose**
     - `kubectl expose deployment hello-node --type=LoadBalancer --port=8080`
     - *The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.*
     - *On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On minikube, the LoadBalancer type makes the Service accessible through the `minikube service` command.*
   - **get**
-    - `kubectl get nodes|pod|services|deployment|replicaset|events`
+    - `kubectl get nodes|ns|pods|services|deployments|replicasets|events`
+    - `get pods --all-namespaces --output wide`
+    - `get pods -n <ns> | get pods --namespace=<ns>`
+    - `get pod <podname> -o wide`
+    - `get pod <podname> -o yaml > pod.yaml`
   - **logs**
     - `kubectl logs <pod>`
+  - **run**
+    - Pod starten (imperativ) 
+    - `run <podname> --image=<image> [-it] -- /bin/sh -c "..."` 
 - <https://kubernetes.io/docs/reference/kubectl/>
 
 
