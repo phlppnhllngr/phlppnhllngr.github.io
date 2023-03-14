@@ -47,7 +47,7 @@ has_children: true
       - `kubectl config view`
   - **create**
     - `kubectl create -h`
-    - mit `--dry-run=client -o out.yaml` können Ressourcen-Yamls erstellt werden
+    - mit `--dry-run=client --output yaml --save-config > foo.yaml` können Ressourcen-Yamls erstellt werden
     - deployment
       - *create and run pod and replicaset*
       - `kubectl create deployment <name> --image=<image> [--dry-run] [options]`
