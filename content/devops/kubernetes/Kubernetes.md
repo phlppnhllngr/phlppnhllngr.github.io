@@ -52,12 +52,12 @@ has_children: true
     - mit `--dry-run=client --output yaml --save-config > foo.yaml` können Ressourcen-Yamls erstellt werden
     - deployment
       - *create and run pod and replicaset*
-      - `kubectl create deployment <name> --image=<image> [--dry-run] [options]`
-      - `kubectl create deployment nginx --image=nginx:latest`
+      - `kubectl create deployment <name> --image=<image> [--dry-run] [--port] [--replicas=<number>] [...]`
   - **delete**
     - `kubectl delete deployment <deployment>`
     - `kubectl delete -f <config-file>`
     - `kubectl delete pod --grace-period=<number>`
+    - `kubectl delete pod --grace-period=0 --force`
   - **describe**
     - `kubectl describe pod <pod>`
   - **edit**
@@ -70,13 +70,19 @@ has_children: true
     - *The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.*
     - *On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On minikube, the LoadBalancer type makes the Service accessible through the `minikube service` command.*
   - **get**
-    - `kubectl get nodes|ns|pods|services|deployments|replicasets|events`
-    - `get pods --all-namespaces --output wide`
+    - `kubectl get nodes|ns|pods|services|deployments|replicasets|events|endpoints`
+    - `get pods --all-namespaces --output wide --selector=foo=bar`
     - `get pods -n <ns> | get pods --namespace=<ns>`
     - `get pod <podname> -o wide`
     - `get pod <podname> -o yaml > pod.yaml`
   - **logs**
-    - `kubectl logs <pod>`
+    - `kubectl logs [--previous] <pod>`
+  - **port-forward**
+    - *in Kubernetes, every pod gets its own ip address from 10.*, that is usable only within the cluster. Now, the port-forward feature of kubectl simply tunnels the traffic from a specified port at your local host machine to the specified port on the specified pod. API server then becomes, in a sense, a temporary gateway between your local port and the Kubernetes cluster*
+    - *kubectl port-forward is more generic as it can forward TCP traffic while kubectl proxy can only forward HTTP traffic.*
+    - *useful for testing/debugging purposes so you can access your service locally without exposing it*
+    - `kubectl port-forward pods/podname 8080:80`
+    - `kubectl port-forward services/fooservice 8080:80`
   - **run**
     - Pod starten (imperativ) 
     - `run <podname> --image=<image> [-it] -- /bin/sh -c "..."` 
