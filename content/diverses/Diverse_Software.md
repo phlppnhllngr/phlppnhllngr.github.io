@@ -268,6 +268,7 @@ parent: Diverses
 - <u>OpenAI</u>
   - **ChatGPT**
     - <https://github.com/openai/openai-cookbook>
+    - <https://platform.openai.com/playground>
     - <https://github.com/f/awesome-chatgpt-prompts>
     - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
   - **Whisper**
@@ -309,3 +310,9 @@ parent: Diverses
 - **Upscayl**
   - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
   - <https://github.com/upscayl/upscayl>
+- **Promptify**
+  - *Solve NLP Problems with LLM's & Easily generate different NLP Task prompts for popular generative models like GPT, PaLM* 
+  - <https://github.com/promptslab/Promptify>
+- **LangChain**
+  - *... using these LLMs in isolation is often not enough to create a truly powerful app - the real power comes when you can combine them with other sources of computation or knowledge. This library is aimed at assisting in the development of those types of applications.*
+  - <https://github.com/hwchase17/langchain> 
