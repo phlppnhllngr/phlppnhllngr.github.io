@@ -39,6 +39,12 @@ has_children: true
     - *create or update a component (e. g. deployment) from config file [declaratively]*
     - *k8s knows whether to update or create the component*
     - `kubectl apply -f <config-file>`
+    - `--kustomize`
+      - `kubectl apply -k path/to/kustomization.yaml`
+      - für "Base"- und "Overlay"-Konfigurationen (z. B. Dev, Test, Prod)
+      - `namespace=<ns>` um sicherzustellen, dass eine spezielle Konfig auch wirklich nur in der Vorgesehenen Umgebung (NS) applied wird
+      - <https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/>
+      - <https://kubectl.docs.kubernetes.io/references/kustomize/>
   - **cluster-info**
   - **config**
     - current-context
@@ -73,11 +79,13 @@ has_children: true
     - *The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.*
     - *On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On minikube, the LoadBalancer type makes the Service accessible through the `minikube service` command.*
   - **get**
-    - `kubectl get nodes|ns|pods|services|deployments|replicasets|events|endpoints`
+    - `kubectl get all|nodes|ns|pods|services|deployments|replicasets|events|endpoints|...`
     - `get pods --all-namespaces --output wide --selector=foo=bar`
     - `get pods -n <ns> | get pods --namespace=<ns>`
     - `get pod <podname> -o wide`
     - `get pod <podname> -o yaml > pod.yaml`
+  - **kustomize**
+    - gibt den von kustomize generierten Inhalt aus (Dry-Run)  
   - **logs**
     - `kubectl logs [--previous] <pod>`
   - **port-forward**
