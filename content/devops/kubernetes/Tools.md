@@ -47,9 +47,6 @@ grand_parent: DevOps
 - **mizu**
   - *API traffic viewer for Kubernetes enabling you to view all API communication between microservices. Think TCPDump and Wireshark re-invented for Kubernetes*
   - <https://github.com/up9inc/mizu>
-- **kustomize**
-  - *introduces a template-free way to customize application configuration that simplifies the use of off-the-shelf applications. Now, built into kubectl as `apply -k`.*
-  - <https://kustomize.io/>
 - **opencost**
   - *visibility into current and historical Kubernetes spend and resource allocation* 
   - <https://github.com/opencost/opencost>
