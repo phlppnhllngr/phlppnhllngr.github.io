@@ -260,3 +260,8 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 
 ### Custom Resource Definitions (CRDs)
 - <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/>
+
+
+## Best Practice
+- **Labels**
+  - <https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/>
