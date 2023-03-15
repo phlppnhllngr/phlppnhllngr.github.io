@@ -33,6 +33,7 @@ has_children: true
 - *submits commands to master-node's api server*
 - Die Commands, die Ressourcen (Deployments, Pods, ...) betreffen, können z. T. auch via YAML-Files abgebildet werden (imperativ vs. deklarativ)
 - Connection-Info gespeichert in $HOME/.kube/config
+- <https://kubernetes.io/docs/reference/kubectl/cheatsheet/>
 - <u>Commands</u>
   - **apply**
     - *create or update a component (e. g. deployment) from config file [declaratively]*
@@ -66,6 +67,8 @@ has_children: true
   - **exec**
     - `kubectl exec -it <pod> -- /bin/sh`
   - **expose**
+    - Erzeugt einen Service, um einen Pod oder ein Deployment zu exposen
+    - `kubectl expose deploy --name=<name> --port=<number> --targetPort=<number>`
     - `kubectl expose deployment hello-node --type=LoadBalancer --port=8080`
     - *The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.*
     - *On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On minikube, the LoadBalancer type makes the Service accessible through the `minikube service` command.*
@@ -83,9 +86,15 @@ has_children: true
     - *useful for testing/debugging purposes so you can access your service locally without exposing it*
     - `kubectl port-forward pods/podname 8080:80`
     - `kubectl port-forward services/fooservice 8080:80`
+  - **proxy**
+  - **rollout**
+    - für Deployment mit RollingUpdate 
+    - status \<deployment>
+    - undo 
   - **run**
     - Pod starten (imperativ) 
-    - `run <podname> --image=<image> [-it] -- /bin/sh -c "..."` 
+    - `run <podname> --image=<image> [-it] -- /bin/sh -c "..."`
+  - **top**
 - <https://kubernetes.io/docs/reference/kubectl/>
 
 
