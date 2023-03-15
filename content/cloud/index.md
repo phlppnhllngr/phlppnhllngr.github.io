@@ -26,4 +26,8 @@ has_children: true
 - **Steampipe**
     - *Use SQL to instantly query your cloud services (AWS, Azure, GCP and more). Open source CLI. No DB required.*
     - *the universal interface to APIs. Use SQL to query cloud infrastructure, SaaS, code, logs, and more.* 
-    - <https://github.com/turbot/steampipe> 
+    - <https://github.com/turbot/steampipe>
+- **Apisix**
+    - *API Gateway provides rich traffic management features such as load balancing, dynamic upstream, canary release, circuit breaking, authentication, observability, and more.*
+    - *It can also be used as a k8s ingress controller.*
+    - <https://github.com/apache/apisix> 
