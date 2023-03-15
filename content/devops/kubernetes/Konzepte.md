@@ -95,6 +95,14 @@ grand_parent: DevOps
 - Use cases für mehrere Container pro Pod
   - Sidecar-Container, der Logfiles archiviert
   - Adapter, z. B. Format von Monitoring-Output umwandeln um für zentrales Monotoring-Tool aufzubereiten
+- Probes
+  - Startup
+    - die anderen Probes werden nicht durchgeführt, bevor Startup erfolgt ist 
+  - Readiness
+    - prüft, ob der Pod Traffic entgegennehmen kann (z. B. wenn DB erreicht werden kann) 
+  - Liveness
+    - Failure führt zu Restart
+  - mögliche Actions: Exec, TcpSocket, HttpGet
 - <https://kubernetes.io/docs/concepts/workloads/pods/>
 
 ### Workloads
@@ -140,17 +148,24 @@ grand_parent: DevOps
 - *lifecycle of service and pod are not connected*
 - *load balancer; can be attached to multiple pods (on different nodes)*
 - *Each Service object defines a logical set of endpoints (usually these endpoints are Pods) along with a policy about how to make those pods accessible*
+- Zuordnung zu Pods über Labels, ermöglicht Blue/Green-Deployments
 - <u>Types</u>
   - ClusterIP
     - Default
+    - Sichtbarkeit: im Cluster
+    - `spec.ports.port` und `spec.ports.targetPort` (=Pod-Port)
     - *provides a load-balanced IP address*
     - *currently, depending on the proxy mode, for ClusterIP it's just round robin/random. It's done by kube-proxy, which runs on each nodes, proxies UDP and TCP and provides load balancing.*
     - *Choosing this value makes the Service only reachable from within the cluster*
     - *You can expose the service to the public with an Ingress or the Gateway API.*
   - NodePort
+    - Erweiterung von ClusterIP
+    - hat zusätzlich `spec.ports.nodePort` (Wert zw. 30.000 und 32.767), wo der Service von extern erreichbar ist
+    - Sichtbarkeit: intern und extern (sofern die Node eine External IP hat)
     - *Exposes the Service on each Node's IP at a static port (the NodePort)* 
   - LoadBalancer
-    - *Exposes the Service externally using a cloud provider's load balancer.* 
+    - *Exposes the Service externally using a cloud provider's load balancer.*
+    - Layer 4 (TCP); Simple Verfahren wie Round Robin möglich. Kein Message-Content-basiertes Load-Balancing möglich.
   - ExternalName
     - *Maps the Service to the contents of the externalName field (e.g. foo.bar.example.com), by returning a CNAME record with its value*
 - headless
@@ -173,28 +188,62 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - <https://kubernetes.io/docs/concepts/workloads/controllers/job/>
 
 ##### CronJob
+- Standardmäßig wird die Historie der letzten 3 erfolgreichen (`successfulJobsHistoryLimit`) und des letzten gescheiterten CronJobs aufbewahrt
 - <https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/>
 
 ### Ingress
 - *entry point for external requests*
 - *forwards incoming requests to services*
+- Layer 7 (Http, Smtp, ...); Komplexere LB-Verfahren möglich, z. B. auf Basis des Message-Contents
 
 ### ConfigMap
 - *external configuration of application*
 - *connected to pod*
 - *usually contains URLs of database*
 - *accessed via environment variables or properties file*
+- Pod muss neu gestartet werden, um Änderungen zu sehen. ConfigMaps können aber auch als File gemounted werden, dann "live".
 
 ### Secret
 - *like ConfigMap, for secret data (credentials, certificates)*
 - *stored in Base64*
+- Sonderfall `Pod.spec.imagePullSecrets`
 
-### Persistent Volumes
+### Persistent Volume
 - *for persistent data*
 - *attaches physical storage to pod*
 - *storage is on local node or remote (outside of k8s cluster)*
+- *provisioned by administrator*
+- Types
+  - NFS
+  - HostPath (nur für Development geeignet)
+  - Flocker
+  - diverse Cloud-spezifische
+  - uvm.
+- Reclaiming (`spec.persistentVolumeReclaimPolicy`)
+  - *When a user is done with their volume, they can delete the PVC objects from the API that allows reclamation of the resource. The reclaim policy for a PersistentVolume tells the cluster what to do with the volume after it has been released of its claim.* 
+  - Retain
+    - *When the PersistentVolumeClaim is deleted, the PersistentVolume still exists and the volume is considered "released". But it is not yet available for another claim because the previous claimant's data remains on the volume. An administrator can manually reclaim the volume* 
+  - Delete (Default)
+    - *deletion removes both the PersistentVolume object from Kubernetes, as well as the associated storage asset in the external infrastructure* 
+  - Recycle
+    - deprecated 
+  - <https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaiming>
+- Access Modes
+  - ReadWriteMany
+  - ReadOnlyMany
+  - ReadWriteOnce 
 
-### Persistent Volume Claims
+### StorageClass
+- *provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators.*
+- Reclaim Policies
+  - Retain
+  - Delete (Default)
+- `privisioner`: z. B. `kubernetes.io/azure-disk`
+- <https://kubernetes.io/docs/concepts/storage/storage-classes/>
+
+### Persistent Volume Claim
+- Das PVC kann ein Persistent Volume oder eine StorageClass referenzieren
+- Ein PV kann nur ein einziges Mal geclaimed werden (Speicher ggf. verschwendet), eine StorageClass mehrmals
 
 ### NetworkPolicy
 - By Default
