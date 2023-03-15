@@ -9,11 +9,16 @@ grand_parent: DevOps
 
 - **compose**
   - <https://github.com/docker/awesome-compose>
-  - compose-file v2: <https://docs.docker.com/compose/compose-file/compose-file-v2>
-  - compose-file v3: <https://docs.docker.com/compose/compose-file>
-  - extending: <https://docs.docker.com/compose/extends>
+  - <u>Compose-File</u>
+    - compose-file v2: <https://docs.docker.com/compose/compose-file/compose-file-v2>
+    - compose-file v3: <https://docs.docker.com/compose/compose-file>
+    - *the standard now [02/23] says the file should be called "compose.yaml"; "docker-compose.yaml" is supported but deprecated*
+    - *the latest version of a compose file should not have a version field at all*
+    - extending: <https://docs.docker.com/compose/extends>
   - [HN - Docker Compose best practices for dev and prod, 08/22](https://news.ycombinator.com/item?id=32484008)
   - [HN - Best practices around creating production ready web apps with Docker Compose, 06/21](https://news.ycombinator.com/item?id=27359081)
+  - [HN - Awesome Docker Compose Examples](https://news.ycombinator.com/item?id=34940181)
+    - <https://github.com/Haxxnet/Compose-Examples>
 - **Composerize**
   - *Turns docker run commands into docker-compose files*
   - <https://github.com/magicmark/composerize>
@@ -77,6 +82,9 @@ grand_parent: DevOps
   - *Reverse engineer Docker images into Dockerfiles.*
   - *Similar to how the `docker history` command works, Dedockify is able to re-create the Dockerfile (approximately) that was used to generate an image using the metadata that Docker stores alongside each image layer.*
   - <https://github.com/mrhavens/Dedockify>
+- **dockle**
+  - *Container Image Linter for Security*
+  - <https://github.com/goodwithtech/dockle>
 
 
 ## GUIs
