@@ -194,7 +194,7 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 ### Ingress
 - *entry point for external requests*
 - *forwards incoming requests to services*
-- Layer 7 (Http, Smtp, ...); Komplexere LB-Verfahren möglich, z. B. auf Basis des Message-Contents
+- Layer 7 (Http, Smtp, ...); Komplexere LB-Verfahren möglich; z. B. auf Basis des Message-Contents, Path-Rewrites, ...
 
 ### ConfigMap
 - *external configuration of application*
