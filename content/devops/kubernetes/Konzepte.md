@@ -195,6 +195,7 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - *entry point for external requests*
 - *forwards incoming requests to services*
 - Layer 7 (Http, Smtp, ...); Komplexere LB-Verfahren möglich; z. B. auf Basis des Message-Contents, Path-Rewrites, ...
+- <https://kubernetes.io/docs/concepts/services-networking/ingress/>
 
 ### ConfigMap
 - *external configuration of application*
@@ -202,6 +203,8 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - *usually contains URLs of database*
 - *accessed via environment variables or properties file*
 - Pod muss neu gestartet werden, um Änderungen zu sehen. ConfigMaps können aber auch als File gemounted werden, dann "live".
+- <https://kubernetes.io/docs/concepts/configuration/configmap/>
+- 
 
 ### Secret
 - *like ConfigMap, for secret data (credentials, certificates)*
@@ -250,7 +253,9 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
   - können alle Container eines Pods miteinander 
   - alle Pods miteinander
   - alle Nodes mit allen Pods
-  kommunizieren
+  kommunizieren. Mit NetworkPolicies kann dies eingeschränkt werden. Z. B. intern nur Pods eines best. Namespaces, nach außen nur best. IP-Adressen erlaubt.
+- *For Network Policies to take effect, <mark>your cluster needs to run a network plugin which also enforces them</mark>. Project Calico or Cilium are plugins that do so. This is not the default when creating a cluster!*
+- <https://kubernetes.io/docs/concepts/services-networking/network-policies/>
 
 ### ResourceQuota
 - *provides constraints that limit aggregate resource consumption per namespace. It can limit the quantity of objects that can be created in a namespace by type, as well as the total amount of compute resources that may be consumed by resources in that namespace.*
@@ -265,3 +270,5 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 ## Best Practice
 - **Labels**
   - <https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/>
+- **Config**
+  - <https://kubernetes.io/docs/concepts/configuration/overview/> 
