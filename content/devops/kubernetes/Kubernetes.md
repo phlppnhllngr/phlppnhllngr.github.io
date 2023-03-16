@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/DevOps]
 title: Kubernetes
-created: '2020-03-11T21:13:07.906Z'
-modified: '2021-09-05T11:46:48.822Z'
 parent: DevOps
 has_children: true
 ---
