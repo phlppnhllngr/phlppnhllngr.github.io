@@ -11,7 +11,7 @@ grand_parent: DevOps
 - **builder**
   - prune
     - Löscht den Build-Cache 
-    - `docker builder prune --all`  
+    - `docker builder prune --all --force`  
 - **compose**
   - *The new Compose V2, which supports the compose command as part of the Docker CLI, is now available.*
   - *Run docker compose up and the Docker compose command starts and runs your entire app. You can alternatively run docker-compose up using Compose standalone (docker-compose binary).*
