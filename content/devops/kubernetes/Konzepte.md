@@ -266,6 +266,14 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 ### Custom Resource Definitions (CRDs)
 - <https://kubernetes.io/docs/tasks/extend-kubernetes/custom-resources/custom-resource-definitions/>
 
+### HorizontalPodAutoscaler
+- automatisch Skalieren (Replicas) je nach Ressourcenverrbauch (CPU, RAM) oder benutzerdefinierte Metriken
+- *... fragt der Controller Manager die Ressourcennutzung anhand der in jeder HorizontalPodAutoscaler Definition angegebenen Metriken ab. Der Controller Manager bezieht die Metriken entweder aus der Resource Metrics API (für Ressourcenmetriken pro Pod) oder aus der Custom Metrics API (für alle anderen Metriken).*
+- <https://learnk8s.io/autoscaling-apps-kubernetes>
+- <https://kubernetes.io/de/docs/tasks/run-application/horizontal-pod-autoscale/>
+
+### VerticalPodAutoscaler
+
 
 ## Best Practice
 - **Labels**
