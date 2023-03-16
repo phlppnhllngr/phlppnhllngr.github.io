@@ -85,6 +85,7 @@ grand_parent: DevOps
       docker ps // 3 Container
       docker exec -it k8s-playground-control-plane /bin/sh -c "kubectl cluster-info"
       ```
+  - derzeit (03/23) kein Support für NetworkPolicies (<https://github.com/kubernetes-sigs/kind/issues/842>)
   - <https://github.com/kubernetes-sigs/kind> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes-sigs/kind?style=flat-square">
   - <https://kind.sigs.k8s.io/docs/>
 - **K3s**
