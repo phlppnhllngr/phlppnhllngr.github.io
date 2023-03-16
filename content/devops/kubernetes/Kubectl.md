@@ -22,6 +22,9 @@ grand_parent: DevOps
     - `namespace=<ns>` um sicherzustellen, dass eine spezielle Konfig auch wirklich nur in der Vorgesehenen Umgebung (NS) applied wird
     - <https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/>
     - <https://kubectl.docs.kubernetes.io/references/kustomize/>
+- **autoscale**
+  - `kubectl autoscale rs foo --min=2 --max=5 --cpu-percent=80`
+  - <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands/#autoscale> 
 - **cluster-info**
 - **config**
   - current-context
