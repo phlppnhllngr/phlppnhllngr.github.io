@@ -12,10 +12,44 @@ grand_parent: DevOps
   - *The package manager for Kubernetes*
   - *Helm is the best way to find, share, and use software built for Kubernetes.*
   - *Helm Charts help you define, install, and upgrade even the most complex Kubernetes application*
+  - Begriffe
+    - Chart
+      - *bundle of templated yaml files* 
+    - Config Values
+    - Release
+      - *running instance of chart combined with configured values*
+  - CLI
+    - <https://github.com/helm/helm/releases>
+    - create
+      - Scaffolding für neuen Chart 
+      - `helm create <chart-name>`
+    - install
+      - lädt Chart und startet Anwendung (Deployments, ...) 
+      - `helm install <release-name> <identifier> --version <version> [-n <namespace>]`, z. B. `helm install my-prometheus prometheus-community/prometheus --version 15.9.2` 
+    - list
+      - alias "ls" 
+      - Liste der helm-Releases 
+      - `helm list [--all-namespaces]`
+    - repo
+      - add 
+        - `helm repo add <name> <url>`
+      - list
+      - update
+    - rollback
+    - search
+      - hub 
+        - `helm search hub <name>` name z. B. "prometheus"
+      - repo
+    - status
+      - `helm status <release>` 
+    - uninstall
+    - upgrade
   - Helm Dashboard
     - <https://github.com/komodorio/helm-dashboard> <img loading="lazy" src="https://img.shields.io/github/stars/komodorio/helm-dashboard?style=flat-square">
+  - Artifacthub
+    - <https://artifacthub.io/> 
 - **lens**
-  - *wie Portainer aber für K8s*
+  - wie Portainer aber für K8s
   - Binaries von hier laden: <https://github.com/MuhammedKalkan/OpenLens>
   - <https://github.com/lensapp/lens> <img loading="lazy" src="https://img.shields.io/github/stars/lensapp/lens?style=flat-square">
 - **kompose**
