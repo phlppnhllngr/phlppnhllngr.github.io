@@ -57,6 +57,7 @@ grand_parent: DevOps
   - *On cloud providers that support load balancers, an external IP address would be provisioned to access the Service. On minikube, the LoadBalancer type makes the Service accessible through the `minikube service` command.*
 - **get**
   - `kubectl get all|nodes|ns|pods|services|deployments|replicasets|events|endpoints|...`
+  - `get all` listet nicht alle Ressourcen! => `kubectl get all,cm,ing,...` (`kubectl api-resources --verbs=list`) (<https://github.com/kubernetes/kubectl/issues/151>)
   - `get pods --all-namespaces --output wide --selector=foo=bar`
   - `get pods -n <ns> | get pods --namespace=<ns>`
   - `get pod <podname> -o wide`
