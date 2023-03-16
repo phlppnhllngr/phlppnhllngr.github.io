@@ -8,6 +8,10 @@ grand_parent: DevOps
 - <https://docs.docker.com/engine/reference/commandline/docker/>
 - **attach**
   - *attach your terminal’s standard input, output, and error (or any combination of the three) to a running container*
+- **builder**
+  - prune
+    - Löscht den Build-Cache 
+    - `docker builder prune --all`  
 - **compose**
   - *The new Compose V2, which supports the compose command as part of the Docker CLI, is now available.*
   - *Run docker compose up and the Docker compose command starts and runs your entire app. You can alternatively run docker-compose up using Compose standalone (docker-compose binary).*
