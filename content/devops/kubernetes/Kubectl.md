@@ -45,10 +45,12 @@ grand_parent: DevOps
 - **describe**
   - `kubectl describe pod <pod>`
 - **edit**
-  - *edit deployment configurations*
+  - *edit deployment configurations* (öffnet Texteditor)
   - `kubectl edit deployment nginx`
 - **exec**
   - `kubectl exec -it <pod> -- /bin/sh`
+- **explain**
+  - `kubectl explain Pod.spec`
 - **expose**
   - Erzeugt einen Service, um einen Pod oder ein Deployment zu exposen
   - `kubectl expose deploy --name=<name> --port=<number> --targetPort=<number>`
@@ -58,14 +60,21 @@ grand_parent: DevOps
 - **get**
   - `kubectl get all|nodes|ns|pods|services|deployments|replicasets|events|endpoints|...`
   - `get all` listet nicht alle Ressourcen! => `kubectl get all,cm,ing,...` (`kubectl api-resources --verbs=list`) (<https://github.com/kubernetes/kubectl/issues/151>)
-  - `get pods --all-namespaces --output wide --selector=foo=bar`
+  - `get pods --all-namespaces --output wide --selector=foo=bar --watch`
   - `get pods -n <ns> | get pods --namespace=<ns>`
   - `get pod <podname> -o wide`
   - `get pod <podname> -o yaml > pod.yaml`
+  - mit Labels
+    - `get pods -l 'env in (dev, test)' --show-labels`
+    - `get pods -l foo=bar --show-labels`
 - **kustomize**
-  - gibt den von kustomize generierten Inhalt aus (Dry-Run)  
+  - gibt den von kustomize generierten Inhalt aus (Dry-Run)
+- **label**
+  - updated Labels einer Ressource 
 - **logs**
-  - `kubectl logs [--previous] <pod>`
+  - `kubectl logs [--previous] [--tail=<n>] [--follow] <pod>`
+  - bei CrashLoopBackoff: `kubectl logs deployment/foo --all-containers`
+- **patch**
 - **port-forward**
   - *in Kubernetes, every pod gets its own ip address from 10.*, that is usable only within the cluster. Now, the port-forward feature of kubectl simply tunnels the traffic from a specified port at your local host machine to the specified port on the specified pod. API server then becomes, in a sense, a temporary gateway between your local port and the Kubernetes cluster*
   - *kubectl port-forward is more generic as it can forward TCP traffic while kubectl proxy can only forward HTTP traffic.*
@@ -80,6 +89,8 @@ grand_parent: DevOps
 - **run**
   - Pod starten (imperativ) 
   - `run <podname> --image=<image> [-it] -- /bin/sh -c "..."`
+- **scale**
+  - `--replicas=<n>` 
 - **top**
 - **wait**
   - `--selector=foo=bar --timeout=10s --for-condition=ready pod`
