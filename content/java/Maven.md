@@ -334,6 +334,26 @@ parent: Java
   - *This Maven Plugin does two things. First, it automatically transforms your Maven dependency graph into Java modules. Second, it bridges Maven and built-in Java tools like jdeps, jlink, and jpackage.*
   - *makes it much, much easier to generate native Java desktop applications with nice, small installers.*
   - <https://github.com/wiverson/jtoolprovider-plugin> *12
+- **kubernetes** (jkube)
+  - Goals
+    - apply
+    	- *applies the resources created with k8s:resource to a connected Kubernetes cluster. It’s similar to k8s:deploy but does not the full deployment cycle of creating the resource, creating the application image and sending the resource descriptors to the clusters.*  
+    - resource
+    	- *Create Kubernetes resource descriptors* 
+    - build
+    - push
+    - deploy
+    	- *main goal for building your docker image, generating the kubernetes resources and deploying them into the cluster*
+    - watch
+    	- *reacting to code changes to automatically recreate images or copy new artifacts into running containers*
+    - helm
+    - log
+    - debug
+    - remote-dev
+    	- Preview-Feature (03/23)
+    	- *allows you to run and debug code in your local machine: While connected to and consuming services that are only available in your cluster, While exposing your locally running application to other Pods and services running on your cluster* 
+  - <https://github.com/eclipse/jkube/tree/master/kubernetes-maven-plugin> 
+  - <https://www.eclipse.org/jkube/docs/kubernetes-maven-plugin/> 
 - **license**
   - <http://www.mojohaus.org/license-maven-plugin>
   - *generate your projects license file from your project and dependencies*
