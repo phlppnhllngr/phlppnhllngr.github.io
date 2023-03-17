@@ -119,4 +119,9 @@ grand_parent: DevOps
   - *collection of plugins and libraries that are used for building container images using Docker, JIB or S2I build strategies. Eclipse JKube generates and deploys Kubernetes/OpenShift manifests at compile time too.*
   - *also provides a set of tools such as watch, debug, log, etc. to improve your developer experience*
   - <https://github.com/eclipse/jkube>
-  - <https://github.com/eclipse/jkube#kubernetes-maven-plugin>
+  - Maven Plugin -> Java/Maven/Plugins/kubernetes
+- **Dekorate**
+  - *Tools for generating Kubernetes related manifests via annotation processing*
+  - Integrations: SpringBoot, Quarkus, Generic Java
+  - JUnit-Support
+  - <https://github.com/dekorateio/dekorate>
