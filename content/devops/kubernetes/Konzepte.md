@@ -204,14 +204,19 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - *accessed via environment variables or properties file*
 - Pod muss neu gestartet werden, um Änderungen zu sehen. ConfigMaps können aber auch als File gemounted werden, dann "live".
 - <https://kubernetes.io/docs/concepts/configuration/configmap/>
-- 
 
 ### Secret
 - *like ConfigMap, for secret data (credentials, certificates)*
 - *stored in Base64*
 - Sonderfall `Pod.spec.imagePullSecrets`
 
-### Persistent Volume
+### Storage
+- <https://medium.com/devops-mojo/kubernetes-storage-options-overview-persistent-volumes-pv-claims-pvc-and-storageclass-sc-k8s-storage-df71ca0fccc3>
+  - *PV — low level representation of a storage volume. abstraction for the physical storage device that attached to the cluster. PV is not Namespaced, it is available to whole cluster. can be provisioned dynamically using Storage Classes, or they can be explicitly created by a cluster administrator.*
+  - *PVC — binding between a Pod and Persistent Volume. PVC must be in same namespace as the Pod.*
+  - *SC — allows for dynamic provisioning of Persistent Volumes. abstracts underlying storage provider. use provisioners that are specific to the storage platform or cloud provider to give Kubernetes access to the physical storage.*
+
+#### Persistent Volume
 - *for persistent data*
 - *attaches physical storage to pod*
 - *storage is on local node or remote (outside of k8s cluster)*
@@ -232,11 +237,13 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
     - deprecated 
   - <https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaiming>
 - Access Modes
-  - ReadWriteMany
-  - ReadOnlyMany
-  - ReadWriteOnce 
+  - ReadWriteMany - volume can be mounted as read-write by a single node
+  - ReadOnlyMany - volume can be mounted read-only by many nodes
+  - ReadWriteOnce - volume can be mounted as read-write by a single node
+  - ReadWriteOncePod - volume can be mounted as read-write by a single Pod
+  - <https://kubernetes.io/docs/concepts/storage/persistent-volumes/#access-modes>
 
-### StorageClass
+#### StorageClass
 - *provides a way for administrators to describe the "classes" of storage they offer. Different classes might map to quality-of-service levels, or to backup policies, or to arbitrary policies determined by the cluster administrators.*
 - Reclaim Policies
   - Retain
@@ -244,7 +251,7 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - `privisioner`: z. B. `kubernetes.io/azure-disk`
 - <https://kubernetes.io/docs/concepts/storage/storage-classes/>
 
-### Persistent Volume Claim
+#### Persistent Volume Claim
 - Das PVC kann ein Persistent Volume oder eine StorageClass referenzieren
 - Ein PV kann nur ein einziges Mal geclaimed werden (Speicher ggf. verschwendet), eine StorageClass mehrmals
 
