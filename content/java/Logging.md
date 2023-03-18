@@ -62,6 +62,9 @@ parent: Java
   - *opinionated backend for slf4j that focuses on doing one thing right: Logging structured logs in json format to the console.*
   - *built targeting JVM 17+*
   - <https://github.com/hkupty/penna>
+- **maple**
+  - *Type-safe, consistently named and formatted, structured logging wrapper for SLF4J that's ideally suited for your logging aggregator*
+  - <https://github.com/Randgalt/maple>
 
 
 ## Mapped Diagnostic Context (MDC)
