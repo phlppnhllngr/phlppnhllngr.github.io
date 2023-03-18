@@ -119,4 +119,8 @@ parent: Diverses
 - **Lightdash**
   - *The open-source Looker alternative* 
   - <https://github.com/lightdash/lightdash> 
-
+- **Rath**
+  - *Augmented analytic engine for discovering patterns, insights, and causals. A fully-automated way to explore your data set and visualize your data with one click.*
+  - *interactive data dashboard (including a automated dashboard designer which can provide suggestions to your dashboard).*
+  - *Import data from online databases or CSV/JSON files.*
+  - <https://github.com/Kanaries/Rath>
