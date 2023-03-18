@@ -4,6 +4,7 @@ parent: Diverses
 ---
 
 # Dokumente
+- <https://en.wikipedia.org/wiki/Dublin_Core>
 
 ## DMS
 - **seeddms**
@@ -66,9 +67,9 @@ parent: Diverses
   - <https://www.webmerge.me/>
   - *document generation, based on templates*
 - **Pandoc**
-  - <https://github.com/jgm/pandoc>
+  - <https://github.com/jgm/pandoc> <img loading="lazy" src="https://img.shields.io/github/stars/jgm/pandoc?style=flat-square"/>
   - *Universal markup converter*
-  - *to/from docx, html, marldown, pdf, ...*
+  - *to/from docx, html, markdown, pdf, ...*
 - **Docupilot** 💰
   - *document templates + webservice integration*
   - <https://docupilot.app/>
@@ -110,13 +111,13 @@ parent: Diverses
   - *extracts relevant data fields from your documents based on parsing rules which are 100% tailored to your needs. Creating parsing rules for our PDF and Document Parser is easy and requires zero coding*
   - *can automatically fetch PDF files and scanned images from various sources*
 - **camelot**
-  - <https://github.com/camelot-dev/camelot> *515
+  - <https://github.com/camelot-dev/camelot> <img loading="lazy" src="https://img.shields.io/github/stars/camelot-dev/camelot?style=flat-square"/>
   - *Python library to extract tabular data from PDFs*
 - **excalibur**
   - <https://github.com/camelot-dev/excalibur/>
   - *web interface to extract tabular data from PDFs*
 - **pdfminer.six**
-  - <https://github.com/pdfminer/pdfminer.six> *1.6k
+  - <https://github.com/pdfminer/pdfminer.six> <img loading="lazy" src="https://img.shields.io/github/stars/pdfminer/pdfminer.six?style=flat-square"/>
   - *tool for extracting information from PDF documents. It focuses on getting and analyzing text data.*
   - Python
 - **pdfplumber**
