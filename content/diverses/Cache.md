@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
-title: 'Cache'
-created: '2019-10-16T21:30:33.994Z'
-modified: '2019-12-01T14:46:06.390Z'
+title: Cache
 parent: Diverses
 ---
 
@@ -16,3 +13,7 @@ parent: Diverses
 - **Apache Ignite**
   - <https://ignite.apache.org/>
   - <https://github.com/apache/ignite> *2600
+- **Dragonfly**
+  - *fully compatible with the Redis and Memcached APIs*
+  - nach eigenen Angaben performanter als andere
+  - <https://github.com/dragonflydb/dragonfly>
