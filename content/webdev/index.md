@@ -40,6 +40,12 @@ has_children: true
   - <https://caniuse.com/>
 
 
+## Frameworks
+- Pynecone
+  - *full-stack Python framework*
+  - <https://github.com/pynecone-io/pynecone>
+
+
 ## Recorder
 - **Chrome Recorder Panel**
   - <https://www.youtube.com/watch?v=rMUayh1QPYs>
