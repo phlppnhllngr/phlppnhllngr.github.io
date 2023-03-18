@@ -182,6 +182,11 @@ parent: Diverses
 - **Violentmonkey**
   - *provides userscripts support for browsers* 
   - <https://github.com/violentmonkey/violentmonkey>
+- **YoBulk**
+  - *Data exchange platform for all businesses that run on CSV files*
+  - anpassbares Importieren von CSV in DB
+  - *To Developers, we would like to offer a "bring your own validations"(BYOV) and "bring your own database"(BYOD) experience.*
+  - <https://github.com/yobulkdev/yobulkdev>
 
 
 ## Passwort-Manager
