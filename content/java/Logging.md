@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Logging
-created: '2019-02-20T20:37:28.471Z'
-modified: '2021-09-05T12:20:34.910Z'
 parent: Java
 ---
 
@@ -60,7 +57,11 @@ parent: Java
 - **tinylog**
   - *lightweight logging framework for Java, Kotlin, Scala, and Android*
   - *is significantly faster than other logging frameworks, as can be seen in the [benchmark](https://tinylog.org/v2/benchmark/).* 
-  - <https://github.com/tinylog-org/tinylog> 
+  - <https://github.com/tinylog-org/tinylog>
+- **penna**
+  - *opinionated backend for slf4j that focuses on doing one thing right: Logging structured logs in json format to the console.*
+  - *built targeting JVM 17+*
+  - <https://github.com/hkupty/penna>
 
 
 ## Mapped Diagnostic Context (MDC)
