@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Libs
-created: '2019-02-05T09:26:23.888Z'
-modified: '2021-09-13T12:25:48.807Z'
 parent: Java
 ---
 
@@ -81,6 +78,7 @@ parent: Java
     - <https://projectreactor.io/docs/core/release/reference/#metrics>
     - <https://projectreactor.io/docs/core/release/reference/#debugging>
     - <https://projectreactor.io/docs/core/release/reference/#testing>
+  - <https://github.com/schananas/practical-reactor>
 - **RxJava**
   - *Reactive Extensions for the JVM*
   - *extends the observer pattern to support sequences of data/events and adds operators that allow you to compose sequences together declaratively while abstracting away concerns about things like low-level threading, synchronization, thread-safety and concurrent data structures.*
