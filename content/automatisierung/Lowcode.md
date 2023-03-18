@@ -153,6 +153,10 @@ parent: Automatisierung
   - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
 - **Activepieces**
   - <https://github.com/activepieces/activepieces> <img loading="lazy" src="https://img.shields.io/github/stars/activepieces/activepieces?style=flat-square"/>
+- **Total.js Flow**
+  - JS-basiert, als 1 Docker-Image verfügbar
+  - <https://github.com/totaljs/flow>
+  - <https://www.totaljs.com/flow/>
 - **Microsoft Power Automate** 💰
   - <https://flow.microsoft.com/de-de/>
 - **uipath** 💰
