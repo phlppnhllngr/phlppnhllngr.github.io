@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Maven
-created: '2019-10-18T22:17:45.107Z'
-modified: '2021-09-13T13:34:01.077Z'
 parent: Java
 ---
 
@@ -377,6 +374,9 @@ parent: Java
   - <details>
       <summary>license.xml</summary>
     </details>
+- **licensescan**
+  - *for analysing the licenses in dependencies and transitive dependencies, asserting compatibility and potentially fail the build if forbidden licenses appear*
+  - <https://github.com/carlomorelli/LicenseScan-Maven-Plugin>
 - **m2e-lifecycle-mapping**
   - kein eigentliches Plugin
   - damit können Plugins, die eigentlich an keine Phase gebunden sind (gebunden werden können), an eine gebunden werden
