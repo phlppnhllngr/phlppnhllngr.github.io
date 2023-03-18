@@ -321,3 +321,6 @@ parent: Diverses
 - **LangChain**
   - *... using these LLMs in isolation is often not enough to create a truly powerful app - the real power comes when you can combine them with other sources of computation or knowledge. This library is aimed at assisting in the development of those types of applications.*
   - <https://github.com/hwchase17/langchain> 
+- **CodeComplete**
+  - self-hostbare Alternative zu GH Copilot
+  - <https://news.ycombinator.com/item?id=35152851>
