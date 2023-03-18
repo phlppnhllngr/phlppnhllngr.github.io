@@ -223,7 +223,10 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://github.com/aaberg/sql2o>
 - **TSID Creator**
   - *A Java library for generating Time-Sorted Unique Identifiers (TSID). It brings together ideas from Twitter's Snowflake and ULID Spec.* 
-  - <https://github.com/f4b6a3/tsid-creator> 
+  - <https://github.com/f4b6a3/tsid-creator>
+- **FriendlyID**
+  - *converts a given UUID (with 36 characters) to a URL-friendly ID (a "FriendlyID") which is based on Base62 (with a maximum of 22 characters)*
+  - <https://github.com/Devskiller/friendly-id>
 
 
 ## Test
