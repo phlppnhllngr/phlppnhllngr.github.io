@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Webdev]
 title: Devserver
-created: '2019-02-14T20:07:51.438Z'
-modified: '2021-09-05T12:16:56.294Z'
 parent: Webdev
 ---
 
@@ -77,3 +74,14 @@ parent: Webdev
   - *combination of a reverse proxy and a tunnel manager*
   - *Designed from the ground up with self-hosters in mind.*
   - <https://github.com/boringproxy/boringproxy>
+- **cloudflare tunnel**
+  - *allow remote access to services running on your local machine. It is an alternative to popular tools like Ngrok, and provides free, long-running tunnels via the TryCloudflare service.*
+  - <https://developers.cloudflare.com/pages/how-to/preview-with-cloudflare-tunnel>
+- **zrok**
+  - *Like other offerings in this space, zrok allows users to create ephemeral reverse proxies ("tunnels") for http resources.*
+  - *rather than just proxying http endpoints, zrok allows users to easily and rapidly share files and web content*
+  - *zrok.io is a public service instance operated by NetFoundry using the same code base that is available to self-hosted environments.*
+  - <https://github.com/openziti/zrok>
+- **tunnelmole**
+  - *simple tool to give your locally running HTTP(s) servers a public URL such as https://df34.tunnelmole.com*
+  - <https://github.com/robbie-cahill/tunnelmole-client>
