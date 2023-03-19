@@ -49,8 +49,11 @@ grand_parent: Java
   - native-image
   - Buildpack-Parameter
   - *Buildpacks are opinionated and like any opinionated tech it gives us some defaults*
-  -
- 
+- <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=2>
+  - Spring Boot, Paketo-CLI (pack), Paketo-Konfig (buildpack.yaml), Bindings
+- <https://eggboy.medium.com/creating-spring-boot-images-with-cloud-native-buildpacks-for-azure-container-platforms-62c7a6f187de>
+  - Buildpacks+JMX, Java-Version
+
 
 ## Codegeneratoren, Meta-Frameworks
 - **jhipster**
