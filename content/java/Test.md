@@ -176,6 +176,9 @@ parent: Java
 ## Integration
 - **Testcontainers**
   - <http://testcontainers.org>
+- **LogCaptor**
+  - *captures log entries for unit and integration testing purposes* 
+  - <https://github.com/Hakky54/log-captor> 
 
 
 ## Assertations & Matchers
