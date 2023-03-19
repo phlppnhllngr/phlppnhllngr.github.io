@@ -176,6 +176,7 @@ parent: Java
 ## Integration
 - **Testcontainers**
   - <http://testcontainers.org>
+  - <https://foojay.io/today/faster-integration-tests-with-reusable-testcontainers/>
 - **LogCaptor**
   - *captures log entries for unit and integration testing purposes* 
   - <https://github.com/Hakky54/log-captor> 
