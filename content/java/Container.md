@@ -150,3 +150,7 @@ parent: Java
   ```
 - *You shouldn't use `ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS"]`: The main problem with it is that with this approach you application <mark>won't receive the sigterm</mark> so in case of graceful shutdown it won't work for you (you will find more about the problem here if you are not aware about that)*
 - *If you want customize the java opts on docker environments use JAVA_TOOL_OPTIONS environment property and ENTRYPOINT ["java", ...] With this property you can declare your expected options even in Dockerfile like: ENV JAVA_TOOL_OPTIONS "-XX:MaxRAMPercentage=80"*
+
+
+## Buildpacks
+- <https://buildpacks.io/features/>
