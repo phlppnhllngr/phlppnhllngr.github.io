@@ -63,7 +63,16 @@ grand_parent: DevOps
   - <https://docs.docker.com/develop/develop-images/build_enhancements/>
 - **buildpacks**
   - <https://buildpacks.io>
+  - <https://buildpacks.io/features/>
   - *transform your application source code into images that can run on any cloud*
+  - Rebase
+    - *allows app developers or operators to rapidly update an app image when its stack's run image has changed*
+    - *avoids the need to fully rebuild the app.*
+    - <https://buildpacks.io/docs/concepts/operations/rebase/>
+  - Paketo
+    - *Paketo Buildpacks implement the Buildpack API described in the Cloud Native Buildpacks Specification*
+    - Buildpacks für Java, Spring Boot, Node, Go, ...
+    - <https://paketo.io/docs/>
 - **syft**
   - *CLI tool and library for generating a Software Bill of Materials from container images and filesystems*
   - *Exceptional for vulnerability detection when used with a scanner tool like Grype.*
@@ -82,9 +91,6 @@ grand_parent: DevOps
   - *Reverse engineer Docker images into Dockerfiles.*
   - *Similar to how the `docker history` command works, Dedockify is able to re-create the Dockerfile (approximately) that was used to generate an image using the metadata that Docker stores alongside each image layer.*
   - <https://github.com/mrhavens/Dedockify>
-- **dockle**
-  - *Container Image Linter for Security*
-  - <https://github.com/goodwithtech/dockle>
 
 
 ## GUIs
@@ -122,3 +128,6 @@ grand_parent: DevOps
 - **grype**
   - *A vulnerability scanner for container images and filesystems*
   - <https://github.com/anchore/grype>
+- **dockle**
+  - *Container Image Linter for Security*
+  - <https://github.com/goodwithtech/dockle>
