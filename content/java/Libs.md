@@ -53,10 +53,6 @@ parent: Java
   - <https://github.com/LMAX-Exchange/disruptor>
   - *concurrent programming framework for the processing of a large number of transactions, with low-latency*
   - *faster than ArrayBlockingQueue and LinkedBlockingQueue*
-- **jobrunr**
-  - <https://github.com/jobrunr/jobrunr>
-  - *perform background processing on the JVM. Dead simple API. Extensible. Reliable.*
-  - *perform fire-and-forget, delayed and recurring jobs inside Java applications using only Java 8 lambda's*
 - **RSocket**
   - <https://github.com/rsocket/rsocket-java>
   - *async binary messaging*
@@ -67,6 +63,18 @@ parent: Java
 - **Chronicle Threads**
   - Event Loop 
   - <https://github.com/OpenHFT/Chronicle-Threads>
+
+### Scheduling
+- **Quartz**
+  - <https://github.com/quartz-scheduler/quartz> 
+- **jobrunr**
+  - <https://github.com/jobrunr/jobrunr>
+  - *perform background processing on the JVM. Dead simple API. Extensible. Reliable.*
+  - *perform fire-and-forget, delayed and recurring jobs inside Java applications using only Java 8 lambda's*
+- **db-scheduler**
+  - *inspired by the need for a clustered java.util.concurrent.ScheduledExecutorService simpler than Quartz.*
+  - *Requires a single database-table for persistence* 
+  - <https://github.com/kagkarlsson/db-scheduler> 
 
 ### Reactive
 - **Reactor**
