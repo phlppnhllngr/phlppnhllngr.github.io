@@ -70,4 +70,9 @@ parent: DevOps
     - *Analyzes resource usage and performance characteristics of running containers.*
     - *It is a running daemon that collects, aggregates, processes, and exports information about running containers. Specifically, for each container it keeps resource isolation parameters, historical resource usage, histograms of complete historical resource usage and network statistics. This data is exported by container and machine-wide.*
     - *exposes a web UI* 
-    - <https://github.com/google/cadvisor> 
+    - <https://github.com/google/cadvisor>
+- **dumb-init**
+    - *simple process supervisor and init system designed to run as PID 1 inside minimal container environments (such as Docker)*
+    - *omitting an init system often leads to incorrect handling of processes and signals, and can result in problems such as containers which can't be gracefully stopped, or leaking containers which should have been destroyed.*
+    - *Normally, when you launch a Docker container, the process you're executing becomes PID 1, giving it the quirks and responsibilities that come with being the init system for the container. There are two common issues this presents: In most cases, signals won't be handled properly. Orphaned zombie processes aren't properly reaped.* 
+    - <https://github.com/Yelp/dumb-init> 
