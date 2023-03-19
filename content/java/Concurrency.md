@@ -6,6 +6,7 @@ parent: Java
 # Concurrency
 - <https://www.baeldung.com/java-stop-execution-after-certain-time>
 - <https://gist.github.com/djspiewak/46b543800958cf61af6efa8e072bfd5c>
+- <https://engineering.zalando.com/posts/2019/04/how-to-set-an-ideal-thread-pool-size.html>
 
 ## Keywords
 - **volatile**
