@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Spring]
 title: Entwicklungstools
-created: '2019-02-10T19:11:12.051Z'
-modified: '2021-04-22T16:28:21.473Z'
 parent: Spring
 grand_parent: Java
 ---
@@ -41,6 +38,19 @@ grand_parent: Java
   - *is based on OpenRewrite*
   - <https://github.com/spring-projects-experimental/spring-boot-migrator> 
 
+
+## Build
+- <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=3>
+  - layered Jar, Buildpacks, beides in Kombination
+- <https://dev.to/sabyasachi/buildpack-with-spring-boot-300o>
+  - erklärt Builder, Buildpacks
+  - *Spring uses Packeto buildpack*
+  - *By default packeto uses bellsoft-liberica java distribution*
+  - native-image
+  - Buildpack-Parameter
+  - *Buildpacks are opinionated and like any opinionated tech it gives us some defaults*
+  -
+ 
 
 ## Codegeneratoren, Meta-Frameworks
 - **jhipster**
