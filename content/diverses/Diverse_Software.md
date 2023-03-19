@@ -187,6 +187,16 @@ parent: Diverses
   - anpassbares Importieren von CSV in DB
   - *To Developers, we would like to offer a "bring your own validations"(BYOV) and "bring your own database"(BYOD) experience.*
   - <https://github.com/yobulkdev/yobulkdev>
+- **Xtext**
+  - *framework for development of programming languages and domain-specific languages*
+  - *define your language using a powerful grammar language. As a result you get a full infrastructure, including parser, linker, typechecker, compiler as well as editing support for Eclipse, any editor that supports the Language Server Protocol and your favorite web browser.*
+  - <https://www.eclipse.org/Xtext/>
+- **Langium**
+  - *language engineering tool with first-class support for the Language Server Protocol, written in TypeScript and running in Node.js*
+  - *enables domain-specific languages in VS Code, Eclipse Theia, web applications, and more*
+  - *aims to lower the barrier to entry for creating a language by removing the technical complexity, allowing you to focus on your domain’s requirements*
+  - <https://langium.org/>
+  - <https://github.com/langium/langium>
 
 
 ## Passwort-Manager
