@@ -118,7 +118,14 @@ parent: Java
 - [Secrets of Performance Tuning Java on Kubernetes - (Bruno Borges - Microsoft), 09/22](https://vimeo.com/748031919)
 - Kubernetes: *As a general rule, requests.memory should be equal to limits.memory. Then, instead of using Xms and Xmx, I like to use XX:MaxRAMPercentage=75*
 - *many of the concurrent benefits from the default G1 garbage collector on recent Java virtual machines (JVMs) vanish when running with fewer than two cores. All those single-core instances may as well be using the serial collector—and paying the performance cost of that—but many probably don’t even know it.*
-  
+- <https://odedia.org/production-considerations-for-spring-on-kubernetes#heading-cpu-requests-and-limits>
+    - Graceful shutdown: <https://odedia.org/production-considerations-for-spring-on-kubernetes#heading-configuring-graceful-shutdown>
+    - Prevent new requests coming to a pod that shuts down: <https://odedia.org/production-considerations-for-spring-on-kubernetes#heading-prevent-new-requests-coming-to-a-pod-that-shuts-down>
+    - CPU Requests and Limits: <https://odedia.org/production-considerations-for-spring-on-kubernetes#heading-cpu-requests-and-limits>
+        - *Always set memory limit == request, Never set CPU limit* (*Tim Hockin, one of the original founders of the Kubernetes project at Google*)
+        - *The important setting is the CPU requests - this will tell Kubernetes how many resources to allocate for your workload at a minimum.*
+        - *Don't let the JVM decide the number of active processors automatically. Profile the actual usage needed for your app, and just set it yourself as part of the JAVA_TOOL_OPTIONS parameter -XX:ActiveProcessorCount. You have the power, and the JVM will honor the setting regardless of how many actual vCPUs are given to it by the container. You can set the CPU requests to 2000 millicores, and the ActiveProcessorCount to 4 for bursting. It will work.*
+
 
 ## Environment & JVM-properties
 - Env-Vars können keine "." enthalten;
