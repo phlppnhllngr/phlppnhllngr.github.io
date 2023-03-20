@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Docker]
 title: Images - Varianten
-created: '2019-02-14T20:19:30.421Z'
-modified: '2021-04-02T14:37:12.937Z'
 parent: Docker
 grand_parent: DevOps
 ---
@@ -14,6 +11,13 @@ grand_parent: DevOps
   - Image enthält <u>nichts</u>. Funktioniert trotzdem, da jede Container-Instance ein "root filesystem (rootfs)" vom Host bekommt (/etc, /proc, ... aber z.B. keine Shell)
 - **slim**
   - headless, ohne Entwicklungstools
+- **Linux; libc**
+  - *There are two popular implementations for the libc interface* 
+  - glibc (GNU libc)
+    - enthalten in: Ubuntu, Debian, CentOS, RHEL, SUSE, ...
+    - *downside is that it is a fairly large and heavy codebase*
+  - musl
+    - *newer implementation of the library. Used by Alpine Linux, it is much smaller in size compared to GNU libc and is meant to be lightweight, fast and simple. However, there are caveats. Musl libc actually has functional differences compared to GNU libc - things like regular expressions, EOF and multithreading could behave differently based on the implementation.* 
 - **alpine**
   - 4 MB
   - *Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.*
@@ -21,6 +25,7 @@ grand_parent: DevOps
 - **ubuntu**
   - 120 MB
   - Paketmanager: apt
+  - 22.04 LTS: jammy jellyfish
 - **debian**
   - 9: stretch
   - 10: buster
