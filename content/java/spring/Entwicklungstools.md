@@ -10,20 +10,6 @@ grand_parent: Java
   - <https://bsideup.github.io/posts/local_development_with_testcontainers/>
   - ^sollte man wahrscheinlich mit `@Profile` verbinden
 - [devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools)
-- **Maven-Plugin**
-  - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/>
-  - <https://www.baeldung.com/spring-boot-repackage-vs-mvn-package>
-  - Goals
-    - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#?> 
-    - run
-      - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-run> 
-    - build-image
-      - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image>
-      - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#build-image.customization>
-      - <https://www.baeldung.com/spring-boot-docker-images#buildpacks> 
-    - repackage
-      - *Repackage existing JAR and WAR archives so that they can be executed from the command line using java -jar. With layout=NONE can also be used simply to package a JAR with nested dependencies (and no main class, so not executable).*
-      - `mvn clean package spring-boot:repackage`
 - **ReBoot**
   - *refactoring tool to automatically apply best practices in Java / Spring-Boot applications*
   - <https://github.com/thanus/reboot>
@@ -37,24 +23,6 @@ grand_parent: Java
   - *allows developers to convert existing, non Spring Boot applications, which are based on technologies such as JAX-RS, EJB and JMS to Spring Boot or upgrade older Spring Boot applications to the latest version*
   - *is based on OpenRewrite*
   - <https://github.com/spring-projects-experimental/spring-boot-migrator> 
-
-
-## Build
-
-### Cloud Native Buildpacks
-- <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=3>
-  - layered Jar, Buildpacks, beides in Kombination
-- <https://dev.to/sabyasachi/buildpack-with-spring-boot-300o>
-  - erklärt Builder, Buildpacks
-  - *Spring uses Packeto buildpack*
-  - *By default packeto uses bellsoft-liberica java distribution*
-  - native-image
-  - Buildpack-Parameter
-  - *Buildpacks are opinionated and like any opinionated tech it gives us some defaults*
-- <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=2>
-  - Spring Boot, Paketo-CLI (pack), Paketo-Konfig (buildpack.yaml), Bindings
-- <https://eggboy.medium.com/creating-spring-boot-images-with-cloud-native-buildpacks-for-azure-container-platforms-62c7a6f187de>
-  - Buildpacks+JMX, Java-Version
 
 
 ## Codegeneratoren, Meta-Frameworks
