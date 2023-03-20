@@ -7,6 +7,7 @@ parent: Java
 
 ## Base-Images
 -> Docker/Images/Varianten
+- *Until fairly recent versions, the JVM relied on features that were only available in GNU libc, and modifications had to be made to support the Musl implementation. Starting with Java 16, both implementations are supported*
 - ~~adoptopenjdk~~ deprecated -> temurin
 - **gcr.io/distroless**
     - *contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution*
