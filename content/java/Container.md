@@ -7,10 +7,6 @@ parent: Java
 
 ## Base-Images
 -> Docker/Images/Varianten
-- Linux; C-Lib
-    - ubuntu, debian: glibc
-    - alpine: musl
-    - alpaquita: musl oder glibc
 - ~~adoptopenjdk~~ deprecated -> temurin
 - **gcr.io/distroless**
     - *contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution*
@@ -63,7 +59,7 @@ parent: Java
     - <https://hub.docker.com/r/bellsoft/liberica-openjre-alpine>
   - **runtime-container**
     - *Alpaquita based image for Liberica JDK and JRE.*
-    - glibc oder musl
+    - Alpaquita gibt es mit glibc oder musl
     - <https://hub.docker.com/r/bellsoft/liberica-runtime-container>
 - **eclipse-temurin**
     - *JRE images are available for all versions of Eclipse Temurin but it is recommended that you produce a custom JRE-like runtime using jlink*
