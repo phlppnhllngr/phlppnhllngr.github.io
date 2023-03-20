@@ -165,6 +165,7 @@ parent: Java
   - *Enabling NMT causes a 5% -10% performance overhead*
   - <https://docs.oracle.com/en/java/javase/18/troubleshoot/diagnostic-tools.html#GUID-1F53A50E-86FF-491D-A023-8EC4F1D1AC77>
 - **+/-PrintNMTStatistics**
+- **ActiveProcessorCount**
 
 
 ## Memory
