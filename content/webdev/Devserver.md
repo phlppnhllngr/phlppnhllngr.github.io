@@ -20,6 +20,9 @@ parent: Webdev
 - **web-dev-server**
   - vorher: "es-dev-server"
   - <https://modern-web.dev/docs/dev-server/overview/>
+- **Toxiproxy**
+  - *A TCP proxy to simulate network and system conditions for chaos and resiliency testing* 
+  - <https://github.com/Shopify/toxiproxy> 
 
 
 ## https
