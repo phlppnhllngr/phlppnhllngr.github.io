@@ -64,7 +64,7 @@ has_children: true
 
 
 ## Diverse Tools
-- <https://toolkit.addy.codes/<>
+- <https://toolkit.addy.codes/>
   - *531 hand-picked tools & resources for web designers & developers*
 - **hoard.fyi**
   - <https://hoard.fyi/>
@@ -84,3 +84,7 @@ has_children: true
   - Chromium-basierter Browser für mobile development
   - <https://blisk.io/>
   - freemium
+- **staticrypt**
+  - *Password protect a static HTML page*
+  - *uses AES-256 to encrypt your HTML file with your long password and return a static page including a password prompt and the javascript decryption logic that you can safely upload anywhere (see what the page looks like). This means you can password protect the content of your public static HTML file, without any back-end* 
+  - <https://github.com/robinmoisson/staticrypt> 
