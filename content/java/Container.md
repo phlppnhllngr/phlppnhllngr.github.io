@@ -125,6 +125,7 @@ parent: Java
         - *Always set memory limit == request, Never set CPU limit* (*Tim Hockin, one of the original founders of the Kubernetes project at Google*)
         - *The important setting is the CPU requests - this will tell Kubernetes how many resources to allocate for your workload at a minimum.*
         - *Don't let the JVM decide the number of active processors automatically. Profile the actual usage needed for your app, and just set it yourself as part of the JAVA_TOOL_OPTIONS parameter -XX:ActiveProcessorCount. You have the power, and the JVM will honor the setting regardless of how many actual vCPUs are given to it by the container. You can set the CPU requests to 2000 millicores, and the ActiveProcessorCount to 4 for bursting. It will work.*
+        - *Good starting points for JVM workloads: scale up before you scale out (not counting replicas used for resilience), 2000m cores and 2GB RAM, explicitly set active processor count & jvm memory settings, set cpu request but not limits, set memory requests == memory limits -- Adib Saikali (Code Janitor and Global Field Principal Engineer OCTO) @VMwareTanzu*
 
 
 ## Environment & JVM-properties
