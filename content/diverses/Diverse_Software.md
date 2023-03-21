@@ -334,3 +334,17 @@ parent: Diverses
 - **CodeComplete**
   - self-hostbare Alternative zu GH Copilot
   - <https://news.ycombinator.com/item?id=35152851>
+- **Huggingface**
+  - <https://github.com/huggingface/transformers>
+  - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
+  - *models can also perform tasks on several modalities combined, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.*
+  - *provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub.*
+- **LlamaIndex**
+  - *provides a central interface to connect your LLM's with external data.*
+  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
+  - <https://github.com/jerryjliu/llama_index>
+- **OpenChatKit**
+  - *provides a base to create both specialized and general purpose chatbots for various applications.*
+  - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
+  - <https://github.com/togethercomputer/OpenChatKit>
+
