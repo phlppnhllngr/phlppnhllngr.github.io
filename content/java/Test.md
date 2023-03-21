@@ -177,6 +177,11 @@ parent: Java
 - **Testcontainers**
   - <http://testcontainers.org>
   - <https://foojay.io/today/faster-integration-tests-with-reusable-testcontainers/>
+  - Toxiproxy
+    - *allows testing and simulating network failure scenarios*
+    - *can simulate are latency, bandwidth restrictions, and complete failures*
+    - <https://www.atomicjar.com/2023/03/developing-resilient-applications-with-toxiproxy-and-testcontainers/>
+    - auch ohne Testcontainers und für andere Sprachen erhältlich: <https://github.com/trekawek/toxiproxy-java> 
 - **LogCaptor**
   - *captures log entries for unit and integration testing purposes* 
   - <https://github.com/Hakky54/log-captor> 
