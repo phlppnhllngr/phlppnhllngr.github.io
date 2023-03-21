@@ -5,6 +5,10 @@ parent: Diverses
 
 # Linux
 
+## User
+- root hat immer User-ID 0, andere üblicherweise 1000+
+
+
 ## Berechtigungen
 - neue Datei erzeugen mit `touch foo`, `ls -l foo` zeigt dann die "permission bits", z.B.: `-rwxr-xr-x`
   - file type: `-` (`-` = regular file)
