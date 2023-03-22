@@ -166,6 +166,8 @@ parent: Java
   - <https://docs.oracle.com/en/java/javase/18/troubleshoot/diagnostic-tools.html#GUID-1F53A50E-86FF-491D-A023-8EC4F1D1AC77>
 - **+/-PrintNMTStatistics**
 - **ActiveProcessorCount**
+  - `-XX:ActiveProcessorCount=<number>`
+  - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()`
 
 
 ## Memory
