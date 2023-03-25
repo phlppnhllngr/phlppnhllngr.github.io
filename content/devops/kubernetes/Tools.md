@@ -113,7 +113,24 @@ grand_parent: DevOps
 - **DevSpace**
   - *Client-Only Developer Tool for Cloud-Native Development with Kubernetes*
   - *Build, test and debug applications directly inside Kubernetes. Develop with hot reloading: updates your running containers without rebuilding images or restarting containers.* 
-  - <https://github.com/loft-sh/devspace> 
+  - <https://github.com/loft-sh/devspace>
+- **Tanka**
+  - *configuration utility for your Kubernetes cluster, powered by the unique Jsonnet language*
+  - ```
+    local k = import "k.libsonnet";
+
+    {
+        grafana: k.apps.v1.deployment.new(
+            name="grafana",
+            replicas=1,
+            containers=[k.core.v1.container.new(
+                name="grafana",
+                image="grafana/grafana",
+            )]
+        )
+    }
+    ```  
+  - <https://tanka.dev/> 
 
 
 ## Java
