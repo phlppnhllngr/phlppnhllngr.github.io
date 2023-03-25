@@ -11,6 +11,13 @@ parent: Java
 - <https://blog.frankel.ch/faster-maven-builds/2>
 - <https://andresalmiray.com/a-pom-by-any-other-name/>
 
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
 
 ## CLI
 - options: <https://maven.apache.org/ref/current/maven-embedder/cli.html>
