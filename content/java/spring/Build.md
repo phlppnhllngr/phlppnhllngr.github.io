@@ -44,3 +44,5 @@ grand_parent: Java
   - *In Spring Boot 2.4 and above, there's an additional enhancement you get for free: The build-image process will also remove all the spring-boot-starter jars from the target image. These are really only needed at compilation time and not at runtime, so removing them results in smaller images and in better performance.*
   - *In Spring Boot 2.4 and above, you can configure your own custom registry for the target resulting image. Spring Boot will push the image to the remote registry for you as part of the build process*
   - *Starting in Spring Boot 2.5 and later - you can also customize the buildpack that is used to create the resulting image.*
+- <https://github.com/jonashackt/spring-boot-buildpack>
+  - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature*
