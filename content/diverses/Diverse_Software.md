@@ -134,9 +134,6 @@ parent: Diverses
       - *CLI, SDK, Toolkit for Teams app development*
       - *currently in Public Preview* (19.11.21)
       - <https://github.com/OfficeDev/TeamsFx>
-- **Airbyte**
-  - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
-  - <https://github.com/airbytehq/airbyte>
 - **Tabby**
   - *A terminal for the modern age*
   - *Runs on Windows, Mac and Linux*
@@ -277,3 +274,11 @@ parent: Diverses
   - *lightweight alternative to elasticsearch that requires minimal resources*
   - <https://github.com/zinclabs/zincsearch>
 
+
+## Data Integration
+- **Airbyte**
+  - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
+  - <https://github.com/airbytehq/airbyte>
+- **Seatunnel**
+  - *distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).* 
+  - <https://github.com/apache/incubator-seatunnel> 
