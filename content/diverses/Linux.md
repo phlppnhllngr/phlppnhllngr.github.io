@@ -4,6 +4,13 @@ parent: Diverses
 ---
 
 # Linux
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
 
 ## User
 - root hat immer User-ID 0, andere üblicherweise 1000+
@@ -154,10 +161,24 @@ parent: Diverses
 
 
 ## Distributionen
+- Ubuntu
+  - 22.04 LTS: jammy jellyfish
 - Oracle Linux
   - Paketmanager: yum
 - Debian
   - Paketmanager: dpkg
+  - 9: stretch
+  - 10: buster
+  - 11: bullseye
 - Linux Mint
   - *designed to work 'out of the box' and comes fully equipped with the apps most people need.*
   - <https://linuxmint.com/>
+
+
+## libc
+- *There are two popular implementations for the libc interface* 
+- glibc (GNU libc)
+  - enthalten in: Ubuntu, Debian, CentOS, RHEL, SUSE, ...
+  - *downside is that it is a fairly large and heavy codebase*
+- musl
+  - *newer implementation of the library. Used by Alpine Linux, it is much smaller in size compared to GNU libc and is meant to be lightweight, fast and simple. However, there are caveats. Musl libc actually has functional differences compared to GNU libc - things like regular expressions, EOF and multithreading could behave differently based on the implementation.* 
