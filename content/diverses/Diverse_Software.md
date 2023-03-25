@@ -279,6 +279,6 @@ parent: Diverses
 - **Airbyte**
   - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
   - <https://github.com/airbytehq/airbyte>
-- **Seatunnel**
+- **SeaTunnel**
   - *distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).* 
   - <https://github.com/apache/incubator-seatunnel> 
