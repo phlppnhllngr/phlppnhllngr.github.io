@@ -10,6 +10,7 @@ parent: Diverses
   - *Apache Kafka focuses on a pub/sub model, maintaining a separate log/topic from which consumers read from offsets. Kafka is also built for the cloud, with high-throughput a core consideration.*
   - *The chief difference with kafka is storage, <mark>it saves data ... Normally in message queues, the messages are removed after subscribers have confirmed their receipt</mark>.*
   - *Another thing different about kafka is that the topics are ordered (by date they were added). Not all message queues guarantee this.*
+  - <https://old.reddit.com/r/programming/comments/11pedkt/supercharge_your_kafka_clusters_with_consumer/.compact>
   - **UI for Apache Kafka**
     - <https://github.com/provectus/kafka-ui>
 - **chronicle-queue**
