@@ -4,6 +4,7 @@ parent: Java
 ---
 
 # Maven
+{: .no_toc }
 - <https://github.com/carlossg/docker-maven> (verschiedene Docker images mit Maven)
 - <https://www.reddit.com/r/java/comments/beytye/writing_a_full_featured_maven_pom>
 - <https://maven.apache.org/configure.html>
@@ -11,7 +12,6 @@ parent: Java
 - <https://blog.frankel.ch/faster-maven-builds/2>
 - <https://andresalmiray.com/a-pom-by-any-other-name/>
 
-{: .no_toc }
 
 ## Inhalt
 {: .no_toc }
