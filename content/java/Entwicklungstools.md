@@ -192,3 +192,7 @@ parent: Java
 - **Quiltflower**
   - *general purpose decompiler focused on improving code quality, speed, and usability. Quiltflower is a fork of Fernflower and Forgeflower.*
   - <https://github.com/QuiltMC/quiltflower>
+- **DepClean**
+  - *automatically detects (and removes) unused dependencies in Maven projects*
+  - *can be executed as a Maven goal through the command line or integrated directly into the Maven build lifecycle* 
+  - <https://github.com/ASSERT-KTH/depclean> 
