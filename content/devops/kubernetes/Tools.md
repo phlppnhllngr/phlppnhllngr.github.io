@@ -47,7 +47,10 @@ grand_parent: DevOps
   - Helm Dashboard
     - <https://github.com/komodorio/helm-dashboard> <img loading="lazy" src="https://img.shields.io/github/stars/komodorio/helm-dashboard?style=flat-square">
   - Artifacthub
-    - <https://artifacthub.io/> 
+    - <https://artifacthub.io/>
+  - helm unittest
+    - *BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin.* 
+    - <https://github.com/helm-unittest/helm-unittest> 
 - **lens**
   - wie Portainer aber für K8s
   - Binaries von hier laden: <https://github.com/MuhammedKalkan/OpenLens>
