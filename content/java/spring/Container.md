@@ -11,3 +11,5 @@ grand_parent: Java
   - Spring Cloud <https://odedia.org/production-considerations-for-spring-on-kubernetes#heading-spring-cloud>
     - k8s Service Discovery
     - Configuration Watcher
+- <https://github.com/jonashackt/spring-boot-buildpack>
+  - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature* 
