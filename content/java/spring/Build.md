@@ -46,3 +46,19 @@ grand_parent: Java
   - *Starting in Spring Boot 2.5 and later - you can also customize the buildpack that is used to create the resulting image.*
 - <https://github.com/jonashackt/spring-boot-buildpack>
   - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature*
+
+### Konfig
+- **build command** (Maven, Gradle)
+  - <https://paketo.io/docs/howto/java/#specify-the-build-command>
+- **remote debugging**
+  - <https://paketo.io/docs/howto/java/#enable-remote-debugging>
+- **jmx**
+  - <https://paketo.io/docs/howto/java/#enable-jmx>
+- **java**
+  - *`BP_JVM_VERSION` Defaults to the latest 11.x version at the time of release.*
+  - <https://paketo.io/docs/howto/java/#install-a-specific-jvm-version>
+- **jlink**
+  - *`BP_JVM_JLINK_ENABLED` - this defaults to false, set to true to enable JLink`
+  - <https://paketo.io/docs/howto/java/#install-a-minimal-jre-with-jlink>
+- **run args**
+  - <https://paketo.io/docs/howto/java/#append-arguments-to-the-apps-start-command>
