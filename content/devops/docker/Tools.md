@@ -62,13 +62,16 @@ grand_parent: DevOps
   - <https://github.com/moby/buildkit>
   - <https://docs.docker.com/develop/develop-images/build_enhancements/>
 - **buildpacks**
-  - <https://buildpacks.io>
-  - <https://buildpacks.io/features/>
   - *transform your application source code into images that can run on any cloud*
   - Rebase
     - *allows app developers or operators to rapidly update an app image when its stack's run image has changed*
     - *avoids the need to fully rebuild the app.*
     - <https://buildpacks.io/docs/concepts/operations/rebase/>
+  - <https://buildpacks.io>
+  - <https://buildpacks.io/features/>
+  - <https://www.cologne-intelligence.de/blog/buildpacks-eine-kritische-betrachtung>
+    - *Das erste, was die Plattform heranzieht, ist ein „Builder“. Dieser kann vom Benutzer gewählt werden, falls der Standard der Plattform nicht gefällt. Der Builder referenziert eine Reihe von Buildpacks. Das sind – simplifiziert – eine Reihe von Scripten, die sich auf Basis des Dateisystems und der Ausgabe anderer Builder am Build beteiligen können. Die Plattform delegiert den Build dann an eine Reihe von Buildpacks. Diese schreiben schließlich gemeinsam ein Docker-Image.*
+    - *In den Buildpacks liegt die eigentliche Magie, die in zwei Phasen unterteilt ist. Die erste Phase lautet „detect“: hier kann das Buildpack entscheiden, ob es in den Build einbezogen werden will. Typischerweise wird dabei geprüft, ob bestimmte Dateien vorhanden sind (das Buildpack für Maven prüft logischerweise, ob eine pom.xml vorhanden ist). Die zweite Phase lautet „build“: Nachdem die Plattform ermittelt hat, welche Buildpacks partizipieren, werden diese der Reihe nach beauftragt, ihre Arbeit zu verrichten. Die Ergebnisse werden – Layer für Layer – in ein Docker-Image gegossen.*
   - Paketo
     - *Paketo Buildpacks implement the Buildpack API described in the Cloud Native Buildpacks Specification*
     - Buildpacks für Java, Spring Boot, Node, Go, ...
