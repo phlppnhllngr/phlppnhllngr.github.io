@@ -145,6 +145,12 @@ parent: Diverses
 - **exit**
   - *command often used to exit or logout of a session. For example, during an FTP session the bye command will exit FTP.*
   - *aliases for exit include "bye", "logout", and "lo".*
+- **nc**
+  - Netcat
+  - *networking utility for reading from and writing to network connections using TCP or UDP*
+  - `nc -zv <host> <port>` z. B. `nc -zv foo.bar 1234`
+  - `-z` *sets nc to simply scan for listening daemons, without actually sending any data to them*
+  - `-v` verbose 
 
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
