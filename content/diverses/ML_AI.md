@@ -76,4 +76,10 @@ parent: Diverses
   - <https://github.com/togethercomputer/OpenChatKit>
 - **FauxPilot**
   - *an open-source GitHub Copilot server* 
-  - <https://github.com/fauxpilot/fauxpilot> 
+  - <https://github.com/fauxpilot/fauxpilot>
+- **Prime Voice AI**
+  - Text to speech, voice cloning 
+  - <https://beta.elevenlabs.io/>
+- **Uberduck**
+  - Text to speech, voice cloning
+  - <https://uberduck.ai/> 
