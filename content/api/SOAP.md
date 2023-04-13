@@ -35,7 +35,6 @@ parent: API
 - `wsdl:portType` und `wsdl:binding` sind soetwas wie Interfaces von Client-Klassen, `wsdl:service` die Implementierung (?)
 
 ## Begriffe
-- **Port**
-- **Endpoint**
+- <https://help.hcltechsw.com/dom_designer/9.0.1/appdev/H_WEB_SERVICES_WEB_TERMINOLOGY.html>
 - **QName** 
   - <https://de.wikipedia.org/wiki/QName>
