@@ -46,3 +46,7 @@ parent: Webdev
     - *Ability to receive and view email attachments*
   - Nodejs, Docker
   - <https://github.com/maildev/maildev>
+- **mailchimp/email-blueprints**
+  - *collection of HTML email templates that can serve as a solid foundation and starting point for the design of emails*
+  - <https://github.com/mailchimp/email-blueprints>
+
