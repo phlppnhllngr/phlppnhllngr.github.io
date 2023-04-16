@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: JMS
-created: '2019-02-05T12:06:23.052Z'
-modified: '2021-07-03T14:06:39.914Z'
 grand_parent: Java
 parent: Enterprise
 ---
@@ -24,16 +21,6 @@ parent: Enterprise
 - <https://www.javatpoint.com/jms-tutorial>
 
 ## Providers
-- RabbitMQ
-   - <https://www.rabbitmq.com/>
-   - <https://github.com/rabbitmq> 
-- ActiveMQ
-  - standalone oder embedded
-  - *There's another broker under the ActiveMQ umbrella code-named Artemis. (...) was donated from the JBoss community to the Apache ActiveMQ community in 2015. Artemis is the "next generation" broker from ActiveMQ and will ultimately become the next major version of ActiveMQ.*
-  - <https://en.wikipedia.org/wiki/Apache_ActiveMQ> 
+-> Diverses/Message queue (RabbitMQ, ActiveMQ, RocketMQ)
 - Amazon SQS JMS Client
 - Websphere MQ (standalone oder embedded)
-- RocketMQ
-  - *distributed messaging and streaming platform* 
-  - *Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging* 
-  - <https://github.com/apache/rocketmq> 
