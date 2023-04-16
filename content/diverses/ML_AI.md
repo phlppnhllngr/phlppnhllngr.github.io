@@ -83,3 +83,7 @@ parent: Diverses
 - **Uberduck**
   - Text to speech, voice cloning
   - <https://uberduck.ai/> 
+- **phind**
+  - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
+  - basiert auf GPT-4
+  - <https://www.phind.com/>
