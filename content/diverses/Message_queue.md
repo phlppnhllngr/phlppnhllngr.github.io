@@ -19,8 +19,9 @@ parent: Diverses
 - **RabbitMQ**
   - impl AMQP
   - *not a JMS provider but includes a plugin needed to support the JMS Queue and Topic messaging models*
-  - <https://www.rabbitmq.chttps://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis>om/>
+  - <https://www.rabbitmq.com>
   - <https://github.com/rabbitmq>
+  - [HN - SQL Maxis: Why We Ditched RabbitMQ and Replaced It with a Postgres Queue](https://news.ycombinator.com/item?id=35526846)
 - **ActiveMQ**
   - standalone oder embedded
   - JMS Provider
