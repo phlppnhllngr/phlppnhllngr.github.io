@@ -17,7 +17,11 @@ has_children: true
     - *a "soft" fork of Gitea with a focus on scaling, federation and privacy.*
     - <https://forgejo.org/>
 - **Sapling**
-    - <https://github.com/facebook/sapling>   
+    - <https://github.com/facebook/sapling>
+
+## Bots
+- <https://foojay.io/today/using-bots-to-keep-dependencies-updated/>
+  - dependabot, renovate, snyk open source
 - **Renovate**
     - *Get automated Pull Requests to update your dependencies*
     - *Reduce noise by running Renovate on a schedule, for example: on weekends, outside of working hours, each week, each month*
