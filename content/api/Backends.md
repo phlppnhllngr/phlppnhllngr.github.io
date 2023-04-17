@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/API]
 title: 'Backends'
-created: '2021-07-09T18:00:56.352Z'
-modified: '2021-09-02T10:15:44.116Z'
 parent: API
 ---
 
@@ -22,6 +19,9 @@ parent: API
   - basiert u.a. auf postgrest
   - [Is Supabase Legit? Firebase Alternative Breakdown - Fireship Youtube, 04/2021](https://www.youtube.com/watch?v=WiwfiVdfRIc)
   - [supabase crash course - traversy youtube, 07/21](https://www.youtube.com/watch?v=7uKQBl9uZ00)
+  - Supabase Edge Runtime
+    - self hosted Deno functions
+    - <https://news.ycombinator.com/item?id=35525222>
 - **api-platform**
   - *web framework designed to easily create API-first projects*
   - *dedicated to API-driven projects and implementing the Jamstack architecture*
