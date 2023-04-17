@@ -91,3 +91,6 @@ parent: Diverses
   - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
   - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
   - <https://github.com/mindsdb/mindsdb>
+- **TaxyAI**
+  - *uses GPT-4 to control your browser*
+  - <https://github.com/TaxyAI/browser-extension>
