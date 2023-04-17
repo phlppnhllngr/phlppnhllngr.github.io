@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Security]
 title: Tools
-created: '2019-03-09T12:47:56.263Z'
-modified: '2021-08-15T13:45:19.214Z'
 parent: Security
 ---
 
@@ -85,7 +82,12 @@ parent: Security
   - *With Metlo you can: Create an Inventory of all your API Endpoints and Sensitive Data. Detect common API vulnerabilities. Proactively test your APIs before they go into production. Detect API attacks in real time.*
   - <https://github.com/metlo-labs/metlo> <img loading="lazy" src="https://img.shields.io/github/stars/metlo-labs/metlo?style=flat-square"/>
 - **VirusTotal**
-  - API: <https://developers.virustotal.com/reference/overview> 
+  - API: <https://developers.virustotal.com/reference/overview>
+- **Wireshark**
+- **Sniffnet**
+  - *monitor your network traffic*
+  - <https://github.com/GyulyVGC/sniffnet>
+
 
 ## Secret Management
 - **Hashicorp Vault**
