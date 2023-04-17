@@ -56,3 +56,7 @@ title: Zusammenarbeit
 - **Logseq**
   - *platform for knowledge management and collaboration*
   - <https://github.com/logseq/logseq>
+- **Plane**
+  - *tool to manage issues, sprints, and product roadmaps*
+  - <https://github.com/makeplane/plane>
+
