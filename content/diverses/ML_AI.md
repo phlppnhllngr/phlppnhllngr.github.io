@@ -87,3 +87,7 @@ parent: Diverses
   - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
   - basiert auf GPT-4
   - <https://www.phind.com/>
+- **MindsDB**
+  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
+  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
+  - <https://github.com/mindsdb/mindsdb>
