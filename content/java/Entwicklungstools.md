@@ -93,6 +93,9 @@ parent: Java
   - analysiert java, json, yaml, ...
   - *as a sneak peak consider the following detected changes: checked exception added/removed to/from method signature / formal type parameter added to class / non-final method replaced by a final method in superclass*
   - <https://github.com/revapi/revapi> ⭐126
+- **sourcegraph**
+  - *Search all of your repositories across all branches and all code hosts. Navigate code, find references, see code owners, trace history, and more. Roll out large-scale changes to many repositories at once and track big migrations.*
+  - <https://about.sourcegraph.com/>
 
 
 ## Formatter
