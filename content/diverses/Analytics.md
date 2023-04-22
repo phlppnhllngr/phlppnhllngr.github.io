@@ -126,3 +126,8 @@ parent: Diverses
   - *interactive data dashboard (including a automated dashboard designer which can provide suggestions to your dashboard).*
   - *Import data from online databases or CSV/JSON files.*
   - <https://github.com/Kanaries/Rath>
+- **evidence**
+  - *Business Intelligence as code*
+  - *SQL + Markdown → Beautiful Reports*
+  - <https://evidence.dev/>
+
