@@ -39,3 +39,9 @@ parent: Automatisierung
     - *Build and save segments of users*
     - *Trigger journeys from segment/rudderstack/mixpanel events*
     - <https://github.com/laudspeaker/laudspeaker>
+- **Keila**
+    - Newsletter
+    - <https://www.keila.io>
+- **listmonk**
+    - Newsletter
+    - <https://github.com/knadh/listmonk>
