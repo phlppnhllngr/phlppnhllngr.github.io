@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Diverses]
 title: Lernen
-created: '2019-10-16T21:33:35.235Z'
-modified: '2021-09-13T12:38:05.390Z'
 parent: Diverses
 ---
 
@@ -39,6 +36,7 @@ parent: Diverses
 - <https://ebookfoundation.github.io/free-programming-books/books/free-programming-books.html>
 - <https://www.theinsaneapp.com/2021/01/free-programming-books.html>
 - <https://github.com/mhadidg/software-architecture-books>
+- [Reddit - As a Lead Software Engineer for a Full Stack team, are there books/resources that every tech lead should read?](https://old.reddit.com/r/webdev/comments/112xmgj/as_a_lead_software_engineer_for_a_full_stack_team/)
 
 
 ## Challenges
