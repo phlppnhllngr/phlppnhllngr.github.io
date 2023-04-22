@@ -172,6 +172,8 @@ parent: Java
 
 ## Memory
 - <https://www.baeldung.com/java-memory-beyond-heap>
+- <https://dac.digital/netflix-on-java-a-non-heap-application-for-video-streaming>
+  - Off-heap, ByteBuffer (im TB Bereich)
 
 ### Heap
 - Xms
