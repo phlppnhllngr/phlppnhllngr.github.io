@@ -1,16 +1,13 @@
 ---
-tags: [Notebooks/Java]
 title: Eclipse
-created: '2019-10-18T22:17:52.957Z'
-modified: '2021-06-08T13:23:53.232Z'
 parent: Java
 ---
 
 # Eclipse
 - Eclipse bringt unter "C:\Program Files\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre" eine eigene JRE mit
+- <https://www.baeldung.com/javac-vs-eclipse-compiler>
 
 ## Plugins
-
 - ~~Indent Guide~~ siehe Konfig/whitespace
 - **Checkstyle** <small>→ siehe auch m2e-code-quality</small>
 - **SpotBugs** <small>→ siehe auch m2e-code-quality</small>
