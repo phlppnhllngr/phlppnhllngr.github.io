@@ -286,7 +286,11 @@ parent: Diverses
 - **ZincSearch**
   - *lightweight alternative to elasticsearch that requires minimal resources*
   - <https://github.com/zinclabs/zincsearch>
-
+- **Solr**
+  - *open source search platform built on Apache Lucene*
+  - *can be queried via REST clients*
+  - xml,json,jsonl,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log
+  - <https://solr.apache.org/>
 
 ## Data Integration
 - **Airbyte**
