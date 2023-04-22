@@ -184,6 +184,9 @@ parent: Diverses
   - anpassbares Importieren von CSV in DB
   - *To Developers, we would like to offer a "bring your own validations"(BYOV) and "bring your own database"(BYOD) experience.*
   - <https://github.com/yobulkdev/yobulkdev>
+
+
+## Parser-Generatoren
 - **Xtext**
   - *framework for development of programming languages and domain-specific languages*
   - *define your language using a powerful grammar language. As a result you get a full infrastructure, including parser, linker, typechecker, compiler as well as editing support for Eclipse, any editor that supports the Language Server Protocol and your favorite web browser.*
@@ -194,6 +197,12 @@ parent: Diverses
   - *aims to lower the barrier to entry for creating a language by removing the technical complexity, allowing you to focus on your domain’s requirements*
   - <https://langium.org/>
   - <https://github.com/langium/langium>
+- **rekex**
+  - *a PEG parser generator for Java 17*
+  - <https://github.com/zhong-j-yu/rekex>
+- **Peggy**
+  - *simple parser generator for JavaScript*
+  - <https://github.com/peggyjs/peggy>
 
 
 ## Passwort-Manager
