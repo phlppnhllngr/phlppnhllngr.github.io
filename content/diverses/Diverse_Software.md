@@ -184,6 +184,10 @@ parent: Diverses
   - anpassbares Importieren von CSV in DB
   - *To Developers, we would like to offer a "bring your own validations"(BYOV) and "bring your own database"(BYOD) experience.*
   - <https://github.com/yobulkdev/yobulkdev>
+- **Formbricks**
+  - *Create in-product surveys with our no code editor*
+  - *target your surveys to specific user groups*
+  - <https://github.com/formbricks/formbricks>
 
 
 ## Parser-Generatoren
