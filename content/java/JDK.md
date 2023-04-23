@@ -29,6 +29,9 @@ parent: Java
     - *Compared to Hotspot, OpenJ9 trades performance (both in throughput and latency) for a lower memory footprint*
     - *Alpine is not supported as OS*
     - *When AdoptOpenJDK became Eclipse Adoptium/Temurin, Eclipse had to drop OpenJ9 because of Oracle's rules governing the use of TCK, so it's gone back to being IBM Semeru*
+    - shared class cache (SCC)
+        - *enables the VM to store Java™ classes, JIT compiled code, and profiling data in an optimized form that can load quickly*
+        - *WebSphere® Liberty container images contain an SCC and (by default) add your application's specific data to the SCC at image build time when your Dockerfile runs the RUN configure.sh command*
 
 
 ## Upgrade guides
