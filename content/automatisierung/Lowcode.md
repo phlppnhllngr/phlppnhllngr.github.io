@@ -249,6 +249,10 @@ parent: Automatisierung
   - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
   - <https://github.com/ToolJet/ToolJet>
   - <https://www.reddit.com/r/javascript/comments/sotwla/tooljet_extensible_opensource_5k_stars_on_github/.compact>
+- **Codux**
+  - WYSIWYG Editor
+  - <https://www.codux.com/>
+  - [Fireship](https://www.youtube.com/watch?v=tszI9GrH1u0) 
 
 ### E-Commerce
 - <http://shopify.com/>
