@@ -24,6 +24,11 @@ parent: Java
         - *The Adoptium Working Group promotes and supports (...) runtimes and associated technology for use across the Java ecosystem. <mark>Eclipse Temurin</mark> is the name of the OpenJDK distribution from Adoptium.* 
         - [https://adoptium.net/](https://adoptium.net/)
     - ...
+- **OpenJ9**
+    - *~~an Eclipse open source project~~ initially developed by IBM under the name J9*
+    - *Compared to Hotspot, OpenJ9 trades performance (both in throughput and latency) for a lower memory footprint*
+    - *Alpine is not supported as OS*
+    - *When AdoptOpenJDK became Eclipse Adoptium/Temurin, Eclipse had to drop OpenJ9 because of Oracle's rules governing the use of TCK, so it's gone back to being IBM Semeru*
 
 
 ## Upgrade guides
