@@ -329,9 +329,17 @@ parent: Java
   - <https://maven.apache.org/plugins/maven-jar-plugin/>
   - jar vs assembly vs shade: <https://stackoverflow.com/a/43444019/7437541>
 - **jaxws**
-  - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
-  - <https://www.mojohaus.org/jaxws-maven-plugin>
-  - <https://www.baeldung.com/maven-wsdl-stubs>
+  - 1) org.codehaus.mojo
+	  - *reads a WSDL and generates all the required artifacts for web service development, deployment, and invocation*
+	  - letzter Release: v2.6, 01/2020
+	  - <https://www.mojohaus.org/jaxws-maven-plugin>
+	  - <https://www.baeldung.com/maven-wsdl-stubs>
+  - 2) com.sun.xml.ws
+  	- die moderen Version des Plugins, auch für Java 11+ geeignet 
+  	- <https://github.com/eclipse-ee4j/metro-jax-ws/tree/master/jaxws-ri/extras/jaxws-maven-plugin>
+  	- <https://eclipse-ee4j.github.io/metro-jax-ws/jaxws-maven-plugin/>
+  - 3) org.jvnet.jax-ws-commons -> der Vorgänger von 2)
+  - 4) com.helger.maven -> Fork von 2), inaktiv
 - **jib**
   - → Docker/Tools
 - **jtoolprovider**
