@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Server
-created: '2019-03-14T15:05:54.829Z'
-modified: '2021-07-14T07:44:48.029Z'
 parent: Java
 ---
 
@@ -157,7 +154,8 @@ parent: Java
 - InstantOn
   - *provides incredibly fast startup times for MicroProfile and Jakarta EE applications* 
   - *uses new features of the OpenJ9 JVM and a Linux technology called Checkpoint/Restore In Userspace CRIU to take a checkpoint of the application process as it starts. This checkpoint is a snapshot of the running application process that can be persisted and then quickly restored to bring the application process back into the state it was in when the checkpoint was taken.* 
-  - <https://openliberty.io/blog/2022/09/29/instant-on-beta.html> 
+  - <https://openliberty.io/blog/2022/09/29/instant-on-beta.html>
+  - <https://www.infoq.com/articles/rapid-startup-of-your-cloud-native-java>
 - <https://openliberty.io/>
 - <https://hub.docker.com/_/open-liberty/>
 - <https://hub.docker.com/_/websphere-liberty>
