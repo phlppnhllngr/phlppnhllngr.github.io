@@ -70,7 +70,7 @@ parent: Java
 - **bld**
   - *allows you to write your build logic in pure Java*
   - Plugin für Intellij
-  - *https://github.com/rife2/rife2/wiki/What-Is-Bld*
+  - <https://github.com/rife2/rife2/wiki/What-Is-Bld>
   - <https://rife2.com/bld>
 
 
