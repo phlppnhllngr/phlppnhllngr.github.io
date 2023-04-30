@@ -7,6 +7,8 @@ parent: Datenbank
 - <https://random-dev.medium.com/databases-in-5-min-bfd3b9bef86>
 - <https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
 - [The Database Cookbook For Developers](https://sqlfordevs.com/ebook)
+- <https://planetscale.com/courses/mysql-for-developers/introduction/course-introduction>
+- <https://www.crunchydata.com/blog/demystifying-database-performance-for-developers>
 
 ## IDs
 - [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
