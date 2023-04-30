@@ -69,14 +69,14 @@ parent: Diverses
 - **LlamaIndex**
   - *provides a central interface to connect your LLM's with external data.*
   - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
-  - <https://github.com/jerryjliu/llama_index>
+  - <https://github.com/jerryjliu/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=flat-square"/>
 - **OpenChatKit**
   - *provides a base to create both specialized and general purpose chatbots for various applications.*
   - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
   - <https://github.com/togethercomputer/OpenChatKit>
 - **FauxPilot**
   - *an open-source GitHub Copilot server* 
-  - <https://github.com/fauxpilot/fauxpilot>
+  - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
 - **Prime Voice AI**
   - Text to speech, voice cloning 
   - <https://beta.elevenlabs.io/>
@@ -94,3 +94,13 @@ parent: Diverses
 - **TaxyAI**
   - *uses GPT-4 to control your browser*
   - <https://github.com/TaxyAI/browser-extension>
+- **Aspect**
+  - UI Builder 
+  - <https://aspect.app/> 
+- **AutoGPT**
+  - <https://github.com/Significant-Gravitas/Auto-GPT> <img loading="lazy" src="https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT?style=flat-square"/>
+  - <https://www.youtube.com/watch?v=L6tU0bnMsh8>
+- **e2b**
+  - *lets you build & deploy specialized AI agents that build software for you based on your instructions*
+  - *currently supports building only REST servers in Node.js. Specifically using the Express framework.* 
+  - <https://github.com/e2b-dev/e2b> <img loading="lazy" src="https://img.shields.io/github/stars/e2b-dev/e2b?style=flat-square"/>
