@@ -24,6 +24,7 @@ grand_parent: Java
   - *is based on OpenRewrite*
   - <https://github.com/spring-projects-experimental/spring-boot-migrator>
 - **Open Rewrite**
+  - <https://docs.openrewrite.org/recipes/java/spring> 
   - <https://github.com/openrewrite/rewrite-spring>
   - -> Java/Entwicklungstools  
 
