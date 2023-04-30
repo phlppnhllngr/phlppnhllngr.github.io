@@ -64,4 +64,7 @@ grand_parent: Java
   - <https://github.com/codecentric/spring-boot-admin>
 - <https://github.com/xeraa/microservice-monitoring>
   - *Monitor your Spring Boot application with the Elastic Stack*
+- **boost**
+  - *desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator* 
+  - <https://github.com/krud-dev/boost> 
 
