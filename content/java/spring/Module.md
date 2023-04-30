@@ -117,3 +117,4 @@ grand_parent: Java
 - <https://www.baeldung.com/spring-boot-actuators>
 - *support for publishing authentication and authorization events in conjunction with Spring Security* → spring/security
 - <https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html>
+- -> Libs+Addons/Admin/boost
