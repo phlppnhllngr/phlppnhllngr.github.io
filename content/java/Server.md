@@ -154,6 +154,10 @@ parent: Java
   - *Jakarta EE and Java™ EE, including features for individual specifications, like JNDI or JAX-RS.*
   - *Spring Framework and Spring Boot, including mechanisms to make compact containers from Spring Boot's fat .jar's.*
 - *You can tell Liberty to treat certain files as "minor" changes - which would not require a restart by using this system property (you can add this in your jvm.options file in your server directory - create it if it is not already there): `-Dcom.ibm.ws.app.manager.minorUpdateFileExtensions=.html,.png,.jpg,.myOtherExtension`*
+- InstantOn
+  - *provides incredibly fast startup times for MicroProfile and Jakarta EE applications* 
+  - *uses new features of the OpenJ9 JVM and a Linux technology called Checkpoint/Restore In Userspace CRIU to take a checkpoint of the application process as it starts. This checkpoint is a snapshot of the running application process that can be persisted and then quickly restored to bring the application process back into the state it was in when the checkpoint was taken.* 
+  - <https://openliberty.io/blog/2022/09/29/instant-on-beta.html> 
 - <https://openliberty.io/>
 - <https://hub.docker.com/_/open-liberty/>
 - <https://hub.docker.com/_/websphere-liberty>
