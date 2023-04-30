@@ -1,14 +1,12 @@
 ---
-tags: [Notebooks/Datenbank]
 title: DB
-created: '2019-06-02T19:18:35.022Z'
-modified: '2021-08-15T13:10:57.455Z'
 parent: Datenbank
 ---
 
 # DB
 - <https://random-dev.medium.com/databases-in-5-min-bfd3b9bef86>
 - <https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78>
+- [The Database Cookbook For Developers](https://sqlfordevs.com/ebook)
 
 ## IDs
 - [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
