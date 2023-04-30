@@ -62,6 +62,7 @@ parent: Java
 - **coala**
   - *unified command-line interface for linting and fixing all your code, regardless of the programming languages*
   - *Python, C/C++, Java, JavaScript, CSS, and several others out of the box*
+  - inaktiv seit 2021
   - <https://github.com/coala/coala/> ⭐3.2k
 - **infer**
   - *static analysis tool - if you give Infer some Java or C/C++/Objective-C code it produces a list of potential bugs*
