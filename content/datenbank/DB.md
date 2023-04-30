@@ -9,6 +9,11 @@ parent: Datenbank
 - [The Database Cookbook For Developers](https://sqlfordevs.com/ebook)
 - <https://planetscale.com/courses/mysql-for-developers/introduction/course-introduction>
 - <https://www.crunchydata.com/blog/demystifying-database-performance-for-developers>
+- **use-the-index-luke**
+  - *A site explaining SQL indexing to developers*
+  - *SQL indexing is the most effective tuning method—yet it is often neglected during development. Use The Index, Luke explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.*
+  - <https://use-the-index-luke.com/>
+- *Rule #1: If its linked by it, filtered by it, or sorted by it....index by it.*
 
 ## IDs
 - [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
