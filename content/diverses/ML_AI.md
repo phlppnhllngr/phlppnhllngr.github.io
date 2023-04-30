@@ -74,6 +74,12 @@ parent: Diverses
   - *provides a base to create both specialized and general purpose chatbots for various applications.*
   - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
   - <https://github.com/togethercomputer/OpenChatKit>
+- **ChatPDF**
+  - *can answer any question from any PDF* 
+  - <https://www.chatpdf.com/>
+- **mayooear/gpt4-pdf-chatbot-langchain**
+  - *Create a ChatGPT Chatbot for Your PDF Files* 
+  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> 
 - **FauxPilot**
   - *an open-source GitHub Copilot server* 
   - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
