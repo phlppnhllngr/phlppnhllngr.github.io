@@ -237,7 +237,7 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
     - deprecated 
   - <https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaiming>
 - Access Modes
-  - ReadWriteMany - volume can be mounted as read-write by a single node
+  - ReadWriteMany - volume can be mounted as read-write by many nodes
   - ReadOnlyMany - volume can be mounted read-only by many nodes
   - ReadWriteOnce - volume can be mounted as read-write by a single node
   - ReadWriteOncePod - volume can be mounted as read-write by a single Pod
