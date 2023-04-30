@@ -8,6 +8,7 @@ parent: Datenbank
 ## Relationale Client/Server
 - **MySQL**
 - **PostgreSQL**
+  - [HN: Dbdev – A database package manager for PostgreSQL trusted language extensions](https://news.ycombinator.com/item?id=35570758)
 - **DB2** -> Db2
 - **Dolt**
   - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
