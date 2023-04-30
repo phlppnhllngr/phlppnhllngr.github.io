@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Datenbank]
 title: SQL
-created: '2021-05-18T08:08:20.752Z'
-modified: '2021-09-05T11:51:39.598Z'
 parent: Datenbank
 ---
 
@@ -16,12 +13,7 @@ parent: Datenbank
   - <https://sqlbolt.com/>
 - **Buch "the art of postgresql"**
   - <https://theartofpostgresql.com>
-- **use-the-index-luke**
-  - *A site explaining SQL indexing to developers*
-  - *SQL indexing is the most effective tuning method—yet it is often neglected during development. Use The Index, Luke explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.*
-  - <https://use-the-index-luke.com/>
 - <https://hinty.io/devforth/sql-query-optimization-understanding-key-principle>
-- *Rule #1: If its linked by it, filtered by it, or sorted by it....index by it.*
 
 
 ## Tools
