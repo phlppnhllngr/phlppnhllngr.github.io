@@ -101,6 +101,10 @@ grand_parent: DevOps
   - [YT - VMware Tanzu Community Edition Installation and creating an unmanaged Kubernetes cluster](https://www.youtube.com/watch?v=dEMuiagEAg4)
 - **Tanzu Kubernetes Grid**
   - <https://tanzu.vmware.com/kubernetes-grid>
+- **Tanzu Application Platform**
+  - <https://tanzu.vmware.com/developer/tanzu/tap/>
+  - [YT - What’s on TAP? Refining Modern Spring Application Development, 02/2023](https://www.youtube.com/watch?v=IY784cDq1E8)
+    - Spring Boot + VS Code + TAP  
 - **Devtron**
   - *tool integration platform for Kubernetes*
   - *deeply integrates with products across the lifecycle of microservices,i.e., CI, CD, security, cost, debugging, and observability via an intuitive web interface.* 
