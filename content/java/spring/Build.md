@@ -58,7 +58,7 @@ grand_parent: Java
   - *`BP_JVM_VERSION` Defaults to the latest 11.x version at the time of release.*
   - <https://paketo.io/docs/howto/java/#install-a-specific-jvm-version>
 - **jlink**
-  - *`BP_JVM_JLINK_ENABLED` - this defaults to false, set to true to enable JLink`
+  - *`BP_JVM_JLINK_ENABLED` - this defaults to false, set to true to enable JLink
   - <https://paketo.io/docs/howto/java/#install-a-minimal-jre-with-jlink>
 - **run args**
   - <https://paketo.io/docs/howto/java/#append-arguments-to-the-apps-start-command>
