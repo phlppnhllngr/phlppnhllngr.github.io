@@ -14,6 +14,7 @@ parent: Datenbank
   - *SQL indexing is the most effective tuning method—yet it is often neglected during development. Use The Index, Luke explains SQL indexing from grounds up and doesn’t stop at ORM tools like Hibernate.*
   - <https://use-the-index-luke.com/>
 - *Rule #1: If its linked by it, filtered by it, or sorted by it....index by it.*
+- <https://architecturenotes.co/things-you-should-know-about-databases/>
 
 ## IDs
 - [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
@@ -56,6 +57,7 @@ parent: Datenbank
 - Um Änderungen an DBs in mehreren Umgebungen vorzunehmen ("schema migration"). Oft müssen dann auch bestehende Daten angepasst werden ("data migration").
 - Test z.B. mit Lib "testcontainers"
 - <https://kiranrao.ca/2022/05/04/zero-downtime-migrations.html>
+  <br/>
   <https://news.ycombinator.com/item?id=31269515>
 - **flyway**
   - Skripte: Java oder SQL (die Skripte sind abhängig vom DB-Vendor)
@@ -80,6 +82,9 @@ parent: Datenbank
   - *it supports 2 mainstream schema change workflow: UI based SQL review / Version control based schema migration (Database-as-Code)*
   - *Supported database engines: MySQL / Planned: PostgreSQL*
   - <https://github.com/bytebase/bytebase>
+- **goose**
+  - *Supports SQL migrations and Go functions*
+  - <https://github.com/pressly/goose>
 
 
 ## Change data capture
