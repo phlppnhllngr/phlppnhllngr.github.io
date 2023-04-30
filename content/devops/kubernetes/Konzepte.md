@@ -137,6 +137,7 @@ grand_parent: DevOps
 - *persistent volume claims (PVCs) are stable for StatefulSets, so if a pod dies and gets rescheduled in another node, the same volume is mounted in the new node with the same data.*
 - Beim Runterskalieren oder Löschen werden PVC nicht automatisch entfernt
 - Verwendung zusammen mit headless service
+- *Pods in a StatefulSet are individually assigned their own Persistent Volume claims. The Pod’s volume will be reattached after it’s rescheduled, providing stable storage access after a rollout or scaling operation.*
 - [HN - Kubernetes StatefulSets are Broken, 13.8.22](https://news.ycombinator.com/item?id=32439255)
 - <https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/>
 
