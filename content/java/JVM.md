@@ -13,11 +13,18 @@ parent: Java
   - *_JAVA_OPTIONS trumps command-line arguments, which in turn trump JAVA_TOOL_OPTIONS*
   - *_JAVA_OPTIONS is Oracle specific. IBM JVM is using IBM_JAVA_OPTIONS instead*
   - nicht offiziell dokumentiert
+- **JVM_ARGS**
+  - Liberty
 - **JAVA_TOOL_OPTIONS**
   - Env-Var
   - <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/envvars002.html>
     - *In many environments the command line is not readily accessible to start the application with necessary command-line options. This often arises with applications that use embedded VMs, or where the startup is deeply nested in scripts. In these environments the JAVA_TOOL_OPTIONS environment variable can be useful to augment a command line.*
     - *When JAVA_TOOL_OPTIONS is defined, a message is always echoed to stdout, like "Picked up JAVA_TOOL_OPTIONS ..."*
+- **JDK_TOOL_OPTIONS**
+  - jdk 9+
+  - gewinnt gegen java_tool_options
+  - verliert gegen Command-Line-Args
+  - im Gegensatz zu JAVA_TOOL_OPTIONS nur für `java`, nicht für `javac` oder `jar`
 - **classpath**
   - spezifiziert Classpath
   - alias `cp`
@@ -38,6 +45,10 @@ parent: Java
 - **noverify**
   - *The JVM checks the byte code of the compile classes it is about to load to see that it is well behaved. This is an essential step for executing untrusted code. Unfortunately this takes time and for a very large application this may increase the startup time quite a bit. The "-noverify" flag turns this off.*
   - deprecated seit Java 13: *Users who need to run without startup verification can use AppCDS to archive their classes. The classes are verified during archiving and avoid verification at runtime.*
+- **enableassertions**
+  - alias `-ea`
+- **disableassertions**
+  - alias `-da`
 
 ### -D
 - **sun.net.client.defaultConnectTimeout, sun.net.client.defaultReadTimeout**
