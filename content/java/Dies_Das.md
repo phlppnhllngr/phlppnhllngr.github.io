@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Dies & das
-created: '2019-02-14T20:40:29.485Z'
-modified: '2021-06-04T09:01:00.378Z'
 parent: Java
 ---
 
@@ -62,6 +59,8 @@ parent: Java
     - *When the JVM runs your application code, it does things like interpreting, compiling and optimizing code to make your application run as fast as possible under the given workload. This is great but can take some time and especially when you run short lived microservices you don't want to wait until the JVM has produced the most optimized code.*
     - *The checkpoint-restore mechanism is nothing new and most of you already know and use it daily. If you work on your laptop and close the lid, the operating systems detects that an stores it's current state to disk. Once you open up the lid again, the operating system restores the saved state from disk.
   CRaC provides the same mechanism but for the JVM and your running application.*
+- **assert**
+  - <https://www.baeldung.com/java-assert>
 
 
 ## Bytecode-Manipulation, Agents, Instrumentation
