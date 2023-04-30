@@ -130,4 +130,5 @@ parent: Diverses
   - *Business Intelligence as code*
   - *SQL + Markdown → Beautiful Reports*
   - <https://evidence.dev/>
+  - <https://news.ycombinator.com/item?id=35645464>
 
