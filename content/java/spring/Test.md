@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Spring]
 title: Test
-created: '2019-02-10T19:09:11.609Z'
-modified: '2021-08-29T16:06:34.251Z'
 parent: Spring
 grand_parent: Java
 ---
@@ -101,4 +98,6 @@ grand_parent: Java
 - **@DirtiesContext**
   - *marks the ApplicationContext as dirty, so it is closed and removed from the cache after the test*
   - für Testmethoden, die z. B. den Zustand von Singleton-Beans verändern, und die Änderung den nächsten Test beeinflussen könnte 
-  - <https://www.baeldung.com/spring-boot-testing-pitfalls#1-petservice-sample-solutions> 
+  - <https://www.baeldung.com/spring-boot-testing-pitfalls#1-petservice-sample-solutions>
+- **@ActiveProfiles**
+  - *class-level annotation that is used to declare which active bean definition profiles should be used when loading an ApplicationContext for test classes* 
