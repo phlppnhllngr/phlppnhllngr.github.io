@@ -304,6 +304,12 @@ parent: Java
 - **cache2k**
   - <https://cache2k.org/>
 - **jedis**
+- **Apache Commons JCS**
+  - Java Caching System
+  - *distributed caching system*
+  - *most useful for high read, low put applications*
+  - *Features: Disk overflow (and defragmentation), Data expiration (idle time and max life), ...*
+  - <https://commons.apache.org/proper/commons-jcs/index.html> 
 
 
 ## <span id="pdf">PDF</span>
