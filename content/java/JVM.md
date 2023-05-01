@@ -75,6 +75,8 @@ parent: Java
   - `-Djavax.net.debug=all`
   - <https://colinpaice.blog/2020/04/05/using-java-djavax-net-debug-to-examine-data-flows-including-tls/>
 - **java.security.debug**
+  - *Keystore debugging, debugging for the PKIX, ...*
+- **java.net.preferIPv4Stack**
 
 #### Proxy
 - **http(s).proxyHost**
@@ -179,6 +181,10 @@ parent: Java
 - **ActiveProcessorCount**
   - `-XX:ActiveProcessorCount=<number>`
   - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()`
+- **MaxJavaStackTraceDepth**
+- **+/-ShowHiddenFrames**
+  - *enables or disables the display of generated hidden MethodHandle frames in a stack trace*
+- **+/-HeapDumpOnOutOfMemoryError**
 
 
 ## Memory
