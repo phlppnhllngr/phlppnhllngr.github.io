@@ -119,6 +119,10 @@ parent: Diverses
   - **modern-unix**
     - *A collection of modern/faster/saner alternatives to common unix commands.*
     - <https://github.com/ibraheemdev/modern-unix> *5.3k
+  - **direnv**
+    - *when you cd to a directory, do things like set variables*
+  - **asdf**
+    - *manage and use specific versions of software. Can work with direnv too!*
 
 
 ## Commands & Packages
