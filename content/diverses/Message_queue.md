@@ -17,10 +17,12 @@ parent: Diverses
   - *Chronicle Queue is designed to out-perform its rivals such as Kafka.*
   - <https://github.com/OpenHFT/Chronicle-Queue>
 - **RabbitMQ**
-  - impl AMQP
+  - *It supports: AMQP 0-9-1, AMQP 1.0, RabbitMQ Stream Protocol, MQTT 3.1.1, STOMP 1.0 through 1.2*
   - *not a JMS provider but includes a plugin needed to support the JMS Queue and Topic messaging models*
   - <https://www.rabbitmq.com>
   - <https://github.com/rabbitmq>
+  - <https://github.com/rabbitmq/rabbitmq-server> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square"/>
+  - <https://github.com/rabbitmq/rabbitmq-java-client> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-java-client?style=flat-square"/>
   - [HN - SQL Maxis: Why We Ditched RabbitMQ and Replaced It with a Postgres Queue](https://news.ycombinator.com/item?id=35526846)
 - **ActiveMQ**
   - standalone oder embedded
@@ -30,7 +32,7 @@ parent: Diverses
 - **ActiveMQ Artemis**
   - *The overall objective for working toward feature parity between ActiveMQ 5.x and Artemis is for Artemis to eventually become ActiveMQ 6.x."*
   - *a more modern implementation because, ironically, it has a smaller feature set.*
-  - <https://github.com/apache/activemq-artemis>
+  - <https://github.com/apache/activemq-artemis> <img loading="lazy" src="https://img.shields.io/github/stars/apache/activemq-artemis?style=flat-square"/>
   - <https://developers.redhat.com/articles/2021/06/30/implementing-apache-activemq-style-broker-meshes-apache-artemis>
   - <https://www.predic8.de/apache-artemis-vergleich-kafka-activemq.htm> (2018)
     - *Web Konsole für das Management des Artemis wird von einem integrierten Jetty Web Server bereitgestellt*
@@ -40,7 +42,7 @@ parent: Diverses
 - **RocketMQ**
   - *distributed messaging and streaming platform* 
   - *Multiple messaging protocols like gRPC, MQTT, JMS and OpenMessaging* 
-  - <https://github.com/apache/rocketmq>
+  - <https://github.com/apache/rocketmq> <img loading="lazy" src="https://img.shields.io/github/stars/apache/rocketmq?style=flat-square"/>
 - **Pulsar**
   - *distributed pub-sub messaging platform*
   - <https://github.com/apache/pulsar>
