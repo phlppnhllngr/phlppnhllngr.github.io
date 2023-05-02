@@ -111,7 +111,10 @@ parent: API
   - *A modern load testing tool, using Go and JavaScript*
   - *Like unit-testing, for performance*
   - CLI oder Docker
-  - https://k6.io/blog/load-testing-with-postman-collections
+  - <https://k6.io/blog/load-testing-with-postman-collections>
+  - <https://k6.io/blog/ways-to-visualize-k6-results/>
+    - *if you're not sure what metrics to focus on, a good place to start is with the metrics that measure the requests, errors, and duration (the criteria of the RED method). In other terminology, these metrics measure traffic (in requests), availability (in error rate), and latency (in request duration). SREs might recognize these metrics as three of the four Golden Signals.* 
+  - Utility Lib: <https://jslib.k6.io/>
 - **wrk**
   - CLI
   - <https://github.com/wg/wrk/> *29.3k
