@@ -115,6 +115,9 @@ parent: API
   - <https://k6.io/blog/ways-to-visualize-k6-results/>
     - *if you're not sure what metrics to focus on, a good place to start is with the metrics that measure the requests, errors, and duration (the criteria of the RED method). In other terminology, these metrics measure traffic (in requests), availability (in error rate), and latency (in request duration). SREs might recognize these metrics as three of the four Golden Signals.* 
   - Utility Lib: <https://jslib.k6.io/>
+  - xk6
+    - für Nutzung von Extensions 
+    - <https://k6.io/blog/extending-k6-with-xk6/> 
 - **wrk**
   - CLI
   - <https://github.com/wg/wrk/> *29.3k
