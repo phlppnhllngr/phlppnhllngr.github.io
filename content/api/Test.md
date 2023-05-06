@@ -137,6 +137,9 @@ parent: API
   - *easy to use, scriptable and scalable performance testing tool. You define the behaviour of your users in regular Python code*
   - *has a user friendly web interface that shows the progress of your test in real-time*
   - <https://github.com/locustio/locust>
+- **Grasshopper**
+  - *uses Locust under the hood, and provides a few key features on top*
+  - <https://innovation.alteryx.com/introducing-grasshopper-an-open-source-python-library-for-load-testing/>
 - **loader.io** 💰
   - <https://loader.io/>
   - *load testing service that allows you to stress test your web-apps & apis with thousands of concurrent connections*
