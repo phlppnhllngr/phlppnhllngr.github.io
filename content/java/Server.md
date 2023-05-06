@@ -181,10 +181,14 @@ parent: Java
   - *Any configuration changes made via the web interface or the CLI are persisted back to the XML configuration files.*
   - <https://docs.wildfly.org/26/Admin_Guide.html#Management_Clients>
   - <https://docs.wildfly.org/26/Admin_Guide.html#Management_tasks>
-  - <https://docs.wildfly.org/26/Admin_Guide.html#CLI_Recipes>
   - <http://www.mastertheboss.com/jbossas/jboss-configuration/how-to-use-environment-variables-in-standalone-xml-or-host-xml/>
-  - <http://www.mastertheboss.com/soa-cloud/docker/how-to-run-cli-commands-in-wildfly-dockerfile/>
-  - <https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/management_cli_guide/running_embedded_server>
+  - CLI
+    - <https://docs.wildfly.org/26/Admin_Guide.html#Command_Line_Interface>
+    - <https://docs.wildfly.org/26/Admin_Guide.html#CLI_Recipes>
+    - embedded server
+      - <http://www.mastertheboss.com/soa-cloud/docker/how-to-run-cli-commands-in-wildfly-dockerfile/>
+      - <https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/management_cli_guide/running_embedded_server>
+    - Datasource konfigurieren: <https://gist.github.com/Inkimar/6ca3014fef4abfd02025>
 - <u>Extras</u>
   - **Bootable Jar**
     - *contains both the server and your packaged application (a JAR, an EAR or a WAR)*
