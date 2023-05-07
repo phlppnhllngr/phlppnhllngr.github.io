@@ -110,6 +110,7 @@ grand_parent: Java
 - *build well-structured Spring Boot applications and guides developers in finding and working with application modules driven by the domain*
 - <https://spring.io/projects/spring-modulith>
 - <https://spring.io/blog/2022/10/21/introducing-spring-modulith>
+- <https://www.baeldung.com/spring-modulith>
 
 
 ## Actuator
