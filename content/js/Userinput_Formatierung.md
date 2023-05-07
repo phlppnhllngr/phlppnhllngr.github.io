@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Javascript]
 title: Userinput & Formatierung
-created: '2019-02-14T15:01:36.118Z'
-modified: '2021-09-08T12:49:16.772Z'
 parent: JavaScript
 ---
 
@@ -58,6 +55,9 @@ parent: JavaScript
         year: 'numeric',
         day: '2-digit'
       }).format(date); // "07. Februar 2020"
+      
+      // Uhrzeit hh:mm
+      new Intl.DateTimeFormat('de-DE', { hour: 'numeric', minute: 'numeric', hour12: false });
 
       // formatToParts
       const date = new Date(); // 7.2.2020
@@ -191,48 +191,48 @@ parent: JavaScript
 
 ### Email
 - **mailcheck**
-  - https://github.com/mailcheck/mailcheck
+  - <https://github.com/mailcheck/mailcheck>
   - Checkt Email-Eingaben und macht Verbesserungsvorschläge (hotnail.con -> hotmail.com)
 
 ### Telefon
 - **libphonenumber**
-  - https://github.com/google/libphonenumber
+  - <https://github.com/google/libphonenumber>
 - **intl-tel-input**
-  - https://github.com/jackocnr/intl-tel-input *5.7k
+  - <https://github.com/jackocnr/intl-tel-input> *5.7k
   - *entering and validating international telephone numbers*
   - *It adds a flag dropdown to any input, detects the user's country, displays a relevant placeholder and provides formatting/validation methods.*
 
 ### Komplex/Gemischt
-- https://validatejs.org/
-- https://www.npmjs.com/package/validator (nur Strings; Farben, Zahlen, Email, ...)
+- <https://validatejs.org/>
+- <https://www.npmjs.com/package/validator> (nur Strings; Farben, Zahlen, Email, ...)
 - **joi**
   - *schema validation*
-  - https://github.com/hapijs/joi ⭐15.9k
+  - <https://github.com/hapijs/joi> ⭐15.9k
   - diverse Extensions
   - Codepen: `import 'https://unpkg.com/joi@17.2.1/dist/joi-browser.min.js?module'; window.joi`
-- https://github.com/oussamahamdaoui/forgJs
-- https://github.com/flexdinesh/typy
-- https://github.com/sindresorhus/ow
-- https://github.com/imbrn/v8n
-- https://github.com/jquense/yup ⭐5800 - browser & server
+- <https://github.com/oussamahamdaoui/forgJs>
+- <https://github.com/flexdinesh/typy>
+- <https://github.com/sindresorhus/ow>
+- <https://github.com/imbrn/v8n>
+- <https://github.com/jquense/yup> ⭐5800 - browser & server
 - **objectmodel**
-  - https://objectmodel.js.org/
-- https://github.com/validatorjs/validator.js
+  - <https://objectmodel.js.org/>
+- <https://github.com/validatorjs/validator.js>
 
 
 ## Key binds
 - **Hotkey**
-  - https://github.com/github/hotkey ⭐1400
+  - <https://github.com/github/hotkey> ⭐1400
 - **Hotkeys**
-  - https://github.com/jaywcjlove/hotkeys ⭐3300
+  - <https://github.com/jaywcjlove/hotkeys> ⭐3300
 - **tinykeys**
-  - https://github.com/jamiebuilds/tinykeys
+  - <https://github.com/jamiebuilds/tinykeys>
   - *~400 B*
 - **Kontextmenü**
-  - https://mionskowski.pl/positioning-a-context-menu-using-pure-css
+  - <https://mionskowski.pl/positioning-a-context-menu-using-pure-css>
 
 
 ## Autocomplete
 - **autoComplete.js**
   - *Simple autocomplete pure vanilla Javascript library*
-  - https://github.com/TarekRaafat/autoComplete.js
+  - <https://github.com/TarekRaafat/autoComplete.js>
