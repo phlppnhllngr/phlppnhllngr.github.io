@@ -264,7 +264,12 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
     - <https://www.baeldung.com/spring-boot-tomcat-connection-pool>
   - **MiniConnectionPoolManager**
     - *A lightweight standalone Java JDBC connection pool manager* 
-    - <https://github.com/chdh/miniconnectionpoolmanager> 
+    - <https://github.com/chdh/miniconnectionpoolmanager>
+  - **FlexyPool**
+    - <https://www.baeldung.com/spring-flexypool-guide>
+      - *connection pool management tool*
+      - *acts as a proxy to major connection pools such as Hikari, C3P0, DBCP2, Tomcat, and Vibur*  
+      - *provides metrics and failover strategies to help resize a given pool on demand*
 
 - **datasource-proxy**
   - *intercept JDBC interactions and allows user to perform own logic before/after query or method executions*
