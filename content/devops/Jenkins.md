@@ -15,10 +15,10 @@ parent: DevOps
 	- parameters
 	  ```groovy
 	  properties([
-	  	parameters([
-			booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
-			choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
-		])
+	    parameters([
+	      booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
+	      choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
+	    ])
 	  ])
 	  node { ... }
 	  // oder pipeline { ... }
