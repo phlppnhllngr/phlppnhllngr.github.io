@@ -19,6 +19,8 @@ parent: Diverses
 - **RabbitMQ**
   - *It supports: AMQP 0-9-1, AMQP 1.0, RabbitMQ Stream Protocol, MQTT 3.1.1, STOMP 1.0 through 1.2*
   - *not a JMS provider but includes a plugin needed to support the JMS Queue and Topic messaging models*
+  - *Message Durability: Messages are not lost once stored in RabbitMQ.*
+  - *Message Acknowledgements: Consumers send acknowledgments to producers after successfully consuming a message.*
   - <https://www.rabbitmq.com>
   - <https://github.com/rabbitmq>
   - <https://github.com/rabbitmq/rabbitmq-server> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square"/>
@@ -46,6 +48,16 @@ parent: Diverses
 - **Pulsar**
   - *distributed pub-sub messaging platform*
   - <https://github.com/apache/pulsar>
+- **Redis**
+  - *that while Redis can be used as a message queue, it’s not a traditional message queue system like RabbitMQ or Apache Kafka* 
+  - ~~*does not provide advanced features such as publish-subscribe, message acknowledgment, or message persistence* ~~
+  - <https://redis.io/docs/manual/pubsub/>
+    - *Messages sent by other clients to these channels will be pushed by Redis to all the subscribed clients. Subscribers receive the messages in the order that the messages are published.*
+  - <https://www.educba.com/rabbitmq-vs-redis/>
+    - *It supports only the pub-sub mechanism.*
+    - *It doesn’t guarantee the delivery of each message.*
+  - *Mostly, RabbitMQ outperforms Redis and guarantees message delivery with the help of message durability and acknowledgments*
+
 
 ## Vergleiche
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
