@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/DevOps]
 title: Jenkins
-created: '2020-07-09T09:11:44.636Z'
-modified: '2021-07-21T11:42:44.818Z'
 parent: DevOps
 ---
 
@@ -15,6 +12,17 @@ parent: DevOps
 - **echo**
 	- `echo "message"` 
 - **properties**
+	- parameters
+	  ```groovy
+	  properties([
+	  	parameters([
+			booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
+			choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
+		])
+	  ])
+	  node { ... }
+	  // oder pipeline { ... }
+	  ```
 - **sh**
 - **checkout**
 - **timeout**
@@ -316,20 +324,6 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 }
 ```
 
-### properties
-
-**parameters**
-- boolean
-  ```groovy
-  properties([
-    parameters([
-      booleanParam(name: 'foo', defaultValue: false, description: 'bar')
-    ])
-  ])
-
-  node { ... }
-  ```
-
 
 ## Plugins
 - **docker**
@@ -348,7 +342,10 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 	- *adds timestamps to the console output of Jenkins jobs*
 	- <https://plugins.jenkins.io/timestamper/>
 - **Config File Provider**
-	- <https://plugins.jenkins.io/config-file-provider/> 
+	- <https://plugins.jenkins.io/config-file-provider/>
+- **Active Choices**
+	- *create scripted, dynamic and interactive job parameters* 
+	- <https://plugins.jenkins.io/uno-choice/> 
 
 
 ## Tools
