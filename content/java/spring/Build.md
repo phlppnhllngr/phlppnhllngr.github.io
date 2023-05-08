@@ -25,6 +25,7 @@ grand_parent: Java
 
 
 ## Cloud Native Buildpacks
+- das Image unterstützt `JAVA_OPTS` aber nicht `JDK_TOOL_OPTIONS` (`JAVA_TOOL_OPTIONS` setzt es selber, evtl. kann man hier auch was dranhängen)
 - <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=3>
   - layered Jar, Buildpacks, beides in Kombination
 - <https://dev.to/sabyasachi/buildpack-with-spring-boot-300o>
