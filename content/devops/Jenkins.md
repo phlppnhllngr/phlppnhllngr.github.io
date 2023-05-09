@@ -344,8 +344,58 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 - **Config File Provider**
 	- <https://plugins.jenkins.io/config-file-provider/>
 - **Active Choices**
-	- *create scripted, dynamic and interactive job parameters* 
-	- <https://plugins.jenkins.io/uno-choice/> 
+	- *create scripted, dynamic and interactive job parameters*
+	- 3 neue Parametertypen
+		- Active Choice
+			- gerendered als Checkboxen, Radio-Buttons oder Dropdown
+			- ```groovy
+				properties([
+					parameters([
+						[
+							$class: 'ChoiceParameter',
+							choiceType: 'PT_SINGLE_SELECT',
+							description: 'Choose stage',
+							// filterLength: 1,
+							// filterable: true,
+							name: 'Stage',
+							// randomName: 'choice-parameter-5631314439613978',
+							script: [
+								$class: 'GroovyScript',
+								fallbackScript: [
+									classpath: [],
+									sandbox: true,
+									script: 'return [\"Error in stage script\"]'
+								],
+								script: [
+									classpath: [],
+									sandbox: true,
+									script: 'return ["Dev", "QA", "Prod"]'
+								]
+							]
+						]
+					])
+				])
+
+				pipeline {
+				agent any
+				parameters {
+					choice(name: 'STATIC_PARAM', choices: ['static_1', 'static_2'])
+				}
+				stages {
+					stage('test') {
+						steps {
+							echo params.Stage
+						}
+					}
+				}
+			  ```
+		- Active Choice Reactive
+			- reagiert auf Änderung eines anderen Parameters
+			- gerendered wie Active Choice, zusätzlich mit Filter-Inputfeld
+		- Active Choice Reactive Reference
+			- reagiert auf Änderung eines anderen Parameters
+			- gerendered als Liste, Input-Box oder beliebiges HTML 
+	- <https://plugins.jenkins.io/uno-choice/>
 
 
 ## Tools
