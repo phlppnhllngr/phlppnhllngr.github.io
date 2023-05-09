@@ -377,14 +377,15 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 				])
 
 				pipeline {
-				agent any
-				parameters {
-					choice(name: 'STATIC_PARAM', choices: ['static_1', 'static_2'])
-				}
-				stages {
-					stage('test') {
-						steps {
-							echo params.Stage
+					agent any
+					parameters {
+						choice(name: 'STATIC_PARAM', choices: ['static_1', 'static_2'])
+					}
+					stages {
+						stage('test') {
+							steps {
+								echo params.Stage
+							}
 						}
 					}
 				}
