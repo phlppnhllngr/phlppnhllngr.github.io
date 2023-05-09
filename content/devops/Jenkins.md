@@ -351,16 +351,18 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 			- ```groovy
 				properties([
 					parameters([
+						// ChoiceParameter; <https://github.com/jenkinsci/active-choices-plugin/blob/master/src/main/java/org/biouno/unochoice/ChoiceParameter.java>
 						[
 							$class: 'ChoiceParameter',
-							choiceType: 'PT_SINGLE_SELECT',
+							choiceType: 'PT_SINGLE_SELECT', // <https://github.com/jenkinsci/active-choices-plugin/blob/master/src/main/java/org/biouno/unochoice/AbstractUnoChoiceParameter.java>
 							description: 'Choose stage',
 							// filterLength: 1,
 							// filterable: true,
 							name: 'Stage',
 							// randomName: 'choice-parameter-5631314439613978',
 							script: [
-								$class: 'GroovyScript',
+								// oder ScripterScript
+								$class: 'GroovyScript', // <https://github.com/jenkinsci/active-choices-plugin/blob/master/src/main/java/org/biouno/unochoice/model/GroovyScript.java>
 								fallbackScript: [
 									classpath: [],
 									sandbox: true,
@@ -373,6 +375,8 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 								]
 							]
 						]
+						// CascadeChoiceParameter; <https://github.com/jenkinsci/active-choices-plugin/blob/master/src/main/java/org/biouno/unochoice/CascadeChoiceParameter.java>
+						// DynamicReferenceParameter; <https://github.com/jenkinsci/active-choices-plugin/blob/master/src/main/java/org/biouno/unochoice/DynamicReferenceParameter.java>
 					])
 				])
 
