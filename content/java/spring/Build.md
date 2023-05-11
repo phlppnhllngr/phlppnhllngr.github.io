@@ -47,6 +47,7 @@ grand_parent: Java
   - *Starting in Spring Boot 2.5 and later - you can also customize the buildpack that is used to create the resulting image.*
 - <https://github.com/jonashackt/spring-boot-buildpack>
   - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature*
+- Health-Check: <https://stackoverflow.com/questions/75885269/spring-boot-build-image-with-health-check>
 
 ### Konfig
 - **build command** (Maven, Gradle)
