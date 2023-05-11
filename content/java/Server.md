@@ -45,7 +45,7 @@ parent: Java
   - *Java 11 is not supported on twas 9*
   - Beim Hochfahren führt Websphere ein 'class path scanning' durch (~~kann man nicht abschalten?~~ "metadata-complete=true" im web.xml-root-Element?). Ältere Versionen kommen dabei nicht mit module-info.java zurecht. Über Einträge im Manifest kann man die entsprechenden Jars vom Scanning ausschließen:
   ```
-  // https://stackoverflow.com/questions/49067032/websphere-hates-multi-release-jars
+  // <https://stackoverflow.com/questions/49067032/websphere-hates-multi-release-jars>
   "Ignore-Scanning-Packages": "META-INF.versions",
   "Ignore-Scanning-Archives": "jaxb-runtime-2.3.1.jar,jaxb-api-2.3.1.jar,txw2-2.3.1.jar,..."
   ```
@@ -196,9 +196,21 @@ parent: Java
     - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin> 
 - **Security**
   - <https://wildfly-security.github.io/wildfly-elytron/>
-- **Hinweise**
+- **Subsystems**
+  - DataSource
+    - <https://docs.wildfly.org/26/Admin_Guide.html#DataSource>  
   - messaging-activemq
-    - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>  
+    - <https://docs.wildfly.org/26/Admin_Guide.html#Messaging> 
+    - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>
+  - metrics
+    - <https://docs.wildfly.org/26/Admin_Guide.html#MicroProfile_Metrics_SmallRye_Subsystem_Config>
+    - Grafana Dashboard: <https://grafana.com/grafana/dashboards/13489-microprofile-wildfly-16-metrics/>
+  - health
+    - <https://docs.wildfly.org/26/Admin_Guide.html#MicroProfile_Health_SmallRye>
+  - web service
+    - <https://docs.wildfly.org/26/Admin_Guide.html#Web_services>
+  - jmx
+    - <https://docs.wildfly.org/26/Admin_Guide.html#JMX> 
 
 
 ### TomEE
