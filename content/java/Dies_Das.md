@@ -107,6 +107,8 @@ parent: Java
   - <http://www.mastertheboss.com/java/jbang-vs-jshell/>
 - **beanshell**
   - <https://github.com/beanshell/beanshell>
+- **JavaFiddle**
+  - <https://javafiddle.leaningtech.com/> 
 
 
 ## Dokumentation
