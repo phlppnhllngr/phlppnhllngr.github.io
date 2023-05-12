@@ -33,7 +33,6 @@ parent: Webdev
       - <https://www.youtube.com/playlist?list=PL4WEkbdagHIR0RBe_P4bai64UDqZEbQap> (Blazor C# Tutorials, 24 videos)
       - <https://www.youtube.com/watch?v=aqSinXoStAU> (6h 23min)
       - <https://www.youtube.com/watch?v=dCgqTDki-VM> (1h)
-    - PDF: syncfusion, itext?
     - UI Libs
       - <https://blazor.radzen.com/>
 - <u>Java</u>
@@ -42,7 +41,7 @@ parent: Webdev
     - als SaaS ab 750€/Jahr, self-hosted mehr (?)
     - hohe Dateigrößen (Github-Seite gibt Tipps; wesentlich geringer mit gzip/brotli)<br/>
       <https://github.com/leaningtech/cheerpj-meta/wiki>
-    - PDF: itext
+    - <https://leaningtech.com/announcing-cheerpj-3-0-a-jvm-replacement-in-html5-and-webassembly-to-run-java-applications-and-applets-on-modern-browsers/>
   - **TeaVM**
     - <http://teavm.org/>
     - <https://github.com/konsoletyper/teavm> *1.4k
@@ -62,7 +61,6 @@ parent: Webdev
     - Maven-Plugin
 - <u>Go</u>
   - <https://github.com/golang/go/wiki/WebAssembly>
-  - PDF: jung-kurt/gofpdf?
 - <u>Rust</u>
   - **yew**
     - *Rust framework for creating multi-threaded front-end web apps with WebAssembly* 
