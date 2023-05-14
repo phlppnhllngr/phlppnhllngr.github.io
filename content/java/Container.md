@@ -13,7 +13,8 @@ parent: Java
     - *contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution*
     - java11-debian11, java17-debian11
     - <https://github.com/GoogleContainerTools/distroless>
-- ~~openjdk~~ depcrecated -> temurin, corretto
+    - <https://blog.frankel.ch/fearless-distroless/>
+- ~~openjdk~~ depcrecated -> temurin
 - **redhat ubi**
   <br/>user.home = /home/jboss
   ```Dockerfile
