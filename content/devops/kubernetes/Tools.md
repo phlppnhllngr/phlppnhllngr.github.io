@@ -141,6 +141,11 @@ grand_parent: DevOps
 - **Dashboard**
   - *General-purpose web UI for Kubernetes clusters* 
   - <https://github.com/kubernetes/dashboard> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes/dashboard?style=flat-square">
+- **kube-state-metrics**
+  - *listens to the Kubernetes API server and generates metrics about the state of the objects*
+  - *It is not focused on the health of the individual Kubernetes components, but rather on the health of the various objects inside, such as deployments, nodes and pods.*
+  - *The metrics are exported on the HTTP endpoint /metrics* 
+  - <https://github.com/kubernetes/kube-state-metrics> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes/kube-state-metrics?style=flat-square">
 
 
 ## Java
