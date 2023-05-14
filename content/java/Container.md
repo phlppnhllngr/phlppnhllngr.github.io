@@ -35,6 +35,9 @@ parent: Java
       "com.example.Application" \
   ]
   ```
+    - ubi-micro
+        - *a stripped down image that uses the package manager on the underlying host to install packages* 
+        - <https://hub.docker.com/r/redhat/ubi8-micro> 
 - <u>liberica</u>
     - **openjdk-alpine**
       - <https://hub.docker.com/r/bellsoft/liberica-openjdk-alpine>
