@@ -94,6 +94,10 @@ grand_parent: DevOps
   - *Reverse engineer Docker images into Dockerfiles.*
   - *Similar to how the `docker history` command works, Dedockify is able to re-create the Dockerfile (approximately) that was used to generate an image using the metadata that Docker stores alongside each image layer.*
   - <https://github.com/mrhavens/Dedockify>
+- **dem**
+  - Docker Event Monitor
+  - *sends alerts to Slack, Discord or SparkPost when certain events happen within Docker*
+  - <https://bitbucket.org/quaideman/dem> 
 
 
 ## GUIs
