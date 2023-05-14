@@ -188,6 +188,10 @@ parent: Diverses
   - *Create in-product surveys with our no code editor*
   - *target your surveys to specific user groups*
   - <https://github.com/formbricks/formbricks>
+- **Dashy**
+  - *A self-hostable personal dashboard* 
+  - *helps you organize your self-hosted services by making them accessible from a single place* 
+  - <https://github.com/Lissy93/dashy> 
 
 
 ## Parser-Generatoren
