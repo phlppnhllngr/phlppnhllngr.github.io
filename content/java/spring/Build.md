@@ -47,7 +47,11 @@ grand_parent: Java
   - *Starting in Spring Boot 2.5 and later - you can also customize the buildpack that is used to create the resulting image.*
 - <https://github.com/jonashackt/spring-boot-buildpack>
   - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature*
-- Health-Check: <https://stackoverflow.com/questions/75885269/spring-boot-build-image-with-health-check>
+- Health-Checks
+  - <https://stackoverflow.com/questions/75885269/spring-boot-build-image-with-health-check> (04/2023)
+    - *The Health Checkers buildpack hasn't been added to the main builders just yet, but it is fully available to use with your app. For now, the buildpack has to be added manually.*
+    - Um curl statt `Tiny Health Checker` nutzen zu können: <https://stackoverflow.com/questions/63789255/install-package-in-docker-image-created-by-spring-boot-maven-plugin>
+  
 
 ### Konfig
 - **build command** (Maven, Gradle)
