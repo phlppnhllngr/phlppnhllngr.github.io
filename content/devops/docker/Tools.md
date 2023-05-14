@@ -97,7 +97,11 @@ grand_parent: DevOps
 - **dem**
   - Docker Event Monitor
   - *sends alerts to Slack, Discord or SparkPost when certain events happen within Docker*
-  - <https://bitbucket.org/quaideman/dem> 
+  - <https://bitbucket.org/quaideman/dem>
+- **Tiny Health Checker**
+  - *a small binary that can only make HTTP requests to localhost*
+  - für Health-Checks wenn kein Http-Client wie curl oder wget verfügbar ist 
+  - <https://github.com/dmikusa/tiny-health-checker> 
 
 
 ## GUIs
