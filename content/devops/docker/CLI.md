@@ -19,7 +19,8 @@ grand_parent: DevOps
   - -> Docker/Tools/compose
 - **events**
   - *get real-time events from the server* 
-  - <https://docs.docker.com/engine/reference/commandline/events/> 
+  - <https://docs.docker.com/engine/reference/commandline/events/>
+  - <https://dev.to/themreza/monitoring-and-logging-docker-events-59oi>
 - **exec**
   - `docker exec -it <name/id> /bin/sh`
   - "Inline": `docker exec <name/id> /bin/sh -c "echo $HOME"`
