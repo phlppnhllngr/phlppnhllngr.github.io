@@ -33,7 +33,8 @@ parent: DevOps
         - *a script to run docker-compose.yml using podman*   
         - <https://github.com/containers/podman-compose>
     - podman-desktop
-        - *graphical tool for developing on containers and Kubernetes* 
+        - *graphical tool for developing on containers and Kubernetes*
+        - Support für k8s (mit KinD): <https://podman-desktop.io/docs/kubernetes>
         - <https://github.com/containers/podman-desktop>
     - podman-desktop-companion
         - <https://github.com/iongion/podman-desktop-companion>
