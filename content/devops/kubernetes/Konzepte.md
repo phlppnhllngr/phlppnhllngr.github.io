@@ -235,6 +235,7 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - *forwards incoming requests to services*
 - Layer 7 (Http, Smtp, ...); Komplexere LB-Verfahren möglich; z. B. auf Basis des Message-Contents, Path-Rewrites, ...
 - <https://kubernetes.io/docs/concepts/services-networking/ingress/>
+- Gateway API: <https://benchkram.de/blog/dev/replace-kubernetes-ingress-with-gateway-api>
 
 ### ConfigMap
 - *external configuration of application*
