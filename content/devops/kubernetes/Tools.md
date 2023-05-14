@@ -134,7 +134,13 @@ grand_parent: DevOps
         )
     }
     ```  
-  - <https://tanka.dev/> 
+  - <https://tanka.dev/>
+- **k9s**
+  - *provides a terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications in the wild. K9s continually watches Kubernetes for changes and offers subsequent commands to interact with your observed resources.* 
+  - <https://github.com/derailed/k9s> <img loading="lazy" src="https://img.shields.io/github/stars/derailed/k9s?style=flat-square">
+- **Dashboard**
+  - *General-purpose web UI for Kubernetes clusters* 
+  - <https://github.com/kubernetes/dashboard> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes/dashboard?style=flat-square">
 
 
 ## Java
