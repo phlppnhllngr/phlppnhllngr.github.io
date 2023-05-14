@@ -5,7 +5,6 @@ has_children: true
 ---
 
 # Kubernetes
-{: .no_toc }
 - Container Orchestration Engine
 - <https://kubernetes.io>
 - *also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications*
@@ -18,12 +17,6 @@ has_children: true
 - <https://github.com/techiescamp/kubernetes-learning-path> - *A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)*
 - <https://github.com/stefanprodan/podinfo> - *a tiny web application made with Go that showcases best practices of running microservices in Kubernetes.*
 - [YT: Docker Containers and Kubernetes Fundamentals – Full Hands-On Course, 6h, 10/2022](https://www.youtube.com/watch?v=kTp5xUtcalw)
-
-
-## Inhalt
-{: .no_toc }
-- TOC
-{:toc}
 
 
 ## Context
