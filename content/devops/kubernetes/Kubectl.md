@@ -40,6 +40,9 @@ grand_parent: DevOps
   - deployment
     - *create and run pod and replicaset*
     - `kubectl create deployment <name> --image=<image> [--dry-run] [--port] [--replicas=<number>] [...]`
+- **debug**
+  - Zum Debuggen von Containern ohne Shell (z. B. distroless)
+  - <https://blog.frankel.ch/fearless-distroless/> 
 - **delete**
   - `kubectl delete deployment <deployment>`
   - `kubectl delete -f <config-file>`
