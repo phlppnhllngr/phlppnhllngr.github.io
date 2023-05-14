@@ -146,6 +146,12 @@ grand_parent: DevOps
   - *It is not focused on the health of the individual Kubernetes components, but rather on the health of the various objects inside, such as deployments, nodes and pods.*
   - *The metrics are exported on the HTTP endpoint /metrics* 
   - <https://github.com/kubernetes/kube-state-metrics> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes/kube-state-metrics?style=flat-square">
+- **kube-score**
+  - *performs static code analysis of your Kubernetes object definitions. The output is a list of recommendations of what you can improve to make your application more secure and resilient.*
+  - Liste aller Checks: <https://github.com/zegl/kube-score/blob/master/README_CHECKS.md>
+  - *can run in your CI/CD environment and will exit with exit code 1 if a critical error has been found*
+  - funktioniert auch mit Helm-Charts und Kustomize
+  - <https://github.com/zegl/kube-score> <img loading="lazy" src="https://img.shields.io/github/stars/zegl/kube-score?style=flat-square">
 
 
 ## Java
