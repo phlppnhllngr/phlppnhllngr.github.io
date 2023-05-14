@@ -36,6 +36,7 @@ parent: DevOps
         - *graphical tool for developing on containers and Kubernetes*
         - Support für k8s (mit KinD): <https://podman-desktop.io/docs/kubernetes>
         - <https://github.com/containers/podman-desktop>
+        - <https://www.thomasvitale.com/podman-desktop-for-java-development/>
     - podman-desktop-companion
         - <https://github.com/iongion/podman-desktop-companion>
         
