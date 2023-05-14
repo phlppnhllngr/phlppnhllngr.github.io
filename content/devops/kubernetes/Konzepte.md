@@ -5,6 +5,13 @@ grand_parent: DevOps
 ---
 
 # Konzepte
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
 
 ## Komponenten, Terminologie
 
