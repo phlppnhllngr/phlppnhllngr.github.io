@@ -180,9 +180,26 @@ parent: Java
 - **compiler**
   - <https://maven.apache.org/plugins/maven-compiler-plugin>
   - configuration
-    - target
     - source
+    	- *refers to the source code*
+    - target
+    	- *refers to the format of the generated class files* 
     - release
+    	- *... but they [source, target] do not take into account API changes as maven.compiler.release does*
+    	- *if you blindly just use `<maven.compiler.source>8</maven.compiler.source>` and `<maven.compiler.target>8</maven.compiler.target>`, if you build using Java 11 for example the generated class files will support Java 8 but the API may still rely on Java 11 changes and break when run on Java 8*
+    	- ```xml
+    	 <profile>
+	  	<id>java-8-api</id>
+	  	<activation>
+	    		<jdk>[9,)</jdk>
+	  	</activation>
+	  	<properties>
+	    		<maven.compiler.release>8</maven.compiler.release>
+	  	</properties>
+	  </profile>
+	  ```
+	*That way if you build on Java 9+, maven.compiler.release will come into effect and restrict the API to be compatible with Java 8.*
+	- *can't we just add the 3 properties without setting up a profile? -- No, because the Java 8 compiler would complain that it doesn't understand the "source" option.*
 - **cxf-codegen**
   - *can generate java artifacts from WSDL*
   - <https://cxf.apache.org/docs/maven-cxf-codegen-plugin-wsdl-to-java.html>
