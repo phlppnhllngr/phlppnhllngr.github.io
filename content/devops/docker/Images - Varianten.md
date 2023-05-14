@@ -29,6 +29,12 @@ grand_parent: DevOps
   - <https://github.com/GoogleContainerTools/distroless> *5.5k
   - *"Distroless" images contain only your application and its runtime dependencies. They <mark>don’t contain any programs like shells and package managers</mark> usually found in a Linux distribution.*
   - Images für Java, Nodejs, ...
+- **Wolfi**
+  - *a community Linux OS designed for the container and cloud-native era*
+  - *collection of curated distroless images*
+  - *support for both glibc and musl*
+  - *Unlike Alpine, Wolfi does not currently build its own Linux kernel, instead relying on the host environment (e.g. a container runtime) to provide one.*
+  - <https://github.com/wolfi-dev/>
 
 **Microsoft**
 - <mark>Um Windows-Container zu nutzen, muss man in Docker für Windows 'switch to windows containers' auswählen und dann Docker neu starten</mark>
