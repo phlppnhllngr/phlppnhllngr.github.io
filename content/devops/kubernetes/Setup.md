@@ -88,6 +88,7 @@ grand_parent: DevOps
   - derzeit (03/23) kein Support für NetworkPolicies (<https://github.com/kubernetes-sigs/kind/issues/842>)
   - <https://github.com/kubernetes-sigs/kind> <img loading="lazy" src="https://img.shields.io/github/stars/kubernetes-sigs/kind?style=flat-square">
   - <https://kind.sigs.k8s.io/docs/>
+  - mit Podman Desktop: <https://podman-desktop.io/docs/kubernetes/kind>
 - **K3s**
   - *Lightweight Kubernetes*
   - *Production ready, easy to install, half the memory, all in a binary less than 100 MB.*
