@@ -102,15 +102,46 @@ grand_parent: DevOps
 - Use cases für mehrere Container pro Pod
   - Sidecar-Container, der Logfiles archiviert
   - Adapter, z. B. Format von Monitoring-Output umwandeln um für zentrales Monotoring-Tool aufzubereiten
-- Probes
-  - Startup
-    - die anderen Probes werden nicht durchgeführt, bevor Startup erfolgt ist 
-  - Readiness
-    - prüft, ob der Pod Traffic entgegennehmen kann (z. B. wenn DB erreicht werden kann) 
-  - Liveness
-    - Failure führt zu Restart
-  - mögliche Actions: Exec, TcpSocket, HttpGet
+- Lifecycle
+  - postStart 
+  - preStop 
+  - <https://kubernetes.io/docs/tasks/configure-pod-container/attach-handler-lifecycle-event/>
 - <https://kubernetes.io/docs/concepts/workloads/pods/>
+
+#### Probes
+- Startup
+  - die anderen Probes werden nicht durchgeführt, bevor Startup erfolgt ist
+  - Fehlschlag führt zu Neustart des Pods
+  - *This probe roughly answers the question: Should we start running the livenessProbe now?*
+  - *For applications that take a longer time to boot than the livenessProbes' initialDelaySeconds + periodSeconds * failureThreshold, a startupProbe can be configured.*
+  - *The startupProbe allows you to decrease the liveness probes initialDelaySeconds*
+  - *As soon as the startupProbe has succeeded once, the livenessProbe will start to be executed.*
+- Readiness
+  - prüft, ob der Pod Traffic entgegennehmen kann (z. B. wenn DB erreicht werden kann)
+  - *control which Pods are used as backends for Kubernetes Services (and esp. Ingress).*
+  - Fehlschlag führt zum Entfernen aus Load-Balancing
+  - *You DO NOT want to send requests to the one replica that cannot connect to the database.*
+  - *if you don’t set the readiness probe, the kubelet assumes that the app is ready to receive traffic as soon as the container starts*
+  - *DO check dependencies in readiness probes that are exclusive for the pod*
+  - *A Pod is considered ready when all of its containers are ready*
+  - *for microservices providing an HTTP endpoint (REST service etc), always define a Readiness Probe which checks that your application (Pod) is ready to receive traffic*
+  - *make sure that your Readiness Probe includes database initialization/migration. the simplest way to achieve this is to start the HTTP server listening only after the initialization finished (e.g. Flyway DB migration etc)*
+  - *understand the default behavior (interval: 10s, timeout: 1s, successThreshold: 1, failureThreshold: 3) of probes. In the default configuration, your application will fail for 30s (+ the time it takes for the network to react), for clients to stop sending traffic to your application.*
+  - *Without a readinessProbe you're risking that: Traffic is sent to the Pod before the server has started. Traffic is still sent to the Pod after the Pod has stopped*
+  - *Handle shutdowns gracefully: Applications should start to fail the readinessProbe after receiving SIGTERM, and wait until the service is unregistered from all Load Balancers, before shutting down. As an alternative to this, a preStop hook with a sleep can be used.*
+- Liveness
+  - Fehlschlag führt zu Neustart des Pods
+  - *DO NOT check dependencies in liveness probes*
+  - *DO NOT set the same specification for Liveness and Readiness Probe.*
+  - *do not use a Liveness Probe for your Pods unless you understand the consequences and why you need a Liveness Probe*
+  - *you can use a Liveness Probe with the same health check [as readiness probe], but a higher failureThreshold (e.g. mark as not-ready after 3 attempts and fail Liveness Probe after 10 attempts)*
+- mögliche Actions: Exec, TcpSocket, HttpGet
+- *do not use "exec" probes as there are known problems with them resulting in zombie processes*
+- *the pure existence of these probes and them being part of the Kubernetes documentation, doesn’t mean that EVERY application should use ALL of them*
+- *Handling of SIGTERM events is a must in Kubernetes. Evictions, pod autoscalers, and just regular operation (like kubectl apply ...) can lead to pods getting killed prematurely. This happens by sending a SIGTERM event to the application. The readiness probe MUST respond differently than a liveness probe after the SIGTERM event has been received but before the app is able to exit. The readiness probe must return failure, while the liveness probe must return success. In this way, no new requests are sent to the terminated replica, but existing requests that are currently being processed are able to complete. After the liveness probe returns failure, Kubernetes may send a SIGKILL event, terminating your app immediately. In order for this to be handled properly, your liveness probe MUST remain healthy and your readiness probe MUST return failure. Of course, after the request in flight have been completed, your liveness probe should return failure, but only after all requests in flight have been completed.*
+- *Many containers launch their main process from a shell script. When this happens, the shell script receives the SIGTERM event, not the application. Your shell script MUST relay SIGTERM events back to the main process, and it doesn’t happen by default. You can use a shell script wrapper, like dumb-init (<https://github.com/yelp/dumb-init>), as your entry point if you need to use a shell script on container startup.*
+- *under Linux, PID 1 is special by itself: a non-PID-1 application receiving SIGTERM and NOT explicitly handling the signal, will just exit. a PID-1 application receiving SIGTERM and NOT explicitly handling the signal will… do nothing!*
+
 
 ### Workloads
 
