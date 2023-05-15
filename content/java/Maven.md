@@ -204,7 +204,8 @@ parent: Java
   - *can generate java artifacts from WSDL*
   - <https://cxf.apache.org/docs/maven-cxf-codegen-plugin-wsdl-to-java.html>
 - **depclean**
-  - *detects and removes all the unused dependencies declared in the pom.xml file of a project or imported from its parent* 
+  - *detects and removes all the unused dependencies declared in the pom.xml file of a project or imported from its parent*
+  - Ausführung erfordert Java 11+
   - <https://github.com/ASSERT-KTH/depclean>  
 - **dependency**
   - <https://maven.apache.org/plugins/maven-dependency-plugin>
