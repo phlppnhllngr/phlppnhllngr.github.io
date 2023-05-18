@@ -160,6 +160,7 @@ parent: Java
 - <https://hub.docker.com/_/open-liberty/>
 - <https://hub.docker.com/_/websphere-liberty>
 - <https://openliberty.io/blog/2018/07/02/creating-dual-layer-docker-images-for-spring-boot-apps.html>
+- Übersicht Features: <https://www.ibm.com/docs/de/was-liberty/core?topic=management-liberty-features>
 
 
 ### WildFly
