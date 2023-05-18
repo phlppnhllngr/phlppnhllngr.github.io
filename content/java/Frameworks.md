@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Frameworks
-created: '2019-02-14T20:27:43.061Z'
-modified: '2021-08-15T11:55:31.908Z'
 parent: Java
 ---
 
@@ -129,6 +126,9 @@ parent: Java
   - *Uses Netty for HTTP, Jackson for JSON, Metrics for metrics, properties files for configuration.*
   - *Sub-projects and plugins enable, NoSQL, Swagger, Auth0, HAL integration, etc.* 
   - <https://github.com/RestExpress/RestExpress> <img loading="lazy" src="https://img.shields.io/github/stars/RestExpress/RestExpress?style=flat-square">
+- **ActiveJ**
+  - *asynchronous IO with the efficient event loop, NIO, promises, streaming, and CSP. Alternative to Netty, RxJava, Akka, and others* 
+  - <https://github.com/activej/activej> <img loading="lazy" src="https://img.shields.io/github/stars/activej/activej?style=flat-square">
 
 
 ## Enterprise Integration
