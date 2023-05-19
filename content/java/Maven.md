@@ -187,7 +187,8 @@ parent: Java
     - release
     	- *... but they [source, target] do not take into account API changes as maven.compiler.release does*
     	- *if you blindly just use `<maven.compiler.source>8</maven.compiler.source>` and `<maven.compiler.target>8</maven.compiler.target>`, if you build using Java 11 for example the generated class files will support Java 8 but the API may still rely on Java 11 changes and break when run on Java 8*
-    	- ```xml
+    	- pom:
+	  ```xml
 	  <profile>
 	    <id>java-8-api</id>
 	    <activation>
