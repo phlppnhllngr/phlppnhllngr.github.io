@@ -87,11 +87,11 @@ parent: Java
     - *It is optimized	for	time	series	data management,	which	includes	arrays	of	numbers,	indexed	by	time.	Such databases	include	elasticsearch, graphite, and InfluxDB*
     - *Stagemonitor	contains	a	Java-based	agent.	The	agent	sits	in	the	Java	application. The agent	connects	to	the	central	database	and	sends	metrics	and	request	traces and	statistics.	Stagemonitor	requires	one	instance	for	monitoring	all	applications, instances, and	hosts.*
 - **Pinpoint**
-  - <http://naver.github.io/pinpoint/>
+  - <https://github.com/pinpoint-apm/pinpoint> <img loading="lazy" src="https://img.shields.io/github/stars/pinpoint-apm/pinpoint?style=flat-square"/>
   - *if you’re looking to monitor the performance of large-scale distributed systems written in Java* [1]
   - <mark>free</mark>
   - aus "Hands-On High Performance with Spring 5":
-    - Pinpoint is	different	from	Stagemonitor,	in that it was developed with large-scale applications in	mind
+    - *Pinpoint is	different	from	Stagemonitor,	in that it was developed with large-scale applications in	mind*
 - **Glowroot**
   - <https://glowroot.org/>
   - <https://demo.glowroot.org/>
