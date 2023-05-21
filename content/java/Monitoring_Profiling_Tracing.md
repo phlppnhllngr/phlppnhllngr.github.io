@@ -18,7 +18,7 @@ parent: Java
 - *profilers should detail out all memory usage by the JVM including object creation, method executions, iterative executions, thread executions, and garbage collection*
 - **micrometer**
   - <https://micrometer.io>
-  - Grafana-Dashboard: <https://grafana.com/grafana/dashboards/4701-jvm-micrometer/?plcmt=top-nav&cta=downloads>
+  - Grafana-Dashboard: <https://grafana.com/grafana/dashboards/4701-jvm-micrometer/>
 - **MoSKito**
   - <https://www.moskito.org/index.html>
   - aus Hands-On High Performance with Spring 5:
