@@ -20,6 +20,7 @@ parent: Java
   - <https://micrometer.io>
   - Grafana-Dashboard: <https://grafana.com/grafana/dashboards/4701-jvm-micrometer/>
 - **MoSKito**
+  - <https://github.com/anotheria/moskito> <img loading="lazy" src="https://img.shields.io/github/stars/anotheria/moskito?style=flat-square"/>
   - <https://www.moskito.org/index.html>
   - aus Hands-On High Performance with Spring 5:
     - *MoSKito	is	a	group	of	three	tools:*
@@ -72,14 +73,15 @@ parent: Java
       - *Database	monitoring:	In	New	Relic,	the	dashboard	for	the	database	is	a part	of	the	application	performance	management	dashboard.	It	is	possible	to view	database	monitoring	metrics	through	plugins.*
       - *Insights	and	analytics:	New	Relic	has	a	built-in,	opt-in	database,	which stores	statistics	and	enables	querying	the	database.*
 - **scouter**
-  - <https://github.com/scouter-project/scouter> ⭐1.5k
+  - <https://github.com/scouter-project/scouter> <img loading="lazy" src="https://img.shields.io/github/stars/scouter-project/scouter?style=flat-square"/>
   - *the open source new relic and appdynamics* [1]
   - <mark>free</mark>
 - **dynatrace** 💰
   - <https://www.dynatrace.com/>
 - **Stagemonitor**
+  - 02/23: Github-Repo archiviert 
   - <https://www.stagemonitor.org/de/>
-  - <https://github.com/stagemonitor/stagemonitor> ⭐1.5k
+  - <https://github.com/stagemonitor/stagemonitor>
   - aus "Hands-On High Performance with Spring 5":
     - *has	a	monitoring	agent	built	with	support	for	clustered	application stacks*
     - *It is optimized	for	time	series	data management,	which	includes	arrays	of	numbers,	indexed	by	time.	Such databases	include	elasticsearch, graphite, and InfluxDB*
@@ -93,7 +95,7 @@ parent: Java
 - **Glowroot**
   - <https://glowroot.org/>
   - <https://demo.glowroot.org/>
-  - <https://github.com/glowroot/glowroot> ⭐700
+  - <https://github.com/glowroot/glowroot> <img loading="lazy" src="https://img.shields.io/github/stars/glowroot/glowroot?style=flat-square"/>
   - <mark>free</mark>, simple APM (javaagent)
 - **Kamon** 💰
   - <https://kamon.io/>
@@ -117,7 +119,7 @@ parent: Java
   - IDE-Integration
     - VSCode: Node, Python
     - Intellij: Java 
-  - <https://github.com/runsidekick/sidekick>
+  - <https://github.com/runsidekick/sidekick> <img loading="lazy" src="https://img.shields.io/github/stars/runsidekick/sidekick?style=flat-square"/>
   - <https://docs.runsidekick.com/>
 - **Lightrun** 💰
   - *Dev Observability Platform for Production Debugging*
@@ -126,7 +128,7 @@ parent: Java
 - **OpenTelemetry**
   - → DevOps/Monitoring
   - SDK
-    - <https://github.com/open-telemetry/opentelemetry-java>
+    - <https://github.com/open-telemetry/opentelemetry-java> <img loading="lazy" src="https://img.shields.io/github/stars/open-telemetry/opentelemetry-java?style=flat-square"/>
   - Java-Agent
     - *offload responsibility from the application (no application code required)*
     - viele [frameworks und libs](https://github.com/open-telemetry/opentelemetry-java-instrumentation/blob/main/docs/supported-libraries.md#libraries---frameworks) ohne zusätzl. konfiguration unterstützt ("auto instrumentation"), custom telemetry für alle anderen (über code + annotationen)
