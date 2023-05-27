@@ -122,33 +122,62 @@ parent: Java
 - -XX = non-standard
 - -XX:+Foo / -XX:-Foo für Boolean-Flags, -XX:Foo=Bar für Werte
 <br/><br/>
-- **+/-PrintFlagsFinal**
-  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*  
-- **+/-UseContainerSupport**
-  - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.*  
-- **MAXRamPercentage**
+- **ArchiveClassesAtExit**
+  - *Triggers creation of a AppCDS archive at the given location upon application shutdown*
+  - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
+  - `ArchiveClassesAtExit=/path/to/app-cds.jsa`
+- **ActiveProcessorCount**
+  - `-XX:ActiveProcessorCount=<number>`
+  - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()` und damit ggf. auf Größen von best. Threadpools
+- **+/-DebugNonSafepoints**
+- **DumpLoadedClassList**
+  - `-XX:DumpLoadedClassList=/path/to/classes.lst`
+- **+/-ExitOnOutOfMemoryError**
+  - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
+- **+/-HeapDumpOnOutOfMemoryError**
+  - *tells the Java HotSpot VM to generate a heap dump when an allocation from the Java heap or the permanent generation cannot be satisfied*
+- **HeapDumpPath**
+  - *By default the heap dump is created in a file called java_pid.hprof in the working directory of the VM, as in the example above. You can specify an alternative file name or directory with the -XX:HeapDumpPath= option.*
+  - *the JVM will NOT overwrite an existing heap dump in the HeapDumpPath, you'll see something similar to "Unable to create /tmp/java_pidpid.hprof: File exists" in your standard out*
+  - `-XX:HeapDumpPath=/foo/bar`
 - **InitialRAMPercentage**
+- **MaxRAM**
+  - *this parameter overrides the actual amount of physical RAM when calculating the heap limits basing on ergonomics*
+  - *If `-Xmx?  is set, `MaxRAM` is never used. Otherwise the maximum heap size is estimated as `MaxHeapSize = MaxRAM * MaxRAMPercentage / 100% (default MaxRAMPercentage=25)`*
+- **MaxRAMFraction**
+  - deprecated für `MaxRAMPercentage`
+- **MaxRAMPercentage**
+    - Default = 25
+    - `Xmx = cgroup_mem_limit * MaxRAMPercentage / 100`
+    - *If you set a value for `-Xmx` , the `-XX:MaxRAMPercentage` option is ignored.*
+- **MaxJavaStackTraceDepth**
+  - zur Laufzeit ändern: <https://gist.github.com/apangin/8a26a026efab87c5778fb89706f5712a>
+- **NativeMemoryTracking**
+  - *The Native Memory Tracking (NMT) is a Java HotSpot VM feature that tracks internal memory usage for a Java HotSpot VM.*
+  - `NativeMemoryTracking=summary/detail/off`
+  - *Enabling NMT causes a 5%-10% performance overhead*
+  - <https://docs.oracle.com/en/java/javase/18/troubleshoot/diagnostic-tools.html#GUID-1F53A50E-86FF-491D-A023-8EC4F1D1AC77>
+- **+/-PrintFlagsFinal**
+  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*
+- **+/-PrintNMTStatistics**
+  - *obtain last memory usage data at VM exit when Native Memory Tracking is enabled*
+  - `-XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics`
+  - <https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html>
 - **showSettings:vm**
 - **+/-StackTraceInThrowable**
-- **+/-UseStringDeduplication**
-- **+/-UseBiasedLocking**
-- **+/-UseParallelGC**
-- **+/-UnlockDiagnosticVMOptions**
-  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*
-- **+/-DebugNonSafepoints**
-- **+/-UseAppCDS**
-  - *made obsolete in JDK 11, expired in JDK 12*
 - **SharedArchiveFile**
   - `-XX:SharedArchiveFile=/path/to/classes.jsa`
 - **+/-ShowCodeDetailsInExceptionMessages**
-- **DumpLoadedClassList**
-  - `-XX:DumpLoadedClassList=/path/to/classes.lst`
-- **ArchiveClassesAtExit*
-  - *Triggers creation of a AppCDS archive at the given location upon application shutdown*
-  - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
-  - `ArchiveClassesAtExit=/path/to/app-cds.jsa`  
 - **SharedClassListFile**
   - `-XX:SharedClassListFile=/path/to/classes.lst`
+- **StartFlightRecording**
+  - aktiviert JFR
+  - `-XX:StartFlightRecording`
+  - Options
+    - dumponexit=true/false
+    - filename=/path/to/file.jfr
+- **+/-ShowHiddenFrames**
+  - *enables or disables the display of generated hidden MethodHandle frames in a stack trace*
 - **TieredCompilation**
   - *disable tiered compilation*  
 - **TieredStopAtLevel**
@@ -164,28 +193,18 @@ parent: Java
     - 3
     - 4
   - `-XX:TieredStopAtLevel=1`
-- **+/-ExitOnOutOfMemoryError**
-  - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
-- **StartFlightRecording**
-  - aktiviert JFR
-  - `-XX:StartFlightRecording`
-  - Options
-    - dumponexit=true|false
-    - filename=/path/to/file.jfr
-- **NativeMemoryTracking**
-  - *The Native Memory Tracking (NMT) is a Java HotSpot VM feature that tracks internal memory usage for a Java HotSpot VM.*
-  - `NativeMemoryTracking=summary`
-  - *Enabling NMT causes a 5% -10% performance overhead*
-  - <https://docs.oracle.com/en/java/javase/18/troubleshoot/diagnostic-tools.html#GUID-1F53A50E-86FF-491D-A023-8EC4F1D1AC77>
-- **+/-PrintNMTStatistics**
-- **ActiveProcessorCount**
-  - `-XX:ActiveProcessorCount=<number>`
-  - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()`
-- **MaxJavaStackTraceDepth**
-- **+/-ShowHiddenFrames**
-  - *enables or disables the display of generated hidden MethodHandle frames in a stack trace*
-- **+/-HeapDumpOnOutOfMemoryError**
-
+- **+/-UseStringDeduplication**
+- **+/-UseBiasedLocking**
+- **+/-UseParallelGC**
+- **+/-UnlockDiagnosticVMOptions**
+  - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*
+- **+/-UnlockExperimentalVMOptions**
+  - *unlocks experimental JVM features. These features may be unstable and are therefore not available by default, so this flag is required to make them available.*
+- **+/-UseAppCDS**
+  - *made obsolete in JDK 11, expired in JDK 12*
+- **+/-UseContainerSupport**
+  - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.* 
+  - *UseCGroupMemoryLimitForHeap VM option has been removed in JDK 11 and replaced with UseContainerSupport*
 
 ## Memory
 - <https://www.baeldung.com/java-memory-beyond-heap>
@@ -238,6 +257,7 @@ parent: Java
 - *The JVM uses the Symbol area to store symbols such as field names, method signatures, and interned strings*
   
 ### Arena
+- *This is unrelated to glibc arenas. In HotSpot, Arena is a structure for fast native memory allocation*
   
 ### Other
 - *Every other memory usage that can't be categorized in the native memory area falls in this section. As an example, DirectByteBuffer usage is indirectly visible in this part.*
