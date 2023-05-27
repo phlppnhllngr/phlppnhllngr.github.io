@@ -57,6 +57,9 @@ parent: Java
   - *By default, values for these two properties are -1, which means no timeout is set*
   - `-Dsun.net.client.defaultConnectTimeout=2000 -Dsun.net.client.defaultReadTimeout=2000`
   - beeinflusst offenbar nur URLConnection, aber nicht java.net.http.HttpClient
+- **sun.zip.disableMemoryMapping**
+  - true/false
+  - entfernt in Java 9
 - **user.timezone**
   - *you might be using java.util.Date or java.util.Calendar objects. These objects, by default, pick up time zone information from the underlying operating system. This will become a problem if your application is running in a distributed environment.*
   - `-Duser.timezone=US/Eastern`
@@ -134,6 +137,10 @@ parent: Java
   - `-XX:DumpLoadedClassList=/path/to/classes.lst`
 - **+/-ExitOnOutOfMemoryError**
   - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
+- **GCTimeRatio**
+  - `-XX:GCTimeRatio=nnn`
+  - *A hint to the virtual machine that it's desirable that not more than 1 / (1 + nnn) of the application execution time be spent in the collector.*
+  - *By default the value is 99, meaning the application should get at least 99 times as much time as the collector. That is, the collector should run for not more than 1% of the total time.*
 - **+/-HeapDumpOnOutOfMemoryError**
   - *tells the Java HotSpot VM to generate a heap dump when an allocation from the Java heap or the permanent generation cannot be satisfied*
 - **HeapDumpPath**
