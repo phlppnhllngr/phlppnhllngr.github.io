@@ -198,7 +198,8 @@ parent: Diverses
   - *Eliminate complex error or retry logic, avoid callbacks, and ensure that every workflow you start, completes. Temporal delivers durable execution for your services and applications.*
   - SDKs für Java, Go, Python, TS, JS, PHP
   - einfache Installation (nur ein Binary)
-  - <https://github.com/temporalio/temporal> 
+  - <https://github.com/temporalio/temporal>
+  - <https://www.youtube.com/@Temporalio>
 
 
 ## Parser-Generatoren
