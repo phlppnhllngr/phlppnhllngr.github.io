@@ -39,9 +39,22 @@ parent: Automatisierung
     - *Build and save segments of users*
     - *Trigger journeys from segment/rudderstack/mixpanel events*
     - <https://github.com/laudspeaker/laudspeaker>
+- **dittofeed**
+    - *customer engagement platform built for devs*
+    - Features
+        - *Branch-based git worflows*
+        - *Write email templates in your favorite editor, checked into git*
+        - *testing SDK to test your marketing campaigns in CI*
+        - *Self-hostable*
+        - *Journey monitoring and alerting.*
+    - <https://github.com/dittofeed/dittofeed> 
 - **Keila**
     - Newsletter
     - <https://www.keila.io>
 - **listmonk**
     - Newsletter
     - <https://github.com/knadh/listmonk>
+- **Braze**
+- **One-Signal**
+- **Customer.io**
+- **Segment Engage**
