@@ -191,7 +191,13 @@ parent: Diverses
 - **Dashy**
   - *A self-hostable personal dashboard* 
   - *helps you organize your self-hosted services by making them accessible from a single place* 
-  - <https://github.com/Lissy93/dashy> 
+  - <https://github.com/Lissy93/dashy>
+- **Temporal**
+  - Workflows & Scheduling
+  - für länger laufende Prozesse
+  - *Eliminate complex error or retry logic, avoid callbacks, and ensure that every workflow you start, completes. Temporal delivers durable execution for your services and applications.*
+  - SDKs für Java, Go, Python, TS, JS, PHP 
+  - <https://github.com/temporalio/temporal> 
 
 
 ## Parser-Generatoren
