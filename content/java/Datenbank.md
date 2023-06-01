@@ -221,6 +221,11 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
     [Spring JdbcTemplate](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/jdbc.html) | 636ms (960% slower) |
 
   - <https://github.com/aaberg/sql2o>
+- **FluentJdbc**
+  - *convenient native SQL querying*
+  - *Blends well with Java 8 / functional code*
+  - *no dependencies* 
+  - <https://github.com/zsoltherpai/fluent-jdbc> 
 - **TSID Creator**
   - *A Java library for generating Time-Sorted Unique Identifiers (TSID). It brings together ideas from Twitter's Snowflake and ULID Spec.* 
   - <https://github.com/f4b6a3/tsid-creator>
