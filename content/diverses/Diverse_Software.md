@@ -307,6 +307,8 @@ parent: Diverses
 ## Data Integration
 - **Airbyte**
   - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
+  - *provides [300+ connectors](https://docs.airbyte.com/integrations/) for popular APIs, databases, data warehouses, and data lakes.*
+  - *has a built-in scheduler and uses Temporal to orchestrate jobs and ensure reliability at scale*
   - <https://github.com/airbytehq/airbyte>
 - **SeaTunnel**
   - *distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).* 
