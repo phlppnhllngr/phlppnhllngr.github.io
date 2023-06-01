@@ -22,11 +22,11 @@ parent: Automatisierung
     - *Features: Subscriber lists management, List segmentation, Custom fields, Email templates (including MJML-based templates), Custom reports,
     Automation (triggered and RSS campaigns), Multiple users with granular user permissions and flexible sharing, Hierarchical namespaces for enterprise-level situations, 
     Builtin Zone-MTA (https://github.com/zone-eu/zone-mta) for close-to-zero setup of mail delivery*
-    - <https://github.com/Mailtrain-org/mailtrain> 
+    - <https://github.com/Mailtrain-org/mailtrain>
 - **SendPortal**
-    - *Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost.*
-    - *SendPortal integrates with Amazon SES, Postmark, Sendgrid, Mailgun and Mailjet.* 
-    - <https://github.com/mettle/sendportal>
+    - *Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost*
+    - *SendPortal integrates with Amazon SES, Postmark, Sendgrid, Mailgun and Mailjet*
+    - <https://github.com/mettle/sendportal> (06/24: letzter Commit 11/21)
 - **laudspeaker**
     - 17.2.23: Public Alpha
     - *customer journey automation*
@@ -46,7 +46,7 @@ parent: Automatisierung
         - *Write email templates in your favorite editor, checked into git*
         - *testing SDK to test your marketing campaigns in CI*
         - *Self-hostable*
-        - *Journey monitoring and alerting.*
+        - *Journey monitoring and alerting*
     - <https://github.com/dittofeed/dittofeed> 
 - **Keila**
     - Newsletter
@@ -54,7 +54,30 @@ parent: Automatisierung
 - **listmonk**
     - Newsletter
     - <https://github.com/knadh/listmonk>
+
+## Cloud
 - **Braze**
-- **One-Signal**
+    - <https://www.braze.com/> 
+- **OneSignal**
+    - Free Tier 
+    - <https://onesignal.com/> 
 - **Customer.io**
-- **Segment Engage**
+    - <https://customer.io/> 
+- **Twilio Segment**
+    - Free Tier
+    - <https://segment.com/> 
+- **HubSpot**
+    - Produkte 
+        - CMS Hub
+        - Marketing Hub
+        - Sales Hub
+            - CRM
+        - Service Hub
+             - Kundenservice
+        - Operations Hub
+- **ActiveCampaign**
+    - <https://www.activecampaign.com/de> 
+- **Iterable**
+    - <https://iterable.com/> 
+- **Intercom**
+    - <https://www.intercom.com/> 
