@@ -130,7 +130,19 @@ parent: Java
         - *The important setting is the CPU requests - this will tell Kubernetes how many resources to allocate for your workload at a minimum.*
         - *Don't let the JVM decide the number of active processors automatically. Profile the actual usage needed for your app, and just set it yourself as part of the JAVA_TOOL_OPTIONS parameter -XX:ActiveProcessorCount. You have the power, and the JVM will honor the setting regardless of how many actual vCPUs are given to it by the container. You can set the CPU requests to 2000 millicores, and the ActiveProcessorCount to 4 for bursting. It will work.*
         - *Good starting points for JVM workloads: scale up before you scale out (not counting replicas used for resilience), 2000m cores and 2GB RAM, explicitly set active processor count & jvm memory settings, set cpu request but not limits, set memory requests == memory limits -- Adib Saikali (Code Janitor and Global Field Principal Engineer OCTO) @VMwareTanzu*
-- Memory Calculator: <https://github.com/cloudfoundry/java-buildpack-memory-calculator>
+- Memory Calculator
+    - Binary: <https://repo.spring.io/list/release/org/cloudfoundry/java-buildpack-memory-calculator/>
+    - `./java-buildpack-memory-calculator --total-memory 512M --loaded-class-count 19000 --thread-count 40 --head-room 5 --jvm-options "-Xss256k -XX:ReservedCodeCacheSize=64M"`
+    - <https://github.com/cloudfoundry/java-buildpack-memory-calculator>
+    - *has a slack-option called "head-room" - usually set to 5 to 10% of total available memory in case the JVM decides to grab some more memory anyway (e.g. during intensive garbage collection).*
+    - *Apart from "head-room", the memory calculator needs 4 additional input-parameters to calculate the Java options that control memory usage.*
+        - *total-memory - a minimum of 384 MB for Spring Boot application, start with 512 MB.*
+        - *loaded-class-count - for latest Spring Boot application about 19 000. This seems to grow with each Spring version. Note that this is a maximum: setting a too low value will result in all kinds of weird behavior (sometimes an "OutOfMemory: non-heap" exception is thrown, but not always).*
+        - *thread-count - 40 for a "normal usage" Spring Boot web-application.*
+    - *The "Algorithm" section mentions additional parameters that can be tuned, of which I found two worth the effort to investigate per application and specify:*
+        - *-Xss set to 256kb. Unless your application has really deep stacks (recursion), going from 1 MB to 256kb per thread saves a lot of memory*
+        - *-XX:ReservedCodeCacheSize set to 64MB. Peak "CodeCache" usage is often during application startup, going from 192 MB to 64 MB saves a lot of memory which can be used as heap.* 
+        - *Applications that have a lot of active code during runtime (e.g. a web-application with a lot of endpoints) may need more "CodeCache". If "CodeCache" is too low, your application will use a lot of CPU without doing much (this can also manifest during startup: if "CodeCache" is too low, your application can take a very long time to startup). "CodeCache" is reported by the JVM as a non-heap memory region, it should not be hard to measure.*
 
 
 ## Environment & JVM-properties
