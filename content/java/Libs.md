@@ -682,6 +682,13 @@ parent: Java
     - if/else or aop (annotations)
     - monitoring, metrics, web console, spring-boot-starter
     - <https://github.com/ff4j/ff4j>
+- <u>Native</u>
+  - **JavaCPP** 
+    - *provides efficient access to native C++ inside Java*
+    - *Under the hood, it uses JNI*
+    - Presets
+      - *contain Java configuration and interface classes for widely used C/C++ libraries*
+      - <https://github.com/bytedeco/javacpp-presets> 
 - **jmolecules**
   - *Libraries to help developers express architectural abstractions in Java code*
   - *Express that a piece of code (package, class, method…​) implements an architectural concept*
@@ -729,4 +736,8 @@ parent: Java
     ```
   - <https://github.com/caoccao/Javet> 
 - **javatuples**
-  - <https://github.com/javatuples/javatuples> 
+  - <https://github.com/javatuples/javatuples>
+- **RecordBuilder**
+  - *annotation processor that creates: a companion builder class for Java records, an interface that adds "with" copy methods*
+  - Java 16+
+  - <https://github.com/Randgalt/record-builder>
