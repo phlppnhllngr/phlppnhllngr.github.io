@@ -114,6 +114,19 @@ parent: Java
 - **log**
   - `-Xlog:gc:file=gc.txt`
   - `-Xlog:class+load:file=/path/to/classload.log`
+- **mx**
+  - `-Xmx64M`
+- **ms**
+  - `-Xms64M`
+- *ss**
+  - *set thread stack size*
+  - *The stack is used to hold return addresses, function/method call arguments, etc.*
+  - `-Xss256k`
+  - *StackOverflowError: the stack size is greater than the limit*
+  - `java -XX:+PrintFlagsFinal -version | grep ThreadStackSize` um den Wert rauszufinden
+  - Default ist 1024k (*depends on your architecture and what not*)
+  - *-XX:ThreadStackSize option means the same as -Xss*
+  - <https://www.baeldung.com/jvm-configure-stack-sizes>
 - **verify**
   - `-Xverify:none`
   - siehe -noverify
@@ -148,9 +161,14 @@ parent: Java
   - *the JVM will NOT overwrite an existing heap dump in the HeapDumpPath, you'll see something similar to "Unable to create /tmp/java_pidpid.hprof: File exists" in your standard out*
   - `-XX:HeapDumpPath=/foo/bar`
 - **InitialRAMPercentage**
+- **MaxDirectMemorySize**
+  - `MaxDirectMemorySize=10M` 
+- **MaxMetaspaceSize**
+  - `-XX:MaxMetaspaceSize=121289K`
 - **MaxRAM**
   - *this parameter overrides the actual amount of physical RAM when calculating the heap limits basing on ergonomics*
-  - *If `-Xmx?  is set, `MaxRAM` is never used. Otherwise the maximum heap size is estimated as `MaxHeapSize = MaxRAM * MaxRAMPercentage / 100% (default MaxRAMPercentage=25)`*
+  - *If `-Xmx?`  is set, `MaxRAM` is never used. Otherwise the maximum heap size is estimated as `MaxHeapSize = MaxRAM * MaxRAMPercentage / 100% (default MaxRAMPercentage=25)`*
+  - *Note that this flag does not prevent JVM from allocating more memory than its value, but rather gives a hint "I know my physical RAM limit is X, please allocate within X", so JVM will share this value between Java heap and native memory. But if e.g. your application has native memory leak or classloader leak, then this limit will be reached anyway.*
 - **MaxRAMFraction**
   - deprecated für `MaxRAMPercentage`
 - **MaxRAMPercentage**
@@ -159,6 +177,8 @@ parent: Java
     - *If you set a value for `-Xmx` , the `-XX:MaxRAMPercentage` option is ignored.*
 - **MaxJavaStackTraceDepth**
   - zur Laufzeit ändern: <https://gist.github.com/apangin/8a26a026efab87c5778fb89706f5712a>
+- **MaxPermSize**
+  - `-XX:MaxPermSize=64M`
 - **NativeMemoryTracking**
   - *The Native Memory Tracking (NMT) is a Java HotSpot VM feature that tracks internal memory usage for a Java HotSpot VM.*
   - `NativeMemoryTracking=summary/detail/off`
@@ -170,6 +190,8 @@ parent: Java
   - *obtain last memory usage data at VM exit when Native Memory Tracking is enabled*
   - `-XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics`
   - <https://docs.oracle.com/javase/8/docs/technotes/guides/vm/nmt-8.html>
+- **ReservedCodeCacheSize**
+  - `-XX:ReservedCodeCacheSize=64M` 
 - **showSettings:vm**
 - **+/-StackTraceInThrowable**
 - **SharedArchiveFile**
@@ -217,6 +239,7 @@ parent: Java
 - <https://www.baeldung.com/java-memory-beyond-heap>
 - <https://dac.digital/netflix-on-java-a-non-heap-application-for-video-streaming>
   - Off-heap, ByteBuffer (im TB Bereich)
+- *Besides heap, you have thread stacks, meta space, JIT code cache, native shared libraries and the off-heap store (direct allocations).*
 
 ### Heap
 - Xms
@@ -231,6 +254,7 @@ parent: Java
 - permanent generation
 - `-XX:MaxPermSize`
 - *store class and method info, interned strings*
+- *The permanent space is where the classes, methods, internalized strings, and similar objects used by the VM are stored and never deallocated (hence the name).*
 - *does not exist anymore since java 8 → metaspace*
 
 ### Metaspace
@@ -250,6 +274,7 @@ parent: Java
 ### Code cache
 - *The Just-In-Time (JIT) compiler stores its output in the code cache area. A JIT compiler compiles bytecode to native code for frequently executed sections, aka Hotspots.*
 - *The goal of the tiered compilation is (...) to have both fast startup times and good long-term performance. Tiered compilation increases the amount of code that needs to be cached in memory by up to four times. Since Java 8, this is enabled by default for JIT, although we still can disable tiered compilation.*
+- *Peak "CodeCache" usage is often during application startup, going from 192 MB to 64 MB saves a lot of memory which can be used as heap. Applications that have a lot of active code during runtime (e.g. a web-application with a lot of endpoints) may need more "CodeCache". If "CodeCache" is too low, your application will use a lot of CPU without doing much (this can also manifest during startup: if "CodeCache" is too low, your application can take a very long time to startup).*
 
 ### GC
 - <https://dzone.com/articles/interesting-garbage-collection-patterns>
