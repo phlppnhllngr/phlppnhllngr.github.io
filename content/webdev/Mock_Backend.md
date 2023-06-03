@@ -14,6 +14,9 @@ parent: Webdev
   - Images
 - **jsonplaceholder**
   - <http://jsonplaceholder.typicode.com/>
+- **reqres.in**
+  - *A hosted REST-API ready to respond to your AJAX requests* 
+  - <https://reqres.in/> 
 - **httpstat.us**
   - <https://httpstat.us/>
   - nur Statuscodes, kein Body, optionale Verzögerung
