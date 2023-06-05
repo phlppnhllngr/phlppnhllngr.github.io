@@ -87,5 +87,7 @@ grand_parent: Java
 #### spring-boot-maven-plugin + native-maven-plugin
 - spring-boot-starter-parent bringt das Maven-Profile "native" mit
 - `mvn clean -Pnative spring-boot:build-image` baut ein natives Docker-Image via Buildpacks
-- Das `process-aot`-Goal des Springboot-Maven-Plugins generiert diverse Graal-Hints-Files (Reflection, Resources, ...) im Json-Format. Diese Hints können via Java-Config erweitert werden (<https://www.baeldung.com/spring-native-intro#extend-the-native-image-build-configuration>).
+- Das `process-aot`-Goal des Springboot-Maven-Plugins generiert diverse Graal-Hints-Files (Reflection, Resources, ...) im Json-Format. Diese Hints können via Java-Config erweitert werden.
+  - <https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.advanced.custom-hints>
+  - <https://www.baeldung.com/spring-native-intro#extend-the-native-image-build-configuration>
 - Benötigt kein Dockerfile und auf Windows auch keine Windows-Build-Tools (Visual Studio, cl.exe)
