@@ -4,46 +4,15 @@ parent: Java
 ---
 
 # Libs
+{: .no_toc }
 <https://github.com/akullpp/awesome-java>
 
-<style>
-  .links {
-     display: grid;
-     grid-template-columns: repeat(6, 1fr);
-     grid-gap: 5px;
-  }
-  .links [href] {
-    color: blue;
-    background-color: lightblue;
-  }
-  .links [href]:hover {
-    text-decoration: underline;
-  }
-</style>
-<div class="links">
-  <a href="#async">Async</a>
-  <a href="#mapper">Mapper</a>
-  <a href="#serial">(De)Serialisierung</a>
-  <a href="#web">Web</a>
-  <a>Resilience</a>
-  <a href="#cache">Cache</a>
-  <a href="#pdf">PDF</a>
-  <a>AOP</a>
-  <a href="#db">DB</a>
-  <a href="#validation">Validierung</a>
-  <a>XML</a>
-  <a href="#di">DI</a>
-  <span>Logging → Java/Logging</span>
-  <a href="#metrics">Metrics</a>
-  <a href="#template">Template engines</a>
-  <a href="#regex">Regex</a>
-  <a href="#reflection">Reflection & Bytecode</a>
-  <a href="#cli">CLI</a>
-  <a href="#utility">Utility</a>
-  <a href="#func">Functional</a>
-  <a href="#office">Office</a>
-  <a href="#divers">Diverses</a>
-</div>
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
 
 ## <span id="async">Async</span>
 - **EA-Async**
