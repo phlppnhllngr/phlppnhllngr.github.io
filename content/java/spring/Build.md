@@ -14,12 +14,16 @@ grand_parent: Java
   - run
     - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-run> 
   - build-image
+    - Baut JVM-basiertes oder natives (wenn `-Pnative`) Docker-Image 
     - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image>
     - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#build-image.customization>
     - <https://www.baeldung.com/spring-boot-docker-images#buildpacks> 
   - repackage
     - *Repackage existing JAR and WAR archives so that they can be executed from the command line using java -jar. With layout=NONE can also be used simply to package a JAR with nested dependencies (and no main class, so not executable).*
     - `mvn clean package spring-boot:repackage`
+  - process-aot
+    - vorbereitend für Graal/native-image 
+    - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#aot> 
 - <https://odedia.org/production-considerations-for-spring-on-kubernetes>
   - custom layers 
 
@@ -61,10 +65,21 @@ grand_parent: Java
 - **jmx**
   - <https://paketo.io/docs/howto/java/#enable-jmx>
 - **java**
-  - *`BP_JVM_VERSION` Defaults to the latest 11.x version at the time of release.*
+  - `BP_JVM_VERSION` *Defaults to the latest 11.x version at the time of release.*
   - <https://paketo.io/docs/howto/java/#install-a-specific-jvm-version>
 - **jlink**
-  - *`BP_JVM_JLINK_ENABLED` - this defaults to false, set to true to enable JLink
+  - `BP_JVM_JLINK_ENABLED` *- this defaults to false, set to true to enable JLink
   - <https://paketo.io/docs/howto/java/#install-a-minimal-jre-with-jlink>
 - **run args**
   - <https://paketo.io/docs/howto/java/#append-arguments-to-the-apps-start-command>
+  
+  
+## Native (Graal)
+
+### Möglichkeiten
+  
+#### spring-boot-maven-plugin + native-maven-plugin
+- spring-boot-starter-parent bringt das Maven-Profile "native" mit
+- `mvn clean -Pnative spring-boot:build-image` baut ein natives Docker-Image via Buildpacks
+- Das `process-aot`-Goal des Springboot-Maven-Plugins generiert diverse Graal-Hints-Files (Reflection, Resources, ...) im Json-Format. Diese Hints können via Java-Config erweitert werden (<https://www.baeldung.com/spring-native-intro#extend-the-native-image-build-configuration>).
+- Benötigt kein Dockerfile und auf Windows auch keine Windows-Build-Tools (Visual Studio, cl.exe)
