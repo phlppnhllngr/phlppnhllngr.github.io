@@ -14,7 +14,7 @@ parent: Java
 {:toc}
 
 
-## <span id="async">Async</span>
+## Async
 - **EA-Async**
   - Sync Syntax ("async/await") für CompletableFuture
   - <https://github.com/electronicarts/ea-async> 
@@ -69,7 +69,7 @@ parent: Java
   - *comes with a few built-in integrations: Project Reactor, RxJava 2 is supported.*
   - <https://github.com/reactor/BlockHound> 
 
-## <span id="mapper">Mapper</span>
+## Mapper
 - <https://github.com/akullpp/awesome-java#bean-mapping>
 - <https://github.com/arey/java-object-mapper-benchmark>
 - **mapstruct**
@@ -88,7 +88,7 @@ parent: Java
   - <https://github.com/krud-dev/shapeshift> 
 
 
-## <span id="serial">(De)Serialisierung</span>
+## (De)Serialisierung
 
 ### yaml
 - **snake-yaml**
@@ -134,7 +134,7 @@ parent: Java
   - <https://github.com/EsotericSoftware/kryo> 
 
 
-## <span id="web">Web</span>
+## Web
 - **zalando/problem**
   - <https://github.com/zalando/problem>
   - *a library that implements application/problem+json*
@@ -255,7 +255,7 @@ parent: Java
   - <https://www.baeldung.com/spring-bucket4j>
 
 
-## <span id="cache">Cache</span>
+## Cache
 - **Redisson**
   - *distributed Java objects and services on top of Redis server. State of the Art Redis Java client*
   - <https://github.com/redisson/redisson>
@@ -281,7 +281,7 @@ parent: Java
   - <https://commons.apache.org/proper/commons-jcs/index.html> 
 
 
-## <span id="pdf">PDF</span>
+## PDF
 - **OpenPDF**
   - <https://github.com/LibrePDF/OpenPDF> ⭐1.5k
   - Fork von iText 4.2.0 (letzte FOSS Version)
@@ -317,7 +317,7 @@ parent: Java
 - **Apache FOP** -> ./Diverses
 
 
-## <span id="db">DB</span>
+## DB
 → Java/Datenbank
 
 
@@ -326,7 +326,7 @@ parent: Java
   - <https://eclipse.org/aspectj>
 
 
-## <span id="validation">Validation</span>
+## Validation
 - **libphonenumber**
   - <https://github.com/google/libphonenumber>
 - **yavi**
@@ -362,7 +362,7 @@ parent: Java
 - **xpath**
 
 
-## <span id="di">DI</span>
+## DI
 - **guice**
   - <https://github.com/google/guice>
 - **dagger**
@@ -378,13 +378,13 @@ parent: Java
   - <https://github.com/zsoltherpai/feather> *328
 
 
-## <span id="metrics">Metrics</span>
+## Metrics
 - **micrometer**
   - <https://github.com/micrometer-metrics/micrometer> *2.1k
   - *An application metrics facade for the most popular monitoring tools. Think SLF4J, but for metrics.*
 
 
-## <span id="template">Template engines</span>
+## Template engines
 - <https://github.com/akullpp/awesome-java#template-engine>
 - <https://github.com/xmlet/template-benchmark>
 - <https://github.com/jreijn/spring-comparing-template-engines>
@@ -456,13 +456,13 @@ parent: Java
   - <https://github.com/benjiman/java-html-dsl2>
 
 
-## <span id="regex">Regex</span>
+## Regex
 - **JavaVerbalExpressions**
   - <https://github.com/VerbalExpressions/JavaVerbalExpressions>
   - *build regex using human language*
 
 
-## <span id="reflection">Reflection & Bytecode</span>
+## Reflection & Bytecode
 - **reflections**
   - <https://github.com/ronmamo/reflections>
 - **joor**
@@ -501,7 +501,7 @@ parent: Java
   - <https://github.com/jboss-javassist/javassist> *3.4k
 
 
-## <span id="cli">CLI</span>
+## CLI
 - **picocli**
   - <https://picocli.info/>
 - **jbock**
@@ -511,7 +511,7 @@ parent: Java
   - <https://spring.io/projects/spring-shell>
 
 
-## <span id="utility">Utility</span>
+## Utility
 - **jcabi aspects**
   - <https://aspects.jcabi.com/>
   - <https://github.com/jcabi/jcabi-aspects> 
@@ -529,7 +529,7 @@ parent: Java
   - *Java annotation processors to generate simple, safe and consistent value objects*
   
 
-## <span id="func">Functional</span>
+## Functional
 - **vavr**
   - <https://www.vavr.io/>
   - *functional library for Java. It helps to reduce the amount of code and to increase the robustness*
@@ -550,7 +550,7 @@ parent: Java
     - <https://github.com/pivovarit/throwing-function>
 
 
-## <span id="office">Office</span>
+## Office
 - **docx4j**
   - <https://github.com/plutext/docx4j> *1.4k
   - *creating, editing, and saving OpenXML "packages", including docx, pptx, and xslx.*
@@ -596,7 +596,7 @@ parent: Java
     - <https://github.com/osiegmar/FastCSV>
 
 
-## <span id="divers">Diverses</span>
+## Diverses
 - **javax.measure**
   - JSR-363 (formerly JSR-275)
   - <https://www.baeldung.com/javax-measure>
