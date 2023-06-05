@@ -5,6 +5,12 @@ grand_parent: Java
 ---
 
 # Build
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
 
 ## Maven-Plugin
 - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/>
