@@ -52,4 +52,7 @@ parent: Webdev
 - **mailchimp/email-blueprints**
   - *collection of HTML email templates that can serve as a solid foundation and starting point for the design of emails*
   - <https://github.com/mailchimp/email-blueprints>
+- **smtp4dev**
+  - *fake smtp email server for development and testing* 
+  - <https://github.com/rnwood/smtp4dev> 
 
