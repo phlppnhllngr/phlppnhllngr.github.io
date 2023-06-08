@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Graal
-created: '2021-02-14T15:24:51.328Z'
-modified: '2021-05-17T14:17:22.063Z'
 parent: Java
 ---
 
@@ -14,11 +11,11 @@ parent: Java
 - <https://github.com/oracle/graal>
 - <https://www.graalvm.org/reference-manual/native-image/>
 - <https://www.graalvm.org/docs/getting-started/#native-images>
-- <https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241>
-- <https://www.infoq.com/articles/native-java-graalvm>
+- <https://medium.com/graalvm/graalvm-quick-reference-b8d1dfe24241> (01/21)
+- <https://www.infoq.com/articles/native-java-graalvm> (04/22)
 - [YT: A 1.5MB Java Container App? Yes you can! by Shaun Smith, 10/22](https://www.youtube.com/watch?v=6wYrAtngIVo)
 - Docker
-  - <https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm>
+  - <https://blogs.oracle.com/developers/building-cross-platform-native-images-with-graalvm> (07/20)
   - <https://www.graalvm.org/docs/getting-started/container-images/>
 
 
@@ -75,4 +72,9 @@ Most importantly though, the executables built with Native Image are standalone 
     - *utility for making native images for the JVM, letting you compile applications to executables using the GraalVM native-image compiler.*
     - *why just not use the GraalVM toolkit directly? As with Spring Native, NIK in essence is a layer over GraalVM which makes interfacing with it much easier by taking care of the necessary configuration out of the box.*
     - <https://www.i-programmer.info/news/80-java/15284-making-graalvm-based-executables-easy.html>
+ - reachability metadata
+  - *Repository which contains community-driven collection of GraalVM reachability metadata for open-source libraries*
+  - *enables users of GraalVM Native Image to share and reuse metadata for libraries and frameworks in the Java ecosystem*
+  - *is integrated with GraalVM Native Build Tools beginning with version 0.9.13: you can enable automatic use of the metadata repository for Gradle projects or Maven projects.* 
+  - <https://github.com/oracle/graalvm-reachability-metadata> 
 
