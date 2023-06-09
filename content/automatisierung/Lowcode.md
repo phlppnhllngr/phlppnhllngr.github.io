@@ -180,6 +180,11 @@ parent: Automatisierung
 - **sheet2site** 💰
   - <https://www.sheet2site.com/>
   - *Create a website from Google Sheets without writing code*
+- **Onu**
+  - *quickly productionize your scripts by providing hosted, user-friendly auto-generated UIs and built-in auditing and integrations.*
+  - *currently support Node/Express, rolling out Python SDKs for Flask & Django
+  - Self-Hosting geplant
+  - <https://joinonu.com/>
 
 
 ## Spreadsheet/DB
