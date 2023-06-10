@@ -5,6 +5,8 @@ parent: Java
 
 # Dies & das
 - <https://github.com/akullpp/awesome-java>
+- <https://blog.frankel.ch/hacking-third-party-api-jvm/>
+  - Beispiele für Classpath Shadowing, Reflection, Agent, AOP, Javassist
 - **JNI**
   - Java Native Interface
   - *bridge between the bytecode running in our JVM and the native code*
@@ -31,8 +33,6 @@ parent: Java
   - <https://www.baeldung.com/java-poet>
 - **ServiceLoader**
   - <https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html>
-  - <https://blog.frankel.ch/hacking-third-party-api-jvm/>
-  - Beispiele für classpath shadowing, reflection, agent, aop
 - **Kotlin**
   - <https://kotlinlang.org/>
 - **Class Data Sharing**
@@ -70,11 +70,19 @@ parent: Java
   - *Each application framework (Spring, Hibernate, Logback, ...) needs a special reloading mechanism to keep up-to-date after class redefinition (e.g. Hibernate configuration reload after new entity class is introduced). Hotswap agent works as a plugin system and is shipped preconfigured with all major framework plugins. It is easy to write your custom plugin even as part of your application.*
   - <https://github.com/HotswapProjects/HotswapAgent> 
 - **Agents**
-  - premain, class-redefinition, ...
+  - Static
+    - *statically load the agent using `-javaagent` parameter at JVM startup*
+    - need to define `premain` method*
+  - Dynamic
+    - *can be injected [into a running JVM] with HotSpot Attach API. Run the following snippet with $JAVA_HOME/lib/tools.jar on the class path. `VirtualMachine vm = VirtualMachine.attach(PID)` ...*
+    - *need to declare an `agentmain(String, Instrumentation)` method which is executed upon attachment within the target VM*
+    - *can however use a library like byte-buddy-agent which contains different implementations for different VMs. An attachment can be done using: ByteBuddyAgent.attach("my.jar", "my-pid");
+This attaches the agent contained in my.jar onto the Java process with id my-id.* 
   - <https://jaxenter.de/james-bond-laesst-gruessen-28256>
   - <https://dzone.com/articles/jvm-advent-calendar-a-beginners-guide-to-java-agen> (01/2020)
   - hotpatch-for-apache-log4j2: <https://github.com/corretto/hotpatch-for-apache-log4j2> - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
   - <https://ivanyu.me/blog/2017/11/04/java-agents-javassist-and-byte-buddy/>
+  - <https://www.baeldung.com/java-instrumentation>
 - -> Java/Libs/Reflection & Bytecode
 
 
