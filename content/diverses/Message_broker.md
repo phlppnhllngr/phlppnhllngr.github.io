@@ -1,9 +1,9 @@
 ---
-title: Message queue
+title: Message Broker
 parent: Diverses
 ---
 
-# Message queue
+# Message Broker
 - **Apache Kafka**
   - *Kafka is different from JMS systems such as ActiveMQ. Kafka has less features than ActiveMQ, as the stress has been put on performances.*
   - *Kafka uses its own non-standard protocol and clients*
@@ -57,6 +57,11 @@ parent: Diverses
     - *It supports only the pub-sub mechanism.*
     - *It doesn’t guarantee the delivery of each message.*
   - *Mostly, RabbitMQ outperforms Redis and guarantees message delivery with the help of message durability and acknowledgments*
+- **NATS**
+  - *messaging system for cloud native applications, IoT messaging, and microservices architectures* 
+  - *the basic NATS platform is a simple pub-sub transport system that offers only TCP reliability* 
+  - *NATS JetStream offers persistence with "at-least-once" and "exactly-once" (within a time window) delivery.* 
+  - Clients für viele Sprachen, u. A. Java
 
 
 ## Vergleiche
