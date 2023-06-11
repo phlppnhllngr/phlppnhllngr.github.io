@@ -60,8 +60,14 @@ parent: Diverses
 - **NATS**
   - *messaging system for cloud native applications, IoT messaging, and microservices architectures* 
   - *the basic NATS platform is a simple pub-sub transport system that offers only TCP reliability* 
-  - *NATS JetStream offers persistence with "at-least-once" and "exactly-once" (within a time window) delivery.* 
+  - *NATS JetStream offers persistence with "at-least-once" and "exactly-once" (within a time window) delivery.*
+  - *NATS offers three primary modes of message exchange.*
+    - *Publish/Subscribe semantics delivers messages to all subscribers of a topic.*
+    - *Request/Reply messaging sends requests via topics and routes responses back to the requestor.*
+    - *Subscribers can also join message queue groups when they subscribe to a topic. Messages sent to the associated topic are only delivered to one subscriber in the queue group.*
   - Clients für viele Sprachen, u. A. Java
+  - <https://nats.io/>
+  - <https://www.baeldung.com/nats-java-client>
 
 
 ## Vergleiche
