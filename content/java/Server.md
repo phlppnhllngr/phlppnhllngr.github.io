@@ -198,6 +198,7 @@ parent: Java
 - **Security**
   - <https://wildfly-security.github.io/wildfly-elytron/>
 - **Subsystems**
+  - alle aktiven auflisten: <https://docs.wildfly.org/26/Admin_Guide.html#list-subsystems>
   - DataSource
     - <https://docs.wildfly.org/26/Admin_Guide.html#DataSource>  
   - messaging-activemq
