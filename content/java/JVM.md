@@ -242,6 +242,7 @@ parent: Java
 - *Besides heap, you have thread stacks, meta space, JIT code cache, native shared libraries and the off-heap store (direct allocations).*
 
 ### Heap
+- *Bigger heap: the full GC will be longer. But it will occur less frequently. Smaller heap: the full GC will be quicker but will occur more frequently.*
 - Xms
   - *initial memory allocation (heap)*
   - `-Xms256m`
