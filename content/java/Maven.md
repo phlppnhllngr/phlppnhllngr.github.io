@@ -482,11 +482,35 @@ parent: Java
       </snapshotRepository>
     </distributionManagement>
     
-    <configuration>
-      <autoVersionSubmodules>true</autoVersionSubmodules>
-      <developmentVersion>${parsedVersion.majorVersion}.${parsedVersion.nextMinorVersion}.0-SNAPSHOT</developmentVersion>
-      <tagNameFormat>@{project.version}</tagNameFormat>
-    </configuration>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>build-helper-maven-plugin</artifactId>
+      <version>${maven.buildhelper.version}</version>
+      <executions>
+        <execution>
+	  <id>parse-version</id>
+	  <phase>initialize</phase>
+	  <goals>
+	    <!-- https://www.mojohaus.org/build-helper-maven-plugin/parse-version-mojo.html -->
+	    <goal>parse-version</goal>
+	  </goals>
+	  <configuration>
+	    <propertyPrefix>parsedVersion</propertyPrefix>
+	  </configuration>
+	</execution>
+      </executions>
+    </plugin>
+    <plugin>
+       <!-- https://maven.apache.org/maven-release/maven-release-plugin/index.html -->
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-release-plugin</artifactId>
+       <version>${maven.release-plugin.version}</version>
+       <configuration>
+         <autoVersionSubmodules>true</autoVersionSubmodules>
+	 <developmentVersion>${parsedVersion.majorVersion}.${parsedVersion.nextMinorVersion}.0-SNAPSHOT</developmentVersion>
+  	 <tagNameFormat>@{project.version}</tagNameFormat>
+	</configuration>
+    </plugin>
     ```
     ```
     mvn --batch-mode clean build-helper:parse-version release:clean release:prepare
