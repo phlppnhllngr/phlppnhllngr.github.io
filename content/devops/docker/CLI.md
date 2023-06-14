@@ -41,6 +41,18 @@ grand_parent: DevOps
   - `-v`
     - bind mount: relative Pfade nicht möglich (docker-compose: ja); Abhilfe: `%CD%` (Windows/cmd) bzw. `${pwd}` (powershell) oder `$PWD` (Linux)
     - → Docker/Storage
+  - `--memory`
+    - <https://docs.docker.com/config/containers/resource_constraints/#limit-a-containers-access-to-memory> 
+  - `--memory-swap`
+    - *Operating systems use swap space to create the so called virtual memory (which is obviously bigger then the RAM you might have).* 
+    - *If `--memory-swap` is set to the same value as `--memory`, and `--memory` is set to a positive integer, the container does not have access to swap*
+    - *By specifying `--memory=20m` and `--memory-swap=30m` we allow 10 MB of swap.*
+    - *The best you'll get out of an HDD right now is 150 MB/s. The maximum speed of transfer of an SSD is 600 MB/s, as that is the max speed of a SATA3 connection. They are usually slower than this though. The maximum speed of transfer of DDR3-800 RAM is 6400 MB/s (so the slowest DDR3 RAM around). These are all approximate and handwavy. However, while an SSD is quicker, HDD is 2% of RAM transfer rate, and SSD at its very best is 9% of RAM transfer rate.*
+    - <https://docs.docker.com/config/containers/resource_constraints/#--memory-swap-details>
+  - `--memory-reservation`
+    - *is softlimit for the memory when docker detects there isn't enough memory*
+    - *it will decrease the memory till the reservation limit is hit. (That's why it has to be smaller than the memory flag)*
+    - *upper bound is `--memory` and lower bound is `--memory-reservation`.*
 - **system**
   - prune
     - *Remove all unused [stopped] containers, networks, images (both dangling and unreferenced), and optionally, volumes.*
