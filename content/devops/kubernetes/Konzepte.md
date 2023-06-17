@@ -295,6 +295,15 @@ The EndpointSlice API is the recommended replacement for Endpoints.*
 - Das PVC kann ein Persistent Volume oder eine StorageClass referenzieren
 - Ein PV kann nur ein einziges Mal geclaimed werden (Speicher ggf. verschwendet), eine StorageClass mehrmals
 
+#### Volume Snapshot
+- <https://kubernetes.io/docs/concepts/storage/volume-snapshots/>
+  - *provide Kubernetes users with a standardized way to copy a volume's contents at a particular point in time*
+  - *enables, for example, database administrators to backup databases*
+  - *API Objects VolumeSnapshot, VolumeSnapshotContent, and VolumeSnapshotClass are CRDs [Custom Resource Definitions], not part of the core API.* 
+  - *A `VolumeSnapshotContent` is a snapshot taken from a volume in the cluster*
+  - *VolumeSnapshotContents are resources in the cluster. VolumeSnapshots are requests for those resources.*
+  - *`VolumeSnapshotClass` allows you to specify different attributes belonging to a VolumeSnapshot*
+
 ### NetworkPolicy
 - By Default
   - können alle Container eines Pods miteinander 
