@@ -152,6 +152,11 @@ grand_parent: DevOps
   - *can run in your CI/CD environment and will exit with exit code 1 if a critical error has been found*
   - funktioniert auch mit Helm-Charts und Kustomize
   - <https://github.com/zegl/kube-score> <img loading="lazy" src="https://img.shields.io/github/stars/zegl/kube-score?style=flat-square">
+- **Velero**
+  - *gives you tools to back up and restore your Kubernetes cluster resources and persistent volumes*
+  - *Velero consists of: A server that runs on your cluster, a command-line client that runs locally*
+  - Volume Backup: <https://velero.io/docs/latest/file-system-backup/#using-opt-in-pod-volume-backup>
+  - <https://github.com/vmware-tanzu/velero> <img loading="lazy" src="https://img.shields.io/github/stars/vmware-tanzu/velero?style=flat-square">
 
 
 ## Java
