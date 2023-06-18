@@ -129,6 +129,10 @@ parent: Java
 - **ActiveJ**
   - *asynchronous IO with the efficient event loop, NIO, promises, streaming, and CSP. Alternative to Netty, RxJava, Akka, and others* 
   - <https://github.com/activej/activej> <img loading="lazy" src="https://img.shields.io/github/stars/activej/activej?style=flat-square">
+**grumpyrest**
+  - *REST server framework that does not use annotations, automatic dependency injection or reactive streams, and minimizes the use of reflection*
+  - <https://github.com/MartinGeisse/grumpyrest> <img loading="lazy" src="https://img.shields.io/github/stars/MartinGeisse/grumpyrest?style=flat-square"/>
+  - Show HN: <https://news.ycombinator.com/item?id=36283351>
 
 
 ## Enterprise Integration
