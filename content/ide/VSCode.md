@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/IDEs]
 title: VS Code
-created: '2019-02-20T20:27:28.336Z'
-modified: '2021-09-29T13:27:50.211Z'
 parent: IDE
 ---
 
@@ -277,8 +274,18 @@ parent: IDE
 - **GraalVM Tools for Java**
   - *provides full Java development and debugging capabilities and includes the GraalVM runtime with both just-in-time and ahead-of-time compilers*
   - *Besides Java, this extension enables a polyglot environment in VS Code and offers full editing and debugging capabilities for JavaScript and Node.js, Python, R, and Ruby languages. The extension provides a wizard to install GraalVM and help simplify configuring the development environment.*
-- **Lombok Annotation Support**
+- **GraalVM Tools for Micronaut**
+  - *Code completion and navigation for Micronaut configuration (YAML) files*
+  - *Debugging capabilities*
+    - *To run the Micronaut application in debug mode, switch to the Run and Debug view by clicking on the bug icon in the left-hand side panel, select the Java 8+ environment* 
+  - *CodeLens for continuous mode of operation (running Micronaut project and reloading automatically when source code is changed)*
+  - *Quick commands to create and deploy Docker images*
+  - <https://github.com/graalvm/vscode-extensions/tree/master/micronaut>
+  - Repo-Umzug: <https://github.com/micronaut-projects/micronaut-core/issues/9462>
+- ~~Lombok Annotation Support~~
+  - *Starting from 1.8.0, the Language Support for Java(TM) by RedHat extension has built-in support for Lombok and automatically uses the lombok.jar from your project classpath* 
 - ~~Tomcat for Java~~
+  - *deprecated in favor of the Community Server Connectors extension* 
   - <https://marketplace.visualstudio.com/items?itemName=adashen.vscode-tomcat>
 - **Community Server Connectors**
   - *provides a Remote Server Protocol based server connector, which can start, stop, publish to, and otherwise control Community runtimes and servers like Apache Felix, Karaf, and Tomcat.*
@@ -300,13 +307,6 @@ parent: IDE
   - Spring Initializer
   - Spring Boot Dashboard
   - ...
-- **GraalVM Tools for Micronaut**
-  - *Code completion and navigation for Micronaut configuration (YAML) files*
-  - *Debugging capabilities*
-    - *To run the Micronaut application in debug mode, switch to the Run and Debug view by clicking on the bug icon in the left-hand side panel, select the Java 8+ environment* 
-  - *CodeLens for continuous mode of operation (running Micronaut project and reloading automatically when source code is changed)*
-  - *Quick commands to create and deploy Docker images*
-  - <https://github.com/graalvm/vscode-extensions/tree/master/micronaut>
 
 
 ### Remote
