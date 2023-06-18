@@ -585,6 +585,11 @@ parent: Java
   - → build-helper-plugin
 - **war**
   - <https://maven.apache.org/plugins/maven-war-plugin>
+- **was**
+  - *Deploy artifact to one or more, local or remote WebSphere Application Server*
+  - *Tested on WAS 8.5*
+  - inaktiv seit 2017 
+  - <https://github.com/orctom/was-maven-plugin> 
 - **wildfly**
   - *allows you to: Deploy, redeploy or undeploy your application / Execute CLI commands / Run a standalone server within Maven / packaging of a fully configured server containing application deployment. / ...* 
   - <https://github.com/wildfly/wildfly-maven-plugin>  
