@@ -86,7 +86,7 @@ parent: Java
 ## Tools
 - **maven-plugin**
   - <https://github.com/micronaut-projects/micronaut-maven-plugin>
-- **aot*
+- **aot**
   - *implements ahead-of-time (AOT) optimizations for Micronaut application and libraries*
   - *Micronaut AOT is an experimental project. Use at your own risk.* (23.8.22) 
   - <https://micronaut-projects.github.io/micronaut-aot/latest/guide/> 
