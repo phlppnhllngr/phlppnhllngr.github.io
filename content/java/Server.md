@@ -171,7 +171,10 @@ parent: Java
 - <https://docs.wildfly.org/26/Admin_Guide.html>
 - **Docker**
   - <https://github.com/jboss-dockerfiles/wildfly>
-  - <https://quay.io/repository/wildfly/wildfly>
+  - <https://quay.io/organization/wildfly>
+    - <https://quay.io/repository/wildfly/wildfly>
+    - <https://quay.io/repository/wildfly/wildfly-runtime>
+    - Runtime-Image + Wildfly-Maven-Plugin + Galleon-Feature-Packs: <https://www.wildfly.org/news/2022/08/04/wildfly-maven-docker/>
   - ```
     docker run --name wildfly -p 8080:8080 -p 9990:9990 -it quay.io/wildfly/wildfly:23.0.2.Final /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
     docker exec -it wildfly /bin/sh
@@ -194,6 +197,7 @@ parent: Java
   - **Bootable Jar**
     - *contains both the server and your packaged application (a JAR, an EAR or a WAR)*
     - *Some limitations exist*
+    - <https://docs.wildfly.org/26.1/Bootable_Guide.html#wildfly_bootable_JAR_development>
     - <https://github.com/wildfly-extras/wildfly-jar-maven-plugin> 
 - **Security**
   - <https://wildfly-security.github.io/wildfly-elytron/>
