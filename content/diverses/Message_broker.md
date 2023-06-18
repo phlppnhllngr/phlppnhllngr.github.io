@@ -68,6 +68,9 @@ parent: Diverses
   - Clients für viele Sprachen, u. A. Java
   - <https://nats.io/>
   - <https://www.baeldung.com/nats-java-client>
+- **Postgres**
+  - LISTEN/NOTIFY
+  - <https://www.baeldung.com/spring-postgresql-message-broker> 
 
 
 ## Vergleiche
