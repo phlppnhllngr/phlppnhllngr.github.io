@@ -39,7 +39,13 @@ parent: Webdev
   - <https://get.foundation/emails.html>
 - **react-email**
   - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
-  - <https://github.com/zenorocha/react-email> 
+  - <https://github.com/zenorocha/react-email>
+- **Resend**
+  - basiert auf react-email
+  - *Build, test, and deliver transactional emails*
+  - SaaS, free tier
+  - Launch HN: <https://news.ycombinator.com/item?id=36309120>
+  - react-email & Resend (07/23): <https://www.youtube.com/watch?v=Xa1WaSPu5K8>
 - **MailDev**
   - *SMTP Server + Web Interface for viewing and testing emails during development*
   - *optionally supports selectively relaying email to an outgoing SMTP server*
@@ -54,5 +60,19 @@ parent: Webdev
   - <https://github.com/mailchimp/email-blueprints>
 - **smtp4dev**
   - *fake smtp email server for development and testing* 
-  - <https://github.com/rnwood/smtp4dev> 
+  - <https://github.com/rnwood/smtp4dev>
+- **Papercut-SMTP**
+  - *2-in-1 quick email viewer AND built-in SMTP server (designed to receive messages only)*
+  - <https://github.com/ChangemakerStudios/Papercut-SMTP> 
+- **Mailcatcher**
+  - *runs a super simple SMTP server which catches any message sent to it to display in a web interface* 
+  - <https://github.com/sj26/mailcatcher> 
+- **MailHog**
+  - *Web and API based SMTP testing* 
+  - <https://github.com/mailhog/MailHog>
+- **Mailpit**
+  - *email and SMTP testing tool with API for developers*
+  - *acts as both an SMTP server, and provides a web interface to view all captured emails*
+  - *inspired by MailHog, but much, much faster.*
+  - <https://github.com/axllent/mailpit> 
 
