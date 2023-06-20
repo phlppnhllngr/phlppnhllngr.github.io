@@ -187,6 +187,13 @@ parent: Diverses
 - Linux Mint
   - *designed to work 'out of the box' and comes fully equipped with the apps most people need.*
   - <https://linuxmint.com/>
+- Alpine
+  - Paketmanager: apk
+    - `apk add --no-cache` vs `apk add && rm /var/cache/apk/*`
+      - *The `--no-cache` option allows to not cache the index locally, which is useful for keeping containers small.*
+      - *But with multiple `apk add --no-cache` commands, the index files get downloaded every time. In this case it's less network chatter to do `apk update` at the top, then `rm -rf /var/cache/apk/*` near the bottom.*
+      - *`rm -rf ...` DOES NOT reduce your image size when executed as a separate Dockerfile `RUN` statements. You MUST executed it in the same run statement*
+      - <https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk>   
 
 
 ## libc
