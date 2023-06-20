@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Webdev]
 title: Mock Backend
-created: '2019-04-16T08:55:31.426Z'
-modified: '2021-07-03T18:38:40.923Z'
 parent: Webdev
 ---
 
@@ -64,6 +61,9 @@ parent: Webdev
   - *can create mocked services based on WSDL, WADL, Swagger and RAML definition files*
   - Installation: .war oder Docker-Image
   - <https://github.com/castlemock/castlemock> *176
+- **echoserver**
+  - *Generate the URL and receive the response you want.* 
+  - <https://echoserver.dev/> 
 
 
 ## Code based
