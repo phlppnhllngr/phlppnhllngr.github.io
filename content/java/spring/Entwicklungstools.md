@@ -22,6 +22,7 @@ grand_parent: Java
 - **Spring Boot Migrator**
   - *allows developers to convert existing, non Spring Boot applications, which are based on technologies such as JAX-RS, EJB and JMS to Spring Boot or upgrade older Spring Boot applications to the latest version*
   - *is based on OpenRewrite*
+  - funktioniert auch mit JavaEE-Anwendungen
   - <https://github.com/spring-projects-experimental/spring-boot-migrator>
 - **Open Rewrite**
   - <https://docs.openrewrite.org/recipes/java/spring> 
