@@ -60,6 +60,9 @@ parent: Java
 - **spring-boot**
   - <https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/htmlsingle>
   - *generated "plain" artifacts: non-runnable*
+- **task-tree**
+  - *adds a 'taskTree' task that prints task dependency tree*
+  - <https://github.com/dorongold/gradle-task-tree>
 - **war**
   - <https://docs.gradle.org/current/userguide/war_plugin.html>
   - *extends the Java plugin to add support for assembling web application WAR files*
