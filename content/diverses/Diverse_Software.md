@@ -193,6 +193,9 @@ parent: Diverses
   - *A self-hostable personal dashboard* 
   - *helps you organize your self-hosted services by making them accessible from a single place* 
   - <https://github.com/Lissy93/dashy>
+
+
+## Workflow Scheduler
 - **Temporal**
   - Workflows & Scheduling
   - für länger laufende Prozesse
@@ -201,7 +204,18 @@ parent: Diverses
   - einfache Installation (nur ein Binary)
   - <https://github.com/temporalio/temporal>
   - <https://www.youtube.com/@Temporalio>
-
+- **Openjob**
+  - *distributed and high-performance task scheduling framework that supports multiple cronjob, delay task, workflow, lightweight distributed computing, unlimited horizontal scaling, with high scalability and fault tolerance. Also has permission management, powerful alarm monitoring, and support multiple languages*
+  - <https://github.com/open-job/openjob>
+- **airflow**
+  - <https://github.com/apache/airflow> <img loading="lazy" src="https://img.shields.io/github/stars/apache/airflow?style=flat-square"/>
+  - docker compose: <https://airflow.apache.org/docs/apache-airflow/2.5.1/docker-compose.yaml>
+  - *programmatically author, schedule, and monitor workflows*
+  - Python
+- **DolphinScheduler**
+  - *extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.*
+  - <https://github.com/apache/dolphinscheduler> <img loading="lazy" src="https://img.shields.io/github/stars/apache/dolphinscheduler?style=flat-square"/>
+    
 
 ## Parser-Generatoren
 - **Xtext**
