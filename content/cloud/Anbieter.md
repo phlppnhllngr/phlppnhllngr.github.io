@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Cloud+SaaS]
 title: Anbieter
-created: '2021-03-14T14:29:25.430Z'
-modified: '2021-09-02T09:58:12.139Z'
 parent: Cloud
 ---
 
@@ -149,3 +146,6 @@ parent: Cloud
 
 ## Linode
 - <https://www.linode.com/de/>
+
+## Render
+- <https://render.com/>
