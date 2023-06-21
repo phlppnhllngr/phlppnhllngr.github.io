@@ -112,7 +112,7 @@ parent: Diverses
       cleanup() {
         code=$?
         echo "inside cleanup, code was $code"
-        trap - EXIT # avoid reexecuting handlers
+        trap - EXIT INT TERM QUIT # avoid reexecuting handlers
         exit "$code"
       }
       
