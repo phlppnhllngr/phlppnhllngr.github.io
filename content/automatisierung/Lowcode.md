@@ -104,11 +104,6 @@ parent: Automatisierung
   - *connects to Standard Library APIs and automatically generates high-quality code, completely customizable. Built for both developers and non-coders alike*
   - *Build and manage both Workflow and Connector APIs. Think Zapier, but with complete control over workflow code (no black boxes) and the ability to build your own custom connectors in minutes*
   - free & 💰
-- **airflow**
-  - <https://github.com/apache/airflow> <img loading="lazy" src="https://img.shields.io/github/stars/apache/airflow?style=flat-square"/>
-  - docker compose: <https://airflow.apache.org/docs/apache-airflow/2.5.1/docker-compose.yaml>
-  - *programmatically author, schedule, and monitor workflows*
-  - Python
 - **titanoboa**
   - <https://github.com/mikub/titanoboa> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
   - *highly scalable and fault tolerant workflow orchestration platform for JVM*
@@ -141,14 +136,7 @@ parent: Automatisierung
   - *Create agents that monitor and act on your behalf*
   - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
   - <https://github.com/huginn/huginn> <img loading="lazy" src="https://img.shields.io/github/stars/huginn/huginn?style=flat-square"/>
-- **DolphinScheduler**
-  - *extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.*
-  - <https://github.com/apache/dolphinscheduler> <img loading="lazy" src="https://img.shields.io/github/stars/apache/dolphinscheduler?style=flat-square"/>
-- **Automatisch**
-  - js 
-  - <https://github.com/automatisch/automatisch> <img loading="lazy" src="https://img.shields.io/github/stars/automatisch/automatisch?style=flat-square"/>
-- **Trigger.dev**
-  - *current workflow / automation tools like Zapier and n8n are good for simple tasks, but not for more advanced use cases. Dropping down into code in these tools is just not a great experience.*
+experience.*
   - *anyone can self-host the platform*
   - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
 - **Activepieces**
