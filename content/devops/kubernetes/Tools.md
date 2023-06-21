@@ -157,6 +157,11 @@ grand_parent: DevOps
   - *Velero consists of: A server that runs on your cluster, a command-line client that runs locally*
   - Volume Backup: <https://velero.io/docs/latest/file-system-backup/#using-opt-in-pod-volume-backup>
   - <https://github.com/vmware-tanzu/velero> <img loading="lazy" src="https://img.shields.io/github/stars/vmware-tanzu/velero?style=flat-square">
+- **Argo Workflows**
+  - *workflow execution engine for Kubernetes*
+  - *implemented as a Kubernetes CRD (Custom Resource Definition)*
+  - *Define workflows where each step in the workflow is a container.*
+  - <https://github.com/argoproj/argo-workflows/> <img loading="lazy" src="https://img.shields.io/github/stars/argoproj/argo-workflows?style=flat-square"/>
 
 
 ## Java
