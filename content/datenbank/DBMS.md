@@ -9,6 +9,10 @@ parent: Datenbank
 - **MySQL**
 - **PostgreSQL**
   - [HN: Dbdev – A database package manager for PostgreSQL trusted language extensions](https://news.ycombinator.com/item?id=35570758)
+  - CloudNativePG
+    - *operator designed to manage PostgreSQL workloads on any supported Kubernetes cluster running in private, public, hybrid, or multi-cloud environments*
+    - *leverages Kubernetes by extending its controller and by defining, in a programmatic way, all the actions that a good DBA would normally do when managing a highly available PostgreSQL database cluster* 
+    - <https://github.com/cloudnative-pg/cloudnative-pg> 
 - **DB2** -> Db2
 - **Dolt**
   - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
