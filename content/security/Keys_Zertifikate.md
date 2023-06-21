@@ -49,3 +49,4 @@ parent: Security
 ### Quellen
 - <https://security.stackexchange.com/a/183152>
 - <https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https>
+- [HN - The Difference Between Root Certificate Authorities, Intermediates and Resellers](https://news.ycombinator.com/item?id=36379265)
