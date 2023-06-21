@@ -90,6 +90,40 @@ parent: Diverses
 - **Dateien prüfen**
   - Ob Datei existiert: `if [ -d $dir ];`
   - Ob Datei nicht existiert: `if [ ! -d $dir ];`
+- **Signals**
+  - *The signals are a method of communication between processes. When a process receives a signal, the process interrupts its execution and a signal handler is executed*
+  - *After handling the signal, the process may or may not continue its normal execution*
+  - Signals 
+    - int
+      - *is the signal sent when we press Ctrl+C*
+      - *The default action is to terminate the process. However, some programs override this action and handle it differently.*
+      - *We can think of `SIGINT` as an interruption request sent by the user.*
+    - term & quit
+      - *meant to terminate the process. In this case, we are specifically requesting to finish it. `SIGTERM` is the default signal when we use the `kill` command.* 
+    - kill
+      - *When a process receives `SIGKILL` it is terminated. This is a special signal as it can’t be ignored and we can’t change its behavior. We use this signal to forcefully terminate the process. We should be careful as the process won’t be able to execute any clean-up routine.*
+    - abrt
+    - ...
+  - <https://www.baeldung.com/linux/sigint-and-other-termination-signals> 
+  - trap
+    - ```bash
+      set -eu
+
+      cleanup() {
+        code=$?
+        echo "inside cleanup, code was $code"
+        trap - EXIT # avoid reexecuting handlers
+        exit "$code"
+      }
+      
+      trap cleanup EXIT INT TERM QUIT
+      
+      echo '1'
+      cat doesntexist.txt
+      echo '2' # will not be printed
+      ```
+
+    - *bash: EXIT will also run on SIGINT (^C), which most other shells won't*
 
 ### Tools
   - **shellspec**
