@@ -15,7 +15,8 @@ grand_parent: DevOps
 
 <br/>
 
-- Nur bei `COPY` und `ADD` wird der Cache invalidiert (wenn Files geändert). Bei z.B. einer `RUN`-Anweisung wird immer der Cache verwendet (build mit `--no-cache=true` um das zu verhindern).
+- Nur bei `COPY` und `ADD` wird der Cache invalidiert (wenn Files geändert). Bei z.B. einer `RUN`-Anweisung wird immer der Cache verwendet (build mit `--no-cache` um das zu verhindern)
+  - <https://www.baeldung.com/linux/docker-build-cache#when-not-to-use-the-cache> 
 - *Always combine "apt-get update" with installations, e.g. `RUN apt-get update && apt-get install -y package-bar`*
 - Aufräumen nach apt-get: `... && rm -rf /var/lib/apt/lists/*`
 - Best Practices für Installation von Linux-Paketen in Docker-Images: <https://pythonspeed.com/articles/system-packages-docker/>
