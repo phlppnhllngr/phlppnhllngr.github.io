@@ -164,13 +164,29 @@ pipeline {
 	 stage('parallel') {
 	     parallel {
 	          stage('A') {
-		      echo "A"
+	   		steps {
+		      		echo "A"
+	  		}
 		  }
 		  stage('B') {
-		      echo "B"
+    			steps {
+		      		echo "B"
+	  		}
 		  }
 	     }
 	 }
+  	stage('agent') {
+   		agent {
+     			docker {
+				reuseNode true
+                    		image 'ghcr.io/graalvm/jdk:ol8-java17-22.3.1'
+                    		args '-e FOO=BAR -e BAZ=QUX'
+			}
+     		}
+       		steps {
+	 		sh 'java -version'
+	 	}
+   	}
     }
 }
 ```
