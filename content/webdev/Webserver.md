@@ -33,6 +33,9 @@ parent: Webdev
   - *a simple, small, portable, fast, and secure HTTP server.*
   - Unix
   - <https://www.acme.com/software/thttpd/>
+- **dufs**
+  - Features: Serve static files, Download folder as zip file, Upload files and folders (Drag & Drop), Create/Edit/Search files, Access control, Support https, Support webdav 
+  - <https://github.com/sigoden/dufs> 
 
 
 ## robots.txt
