@@ -198,7 +198,14 @@ parent: Diverses
 - **traceroute**
   - *ermittelt, über welche Router und Internet-Knoten IP-Datenpakete bis zum abgefragten Rechner gelangen*
   - `traceroute wikipedia.de`
-  - in Windows als tracert.exe verfügbar 
+  - in Windows als tracert.exe verfügbar
+- **try**
+  - *lets you run a command and inspect its effects before changing your live system*
+  - use cases
+    - *quickly find out which files are touched / installed by apt installing a certain package*
+    - *find out which log file, if any, a program writes to*
+    - *run one of those curl | bash installation commands and inspect exactly what it'll do without reading through a huge script*
+  - <https://github.com/binpash/try> 
 
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
