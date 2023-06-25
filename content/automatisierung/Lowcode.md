@@ -4,10 +4,20 @@ parent: Automatisierung
 ---
 
 # No-/Lowcode
+{: .no_toc }
 `no code, nocode, no-code, lowcode, low code, low-code`
 - → API/Tools
 - <https://www.nocode.tech/> (Liste)
 - <https://www.nocodeportal.com/lists/all-tools/>
+
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
+
+## Tools
 - **makerpad**
   - <https://www.makerpad.co/>
   - Tutorials für diverse no-code-Tools
@@ -175,7 +185,7 @@ experience.*
   - <https://joinonu.com/>
 
 
-## Spreadsheet/DB
+### Spreadsheet/DB
 - **Airtable**
   - <https://airtable.com/>
   - *Part spreadsheet, part database*
@@ -202,7 +212,7 @@ experience.*
   - <https://github.com/centerofci/mathesar> <img loading="lazy" src="https://img.shields.io/github/stars/centerofci/mathesar?style=flat-square"/>
 
 
-## Webseiten
+### Webseiten
 - **squarespace**
   - <https://de.squarespace.com/>
 - **wix**
@@ -242,7 +252,7 @@ experience.*
   - *Jamstack Site Builder for Developers*
   - <https://www.stackbit.com/>
 
-### React
+##### React
 - <https://compositor.io/iso/>
 - <https://github.com/Pagedraw/pagedraw>
 - **ToolJet**
@@ -255,7 +265,7 @@ experience.*
   - <https://www.codux.com/>
   - [Fireship](https://www.youtube.com/watch?v=tszI9GrH1u0) 
 
-### E-Commerce
+#### E-Commerce
 - <http://shopify.com/>
 - <https://github.com/shopizer-ecommerce/shopizer> (java based)
 - <https://github.com/shopware/platform> (PHP + Vue)
