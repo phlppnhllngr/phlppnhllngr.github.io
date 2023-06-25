@@ -64,16 +64,6 @@ parent: Diverses
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
 - sh ist nur ein Symlink auf die Standardshell des Systems (meist bash)
-- **nicht-interaktive Paketinstallation**
-  ```sh
-  DEBIAN_FRONTEND=noninteractive apt-get ...
-  ```
-  - *It never interacts with you at all, and makes the default answers be  used  for  all  questions.  It might  mail  error messages to root, but that's it; otherwise it is completely silent and unobtrusive,  a  perfect  frontend  for automatic installs.*
-- **leichtgewichtigere Installationen**
-  ```
-  apt-get -y install --no-install-recommends <the-package>
-  apt-get clean && rm -rf /var/lib/apt/lists/*
-  ```
 - **bash flags**
   ```bash
   #!/bin/bash
@@ -220,6 +210,24 @@ parent: Diverses
 - **scp**
   - secure copy protocol
 
+
+## Package-Installation
+- **nicht-interaktiv**
+  ```sh
+  DEBIAN_FRONTEND=noninteractive apt-get ...
+  ```
+  - *It never interacts with you at all, and makes the default answers be  used  for  all  questions.  It might  mail  error messages to root, but that's it; otherwise it is completely silent and unobtrusive,  a  perfect  frontend  for automatic installs.*
+- **leichtgewichtiger**
+  ```
+  apt-get -y install --no-install-recommends <the-package>
+  apt-get clean && rm -rf /var/lib/apt/lists/*
+  ```
+- **bestimmte Version**
+  ```
+  # alpine
+  apk add packagename=1.2.3-suffix
+  ```
+  
 
 ## Distributionen
 - Ubuntu
