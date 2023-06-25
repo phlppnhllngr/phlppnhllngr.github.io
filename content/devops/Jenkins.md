@@ -4,127 +4,51 @@ parent: DevOps
 ---
 
 # Jenkins
-- Options: <https://www.jenkins.io/doc/book/pipeline/syntax/#available-options>
-- Parameters: <https://www.jenkins.io/doc/book/pipeline/syntax/#parameters>
+{: .no_toc }
 
-## Steps
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
+## Pipeline
+
+### Declarative
+
+#### Sections
+
+##### Steps
 - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/>
 - **echo**
-	- `echo "message"` 
-- **properties**
-	- parameters
-	  ```groovy
-	  properties([
-	    parameters([
-	      booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
-	      choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
-	    ])
-	  ])
-	  node { ... }
-	  // oder pipeline { ... }
-	  ```
+	- `echo "message"`
 - **sh**
-- **checkout**
-- **timeout**
-  - `timeout(time: 20, unit: 'SECONDS', activity: true) { ... }`
-  - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/#timeout-enforce-time-limit>
-- **parallel**
-	- ```
-	  parallel([
-	    'failFast': true,
-	    'foo': { echo "foo" },
-	    'bar': { echo "bar" }
-	  ])
-	  ``` 
-- **retry**
-- **stage**
-- **sleep**
-- **input**
-	- properties
-		- message
-		- parameters?
-		- ...  
-	- <https://www.jenkins.io/doc/pipeline/steps/pipeline-input-step/> 
-- ...
-
-
-## Symbols
-- **node**
-- **parameters**
-- **cleanWs**
-- **pipelineTriggers**
-- **disableConcurrentBuilds**
-	- <https://www.jenkins.io/doc/book/pipeline/syntax/#available-options> 
-- ...
-
-
-## Globals
-- <https://opensource.triology.de/jenkins/pipeline-syntax/globals>
-- siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
-- **currentBuild**
-	- description
-	- result
-	- <https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild>
-- **params**
-- **env**
-	- WORKSPACE
-		- `${env.WORKSPACE}`
-		- absoluter Pfad des Workspace, z. B. /var/jenkins_home/workspace/foo
-- **pipeline**
-- **scm**
-
-
-## Jenkinsfile
-
-**Beispiele**
 ```groovy
-// scripted
-properties([
-	parameters([
-        	booleanParam(name: 'CLEAN_WS', defaultValue: false, description: 'Workspace vorher löschen?'),
-		choice(
-		    name: 'BAR',
-		    choices: [
-			'lorem'
-			'ipsum',
-			'dolor'
-		    ],
-		    description: 'bar'
-		),
-		string(name: 'BAZ', defaultValue: '2.3.0-SNAPSHOT', description: '')
-	]),
-  	[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10']],
-	[$class: 'DurabilityHintJobProperty', hint: 'PERFORMANCE_OPTIMIZED']
-])
-
-node {
-  	currentBuild.description = "${params}"
-	stage('Clean WS') {
-		if (!params.CLEAN_WS) {
-			catchError(message: "Stage 'Clean WS' übersprungen", buildResult: "SUCCESS", stageResult: "UNSTABLE") {
-				sh "exit 1"
-			}
-			return;
-		}
-		cleanWs()
-	}
-	stage('Checkout') {
-		checkout scm
-	}
-  	stage('foo.sh') {
-		timeout(time: 10, unit: 'SECONDS') {
-			sh "chmod 755 ${env.WORKSPACE}/foo.sh"
-			retry(2) {
-				sh "${env.WORKSPACE}/foo.sh"
-			}
-
-		}
-  	}
+def collectStderr(String script) {
+  return sh(returnStdout: true, script: "${script} 2>&1") // 1 = stdout, 2 = stderr
 }
 ```
 
+#### Directives
+- <https://www.jenkins.io/doc/book/pipeline/syntax/#declarative-directives>
+
+##### Options
+- <https://www.jenkins.io/doc/book/pipeline/syntax/#options>
+- **timeout**
+	- `timeout(time: 20, unit: 'SECONDS', activity: true) { ... }`
+
+##### Parameters
+- <https://www.jenkins.io/doc/book/pipeline/syntax/#parameters>
 ```groovy
-// declarative
+pipeline {
+	parameters {
+		booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
+		choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
+	}
+}
+```
+
+#### Beispiel
+```groovy
 def sayHello(to) {
     println('hello ' + to) 
 }
@@ -191,7 +115,160 @@ pipeline {
 }
 ```
 
-**Groovy**
+### Scripted
+
+#### Parameters
+```groovy
+properties([
+	parameters([
+		booleanParam(name: 'foo', defaultValue: false, description: 'bar'),
+		choiceParam(name: 'bar', choices: ['qux', 'quux'], description: '')
+	])
+])
+node { ... }
+```
+
+#### Parallel
+```
+parallel([
+	'failFast': true,
+	'foo': { echo "foo" },
+	'bar': { echo "bar" }
+])
+```
+
+#### Triggers
+**upstream**
+```groovy
+pipelineTriggers([
+     upstream(threshold: 'SUCCESS', upstreamProjects: './foo')
+])
+```
+
+**scheduled**
+```groovy
+pipelineTriggers([
+  cron('H 23 * * *')
+])
+// also supports predefined aliases
+// @hourly (0 * * * *)
+// @daily/@midnight (0 0 * * *)
+// @weekly (0 0 * * 0; sunday morning)
+// @monthly (0 0 1 * *; midnight of first day of month)
+```
+
+#### Beispiel
+```groovy
+// scripted
+properties([
+	parameters([
+        	booleanParam(name: 'CLEAN_WS', defaultValue: false, description: 'Workspace vorher löschen?'),
+		choice(
+		    name: 'BAR',
+		    choices: [
+			'lorem'
+			'ipsum',
+			'dolor'
+		    ],
+		    description: 'bar'
+		),
+		string(name: 'BAZ', defaultValue: '2.3.0-SNAPSHOT', description: '')
+	]),
+  	[$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', artifactDaysToKeepStr: '', artifactNumToKeepStr: '10', daysToKeepStr: '', numToKeepStr: '10']],
+	[$class: 'DurabilityHintJobProperty', hint: 'PERFORMANCE_OPTIMIZED']
+])
+
+node {
+  	currentBuild.description = "${params}"
+	stage('Clean WS') {
+		if (!params.CLEAN_WS) {
+			catchError(message: "Stage 'Clean WS' übersprungen", buildResult: "SUCCESS", stageResult: "UNSTABLE") {
+				sh "exit 1"
+			}
+			return;
+		}
+		cleanWs()
+	}
+	stage('Checkout') {
+		checkout scm
+	}
+  	stage('foo.sh') {
+		timeout(time: 10, unit: 'SECONDS') {
+			sh "chmod 755 ${env.WORKSPACE}/foo.sh"
+			retry(2) {
+				sh "${env.WORKSPACE}/foo.sh"
+			}
+
+		}
+  	}
+   	stage('X') {
+	    	if (skip) {
+      			// Stage überspringen, als UNSTABLE markieren
+	    		catchError(message: "Stage 'foo' übersprungen", stageResult: 'UNSTABLE', buildResult: 'SUCCESS') {
+	     			sh "exit 1"
+			}
+	    		return
+	  	}
+
+		boolean buildCausedByBranchIndexing = !new java.util.ArrayList<Object>(
+		    currentBuild.getBuildCauses('jenkins.branch.BranchIndexingCause')
+		).isEmpty()
+		if (buildCausedByBranchIndexing) {
+			echo "Build durch Branch-Indexing ausgelöst => abbrechen"
+			currentBuild.result = 'ABORTED'
+			return
+		}
+
+		def javaHome = tool name: 'openjdk-8'
+		def mvnHome = tool name: 'maven-3.6.3'
+		withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) {
+		    sh "java -version"
+		    sh "mvn -version"
+		}
+    	}
+}
+
+def pseudoBreakpoint() {
+    def i
+    try {
+        i = input(
+            message: 'Enter sh script',
+            ok: 'Execute',
+            parameters: [
+                string(defaultValue: '', description: 'Abort to continue pipeline execution', name: 'script', trim: true)
+            ]
+        )
+    } catch (e) { // Caused by 'Abort'
+        return
+    }
+    try {
+        sh(i)
+    } catch (e) {
+        println('sh script error: ' + e.getMessage())
+    }
+    pseudoBreakpoint()
+}
+```
+
+
+### Globals
+- <https://opensource.triology.de/jenkins/pipeline-syntax/globals>
+- siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
+- **currentBuild**
+	- description
+	- result
+	- <https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild>
+- **params**
+	- `${params.FOO}` 
+- **env**
+	- WORKSPACE
+		- `${env.WORKSPACE}`
+		- absoluter Pfad des Workspace, z. B. /var/jenkins_home/workspace/foo
+- **pipeline**
+- **scm**
+
+
+## Groovy
 ```groovy
 // a.groovy
 def call(Closure c) {
@@ -240,106 +317,6 @@ d('world') {
   println('foo')
 }
 ```
-
-**stderr**
-<br/>
-1 = stdout, 2 = stderr
-```groovy
-def collectStderr(String script) {
-  return sh(returnStdout: true, script: "${script} 2>&1")
-}
-```
-
-**upstream job trigger**
-```groovy
-pipelineTriggers([
-     upstream(
-         threshold: 'SUCCESS',
-         upstreamProjects: './foo'
-     )
-])
-```
-
-**scheduled trigger**
-```groovy
-pipelineTriggers([
-  cron('H 23 * * *')
-])
-// also supports predefined aliases
-// @hourly (0 * * * *)
-// @daily/@midnight (0 0 * * *)
-// @weekly (0 0 * * 0; sunday morning)
-// @monthly (0 0 1 * *; midnight of first day of month)
-```
-
-**build cause**
-```groovy
-def buildCausedByUser = !new java.util.ArrayList<Object>(
-    currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
-).isEmpty()
-```
-Branch Indexing löst alle Builds einer Multibranch-Pipeline aus:
-Es gibt ein Property "Suppress Automatic SCM trigger" mit dem das verhindert werden kann, allerdings schaltet das auch eventuell vorhandene Commit-Trigger aus.
-Daher:
-```groovy
-node {
-	boolean buildCausedByBranchIndexing = !new java.util.ArrayList<Object>(
-	    currentBuild.getBuildCauses('jenkins.branch.BranchIndexingCause')
-	).isEmpty()
-	if (buildCausedByBranchIndexing) {
-		echo "Build durch Branch-Indexing ausgelöst => abbrechen"
-		currentBuild.result = 'ABORTED'
-		return
-	}
-```
-
-**pseudo breakpoint**
-```groovy
-def call() {
-    def i
-    try {
-        i = input(
-            message: 'Enter sh script',
-            ok: 'Execute',
-            parameters: [
-                string(defaultValue: '', description: 'Abort to continue pipeline execution', name: 'script', trim: true)
-            ]
-        )
-    } catch (e) { // Caused by 'Abort'
-        return
-    }
-    try {
-        sh(i)
-    } catch (e) {
-        println('sh script error: ' + e.getMessage())
-    }
-    breakpoint()
-}
-```
-oder <http://notes.asaleh.net/posts/debugging-jenkins-pipeline>
-
-**stage überspringen, als UNSTABLE markieren**
-```groovy
-stage('foo') {
-  if (skip) {
-    catchError(message: "Stage 'foo' übersprungen", stageResult: 'UNSTABLE', buildResult: 'SUCCESS') {
-      sh "exit 1"
-    }
-    return
-  }
-}
-```
-
-**PATH (scripted)**
-```groovy
-def javaHome = tool name: 'openjdk-8'
-def mvnHome = tool name: 'maven-3.6.3'
-withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) {
-    sh "java -version"
-    sh "mvn -version"
-}
-```
-
 
 ## Plugins
 - **docker**
@@ -420,10 +397,10 @@ withEnv(["PATH=${javaHome}/bin:${mvnHome}/bin:$PATH", "JAVA_HOME=${javaHome}"]) 
 
 
 ## Tools
-- jenkinsfile-runner
+- **jenkinsfile-runner**
   - <https://github.com/jenkinsci/jenkinsfile-runner>
   - *packages Jenkins pipeline execution engine as a command line tool or as a Docker image*
-- vscode-groovy-lint → IDE/VSCode
+- **vscode-groovy-lint** → IDE/VSCode
 
 
 ## Docker
