@@ -83,12 +83,7 @@ parent: Diverses
   - no/low code
   - GUI-Builder für SQL queries, die für Wiederverwendung gespeichert werden können
   - Anzeige als Datensätze oder Charts, Dashboards
-  - [Docker-Image](https://www.metabase.com/docs/latest/operations-guide/running-metabase-on-docker.html)
-
-    ```sh
-    docker run --rm -p 3000:3000 -v /c/docker/volumes/metabase:/metabase-data -e "MB_DB_FILE=metabase-data/metabase.db" --name metabase metabase/metabase
-    ```
-
+  - [Docker-Image](https://www.metabase.com/docs/latest/operations-guide/running-metabase-on-docker.html) `docker run --rm -p 3000:3000 -v /c/docker/volumes/metabase:/metabase-data -e "MB_DB_FILE=metabase-data/metabase.db" --name metabase metabase/metabase`
   - mehrere Sprachen unterstützt, u. A. DE
   - [Lizenz](https://www.metabase.com/license/): GNU AGPL v3
 - **redash**
