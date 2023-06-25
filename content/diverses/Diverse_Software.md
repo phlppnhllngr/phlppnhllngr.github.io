@@ -276,12 +276,23 @@ parent: Diverses
   - <https://github.com/bangle-io/bangle-io>
 
 
-## ETL
+## ETL & Data Integration
 - **Apache nifi**
   - <https://github.com/apache/nifi>
 - **Spring Batch**
 - **talend**
   - <https://www.talend.com/>
+- **Airbyte**
+  - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
+  - *provides [300+ connectors](https://docs.airbyte.com/integrations/) for popular APIs, databases, data warehouses, and data lakes.*
+  - *has a built-in scheduler and uses Temporal to orchestrate jobs and ensure reliability at scale*
+  - <https://github.com/airbytehq/airbyte>
+- **SeaTunnel**
+  - *distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).* 
+  - <https://github.com/apache/incubator-seatunnel>
+- **Meltano**
+  - *CLI & version control for ELT without limitations* 
+  - <https://github.com/meltano/meltano>  
 
 
 ## Textanalyse, Datenextraktion
@@ -319,12 +330,3 @@ parent: Diverses
   - xml,json,jsonl,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log
   - <https://solr.apache.org/>
 
-## Data Integration
-- **Airbyte**
-  - *data integration platform that helps you consolidate your data in your warehouses, lakes and databases*
-  - *provides [300+ connectors](https://docs.airbyte.com/integrations/) for popular APIs, databases, data warehouses, and data lakes.*
-  - *has a built-in scheduler and uses Temporal to orchestrate jobs and ensure reliability at scale*
-  - <https://github.com/airbytehq/airbyte>
-- **SeaTunnel**
-  - *distributed, high-performance data integration platform for the synchronization and transformation of massive data (offline & real-time).* 
-  - <https://github.com/apache/incubator-seatunnel> 
