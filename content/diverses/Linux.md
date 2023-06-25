@@ -74,16 +74,20 @@ parent: Diverses
   apt-get -y install --no-install-recommends <the-package>
   apt-get clean && rm -rf /var/lib/apt/lists/*
   ```
-- **bash strict mode**
+- **bash flags**
   ```bash
   #!/bin/bash
+  # -u (`-o nounset`) -- exit if a variable is not set
+  # -e (`-o errexit`) -- exit for any command failure
+  # -o pipefail -- Causes a pipeline to return the exit status of the last command in the pipe that returned a non-zero return value
+  # -v (`-o verbose`) -- Print each command to stdout before executing it
+  # -x -- Similar to -v, but expands commands
   set -euo pipefail
   IFS=$'\n\t'
   ```
   - <http://redsymbol.net/articles/unofficial-bash-strict-mode>
   - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e> (exit on error)
-- **set -x**
-  <br/> *which is like DOS’ ECHO ON: it prints every command before it runs. Free progress log*
+  - <https://tldp.org/LDP/abs/html/options.html>
 - **Strings prüfen**
   - Ob leer (zero-length, null): `if [ -z "$str" ];`
   - Ob nicht leer: `if [ -n "$str" ];`
@@ -124,6 +128,8 @@ parent: Diverses
       ```
 
     - *bash: EXIT will also run on SIGINT (^C), which most other shells won't*
+- **Farbige Outputs**
+  - <https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux> 
 
 ### Tools
   - **shellspec**
@@ -230,10 +236,11 @@ parent: Diverses
       - <https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk>   
 
 
-## libc
+## libc (C-Standard-Bibliothek)
 - *There are two popular implementations for the libc interface* 
 - glibc (GNU libc)
   - enthalten in: Ubuntu, Debian, CentOS, RHEL, SUSE, ...
   - *downside is that it is a fairly large and heavy codebase*
 - musl
-  - *newer implementation of the library. Used by Alpine Linux, it is much smaller in size compared to GNU libc and is meant to be lightweight, fast and simple. However, there are caveats. Musl libc actually has functional differences compared to GNU libc - things like regular expressions, EOF and multithreading could behave differently based on the implementation.* 
+  - *newer implementation of the library. Used by Alpine Linux, it is much smaller in size compared to GNU libc and is meant to be lightweight, fast and simple. However, there are caveats. Musl libc actually has functional differences compared to GNU libc - things like regular expressions, EOF and multithreading could behave differently based on the implementation.*
+  - für [statisches Linken](https://de.wikipedia.org/wiki/Linker_(Computerprogramm)#Statisches_Linken) optimiert
