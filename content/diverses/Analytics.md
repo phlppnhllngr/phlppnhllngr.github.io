@@ -77,7 +77,7 @@ parent: Diverses
 ## Visualisierung
 - **Metabase**
   - <https://www.metabase.com/>
-  - <https://github.com/metabase/metabase> ⭐20.5k
+  - <https://github.com/metabase/metabase> <img loading="lazy" src="https://img.shields.io/github/stars/metabase/metabase?style=flat-square"/>
   - Webapp, die DB-Daten graphisch aufbereitet
   - [unterstützte DBs](https://github.com/metabase/metabase/blob/master/docs/faq/setup/which-databases-does-metabase-support.md): H2, Postgres, mongo, mysql, ...
   - no/low code
@@ -92,23 +92,26 @@ parent: Diverses
   - mehrere Sprachen unterstützt, u. A. DE
   - [Lizenz](https://www.metabase.com/license/): GNU AGPL v3
 - **redash**
-  - <https://github.com/getredash/redash> ⭐15.2k
+  - <https://github.com/getredash/redash> <img loading="lazy" src="https://img.shields.io/github/stars/getredash/redash?style=flat-square"/>
   - *Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.*
   - *Redash supports more than [35 data sources](https://redash.io/help/data-sources/supported-data-sources).*
 - **kibana**
   - <https://www.elastic.co/products/kibana>
   - *lets you visualize your Elasticsearch data*
   - → Logging/ELK-Stack
-- **apache superset**
-  - <https://github.com/apache/incubator-superset> ⭐27k
+- **Apache Superset**
+  - <https://github.com/apache/superset> <img loading="lazy" src="https://img.shields.io/github/stars/apache/superset?style=flat-square"/>
   - ähnlich metabase
   - *modern, enterprise-ready business intelligence web application*
   - *data exploration and visualization web application*
   - *intuitive interface to explore and visualize datasets, and create interactive dashboards*
   - [*support for most SQL-speaking databases*](https://superset.incubator.apache.org/#databases)
   - <https://github.com/apache-superset/awesome-apache-superset>
+  - Zugriff auf JSON-APIs, HTML, CSV, ... mit Lib "Shillelagh"
+    - <https://github.com/betodealmeida/shillelagh>
+    - <https://preset.io/blog/accessing-apis-with-superset/> 
 - **cubejs**
-  - <https://github.com/cube-js/cube.js> ⭐5500
+  - <https://github.com/cube-js/cube.js> <img loading="lazy" src="https://img.shields.io/github/stars/cube-js/cube.js?style=flat-square"/>
   - *modular framework to build analytical web applications*
   - node_module
 - **Power BI**
