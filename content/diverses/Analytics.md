@@ -101,6 +101,7 @@ parent: Diverses
   - *data exploration and visualization web application*
   - *intuitive interface to explore and visualize datasets, and create interactive dashboards*
   - [*support for most SQL-speaking databases*](https://superset.incubator.apache.org/#databases)
+  - Bug "LegacyRow is not JSON serializable" mit DB2: <https://github.com/apache/superset/issues/24130>
   - <https://github.com/apache-superset/awesome-apache-superset>
   - Zugriff auf JSON-APIs, HTML, CSV, ... mit Lib "Shillelagh"
     - <https://github.com/betodealmeida/shillelagh>
