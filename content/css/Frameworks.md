@@ -75,3 +75,7 @@ parent: CSS
 - **UniformCSS**
   - *A fully configurable utility class generator and CSS framework built for Sass projects*
   - <https://github.com/ThinkUniform/uniformcss>
+- **Tremor**
+  - React, Nextsj, Redwood, Vite
+  - <https://www.tremor.so/docs/getting-started/installation>
+  
