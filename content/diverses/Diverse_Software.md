@@ -275,7 +275,9 @@ parent: Diverses
   - *web based, local only, markdown*
   - <https://github.com/bangle-io/bangle-io>
 - **Zotero Better Notes**
-  - <https://github.com/windingwind/zotero-better-notes> 
+  - <https://github.com/windingwind/zotero-better-notes>
+- **Obsidian**
+  - <https://obsidian.md/> 
 
 
 ## ETL & Data Integration
