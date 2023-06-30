@@ -74,5 +74,11 @@ parent: Webdev
   - *email and SMTP testing tool with API for developers*
   - *acts as both an SMTP server, and provides a web interface to view all captured emails*
   - *inspired by MailHog, but much, much faster.*
-  - <https://github.com/axllent/mailpit> 
+  - <https://github.com/axllent/mailpit>
+- **GreenMail**
+  - *allows developers to test email-based applications, services or systems without access to a live mail server*
+  - *Developers can send, receive, and verify emails by embedding GreenMail in a unit test or running it as a standalone container*
+  - *acts as a virtual (mocking/sandbox) mail server and supports common mail protocols SMTP, IMAP and POP3*
+  - *Embeds in JUnit test for integration testing*
+  - <https://github.com/greenmail-mail-test/greenmail>
 
