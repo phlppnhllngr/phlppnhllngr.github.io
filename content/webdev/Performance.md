@@ -84,6 +84,10 @@ parent: Webdev
       - <https://github.com/Pixboost/lighthouse-ci-docker> (unofficial)
   - **PageSpeed**
     - <https://developers.google.com/speed/>
+  - **Web Vitals**
+    - Largest Contentful Paint, Cumulative Layout Shift, First Input Delay
+    - Chrome Extension 
+      - <https://github.com/GoogleChrome/web-vitals-extension> 
 - **siteaudit**
   - <https://github.com/thecreazy/siteaudit>
   - CLI für pagespeed, lighthouse & a11y
