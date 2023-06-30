@@ -717,3 +717,5 @@ parent: Java
   - *annotation processor that creates: a companion builder class for Java records, an interface that adds "with" copy methods*
   - Java 16+
   - <https://github.com/Randgalt/record-builder>
+- **GreenMail** -> Webdev/Email
+ 
