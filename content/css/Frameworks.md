@@ -78,4 +78,7 @@ parent: CSS
 - **Tremor**
   - React, Nextsj, Redwood, Vite
   - <https://www.tremor.so/docs/getting-started/installation>
+- **Tabler**
+  - basiert auf Bootstrap 
+  - <https://tabler.io/> 
   
