@@ -81,4 +81,7 @@ parent: Webdev
   - *acts as a virtual (mocking/sandbox) mail server and supports common mail protocols SMTP, IMAP and POP3*
   - *Embeds in JUnit test for integration testing*
   - <https://github.com/greenmail-mail-test/greenmail>
+- **Tabler**
+  - Templates 
+  - <https://tabler.io/emails/gallery> 
 
