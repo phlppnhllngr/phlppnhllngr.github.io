@@ -232,13 +232,21 @@ parent: Diverses
 ## Distributionen
 - Ubuntu
   - 22.04 LTS: jammy jellyfish
-- Oracle Linux
+- Red Hat Enterprise Linux (RHEL)
+  - Paketmanager: yum (RHEL 6, 7), dnf (RHEL 8: *yum is an alias to dnf*), rpm
+    - *rpm is a package format, although the rpm command can be used to install rpm files. RHEL and Fedora discourage this practice if you can avoid it. The rpm command has a number of other useful functions, however, such as querying the contents of an rpm file.*
+    - *DNF or "Dandified YUM" is the next-generation version of the "Yellowdog Updater, Modified" (yum)*
+- Oracle Linux (OL, OLE)
+  - *clone version of RHEL with some enhancements in Kernel to makes it more compatible with Oracle hardware and software*
+  - *Oracle Linux with little effort (adjustments) can enhance the Oracle DB Performance. And most of the Oracle Products are tested under it.*
   - Paketmanager: yum
 - Debian
   - Paketmanager: dpkg
   - 9: stretch
   - 10: buster
   - 11: bullseye
+- Fedora
+  - Paketmanager: dnf (Fedora 18+) 
 - Linux Mint
   - *designed to work 'out of the box' and comes fully equipped with the apps most people need.*
   - <https://linuxmint.com/>
