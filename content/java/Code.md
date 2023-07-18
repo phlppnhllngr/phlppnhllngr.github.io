@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Java]
 title: Code
-created: '2019-02-11T20:33:21.091Z'
-modified: '2021-09-08T12:55:44.431Z'
 parent: Java
 ---
 
@@ -36,6 +33,21 @@ parent: Java
   7. *Include failure-capture information in detail messages*
   8. *Strive for failure atomicity*
   9. *Don't ignore exceptions*
+ 
+
+### Checked Exceptions als unchecked behandeln
+```java
+@SuppressWarnings("unchecked")
+public static <T, X extends Throwable> T unchecked(Callable<T> c) throws X {
+    try {
+        return c.call();
+    } catch (Exception e) {
+        throw (X) e;
+    }
+}
+// ...
+unchecked(() -> new URL("foo));
+```
 
 
 ## Klassennamen
