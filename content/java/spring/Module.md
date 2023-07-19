@@ -20,6 +20,14 @@ grand_parent: Java
   - <https://www.baeldung.com/spring-rest-json-patch>
 
 
+## Data
+-> Spring/Datenbank
+- <https://spring.io/projects/spring-data>
+
+### Data Redis
+- <https://spring.io/projects/spring-data-redis>
+
+
 ## Security
 - <https://spring.io/projects/spring-security>
 - **Submodul OAuth**
