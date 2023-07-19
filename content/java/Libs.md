@@ -291,6 +291,8 @@ parent: Java
     - *distributed Java objects and services on top of Redis server. State of the Art Redis Java client*
     - <https://github.com/redisson/redisson>
     - <https://redisson.org/feature-comparison-redisson-vs-jedis.html>
+  - **Lettuce**
+    - <https://github.com/lettuce-io/lettuce-core> 
 
 ## PDF
 - **OpenPDF**
