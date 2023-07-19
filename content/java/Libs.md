@@ -263,9 +263,6 @@ parent: Java
 
 
 ## Cache
-- **Redisson**
-  - *distributed Java objects and services on top of Redis server. State of the Art Redis Java client*
-  - <https://github.com/redisson/redisson>
 - **ehcache**
   - <https://www.ehcache.org/>
   - <https://github.com/ehcache/ehcache3> ⭐1300
@@ -279,14 +276,21 @@ parent: Java
   - in-memory, java 8+
 - **cache2k**
   - <https://cache2k.org/>
-- **jedis**
 - **Apache Commons JCS**
   - Java Caching System
   - *distributed caching system*
   - *most useful for high read, low put applications*
   - *Features: Disk overflow (and defragmentation), Data expiration (idle time and max life), ...*
-  - <https://commons.apache.org/proper/commons-jcs/index.html> 
-
+  - <https://commons.apache.org/proper/commons-jcs/index.html>
+- **jcabi cache**
+  - <https://aspects.jcabi.com/annotation-cacheable.html>
+- **Guava Caching**  
+- <u>Redis Clients</u>
+  - **jedis**
+  - **Redisson**
+    - *distributed Java objects and services on top of Redis server. State of the Art Redis Java client*
+    - <https://github.com/redisson/redisson>
+    - <https://redisson.org/feature-comparison-redisson-vs-jedis.html>
 
 ## PDF
 - **OpenPDF**
