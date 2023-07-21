@@ -23,6 +23,8 @@ parent: Datenbank
 - **UUID**
   - <https://en.wikipedia.org/wiki/Universally_unique_identifier>
   - <https://www.ietf.org/id/draft-peabody-dispatch-new-uuid-format-03.html>
+  - v7
+    - <https://www.ietf.org/archive/id/draft-peabody-dispatch-new-uuid-format-04.html#name-uuid-version-7> 
 - **Hash-ID**
   - <https://hashids.org/>
 - **ULID**
