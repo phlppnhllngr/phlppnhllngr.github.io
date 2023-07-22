@@ -62,7 +62,8 @@ grand_parent: Java
 ## Admin
 - **spring-boot-admin**
   - <https://github.com/codecentric/spring-boot-admin>
-- <https://github.com/xeraa/microservice-monitoring>
+- **microservice-monitoring**
+  - <https://github.com/xeraa/microservice-monitoring>
   - *Monitor your Spring Boot application with the Elastic Stack*
 - **Ostara**
   - *desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator* 
