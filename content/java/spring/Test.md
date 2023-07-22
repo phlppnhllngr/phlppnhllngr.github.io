@@ -69,9 +69,6 @@ grand_parent: Java
   - *The consequence is that we cannot share the ApplicationContext with other test classes* (<https://www.baeldung.com/spring-boot-testing-pitfalls#3-pitfall-mocking>)
 - **@DataJpaTest** -> Spring/Datenbank/Data JPA/Test
 - **@AutoConfigureTestDatabase** -> Spring/Datenbank/Data JPA/Test
-- **@WebMvcTest** (🥾)
-  - für Controller-Layer
-  - <https://reflectoring.io/spring-boot-web-controller-test/>
 - **@WebFluxTest**
   - *We can use the @WebFluxTest annotation to test Spring WebFlux controllers. It's often used along with @MockBean to provide mock implementations for required dependencies.*
 - **@JdbcTest**
@@ -93,7 +90,12 @@ grand_parent: Java
 - **SpringExtension** (JUnit5 @ExtendWith)
   - *As of Spring Boot 2.1, we no longer need to load the SpringExtension because it's included as a meta annotation in the Spring Boot test annotations like @DataJpaTest, @WebMvcTest, and @SpringBootTest.*
 - **SpringRunner** (alias für SpringJUnit4ClassRunner; JUnit4 @RunWith)
+- **@WebMvcTest** (🥾)
+  - für Controller-Layer
+  - <https://reflectoring.io/spring-boot-web-controller-test/>
+  - <https://spring.io/guides/gs/testing-web/>
 - **MockMvc**
+- **@AutoConfigureMockMvc** (🥾)
 - **TestRestTemplate**
 - **@DirtiesContext**
   - *marks the ApplicationContext as dirty, so it is closed and removed from the cache after the test*
