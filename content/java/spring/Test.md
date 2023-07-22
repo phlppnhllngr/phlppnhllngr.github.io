@@ -95,8 +95,14 @@ grand_parent: Java
   - <https://reflectoring.io/spring-boot-web-controller-test/>
   - <https://spring.io/guides/gs/testing-web/>
 - **MockMvc**
+  - *Main entry point for server-side Spring MVC test support* 
+  - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html> 
 - **@AutoConfigureMockMvc** (🥾)
+  - *enable and configure auto-configuration of `MockMvc`* 
+  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.html> 
 - **TestRestTemplate**
+  - *Convenient alternative of `RestTemplate` that is suitable for integration tests. TestRestTemplate is fault-tolerant. This means that 4xx and 5xx do not result in an exception being thrown and can instead be detected through the response entity and its status code.*
+  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/web/client/TestRestTemplate.html>
 - **@DirtiesContext**
   - *marks the ApplicationContext as dirty, so it is closed and removed from the cache after the test*
   - für Testmethoden, die z. B. den Zustand von Singleton-Beans verändern, und die Änderung den nächsten Test beeinflussen könnte 
