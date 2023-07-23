@@ -26,6 +26,9 @@ grand_parent: Java
 
 ### Data Redis
 - <https://spring.io/projects/spring-data-redis>
+- <https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/>
+- <https://www.baeldung.com/spring-boot-redis-cache>
+- <https://b-nova.com/en/home/content/distributed-caching-with-redis-and-spring-boot>
 
 
 ## Security
