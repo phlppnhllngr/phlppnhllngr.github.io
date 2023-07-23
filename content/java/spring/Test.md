@@ -63,6 +63,9 @@ grand_parent: Java
     ```
   - <https://www.baeldung.com/spring-test-property-source>
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/TestPropertySource.html>
+- **@DynamicPropertySource**
+  - *Method-level annotation for integration tests that need to add properties with dynamic values* 
+  - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/DynamicPropertySource.html> 
 - **@AutoConfigureMockMvc** (🥾)
 - **@MockBean** (🥾)
   - *Spring Test Framework includes Mockito to create and use mocks. When using @MockBean, we let Mockito create a mock instance and put it into the ApplicationContext*
@@ -108,4 +111,9 @@ grand_parent: Java
   - für Testmethoden, die z. B. den Zustand von Singleton-Beans verändern, und die Änderung den nächsten Test beeinflussen könnte 
   - <https://www.baeldung.com/spring-boot-testing-pitfalls#1-petservice-sample-solutions>
 - **@ActiveProfiles**
-  - *class-level annotation that is used to declare which active bean definition profiles should be used when loading an ApplicationContext for test classes* 
+  - *class-level annotation that is used to declare which active bean definition profiles should be used when loading an ApplicationContext for test classes*
+- **@ServiceConnection** (🥾)
+  - Verwendung mit Testcontainers 
+  - SB 3.1.0+
+  - <https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1>
+  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/testcontainers/service/connection/ServiceConnection.html> 
