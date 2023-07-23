@@ -5,7 +5,6 @@ grand_parent: Java
 ---
 
 # Test
-- <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
 - [YT - Things I Wish I Knew When I Started Testing Spring Boot Applications by Philip Riecks, 10/22](https://www.youtube.com/watch?v=5Td7vAS9qJI)
 - <https://www.baeldung.com/spring-boot-testing-pitfalls>
 - Chaos Monkey
@@ -98,7 +97,8 @@ grand_parent: Java
   - <https://reflectoring.io/spring-boot-web-controller-test/>
   - <https://spring.io/guides/gs/testing-web/>
 - **MockMvc**
-  - *Main entry point for server-side Spring MVC test support* 
+  - *Main entry point for server-side Spring MVC test support*
+  - <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html> 
 - **@AutoConfigureMockMvc** (🥾)
   - *enable and configure auto-configuration of `MockMvc`* 
@@ -116,4 +116,5 @@ grand_parent: Java
   - Verwendung mit Testcontainers 
   - SB 3.1.0+
   - <https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1>
+  - <https://www.infoq.com/news/2023/07/enhanced-testcontainers-support/>
   - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/testcontainers/service/connection/ServiceConnection.html> 
