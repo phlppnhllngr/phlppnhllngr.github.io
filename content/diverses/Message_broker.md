@@ -57,6 +57,9 @@ parent: Diverses
     - *It supports only the pub-sub mechanism.*
     - *It doesn’t guarantee the delivery of each message.*
   - *Mostly, RabbitMQ outperforms Redis and guarantees message delivery with the help of message durability and acknowledgments*
+- **BullMQ**
+  - *Message Queue and Batch processing for NodeJS and Python based on Redis* 
+  - <https://github.com/taskforcesh/bullmq> 
 - **NATS**
   - *messaging system for cloud native applications, IoT messaging, and microservices architectures* 
   - *the basic NATS platform is a simple pub-sub transport system that offers only TCP reliability* 
