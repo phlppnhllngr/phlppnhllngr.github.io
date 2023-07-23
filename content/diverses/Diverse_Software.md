@@ -193,6 +193,9 @@ parent: Diverses
   - *A self-hostable personal dashboard* 
   - *helps you organize your self-hosted services by making them accessible from a single place* 
   - <https://github.com/Lissy93/dashy>
+- **DocuSeal**
+  - *Open source DocuSign alternative* 
+  - <https://github.com/docusealco/docuseal> 
 
 
 ## Workflow Scheduler
