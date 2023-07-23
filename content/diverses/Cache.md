@@ -6,6 +6,9 @@ parent: Diverses
 # Cache
 - **Redis**
   - <https://redis.io/>
+  - GUIs
+    - RedisInsight
+      - <https://docs.redis.com/latest/ri/>  
 - **memcached**
   - <https://github.com/memcached/memcached>
 - **Hazelcast** 💰
