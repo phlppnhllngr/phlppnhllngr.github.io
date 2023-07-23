@@ -29,6 +29,11 @@ grand_parent: Java
 - <https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/>
 - <https://www.baeldung.com/spring-boot-redis-cache>
 - <https://b-nova.com/en/home/content/distributed-caching-with-redis-and-spring-boot>
+- Caching allgemein
+  - <https://www.baeldung.com/spring-cache-tutorial>
+  - <https://hellokoding.com/spring-caching-custom-error-handler/>
+  - <https://spring.io/guides/gs/caching/>
+  - <https://reflectoring.io/spring-boot-cache/> 
 
 
 ## Security
