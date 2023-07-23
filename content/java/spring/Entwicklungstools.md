@@ -8,8 +8,8 @@ grand_parent: Java
 - **Testcontainers**
   - für lokale Entwicklung (DB, Cache) statt docker(-compose)
   - <https://bsideup.github.io/posts/local_development_with_testcontainers/>
-  - ^sollte man wahrscheinlich mit `@Profile` verbinden
-- [devtools](https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools)
+- **Devtools**
+  - <https://docs.spring.io/spring-boot/docs/current/reference/html/using-spring-boot.html#using-boot-devtools>
 - **ReBoot**
   - *refactoring tool to automatically apply best practices in Java / Spring-Boot applications*
   - <https://github.com/thanus/reboot>
