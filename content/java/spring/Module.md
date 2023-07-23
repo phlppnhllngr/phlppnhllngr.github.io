@@ -29,11 +29,14 @@ grand_parent: Java
 - <https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/>
 - <https://www.baeldung.com/spring-boot-redis-cache>
 - <https://b-nova.com/en/home/content/distributed-caching-with-redis-and-spring-boot>
+- <https://github.com/gee4vee/circuit-breaker-redis-cache>
 - Caching allgemein
   - <https://www.baeldung.com/spring-cache-tutorial>
-  - <https://hellokoding.com/spring-caching-custom-error-handler/>
   - <https://spring.io/guides/gs/caching/>
-  - <https://reflectoring.io/spring-boot-cache/> 
+  - <https://reflectoring.io/spring-boot-cache/>
+  - Error Handling
+    - <https://hellokoding.com/spring-caching-custom-error-handler/>
+    - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/cache/interceptor/LoggingCacheErrorHandler.html>
 
 
 ## Security
