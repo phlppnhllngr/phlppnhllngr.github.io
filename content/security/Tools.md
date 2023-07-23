@@ -86,6 +86,7 @@ parent: Security
 - **Wireshark**
 - **Sniffnet**
   - *monitor your network traffic*
+  - *most of the network analyzers out there are cumbersome to use, while one of Sniffnet's cornerstones is to be usable with ease by everyone*
   - <https://github.com/GyulyVGC/sniffnet>
 
 
