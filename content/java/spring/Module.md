@@ -29,7 +29,8 @@ grand_parent: Java
 - <https://docs.spring.io/spring-data/data-redis/docs/current/reference/html/>
 - <https://www.baeldung.com/spring-boot-redis-cache>
 - <https://b-nova.com/en/home/content/distributed-caching-with-redis-and-spring-boot>
-- <https://github.com/gee4vee/circuit-breaker-redis-cache>
+- <https://www.digitalocean.com/community/tutorials/spring-boot-redis-cache>
+- <https://www.baeldung.com/spring-data-redis-properties>
 - Caching allgemein
   - <https://www.baeldung.com/spring-cache-tutorial>
   - <https://spring.io/guides/gs/caching/>
@@ -37,6 +38,7 @@ grand_parent: Java
   - Error Handling
     - <https://hellokoding.com/spring-caching-custom-error-handler/>
     - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/cache/interceptor/LoggingCacheErrorHandler.html>
+    - <https://github.com/gee4vee/circuit-breaker-redis-cache>
 
 
 ## Security
