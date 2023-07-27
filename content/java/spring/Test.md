@@ -65,7 +65,6 @@ grand_parent: Java
 - **@DynamicPropertySource**
   - *Method-level annotation for integration tests that need to add properties with dynamic values* 
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/DynamicPropertySource.html> 
-- **@AutoConfigureMockMvc** (🥾)
 - **@MockBean** (🥾)
   - *Spring Test Framework includes Mockito to create and use mocks. When using @MockBean, we let Mockito create a mock instance and put it into the ApplicationContext*
   - *The consequence is that we cannot share the ApplicationContext with other test classes* (<https://www.baeldung.com/spring-boot-testing-pitfalls#3-pitfall-mocking>)
@@ -101,8 +100,11 @@ grand_parent: Java
   - <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
   - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html> 
 - **@AutoConfigureMockMvc** (🥾)
-  - *enable and configure auto-configuration of `MockMvc`* 
-  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.html> 
+  - *enable and configure auto-configuration of `MockMvc`*
+  - initialisiert Weblayer, stellt MockMvc für Test zur Verfügung
+  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/autoconfigure/web/servlet/AutoConfigureMockMvc.html>
+- **@AutoConfigureWebMvc** (🥾)
+  - initialisiert Weblayer, ohne MockMvc 
 - **TestRestTemplate**
   - *Convenient alternative of `RestTemplate` that is suitable for integration tests. TestRestTemplate is fault-tolerant. This means that 4xx and 5xx do not result in an exception being thrown and can instead be detected through the response entity and its status code.*
   - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/test/web/client/TestRestTemplate.html>
