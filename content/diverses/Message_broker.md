@@ -73,7 +73,10 @@ parent: Diverses
   - <https://www.baeldung.com/nats-java-client>
 - **Postgres**
   - LISTEN/NOTIFY
-  - <https://www.baeldung.com/spring-postgresql-message-broker> 
+  - <https://www.baeldung.com/spring-postgresql-message-broker>
+- **BlazingMQ**
+  - <https://github.com/bloomberg/blazingmq> <img loading="lazy" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=flat-square"/>
+  - <https://bloomberg.github.io/blazingmq/docs/introduction/comparison/> 
 
 
 ## Vergleiche
