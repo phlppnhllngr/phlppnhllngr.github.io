@@ -318,6 +318,55 @@ d('world') {
 }
 ```
 
+### Whitespace
+```groovy
+def str = """
+foo
+ bar
+"""
+println(str)
+//foo
+// bar
+
+def str = """
+	  foo
+	   bar
+	  """
+println(str)
+//                             foo
+//                              bar
+
+def str = """\
+	  foo
+	   bar
+	  """
+println(str)
+//                             foo
+//                              bar
+
+def str = """\
+	  foo
+	   bar
+	  """.stripIndent()
+println(str)
+//foo
+// bar
+
+def str = """\
+	  foo
+	  bar
+	  """.stripIndent().replace('\n', ' ')
+println(str)
+//foo bar
+
+def str = """\
+	  	foo
+	  	bar
+	  """.stripIndent().replace('\n', ' ')
+println(str)
+//foo bar
+```
+
 ## Plugins
 - **docker**
   - <https://docs.cloudbees.com/docs/admin-resources/latest/plugins/docker-workflow>
