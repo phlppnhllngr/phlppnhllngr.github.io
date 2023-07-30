@@ -8,9 +8,12 @@ parent: Java
 - The Java Version Almanac - <https://javaalmanac.io/>
 - <https://endoflife.date/java>
 
+
 ## Distributionen
 - **OpenJDK**
-    - Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle (“Oracle OpenJDK”). Hier gibt es keinen Support und nach 6 Monaten (Release neue Version) keine weiteren Updates, auch nicht für "LTS"-Versionen (hierzu siehe unten).
+    - Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle ("Oracle OpenJDK")
+    - Nach einem Release wird ein Maintenance-Fork ("u"/update-Fork) erstellt. Nach 6 Monaten (Release neue Version) keine weiteren Updates (es sei denn jmd. aus der Community stellt welche bereit), auch nicht für "LTS"-Versionen (hierzu siehe unten).
+    - kein Support
 - **OracleJDK**
     - OpenJDK mit ein paar Erweiterungen. Kostenpflichtig ab Java 12. Längerer Support für LTS-Versionen. Es gibt Lizenzen für Entwickler oder persönlichen Gebrauch, kommerzielle Verwendung ist hier aber ausgeschlossen.
     - LTS
