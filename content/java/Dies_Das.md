@@ -72,7 +72,7 @@ parent: Java
 - **Agents**
   - Static
     - *statically load the agent using `-javaagent` parameter at JVM startup*
-    - need to define `premain` method*
+    - *need to define `premain` method*
   - Dynamic
     - *can be injected [into a running JVM] with HotSpot Attach API. Run the following snippet with $JAVA_HOME/lib/tools.jar on the class path. `VirtualMachine vm = VirtualMachine.attach(PID)` ...*
     - *need to declare an `agentmain(String, Instrumentation)` method which is executed upon attachment within the target VM*
@@ -83,6 +83,7 @@ This attaches the agent contained in my.jar onto the Java process with id my-id.
   - hotpatch-for-apache-log4j2: <https://github.com/corretto/hotpatch-for-apache-log4j2> - *injects a Java agent into a running JVM process (...) will attempt to patch the lookup() method of all loaded org.apache.logging.log4j.core.lookup.JndiLookup instances*
   - <https://ivanyu.me/blog/2017/11/04/java-agents-javassist-and-byte-buddy/>
   - <https://www.baeldung.com/java-instrumentation>
+  - <https://www.youtube.com/watch?v=ZrGOv44iTC8> - *The Java Agent: Modifying Bytecode at Runtime to Protect Against Log4J • Joe Beeton • GOTO 2022*
 - -> Java/Libs/Reflection & Bytecode
 
 
