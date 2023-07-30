@@ -11,6 +11,7 @@ parent: Java
 
 ## Distributionen
 - **OpenJDK**
+    - Open Source Reference Implementation der Java Standard Edition (SE) Spec 
     - Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle ("Oracle OpenJDK")
     - Nach einem Release wird ein Maintenance-Fork ("u"/update-Fork) erstellt. Nach 6 Monaten (Release neue Version) keine weiteren Updates (es sei denn jmd. aus der Community stellt welche bereit), auch nicht für "LTS"-Versionen (hierzu siehe unten).
     - kein Support, keine Builds
@@ -19,7 +20,8 @@ parent: Java
     - LTS
         - *Oracle's stated opinion is that there's nothing special about LTS releases, and they merely correspond to an Oracle support product and should not be significant to anyone who is not a paying customer that buys support from Oracle.*
 - **Andere OpenJDK Distributionen**
-    - mit LTS-Support, zum Teil kostenpflichtig
+    - zum Teil kostenpflichtig
+    - viele Hersteller stimmen darin überein, dass Java 11, 17, ... LTS-Versionen sein sollen
     - Amazon Corretto (kostenlos, Updates für 8 bis 2023, 11 ab April 19 und bis 2024)
     - IBM
     - Red Hat
