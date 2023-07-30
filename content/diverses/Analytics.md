@@ -68,6 +68,9 @@ parent: Diverses
   - <https://github.com/apache/doris> 
 - **counter.dev**
   - <https://github.com/ihucos/counter.dev>
+- **fathom** 💰
+  - *Google Analytics alternative that doesn’t compromise visitor privacy for data. We revolutionized website analytics by making them easy to use and respectful of privacy laws (like GDPR and more).* 
+  - <https://usefathom.com/> 
 
 
 ## A/B Tests
