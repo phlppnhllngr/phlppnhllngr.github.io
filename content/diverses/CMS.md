@@ -7,6 +7,7 @@ parent: Diverses
 - **Wordpress**
   - Docker
     - <https://docs.docker.com/compose/wordpress/>
+  - [Playground](https://developer.wordpress.org/playground/)
   - Plugins
     - woocommerce
       - <https://woocommerce.com/>
