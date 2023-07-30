@@ -171,6 +171,10 @@ parent: Java
   - *Java DSL for easy testing of REST services*
   - <https://github.com/rest-assured/rest-assured>
   - Modul für Spring: <https://github.com/rest-assured/rest-assured/wiki/Usage#spring-support>
+- **swagger-request-validator**
+  - *validating HTTP request/responses against an OpenAPI / Swagger specification*
+  - *Support for Swagger v2 and OpenAPI v3 specifications* 
+  - <https://bitbucket.org/atlassian/swagger-request-validator/> 
 
 
 ## Integration
