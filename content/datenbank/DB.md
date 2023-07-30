@@ -62,6 +62,7 @@ parent: Datenbank
   <br/>
   <https://news.ycombinator.com/item?id=31269515>
 - **flyway**
+  - *Flyway was sold a while ago and moved to an 'open core' business model: There is an open source edition (Apache 2.0) where critical feature (e.g. dry-run, rollback) were deliberately patched out, and a payed version (closed source) that adds those features back in.* 
   - Skripte: Java oder SQL (die Skripte sind abhängig vom DB-Vendor)
   - CLI oder embedded in (Java-)Anwendung  (beim Start der App)
   - *detects required update operations and executes them*
@@ -87,6 +88,8 @@ parent: Datenbank
 - **goose**
   - *Supports SQL migrations and Go functions*
   - <https://github.com/pressly/goose>
+- **Prisma**
+  - <https://www.prisma.io/migrate> 
 
 
 ## Change data capture
