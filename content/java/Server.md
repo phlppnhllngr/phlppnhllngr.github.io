@@ -189,6 +189,14 @@ parent: Java
   - CLI
     - <https://docs.wildfly.org/26/Admin_Guide.html#Command_Line_Interface>
     - <https://docs.wildfly.org/26/Admin_Guide.html#CLI_Recipes>
+    - ```
+      /opt/jboss/wildfly/bin/jboss-cli.sh --connect
+      /subsystem=datasources:read-resource(recursive=true)
+      /subsystem=datasources/data-source=ExampleDS:read-resource-description
+      /subsystem=datasources/data-source=ExampleDS:write-attribute(name=flush-strategy,value=FailingConnectionOnly)
+      /subsystem=datasources/data-source=ExampleDs/statistics=pool:read-resource(include-runtime=true)
+      quit
+      ```
     - embedded server
       - <http://www.mastertheboss.com/soa-cloud/docker/how-to-run-cli-commands-in-wildfly-dockerfile/>
       - <https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/7.0/html/management_cli_guide/running_embedded_server>
@@ -205,7 +213,8 @@ parent: Java
   - alle aktiven auflisten: `/:read-children-names(child-type=subsystem)` (<https://docs.wildfly.org/26/Admin_Guide.html#list-subsystems>)
   - Subsystem deaktivieren: `/subsystem=xxx:remove`
   - DataSource
-    - <https://docs.wildfly.org/26/Admin_Guide.html#DataSource>  
+    - <https://docs.wildfly.org/26/Admin_Guide.html#DataSource>
+    - <https://docs.wildfly.org/26/wildscribe/deployment/subsystem/datasources/data-source/index.html>
   - messaging-activemq
     - <https://docs.wildfly.org/26/Admin_Guide.html#Messaging> 
     - <https://stackoverflow.com/questions/41015817/jboss-admin-console-not-showing-any-messaging-option-under-subsystems>
