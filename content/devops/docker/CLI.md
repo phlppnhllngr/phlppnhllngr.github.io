@@ -18,7 +18,25 @@ grand_parent: DevOps
   - <https://docs.docker.com/compose/reference/>
   - -> Docker/Tools/compose
 - **events**
-  - *get real-time events from the server* 
+  - *get real-time events from the server*
+  - Event Types
+    - Container
+      - destroy
+        - Bsp.: `Event(status=destroy, id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, from=busybox, node=null, type=CONTAINER, action=destroy, actor=EventActor(id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, attributes={image=busybox, name=busybox}), time=1691273991, timeNano=1691273991571197700)` 
+      - die
+        - Ein Container, der von "innen" gestoppt wird, feuert das Event "die"
+        - Bsp.: `Event(status=die, id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, from=busybox, node=null, type=CONTAINER, action=die, actor=EventActor(id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, attributes={execDuration=6, exitCode=137, image=busybox, name=busybox}), time=1691273991, timeNano=1691273991469248300)`
+      - exec_die
+        - Durch Ausführung des Health-Check-Commands wird ein exec_die-Event gefeuert, inkl. Angabe über den Exit-Code 
+      - health_status
+      - kill
+        - Ein Container, der via `docker stop` gestoppt wird, feuert die Events `kill (signal=15)`, `kill (signal=9)`, `stop`, `die (attributes={exitCode=<number>})`
+        - Ein Container, der via `docker kill` gestoppt wird, feuert die Events `kill (signal=9)`, `die`
+        - Bsp.: `Event(status=kill, id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, from=busybox, node=null, type=CONTAINER, action=kill, actor=EventActor(id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, attributes={image=busybox, name=busybox, signal=9}), time=1691273990, timeNano=1691273990522381600)`
+      - oom
+      - pause
+      - stop
+      - ...  
   - <https://docs.docker.com/engine/reference/commandline/events/>
   - <https://dev.to/themreza/monitoring-and-logging-docker-events-59oi>
 - **exec**
