@@ -6,6 +6,13 @@ parent: Diverses
 # Logging
 - → Devops/APM, Tracing
 - <https://www.reddit.com/r/programming/comments/nq7l8v/logging_is_important>
+- [zen and the art of logging](https://www.lelanthran.com/chap10/content.html) - 2023-08-02
+- *One pattern I've used before - in a Java app with an RDBMS, create an error table, and every unexpected Java exception gets logged to that table. Then have a system to match problems in that table to known errors, or flag new ones for analysis.*
+- *Request logging should be done by an application gateway; it will do a more honest job of it. In applications, don't log anything except:*
+  - *application startup and shutdown (at INFO level)*
+  - *occurrences that indicate a bug in the system logging (at ERROR level)*
+  - *occurrences that indicate a bug in another of your systems (at WARN level)*
+- *The answer to "but don't we want to know when..." arguments should always be, "If it's that important, emit it as a metric or store it in an appropriate datastore." Anything logged at WARN or ERROR should be something that can be addressed by fixing code*
 
 ## Structured Logging
 - <https://www.innoq.com/en/blog/structured-logging/>
