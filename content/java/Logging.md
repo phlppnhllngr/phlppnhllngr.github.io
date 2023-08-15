@@ -14,8 +14,16 @@ parent: Java
 - **System.Logger** (JDK 9+)
 - **SLF4J**
   - <https://www.slf4j.org/>
+  - <https://mvnrepository.com/artifact/org.slf4j>
+  - Implementierungen
+    - simple
+      - *outputs all events to System.err. Only messages of level INFO and higher are printed.* 
+      - <https://mvnrepository.com/artifact/org.slf4j/slf4j-simple> 
+    - jul
+      - <https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14> 
+    - ... 
   - bridging
-    - Hat spezielle Erweiterungen (libs; “bridges”), um das Logging von Drittbibliotheken auf den eigenen Logger umzuleiten.
+    - Hat spezielle Erweiterungen (libs; "bridges"), um das Logging von Drittbibliotheken auf den eigenen Logger umzuleiten.
     - bei JUL können zusätzl. Schritte notwendig sein (<https://stackoverflow.com/questions/9117030/jul-to-slf4j-bridge>)
 - **Logback**
   - <https://logback.qos.ch/index.html>
@@ -25,8 +33,13 @@ parent: Java
   - custom appenders
     - <https://www.baeldung.com/custom-logback-appender>
   - async
-    - https://stackoverflow.com/questions/30041842/logback-logging-synchronous-or-asynchronous
+    - <https://stackoverflow.com/questions/30041842/logback-logging-synchronous-or-asynchronous>
     - *you can make any Appender asynchronous much easier (by simply wrapping it in an AsyncAppender) than if all Appender implementations would have to manage the asynchronicity on their own.*
+  - json
+    - logstash-logback-encoder
+      - <https://github.com/logfellow/logstash-logback-encoder>
+      - *Provides logback encoders, layouts, and appenders to log in JSON and other formats supported by Jackson.*
+      - <https://www.innoq.com/en/blog/structured-logging/>
 - **Logbook**
   - <https://github.com/zalando/logbook>
   - *extensible Java library for HTTP request and response logging*
@@ -35,6 +48,9 @@ parent: Java
   - appenders
     - SMTP
       - throttling: <https://github.com/reaktor/log4j-email-throttle>
+- **reload4j**
+  - *fork of Apache log4j version 1.2.17 in order to fix most pressing security issues. It is intended as a drop-in replacement for log4j version 1.2.17*
+  - <https://github.com/qos-ch/reload4j> 
 - **Log4j 2**
 - **Flogger**
   - <https://github.com/google/flogger>
