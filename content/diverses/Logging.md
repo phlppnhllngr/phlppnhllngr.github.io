@@ -7,6 +7,9 @@ parent: Diverses
 - → Devops/APM, Tracing
 - <https://www.reddit.com/r/programming/comments/nq7l8v/logging_is_important>
 
+## Structured Logging
+- <https://www.innoq.com/en/blog/structured-logging/>
+
 ## Log Viewer/Aggregator
 - **LogNavigator**
   - <https://github.com/fbaligand/lognavigator> ⭐15 (21.3.19: letzter Commit vor 2 Jahren)
