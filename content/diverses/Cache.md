@@ -8,7 +8,8 @@ parent: Diverses
   - <https://redis.io/>
   - GUIs
     - RedisInsight
-      - <https://docs.redis.com/latest/ri/>  
+      - <https://docs.redis.com/latest/ri/>
+  - <https://philbooth.me/blog/four-ways-to-shoot-yourself-in-the-foot-with-redis>
 - **memcached**
   - <https://github.com/memcached/memcached>
 - **Hazelcast** 💰
