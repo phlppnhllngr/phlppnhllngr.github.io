@@ -13,7 +13,7 @@ parent: Automatisierung
     - *Use performance metrics in Dashboards, Reports, Points, and Stages to measure the efficiency of your marketing strategy.*
     - *Forms, landing pages*
     - PHP
-    - <https://github.com/mautic/mautic>
+    - <https://github.com/mautic/mautic> <img loading="lazy" src="https://img.shields.io/github/stars/mautic/mautic?style=flat-square"/>
     - <https://docs.mautic.org/en>
     - <https://github.com/mautic/docker-mautic>
 - **Mailtrain**
@@ -22,11 +22,11 @@ parent: Automatisierung
     - *Features: Subscriber lists management, List segmentation, Custom fields, Email templates (including MJML-based templates), Custom reports,
     Automation (triggered and RSS campaigns), Multiple users with granular user permissions and flexible sharing, Hierarchical namespaces for enterprise-level situations, 
     Builtin Zone-MTA (https://github.com/zone-eu/zone-mta) for close-to-zero setup of mail delivery*
-    - <https://github.com/Mailtrain-org/mailtrain>
+    - <https://github.com/Mailtrain-org/mailtrain> <img loading="lazy" src="https://img.shields.io/github/stars/Mailtrain-org/mailtrain?style=flat-square"/>
 - **SendPortal**
     - *Open-source self-hosted email marketing. Manage your own newsletters at a fraction of the cost*
     - *SendPortal integrates with Amazon SES, Postmark, Sendgrid, Mailgun and Mailjet*
-    - <https://github.com/mettle/sendportal> (06/24: letzter Commit 11/21)
+    - <https://github.com/mettle/sendportal> <img loading="lazy" src="https://img.shields.io/github/stars/mettle/sendportal?style=flat-square"/> (06/24: letzter Commit 11/21)
 - **laudspeaker**
     - 17.2.23: Public Alpha
     - *customer journey automation*
@@ -38,7 +38,7 @@ parent: Automatisierung
     - *ingest user data from your databases*
     - *Build and save segments of users*
     - *Trigger journeys from segment/rudderstack/mixpanel events*
-    - <https://github.com/laudspeaker/laudspeaker>
+    - <https://github.com/laudspeaker/laudspeaker> <img loading="lazy" src="https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=flat-square"/>
 - **dittofeed**
     - *customer engagement platform built for devs*
     - Features
@@ -47,13 +47,13 @@ parent: Automatisierung
         - *testing SDK to test your marketing campaigns in CI*
         - *Self-hostable*
         - *Journey monitoring and alerting*
-    - <https://github.com/dittofeed/dittofeed> 
+    - <https://github.com/dittofeed/dittofeed> <img loading="lazy" src="https://img.shields.io/github/stars/dittofeed/dittofeed?style=flat-square"/>
 - **Keila**
     - Newsletter
     - <https://www.keila.io>
 - **listmonk**
     - Newsletter
-    - <https://github.com/knadh/listmonk>
+    - <https://github.com/knadh/listmonk> <img loading="lazy" src="https://img.shields.io/github/stars/knadh/listmonk?style=flat-square"/>
 
 ## Cloud
 - **Braze**
@@ -80,4 +80,6 @@ parent: Automatisierung
 - **Iterable**
     - <https://iterable.com/> 
 - **Intercom**
-    - <https://www.intercom.com/> 
+    - <https://www.intercom.com/>
+- **Appcues**
+- **Pendo** 
