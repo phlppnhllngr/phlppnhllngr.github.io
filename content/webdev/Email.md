@@ -6,12 +6,13 @@ parent: Webdev
 # Email
 - [HN - Tables no longer needed for HTML email, 04/23](https://news.ycombinator.com/item?id=35497799)
   - *The new Outlook switches rendering engines from Microsoft Word to Edge. Support for CSS features in the new Outlook application appears to be identical to that of outlook.com, which is a great leap forward*
-  - *Gmail has a 102KB size-limit for HTML. After that it will truncate the email with the words “[Message clipped]”*
+  - *Gmail has a 102KB size-limit for HTML. After that it will truncate the email with the words "[Message clipped]"*
+  - <https://old.reddit.com/r/webdev/comments/15trnp2/why_does_email_development_have_to_suck/>
 - **emailresourc.es**
   - <https://emailresourc.es/>
 - **mjml**
   - Transpiler für Email-Templates 
-  - <https://github.com/mjmlio/mjml>
+  - <https://github.com/mjmlio/mjml> <img loading="lazy" src="https://img.shields.io/github/stars/mjmlio/mjml?style=flat-square"/>
   - *the only framework that makes responsive-email easy*
   - <https://mjml.io/try-it-live>
   - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
@@ -20,7 +21,7 @@ parent: Webdev
   - *similar to caniuse.com dedicated to support in email clients*
 - **mailwind**
   - *Use Tailwind CSS to design HTML emails.* 
-  - <https://github.com/soheilpro/mailwind> *2k
+  - <https://github.com/soheilpro/mailwind> <img loading="lazy" src="https://img.shields.io/github/stars/soheilpro/mailwind?style=flat-square"/>
 - **Testi@**
   - *Email render testing preview*
   - $$$ (free tier)
@@ -31,7 +32,7 @@ parent: Webdev
   - <https://www.litmus.com/email-testing/>
 - **Cerberus**
   - *A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.*
-  - <https://github.com/TedGoas/Cerberus>
+  - <https://github.com/TedGoas/Cerberus> <img loading="lazy" src="https://img.shields.io/github/stars/TedGoas/Cerberus?style=flat-square"/>
 - **BEE**
   - *Create beautiful emails and landing pages, fast. BEE is the best drag & drop editor for designing mobile responsive emails and landing pages.* 
   - <https://beefree.io/>
@@ -39,13 +40,17 @@ parent: Webdev
   - <https://get.foundation/emails.html>
 - **react-email**
   - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
-  - <https://github.com/zenorocha/react-email>
+  - <https://github.com/zenorocha/react-email> <img loading="lazy" src="https://img.shields.io/github/stars/react-email?style=flat-square"/>
 - **Resend**
   - basiert auf react-email
   - *Build, test, and deliver transactional emails*
   - SaaS, free tier
   - Launch HN: <https://news.ycombinator.com/item?id=36309120>
   - react-email & Resend (07/23): <https://www.youtube.com/watch?v=Xa1WaSPu5K8>
+- **Maizzle**
+  - *framework that helps you quickly build HTML emails with Tailwind CSS and advanced, email-specific post-processing* 
+  - <https://maizzle.com/>
+  - <https://github.com/maizzle/maizzle>
 - **MailDev**
   - *SMTP Server + Web Interface for viewing and testing emails during development*
   - *optionally supports selectively relaying email to an outgoing SMTP server*
