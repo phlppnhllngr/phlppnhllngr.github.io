@@ -59,4 +59,7 @@ title: Zusammenarbeit
 - **Plane**
   - *tool to manage issues, sprints, and product roadmaps*
   - <https://github.com/makeplane/plane>
+- **GitWonk**
+  - *open source GitBook, Confluence, and Archbee alternative* 
+  - <https://github.com/gitwonk/gitwonk> 
 
