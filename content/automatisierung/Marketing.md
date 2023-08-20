@@ -54,6 +54,9 @@ parent: Automatisierung
 - **listmonk**
     - Newsletter
     - <https://github.com/knadh/listmonk> <img loading="lazy" src="https://img.shields.io/github/stars/knadh/listmonk?style=flat-square"/>
+- **erxes**
+    - *open-source Hubspot alternative enables SaaS providers and digital marketing agencies/developers to create unique experiences for their entire business* 
+    - <https://github.com/erxes/erxes> <img loading="lazy" src="https://img.shields.io/github/stars/erxes/erxes?style=flat-square"/>
 
 ## Cloud
 - **Braze**
