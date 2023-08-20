@@ -51,7 +51,7 @@ parent: Security
 - **Authelia**
   - *The Single Sign-On Multi-Factor portal for web apps*
   - *an open-source authentication and authorization server providing 2-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion of reverse proxies like nginx, Traefik or HAProxy to let them know whether queries should pass through. Unauthenticated users are redirected to Authelia Sign-in portal instead.*
-  - <https://github.com/authelia/authelia> *5.7k
+  - <https://github.com/authelia/authelia> <img loading="lazy" src="https://img.shields.io/github/stars/authelia/authelia?style=flat-square"/>
 - **Okta**
   - *authentication and user management*
   - <https://www.okta.com/>
@@ -61,7 +61,7 @@ parent: Security
   - .war-File
   - *built upon: Spring Boot and Spring Cloud*
   - *various protocols (saml, oauth, ...), jwt, ldap, Administrative UIs, ...*
-  - <https://github.com/apereo/cas> *8.9k
+  - <https://github.com/apereo/cas> <img loading="lazy" src="https://img.shields.io/github/stars/apereo/cas?style=flat-square"/> 
 - **kratos**
   - *Next-gen identity server (think Auth0, Okta, Firebase) with Ory-hardened authentication, MFA, FIDO2, profile management, identity schemas, social sign in, registration, account recovery, and IoT auth. Golang, headless, API-only - without templating or theming headaches.*
   - <https://github.com/ory/kratos>
@@ -87,7 +87,7 @@ parent: Security
 - **Hanko**
   - *Authentication and user management for the passkey era*
   - *A passkey is a new way to sign in that works completely without passwords. By using the security capabilities of your devices like Touch ID and Face ID, passkeys are way more secure and easier to use than both passwords and all current 2-factor authentication (2FA) methods.* 
-  - <https://github.com/teamhanko/hanko>   
+  - <https://github.com/teamhanko/hanko> <img loading="lazy" src="https://img.shields.io/github/stars/teamhanko/hanko?style=flat-square"/> 
 
 
 ## LDAP & AD
