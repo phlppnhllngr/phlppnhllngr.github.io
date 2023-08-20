@@ -195,7 +195,10 @@ parent: Diverses
   - <https://github.com/Lissy93/dashy>
 - **DocuSeal**
   - *Open source DocuSign alternative* 
-  - <https://github.com/docusealco/docuseal> 
+  - <https://github.com/docusealco/docuseal>
+- **Documenso**
+  - *Open Source DocuSign Alternative* 
+  - <https://github.com/documenso/documenso> 
 
 
 ## Workflow Scheduler
