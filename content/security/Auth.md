@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Security]
 title: 'Auth'
-created: '2019-02-21T15:15:28.438Z'
-modified: '2021-09-05T12:01:45.300Z'
 parent: Security
 ---
 
@@ -86,7 +83,11 @@ parent: Security
   - <https://github.com/casdoor/casdoor>
 - **Authing**
   - *serves as an identity infrastructure, or Identity As A Service (IDaaS) for cloud computing* 
-  - <https://github.com/Authing/Authing> 
+  - <https://github.com/Authing/Authing>
+- **Hanko**
+  - *Authentication and user management for the passkey era*
+  - *A passkey is a new way to sign in that works completely without passwords. By using the security capabilities of your devices like Touch ID and Face ID, passkeys are way more secure and easier to use than both passwords and all current 2-factor authentication (2FA) methods.* 
+  - <https://github.com/teamhanko/hanko>   
 
 
 ## LDAP & AD
