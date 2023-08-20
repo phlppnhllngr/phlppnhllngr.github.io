@@ -47,6 +47,10 @@ parent: Java
     - <https://www.morling.dev/blog/building-class-data-sharing-archives-with-apache-maven/>
     - <https://github.com/ionutbalosin/faster-jvm-start-up-techniques/blob/main/app-dynamic-cds-hotspot/README.md>
     - <https://github.com/SvenWoltmann/application-cds-demo>
+  - JEPs
+    - JDK 12: Default CDS Archive
+    - JDK 13: Dynamic CDS Archive
+    - JDK 19: Autogenerate CDS Archive (`+XX:AutoCreatedSharedArchive`)
 - **Project Leyden**
   - <https://blogs.oracle.com/javamagazine/post/java-leyden-static-images>
     - *plans to address Java’s slow startup time and slow time to peak performance via static images*
