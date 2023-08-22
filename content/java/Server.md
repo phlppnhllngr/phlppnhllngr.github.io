@@ -195,6 +195,23 @@ parent: Java
       /subsystem=datasources/data-source=ExampleDS:read-resource-description
       /subsystem=datasources/data-source=ExampleDS:write-attribute(name=flush-strategy,value=FailingConnectionOnly)
       /subsystem=datasources/data-source=ExampleDs/statistics=pool:read-resource(include-runtime=true)
+
+      /subsystem=logging:read-resource
+      /subsystem=logging/root-logger=ROOT:remove-handler(name="FILE")
+      /subsystem=logging/root-logger=ROOT:read-resource
+      /subsystem=logging/console-handler=CONSOLE:read-resource
+      /subsystem=logging/pattern-formatter=COLOR-PATTERN:read-resource
+      /subsystem=logging/pattern-formatter=COLOR-PATTERN:write-attribute(name="pattern", value="%s%e%n")
+      /subsystem=logging/periodic-rotating-file-handler=FILE:remove
+      /subsystem=logging/pattern-formatter=COLOR-PATTERN:write-attribute(name="pattern", value="%K{level}%d{HH:mm:ss,SSS} %-5p [%c] (%t) %s%e%n")
+      /subsystem=logging/logger=de.foo.bar:add
+      /subsystem=logging/logger=de.foo.bar:read-resource
+      /subsystem=logging/pattern-formatter=COLOR-PATTERN2:add
+      /subsystem=logging/pattern-formatter=COLOR-PATTERN2:write-attribute(name="pattern", value="%s%e%n")
+      /subsystem=logging/console-handler=CONSOLE2:add
+      /subsystem=logging/console-handler=CONSOLE2:write-attribute(name="formatter", value="COLOR-PATTERN2")
+      /subsystem=logging/logger=de.foo.bar:write-attribute(name="handlers", value=["CONSOLE2"])
+      /subsystem=logging/logger=de.baz.qux:add(handlers=["CONSOLE2"])
       quit
       ```
     - embedded server
