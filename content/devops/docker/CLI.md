@@ -24,7 +24,7 @@ grand_parent: DevOps
       - destroy
         - Bsp.: `Event(status=destroy, id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, from=busybox, node=null, type=CONTAINER, action=destroy, actor=EventActor(id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, attributes={image=busybox, name=busybox}), time=1691273991, timeNano=1691273991571197700)` 
       - die
-        - Ein Container, der von "innen" gestoppt wird, feuert das Event "die"
+        - Ein Container, der von "innen" gestoppt wird (`exit`), feuert das Event "die"
         - Bsp.: `Event(status=die, id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, from=busybox, node=null, type=CONTAINER, action=die, actor=EventActor(id=979b980d62202d9287d7a8479a233d36665fb55da456ac0bb442c03475ca1130, attributes={execDuration=6, exitCode=137, image=busybox, name=busybox}), time=1691273991, timeNano=1691273991469248300)`
       - exec_die
         - Durch Ausführung des Health-Check-Commands wird ein exec_die-Event gefeuert, inkl. Angabe über den Exit-Code 
