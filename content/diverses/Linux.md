@@ -194,7 +194,7 @@ parent: Diverses
   - use cases
     - *quickly find out which files are touched / installed by apt installing a certain package*
     - *find out which log file, if any, a program writes to*
-    - *run one of those curl | bash installation commands and inspect exactly what it'll do without reading through a huge script*
+    - *run one of those curl / bash installation commands and inspect exactly what it'll do without reading through a huge script*
   - <https://github.com/binpash/try> 
 
 ### FTP
