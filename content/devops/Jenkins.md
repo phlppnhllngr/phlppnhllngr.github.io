@@ -19,6 +19,15 @@ parent: DevOps
 
 ##### Steps
 - <https://www.jenkins.io/doc/pipeline/steps/workflow-basic-steps/>
+- **checkout**
+```groovy
+checkout([
+	$class: 'GitSCM',
+	branches: [[name: '*/master']],
+	extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'somedir']],
+	userRemoteConfigs: [[credentialsId: 'cred-id', url: 'https://some.repo.git']]
+])
+```
 - **echo**
 	- `echo "message"`
 - **sh**
