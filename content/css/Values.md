@@ -60,9 +60,8 @@ parent: CSS
       1) take max of 'auto' (max available width) and arg
       2) take min of max-content and result from (1)
 - **minmax(min, max)**
-  - use with grid
-  - max is ignored if < min
-  - `grid-template-columns: repeat(2, minmax(1fr, 50%))` is an invalid rule (completely ignored)
+  - Verwendung mit Grid
+  - ungültige Werte werden ignoriert (z. B. max < min)
   - values
     - absolute length, %, min-/max-content, fr
   - <https://developer.mozilla.org/en-US/docs/Web/CSS/minmax>
