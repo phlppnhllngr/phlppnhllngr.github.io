@@ -23,7 +23,7 @@ parent: CSS
       - <https://css-tricks.com/introduction-fr-css-unit/>
     - `auto`
       - nimmt den nach Abzug der fixen Columns übrigen Platz ein
-    - repeat(n, x) &rightarrow; css/funktionen
+    - repeat(n, x) --> CSS/Values/Funktionen
     - subgrid
   - den entstehenden Grid-Lines kann man beliebige Namen geben
     - z.B. `grid-template-columns: [first-line] 1fr [line-2] 5fr [line-3 last-line]`
@@ -163,7 +163,7 @@ parent: CSS
   - <https://developer.mozilla.org/en-US/docs/Web/CSS/place-self>
 
 
-## subgrid
+## Subgrid
 - Stand 09/20 nur Firefox
 - <https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid>
 - <https://caniuse.com/#feat=css-subgrid>
