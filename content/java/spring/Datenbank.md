@@ -12,6 +12,7 @@ grand_parent: Java
 - Spring Boot Starter: `spring-boot-starter-jdbc`
 - Klassen
   - JdbcTemplate
+  - JdbcClient (Spring 6.1+, Boot 3.2+)
 - JDBC & DATA-JDBC: <https://4comprehension.com/lightweight-jpa-hibernate-alternatives>
 
 
