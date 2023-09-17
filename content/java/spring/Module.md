@@ -132,6 +132,7 @@ grand_parent: Java
 - <https://spring.io/projects/spring-modulith>
 - <https://spring.io/blog/2022/10/21/introducing-spring-modulith>
 - <https://www.baeldung.com/spring-modulith>
+- [YT - Spring Modulith – A Deep Dive (Workshop) - 3h - 09/2023](https://www.youtube.com/watch?v=430YOyMNjhs)
 
 
 ## Actuator
