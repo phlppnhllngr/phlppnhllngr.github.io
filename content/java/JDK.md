@@ -24,6 +24,13 @@ parent: Java
 - Sequenced collections (21)
 
 
+## Upgrade
+- <https://learn.microsoft.com/de-de/java/openjdk/transition-from-java-8-to-java-11>
+    - jdeprscan
+    - jdeps
+- <https://docs.oracle.com/en/java/javase/17/migrate/> 
+
+
 ## Distributionen
 - **OpenJDK**
     - Open Source Reference Implementation der Java Standard Edition (SE) Spec 
