@@ -135,6 +135,16 @@ parent: Diverses
 - **PDFMonkey** 💰🌥
   - <https://www.pdfmonkey.io/>
   - PDFs generieren anhand von Html-/Css-Templates + JSON-API
+ 
+#### Vergleich
+- <https://github.com/red6/pdfcompare>
+- <https://github.com/vinsguru/pdf-util>
+  - extractImages
+  - compare
+  - savePdfAsImage
+  - getText
+  - getPageCount
+- <https://www.npmjs.com/package/compare-pdf> 
 
 
 ## ECM
