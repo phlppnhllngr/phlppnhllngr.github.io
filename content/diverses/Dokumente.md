@@ -137,8 +137,8 @@ parent: Diverses
   - PDFs generieren anhand von Html-/Css-Templates + JSON-API
  
 #### Vergleich
-- <https://github.com/red6/pdfcompare>
-- <https://github.com/vinsguru/pdf-util>
+- <https://github.com/red6/pdfcompare> (Java)
+- <https://github.com/vinsguru/pdf-util> (Java)
   - extractImages
   - compare
   - savePdfAsImage
