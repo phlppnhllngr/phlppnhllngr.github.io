@@ -220,18 +220,20 @@ node {
 	  	}
 
 		def cause = currentBuild.getBuildCauses('jenkins.branch.BranchIndexingCause')
-		if (cause) {
-			print(cause.getClass()) // class net.sf.json.JSONArray
-			print("${cause[0].userId") // fbar
-			print("${cause[0].userName") // Foo Bar
-			print("${cause[0].shortDescription") // Started by user Foo Bar
-		}
 
 		boolean buildCausedByBranchIndexing = !new java.util.ArrayList<Object>(cause).isEmpty()
 		if (buildCausedByBranchIndexing) {
 			echo "Build durch Branch-Indexing ausgelöst => abbrechen"
 			currentBuild.result = 'ABORTED'
 			return
+		}
+
+		cause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+		if (cause) {
+			print(cause.getClass()) // class net.sf.json.JSONArray
+			print("${cause[0].userId") // fbar
+			print("${cause[0].userName") // Foo Bar
+			print("${cause[0].shortDescription") // Started by user Foo Bar
 		}
 
 		def javaHome = tool name: 'openjdk-8'
