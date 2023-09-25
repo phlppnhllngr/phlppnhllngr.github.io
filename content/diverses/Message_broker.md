@@ -75,6 +75,7 @@ parent: Diverses
 - **Postgres**
   - LISTEN/NOTIFY
   - <https://www.baeldung.com/spring-postgresql-message-broker>
+  - [HN - Choose Postgres queue technology](https://news.ycombinator.com/item?id=37636841)
 - **BlazingMQ**
   - <https://github.com/bloomberg/blazingmq> <img loading="lazy" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=flat-square"/>
   - <https://bloomberg.github.io/blazingmq/docs/introduction/comparison/> 
