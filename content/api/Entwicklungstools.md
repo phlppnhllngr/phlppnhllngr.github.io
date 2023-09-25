@@ -100,6 +100,8 @@ parent: API
   - *can chain requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for fetching data, testing HTTP sessions and testing XML / JSON APIs.* 
   - <https://hurl.dev/>
   - <https://gitlab.com/everyonecancontribute/dev/hurl-playground>
+- **RecipeUI**
+  - <https://github.com/RecipeUI/RecipeUI> 
 
 ## Generatoren
 - **quicktype**
