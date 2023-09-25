@@ -14,6 +14,7 @@ grand_parent: Java
   - RequestBodyAdvice
 - **Events**
   - <https://www.baeldung.com/spring-events>
+  - <https://reflectoring.io/spring-boot-application-events-explained/>
   - zu beachten wenn `@EventListener` `@Async` ist: *event dispatcher does not know anything about the @Async annotation. So the dispatcher calls the [EventListener] methods synchronously. Only then, upon calling the proxied async method, the async proxy starts the original method in another thread.*
 - **Caching (client side)**
   - <https://www.baeldung.com/spring-mvc-cache-headers>
