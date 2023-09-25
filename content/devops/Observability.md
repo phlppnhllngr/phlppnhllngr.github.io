@@ -49,7 +49,7 @@ parent: DevOps
   - <mark>self-hosted</mark> (https://docs.sentry.io/server/) oder Cloud
 - **prometheus**
   - <https://prometheus.io/>
-  - <https://github.com/prometheus/prometheus>
+  - <https://github.com/prometheus/prometheus> <img loading="lazy" src="https://img.shields.io/github/stars/prometheus/prometheus?style=flat-square"/>
   - metrics
   - *<mark>open-source</mark> systems monitoring and alerting toolkit*
   - docker-compose:
@@ -98,13 +98,13 @@ parent: DevOps
 
 - **grafana**
   - <https://grafana.com/>
-  - <https://github.com/grafana/grafana> ⭐31k
+  - <https://github.com/grafana/grafana> <img loading="lazy" src="https://img.shields.io/github/stars/grafana/grafana?style=flat-square"/>
   - *allows you to query, visualize, alert on and understand your metrics no matter where they are stored*
   - *supports over 30 open source and commercial data sources.*
 - **splunk** 💰
   - <https://www.splunk.com/>
 - **Apache Skywalking**
-  - <https://github.com/apache/skywalking>
+  - <https://github.com/apache/skywalking> <img loading="lazy" src="https://img.shields.io/github/stars/apache/skywalking?style=flat-square"/>
   - *designed for microservices, cloud native and container-based architectures / monitoring, tracing, diagnosing capabilities for distributed system in Cloud Native architecture*
 - **bugsnag** 💰
   - <https://www.bugsnag.com/>
@@ -117,19 +117,23 @@ parent: DevOps
   - <https://airbrake.io/>
 - **errbit**
   - *open source error catcher that's Airbrake API compliant*
-  - <https://github.com/errbit/errbit> *4.2k
+  - <https://github.com/errbit/errbit> <img loading="lazy" src="https://img.shields.io/github/stars/errbit/errbit?style=flat-square"/>
 - **honeycomb** 💰
   - <https://www.honeycomb.io/>
 - **datadog**
   - <https://www.datadoghq.com/>
+- **HyperDX**
+  - *observability platform unifying session replays, logs, metrics, traces and errors*
+  - *open source and developer-friendly alternative to Datadog and New Relic*
+  - <https://github.com/hyperdxio/hyperdx> <img loading="lazy" src="https://img.shields.io/github/stars/hyperdxio/hyperdx?style=flat-square"/>
 - **Elastic APM**
   - <https://www.elastic.co/apm>
 - **jaeger**
   - tracing
-  - <https://github.com/jaegertracing/jaeger> *13.2k
+  - <https://github.com/jaegertracing/jaeger> <img loading="lazy" src="https://img.shields.io/github/stars/jaegertracing/jaeger?style=flat-square"/>
 - **zipkin**
   - tracing
-  - <https://github.com/openzipkin/zipkin> *14.2k
+  - <https://github.com/openzipkin/zipkin> <img loading="lazy" src="https://img.shields.io/github/stars/openzipkin/zipkin?style=flat-square"/>
 - **lightstep** 💰
   - <https://lightstep.com/>
 - **opentelemetry**
@@ -143,7 +147,7 @@ parent: DevOps
 - **signoz**
   - *helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.*
   - *We support OpenTelemetry as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz.*
-  - <https://github.com/SigNoz/signoz> *4.4k
+  - <https://github.com/SigNoz/signoz> <img loading="lazy" src="https://img.shields.io/github/stars/SigNoz/signoz?style=flat-square"/>
 - **statsd**
   - *Daemon for easy but powerful stats aggregation*
   - *A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services (e.g., Graphite).* 
