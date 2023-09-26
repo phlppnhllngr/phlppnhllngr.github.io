@@ -67,7 +67,7 @@ parent: Java
 - **user.country**
 - **java.endorsed.dirs**
   - *From time to time it is necessary to update the Java platform in order to incorporate newer versions of standards that are created outside of the Java Community Process (Endorsed Standards), or in order to update the version of a technology included in the platform to correspond to a later standalone version of that technology (Standalone Technologies). The Endorsed Standards Override Mechanism provides a means whereby later versions of classes and interfaces that implement Endorsed Standards or Standalone Technologies may be incorporated into the Java Platform.*
-  - *If no value is set for java.endorsed.dirs, then Oracle's implementation of the Java platform looks for JAR files in a default standard location: Microsoft Windows: <java-home>\lib\endorsed / Solaris or Linux: <java-home>/lib/endorsed* 
+  - *If no value is set for java.endorsed.dirs, then Oracle's implementation of the Java platform looks for JAR files in a default standard location: Microsoft Windows: `<java-home>\lib\endorsed` / Solaris or Linux: `<java-home>/lib/endorsed`* 
   - *With the exception of packages listed here and the technologies listed in the Standalone Technologies section below, no other packages from the Java SE platform API specification may be overridden (...) javax.rmi.CORBA, org.w3c.dom, org.xml.sax, org.omg.CosNaming, (...)*
   - <https://docs.oracle.com/javase/8/docs/technotes/guides/standards/>
 - **java.ext.dirs** -> Extension Mechanism
@@ -118,7 +118,7 @@ parent: Java
   - `-Xmx64M`
 - **ms**
   - `-Xms64M`
-- *ss**
+- **ss**
   - *set thread stack size*
   - *The stack is used to hold return addresses, function/method call arguments, etc.*
   - `-Xss256k`
