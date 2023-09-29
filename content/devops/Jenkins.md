@@ -83,6 +83,19 @@ pipeline {
 	         checkout scm
 	     }
 	 }
+	 stage('library') {
+	 	steps {
+	                library identifier: 'my-lib@<git-tag>', retriever: modernSCM([
+	                    $class: 'GitSCMSource',
+	                    remote: 'https://my.git/shared-library.git',
+	                    credentialsId: '<credentials-id>'
+	                ])
+	                script {
+	                    String resource = libraryResource 'foo/bar/example.txt' // resources/foo/bar/example.txt
+	                    writeFile file: 'foo.txt', text: resource
+	                }
+		}
+	 }
          stage('1') {
 	     steps {
 	         sayHello('world')
