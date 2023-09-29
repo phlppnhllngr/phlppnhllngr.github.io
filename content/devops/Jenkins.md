@@ -333,6 +333,11 @@ def call(String name, Closure c) {
 d('world') {
   println('foo')
 }
+
+// left shift mutiert Map
+def map = [foo: 'foo', bar: 'bar']
+map << [foo: null, baz: 'baz']
+println(map) // { foo: null, bar: 'bar', baz: 'baz' }
 ```
 
 ### Whitespace
