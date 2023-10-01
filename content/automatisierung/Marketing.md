@@ -84,5 +84,6 @@ parent: Automatisierung
     - <https://iterable.com/> 
 - **Intercom**
     - <https://www.intercom.com/>
-- **Appcues**
-- **Pendo** 
+- **Inxmail**
+    - Customer Journies, Emailmarketing 
+    - <https://www.inxmail.de/> 
