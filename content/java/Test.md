@@ -102,6 +102,8 @@ parent: Java
       - <https://testcontainers.com/modules/wiremock/>
       - <https://github.com/testcontainers/tc-guide-testing-rest-api-integrations-using-wiremock> 
   - **pact**
+    - contract testing
+    - <https://docs.pact.io/> 
     - mit Junit-Rule
 - <u>Datum & Zeit</u>
   - <http://blog.tremblay.pro/2021/01/mocking-clock.html>
