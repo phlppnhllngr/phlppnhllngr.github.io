@@ -92,8 +92,15 @@ parent: Java
     - <https://commons.apache.org/proper/commons-vfs/index.html> 
 - <u>HTTP/API</u>
   - **wiremock**
-    - mit Junit4-Rule
+    - mit JUnit4-Rule & JUnit5-Extension
     - <http://wiremock.org/docs/getting-started>
+    - Wiremock Spring Boot
+      - <https://wiremock.org/docs/solutions/spring-boot/> 
+      - <https://github.com/maciejwalkowiak/wiremock-spring-boot>
+      - basiert Stand 6.10.23 auf Wiremock 2
+    - Testcontainers
+      - <https://testcontainers.com/modules/wiremock/>
+      - <https://github.com/testcontainers/tc-guide-testing-rest-api-integrations-using-wiremock> 
   - **pact**
     - mit Junit-Rule
 - <u>Datum & Zeit</u>
