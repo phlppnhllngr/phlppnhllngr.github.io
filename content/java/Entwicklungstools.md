@@ -8,7 +8,7 @@ parent: Java
 ## Linter, statische Codeanalyse
 - **SpotBugs**
   - <https://spotbugs.github.io/>
-  - <https://github.com/spotbugs/spotbugs> ⭐1500
+  - <https://github.com/spotbugs/spotbugs> <img loading="lazy" src="https://img.shields.io/github/stars/spotbugs/spotbugs?style=flat-square">
   - Integration mit Eclipse und Maven
   - Extensions
     - <https://spotbugs.github.io/#extensions>
@@ -24,7 +24,7 @@ parent: Java
   - <https://github.com/mc1arke/sonarqube-community-branch-plugin>
 - **Checkstyle**
   - <https://checkstyle.org>
-  - <https://github.com/checkstyle/checkstyle> ⭐4900
+  - <https://github.com/checkstyle/checkstyle> <img loading="lazy" src="https://img.shields.io/github/stars/checkstyle/checkstyle?style=flat-square">
   - konfigurierbare Linter-Regeln
   - Übersicht Regeln: <https://checkstyle.org/checks.html>
   - Tooling
@@ -36,10 +36,10 @@ parent: Java
 - **PMD**
   - *source code analyzer. It finds common programming flaws like unused variables, empty catch blocks, unnecessary object creation, and so forth. It supports many languages. It can be extended with custom rules* 
   - <https://pmd.github.io>
-  - <https://github.com/pmd/pmd> ⭐2500
+  - <https://github.com/pmd/pmd> <img loading="lazy" src="https://img.shields.io/github/stars/pmd/pmd?style=flat-square">
   - Eclipse-Plugin
 - **ErrorProne**
-  - <https://github.com/google/error-prone> ⭐4800
+  - <https://github.com/google/error-prone> <img loading="lazy" src="https://img.shields.io/github/stars/google/error-prone?style=flat-square">
   - <https://errorprone.info/index>
   - Integration mit Bazel, Maven, Gradle
   - gut konfigurierbar (eigene Regeln mit Java-Code definierbar)
@@ -63,11 +63,16 @@ parent: Java
   - *unified command-line interface for linting and fixing all your code, regardless of the programming languages*
   - *Python, C/C++, Java, JavaScript, CSS, and several others out of the box*
   - inaktiv seit 2021
-  - <https://github.com/coala/coala/> ⭐3.2k
+  - <https://github.com/coala/coala/> <img loading="lazy" src="https://img.shields.io/github/stars/coala/coala?style=flat-square">
 - **infer**
   - *static analysis tool - if you give Infer some Java or C/C++/Objective-C code it produces a list of potential bugs*
   - *can run Infer with a variety of build systems (...) Gradle, Maven, Other build systems*
-  - <https://fbinfer.com/docs/hello-world> 
+  - <https://fbinfer.com/docs/hello-world>
+- **Digma**
+  - *continually analyzing observability sources and providing feedback during development* 
+  - Stand 10/23 nur als Intellij-Plugin verfügbar 
+  - <https://github.com/digma-ai/digma> <img loading="lazy" src="https://img.shields.io/github/stars/digma-ai/digma?style=flat-square">
+  - [YT - Continuous Code Feedback with OpenTelemetry and Digma By Roni Dover - 10/2023](https://www.youtube.com/watch?v=Tyv79hhaL6c) 
 
 
 ## Visualisierung von Projektabhängigkeiten etc.
@@ -93,7 +98,7 @@ parent: Java
   - *an API analysis and change tracking tool*
   - analysiert java, json, yaml, ...
   - *as a sneak peak consider the following detected changes: checked exception added/removed to/from method signature / formal type parameter added to class / non-final method replaced by a final method in superclass*
-  - <https://github.com/revapi/revapi> ⭐126
+  - <https://github.com/revapi/revapi> <img loading="lazy" src="https://img.shields.io/github/stars/revapi/revapi?style=flat-square">
 - **sourcegraph**
   - *Search all of your repositories across all branches and all code hosts. Navigate code, find references, see code owners, trace history, and more. Roll out large-scale changes to many repositories at once and track big migrations.*
   - <https://about.sourcegraph.com/>
