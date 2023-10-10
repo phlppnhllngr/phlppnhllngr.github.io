@@ -15,11 +15,17 @@ parent: DevOps
 - → Diverses/Logging
 - <https://opentracing.io/docs/overview/what-is-tracing/>
 - **Trace**
+  - *represents requests and consists of multiple spans* 
   - *A trace ID helps to connect log events in one service and log events in another service*
   - *Service 1 is called and generates the trace ID “1234”. It then calls Services 2 and 3, propagating the same trace ID to them, so that they can add the same trace ID to their log events, making it possible to connect log events across all services by searching for a specific trace ID*
   - <https://reflectoring.io/structured-logging/>
 - **Span**
+  - *represents single operation in a request*
+  - *contains name, time, log message, metadata* 
   - *For each outgoing request, Service 1 also creates a unique “span ID”. While a trace spans the whole request/response cycle of Service 1, a span only spans the request/response cycle between one service and another.*
+- **Context**
+  - *immutable object contained in the span data*
+  - *identifies the request uniquely*
 
 
 ## Tools
