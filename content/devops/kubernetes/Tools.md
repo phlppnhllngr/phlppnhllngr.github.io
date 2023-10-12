@@ -118,7 +118,7 @@ grand_parent: DevOps
   - *Client-Only Developer Tool for Cloud-Native Development with Kubernetes*
   - *Build, test and debug applications directly inside Kubernetes. Develop with hot reloading: updates your running containers without rebuilding images or restarting containers.* 
   - <https://github.com/loft-sh/devspace> <img loading="lazy" src="https://img.shields.io/github/stars/loft-sh/devspace?style=flat-square">
-  - [YT - Devspace vs Skaffold: Simplify Java Development in the Kubernetes World By Ana Maria Mihalceanu - 10/2023(https://www.youtube.com/watch?v=Q-jilSBje2A)
+  - [YT - Devspace vs Skaffold: Simplify Java Development in the Kubernetes World By Ana Maria Mihalceanu - 10/2023](https://www.youtube.com/watch?v=Q-jilSBje2A)
 - **Skaffold**
   - *command line tool that facilitates continuous development for Kubernetes applications. You can iterate on your application source code locally then deploy to local or remote Kubernetes clusters. Skaffold handles the workflow for building, pushing and deploying your application. It also provides building blocks and describe customizations for a CI/CD pipeline.* 
   - <https://github.com/GoogleContainerTools/skaffold> <img loading="lazy" src="https://img.shields.io/github/stars/GoogleContainerTools/skaffold?style=flat-square">
