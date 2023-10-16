@@ -116,3 +116,7 @@ grand_parent: DevOps
   - <https://github.com/canonical/microk8s> <img loading="lazy" src="https://img.shields.io/github/stars/canonical/microk8s?style=flat-square">
 - <https://yankee.dev/6-tools-to-run-kubernetes-locally>
 - <https://www.jambit.com/aktuelles/toilet-papers/minikube-vs-kind-vs-k3s-welches-lokale-kubernetes-cluster-eignet-sich-am-besten/>
+- **k0s**
+  - *Different installation methods: single-node, multi-node, airgap and Docker*
+  - *Modest system requirements (1 vCPU, 1 GB RAM)* 
+  - <https://github.com/k0sproject/k0s> <img loading="lazy" src="https://img.shields.io/github/stars/k0sproject/k0s?style=flat-square">
