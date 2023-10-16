@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/API]
 title: Entwicklungstools
-created: '2019-02-14T20:17:47.102Z'
-modified: '2021-06-10T08:28:17.816Z'
 parent: API
 ---
 
@@ -101,7 +98,18 @@ parent: API
   - <https://hurl.dev/>
   - <https://gitlab.com/everyonecancontribute/dev/hurl-playground>
 - **RecipeUI**
-  - <https://github.com/RecipeUI/RecipeUI> 
+  - <https://github.com/RecipeUI/RecipeUI>
+- **bruno**
+  - <https://www.usebruno.com/>
+  - <https://github.com/usebruno/bruno>
+- **Insomnium**
+  - *fork of Kong/insomnia* 
+  - <https://github.com/ArchGPT/insomnium>
+- **Restfox**
+  - <https://restfox.dev/>
+- **Kreya**
+  - <https://kreya.app/>  
+
 
 ## Generatoren
 - **quicktype**
