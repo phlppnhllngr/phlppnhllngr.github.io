@@ -108,15 +108,10 @@ parent: Automatisierung
 - **Rowy**
   - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.* 
   - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
-- **standard library**
-  - <https://stdlib.com/>
-  - *allows you to effortlessly create automated workflows with a simple, intuitive UI*
-  - *connects to Standard Library APIs and automatically generates high-quality code, completely customizable. Built for both developers and non-coders alike*
-  - *Build and manage both Workflow and Connector APIs. Think Zapier, but with complete control over workflow code (no black boxes) and the ability to build your own custom connectors in minutes*
-  - free & 💰
-- **titanoboa**
-  - <https://github.com/mikub/titanoboa> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
-  - *highly scalable and fault tolerant workflow orchestration platform for JVM*
+- **Autocode**
+  - ehemals "Standard Library"
+  - *easy way to build web services and APIs that respond to external SaaS events*
+  - <https://autocode.com/>
 - **pipedream**
   - *Serverless integration and compute platform*
   - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
@@ -129,19 +124,6 @@ parent: Automatisierung
   - *Easy to extend*
   - *Make sure you have already installed: Docker, Docker Compose*
   - <https://github.com/kestra-io/kestra> <img loading="lazy" src="https://img.shields.io/github/stars/kestra-io/kestra?style=flat-square"/>
-- **wexflow**
-  - <https://github.com/aelassas/Wexflow> <img loading="lazy" src="https://img.shields.io/github/stars/aelassas/Wexflow?style=flat-square"/>
-  - *A high-performance, extensible, modular and cross-platform workflow engine. Built for automation.*
-  - <mark>free & open source</mark>
-  - C# & XML
-- **n8n**
-  - <https://n8n.io/>
-  - *<mark>Free & Open Source</mark> Alternative for Zapier/tray.io*
-  - *Easily extendable: Create own nodes to integrate third-party services or in-house tools*
-  - *React to events: Execute a task every time something happens.*
-  - CLI (npm module) & Docker
-  - <https://github.com/n8n-io/n8n> <img loading="lazy" src="https://img.shields.io/github/stars/n8n-io/n8n?style=flat-square"/>
-  - JS
 - **Huginn**
   - *Create agents that monitor and act on your behalf*
   - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
@@ -167,10 +149,6 @@ experience.*
 - **connex digital** 💰
 - **refinery** 💰
   - <https://www.refinery.io/>
-- **zapier**
-  - <https://zapier.com/>
-  - Workflow-Automatisierung für diverse Apps (1500+)
-  - 💰, Cloud
 - **IFTTTT**
   - 💰, Cloud
   - <https://ifttt.com/> 
@@ -188,6 +166,31 @@ experience.*
   - *currently support Node/Express, rolling out Python SDKs for Flask & Django
   - Self-Hosting geplant
   - <https://joinonu.com/>
+
+
+### Workflow
+- **zapier**
+  - <https://zapier.com/>
+  - Workflow-Automatisierung für diverse Apps (1500+)
+  - 💰, Cloud
+- **n8n**
+  - <https://n8n.io/>
+  - *<mark>Free & Open Source</mark> Alternative for Zapier/tray.io*
+  - *Easily extendable: Create own nodes to integrate third-party services or in-house tools*
+  - *React to events: Execute a task every time something happens.*
+  - CLI (npm module) & Docker
+  - <https://github.com/n8n-io/n8n> <img loading="lazy" src="https://img.shields.io/github/stars/n8n-io/n8n?style=flat-square"/>
+  - JS
+- **wexflow**
+  - <https://github.com/aelassas/Wexflow> <img loading="lazy" src="https://img.shields.io/github/stars/aelassas/Wexflow?style=flat-square"/>
+  - *A high-performance, extensible, modular and cross-platform workflow engine. Built for automation.*
+  - <mark>free & open source</mark>
+  - C# & XML
+- **titanoboa**
+  - <https://github.com/mikub/titanoboa> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
+  - *highly scalable and fault tolerant workflow orchestration platform for JVM*
+- **Inngest**
+  - <https://github.com/inngest/inngest> 
 
 
 ### Spreadsheet/DB
@@ -256,6 +259,8 @@ experience.*
 - **Stackbit**
   - *Jamstack Site Builder for Developers*
   - <https://www.stackbit.com/>
+- **Webstudio**
+  - <https://github.com/webstudio-is/webstudio> 
 
 ##### React
 - <https://compositor.io/iso/>
