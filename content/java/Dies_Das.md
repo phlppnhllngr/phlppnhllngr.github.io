@@ -7,6 +7,12 @@ parent: Java
 - <https://github.com/akullpp/awesome-java>
 - <https://blog.frankel.ch/hacking-third-party-api-jvm/>
   - Beispiele für Classpath Shadowing, Reflection, Agent, AOP, Javassist
+- <https://blog.frankel.ch/monkeypatching-java/>
+  - java.lang.reflect.Proxy
+  - Agents
+  - AOP (AspectJ)
+  - Java Compiler Plugins
+  - <https://old.reddit.com/r/java/comments/16l57gg/monkeypatching_in_java/>
 - **JNI**
   - Java Native Interface
   - *bridge between the bytecode running in our JVM and the native code*
