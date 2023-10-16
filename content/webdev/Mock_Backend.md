@@ -23,14 +23,14 @@ parent: Webdev
   - <http://httpbin.org/>
   - verschiedene Content-Types (xml, json, gzip, ...), http & https
 - **mocky**
-  - <https://github.com/julien-lafont/Mocky> *1.7k
+  - <https://github.com/julien-lafont/Mocky> <img loading="lazy" src="https://img.shields.io/github/stars/julien-lafont/Mocky?style=flat-square">
   - <https://www.mocky.io/>
 - **jsonstub**
   - <http://jsonstub.com/>
 - **mockoon**
   - <https://mockoon.com/>
   - Desktop-App
-  - <https://github.com/mockoon/mockoon> *1100
+  - <https://github.com/mockoon/mockoon> <img loading="lazy" src="https://img.shields.io/github/stars/mockoon/mockoon?style=flat-square">
 - **postman**
   - <https://www.codingular.com/2019/04/mocking-api-using-postman/>
   - privater Mock-Server nur mit Api-Key
@@ -50,7 +50,7 @@ parent: Webdev
 - **easy-mock**
   - *Support RESTful*
   - *Support Swagger / OpenAPI Specification*
-  - <https://github.com/easy-mock/easy-mock> *8.6k
+  - <https://github.com/easy-mock/easy-mock> <img loading="lazy" src="https://img.shields.io/github/stars/easy-mock/easy-mock?style=flat-square">
 - **mockit**
   - <https://mockit.netlify.com/>
   - <https://github.com/boyney123/mockit>
@@ -60,7 +60,7 @@ parent: Webdev
   - *RESTful APIs and SOAP web services.*
   - *can create mocked services based on WSDL, WADL, Swagger and RAML definition files*
   - Installation: .war oder Docker-Image
-  - <https://github.com/castlemock/castlemock> *176
+  - <https://github.com/castlemock/castlemock> <img loading="lazy" src="https://img.shields.io/github/stars/castlemock/castlemock?style=flat-square">
 - **echoserver**
   - *Generate the URL and receive the response you want.* 
   - <https://echoserver.dev/> 
@@ -70,16 +70,16 @@ parent: Webdev
 
 ### js
 - **json-server**
-  - <https://github.com/typicode/json-server> *44.000
+  - <https://github.com/typicode/json-server> <img loading="lazy" src="https://img.shields.io/github/stars/typicode/json-server?style=flat-square">
   - gut konfigurierbar, Middlewares
   - gePOSTete daten können gespeichert werden
   - kann nur json (?)
 - **dyson**
-  - <https://github.com/webpro/dyson> *800
+  - <https://github.com/webpro/dyson> <img loading="lazy" src="https://img.shields.io/github/stars/webpro/dyson?style=flat-square">
   - sehr konfigurierbar, middlewares
   - delay, fake data, dynamic http status, cors, ...
 - **stubborn**
-  - <https://github.com/ybonnefond/stubborn> *5
+  - <https://github.com/ybonnefond/stubborn> <img loading="lazy" src="https://img.shields.io/github/stars/ybonnefond/stubborn?style=flat-square">
   - *It is basically nock meets Dyson*
 - **miragejs**
   - <https://miragejs.com/docs/main-concepts/route-handlers/>
@@ -98,11 +98,12 @@ parent: Webdev
 ### Java
 - **WireMock**
   - <http://wiremock.org/>
-  - <https://github.com/tomakehurst/wiremock> *3600
+  - <https://github.com/tomakehurst/wiremock> <img loading="lazy" src="https://img.shields.io/github/stars/tomakehurst/wiremock?style=flat-square">
   - gut konfigurierbar (java oder json)
   - randomizable delays, faulty reponses
+  - Library für viele gängige Schnittstellen (Github, eBay, ...): <https://library.wiremock.org/>
 - **hoverfly**
-  - <https://github.com/SpectoLabs/hoverfly-java> *100
+  - <https://github.com/SpectoLabs/hoverfly-java> <img loading="lazy" src="https://img.shields.io/github/stars/SpectoLabs/hoverfly-java?style=flat-square">
 
 ### Andere Sprachen
 - **mockserver**
@@ -116,5 +117,5 @@ parent: Webdev
   - *Turn any OpenAPI file into an API server with mocking, transformations, validations, and more.*
   - <https://stoplight.io/open-source/prism/>
 - **mocking hans**
-  - <https://github.com/loremipsum/mocking-hans> *20
+  - <https://github.com/loremipsum/mocking-hans> <img loading="lazy" src="https://img.shields.io/github/stars/loremipsum/mocking-hans?style=flat-square">
   - TS
