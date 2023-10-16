@@ -34,6 +34,7 @@ parent: Webdev
 
 ## Tags
 - <https://developer.mozilla.org/en-US/docs/Web/HTML/Element>
+- <https://old.reddit.com/r/Frontend/comments/15necj8/semantic_help/>
 - (semantisch) wichtige
   - main
     - *represents the dominant content of the `<body>` of a document.*
