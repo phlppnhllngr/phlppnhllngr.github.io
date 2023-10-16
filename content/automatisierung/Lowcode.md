@@ -148,7 +148,12 @@ parent: Automatisierung
   - <https://github.com/huginn/huginn> <img loading="lazy" src="https://img.shields.io/github/stars/huginn/huginn?style=flat-square"/>
 experience.*
   - *anyone can self-host the platform*
+- **trigger.dev**
+  - *Background Jobs framework for TypeScript*
+  - *platform, SDK and API for building and running Jobs in your codebase, triggered by various sources, but without having to worry about managing any complicated orchestration infrastructure. It can be used from any Node.js (support versions) or TypeScript backend application*
+  - *Quite a lot of our customers are using us instead of Temporal*
   - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
+  - self-hostbar (2 Container; App+DB)
 - **Activepieces**
   - <https://github.com/activepieces/activepieces> <img loading="lazy" src="https://img.shields.io/github/stars/activepieces/activepieces?style=flat-square"/>
 - **Total.js Flow**
