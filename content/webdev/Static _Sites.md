@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Webdev]
 title: Static Sites
-created: '2019-02-17T14:58:09.151Z'
-modified: '2021-07-26T13:17:12.800Z'
 parent: Webdev
 ---
 
@@ -65,7 +62,12 @@ parent: Webdev
   - *Bring Your Own Framework (BYOF)*
   - *renders your entire page to static HTML, removing all JavaScript from your final build by default*
   - <https://github.com/snowpackjs/astro>
-  - [YT Travery Media - Astro Crash Course, 08/22](https://www.youtube.com/watch?v=Oi9z5gfIHJs) 
+  - [YT Travery Media - Astro Crash Course, 08/22](https://www.youtube.com/watch?v=Oi9z5gfIHJs)
+- **Lume**
+  - für deno
+  - *Supports any template engine*
+  - *Store the data in your favorite format* 
+  - <https://lume.land/>   
 
 
 ## Hosting
