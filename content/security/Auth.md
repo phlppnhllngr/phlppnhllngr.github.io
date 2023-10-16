@@ -27,6 +27,9 @@ parent: Security
     - es ist/war wohl doch möglich, Keycloak auch auf anderen Servern zu installieren, allerdings schwierig und nicht offiziell dokumentiert: <https://reachmnadeem.wordpress.com/2015/01/14/deploying-keycloak-in-tomcat>
   - <u>Keycloak.X</u>
     - *As part of the Keycloak.X efforts, the underlying platform is to be changed from Wildfly/Undertow to Quarkus/Vertx.* (12/2021))
+  - <u>Keycloakify</u>
+    - *Customize the look and feel of your login and registration pages without having to mess with FreeMarker.* (-> React)
+    - <https://www.keycloakify.dev/>
 - **Auth0**
   - *a company that sells an identity management platform with authentication and authorization services that implements the OAuth2 protocol (among others).* 
   - <https://auth0.com> 
@@ -87,7 +90,11 @@ parent: Security
 - **Hanko**
   - *Authentication and user management for the passkey era*
   - *A passkey is a new way to sign in that works completely without passwords. By using the security capabilities of your devices like Touch ID and Face ID, passkeys are way more secure and easier to use than both passwords and all current 2-factor authentication (2FA) methods.* 
-  - <https://github.com/teamhanko/hanko> <img loading="lazy" src="https://img.shields.io/github/stars/teamhanko/hanko?style=flat-square"/> 
+  - <https://github.com/teamhanko/hanko> <img loading="lazy" src="https://img.shields.io/github/stars/teamhanko/hanko?style=flat-square"/>
+**Authentik**
+  - *open-source Identity Provider that emphasizes flexibility and versatility*
+  - *for implementing sign-up, recovery, and other similar features in your application*
+  - <https://github.com/goauthentik/authentik>
 
 
 ## LDAP & AD
