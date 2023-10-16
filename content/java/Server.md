@@ -5,14 +5,6 @@ parent: Java
 
 # Server
 → Java/Build/Packaging/EAR, WAR, JAR
-- com.sun.net.httpserver.HttpServer
-  - seit Java 6 
-  - <https://docs.oracle.com/en/java/javase/17/docs/api/jdk.httpserver/com/sun/net/httpserver/package-summary.html> 
-- jwebserver
-  - *The Simple Web Server was added to the jdk.httpserver module in JDK 18. It is a minimal HTTP static file server, designed to be used for prototyping, testing, and debugging*
-  - *The Simple Web Server is run with jwebserver on the command line. It serves static files in a single directory hierarchy over HTTP/1.1; dynamic content and other HTTP versions are not supported.*
-  - <https://inside.java/2021/12/06/working-with-the-simple-web-server/>
-
 
 ## Servlet Container
 
@@ -268,6 +260,13 @@ parent: Java
 
 
 ## Andere
+- **com.sun.net.httpserver.HttpServer**
+  - seit Java 6 
+  - <https://docs.oracle.com/en/java/javase/17/docs/api/jdk.httpserver/com/sun/net/httpserver/package-summary.html> 
+- **jwebserver**
+  - *The Simple Web Server was added to the jdk.httpserver module in JDK 18. It is a minimal HTTP static file server, designed to be used for prototyping, testing, and debugging*
+  - *The Simple Web Server is run with jwebserver on the command line. It serves static files in a single directory hierarchy over HTTP/1.1; dynamic content and other HTTP versions are not supported.*
+  - <https://inside.java/2021/12/06/working-with-the-simple-web-server/>
 - **Netty**
   - *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
   - *Netty is able to run inside a servlet container*
