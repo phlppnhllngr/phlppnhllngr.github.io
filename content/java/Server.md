@@ -265,12 +265,15 @@ parent: Java
 
 
 ## Andere
-
-### Netty
-- *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
-- *Netty is able to run inside a servlet container*
-- <https://netty.io/>
-
-### Reactor-Netty
-- *TCP/HTTP/UDP/QUIC client/server with Reactor over Netty*
-- <https://github.com/reactor/reactor-netty>
+- **Netty**
+  - *an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers & clients*
+  - *Netty is able to run inside a servlet container*
+  - <https://netty.io/>
+- **Reactor-Netty**
+  - *TCP/HTTP/UDP/QUIC client/server with Reactor over Netty*
+  - <https://github.com/reactor/reactor-netty>
+- **Nginx Unit**
+  - -> Webdev/Webserver
+  - kann JSP & .war (*by using the Servlet Specification 3.1 and WebSocket APIs*)
+  - <https://unit.nginx.org/howto/samples/#java> 
+  - <https://unit.nginx.org/howto/springboot/> 
