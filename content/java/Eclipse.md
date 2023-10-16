@@ -98,9 +98,12 @@ parent: Java
       </tr>
     </table>
   - [https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools](https://marketplace.eclipse.org/content/ibm-websphere-application-server-v9x-developer-tools)
-- Spark Builder Generator
+- **Spark Builder Generator**
   - *Generates a builder according to the GoF pattern for Java domain objects* 
   - <https://marketplace.eclipse.org/content/spark-builder-generator>
+- **JBoss Tools**
+  - Wildfly-Integration 
+  - Funktioniert nur mit Eclipse 2022-12, neuere haben den Bug "there are no resources that can be added" <https://marketplace.eclipse.org/comment/8298#comment-8298>
 
 
 ### Logging
