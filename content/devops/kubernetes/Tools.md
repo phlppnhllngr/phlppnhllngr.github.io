@@ -166,6 +166,10 @@ grand_parent: DevOps
   - *implemented as a Kubernetes CRD (Custom Resource Definition)*
   - *Define workflows where each step in the workflow is a container.*
   - <https://github.com/argoproj/argo-workflows/> <img loading="lazy" src="https://img.shields.io/github/stars/argoproj/argo-workflows?style=flat-square"/>
+- **Gefyra**
+  - *local application development with Kubernetes*
+  - <https://github.com/gefyrahq/gefyra> 
+
 
 
 ## Java
