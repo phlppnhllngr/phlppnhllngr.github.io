@@ -194,6 +194,21 @@ parent: JavaScript
   - typing animations
 
 
+## Workflow
+- **Drawflow**
+  - *allows you to create data flows easily and quickly* 
+  - <https://github.com/jerosoler/Drawflow>
+- **flowy**
+  - *makes creating WebApps with flowchart functionality an incredibly simple task. Build automation software, mind mapping tools, or simple programming platforms in minutes by implementing the library into your project.*
+  - inaktiv 
+  - <https://github.com/alyssaxuu/flowy>
+- **GoJS**
+  - *library for interactive flowcharts, org charts, design tools, planning tools, visual languages.*
+  - <https://github.com/NorthwoodsSoftware/GoJS> 
+- **jsPlumb**
+  - <https://github.com/jsplumb/community-edition> 
+
+
 ## Diverse
 - **ag-grid**
   - data grid, auch Versionen für die gängigen Frameworks
@@ -232,10 +247,3 @@ parent: JavaScript
   - <https://github.com/javve/list.js>
 - **body-scroll-lock**
   - <https://github.com/willmcpo/body-scroll-lock>
-- **Drawflow**
-  - *allows you to create data flows easily and quickly* 
-  - <https://github.com/jerosoler/Drawflow>
-- **flowy**
-  - *makes creating WebApps with flowchart functionality an incredibly simple task. Build automation software, mind mapping tools, or simple programming platforms in minutes by implementing the library into your project.*
-  - inaktiv 
-  - <https://github.com/alyssaxuu/flowy>
