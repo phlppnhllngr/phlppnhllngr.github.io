@@ -190,7 +190,7 @@ parent: JavaScript
   - *Highlight.js supports over 180 different languages in the core library. There are also 3rd party language plugins available for additional languages.*
 - <https://github.com/inorganik/CountUp.js>
 - **typed**
-  - https://github.com/mattboldt/typed.js/
+  - <https://github.com/mattboldt/typed.js/>
   - typing animations
 
 
@@ -232,3 +232,10 @@ parent: JavaScript
   - <https://github.com/javve/list.js>
 - **body-scroll-lock**
   - <https://github.com/willmcpo/body-scroll-lock>
+- **Drawflow**
+  - *allows you to create data flows easily and quickly* 
+  - <https://github.com/jerosoler/Drawflow>
+- **flowy**
+  - *makes creating WebApps with flowchart functionality an incredibly simple task. Build automation software, mind mapping tools, or simple programming platforms in minutes by implementing the library into your project.*
+  - inaktiv 
+  - <https://github.com/alyssaxuu/flowy>
