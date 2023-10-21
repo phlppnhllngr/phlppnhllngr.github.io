@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Javascript]
 title: Entwicklungstools
-created: '2019-02-14T15:00:44.173Z'
-modified: '2021-09-13T11:27:57.427Z'
 parent: JavaScript
 ---
 
@@ -69,39 +66,39 @@ parent: JavaScript
         ]
     }
     ```
-    https://code.visualstudio.com/docs/languages/jsconfig
+    <https://code.visualstudio.com/docs/languages/jsconfig>
 - **storybook**
-  - https://github.com/storybooks/storybook *45k
+  - <https://github.com/storybooks/storybook> *45k
   - *tool for developing UI components in isolation for React, Vue, and Angular* [und andere]
   - *Get code snapshot tests out of the box with Storyshots, an official addon.*
   - *Reuse stories in your unit tests to confirm nuanced functionality.*
   - *Pinpoint UI changes with visual testing tools.*
-  - https://www.chromatic.com/
+  - <https://www.chromatic.com/>
 - **better-docs**
-  - https://github.com/SoftwareBrothers/better-docs
+  - <https://github.com/SoftwareBrothers/better-docs>
   - generiert Seite anhand von jsdoc
 
 
 ## Performance
 - **Chrome**
   - performance monitor
-  - https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference
-- https://www.npmjs.com/package/benchmark
-- http://jsben.ch/
-- https://bundlephobia.com/
-- https://jsperf.com/
+  - <https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference>
+- <https://www.npmjs.com/package/benchmark>
+- <http://jsben.ch/>
+- <https://bundlephobia.com/>
+- <https://jsperf.com/>
 - **window.performance**
   - mark
   - measure
-    - https://dev.to/dazn/visualising-front-end-performance-bottlenecks-4da6
+    - <https://dev.to/dazn/visualising-front-end-performance-bottlenecks-4da6>
     - *will help us visualise functions in (Chrome) Developer Tools*
   - profile
-  - https://chromestatus.com/features/5170190448852992
+  - <https://chromestatus.com/features/5170190448852992>
 
 
 ## Debugging
 - **firefox-devtools/debugger**
-  - https://github.com/devtools-html/debugger.html
+  - <https://github.com/devtools-html/debugger.html>
   - *You can use it to debug code running locally in Firefox or running remotely, for example on an Android device running Firefox for Android.The debugger ships inside Firefox, and these pages describe how to use the version that's embedded in Firefox. However, you can also run it as a standalone web application, and can then use it to debug code running in other browsers and in Node.*
   - works with the Firefox and Chrome debugging protocols
 - **Chrome Devtools**
@@ -109,7 +106,7 @@ parent: JavaScript
   - monitorEvents(node, event?: string), unmonitorEvents(node)
   - node_modules von Debugging ausschließen: Triple Dots → Settings → Blackboxing 
 - **Firefox Quantum aka Firefox Developer Edition**
-  - https://www.mozilla.org/de/firefox/developer/
+  - <https://www.mozilla.org/de/firefox/developer/>
 
 
 ## CDNs
