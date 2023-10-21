@@ -269,6 +269,8 @@ parent: IDE
   - Debugger for Java
   - Java Test Runner
   - Maven Project Explorer
+- **Oracle Java Platform extension**
+  - <https://github.com/oracle/javavscode>
 - **GraalVM Extension Pack for Java**
   - *collection of extensions that helps users write, debug and test Java, JavaScript, Python, Ruby, R and polyglot applications running on GraalVM, either standalone or using the Micronaut framework. GraalVM Extension Pack for Java bundles GraalVM Tools for Java, GraalVM Tools for Micronaut, and Apache NetBeans Language Server extensions.*
 - **GraalVM Tools for Java**
