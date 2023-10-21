@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Webdev]
 title: E2E-Test
-created: '2019-02-14T15:21:55.517Z'
-modified: '2021-08-14T13:41:23.510Z'
 parent: Webdev
 ---
 
@@ -179,6 +176,9 @@ parent: Webdev
   - *Smart test recorder auto-converts user actions into editable steps.*
   - *Automate end-to-end testing for web, mobile apps & APIs.*
   - <https://github.com/testsigmahq/testsigma>
+- **Shaft**
+  - Java, basiert auf Selenium
+  - <https://github.com/ShaftHQ/SHAFT_ENGINE>
 
 
 ### Cloud, SaaS
