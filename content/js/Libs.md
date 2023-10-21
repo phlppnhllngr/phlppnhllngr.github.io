@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Javascript]
 title: Libs
-created: '2019-02-20T20:30:57.120Z'
-modified: '2021-08-15T12:34:38.061Z'
 parent: JavaScript
 ---
 
@@ -157,7 +154,9 @@ UI → UI Libs
   - *If you use Paged.js, you’ll be able to see in your browser a preview of how your styles will appear when printing.*
   - tutorial: <https://pdf.math.dev/>
 - <https://www.smashingmagazine.com/2019/06/create-pdf-web-application/>
-
+- **react-pdf**
+  - *React renderer for creating PDF files on the browser and server*
+  - <https://github.com/diegomura/react-pdf>
 
 
 ## Http-Client
