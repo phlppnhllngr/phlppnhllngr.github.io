@@ -90,7 +90,10 @@ grand_parent: Java
 - **TestPropertyValues** (🥾)
 - **SpringExtension** (JUnit5 @ExtendWith)
   - *As of Spring Boot 2.1, we no longer need to load the SpringExtension because it's included as a meta annotation in the Spring Boot test annotations like @DataJpaTest, @WebMvcTest, and @SpringBootTest.*
-- **SpringRunner** (alias für SpringJUnit4ClassRunner; JUnit4 @RunWith)
+- **SpringRunner**
+  - alias für SpringJUnit4ClassRunner
+  - `@RunWith(SpringRunner.class)`
+  - <https://www.baeldung.com/springrunner-vs-springboottest> 
 - **@WebMvcTest** (🥾)
   - für Controller-Layer
   - <https://reflectoring.io/spring-boot-web-controller-test/>
