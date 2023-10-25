@@ -51,7 +51,14 @@ parent: Java
   - als SaaS kostenlos, lokale Installation kostet
 - **Hawtio**
   - *a lightweight and modular Web console for managing Java applications* 
-  - <https://github.com/hawtio/hawtio> 
+  - <https://github.com/hawtio/hawtio>
+- **async-profiler**
+  - *can trace the following kinds of events:*
+    - *CPU cycles*
+    - *Hardware and Software performance counters like cache misses, branch misses, page faults, context switches etc.*
+    - *Allocations in Java Heap*
+    - *Contented lock attempts, including both Java object monitors and ReentrantLocks* 
+  - <https://github.com/async-profiler/async-profiler> 
 
 
 ## APM
