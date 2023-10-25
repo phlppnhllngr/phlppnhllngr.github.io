@@ -58,7 +58,9 @@ parent: Java
     - *Hardware and Software performance counters like cache misses, branch misses, page faults, context switches etc.*
     - *Allocations in Java Heap*
     - *Contented lock attempts, including both Java object monitors and ReentrantLocks* 
-  - <https://github.com/async-profiler/async-profiler> 
+  - <https://github.com/async-profiler/async-profiler>
+- **Pyroscope**
+  - <https://phlppnhllngr.github.io/content/devops/Observability.html#tools>
 
 
 ## APM
