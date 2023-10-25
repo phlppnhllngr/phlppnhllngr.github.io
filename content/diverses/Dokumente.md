@@ -135,6 +135,9 @@ parent: Diverses
 - **PDFMonkey** 💰🌥
   - <https://www.pdfmonkey.io/>
   - PDFs generieren anhand von Html-/Css-Templates + JSON-API
+- **PDF Accessibility Checker (PAC)**
+  - *designed to easily identify all of the machine verifiable success criterion of ISO 14289-1 (PDF/UA) and WCAG* 
+  - <https://pdfua.foundation/en/pdf-accessibility-checker-pac/> 
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
