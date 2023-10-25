@@ -122,4 +122,7 @@ grand_parent: Java
   - SB 3.1.0+
   - <https://spring.io/blog/2023/06/23/improved-testcontainers-support-in-spring-boot-3-1>
   - <https://www.infoq.com/news/2023/07/enhanced-testcontainers-support/>
-  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/testcontainers/service/connection/ServiceConnection.html> 
+  - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/testcontainers/service/connection/ServiceConnection.html>
+- **SpyBean** (🥾)
+  - *allows us to create a spy (partial mock) of a Spring bean while still using the actual bean definition from our application context*
+  - <https://www.baeldung.com/spring-spy-vs-spybean> 
