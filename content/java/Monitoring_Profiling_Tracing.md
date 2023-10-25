@@ -120,6 +120,7 @@ parent: Java
   - <https://www.rookout.com/>
   - *remote debugging, logging, monitoring, profiling*
 - **Sidekick**
+  - Entwicklung 2022 eingestellt 
   - *Like chrome dev tools but for your backend*
   - *Add dynamic logs and put non-breaking breakpoints in your running application without the need of stopping & redeploying*
   - *allow self-hosting*
