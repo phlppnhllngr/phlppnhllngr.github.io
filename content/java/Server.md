@@ -207,6 +207,18 @@ parent: Java
       /subsystem=logging/console-handler=CONSOLE2:write-attribute(name="formatter", value="COLOR-PATTERN2")
       /subsystem=logging/logger=de.foo.bar:write-attribute(name="handlers", value=["CONSOLE2"])
       /subsystem=logging/logger=de.baz.qux:add(handlers=["CONSOLE2"])
+
+      # Für Access log (Zeit bis Response messen)
+      /subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=record-request-start-time,value=true)
+
+      # Access log (file; /opt/jboss/wildfly/standalone/log/access_log.log)
+      # TimeTaken: %T => Sekunden, %D => Millis
+      /subsystem=undertow/server=default-server/host=default-host/setting=access-log:add(pattern="%h %l %u %t \"%r\" %s %b \"%{i,Referer}\" \"%{i,User-Agent}\" Thread: \"%I\" TimeTaken: %T")
+
+      # Access log (console + json)
+      # https://docs.wildfly.org/30/wildscribe/subsystem/undertow/server/host/setting/console-access-log/index.html
+      /subsystem=undertow/server=default-server/host=default-host/setting=console-access-log:add(attributes={"date-time" => {}, "request-line" => {}, "response-code" => {}, "time-taken" => {}})
+
       quit
       ```
     - embedded server
