@@ -288,6 +288,7 @@ parent: Diverses
 
 ## ETL & Data Integration
 - **Apache nifi**
+  - *made for dataflow. It supports highly configurable directed graphs of data routing, transformation, and system mediation logic* 
   - <https://github.com/apache/nifi>
 - **Spring Batch**
 - **talend**
