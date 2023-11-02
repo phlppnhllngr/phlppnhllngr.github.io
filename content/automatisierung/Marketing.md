@@ -85,5 +85,10 @@ parent: Automatisierung
 - **Intercom**
     - <https://www.intercom.com/>
 - **Inxmail**
-    - Customer Journies, Emailmarketing 
+    - Customer Journies, Emailmarketing
+    - Features
+        - Worklow-Editor
+          - <https://www.inxmail.de/plattform/transaktionsmails/workflow-editor> 
+        - Email-Editor
+        - Reporting 
     - <https://www.inxmail.de/> 
