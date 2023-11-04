@@ -133,4 +133,7 @@ parent: Diverses
   - *SQL + Markdown → Beautiful Reports*
   - <https://evidence.dev/>
   - <https://news.ycombinator.com/item?id=35645464>
-
+- **chartbrew**
+   - *used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more*
+  - *connect directly to databases and APIs and use the data to create beautiful charts*
+  - <https://github.com/chartbrew/chartbrew>
