@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/$Notizen]
 title: öffentliche APIs
-created: '2019-02-17T15:01:44.458Z'
-modified: '2021-11-27T14:44:32.475Z'
 parent: API
 ---
 
@@ -13,6 +10,7 @@ parent: API
 - <https://apis.guru/browse-apis/>
 - <https://apitracker.io/>
 - <https://rapidapi.com/hub>
+- <https://github.com/public-apis-dev/public-apis>
 - <u>Finanzen</u>
   - **alphanvantage**
     - <https://www.alphavantage.co/>
