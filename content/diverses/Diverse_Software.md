@@ -193,12 +193,18 @@ parent: Diverses
   - *A self-hostable personal dashboard* 
   - *helps you organize your self-hosted services by making them accessible from a single place* 
   - <https://github.com/Lissy93/dashy>
+
+
+## Elektronische Unterschrift
 - **DocuSeal**
   - *Open source DocuSign alternative* 
   - <https://github.com/docusealco/docuseal>
 - **Documenso**
   - *Open Source DocuSign Alternative* 
   - <https://github.com/documenso/documenso> 
+- **OpenSign**
+  - <https://github.com/OpenSignLabs/OpenSign>
+  - <https://news.ycombinator.com/item?id=38052344>
 
 
 ## Workflow Scheduler
