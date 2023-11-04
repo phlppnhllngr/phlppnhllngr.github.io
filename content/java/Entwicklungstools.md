@@ -68,11 +68,15 @@ parent: Java
   - *static analysis tool - if you give Infer some Java or C/C++/Objective-C code it produces a list of potential bugs*
   - *can run Infer with a variety of build systems (...) Gradle, Maven, Other build systems*
   - <https://fbinfer.com/docs/hello-world>
+
+
+## Dynamische Analyse
 - **Digma**
   - *continually analyzing observability sources and providing feedback during development* 
   - Stand 10/23 nur als Intellij-Plugin verfügbar 
   - <https://github.com/digma-ai/digma> <img loading="lazy" src="https://img.shields.io/github/stars/digma-ai/digma?style=flat-square">
-  - [YT - Continuous Code Feedback with OpenTelemetry and Digma By Roni Dover - 10/2023](https://www.youtube.com/watch?v=Tyv79hhaL6c) 
+  - [YT - Continuous Code Feedback with OpenTelemetry and Digma By Roni Dover - 10/2023](https://www.youtube.com/watch?v=Tyv79hhaL6c)
+  - OTEL-Extension: <https://foojay.io/today/observing-java-applications-running-via-docker-compose-using-opentelemetry/>
 
 
 ## Visualisierung von Projektabhängigkeiten etc.
