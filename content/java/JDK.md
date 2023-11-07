@@ -22,6 +22,7 @@ parent: Java
 - Simple web server (18)
 - Structured concurrency (21: preview)
 - Sequenced collections (21)
+- Helpful NullPointerExceptions (14: `-XX:+ShowCodeDetailsInExceptionMessages`)
 
 
 ## Upgrade
