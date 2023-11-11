@@ -148,6 +148,7 @@ parent: DevOps
   - *provides a single set of APIs, libraries, agents, and collector services to capture distributed traces and metrics from your application. You can analyze them using Prometheus, Jaeger, and other observability tools.*
   - Libs, SDKs und Tools um Metriken, Traces und Logs vendor-unabhängig/-übergreifend zu sammeln
   - kein Backend enthalten, d.h. man braucht zusätzlich einen separaten Service, der das Gesammelte aufnimmt
+  - [HN - OpenTelemetry in 2023](https://news.ycombinator.com/item?id=37295097)
   - <https://www.dynatrace.com/news/blog/what-is-opentelemetry/>
   <img src="https://dt-cdn.net/wp-content/uploads/2020/07/OT.png" loading="lazy">
 - **signoz**
