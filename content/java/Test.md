@@ -350,6 +350,7 @@ parent: Java
 
 ## Mutation
 - **pitest**
+  - <https://foojay.io/today/pitest-do-you-test-your-tests/>
   - <https://github.com/hcoles/pitest>
 
 
