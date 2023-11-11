@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/CSS]
 title: '@media'
-created: '2020-02-01T19:46:14.725Z'
-modified: '2021-05-18T08:04:01.029Z'
 parent: CSS
 ---
 
@@ -31,6 +28,21 @@ parent: CSS
   - md >= 768px ~ tablet portrait
   - lg >= 992px ~ tablet landscape
   - xl >= 1200px ~ monitor
+- ```
+  Mobile: 
+  50% of viewports: Width 375, Height 635 
+  80%: Width 375, Height 635 
+  90%: Width 360, Height 560 
+  95%: Width 360, Height 550 
+  99%: Width 320, Height 500
+  
+  Desktop:
+  50% of viewports: Width 1440, Height 900
+  80%: Width 1024, Height 600
+  90%: Width 1024, Height 600
+  95%: Width 1024, Height 600
+  99%: Width 800, Height 300
+  ```
 - devices (css width & height)
   - <https://viewportsizer.com/devices/>
   - phones
