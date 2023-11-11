@@ -200,8 +200,10 @@ parent: Diverses
   - *ist sowohl ein Netzwerkprotokoll als auch ein unter der GPL stehendes Programm zur Synchronisation von Daten* 
   - *Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen [und zu kopieren]*
   - *Sind Quelle und Ziel lokale Pfade, werden die betroffenen Dateien normal kopiert. Wenn auf Quelle oder Ziel aber per SSH oder über einen speziellen rsync-daemon zugegriffen wird, nutzt rsync zusätzlich noch einen speziellen Delta-Transfer-Algorithmus, so dass nur die geänderten Teile der Dateien über das Netzwerk transportiert werden müssen.* 
-  - <https://wiki.ubuntuusers.de/rsync/> 
-
+  - <https://wiki.ubuntuusers.de/rsync/>
+- **curl**
+  - [HN - Mastering curl: interactive text guide](https://news.ycombinator.com/item?id=37390941)
+ 
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
 - <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
