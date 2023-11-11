@@ -67,5 +67,9 @@ grand_parent: Java
   - *Monitor your Spring Boot application with the Elastic Stack*
 - **Ostara**
   - *desktop application that provides various features to monitor and interact with Spring Boot Applications via Actuator* 
-  - <https://github.com/krud-dev/boost> 
+  - <https://github.com/krud-dev/boost>
+- **SnapAdmin**
+  - *auto-generated CRUD database admin panel for Spring Boot apps*
+  - *scans your @Entity classes and automatically builds a web UI with CRUD operations (and much more)*
+  - <https://github.com/aileftech/snap-admin> 
 
