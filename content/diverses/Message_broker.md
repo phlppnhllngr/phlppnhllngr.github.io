@@ -83,4 +83,6 @@ parent: Diverses
 
 ## Vergleiche
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
+- <https://docs.nats.io/nats-concepts/overview/compare-nats>
+- [HN - RabbitMQ vs Kafka, Okt 2023](https://news.ycombinator.com/item?id=37574552)
 
