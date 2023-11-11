@@ -13,6 +13,7 @@ parent: Java
   - Plugins für: Maven, Gradle, IntelliJ
 - **Lombok**
   - <http://projectlombok.org>
+  - <https://old.reddit.com/r/java/comments/170gdha/how_does_the_lombok_magic_work_underneath/>
 - **manifold**
   - <https://github.com/manifold-systems/manifold>
   - xml/json/yaml-to-code, extension methods, operator overloading, metric unit expressions, type-safe reflection, type-safe equals(@self), number range, string templates, type-safe properties, ...
@@ -87,6 +88,12 @@ parent: Java
   - *a Proguard replacement for whole-program optimization, shrinking and minification*
 - <https://www.reddit.com/r/java/comments/mql549/comparing_modernday_container_image_builders_jib>
   - jib, buildpacks, docker
+- **Eclipse Transformer**
+  - *The core problem that is introduced by Jakarta EE 9 is the renaming of package prefixes from javax to jakarta for APIs and properties. To solve this problem, the Open Liberty development team created the Eclipse Transformer.*
+  - *you can use the Eclipse Transformer to update applications, test classes, and server configurations.*
+  - <https://github.com/eclipse/transformer>
+  - <https://github.com/eclipse/transformer/tree/main/maven-plugins/transformer-maven-plugin>
+  - <https://openliberty.io/blog/2021/03/17/eclipse-transformer.html>
 
 
 ## Packaging
