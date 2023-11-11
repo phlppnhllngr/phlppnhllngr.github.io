@@ -61,5 +61,9 @@ title: Zusammenarbeit
   - <https://github.com/makeplane/plane>
 - **GitWonk**
   - *open source GitBook, Confluence, and Archbee alternative* 
-  - <https://github.com/gitwonk/gitwonk> 
+  - <https://github.com/gitwonk/gitwonk>
+- **ONLYOFFICE**
+  - *Free open source office suite with business productivity tools: document and project management, CRM, mail aggregator.* 
+  - <https://github.com/ONLYOFFICE/CommunityServer>
+  - <https://news.ycombinator.com/item?id=37701884>
 
