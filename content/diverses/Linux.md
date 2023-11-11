@@ -195,7 +195,12 @@ parent: Diverses
     - *quickly find out which files are touched / installed by apt installing a certain package*
     - *find out which log file, if any, a program writes to*
     - *run one of those curl / bash installation commands and inspect exactly what it'll do without reading through a huge script*
-  - <https://github.com/binpash/try> 
+  - <https://github.com/binpash/try>
+- **rsync**
+  - *ist sowohl ein Netzwerkprotokoll als auch ein unter der GPL stehendes Programm zur Synchronisation von Daten* 
+  - *Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen [und zu kopieren]*
+  - *Sind Quelle und Ziel lokale Pfade, werden die betroffenen Dateien normal kopiert. Wenn auf Quelle oder Ziel aber per SSH oder über einen speziellen rsync-daemon zugegriffen wird, nutzt rsync zusätzlich noch einen speziellen Delta-Transfer-Algorithmus, so dass nur die geänderten Teile der Dateien über das Netzwerk transportiert werden müssen.* 
+  - <https://wiki.ubuntuusers.de/rsync/> 
 
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
