@@ -53,6 +53,7 @@ parent: Diverses
 - <https://codingbat.com/>
 - <https://adventofcode.com/2022/>
 - <https://github.com/CollabCodeTech/backend-challenges>
+- <https://github.com/sadanandpai/frontend-mini-challenges>
 
 
 ## Kurse
