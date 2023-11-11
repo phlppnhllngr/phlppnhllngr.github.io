@@ -168,7 +168,12 @@ grand_parent: DevOps
   - <https://github.com/argoproj/argo-workflows/> <img loading="lazy" src="https://img.shields.io/github/stars/argoproj/argo-workflows?style=flat-square"/>
 - **Gefyra**
   - *local application development with Kubernetes*
-  - <https://github.com/gefyrahq/gefyra> 
+  - <https://github.com/gefyrahq/gefyra>
+- **Caretta**
+  - *creates a visual network map of the services running in your cluster*
+  - *uses Victoria Metrics to collect and publish its metrics, and the outcome can be consumed by any Prometheus-compatible dashboard*
+  - *Caretta's helm chart ships an instance of Grafana with a predefined dashboard using data published by Caretta*
+  - <https://github.com/groundcover-com/caretta>
 
 
 
