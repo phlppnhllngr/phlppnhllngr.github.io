@@ -193,6 +193,11 @@ parent: Diverses
   - *A self-hostable personal dashboard* 
   - *helps you organize your self-hosted services by making them accessible from a single place* 
   - <https://github.com/Lissy93/dashy>
+- **ntfy**
+  - *Send push notifications to your phone or desktop using PUT/POST*
+  - *simple HTTP-based pub-sub notification service. With ntfy, you can send notifications to your phone or desktop via scripts from any computer*
+  - *The ntfy CLI allows you to publish messages, subscribe to topics as well as to self-host your own ntfy server.*
+  - <https://github.com/binwiederhier/ntfy> 
 
 
 ## Elektronische Unterschrift
