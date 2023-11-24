@@ -118,6 +118,9 @@ grand_parent: Java
 - der Status der Steps und Jobs wird defaultmäßig in einer Datenbank festgehalten (konfigurierbar)
 - in dem Zusammenhang ist oft von 'ETL' die Rede (Extract, Transform, Load)
 - Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
+- <https://www.toptal.com/spring/spring-batch-tutorial>
+  ![image](https://github.com/phlppnhllngr/phlppnhllngr.github.io/assets/31002126/1e488a34-24c8-44c9-9e68-02b9da7a13ae)
+
 
 
 ## Statemachine
