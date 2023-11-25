@@ -123,7 +123,25 @@ grand_parent: Java
   ![image](https://github.com/phlppnhllngr/phlppnhllngr.github.io/assets/31002126/1e488a34-24c8-44c9-9e68-02b9da7a13ae)
   - Beispiele deprecated seit Spring Batch 5.1 (for Removal in 5.2)
 
+### Job
+- represents a batch job
+- composed of multiple steps, and it defines the overall flow and configuration of the batch processing
+- responsible for coordinating the execution of one or more steps in a specific order
 
+### JobRepository
+- responsible for managing metadata about job executions
+- stores information such as job instances, job executions, step executions, and the state of each job
+- This metadata is crucial for restarting failed jobs, tracking progress, and ensuring data integrity
+
+### JobExecution
+- represents the runtime execution of a job.
+- Each time a job is started, a new JobExecution instance is created to track the execution status of the job.
+- It contains information about the start time, end time, status (e.g., COMPLETED, FAILED), and any exceptions that occurred during the job execution.
+
+### JobInstance
+- represents a logical execution of a job.
+- A job instance is created each time a job is launched with a unique set of parameters.
+- For example, if you run a job to process a file with a specific name and date, each run of the job with different file names or dates would result in a new JobInstance.
 
 ## Statemachine
 - <https://spring.io/projects/spring-statemachine>
