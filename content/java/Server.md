@@ -272,8 +272,15 @@ parent: Java
 
 
 ## Andere
-- **com.sun.net.httpserver.HttpServer**
-  - seit Java 6 
+- **com.sun.net.httpserver**
+  - HttpServer
+    - Java 6 
+  - SimpleFileServer
+    - Java 18
+    - basiert auf HttpServer
+  - jwebserver
+    - Java 18
+    - CLI command, basiert auf sun.net.httpserver.simpleserver.Main 
   - <https://docs.oracle.com/en/java/javase/17/docs/api/jdk.httpserver/com/sun/net/httpserver/package-summary.html> 
 - **jwebserver**
   - *The Simple Web Server was added to the jdk.httpserver module in JDK 18. It is a minimal HTTP static file server, designed to be used for prototyping, testing, and debugging*
@@ -291,4 +298,7 @@ parent: Java
   - -> Webdev/Webserver
   - kann JSP & .war (*by using the Servlet Specification 3.1 and WebSocket APIs*)
   - <https://unit.nginx.org/howto/samples/#java> 
-  - <https://unit.nginx.org/howto/springboot/> 
+  - <https://unit.nginx.org/howto/springboot/>
+- **nanohttpd**
+  - <https://github.com/NanoHttpd/nanohttpd> ⭐6.7k
+  - Repo inaktiv
