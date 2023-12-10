@@ -107,10 +107,14 @@ parent: Java
     - mit Junit-Rule
 - <u>Datum & Zeit</u>
   - <http://blog.tremblay.pro/2021/01/mocking-clock.html>
-- <u>Email</u>
-  - **Wiser**
-    - für jakarta.mail 
-    - <https://www.youtube.com/watch?v=JVPHSdHViMg&t=325s>  
+- **Wiser**
+  - für jakarta.mail 
+  - <https://www.youtube.com/watch?v=JVPHSdHViMg&t=325s>
+- **MockFtpServer**
+  - *provides mock/dummy FTP server implementations for testing FTP client code. Two FTP Server implementations are provided, each at a different level of abstraction.*
+  - - *FakeFtpServer provides a higher-level abstraction. You define a virtual file system, including directories and files, as well as a set of valid user accounts and credentials. The FakeFtpServer then responds with appropriate replies and reply codes based on that configuration.*
+  - *StubFtpServer, on the other hand, is a lower-level "stub" implementation. You configure the individual FTP server commands to return custom data or reply codes, allowing simulation of either success or failure scenarios. You can also verify expected command invocations.* 
+  - <https://github.com/dx42/MockFtpServer> 
 
 
 ## Generierung von Testdaten
