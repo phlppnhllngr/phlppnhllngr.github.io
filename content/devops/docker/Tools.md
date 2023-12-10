@@ -101,7 +101,10 @@ grand_parent: DevOps
 - **Tiny Health Checker**
   - *a small binary that can only make HTTP requests to localhost*
   - für Health-Checks wenn kein Http-Client wie curl oder wget verfügbar ist 
-  - <https://github.com/dmikusa/tiny-health-checker> 
+  - <https://github.com/dmikusa/tiny-health-checker>
+- **logspout**
+  - *attaches to all containers on a host, then routes their logs wherever you want* 
+  - <https://github.com/gliderlabs/logspout> 
 
 
 ## GUIs
