@@ -302,3 +302,7 @@ parent: Java
 - **nanohttpd**
   - <https://github.com/NanoHttpd/nanohttpd> ⭐6.7k
   - Repo inaktiv
+- **Microhttp**
+  - *TLS is not supported*
+  - *No dependencies. Small, targeted codebase (~500 LOC)* 
+  - <https://github.com/ebarlas/microhttp> 
