@@ -93,3 +93,5 @@ parent: Webdev
 ## SVG
 - <https://github.com/jakearchibald/svgomg> (compressor)
 - <https://svg-tutorial.com/>
+  - <https://news.ycombinator.com/item?id=38556116>
+
