@@ -197,7 +197,11 @@ parent: Diverses
   - *Send push notifications to your phone or desktop using PUT/POST*
   - *simple HTTP-based pub-sub notification service. With ntfy, you can send notifications to your phone or desktop via scripts from any computer*
   - *The ntfy CLI allows you to publish messages, subscribe to topics as well as to self-host your own ntfy server.*
-  - <https://github.com/binwiederhier/ntfy> 
+  - <https://github.com/binwiederhier/ntfy>
+- **Presidio**
+  - *PII de-identification service for text and images*
+  - *provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers, bitcoin wallets, US phone numbers, financial data and more*
+  - <https://github.com/microsoft/presidio>
 
 
 ## Elektronische Unterschrift
