@@ -202,6 +202,9 @@ parent: Diverses
   - *PII de-identification service for text and images*
   - *provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers, bitcoin wallets, US phone numbers, financial data and more*
   - <https://github.com/microsoft/presidio>
+- **UneeBee**
+  - *Open-source alternative to create interactive courses like Duolingo*
+  - <https://github.com/zoonk/uneebee>
 
 
 ## Elektronische Unterschrift
