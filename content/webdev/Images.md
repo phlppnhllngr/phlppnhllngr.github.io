@@ -92,3 +92,4 @@ parent: Webdev
 
 ## SVG
 - <https://github.com/jakearchibald/svgomg> (compressor)
+- <https://svg-tutorial.com/>
