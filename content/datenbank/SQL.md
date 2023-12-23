@@ -4,6 +4,8 @@ parent: Datenbank
 ---
 
 # SQL
+- Sql vs ORM
+  - [Diskussion auf HN](https://news.ycombinator.com/item?id=36497613)
 - Prepared statements
   - *a prepared statement or parameterized statement is a feature used to execute the same or similar database statements repeatedly with high efficiency. ... The application may execute the statement as many times as it wants with different values*
 
