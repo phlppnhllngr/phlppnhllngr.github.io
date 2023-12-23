@@ -66,4 +66,6 @@ title: Zusammenarbeit
   - *Free open source office suite with business productivity tools: document and project management, CRM, mail aggregator.* 
   - <https://github.com/ONLYOFFICE/CommunityServer>
   - <https://news.ycombinator.com/item?id=37701884>
-
+- **leantime**
+  - *project management system for non-project manager.*
+  - <https://github.com/Leantime/leantime>
