@@ -179,8 +179,8 @@ grand_parent: DevOps
   - *platform for turning your API and microservices assets - OpenAPI specs, AsyncAPI specs, gRPC protobuf, GraphQL schema, Postman collections, SoapUI projects - into live mocks in seconds*
   - *It also reuses these assets for running compliance and non-regression tests against your API implementation. We provide integrations with Jenkins, GitHub Actions, Tekton and many others through a simple CLI.* 
   - <https://github.com/microcks/microcks>
-  - <https://microcks.io/> 
-
+  - <https://microcks.io/>
+  - <https://piotrminkowski.com/2023/05/20/contract-testing-on-kubernetes-with-microcks/>
 
 
 ## Java
