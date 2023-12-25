@@ -218,6 +218,9 @@ experience.*
   - *provides a spreadsheet-like interface to a PostgreSQL database*
   - [Demo](https://demo.mathesar.org/) 
   - <https://github.com/centerofci/mathesar> <img loading="lazy" src="https://img.shields.io/github/stars/centerofci/mathesar?style=flat-square"/>
+- **Grist**
+  - *combines the flexibility of a spreadsheet with the robustness of a database* 
+  - <https://github.com/gristlabs/grist-core> 
 
 
 ### Webseiten
