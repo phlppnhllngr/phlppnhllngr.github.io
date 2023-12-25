@@ -51,9 +51,9 @@ grand_parent: DevOps
   - helm unittest
     - *BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin.* 
     - <https://github.com/helm-unittest/helm-unittest>
-  - Testkube
-    - *allows you to automate the executions of your existing testing tools inside your Kubernetes cluster, removing all the complexity from your CI/CD pipelines.* 
-    - <https://github.com/kubeshop/testkube> 
+- **Testkube**
+  - *allows you to automate the executions of your existing testing tools inside your Kubernetes cluster, removing all the complexity from your CI/CD pipelines.* 
+  - <https://github.com/kubeshop/testkube> 
 - **lens**
   - wie Portainer aber für K8s
   - Binaries von hier laden: <https://github.com/MuhammedKalkan/OpenLens>
