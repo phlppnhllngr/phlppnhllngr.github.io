@@ -97,3 +97,7 @@ parent: Webdev
 - **Email Authentication: A Developer's Guide**
   - *Learn the importance of SPF, DKIM, DMARC, and BIMI in ensuring email delivery.* 
   - <https://resend.com/blog/email-authentication-a-developers-guide> 
+- **Mail-in-a-Box**
+  - *turns a fresh Ubuntu 22.04 LTS 64-bit machine into a working mail server by installing and configuring various components.*
+  - *It is a one-click email appliance. There are no user-configurable setup options. It "just works."*
+  - <https://github.com/mail-in-a-box/mailinabox> 
