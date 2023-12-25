@@ -106,4 +106,10 @@ parent: Security
   - <https://supabase.com/blog/vault-now-in-beta> 
 - **EnvKey**
   - *End-to-end encrypted configuration and secrets management* 
-  - <https://github.com/envkey/envkey> <img loading="lazy" src="https://img.shields.io/github/stars/envkey/envkey?style=flat-square"/> 
+  - <https://github.com/envkey/envkey> <img loading="lazy" src="https://img.shields.io/github/stars/envkey/envkey?style=flat-square"/>
+- **Passbolt**
+  - *password manager for teams. It provides a single platform to manage credentials, with a focus on security, collaboration and privacy. Passbolt is built for collaboration. Benefit from powerful auditing tools and unparalleled granularity for access control and encrypted data.* 
+  - <https://github.com/passbolt>
+- **OpenBao**
+  - Fork von Hashicorp Vault 
+  - <https://github.com/openbao/openbao/tree/development> 
