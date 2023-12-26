@@ -4,11 +4,6 @@ parent: API
 ---
 
 # Diverses
-- **Nango**
-  - *A single API for all your integrations.*
-  - *simplifies integrating your product with any external API*
-  - *Over 100 Pre-configured APIs, Easy to Add Your Own* 
-  - <https://github.com/nangoHQ/nango> 
 
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
@@ -66,3 +61,16 @@ parent: API
 - <https://grpc.io/>
 - <https://github.com/fullstorydev/grpcurl/>
 - <https://github.com/grpc/grpc-web/>
+
+
+## Unified API
+- **Nango**
+  - *A single API for all your integrations.*
+  - *simplifies integrating your product with any external API*
+  - *Over 100 Pre-configured APIs, Easy to Add Your Own* 
+  - <https://github.com/nangoHQ/nango>
+- **Merge**
+  - <https://www.merge.dev/> 
+- **Revert**
+  - <https://www.revert.dev/>
+  - <https://github.com/revertinc/revert>
