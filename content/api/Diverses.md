@@ -1,12 +1,14 @@
 ---
-tags: [Notebooks/API]
 title: Diverses
-created: '2019-10-16T21:52:04.220Z'
-modified: '2021-07-09T18:01:12.807Z'
 parent: API
 ---
 
 # Diverses
+- **Nango**
+  - *A single API for all your integrations.*
+  - *simplifies integrating your product with any external API*
+  - *Over 100 Pre-configured APIs, Easy to Add Your Own* 
+  - <https://github.com/nangoHQ/nango> 
 
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
