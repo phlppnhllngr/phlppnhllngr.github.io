@@ -56,6 +56,7 @@ parent: Webdev
   - *has a request log in its web UI. And, it allows replaying requests*
   - <https://www.npmjs.com/package/ngrok>
   - [Hackernews: Roll your own Ngrok with Nginx, Letsencrypt, and SSH reverse tunnelling](https://news.ycombinator.com/item?id=30891494)
+  - Support für Http-Proxy: ja
 - **sish**
   - *HTTP(S)/WS(S)/TCP Tunnels to localhost using only SSH.*
   - *An open source serveo/ngrok alternative.*
@@ -80,6 +81,8 @@ parent: Webdev
 - **cloudflare tunnel**
   - *allow remote access to services running on your local machine. It is an alternative to popular tools like Ngrok, and provides free, long-running tunnels via the TryCloudflare service.*
   - <https://developers.cloudflare.com/pages/how-to/preview-with-cloudflare-tunnel>
+  - <https://github.com/cloudflare/cloudflared>
+  - Support für Http-Proxy: nein
 - **zrok**
   - *Like other offerings in this space, zrok allows users to create ephemeral reverse proxies ("tunnels") for http resources.*
   - *rather than just proxying http endpoints, zrok allows users to easily and rapidly share files and web content*
@@ -88,3 +91,4 @@ parent: Webdev
 - **tunnelmole**
   - *simple tool to give your locally running HTTP(s) servers a public URL such as https://df34.tunnelmole.com*
   - <https://github.com/robbie-cahill/tunnelmole-client>
+  - Support für Http-Proxy: nein
