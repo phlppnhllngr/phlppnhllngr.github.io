@@ -41,6 +41,10 @@ parent: Java
       - *simplifies JSON comparison*
       - AssertJ, hamcrest oder Spring MockMvc
       - <https://github.com/lukas-krecan/JsonUnit>
+    - java-stacksrc
+      - *decorate stack traces of test failures to make them more useful*
+      - *So instead of getting this when a test fails: `org.opentest4j.AssertionFailedError: expected: <hello> but was: <hi>` You'll get this: `(...) -> 24      assertEquals("hello", "hi");`*
+      - <https://github.com/laech/java-stacksr
 - **TestNG**
   - <http://testng.org/doc>
 - **EqualsVerifier**
