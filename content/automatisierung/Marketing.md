@@ -91,4 +91,8 @@ parent: Automatisierung
           - <https://www.inxmail.de/plattform/transaktionsmails/workflow-editor> 
         - Email-Editor
         - Reporting 
-    - <https://www.inxmail.de/> 
+    - <https://www.inxmail.de/>
+- **act!**
+    - <https://www.act.com/de/produkte/marketing-automation/> 
+- **Oracle Eloqua**
+    - <https://www.oracle.com/de/cx/marketing/automation/> 
