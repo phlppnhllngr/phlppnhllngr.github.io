@@ -597,8 +597,25 @@ parent: Java
 
 
 ## FTP
-- java.net
-- JSch
+- <https://www.infoworld.com/article/2073325/java-ftp-client-libraries-reviewed.html>
+- **java.net.URLConnection**
+  - <https://www.baeldung.com/java-ftp-client#ftp-support-in-jdk>
+- **JSch**
+  - <https://www.baeldung.com/java-file-sftp#jsch>
+  - <https://github.com/mwiede/jsch>
+    - Fork von com.jcraft:jsch
+- **Apache Commons Net**
+  - populärste Lib
+  - <https://www.baeldung.com/java-ftp-client>
+  - <https://github.com/apache/commons-net>
+  - <https://medium.com/bliblidotcom-techblog/java-ftp-integration-using-apache-commons-net-5efb3d300829>
+  - <https://www.codejava.net/java-se/ftp/java-ftp-file-upload-tutorial-and-example>
+- **SSHJ**
+  - <https://www.baeldung.com/java-file-sftp#sshj>
+- **Apache Commons VFS**
+  - <https://www.baeldung.com/java-file-sftp#vfs>
+    - *Apache Commons VFS uses JSch library internally*
+  - <https://github.com/apache/commons-vfs>
 
 
 ## Diverses
