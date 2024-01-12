@@ -611,7 +611,9 @@ parent: Java
   - <https://medium.com/bliblidotcom-techblog/java-ftp-integration-using-apache-commons-net-5efb3d300829>
   - <https://www.codejava.net/java-se/ftp/java-ftp-file-upload-tutorial-and-example>
   - <https://mvnrepository.com/artifact/commons-net/commons-net>
+  - kann FTP und FTPS, aber kein SFTP
 - **SSHJ**
+  - *ssh, scp and sftp for java* 
   - <https://www.baeldung.com/java-file-sftp#sshj>
   - <https://github.com/hierynomus/sshj>
 - **Apache Commons VFS**
