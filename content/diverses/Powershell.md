@@ -20,3 +20,24 @@ if (Test-Path "C:\foo\bar-*.txt" -pathtype leaf) {
   ...
 }
 ```
+
+**CPU- und RAM-Verbrauch ausgeben**
+```powershell
+# Get process information
+$processes = Get-Process
+
+# Select specific properties (ProcessName, CPU, Memory)
+$processInfo = $processes | Select-Object ProcessName, CPU, @{Name="Memory(MB)"; Expression={$_.WorkingSet / 1MB}} | Sort-Object -Descending CPU
+
+# Display process information
+$processInfo
+
+# If you want to get the total CPU and memory usage of all processes, you can use Measure-Object:
+$totalCPU = $processInfo | Measure-Object -Property CPU -Sum | Select-Object -ExpandProperty Sum
+$totalMemory = $processes | Measure-Object -Property WorkingSet -Sum | Select-Object -ExpandProperty Sum
+
+# Display total CPU and memory usage
+Write-Host "Total CPU Usage: $totalCPU%"
+Write-Host "Total Memory Usage: $($totalMemory / 1MB) MB"
+Write-Host ""
+```
