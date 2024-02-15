@@ -219,6 +219,31 @@ parent: Java
       # https://docs.wildfly.org/30/wildscribe/subsystem/undertow/server/host/setting/console-access-log/index.html
       /subsystem=undertow/server=default-server/host=default-host/setting=console-access-log:add(attributes={"date-time" => {}, "request-line" => {}, "response-code" => {}, "time-taken" => {}})
 
+      # CLI-File ($JBOSS_HOME/bin/jboss-cli.sh --file=/some/file.cli)
+      embed-server --server-config=${env.JBOSS_CONFIG:standalone-full.xml}
+        /subsystem=logging/pattern-formatter=FOO-PATTERN:add(pattern="%K{level}%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c] (%t) %m%n")
+        /subsystem=logging/console-handler=CONSOLE:write-attribute(name=named-formatter, value="FOO-PATTERN")
+        module add --name=org.postgresql --resources="/foo/modules/org/postgresql/main/postgresql-42.4.1.jar"
+        /subsystem=datasources/jdbc-driver=postgresql:add( \
+            driver-module-name=org.postgresql, \
+            driver-name=postgres, \
+            driver-class-name=org.postgresql.Driver, \
+            driver-xa-datasource-class-name=org.postgresql.xa.PGXADataSource \
+        )
+        if (result == "true") of :resolve-expression(expression=${env.FOO:"false"})
+          set myvalue = foo
+          echo $myvalue
+          set command = /subsystem=datasources/data-source=MYDS:add(driver-name=...
+          $command
+          try
+            echo bar
+          catch
+            echo baz
+          end-try
+        end-if
+
+
+      
       quit
       ```
     - embedded server
