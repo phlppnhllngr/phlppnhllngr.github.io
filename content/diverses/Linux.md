@@ -29,6 +29,7 @@ parent: Diverses
   - 4 = read, 2 = write, 1 = execute
   - `chmod 761 foo` -> owner of file foo: rwx (7=4+2+1), group that owns file foo: rw (6=4+2), other: x
   - *The file's owner or root can change permissions*
+  - <https://wiki.ubuntuusers.de/chmod/>
   - <https://www.guru99.com/file-permissions.html#linux_file_permissions>
 - **chown**
   - change file ownership
