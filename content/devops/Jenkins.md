@@ -400,6 +400,34 @@ def str = """\
 	  """.stripIndent().replace('\n', ' ')
 println(str)
 //foo bar
+
+def str = """
+          foo \
+          bar
+          """
+println(str)
+//                               foo                               bar
+
+def str = """\
+          foo \
+          bar
+          """
+println(str)
+//                               foo                               bar
+
+def str = """\
+          foo \
+          bar
+          """.stripIndent()
+println(str)
+//foo                               bar
+
+def str = """
+foo \
+bar
+"""
+println(str)
+//foo bar
 ```
 
 ## Plugins
