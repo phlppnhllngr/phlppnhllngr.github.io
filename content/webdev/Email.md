@@ -101,4 +101,8 @@ parent: Webdev
 - **Mail-in-a-Box**
   - *turns a fresh Ubuntu 22.04 LTS 64-bit machine into a working mail server by installing and configuring various components.*
   - *It is a one-click email appliance. There are no user-configurable setup options. It "just works."*
-  - <https://github.com/mail-in-a-box/mailinabox> 
+  - <https://github.com/mail-in-a-box/mailinabox>
+- **Postal**
+  - *fully featured open source mail delivery platform for incoming & outgoing e-mail*
+  - *Think Sendgrid, Mailgun or Postmark but open source and ready for you to run on your own servers* 
+  - <https://github.com/postalserver/postal> 
