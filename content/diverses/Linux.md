@@ -35,7 +35,7 @@ parent: Diverses
   - change file ownership
   - Every file is owned by a specific user (or UID) and a specific group (or GID)
   - `sudo chown $USER foo`
-  - `chown user:group file
+  - `chown user:group file`
   - *the owner can permit the other types of users to access that file and folder*
   - *only root can run chown to change a file's owner to another user*
   - <https://www.guru99.com/file-permissions.html#linux_file_ownership>
@@ -43,9 +43,10 @@ parent: Diverses
   - change file group ownership
   - *The owner of a file may change the group of the file to any group of which that owner is a member.*
 - **sudo**
-  - temporarily become the superuser
+  - *gives non-root users temporary access to the elevated privileges* 
+  - *does not switch the user account to become root*
 - **su**
-  - temporarily become another user
+  - *temporarily become root*
   - `su` zu root werden, mit Umgebung des vorherigen Users
   - `su -` zu root werden, mit Umgebung von root
 
