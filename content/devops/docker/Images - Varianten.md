@@ -5,6 +5,7 @@ grand_parent: DevOps
 ---
 
 # Images - Varianten
+- <https://github.com/bitnami/containers/tree/main/bitnami>
 - **scratch**
   - ```FROM scratch```
   - *This image is most useful in the context of building base images or super minimal images that contain only a single binary and whatever it requires*
