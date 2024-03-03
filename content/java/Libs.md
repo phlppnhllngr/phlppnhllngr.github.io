@@ -131,6 +131,9 @@ parent: Java
   - **jsonschema2pojo**
     - *Generate Java types from JSON or JSON Schema and annotates those types for data-binding with Jackson, Gson, etc*
     - <https://github.com/joelittlejohn/jsonschema2pojo> *5.2k
+  - **json-masker**
+    - *mask sensitive values inside JSON* 
+    - <https://github.com/Breus/json-masker> 
 
 ### binary
 - **kryo**
