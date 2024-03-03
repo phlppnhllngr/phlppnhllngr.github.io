@@ -7,6 +7,7 @@ parent: Java
 # GUI
 
 ## JavaFX
+- <https://www.jfx-central.com/>
 
 ### Docs
 - <https://github.com/openjfx/samples>
