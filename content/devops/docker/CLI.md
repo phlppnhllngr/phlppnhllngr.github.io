@@ -90,5 +90,10 @@ grand_parent: DevOps
     - create
         - driver
             - local
+              - Bsp. CIFS:
+                ```
+                  docker volume create --driver local --opt type=cifs --opt device="//192.169.0.0/foo/bar" --opt o=username=user,password=password,vers=3.0,noperm,iocharset=utf8 cifs_volume
+                  docker run -i --rm -v cifs_volume:/mnt busybox ls -l /mnt
+                ```
         - <https://docs.docker.com/engine/reference/commandline/volume_create/>
     - <https://docs.docker.com/storage/volumes/>
