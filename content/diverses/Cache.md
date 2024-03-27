@@ -11,6 +11,9 @@ parent: Diverses
     - RedisInsight
       - <https://docs.redis.com/latest/ri/>
   - <https://philbooth.me/blog/four-ways-to-shoot-yourself-in-the-foot-with-redis>
+- **Garnet**
+  - *Remote cache-store. Garnet can work with existing Redis clients.* 
+  - <https://github.com/microsoft/garnet> 
 - **memcached**
   - <https://github.com/memcached/memcached> <img loading="lazy" src="https://img.shields.io/github/stars/memcached/memcached?style=flat-square"/>
 - **Hazelcast** 💰
