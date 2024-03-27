@@ -34,15 +34,13 @@ parent: Java
 
 
 ## Distributionen
-- **OpenJDK**
-    - Open Source Reference Implementation der Java Standard Edition (SE) Spec 
-    - Der Begriff meint zum einen das Open-Source-Repository mit dem Java-Quellcode, zum anderen die Distribution (Builds/Binaries) von Oracle ("Oracle OpenJDK")
+- **OpenJDK (Repository)**
+    - Open-Source-Repository mit dem Java-Quellcode, Reference Implementation der Java Standard Edition (SE) Spec 
     - Nach einem Release wird ein Maintenance-Fork ("u"/update-Fork) erstellt. Nach 6 Monaten (Release neue Version) keine weiteren Updates (es sei denn jmd. aus der Community stellt welche bereit), auch nicht für "LTS"-Versionen (hierzu siehe unten).
     - kein Support, keine Builds
-- **OracleJDK**
-    - OpenJDK mit ein paar Erweiterungen. Kostenpflichtig ab Java 12. Längerer Support für LTS-Versionen. Es gibt Lizenzen für Entwickler oder persönlichen Gebrauch, kommerzielle Verwendung ist hier aber ausgeschlossen.
-    - LTS
-        - *Oracle's stated opinion is that there's nothing special about LTS releases, and they merely correspond to an Oracle support product and should not be significant to anyone who is not a paying customer that buys support from Oracle.*
+- **Oracle OpenJDK**
+    - *These are supported until the next JVM release, and then support ends immediately - there is no such thing as an OpenJDK LTS release at al* 
+    - <https://openjdk.org/> 
 - **Andere OpenJDK Distributionen**
     - zum Teil kostenpflichtig
     - viele Hersteller stimmen darin überein, dass Java 11, 17, ... LTS-Versionen sein sollen
@@ -55,6 +53,9 @@ parent: Java
         - *The Adoptium Working Group promotes and supports (...) runtimes and associated technology for use across the Java ecosystem. <mark>Eclipse Temurin</mark> is the name of the OpenJDK distribution from Adoptium.* 
         - [https://adoptium.net/](https://adoptium.net/)
     - ...
+- **OracleJDK**
+    - OpenJDK mit ein paar Erweiterungen. Kostenpflichtig ab Java 12. Längerer Support für LTS-Versionen. Es gibt Lizenzen für Entwickler oder persönlichen Gebrauch, kommerzielle Verwendung ist hier aber ausgeschlossen.
+    - LTS: *Oracle's stated opinion is that there's nothing special about LTS releases, and they merely correspond to an Oracle support product and should not be significant to anyone who is not a paying customer that buys support from Oracle.*
 - **OpenJ9**
     - *~~an Eclipse open source project~~ initially developed by IBM under the name J9*
     - *Compared to Hotspot, OpenJ9 trades performance (both in throughput and latency) for a lower memory footprint*
