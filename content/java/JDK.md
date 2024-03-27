@@ -154,8 +154,11 @@ parent: Java
     - *not a standalone tool*
     - *activate it in two ways: when starting a Java application or passing diagnostic commands of the jcmd tool when a Java application is already running*
     - <https://github.com/flight-recorder/health-report>
+        - *Java program that demonstrates the JFR Event Streaming API* 
     - <https://www.javaadvent.com/2021/12/keep-your-sql-in-check-with-flight-recorder-jmc-agent-and-jfrunit.html>
-    - Übersicht JFR-Events: <https://bestsolution-at.github.io/jfr-doc/>
+    - Übersicht JFR-Events
+        - <https://bestsolution-at.github.io/jfr-doc/>
+        - <https://sap.github.io/SapMachine/jfrevents/>
     - Custom events (jdk.jfr api; java 9+): <https://www.morling.dev/blog/rest-api-monitoring-with-custom-jdk-flight-recorder-events/>
     - <https://blogs.oracle.com/javamagazine/java-flight-recorder-and-jfr-event-streaming-in-java-14>
         - *added in JDK 14, the package jdk.jfr.consumer provides APIs for the consumption of JFR events without requiring a JFR dump to be done*
