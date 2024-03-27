@@ -38,6 +38,8 @@ parent: Datenbank
 ## GUI Clients
 - **dbeaver**
   - <https://github.com/dbeaver/dbeaver>
+- **CloudBeaver**
+  - <https://github.com/dbeaver/cloudbeaver> 
 - **falcon**
   - <https://github.com/plotly/falcon> *4.8k
   - für Windows & Mac
