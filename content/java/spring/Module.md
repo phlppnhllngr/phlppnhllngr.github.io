@@ -5,7 +5,15 @@ grand_parent: Java
 ---
 
 # Module
+{: .no_toc }
 - <https://spring.io/projects/>
+
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
 
 ## MVC
 - **nützliche @ControllerAdvice**
@@ -168,3 +176,7 @@ grand_parent: Java
 - *support for publishing authentication and authorization events in conjunction with Spring Security* → spring/security
 - <https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html>
 - -> Libs+Addons/Admin/boost
+
+
+## AI
+- <https://spring.io/projects/spring-ai/>
