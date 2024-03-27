@@ -204,7 +204,10 @@ parent: Java
     - *allows testing and simulating network failure scenarios*
     - *can simulate are latency, bandwidth restrictions, and complete failures*
     - <https://www.atomicjar.com/2023/03/developing-resilient-applications-with-toxiproxy-and-testcontainers/>
-    - auch ohne Testcontainers und für andere Sprachen erhältlich: <https://github.com/trekawek/toxiproxy-java> 
+    - auch ohne Testcontainers und für andere Sprachen erhältlich: <https://github.com/trekawek/toxiproxy-java>
+  - Testcontainers Desktop
+    - *The Testcontainers Desktop app makes it easy to use fixed ports for your container so that you can always use that same fixed host port to connect to the container from external tools during the development.*
+    - <https://testcontainers.com/desktop/> 
 - **LogCaptor**
   - *captures log entries for unit and integration testing purposes* 
   - <https://github.com/Hakky54/log-captor> 
