@@ -12,7 +12,10 @@ parent: Datenbank
   - CloudNativePG
     - *operator designed to manage PostgreSQL workloads on any supported Kubernetes cluster running in private, public, hybrid, or multi-cloud environments*
     - *leverages Kubernetes by extending its controller and by defining, in a programmatic way, all the actions that a good DBA would normally do when managing a highly available PostgreSQL database cluster* 
-    - <https://github.com/cloudnative-pg/cloudnative-pg> 
+    - <https://github.com/cloudnative-pg/cloudnative-pg>
+  - readyset
+    - *a MySQL and Postgres wire-compatible caching layer that sits in front of existing databases to speed up queries and horizontally scale read throughput. Under the hood, ReadySet caches the results of cached select statements and incrementally updates these results over time as the underlying data changes.* 
+    - <https://github.com/readysettech/readyset> 
 - **DB2** -> Db2
 - **Dolt**
   - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
