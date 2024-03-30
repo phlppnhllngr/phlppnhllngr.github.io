@@ -322,6 +322,13 @@ parent: Diverses
 - **Meltano**
   - *CLI & version control for ELT without limitations* 
   - <https://github.com/meltano/meltano>  
+- **Orbital**
+  - *APIs and Data sources*
+  - *Rather than relying on glue code to bridge endpoints, Orbital leverages annotations in schemas & API specs to build the integration dynamically.*
+  - *With Orbital, developers embed tags to their existing API specs (OAP, Protobuf, etc), indicating where data can be sourced, and publish these specs to Orbital (which runs self-hosted).
+    Consumers query these tags with our TaxiQL language, and Orbital generates the integration on the fly. That could be merging multiple APIs, blending API and database queries, or enriching event streams to craft custom message payloads.*
+  - <https://news.ycombinator.com/item?id=38012311>
+  - <https://github.com/orbitalapi/orbital>
 
 
 ## Textanalyse, Datenextraktion
