@@ -359,7 +359,7 @@ parent: Java
 	  - <https://www.mojohaus.org/jaxws-maven-plugin>
 	  - <https://www.baeldung.com/maven-wsdl-stubs>
   - 2) com.sun.xml.ws
-  	- die moderen Version des Plugins, auch für Java 11+ geeignet 
+  	- die moderne Version des Plugins, auch für Java 11+ geeignet 
   	- <https://github.com/eclipse-ee4j/metro-jax-ws/tree/master/jaxws-ri/extras/jaxws-maven-plugin>
   	- <https://eclipse-ee4j.github.io/metro-jax-ws/jaxws-maven-plugin/>
   - 3) org.jvnet.jax-ws-commons -> der Vorgänger von 2)
@@ -560,7 +560,8 @@ parent: Java
     - Feign
     	- nur wirklich mit Jackson möglich (angeblich werden Gson und Jackson unterstützt) 
   - <https://openapi-generator.tech/docs/plugins/> 
-  - <https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md> 
+  - <https://github.com/OpenAPITools/openapi-generator/blob/master/modules/openapi-generator-maven-plugin/README.md>
+  - <https://www.baeldung.com/spring-boot-openapi-generator-custom-templates>
 - **swagger**
   - *JAX-RS & SpringMVC supported maven build plugin, helps you generate Swagger JSON and API document in build phase.*
   - <https://github.com/kongchen/swagger-maven-plugin>
