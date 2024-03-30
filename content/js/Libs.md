@@ -160,6 +160,7 @@ UI → UI Libs
 - **react-print-pdf**
   - *collection of high-quality, unstyled components for creating beautiful PDFs*
   - *Generation: we have an API and Node.js SDK that render your designs into PDFs.*
+  - *sits atop react-pdf*
   - <https://github.com/OnedocLabs/react-print-pdf>
   - <https://news.ycombinator.com/item?id=39668962>
 
