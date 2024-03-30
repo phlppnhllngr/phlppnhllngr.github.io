@@ -157,6 +157,11 @@ UI → UI Libs
 - **react-pdf**
   - *React renderer for creating PDF files on the browser and server*
   - <https://github.com/diegomura/react-pdf>
+- **react-print-pdf**
+  - *collection of high-quality, unstyled components for creating beautiful PDFs*
+  - *Generation: we have an API and Node.js SDK that render your designs into PDFs.*
+  - <https://github.com/OnedocLabs/react-print-pdf>
+  - <https://news.ycombinator.com/item?id=39668962>
 
 
 ## Http-Client
