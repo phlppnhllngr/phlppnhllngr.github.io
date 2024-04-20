@@ -80,6 +80,7 @@ parent: Diverses
   - <http://redsymbol.net/articles/unofficial-bash-strict-mode>
   - <https://cuddly-octo-palm-tree.com/posts/2021-01-17-bash-set-dash-e> (exit on error)
   - <https://tldp.org/LDP/abs/html/options.html>
+  - <https://gist.github.com/mohanpedala/1e2ff5661761d3abd0385e8223e16425>
 - **Strings prüfen**
   - Ob leer (zero-length, null): `if [ -z "$str" ];`
   - Ob nicht leer: `if [ -n "$str" ];`
