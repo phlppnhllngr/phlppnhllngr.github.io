@@ -277,15 +277,6 @@ parent: Java
 - *The goal of the tiered compilation is (...) to have both fast startup times and good long-term performance. Tiered compilation increases the amount of code that needs to be cached in memory by up to four times. Since Java 8, this is enabled by default for JIT, although we still can disable tiered compilation.*
 - *Peak "CodeCache" usage is often during application startup, going from 192 MB to 64 MB saves a lot of memory which can be used as heap. Applications that have a lot of active code during runtime (e.g. a web-application with a lot of endpoints) may need more "CodeCache". If "CodeCache" is too low, your application will use a lot of CPU without doing much (this can also manifest during startup: if "CodeCache" is too low, your application can take a very long time to startup).*
 
-### GC
-- <https://dzone.com/articles/interesting-garbage-collection-patterns>
-- <https://www.reddit.com/r/java/comments/qlxopy/how_to_choose_the_best_java_garbage_collector/.compact>
-
-#### Caveats
-- *The GC is unable to clear static fields unless the class that owns it is unloaded, which only happens if the Classloader that called it is garbage collected.*
-- *Unclosed system resources: The GC indirectly frees up files since classes like FileInputStream are written such that if an instance is garbage collected, the ‘close()’ method will be called first. This way, unclosed system resources don’t always pose a risk, so a lot of developers tend to look over them.*
-- *Unclosed connections: Like with unclosed resources, unclosed database or network connections can lead to significant memory use if not unloaded.*
-
 ### Symbol
 - *The JVM uses the Symbol area to store symbols such as field names, method signatures, and interned strings*
   
@@ -294,6 +285,27 @@ parent: Java
   
 ### Other
 - *Every other memory usage that can't be categorized in the native memory area falls in this section. As an example, DirectByteBuffer usage is indirectly visible in this part.*
+
+### GC
+- <https://dzone.com/articles/interesting-garbage-collection-patterns>
+- <https://www.reddit.com/r/java/comments/qlxopy/how_to_choose_the_best_java_garbage_collector/.compact>
+- <https://www.virtuozzo.com/company/blog/tuning-garbage-collector-java-memory-usage-optimization/>
+
+#### Caveats
+- *The GC is unable to clear static fields unless the class that owns it is unloaded, which only happens if the Classloader that called it is garbage collected.*
+- *Unclosed system resources: The GC indirectly frees up files since classes like FileInputStream are written such that if an instance is garbage collected, the ‘close()’ method will be called first. This way, unclosed system resources don’t always pose a risk, so a lot of developers tend to look over them.*
+- *Unclosed connections: Like with unclosed resources, unclosed database or network connections can lead to significant memory use if not unloaded.*
+
+#### Releasing memory back to OS
+- *The HotSpot JVM does release memory back to the OS, but does so reluctantly since resizing the heap is expensive and it is assumed that if you needed that heap once you'll need it again.*
+- *In general shrinking ability and behavior depends on the chosen garbage collector, the JVM version*
+- *The JVM does release back memory under some circumstances, but (for performance reasons) this does not happen whenever some memory is garbage collected. It also depends on the JVM, OS, garbage collector etc.*
+- *JDK 8 and earlier: There are no explicit options for prompt memory reclamation in these versions but you can make the GC more aggressive in general by setting `-XX:GCTimeRatio=19 -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=30` which will allow it to spend more CPU time on collecting and constrain the amount of allocated-but-unused heap memory after a GC cycle. If you're using a concurrent collector you can also set `-XX:InitiatingHeapOccupancyPercent=N` with N to some low value to let the GC run concurrent collections almost continuously, which will consume even more CPU cycles but shrink the heap sooner. This generally is not a good idea, but on some types of machines with lots of spare CPU cores but short on memory it can make sense. If you're using G1GC note that it only gained the ability to yield back unused chunks in the middle of the heap with jdk8u20, earlier versions were only able to return chunks at the end of the heap which put significant limits on how much could be reclaimed. If you're using a collector with a default pause time goal (e.g. CMS or G1) you can also relax that goal to place fewer constraints on the collector, or you can switch go the parallel collector to prioritize footprint over pause times. To verify that shrinking occurs or to diagnose why a GC decides not to shrink you can use GC Logging with `-XX:+PrintAdaptiveSizePolicy` may also provide insight, e.g. when the JVM tries to use more memory for the young generation to meet some goals.*
+- *JDK 9 Added the `-XX:-ShrinkHeapInSteps` option which can be be used to apply the shrinking caused by the options mentioned in the previous section more aggressively. For logging `-XX:+PrintAdaptiveSizePolicy` has been replaced with `-Xlog:gc+ergo`*
+- *JDK 12 introduced the option to enable prompt memory release for G1GC via the `G1PeriodicGCInterval`, again at the expense of some additional CPU. The JEP also mentions similar features in Shenandoah and the OpenJ9 VM.*
+- *Since Java 12, G1 does this [shrinking] automatically if the application is idle. I recommend using these options combined with the above suggestion for a very compact resident process size: `-XX:+UseG1GC -XX:MaxHeapFreeRatio=30 -XX:MinHeapFreeRatio=10`*
+- *ZGC released in 13 java and it can return unused heap memory to the operating system*
+- <https://www.baeldung.com/gc-release-memory>
 
 
 ## Extension Mechanism
