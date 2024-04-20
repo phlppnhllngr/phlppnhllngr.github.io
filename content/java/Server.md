@@ -243,8 +243,6 @@ parent: Java
       end-if
       stop-embedded-server
 
-
-      
       quit
       ```
     - embedded server
@@ -276,7 +274,12 @@ parent: Java
   - web service
     - <https://docs.wildfly.org/26/Admin_Guide.html#Web_services>
   - jmx
-    - <https://docs.wildfly.org/26/Admin_Guide.html#JMX> 
+    - <https://docs.wildfly.org/26/Admin_Guide.html#JMX>
+- **Galleon & Glow** 
+  - <https://www.wildfly.org/news/2024/01/29/wildfly-glow/>
+    - *WildFly provisioning is: The ability to create a WildFly server installation on the fly. The ability to choose the set of features you want to see in the created server.*
+    - *Galleon is the technology used by WildFly provisioning.*
+    - *Glow stands for “Galleon Layers Output from War”. By inspecting your deployments(s), WildFly Glow can determine the set of Galleon feature-packs and layers that your application requires.*
 
 
 ### TomEE
