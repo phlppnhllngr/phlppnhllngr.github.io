@@ -46,6 +46,10 @@ parent: Webdev
   - *Generates SSL/TLS certificates automatically*
   - *combines Caddy and smallstep/certificates with automated configuration and hot reload*
   - <https://github.com/luisfarzati/localdots>
+- **localias**
+  - *tool for developers to securely manage local aliases for development servers.*
+  - *Use Localias to redirect https://server.test → http://localhost:3000 in your browser and on your command line.*
+  - <https://github.com/peterldowns/localias> 
 
 
 ## ngrok und Alternativen
