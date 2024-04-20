@@ -104,7 +104,10 @@ grand_parent: DevOps
   - <https://github.com/dmikusa/tiny-health-checker>
 - **logspout**
   - *attaches to all containers on a host, then routes their logs wherever you want* 
-  - <https://github.com/gliderlabs/logspout> 
+  - <https://github.com/gliderlabs/logspout>
+- **dockerc**
+  - *container image to single executable compiler* 
+  - <https://github.com/NilsIrl/dockerc> 
 
 
 ## GUIs
