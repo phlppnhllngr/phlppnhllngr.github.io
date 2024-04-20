@@ -91,7 +91,13 @@ parent: Datenbank
   - *Supports SQL migrations and Go functions*
   - <https://github.com/pressly/goose>
 - **Prisma**
-  - <https://www.prisma.io/migrate> 
+  - <https://www.prisma.io/migrate>
+- **atlas**
+  - *Manage your database schema as code*
+  - *language-agnostic tool for managing and migrating database schemas*
+  - *Inspect a specific PostgreSQL schema and get its ERD representation in the browser*
+  - *Supported databases: MySQL, MariaDB, PostgresSQL, SQLite, TiDB, CockroachDB, SQL Server, ClickHouse.* 
+  - <https://github.com/ariga/atlas> 
 
 
 ## Change data capture
