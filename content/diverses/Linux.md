@@ -62,6 +62,7 @@ parent: Diverses
 - [HN: Linux command line for you and me](https://news.ycombinator.com/item?id=32886315)
 - <https://github.com/trinib/Linux-Bash-Commands> - *Ultimate list of Linux bash commands, cheatsheet and resources*
 - [Buch "The Linux Command Line"](https://www.linuxcommand.org/tlcl.php)
+- <https://testing.googleblog.com/2023/10/shell-scripts-stay-small-simple.html>
 <br/><br/>
 - `sudo !!` um den letzen Befehl als Sudoer zu wiederholen
 - `$?` = exit code des letzten Commands
