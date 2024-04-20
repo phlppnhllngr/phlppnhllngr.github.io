@@ -71,11 +71,13 @@ parent: Java
   - *sets up your Kotlin/JVM (or Java) project in no time*
   - *Bootstrap new projects, Run static code analysis, Run vulnerability scans, Create Docker images, ...*
   - <https://github.com/mrkuz/kradle#feature-java> 
-- **bld**
-  - *allows you to write your build logic in pure Java*
-  - Plugin für Intellij
-  - <https://github.com/rife2/rife2/wiki/What-Is-Bld>
-  - <https://rife2.com/bld>
+
+
+## bld
+- *allows you to write your build logic in pure Java*
+- Plugin für Intellij
+- <https://github.com/rife2/rife2/wiki/What-Is-Bld>
+- <https://rife2.com/bld>
 
 
 ## Diverse
