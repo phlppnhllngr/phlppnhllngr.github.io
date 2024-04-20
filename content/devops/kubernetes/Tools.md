@@ -51,6 +51,9 @@ grand_parent: DevOps
   - helm unittest
     - *BDD styled unit test framework for Kubernetes Helm charts as a Helm plugin.* 
     - <https://github.com/helm-unittest/helm-unittest>
+  - helm-diff
+    - *plugin that shows a diff explaining what a helm upgrade would change* 
+    - <https://github.com/databus23/helm-diff> 
 - **Testkube**
   - *allows you to automate the executions of your existing testing tools inside your Kubernetes cluster, removing all the complexity from your CI/CD pipelines.* 
   - <https://github.com/kubeshop/testkube> 
