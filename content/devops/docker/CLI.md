@@ -83,7 +83,8 @@ grand_parent: DevOps
       - `--force`
         - *Do not prompt for confirmation* 
       - `--volumes`
-        - *Prune volumes* 
+        - *Prune volumes*
+        - löscht aber nicht alle ungenutzten Volumes --> `docker volume prune --all`
       - `--filter`  
     - <https://docs.docker.com/engine/reference/commandline/system_prune/>  
 - **volume**
@@ -96,4 +97,8 @@ grand_parent: DevOps
                   docker run -i --rm -v cifs_volume:/mnt busybox ls -l /mnt
                 ```
         - <https://docs.docker.com/engine/reference/commandline/volume_create/>
+    - prune
+      - Optionen
+        - --all
+        - --force  
     - <https://docs.docker.com/storage/volumes/>
