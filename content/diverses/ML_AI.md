@@ -45,7 +45,7 @@ parent: Diverses
   - <https://github.com/togethercomputer/OpenChatKit>
 - **mayooear/gpt4-pdf-chatbot-langchain**
   - *Create a ChatGPT Chatbot for Your PDF Files* 
-  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/gpt4-pdf-chatbot-langchain?style=flat-square"/>
+  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
 - **MindsDB**
   - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
   - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
