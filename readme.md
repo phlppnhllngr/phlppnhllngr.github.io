@@ -17,7 +17,7 @@ dev (JEKYLL_ENV=development):
 supported plugins: <https://pages.github.com/versions/>
 
 
-<code>
+```
 # H1
 {: .no_toc }
 
@@ -27,4 +27,4 @@ supported plugins: <https://pages.github.com/versions/>
 {:toc}
 
 ## H2
-</code>
+```
