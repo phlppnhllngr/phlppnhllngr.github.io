@@ -60,6 +60,9 @@ parent: Diverses
 - **simonw/llm**
   - *Access large language models from the command-line* 
   - <https://github.com/simonw/llm> <img loading="lazy" src="https://img.shields.io/github/stars/simonw/llm?style=flat-square"/>
+- **Open WebUI**
+  - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
+  - <https://github.com/open-webui/open-webui> 
 
 
 ## Local LLM
@@ -67,7 +70,8 @@ parent: Diverses
 - **Ollama**
   - *Get up and running with large language models locally.*
   - <https://github.com/ollama/ollama?tab=readme-ov-file#model-library>
-  - *Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.* 
+  - *Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.*
+  - keine UI (CLI-Tool) => Open WebUI
   - <https://github.com/ollama/ollama> <img loading="lazy" src="https://img.shields.io/github/stars/ollama/ollama?style=flat-square"/>
 - **PrivateGPT**
   - *Interact with your documents using the power of GPT, 100% privately, no data leaks* 
