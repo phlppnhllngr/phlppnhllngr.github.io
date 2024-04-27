@@ -4,7 +4,14 @@ parent: Diverses
 ---
 
 # ML, AI
+{: .no_toc }
 - <https://www.youtube.com/@TwoMinutePapers/videos>
+
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
 
 
 ## Tools
