@@ -67,6 +67,7 @@ parent: Diverses
 
 ## Local LLM
 - <https://old.reddit.com/r/LocalLLaMA/>
+- <https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/>
 - **Ollama**
   - *Get up and running with large language models locally.*
   - <https://github.com/ollama/ollama?tab=readme-ov-file#model-library>
