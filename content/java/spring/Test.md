@@ -125,4 +125,13 @@ grand_parent: Java
   - <https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/testcontainers/service/connection/ServiceConnection.html>
 - **SpyBean** (🥾)
   - *allows us to create a spy (partial mock) of a Spring bean while still using the actual bean definition from our application context*
-  - <https://www.baeldung.com/spring-spy-vs-spybean> 
+  - <https://www.baeldung.com/spring-spy-vs-spybean>
+- **@TestBean**
+  - *used on a test class field to override a specific bean in the test’s ApplicationContext*
+  - *uses the REPLACE_DEFINITION strategy for test bean overriding* 
+- **@MockitoBean**
+  - *used on test class fields to override beans in the test’s ApplicationContext*
+  - *uses the REPLACE_OR_CREATE_DEFINITION strategy for test bean overriding*
+- **@MockitoSpyBean**
+  - *used on test class fields to override beans in the test’s ApplicationContext*
+  - *uses the WRAP_BEAN strategy, and the original instance is wrapped in a Mockito spy*
