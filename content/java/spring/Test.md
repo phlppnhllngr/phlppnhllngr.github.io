@@ -127,11 +127,14 @@ grand_parent: Java
   - *allows us to create a spy (partial mock) of a Spring bean while still using the actual bean definition from our application context*
   - <https://www.baeldung.com/spring-spy-vs-spybean>
 - **@TestBean**
+  - 6.2+ 
   - *used on a test class field to override a specific bean in the test’s ApplicationContext*
   - *uses the REPLACE_DEFINITION strategy for test bean overriding* 
 - **@MockitoBean**
+  - 6.2+ 
   - *used on test class fields to override beans in the test’s ApplicationContext*
   - *uses the REPLACE_OR_CREATE_DEFINITION strategy for test bean overriding*
 - **@MockitoSpyBean**
+  - 6.2+ 
   - *used on test class fields to override beans in the test’s ApplicationContext*
   - *uses the WRAP_BEAN strategy, and the original instance is wrapped in a Mockito spy*
