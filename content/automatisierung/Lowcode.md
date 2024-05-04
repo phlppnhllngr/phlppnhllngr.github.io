@@ -68,7 +68,7 @@ parent: Automatisierung
   - *Connect UI to DB queries or APIs to build admin panels*
   - self- oder cloud-hosted
   - 💰 für "enterprise features"
-  - Supported Databases: kein DB2
+  - [Supported Databases](https://docs.appsmith.com/connect-data/reference): kein DB2
   - <https://github.com/appsmithorg/appsmith> <img loading="lazy" src="https://img.shields.io/github/stars/appsmithorg/appsmith?style=flat-square"/>
   - <https://www.appsmith.com/>
 - **bubble**
