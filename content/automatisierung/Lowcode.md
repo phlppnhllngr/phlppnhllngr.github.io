@@ -22,7 +22,7 @@ parent: Automatisierung
   - <https://www.makerpad.co/>
   - Tutorials für diverse no-code-Tools
 - **budibase**
-  - *for building, designing, and automating business apps, such as; admin panels, forms, internal tools, client portals, and more*
+  - *for building, designing, and automating business apps [and workflows], such as; admin panels, forms, internal tools, client portals, and more*
   - *Supports PostgreSQL, MySQL, MSSQL, MongoDB, Rest API, Docker, K8s*
   - docker-compose: <https://raw.githubusercontent.com/Budibase/budibase/master/hosting/docker-compose.yaml>
   - *Explore over 50 Budibase [templates](https://budibase.com/templates/). Templates are free, 100% customizable, and take a couple of clicks to install*
