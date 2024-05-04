@@ -62,13 +62,13 @@ parent: Automatisierung
   - <https://github.com/saltcorn/saltcorn> <img loading="lazy" src="https://img.shields.io/github/stars/saltcorn/saltcorn?style=flat-square"/>
   - *open-source no-code builder for web applications. It is a complete end-to-end solution for the front-end, backend and database of your application, and it manages both the build and the hosting stages of your application life-cycle with an intuitive point-and-click, drag-and-drop user interface.*
 - **appsmith**
-  - *build admin panels, CRUD apps and workflows*
-  - *Create apps by connecting UI widgets to any database and writing any logic in JS*
   - *build dashboards, workflows, forms, and any internal tool.*
+  - *Create apps by connecting UI widgets to any database and writing any logic in JS*
   - *Connect UI to DB queries or APIs to build admin panels*
   - self- oder cloud-hosted
   - 💰 für "enterprise features"
   - [Supported Databases](https://docs.appsmith.com/connect-data/reference): kein DB2
+  - [Installation mit Docker (1 Image)](https://docs.appsmith.com/getting-started/setup/installation-guides/docker)
   - <https://github.com/appsmithorg/appsmith> <img loading="lazy" src="https://img.shields.io/github/stars/appsmithorg/appsmith?style=flat-square"/>
   - <https://www.appsmith.com/>
 - **bubble**
