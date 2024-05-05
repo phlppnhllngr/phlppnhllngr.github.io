@@ -191,3 +191,6 @@ parent: DevOps
   - *open-source APM & Observability tool, a DataDog and NewRelic alternative*
   - *Metrics, logs, traces, and profiles are gathered automatically by using eBPF* 
   - <https://github.com/coroot/coroot>
+- **DeepFlow**
+  - *eBPF-powered observability & zero-code distributed tracing* 
+  - <https://github.com/deepflowio/deepflow> <img loading="lazy" src="https://img.shields.io/github/stars/deepflowio/deepflow?style=flat-square"/>
