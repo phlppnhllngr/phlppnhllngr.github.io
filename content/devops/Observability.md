@@ -184,4 +184,6 @@ parent: DevOps
   - *continuous profiling platform*
   - *Debug performance issues down to a single line of code*
   - Unterstützte Langs: Go, Java (via async-profiler), Python, Ruby, NodeJs, .NET, Rust 
-  - <https://github.com/grafana/pyroscope> 
+  - <https://github.com/grafana/pyroscope>
+- **Hertzbeat**
+  - <https://github.com/apache/hertzbeat> <img loading="lazy" src="https://img.shields.io/github/stars/apache/hertzbeat?style=flat-square"/>
