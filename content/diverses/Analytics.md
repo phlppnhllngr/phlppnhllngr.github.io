@@ -78,6 +78,7 @@ parent: Diverses
 
 
 ## Visualisierung
+- <https://github.com/obazoud/awesome-dashboard>
 - **Metabase**
   - <https://www.metabase.com/>
   - <https://github.com/metabase/metabase> <img loading="lazy" src="https://img.shields.io/github/stars/metabase/metabase?style=flat-square"/>
