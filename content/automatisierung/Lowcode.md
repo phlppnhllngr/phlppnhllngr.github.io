@@ -47,6 +47,9 @@ parent: Automatisierung
     - *For easy setup and deployment, we provide an all-in-one image which bundles frontend, backend and data persistence services altogether in one single container.*
     - <https://docs.openblocks.dev/self-hosting>
   - <https://github.com/openblocks-dev/openblocks> <img loading="lazy" src="https://img.shields.io/github/stars/openblocks-dev/openblocks?style=flat-square"/>
+- **Lowcoder**
+  - *continues from the abandoned Openblocks project* 
+  - <https://github.com/lowcoder-org/lowcoder> 
 - **lowdefy**
   - *An open-source low-code framework to build web apps, admin panels, BI dashboards, workflows, and CRUD apps with YAML.*
   - *UIs in Lowdefy are built using blocks, which are React components*
@@ -165,6 +168,10 @@ parent: Automatisierung
   - *currently support Node/Express, rolling out Python SDKs for Flask & Django
   - Self-Hosting geplant
   - <https://joinonu.com/>
+- **ToolJet**
+  - *Open-source low-code framework for building React-based web applications and internal tools*
+  - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
+  - <https://github.com/ToolJet/ToolJet> <img loading="lazy" src="https://img.shields.io/github/stars/ToolJet/ToolJet?style=flat-square"/>
 
 
 ### Workflow
@@ -267,11 +274,6 @@ parent: Automatisierung
 ##### React
 - <https://compositor.io/iso/>
 - <https://github.com/Pagedraw/pagedraw>
-- **ToolJet**
-  - *Open-source low-code framework for building React-based web applications and internal tools*
-  - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
-  - <https://github.com/ToolJet/ToolJet>
-  - <https://www.reddit.com/r/javascript/comments/sotwla/tooljet_extensible_opensource_5k_stars_on_github/.compact>
 - **Codux**
   - WYSIWYG Editor
   - <https://www.codux.com/>
