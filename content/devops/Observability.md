@@ -187,3 +187,7 @@ parent: DevOps
   - <https://github.com/grafana/pyroscope>
 - **Hertzbeat**
   - <https://github.com/apache/hertzbeat> <img loading="lazy" src="https://img.shields.io/github/stars/apache/hertzbeat?style=flat-square"/>
+- **Coroot**
+  - *open-source APM & Observability tool, a DataDog and NewRelic alternative*
+  - *Metrics, logs, traces, and profiles are gathered automatically by using eBPF* 
+  - <https://github.com/coroot/coroot>
