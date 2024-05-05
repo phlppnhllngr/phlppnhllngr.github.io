@@ -194,3 +194,6 @@ parent: DevOps
 - **DeepFlow**
   - *eBPF-powered observability & zero-code distributed tracing* 
   - <https://github.com/deepflowio/deepflow> <img loading="lazy" src="https://img.shields.io/github/stars/deepflowio/deepflow?style=flat-square"/>
+- **OneUptime**
+  - *complete open-source observability platform* 
+  - <https://github.com/OneUptime/oneuptime> 
