@@ -196,4 +196,7 @@ parent: DevOps
   - <https://github.com/deepflowio/deepflow> <img loading="lazy" src="https://img.shields.io/github/stars/deepflowio/deepflow?style=flat-square"/>
 - **OneUptime**
   - *complete open-source observability platform* 
-  - <https://github.com/OneUptime/oneuptime> 
+  - <https://github.com/OneUptime/oneuptime>
+- **OpenObserve**
+  - *observability platform built specifically for logs, metrics, traces, analytics, RUM (Real User Monitoring - Performance, Errors, Session Replay)* 
+  - <https://github.com/openobserve/openobserve> <img loading="lazy" src="https://img.shields.io/github/stars/openobserve/openobserve?style=flat-square"/>
