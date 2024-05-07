@@ -92,6 +92,7 @@ parent: Webdev
   - *rather than just proxying http endpoints, zrok allows users to easily and rapidly share files and web content*
   - *zrok.io is a public service instance operated by NetFoundry using the same code base that is available to self-hosted environments.*
   - <https://github.com/openziti/zrok>
+  - Support für Http-Proxy: ja (Env-Vars `https_proxy` und `http_proxy`)
 - **tunnelmole**
   - *simple tool to give your locally running HTTP(s) servers a public URL such as https://df34.tunnelmole.com*
   - <https://github.com/robbie-cahill/tunnelmole-client>
