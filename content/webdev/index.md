@@ -49,6 +49,9 @@ has_children: true
   - *works just as well on the server as on the client. It interoperates fully with the npm + node ecosystem* 
   - <https://imba.io/>
   - [HN - 09/2023](https://news.ycombinator.com/item?id=37622184)
+- **WebUI**
+  - *Use any web browser as GUI, with your preferred language in the backend and HTML5 in the frontend*
+  - <https://github.com/webui-dev/webui>
 
 
 ## Recorder
