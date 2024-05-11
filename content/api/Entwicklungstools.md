@@ -147,4 +147,10 @@ parent: API
   - <https://github.com/alufers/mitmproxy2swagger>
 - **Charles**
   - *is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).* 
-  - <https://www.charlesproxy.com/> 
+  - <https://www.charlesproxy.com/>
+- **specmatic**
+  - *leverages API specifications like OpenAPI, AsyncAPI, etc. as executable contracts allowing teams to get instantaneous feedback while making changes to avoid accidental breakage.*
+  - *Generating free tests on the fly based only on your API specifications*
+  - *Stubbing a service based on its API specification*
+  - *API calls (JSon REST, SOAP XML, gRPC, Thrift, other binary protocols), Events via Messaging (Kafka, Redis, ActiveMQ, RabbitMQ, Kinesis, etc.), DB, Other Data Stores, File system*
+  - <https://github.com/znsio/specmatic>
