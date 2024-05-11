@@ -156,6 +156,9 @@ parent: Datenbank
   - *Connect to Dolt just like any MySQL database to run queries or update the data using SQL commands.* 
   - <https://github.com/dolthub/dolt> <img loading="lazy" src="https://img.shields.io/github/stars/dolthub/dolt?style=flat-square"/>
   - <https://www.dolthub.com/blog/2022-07-11-dolt-case-studies/>
+  - DoltgreSQL
+    - *Version Controlled PostgreSQL*
+    - <https://github.com/dolthub/doltgresql>
 - **8base**
   - mit GraphQL + Lowcode-UI-Builder
 - **fauna**
