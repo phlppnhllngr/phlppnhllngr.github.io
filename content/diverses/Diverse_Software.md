@@ -226,11 +226,11 @@ parent: Diverses
   - *Eliminate complex error or retry logic, avoid callbacks, and ensure that every workflow you start, completes. Temporal delivers durable execution for your services and applications.*
   - SDKs für Java, Go, Python, TS, JS, PHP
   - einfache Installation (nur ein Binary)
-  - <https://github.com/temporalio/temporal>
+  - <https://github.com/temporalio/temporal> <img loading="lazy" src="https://img.shields.io/github/stars/temporalio/temporal?style=flat-square"/>
   - <https://www.youtube.com/@Temporalio>
 - **Openjob**
   - *distributed and high-performance task scheduling framework that supports multiple cronjob, delay task, workflow, lightweight distributed computing, unlimited horizontal scaling, with high scalability and fault tolerance. Also has permission management, powerful alarm monitoring, and support multiple languages*
-  - <https://github.com/open-job/openjob>
+  - <https://github.com/open-job/openjob> <img loading="lazy" src="https://img.shields.io/github/stars/open-job/openjob?style=flat-square"/>
 - **airflow**
   - <https://github.com/apache/airflow> <img loading="lazy" src="https://img.shields.io/github/stars/apache/airflow?style=flat-square"/>
   - docker compose: <https://airflow.apache.org/docs/apache-airflow/2.5.1/docker-compose.yaml>
