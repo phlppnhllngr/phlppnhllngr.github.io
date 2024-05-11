@@ -32,6 +32,11 @@ grand_parent: DevOps
   - zeigt die Dockerfile-Zeilen und die daraus resultierenden Dateisystem-Zustände (als Tree), inkl. Dateigrößen
   - <https://github.com/wagoodman/dive> <img loading="lazy" src="https://img.shields.io/github/stars/wagoodman/dive?style=flat-square"/>
   - erhältlich als Binary oder Docker image
+- **docker-phobia**
+  - *Analyze Docker images size*
+  - *leverages dive internal API for Docker image retrieval and analysis*
+  - *Every rectangle represents a folder or file in the image. The bigger the rectangle, the more space it takes up. The different colors represent the different layers*
+  - <https://github.com/remorses/docker-phobia>
 - **jib**
   - *builds optimized Docker images for your Java applications without a Docker daemon - and without deep mastery of Docker best-practices. Available as plugins for Maven and Gradle and as a Java library.*
   - *Jib gives you the opportunity to build docker images: without a docker daemon running (CI and so on), with reproducible builds (which is also a big plus for cache friendliness), that are layered in a way so that you usually just need to push and pull your own code but not libraries or other resources because everything else is cached, with very little configuration needed, with lots of possibilities to configure stuff*
