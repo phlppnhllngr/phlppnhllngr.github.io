@@ -112,6 +112,10 @@ grand_parent: DevOps
 - **dockerc**
   - *container image to single executable compiler* 
   - <https://github.com/NilsIrl/dockerc> 
+- **caddy-docker-proxy**
+  - *Caddy as a reverse proxy for Docker*
+  - *scans Docker metadata, looking for labels indicating that the service or container should be served by Caddy.*
+  - <https://github.com/lucaslorentz/caddy-docker-proxy>
 
 
 ## GUIs
