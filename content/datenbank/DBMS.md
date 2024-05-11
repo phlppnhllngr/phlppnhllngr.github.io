@@ -23,11 +23,12 @@ parent: Datenbank
   - pg-mem
     - *in memory postgres DB instance for your unit tests*
     - Nodejs & Browser 
-    - <https://github.com/oguimbal/pg-mem> 
+    - <https://github.com/oguimbal/pg-mem>
+  - pglite
+    - *Lightweight Postgres packaged as WASM into a TypeScript library for the browser, Node.js, Bun and Deno*
+    - <https://github.com/electric-sql/pglite>
 - **DB2** -> Db2
-- **Dolt**
-  - *marries two familiar concepts, Git and MySQL. The first and only SQL database that supports clone, branch, and merge.*
-  - <https://www.dolthub.com/>
+
 
 ## Relationale Embedded
 - **H2**
