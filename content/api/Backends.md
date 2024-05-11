@@ -70,3 +70,6 @@ parent: API
 - **Fastgen**
   - *API and workflow builder with an integrated Postgres DB*
   - <https://fastgen.com/>
+- **Soul**
+  - *A SQLite REST and Realtime server*
+  - <https://thevahidal.github.io/soul/>
