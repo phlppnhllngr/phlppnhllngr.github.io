@@ -19,8 +19,12 @@ grand_parent: DevOps
   - [HN - Best practices around creating production ready web apps with Docker Compose, 06/21](https://news.ycombinator.com/item?id=27359081)
   - [HN - Awesome Docker Compose Examples](https://news.ycombinator.com/item?id=34940181)
     - <https://github.com/Haxxnet/Compose-Examples>
+  - docker rollout
+    - *updates Docker Compose services without downtime*
+    - <https://github.com/Wowu/docker-rollout>
 - **Composerize**
   - *Turns docker run commands into docker-compose files*
+  - *Caveats: Your service cannot have container_name and ports defined in docker-compose.yml, as it's not possible to run multiple containers with the same name or port mapping. Use a proxy [nginx, traefik] as described below.*
   - <https://github.com/magicmark/composerize>
 - **dive**
   - siehe auch `docker image history`
