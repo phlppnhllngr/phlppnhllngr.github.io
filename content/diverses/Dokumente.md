@@ -144,6 +144,18 @@ parent: Diverses
 - **QuestPDF**
   - *NET library for PDF document generation. Offering comprehensive layout engine powered by concise and discoverable C# Fluent API.*
   - <https://github.com/QuestPDF/QuestPDF>
+- **Htmldocs**
+  - *typesetting documents using HTML/CSS*
+  - *uses Chromium to generate PDFs*
+  - <https://htmldocs.com/>
+- **PrinceXML**
+  - <https://www.princexml.com/>
+- **WeasyPrint**
+  - *visual rendering engine for HTML and CSS that can export to PDF.*
+  - <https://github.com/Kozea/WeasyPrint>
+- **typst**
+  - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
+  - <https://github.com/typst/typst>
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
