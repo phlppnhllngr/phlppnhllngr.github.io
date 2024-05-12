@@ -42,7 +42,7 @@ parent: Webdev
   - <https://get.foundation/emails.html>
 - **react-email**
   - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
-  - <https://github.com/zenorocha/react-email> <img loading="lazy" src="https://img.shields.io/github/stars/react-email?style=flat-square"/>
+  - <https://github.com/resend/react-email> <img loading="lazy" src="https://img.shields.io/github/stars/resend/react-email?style=flat-square"/>
 - **Resend**
   - basiert auf react-email
   - *Build, test, and deliver transactional emails*
@@ -106,3 +106,12 @@ parent: Webdev
   - *fully featured open source mail delivery platform for incoming & outgoing e-mail*
   - *Think Sendgrid, Mailgun or Postmark but open source and ready for you to run on your own servers* 
   - <https://github.com/postalserver/postal> 
+- **Stalwart**
+  - Mailserver
+  - <https://stalw.art/>
+- **Maddy**
+  - Mailserver
+  - <https://github.com/foxcpp/maddy>
+- **Mox**
+  - Mailserver
+  - <https://github.com/mjl-/mox>
