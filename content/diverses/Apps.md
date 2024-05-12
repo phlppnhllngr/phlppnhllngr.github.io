@@ -85,3 +85,6 @@ parent: Diverses
   - Java
   - $, free tier
   - <https://gluonhq.com/products/mobile/>
+- **Slint**
+  - *declarative GUI toolkit to build native user interfaces for desktop and embedded applications [and mobile, web] written in Rust, C++, or JavaScript*
+  - <https://github.com/slint-ui/slint>
