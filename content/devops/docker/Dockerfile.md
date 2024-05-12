@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Docker]
 title: Dockerfile
-created: '2020-08-15T19:29:53.326Z'
-modified: '2021-07-28T12:50:17.444Z'
 parent: Docker
 grand_parent: DevOps
 ---
@@ -12,6 +9,7 @@ grand_parent: DevOps
 - <https://www.reddit.com/r/programming/comments/jb2jwq/dockerfile_security_best_practices>
 - <https://docs.docker.com/develop/develop-images/dockerfile_best-practices>
 - <https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices>
+- ausführbares Dockerfile: <https://gist.github.com/adtac/595b5823ef73b329167b815757bbce9f>
 
 <br/>
 
@@ -36,6 +34,15 @@ grand_parent: DevOps
     - auf Windows ist die Default-Shell `cmd /S /C` (siehe SHELL)
     - `RUN powershell -command Write-Host hello` wird also zu `cmd /S /C powershell -command Write-Host hello`
     - *In the shell form you can use a \ (backslash) to continue a single RUN instruction onto the next line.*
+    - Multiline:
+      ```
+      RUN <<EOF cat >/root/schema.sql
+  CREATE TABLE IF NOT EXISTS clicks (
+    id   INTEGER PRIMARY KEY AUTOINCREMENT,
+    time INTEGER NOT NULL
+  );
+EOF
+      ```
   - Exec-Form
     - `RUN ["executable", "param1", "param2"]`
     - *Unlike the shell form, the exec form does not invoke a command shell. This means that normal shell processing does not happen. For example, CMD [ "echo", "$HOME" ] will not do variable substitution on $HOME. If you want shell processing then either use the shell form or execute a shell directly, for example: CMD [ "sh", "-c", "echo $HOME" ].*
