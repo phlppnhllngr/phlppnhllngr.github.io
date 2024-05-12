@@ -52,6 +52,9 @@ grand_parent: DevOps
   - <https://docs.docker.com/engine/reference/commandline/inspect/>
 - **logs**
   - `docker logs <name/id>`
+- **pause**
+  - *suspends all the processes for an indefinite time*
+  - *consumes the same memory used while running the container, but the CPU is released completely*
 - **run**
   - <https://docs.docker.com/engine/reference/run/>
   - *Four of the Dockerfile commands cannot be overridden at runtime: FROM, MAINTAINER, RUN, and ADD. Everything else has a corresponding override in docker run.* 
