@@ -23,7 +23,10 @@ parent: Java
 - Structured concurrency (21: preview)
 - Sequenced collections (21)
 - Helpful NullPointerExceptions (14: `-XX:+ShowCodeDetailsInExceptionMessages`)
-- Single source file programs (11)
+- Launch single-file source-code programs (11)
+- Launch multi-file source-code programs (22)
+- Statements before super() (22)
+- Unnamed variables (22)
 
 
 ## Upgrade
