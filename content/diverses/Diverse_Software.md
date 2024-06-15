@@ -228,6 +228,10 @@ parent: Diverses
   - einfache Installation (nur ein Binary)
   - <https://github.com/temporalio/temporal> <img loading="lazy" src="https://img.shields.io/github/stars/temporalio/temporal?style=flat-square"/>
   - <https://www.youtube.com/@Temporalio>
+- **restate**
+  - vs Temporal: <https://news.ycombinator.com/item?id=40660568> 
+  - Java SDK: <https://github.com/restatedev/sdk-java> 
+  - <https://github.com/restatedev/restate> 
 - **Openjob**
   - *distributed and high-performance task scheduling framework that supports multiple cronjob, delay task, workflow, lightweight distributed computing, unlimited horizontal scaling, with high scalability and fault tolerance. Also has permission management, powerful alarm monitoring, and support multiple languages*
   - <https://github.com/open-job/openjob> <img loading="lazy" src="https://img.shields.io/github/stars/open-job/openjob?style=flat-square"/>
