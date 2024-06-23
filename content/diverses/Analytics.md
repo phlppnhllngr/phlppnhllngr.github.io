@@ -70,7 +70,11 @@ parent: Diverses
   - <https://github.com/ihucos/counter.dev>
 - **fathom** 💰
   - *Google Analytics alternative that doesn’t compromise visitor privacy for data. We revolutionized website analytics by making them easy to use and respectful of privacy laws (like GDPR and more).* 
-  - <https://usefathom.com/> 
+  - <https://usefathom.com/>
+- **Openpanel**
+  - *All the goodies from both Mixpanel and Plausible combined into one tool.*
+  - *simple analytics tool for logging events on web, apps and backend*
+  - <https://github.com/Openpanel-dev/openpanel> 
 
 
 ## A/B Tests
