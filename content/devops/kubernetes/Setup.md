@@ -17,6 +17,7 @@ grand_parent: DevOps
 - **Docker Desktop**
   - hat Support für <mark>Single-Node-Cluster</mark> (Optionen -> Enable Kubernetes)
   - Support für Multi-Node derzeit (05/23) nicht geplant: <https://github.com/docker/roadmap/issues/312>
+  - <https://www.docker.com/blog/how-kubernetes-works-under-the-hood-with-docker-desktop/>
 - **Rancher Desktop**
   - *an open-source desktop application for Mac, Windows and Linux. It provides Kubernetes and container management. You can choose the version of Kubernetes you want to run. You can build, push, pull, and run container images. The container images you build can be run by Kubernetes immediately without the need for a registry.*
   - *leverages proven projects to do the dirty work. That includes containerd, k3s, kubectl, and more*
