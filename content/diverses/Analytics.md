@@ -74,7 +74,10 @@ parent: Diverses
 - **Openpanel**
   - *All the goodies from both Mixpanel and Plausible combined into one tool.*
   - *simple analytics tool for logging events on web, apps and backend*
-  - <https://github.com/Openpanel-dev/openpanel> 
+  - <https://github.com/Openpanel-dev/openpanel>
+- **quary**
+  - *Open-source BI for engineers* 
+  - <https://github.com/quarylabs/quary> 
 
 
 ## A/B Tests
@@ -142,3 +145,5 @@ parent: Diverses
    - *used to create live reporting dashboards from APIs, MongoDB, Firestore, MySQL, PostgreSQL, and more*
   - *connect directly to databases and APIs and use the data to create beautiful charts*
   - <https://github.com/chartbrew/chartbrew>
+- **Rill**
+  - <https://github.com/rilldata/rill> 
