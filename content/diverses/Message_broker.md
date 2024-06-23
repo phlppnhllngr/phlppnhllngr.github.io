@@ -4,6 +4,11 @@ parent: Diverses
 ---
 
 # Message Broker
+- **AsyncAPI**
+  - *allows you to create machine-readable definitions of your asynchronous APIs* 
+  - <https://www.asyncapi.com/> 
+
+## Tools
 - **Apache Kafka**
   - *Kafka is different from JMS systems such as ActiveMQ. Kafka has less features than ActiveMQ, as the stress has been put on performances.*
   - *Kafka uses its own non-standard protocol and clients*
@@ -79,7 +84,6 @@ parent: Diverses
 - **BlazingMQ**
   - <https://github.com/bloomberg/blazingmq> <img loading="lazy" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=flat-square"/>
   - <https://bloomberg.github.io/blazingmq/docs/introduction/comparison/> 
-
 
 ## Vergleiche
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
