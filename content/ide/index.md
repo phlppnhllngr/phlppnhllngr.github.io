@@ -10,4 +10,7 @@ has_children: true
     - <https://github.com/lapce/lapce>
 - **zed**
     - <https://github.com/zed-industries/zed>
-    - derzeit nur für Mac 
+    - derzeit nur für Mac
+- **Cursor**
+    - *an editor made for programming with AI* 
+    - <https://github.com/getcursor/cursor> 
