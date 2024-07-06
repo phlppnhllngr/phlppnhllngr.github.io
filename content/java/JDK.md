@@ -27,6 +27,7 @@ parent: Java
 - Launch multi-file source-code programs (22)
 - Statements before super() (22)
 - Unnamed variables (22)
+- Module imports (23: preview)
 
 
 ## Upgrade
