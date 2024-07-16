@@ -84,6 +84,51 @@ parent: Diverses
 ## PDF
 <https://github.com/abhi18av/awesome-pdf>
 
+### Standards
+- PDF/A
+  - Dateiformat zur Langzeitarchivierung digitaler Dokumente
+  - ...unterstützt die Variante auch keine Einbettung von Audio- oder Videodateien, da die Wiedergabe ebendieser eine zusätzliche Software erfordern würden. Aus dem gleichen Grund erlaubt PDF/A auch keine externen Ressourcen, d. h. Grafiken und Schriftarten müssen direkt im Dokument eingebettet sein. Auch die Verschlüsselungen von Dokumenten unterstützt PDF/A nicht, da archivierte Dokumente auch zukünftig nutzbar zu Verfügung stehen sollen.
+  - <https://www.adobe.com/de/acrobat/resources/document-files/pdf-types/pdf-a.html>   
+  - Unterarten
+    - PDF/A-1
+      - Unterarten
+        - PDF/A-1a
+          - accessible 
+        - PDF/A-1b
+          - basic
+    - PDF/A-2
+      - 2011 veröffentlicht
+      - Unterarten
+        - PDF/A-2a
+        - PDF/A-2b
+        - PDF/A-2u
+          - unicode 
+    - PDF/A-3
+      - 2012
+      - das Bundesarchiv empfiehlt (Stand: 2021) die Verwendung von PDF/A-2 und a \> u \> b (<https://www.bundesarchiv.de/DE/Content/Downloads/Anbieten/informationsforum-2019-empfehlungen-anwendung-pdfa-versionen.pdf?__blob=publicationFile>)
+      - Unterarten
+        - PDF/A-3a 
+        - PDF/A-3b
+        - PDF/A-3u
+    - PDF/A-4
+      - 2020
+      - Unterarten
+        - PDF/A-4f
+          - erlaubt Dateianhänge, die nicht PDF/A entsprechen
+        - PDF/A-4e
+          - erlaubt die Einbindung von 3D-Inhalten und wird hauptsächlich für den Engineering-Bereich eingesetzt
+- PDF/UA
+  - barrierefreie PDFs
+  - enforces accessibility more strictly and comprehensively than PDF/A-3a
+  - <https://www.adobe.com/de/acrobat/resources/document-files/pdf-types/pdf-ua.html>
+  - Unterarten
+    - PDF/UA-1
+      - basiert auf PDF 1.7 
+    - PDF/UA-2
+      - seit März 2024
+      - basiert auf PDF 2.0
+      - <https://www.axes4.com/de/blog/post/2024/pdf-ua-2-vs-well-tagged-pdf>
+
 ### Tools
 - **gotenberg**
   - <https://github.com/thecodingmachine/gotenberg>
