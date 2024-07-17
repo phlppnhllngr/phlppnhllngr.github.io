@@ -285,9 +285,11 @@ def pseudoBreakpoint() {
 - <https://opensource.triology.de/jenkins/pipeline-syntax/globals>
 - siehe Link Hinweis unten; nur die wenigsten sind writable. Umgehen ggf. mit `currentBuild.rawBuild.@foo = bar`
 - **currentBuild**
+	- absoluteUrl 
 	- description
+ 	- displayName 
 	- result
-	- <https://opensource.triology.de/jenkins/pipeline-syntax/globals#currentBuild>
+ 	- <https://www.jenkins.io/doc/book/pipeline/getting-started/#:~:text=params.MY_PARAM_NAME.-,currentBuild,-May%20be%20used> 
 - **params**
 	- `${params.FOO}` 
 - **env**
