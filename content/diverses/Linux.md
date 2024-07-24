@@ -160,35 +160,39 @@ parent: Diverses
 
 
 ## Commands & Packages
-- **rm**
-  - *In Unix, programs generally do not interpret wildcards themselves. The shell interprets unquoted wildcards, and replaces each wildcard argument with a list of matching file names. if `$foo` might contain spaces, then `rm "$foo/*.txt"` might not do what you [want]* => `rm "$foo"/*.txt`
-- **Xvfb**
-  - In-memory Display
-  - geeignet für headless Testen
 - **cron**
   - *daemon which runs at the times of system boot*
   - *crontab = cron table. file which contains the schedule of cron entries to be run and at specified times. File location varies by operating systems.*
   - *cron is the name of the tool, crontab is generally the file that lists the jobs that cron will be executing, and those jobs are cron jobs*
   - <https://tool.crontap.com/cronjob-debugger>
-- **miller**
-  - *like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON*
-  - https://github.com/johnkerl/miller
-- **jq**
-  - *command-line JSON processor*
-  - <https://earthly.dev/blog/jq-select>
-- **watch**
-  - `watch -n 1 date +%s`
-- **sed**
-  - foo in text.txt durch bar ersetzen (`-i` = replace inline): `sed -i "s/foo/bar/" "./text.txt"`
+- **curl**
+  - [HN - Mastering curl: interactive text guide](https://news.ycombinator.com/item?id=37390941)
+- **envsubst**
+    - *substitutes the values of environment variables*
 - **exit**
   - *command often used to exit or logout of a session. For example, during an FTP session the bye command will exit FTP.*
   - *aliases for exit include "bye", "logout", and "lo".*
+- **jq**
+  - *command-line JSON processor*
+  - <https://earthly.dev/blog/jq-select>
+- **miller**
+  - *like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON*
+  - https://github.com/johnkerl/miller
 - **nc**
   - Netcat
   - *networking utility for reading from and writing to network connections using TCP or UDP*
   - `nc -zv <host> <port>` z. B. `nc -zv foo.bar 1234`
   - `-z` *sets nc to simply scan for listening daemons, without actually sending any data to them*
   - `-v` verbose
+- **rm**
+  - *In Unix, programs generally do not interpret wildcards themselves. The shell interprets unquoted wildcards, and replaces each wildcard argument with a list of matching file names. if `$foo` might contain spaces, then `rm "$foo/*.txt"` might not do what you [want]* => `rm "$foo"/*.txt`
+- **rsync**
+  - *ist sowohl ein Netzwerkprotokoll als auch ein unter der GPL stehendes Programm zur Synchronisation von Daten* 
+  - *Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen [und zu kopieren]*
+  - *Sind Quelle und Ziel lokale Pfade, werden die betroffenen Dateien normal kopiert. Wenn auf Quelle oder Ziel aber per SSH oder über einen speziellen rsync-daemon zugegriffen wird, nutzt rsync zusätzlich noch einen speziellen Delta-Transfer-Algorithmus, so dass nur die geänderten Teile der Dateien über das Netzwerk transportiert werden müssen.* 
+  - <https://wiki.ubuntuusers.de/rsync/>
+- **sed**
+  - foo in text.txt durch bar ersetzen (`-i` = replace inline): `sed -i "s/foo/bar/" "./text.txt"`
 - **traceroute**
   - *ermittelt, über welche Router und Internet-Knoten IP-Datenpakete bis zum abgefragten Rechner gelangen*
   - `traceroute wikipedia.de`
@@ -200,14 +204,12 @@ parent: Diverses
     - *find out which log file, if any, a program writes to*
     - *run one of those curl / bash installation commands and inspect exactly what it'll do without reading through a huge script*
   - <https://github.com/binpash/try>
-- **rsync**
-  - *ist sowohl ein Netzwerkprotokoll als auch ein unter der GPL stehendes Programm zur Synchronisation von Daten* 
-  - *Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen [und zu kopieren]*
-  - *Sind Quelle und Ziel lokale Pfade, werden die betroffenen Dateien normal kopiert. Wenn auf Quelle oder Ziel aber per SSH oder über einen speziellen rsync-daemon zugegriffen wird, nutzt rsync zusätzlich noch einen speziellen Delta-Transfer-Algorithmus, so dass nur die geänderten Teile der Dateien über das Netzwerk transportiert werden müssen.* 
-  - <https://wiki.ubuntuusers.de/rsync/>
-- **curl**
-  - [HN - Mastering curl: interactive text guide](https://news.ycombinator.com/item?id=37390941)
- 
+- **watch**
+  - `watch -n 1 date +%s`
+- **Xvfb**
+  - In-memory Display
+  - geeignet für headless Testen
+    
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
 - <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
