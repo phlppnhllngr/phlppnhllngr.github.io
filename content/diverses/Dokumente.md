@@ -143,6 +143,12 @@ parent: Diverses
 - **PDFtk**
   - <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
   - *a simple tool for doing everyday things with PDF documents.*
+  - free
+    - *tool for quickly merging and splitting PDF documents and pages*
+  - pro
+    - *split, merge, rotate, watermark, stamp and secure PDF pages and documents. PDFtk Pro is a graphical application*
+  - server
+    - *command-line tool. It is commonly used for server-side processing of PDFs*   
 - **iText RUPS**
   - *allows you to look inside a PDF document and browse the different PDF objects and content streams.*
   - <https://github.com/itext/rups>
@@ -210,10 +216,17 @@ parent: Diverses
   - savePdfAsImage
   - getText
   - getPageCount
-- <https://www.npmjs.com/package/compare-pdf> 
+- <https://www.npmjs.com/package/compare-pdf>
+
+#### Validierung
+- veraPDF
+  - *PDF/A validation*
+  - *installer works on any Windows, Mac OS or Linux machine that’s running Java 8 or later*
+  - <https://github.com/veraPDF/veraPDF-library>
+- iText RUPS -> Tools
 
 
-## ECM
+## ECM/CCM
 - <https://en.m.wikipedia.org/wiki/Enterprise_content_management>
 - **Alfresco**
 - **OpenText**
