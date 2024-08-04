@@ -28,6 +28,7 @@ parent: Java
 - Statements before super() (22)
 - Unnamed variables (22)
 - Module imports (23: preview)
+- Stream Gatherers (Gatherers.mapConcurrent etc.) (22: preview)
 
 
 ## Upgrade
