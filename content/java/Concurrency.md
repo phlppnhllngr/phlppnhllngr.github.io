@@ -241,6 +241,12 @@ parent: Java
 - **Semaphore**
   - *can use semaphores to limit the number of concurrent threads accessing a specific resource.*
   - <https://www.baeldung.com/java-semaphore>
+- **ReentrantLock**
+  - <https://www.geeksforgeeks.org/reentrant-lock-java/>
+    - *allows threads to enter into the lock on a resource more than once. When the thread first enters into the lock, a hold count is set to one. Before unlocking the thread can re-enter into lock again and every time hold count is incremented by one. For every unlocks request, hold count is decremented by one and when hold count is 0, the resource is unlocked.*
+  - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/locks/ReentrantLock.html>
+    - *same basic behavior and semantics as the implicit monitor lock accessed using synchronized methods and statements, but with extended capabilities*
+    - *accepts an optional fairness parameter. When set true, under contention, locks favor granting access to the longest-waiting thread*
 
 
 #### Queues
@@ -287,3 +293,9 @@ parent: Java
 - <https://dzone.com/articles/what-are-reactive-streams-in-java>
 - <https://www.baeldung.com/java-9-reactive-streams>
 - -> Java/Libs/Async/Reactive
+
+
+#### Structured Concurrency
+- **StructuredTaskScope**
+  - Java 21+
+  - <https://docs.oracle.com/en/java/javase/21/docs/api///java.base/java/util/concurrent/StructuredTaskScope.html>
