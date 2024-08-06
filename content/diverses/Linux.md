@@ -290,3 +290,5 @@ parent: Diverses
   - <https://github.com/quadportnick/docker-cups-airprint>
   - <https://github.com/anujdatar/cups-docker>
   - <https://gitlab.com/ydkn/docker-cups>
+  - <https://github.com/thbe/docker-cups>
+  - <https://github.com/jacobalberty/cups-docker>
