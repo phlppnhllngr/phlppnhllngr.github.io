@@ -289,3 +289,4 @@ parent: Diverses
   - <https://github.com/olbat/dockerfiles/tree/master/cupsd> 
   - <https://github.com/quadportnick/docker-cups-airprint>
   - <https://github.com/anujdatar/cups-docker>
+  - <https://gitlab.com/ydkn/docker-cups>
