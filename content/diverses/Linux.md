@@ -280,3 +280,12 @@ parent: Diverses
 - musl
   - *newer implementation of the library. Used by Alpine Linux, it is much smaller in size compared to GNU libc and is meant to be lightweight, fast and simple. However, there are caveats. Musl libc actually has functional differences compared to GNU libc - things like regular expressions, EOF and multithreading could behave differently based on the implementation.*
   - für [statisches Linken](https://de.wikipedia.org/wiki/Linker_(Computerprogramm)#Statisches_Linken) optimiert
+
+
+## Druck
+
+### CUPS
+- **Dockerfiles**
+  - <https://github.com/olbat/dockerfiles/tree/master/cupsd> 
+  - <https://github.com/quadportnick/docker-cups-airprint>
+  - <https://github.com/anujdatar/cups-docker>
