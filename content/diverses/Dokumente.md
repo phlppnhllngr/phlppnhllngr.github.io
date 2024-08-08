@@ -128,6 +128,21 @@ parent: Diverses
       - seit März 2024
       - basiert auf PDF 2.0
       - <https://www.axes4.com/de/blog/post/2024/pdf-ua-2-vs-well-tagged-pdf>
+- PDF/X
+  - <https://www.adobe.com/de/acrobat/resources/document-files/pdf-types/pdf-x.html>
+    - *Für die Übertragung der finalen Ergebnisse an die Druckerei eignet sich am besten die PDF/X-Datei, welches im Unterschied zu einem normalen PDF genau auf die Anforderungen des Drucks abgestimmt ist.*
+    - *Beim Erstellen von PDF/X-Dateien werden die PDF-Elemente nicht berücksichtigt, die das Druckergebnis beinträchtigen könnten – also Elemente, die sich nicht sinnvoll drucken lassen (z.B. Video und Audio).*
+    - *stellt sicher, bestimmte Grundvoraussetzungen für den Druck zu ermöglichen – ob Schriften und Bilder eingebettet sind, der richtige Farbraum berücksichtigt oder die richtigen Einstellungen für Überdrucken und Überfüllen vorgenommen wurden.*
+  - Unterarten
+    - PDF/X-1a
+    - X-3
+    - X-4 
+  - Subkategorien
+    - PDF/VT
+      - Portable Document Format **V**ariable Data and **T**ransactional Printing 
+      - <https://www.adobe.com/de/acrobat/resources/document-files/pdf-types/pdf-vt.html> 
+        - *Beim variablen Datendruck handelt es sich um ein digitales Druckverfahren, bei dem einzelne Parameter von Printprodukten individuell angepasst werden können, während das Grundlayout bestehen bleibt. Dies ermöglicht es, große Mengen von Druckmaterialien zu erstellen, die trotzdem personalisiert sind – etwa individualisierte Prospekte oder Werbebriefe, die alle dieselben grafischen Elemente (Bilder, Logos, Schriftart etc.) enthalten und trotzdem individuelle Ansprachen der Kund*innen mit Namen ermöglichen.*
+        - *Transaktionsdruck wiederum beschreibt das Drucken von Dokumenten, mit denen Transaktionen dokumentiert werden. Darunter fallen etwa Rechnungen, Mahnungen, Lieferscheine, Quittungen oder andere Schriftstücke, die den Austausch von Waren oder Dienstleistungen dokumentieren.*
 
 ### Tools
 - **gotenberg**
