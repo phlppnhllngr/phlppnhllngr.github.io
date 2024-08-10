@@ -166,4 +166,13 @@ This attaches the agent contained in my.jar onto the Java process with id my-id.
     - *A thin wrapper around java.util.Date that allows the JDBC API to identify this as an SQL TIMESTAMP value*
     - ´Timestamp(long time)` *Constructs a Timestamp object using a milliseconds time value.*
     - `Instant toInstant()`
-    - <https://docs.oracle.com/javase/8/docs/api/java/sql/Timestamp.html> 
+    - <https://docs.oracle.com/javase/8/docs/api/java/sql/Timestamp.html>
+   
+## File
+- RandomAccessFile
+- MapedByteBuffer & FileChannel (Memory-mapped file)
+   - <https://bito.ai/resources/java-memory-mapped-file-java-explained/>
+   - <https://medium.com/@trunghuynh/java-nio-using-memory-mapped-file-to-load-big-data-into-applications-5058b395cc9d>
+   - <https://medium.com/globant/memory-mapped-files-and-mappedbytebuffers-in-java-4e5819605b20>
+- ByteBuffer
+  - <https://www.baeldung.com/java-bytebuffer>  
