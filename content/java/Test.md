@@ -104,7 +104,9 @@ parent: Java
       - basiert Stand 6.10.23 auf Wiremock 2
     - Testcontainers
       - <https://testcontainers.com/modules/wiremock/>
-      - <https://github.com/testcontainers/tc-guide-testing-rest-api-integrations-using-wiremock> 
+      - <https://github.com/testcontainers/tc-guide-testing-rest-api-integrations-using-wiremock>
+    - basdijkstra/wiremock-workshop
+      - <https://github.com/basdijkstra/wiremock-workshop> 
   - **pact**
     - contract testing
     - <https://docs.pact.io/> 
