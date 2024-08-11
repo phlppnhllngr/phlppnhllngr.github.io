@@ -123,6 +123,7 @@ parent: Java
   - *CompletableFuture executes these tasks in a thread obtained from the global ForkJoinPool.commonPool().* (manche Methoden akzeptieren einen anderen Executor als Argument)
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html> 
   - <https://www.baeldung.com/java-completablefuture>
+  - <https://www.baeldung.com/java-executorservice-vs-completablefuture>
 - **FutureTask**
   - implements Runnable, Future 
   - *A cancellable asynchronous computation*
@@ -154,6 +155,7 @@ parent: Java
       - *Blocks until all tasks have completed execution after a shutdown request, or the timeout occurs, or the current thread is interrupted, whichever happens first.* 
     - ...
   - <https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ExecutorService.html>
+  - <https://www.baeldung.com/java-executorservice-vs-completablefuture>
 - **ScheduledExecutorService**
   - Interface, extends ExecutorService
   - *can schedule commands to run after a given delay, or to execute periodically*
