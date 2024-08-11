@@ -6,6 +6,7 @@ parent: Java
 # JVM
 
 ## Parameter, Flags
+- [VM Options Explorer](https://chriswhocodes.com/)
 - **JAVA_OPTS**
   - Env-Var
   - *JAVA_OPTS is a convention used by Apache Tomcat and some other apps*
@@ -145,6 +146,7 @@ parent: Java
 - **ActiveProcessorCount**
   - `-XX:ActiveProcessorCount=<number>`
   - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()` und damit ggf. auf Größen von best. Threadpools
+- **AutoCreateSharedArchive**
 - **+/-DebugNonSafepoints**
 - **DumpLoadedClassList**
   - `-XX:DumpLoadedClassList=/path/to/classes.lst`
