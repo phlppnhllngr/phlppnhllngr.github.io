@@ -120,6 +120,9 @@ parent: Java
     - Recipes
       - null handling
         - [Stack Overflow: Serialize null object as empty](https://stackoverflow.com/a/45566139)
+  - **jackson-jr**
+    - *designed as a light-weight alternative to `jackson-databind`: will only deal with Maps, Lists, Strings, wrappers and Java Beans (jr-objects), or simple read-only trees (jr-stree)*
+    - <https://github.com/FasterXML/jackson-jr> 
   - **Gson**
     - etwas langsamer als Jackson
     - <https://github.com/google/gson>
