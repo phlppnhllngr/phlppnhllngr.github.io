@@ -600,6 +600,10 @@ parent: Java
     - <https://github.com/super-csv/super-csv/>
   - FastCSV
     - <https://github.com/osiegmar/FastCSV>
+  - csvjdbc
+    - *database driver for reading comma-separated-value files*
+    - *However, as there is no real database management system behind the scenes, not all JDBC functionality is available* 
+    - <https://github.com/simoc/csvjdbc> 
 
 
 ## FTP
