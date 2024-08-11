@@ -68,6 +68,9 @@ parent: Java
   - *static analysis tool - if you give Infer some Java or C/C++/Objective-C code it produces a list of potential bugs*
   - *can run Infer with a variety of build systems (...) Gradle, Maven, Other build systems*
   - <https://fbinfer.com/docs/hello-world>
+- **jspecify**
+  - *An artifact of fully-specified annotations to power static-analysis checks, beginning with nullness analysis.* 
+  - <https://github.com/jspecify/jspecify> 
 
 
 ## Dynamische Analyse
