@@ -57,8 +57,14 @@ parent: Java
     - *CPU cycles*
     - *Hardware and Software performance counters like cache misses, branch misses, page faults, context switches etc.*
     - *Allocations in Java Heap*
-    - *Contented lock attempts, including both Java object monitors and ReentrantLocks* 
+    - *Contented lock attempts, including both Java object monitors and ReentrantLocks*
+  - *provides out-of-the-box Flame Graph support*
+  - unterstützte OS: Linux, MacOS
   - <https://github.com/async-profiler/async-profiler>
+  - ap-loader
+    - *Packages async-profiler releases in a JAR with an AsyncProfilerLoader that loads the suitable native library for the current platform.*
+    - *The real rationale behind this library is that the async-profiler is a nice tool, but it cannot be easily integrated into other Java-based tools.*
+    - <https://github.com/jvm-profiling-tools/ap-loader> 
 - **Pyroscope**
   - <https://phlppnhllngr.github.io/content/devops/Observability.html#tools>
 
