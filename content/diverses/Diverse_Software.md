@@ -262,6 +262,8 @@ parent: Diverses
 - **Peggy**
   - *simple parser generator for JavaScript*
   - <https://github.com/peggyjs/peggy>
+- **ANTLR**
+  - <https://github.com/antlr/antlr4> 
 
 
 ## Passwort-Manager
