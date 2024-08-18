@@ -1,10 +1,12 @@
 ---
-tags: [Notebooks/SCM]
 title: Git
-created: '2019-02-17T14:54:50.641Z'
-modified: '2021-09-13T12:17:36.631Z'
 parent: SCM
 ---
+
+# Inhalt
+{: .no_toc }
+- TOC
+{:toc}
 
 # Git
 - <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work>
@@ -151,12 +153,12 @@ parent: SCM
 ## Workflow
 - <https://github.com/pcottle/learnGitBranching>
 - **centralized**
-  - https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow
+  - <https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow>
 - **feature branch**
-  - https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+  - <https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow>
 - **gitflow**
-  - https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
-  - https://www.reddit.com/r/programming/comments/fdv7v0/please_stop_recommending_git_flow/
+  - <https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow>
+  - <https://www.reddit.com/r/programming/comments/fdv7v0/please_stop_recommending_git_flow>
 - **forking**
 
 
