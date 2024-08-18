@@ -126,37 +126,40 @@ parent: Diverses
   - <https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux> 
 
 ### Tools
-  - **shellspec**
-    - <https://shellspec.info>
-    - *BDD unit testing framework for shells*
-  - **zx**
-    - *A tool for writing better scripts*
-    - *provides useful wrappers around child_process*
-    - ```
-      let branch = await $`git branch --show-current`
-      await $`dep deploy --branch=${branch}`
-      ```
-    - <https://github.com/google/zx>
-  - **wait-for-it**
-    - <https://github.com/vishnubob/wait-for-it>
-    - *test and wait on the availability of a TCP host and port*
-  - **shellcheck**
-    - <https://github.com/koalaman/shellcheck>
-    - *static analysis tool for shell scripts. gives warnings and suggestions for bash/sh shell scripts*
-    - Plugins für diverse IDEs, u.a. VSCode
-  - **thefuck**
-    - <https://github.com/nvbn/thefuck>
-    - *corrects your previous console command*
-  - **nushell**
-    - https://github.com/nushell/nushell
-    - Rust
-  - **modern-unix**
-    - *A collection of modern/faster/saner alternatives to common unix commands.*
-    - <https://github.com/ibraheemdev/modern-unix> *5.3k
-  - **direnv**
-    - *when you cd to a directory, do things like set variables*
-  - **asdf**
-    - *manage and use specific versions of software. Can work with direnv too!*
+- **shellspec**
+  - <https://shellspec.info>
+  - *BDD unit testing framework for shells*
+- **zx**
+  - *A tool for writing better scripts*
+  - *provides useful wrappers around child_process*
+  - ```
+    let branch = await $`git branch --show-current`
+    await $`dep deploy --branch=${branch}`
+    ```
+  - <https://github.com/google/zx>
+- **wait-for-it**
+  - <https://github.com/vishnubob/wait-for-it>
+  - *test and wait on the availability of a TCP host and port*
+- **shellcheck**
+  - <https://github.com/koalaman/shellcheck>
+  - *static analysis tool for shell scripts. gives warnings and suggestions for bash/sh shell scripts*
+  - Plugins für diverse IDEs, u.a. VSCode
+- **thefuck**
+  - <https://github.com/nvbn/thefuck>
+  - *corrects your previous console command*
+- **nushell**
+  - https://github.com/nushell/nushell
+  - Rust
+- **modern-unix**
+  - *A collection of modern/faster/saner alternatives to common unix commands.*
+  - <https://github.com/ibraheemdev/modern-unix> *5.3k
+- **direnv**
+  - *when you cd to a directory, do things like set variables*
+- **asdf**
+  - *manage and use specific versions of software. Can work with direnv too!*
+- **Amber**
+  - *The Programming Language compiled to Bash*
+  - <https://amber-lang.com/> 
 
 
 ## Commands & Packages
