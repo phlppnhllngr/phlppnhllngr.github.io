@@ -196,6 +196,7 @@ parent: SCM
 ## bisect
 
 ## reflog
+- <https://old.reddit.com/r/programming/comments/1djkc4l/literally_never_lose_your_commits_again_git/>
 
 ## Workflow
 - <https://github.com/pcottle/learnGitBranching>
