@@ -22,6 +22,12 @@ parent: SCM
 - <https://www.gitkraken.com/learn/git/best-practices>
 - <https://www.atlassian.com/de/git>
 - <https://softwaredoug.com/blog/2022/11/09/idiot-proof-git-aliases.html>
+- <https://www.reddit.com/r/programming/comments/1atowsj/popular_git_config_options/>
+  - ```
+    push.autoSetupRemote true // to skip the annoying "branch has no remote tracking branch message"
+    help.autocorrect
+    core.excludesfile // a global .gitignore
+    ``` 
 
 
 ## Stages
@@ -29,6 +35,10 @@ parent: SCM
   - *the local repository*
   - *changes are not tracked*
   - *track changes by adding them to index* ('staging', `git add`)
+  - git add
+    - `-p`
+      - <https://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet/>
+        - *allows you to stage parts of a changed file, instead of the entire file*   
 - **index**
   - *confirm changes and add them to head with* `git commit`
 - **head**
@@ -38,7 +48,20 @@ parent: SCM
 
 ## Commit
 - `git add . && git commit -m "..."` -> `git commit -am "..."`
+- fixup
+- ammend
+  - *convenient way to modify the most recent commit. It lets you combine staged changes with the previous commit instead of creating an entirely new commit* 
+  - `git commit --ammend --no-edit`
+  - *The --no-edit flag will allow you to make the amendment to your commit without changing its commit message* 
 
+## Push
+- force
+- force-with-lease
+  - *safer option that will not overwrite any work on the remote branch if more commits were added to the remote branch (by another team-member or coworker or what have you). It ensures you do not overwrite someone elses work by force pushing.*
+ 
+## pull
+- --rebase
+- --ff-only
 
 ## Branching
 - <https://learngitbranching.js.org/>
@@ -101,6 +124,7 @@ parent: SCM
   git checkout <branch>
   git rebase master
   ```
+- autostash
 
 ### Stand von remote holen
 - **fetch**
@@ -149,6 +173,29 @@ parent: SCM
   erzeugt das Verzeichnis und checkt den Branch darin aus
 - Nachteil: HDD-Verbrauch
 
+## switch
+- *use to switch branches*
+- *performs extra sanity checks that checkout doesn't, for example switch would abort operation if it would lead to loss of local changes*
+
+## restore
+- *use to restore a file to last committed version*
+- *replaces and simplifies some of the use cases of git reset and git checkout*
+
+## sparse-checkout
+- *allows users to restrict their working directory to only the files they care about*
+- *useful in CI/CD for improving performance of a pipeline, when you only want to build/deploy part of the monorepo and there's no need to check out everything.*
+- <https://github.blog/open-source/git/bring-your-monorepo-down-to-size-with-sparse-checkout/>
+- ```
+  git clone --no-checkout https://github.com/derrickstolee/sparse-checkout-example
+  cd sparse-checkout-example
+  git sparse-checkout init --cone
+  git checkout main
+  git sparse-checkout set service/common
+  ```
+
+## bisect
+
+## reflog
 
 ## Workflow
 - <https://github.com/pcottle/learnGitBranching>
@@ -167,6 +214,7 @@ parent: SCM
 - **git-cliff**
   - *customizable Changelog Generator that follows Conventional Commit specifications*
   - <https://github.com/orhun/git-cliff> *2.6k
+  - <https://news.ycombinator.com/item?id=40798469>
 
 ### GUI Clients
 - **GitKraken** [1]
@@ -183,6 +231,9 @@ parent: SCM
   - <https://www.syntevo.com/smartgit/>
 - [1: Vergleich](https://old.reddit.com/r/programming/comments/yqm0ka/idiot_proof_git/ivracgf/.compact)
 - **TortoiseGit**
+- **lazygit**
+  - *simple terminal UI for git commands* 
+  - <https://github.com/jesseduffield/lazygit> <img loading="lazy" src="https://img.shields.io/github/stars/jesseduffield/lazygit?style=flat-square"/>
 
 ### CLIs
 - **Git bash for windows**
