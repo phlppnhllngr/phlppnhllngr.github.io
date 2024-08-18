@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Spring]
 title: Fehlerbehandlung
-created: '2019-02-10T19:06:33.162Z'
-modified: '2021-08-15T11:47:08.211Z'
 parent: Spring
 grand_parent: Java
 ---
@@ -10,6 +7,7 @@ grand_parent: Java
 # Error handling
 - <https://www.baeldung.com/exception-handling-for-rest-with-spring>
 - <https://www.mscharhag.com/spring/rest-api-error-messages>
+- <https://www.baeldung.com/spring-boot-return-errors-problemdetail>
 
 
 ## Was ein ErrorDTO beinhalten sollte
@@ -35,9 +33,9 @@ grand_parent: Java
   - *Spring Boot DOES NOT make a new request to /error endpoint. Instead, it wraps the exception in the original request and forwards it to /error endpoint. The request will be processed by BasicErrorHandler if you don't provide a custom error handler.*
   - BasicErrorController extenden ist ErrorController-Impl. i.d.R. vorzuziehen
   - Quellen:
-    - https://mkyong.com/spring-boot/spring-rest-error-handling-example/
-    - https://www.baeldung.com/exception-handling-for-rest-with-spring#spring-boot
-    - https://www.baeldung.com/spring-boot-custom-error-page
+    - <https://mkyong.com/spring-boot/spring-rest-error-handling-example/>
+    - <https://www.baeldung.com/exception-handling-for-rest-with-spring#spring-boot>
+    - <https://www.baeldung.com/spring-boot-custom-error-page>
 - Whitelabel Error Page
 - HandlerExceptionResolver
   - DefaultHandlerExceptionResolver
