@@ -10,6 +10,7 @@ parent: SCM
 
 # Git
 - <https://www.reddit.com/r/programming/comments/df2uj3/99_of_the_git_commands_youll_need_at_work>
+- <https://www.reddit.com/r/programming/comments/wcpz9j/git_cheat_sheet_summary_of_commands_i_used_in_my/>
 - <https://github.com/git-tips/tips>
 - <https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow>
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
