@@ -58,6 +58,7 @@ parent: Security
   - <u>Keycloakify</u>
     - *Customize the look and feel of your login and registration pages without having to mess with FreeMarker.* (-> React)
     - <https://www.keycloakify.dev/>
+  - <https://news.ycombinator.com/item?id=36384636>
 - **Auth0**
   - *a company that sells an identity management platform with authentication and authorization services that implements the OAuth2 protocol (among others).* 
   - <https://auth0.com> 
