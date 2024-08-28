@@ -9,11 +9,39 @@ parent: Security
 ## Auth Methods
 - <https://testdriven.io/blog/web-authentication-methods/>
 
-### Single Sign On
+### Single Sign On (SSO)
 - *allows a user to log in with a single ID and password to any of several related, yet independent, software systems*
 - <https://www.onelogin.com/learn/how-single-sign-on-works>
 - <https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/>
 
+### **OAuth(2)**
+- *a standardized authorization protocol*
+- *a protocol that allows a user to grant limited access to their resources on one site, to another site, without having to expose their credentials.*
+- <https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html>
+  - *an open-standard authorization protocol or framework that describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial, related, single logon credential. In authentication parlance, this is known as secure, third-party, user-agent, delegated authorization.*
+  - *OAuth scenarios almost always represent two unrelated sites or services trying to accomplish something on behalf of users or their software. All three have to work together involving multiple approvals for the completed transaction to get authorized.*
+  - *OAuth essentially allows the user, via an authentication provider that they have previously successfully authenticated with, to give another website/service a limited access authentication token for authorization to additional resources.*
+  - *Additionally, OAuth 2.0 is a framework, not a protocol (like version 1.0).*
+- <https://hackernoon.com/oauth-20-for-dummies>
+  - <img loading="lazy" src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FBlBIttNGqzO1aF2OOzYkWig7w1V2-3ve2gzk.png&w=828&q=75"/> 
+  - *a security standard where you give one application permission to access your data in another application. The steps to grant permission, or consent, are often referred to as authorization or even delegated authorization.*
+- <https://darutk.medium.com/the-simplest-guide-to-oauth-2-0-8c71bd9a15bb>
+
+### OpenID Connect
+- <https://dexidp.io/docs/openid-connect/>
+  - *a flavor of OAuth2* 
+  - *OpenID Connect's primary extension of OAuth2 is an additional token returned in the token response called the ID Token. This token is a JSON Web Token signed by the OpenID Connect server, with well known fields for user ID, name, email, etc.*
+  - ```
+    {
+     "access_token": "SlAV32hkKG",
+     "token_type": "Bearer",
+     "refresh_token": "8xLOxBtZp8",
+     "expires_in": 3600,
+     "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFlOWdkazcifQ.ewogImlzcyI6ICJodHRwOi8vc2VydmVyLmV4YW1wbGUuY29tIiwKICJzdWIiOiAiMjQ4Mjg5NzYxMDAxIiwKICJhdWQiOiAiczZCaGRSa3F0MyIsCiAibm9uY2UiOiAibi0wUzZfV3pBMk1qIiwKICJleHAiOiAxMzExMjgxOTcwLAogImlhdCI6IDEzMTEyODA5NzAKfQ.ggW8hZ1EuVLuxNuuIJKX_V8a_OMXzR0EHR9R6jgdqrOOF4daGU96Sr_P6qJp6IcmD3HP99Obi1PRs-cwh3LO-p146waJ8IhehcwL7F09JdijmBqkvPeB2T9CJNqeGpe-gccMg4vfKjkM8FcGvnzZUN4_KSP0aAp1tOJ1zZwgjxqGByKHiOtX7TpdQyHE5lcMiKPXfEIQILVq0pc_E2DzL7emopWoaoZTF_m0_N0YzFC6g6EJbOEoRoSK5hoDalrcvRYLSrQAZZKflyuVCyixEoV9GfNQC3_osjzw2PAithfubEEBLuVVk4XUVrWOLrLl0nx7RkKU8NXNHq-rvKMzqg"
+    }
+  ```
+
+  - *Discovery: OpenID Connect servers have a discovery mechanism for OAuth2 endpoints, scopes supported, and indications of various other OpenID Connect features*
 
 ## Tools
 - **Keycloak**
@@ -33,18 +61,6 @@ parent: Security
 - **Auth0**
   - *a company that sells an identity management platform with authentication and authorization services that implements the OAuth2 protocol (among others).* 
   - <https://auth0.com> 
-- **OAuth(2)**
-  - *a standardized authorization protocol*
-  - *a protocol that allows a user to grant limited access to their resources on one site, to another site, without having to expose their credentials.*
-  - <https://www.csoonline.com/article/3216404/what-is-oauth-how-the-open-authorization-framework-works.html>
-    - *an open-standard authorization protocol or framework that describes how unrelated servers and services can safely allow authenticated access to their assets without actually sharing the initial, related, single logon credential. In authentication parlance, this is known as secure, third-party, user-agent, delegated authorization.*
-    - *OAuth scenarios almost always represent two unrelated sites or services trying to accomplish something on behalf of users or their software. All three have to work together involving multiple approvals for the completed transaction to get authorized.*
-    - *OAuth essentially allows the user, via an authentication provider that they have previously successfully authenticated with, to give another website/service a limited access authentication token for authorization to additional resources.*
-    - *Additionally, OAuth 2.0 is a framework, not a protocol (like version 1.0).*
-  - <https://hackernoon.com/oauth-20-for-dummies>
-    - <img loading="lazy" src="https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FBlBIttNGqzO1aF2OOzYkWig7w1V2-3ve2gzk.png&w=828&q=75"/> 
-    - *a security standard where you give one application permission to access your data in another application. The steps to grant permission, or consent, are often referred to as authorization or even delegated authorization.*
-  - <https://darutk.medium.com/the-simplest-guide-to-oauth-2-0-8c71bd9a15bb>
 - **AWS Cognito**
   - <https://aws.amazon.com/de/cognito/>
 - **Auth0**
@@ -95,6 +111,23 @@ parent: Security
   - *open-source Identity Provider that emphasizes flexibility and versatility*
   - *for implementing sign-up, recovery, and other similar features in your application*
   - <https://github.com/goauthentik/authentik>
+- **GLAuth**
+  - *LDAP authentication server for developers*
+  - *Lightweight alternative to OpenLDAP and Active Directory for development, or a homelab.*
+  - *Store your user directory in a file, local or in S3; SQL database; or proxy to existing LDAP servers.*
+  - <https://github.com/glauth/glauth> <img loading="lazy" src="https://img.shields.io/github/stars/glauth/glauth?style=flat-square"/>
+- **dex**
+  - *OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors*
+  - *acts as a portal to other identity providers through "connectors." This lets dex defer authentication to LDAP servers, SAML providers, or established identity providers like GitHub, Google, and Active Directory. Clients write their authentication logic once to talk to dex, then dex handles the protocols for a given backend.*
+  - *ID Tokens are an OAuth2 extension introduced by OpenID Connect and dex's primary feature.*
+  - <https://github.com/dexidp/dex> <img loading="lazy" src="https://img.shields.io/github/stars/dexidp/dex?style=flat-square"/>
+- **SSOReady**
+  - *Making SAML SSO painless* 
+  - <https://github.com/ssoready/ssoready> <img loading="lazy" src="https://img.shields.io/github/stars/ssoready/ssoready?style=flat-square"/>
+  - [Launch HN](https://news.ycombinator.com/item?id=41110850)
+- **OAuth2-Proxy**
+  - *A reverse proxy and static file server that provides authentication using Providers (Google, Keycloak, GitHub and others) to validate accounts by email, domain or group.* 
+  - <https://github.com/oauth2-proxy/oauth2-proxy> <img loading="lazy" src="https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=flat-square"/>
 
 
 ## LDAP & AD
