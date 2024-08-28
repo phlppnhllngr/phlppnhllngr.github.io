@@ -13,6 +13,15 @@ parent: Security
 - *allows a user to log in with a single ID and password to any of several related, yet independent, software systems*
 - <https://www.onelogin.com/learn/how-single-sign-on-works>
 - <https://auth0.com/blog/what-is-and-how-does-single-sign-on-work/>
+- <https://www.baeldung.com/java-sso-solutions>
+  - *Implementing an SSO solution can be performed using either of the two protocols: SAML 2.0, OpenID Connect*
+  - *OIDC is the successor to SAML 2.0. Also, it is an extension to OAuth 2.0 protocol used for authentication.*
+  - *OIDC is simpler to configure than SAML 2.0.*
+
+### Terminologie
+- Service Provider: Applikation
+- Identity Provider: Google, ...
+- Token: *In SSO, this identity data takes the form of tokens which contain identifying bits of information about the user like a user’s email address or a username.*
 
 ### **OAuth(2)**
 - *a standardized authorization protocol*
@@ -129,6 +138,9 @@ parent: Security
 - **OAuth2-Proxy**
   - *A reverse proxy and static file server that provides authentication using Providers (Google, Keycloak, GitHub and others) to validate accounts by email, domain or group.* 
   - <https://github.com/oauth2-proxy/oauth2-proxy> <img loading="lazy" src="https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=flat-square"/>
+- **Spring Security OAuth2**
+- **OpenAM**
+  - <https://github.com/OpenIdentityPlatform/OpenAM> <img loading="lazy" src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenAM?style=flat-square"/>
 
 
 ## LDAP & AD
