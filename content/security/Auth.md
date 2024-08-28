@@ -108,7 +108,7 @@ parent: Security
   - *Authentication and user management for the passkey era*
   - *A passkey is a new way to sign in that works completely without passwords. By using the security capabilities of your devices like Touch ID and Face ID, passkeys are way more secure and easier to use than both passwords and all current 2-factor authentication (2FA) methods.* 
   - <https://github.com/teamhanko/hanko> <img loading="lazy" src="https://img.shields.io/github/stars/teamhanko/hanko?style=flat-square"/>
-**Authentik**
+- **Authentik**
   - *open-source Identity Provider that emphasizes flexibility and versatility*
   - *for implementing sign-up, recovery, and other similar features in your application*
   - <https://github.com/goauthentik/authentik>
