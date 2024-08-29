@@ -55,6 +55,20 @@ parent: Security
   - *Discovery: OpenID Connect servers have a discovery mechanism for OAuth2 endpoints, scopes supported, and indications of various other OpenID Connect features*
 - Die Spec definiert bestimmte Http-Endpoints. Die URLs der Endpoints können den Metadaten des Servers und https://[base-server-url]/.well-known/openid-configuration entnommen werden.
 - <https://connect2id.com/learn>
+- Entwicklungstools
+  - Wiremock OAuth2 / OpenID Connect Mock
+    - Öffentlicher OIDC-Mock-Server
+    - *Currently the authorization_code (server-side web) OAuth2 flow is supported*
+    - Endpoints
+      - Metadaten: GET https://oauth.wiremockapi.cloud/.well-known/openid-configuration
+      - Authorization: GET https://oauth.wiremockapi.cloud/oauth/authorize?redirect_uri=https://example.com&reponse_type=code
+      - Token (mit Body x-www-form-urlencoded `code=...`): POST https://oauth.wiremockapi.cloud/oauth/token
+      - Userinfo (mit Header `Authorization: Bearer <access_token> vom Authorization-Endpoint`): GET https://oauth.wiremockapi.cloud/userinfo
+    - <https://docs.wiremock.io/oauth2-mock/>
+  - axa-group/oauth2-mock-server
+    - node module 
+    - <https://github.com/axa-group/oauth2-mock-server>
+  - eigenen Mock bauen mit Microcks: <https://microcks.io/blog/mocking-oidc-redirect/>
 
 ## Tools
 - **Keycloak**
