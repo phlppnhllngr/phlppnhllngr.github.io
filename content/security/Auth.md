@@ -73,8 +73,6 @@ parent: Security
   - <https://auth0.com> 
 - **AWS Cognito**
   - <https://aws.amazon.com/de/cognito/>
-- **Auth0**
-  - <https://auth0.com/>
 - **Gluu**
   - <https://www.gluu.org/>
 - **Authelia**
