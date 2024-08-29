@@ -139,6 +139,11 @@ parent: Security
 - **Spring Security OAuth2**
 - **OpenAM**
   - <https://github.com/OpenIdentityPlatform/OpenAM> <img loading="lazy" src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenAM?style=flat-square"/>
+- **Microsoft Entra ID**
+  - ehemals Microsoft Azure Active Directory oder Azure AD
+  - *Kunden können neben den Standard-Microsoft-Applikationen eigene Applikationen integrieren, um eine Single-Sign-On Funktionalität über Entra ID bereitstellen zu können*
+  - *Die Grundversion von Entra ID ist in Microsoft Cloud-Produkten wie Microsoft 365, Microsoft Azure oder Dynamics 365 enthalten*
+- **Okta** 
 
 
 ## LDAP & AD
