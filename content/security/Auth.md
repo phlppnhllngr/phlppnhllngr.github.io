@@ -35,6 +35,8 @@ parent: Security
   - <img loading="lazy" src="https://hackernoon.imgix.net/images/BlBIttNGqzO1aF2OOzYkWig7w1V2-3ve2gzk.png?w=828&q=75&auto=format"/> 
   - *a security standard where you give one application permission to access your data in another application. The steps to grant permission, or consent, are often referred to as authorization or even delegated authorization.*
 - <https://darutk.medium.com/the-simplest-guide-to-oauth-2-0-8c71bd9a15bb>
+- Flows
+  - <https://darutk.medium.com/diagrams-of-all-the-openid-connect-flows-6968e3990660> (Okt 2017)
 
 ### OpenID Connect
 - <https://dexidp.io/docs/openid-connect/>
@@ -51,6 +53,8 @@ parent: Security
   ```
 
   - *Discovery: OpenID Connect servers have a discovery mechanism for OAuth2 endpoints, scopes supported, and indications of various other OpenID Connect features*
+- Die Spec definiert bestimmte Http-Endpoints. Die URLs der Endpoints können den Metadaten des Servers und https://[base-server-url]/.well-known/openid-configuration entnommen werden.
+- <https://connect2id.com/learn>
 
 ## Tools
 - **Keycloak**
