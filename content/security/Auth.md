@@ -68,7 +68,7 @@ parent: Security
     - *Customize the look and feel of your login and registration pages without having to mess with FreeMarker.* (-> React)
     - <https://www.keycloakify.dev/>
   - <https://news.ycombinator.com/item?id=36384636>
-- **Auth0**
+- **Auth0 (Okta)**
   - *a company that sells an identity management platform with authentication and authorization services that implements the OAuth2 protocol (among others).* 
   - <https://auth0.com> 
 - **AWS Cognito**
@@ -143,7 +143,6 @@ parent: Security
   - ehemals Microsoft Azure Active Directory oder Azure AD
   - *Kunden können neben den Standard-Microsoft-Applikationen eigene Applikationen integrieren, um eine Single-Sign-On Funktionalität über Entra ID bereitstellen zu können*
   - *Die Grundversion von Entra ID ist in Microsoft Cloud-Produkten wie Microsoft 365, Microsoft Azure oder Dynamics 365 enthalten*
-- **Okta** 
 
 
 ## LDAP & AD
