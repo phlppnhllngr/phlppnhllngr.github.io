@@ -121,6 +121,10 @@ grand_parent: DevOps
   - *Caddy as a reverse proxy for Docker*
   - *scans Docker metadata, looking for labels indicating that the service or container should be served by Caddy.*
   - <https://github.com/lucaslorentz/caddy-docker-proxy>
+- **buildg**
+  - *tool to interactively debug Dockerfile*
+  - *Breakpoints and step execution* 
+  - <https://github.com/ktock/buildg> <img loading="lazy" src="https://img.shields.io/github/stars/ktock/buildg?style=flat-square"/>
 
 
 ## GUIs
