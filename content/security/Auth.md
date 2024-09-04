@@ -154,7 +154,7 @@ parent: Security
 - **OAuth2-Proxy**
   - *A reverse proxy and static file server that provides authentication using Providers (Google, Keycloak, GitHub and others) to validate accounts by email, domain or group.* 
   - <https://github.com/oauth2-proxy/oauth2-proxy> <img loading="lazy" src="https://img.shields.io/github/stars/oauth2-proxy/oauth2-proxy?style=flat-square"/>
-- **Spring Security OAuth2**
+- **Spring Security OAuth2, Spring Authorization Server**
 - **OpenAM**
   - <https://github.com/OpenIdentityPlatform/OpenAM> <img loading="lazy" src="https://img.shields.io/github/stars/OpenIdentityPlatform/OpenAM?style=flat-square"/>
 - **Microsoft Entra ID**
