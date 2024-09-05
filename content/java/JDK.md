@@ -82,7 +82,9 @@ parent: Java
     - *The jcmd utility is used to send diagnostic command requests to the JVM, where these requests are useful for controlling Java Flight Recordings, troubleshoot, and diagnose JVM and Java Applications.*
     - *it must be used on the same machine on which JVM is running*
 - **jinfo**
+    - *gets configuration information from a running Java process or crash dump and prints the system properties or the command-line flags that were used to start the JVM. It is suggested to use the latest utility, jcmd instead of the previous jinfo utility for enhanced diagnostics and reduced performance overhead.* 
 - **jmap**
+    - *prints memory-related statistics for a running VM or core file. It is suggested to use the latest utility, jcmd instead of the previous jmap utility for enhanced diagnostics and reduced performance overhead.* 
 - **jlink**
     ```
     # Führt zu "java: not found" in 2. Stage, daher corretto:
@@ -141,15 +143,19 @@ parent: Java
     - <https://blogs.oracle.com/javamagazine/post/containerizing-apps-with-jlink>
     - <https://levelup.gitconnected.com/java-developing-smaller-docker-images-with-jdeps-and-jlink-d4278718c550>
 - **jmod**
-- **jimage**
 - **jdeps**
 - **jstat**
+    - *provides JVM performance-related statistics like garbage collection, compilation activities. The major strength of jstat is its ability to capture these metrics dynamically when JVM is running without any pre-requisite instrumentation.* 
 - **javap**
+    - *Disassembles one or more class files. Dabei können entweder nur Informationen über Variablen und Methoden oder der komplette Bytecode der Klasse ausgegeben werden.* 
 - **jstack**
     - *attaches to the specified process or core file and prints the stack traces of all threads that are attached to the virtual machine, including Java threads and VM internal threads, and optionally native stack frames. The utility also performs deadlock detection.*
 - **jmc**
-    - java mission control
-    - *contains a plugin that allows us to visualize the data collected by JFR*
+    - jdk mission control
+    - grafisches Tool
+    - *tool suite for managing, monitoring, profiling, andtroubleshooting your Java applications. When first installed, JDK Mission Controlconsists of the JMX Console and the JDK Flight Recorder. More plug-ins caneasily be installed from within JDK Mission Control.*
+    - nicht teil des JDKs, separate Downloads: <https://adoptium.net/jmc/>
+    - *contains a plugin that allows us to visualize the data collected by JFR* (Plugin offenbar gar nicht notwendig (?))
       <br/><img src="https://download.oracle.com/technology/products/missioncontrol/updatesites/base/5.2.0/eclipse/images/screen-capture-01-large.png" loading="lazy"/>
 - **jfr**
     - JDK Flight Recorder, früher: Java Flight Recorder
