@@ -59,7 +59,10 @@ parent: Java
     - *Allocations in Java Heap*
     - *Contented lock attempts, including both Java object monitors and ReentrantLocks*
   - *provides out-of-the-box Flame Graph support*
-  - Flamegraphs verstehen: <https://youtu.be/2a0vF404xgA?t=98>
+  - Flamegraphs verstehen
+    - <https://youtu.be/2a0vF404xgA?t=98>
+    - <https://youtu.be/VEvK0JkPlOY?t=191>
+    - [Visualizing Performance - The Developers’ Guide to Flame Graphs • Brendan Gregg • YOW! 2022](https://www.youtube.com/watch?v=VMpTU15rIZY)
   - unterstützte OS: Linux, MacOS
   - <https://github.com/async-profiler/async-profiler>
   - ap-loader
