@@ -59,12 +59,16 @@ parent: Java
     - *Allocations in Java Heap*
     - *Contented lock attempts, including both Java object monitors and ReentrantLocks*
   - *provides out-of-the-box Flame Graph support*
+  - Flamegraphs verstehen: <https://youtu.be/2a0vF404xgA?t=98>
   - unterstützte OS: Linux, MacOS
   - <https://github.com/async-profiler/async-profiler>
   - ap-loader
     - *Packages async-profiler releases in a JAR with an AsyncProfilerLoader that loads the suitable native library for the current platform.*
     - *The real rationale behind this library is that the async-profiler is a nice tool, but it cannot be easily integrated into other Java-based tools.*
-    - <https://github.com/jvm-profiling-tools/ap-loader> 
+    - <https://github.com/jvm-profiling-tools/ap-loader>
+  - async-profiler-converter
+    - <https://central.sonatype.com/artifact/tools.profiler/async-profiler-converter> 
+    - kann JFR-Recordings in Flamegraphs konvertieren: `java -cp async-profiler-recorder jfr2flame recording.jfr flamegraph.html` 
 - **Pyroscope**
   - <https://phlppnhllngr.github.io/content/devops/Observability.html#tools>
 
