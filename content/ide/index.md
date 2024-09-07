@@ -14,3 +14,6 @@ has_children: true
 - **Cursor**
     - *an editor made for programming with AI* 
     - <https://github.com/getcursor/cursor> 
+- **intellij idea**
+    - <https://www.jetbrains.com/de-de/idea/download/other.html> 
+    - <https://plugins.jetbrains.com/plugin/19177-vscode-theme> 
