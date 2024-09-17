@@ -208,6 +208,13 @@ parent: Java
       /subsystem=logging/logger=de.foo.bar:write-attribute(name="handlers", value=["CONSOLE2"])
       /subsystem=logging/logger=de.baz.qux:add(handlers=["CONSOLE2"])
 
+      # Health (<host>:<management_port>/health)
+      # https://docs.wildfly.org/21/wildscribe/subsystem/microprofile-health-smallrye/index.html
+      # https://github.com/wildfly/quickstart/blob/main/microprofile-health/README.adoc
+      /extension=org.wildfly.extension.microprofile.health-smallrye:add
+      /subsystem=microprofile-health-smallrye:add(security-enabled=false)
+      :reload()
+
       # Für Access log (Zeit bis Response messen)
       /subsystem=undertow/server=default-server/http-listener=default:write-attribute(name=record-request-start-time,value=true)
 
