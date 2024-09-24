@@ -61,6 +61,8 @@ parent: Java
 - **sun.zip.disableMemoryMapping**
   - true/false
   - entfernt in Java 9
+- **sun.stdout.encoding**
+- **sun.stderr.encoding**
 - **user.timezone**
   - *you might be using java.util.Date or java.util.Calendar objects. These objects, by default, pick up time zone information from the underlying operating system. This will become a problem if your application is running in a distributed environment.*
   - `-Duser.timezone=US/Eastern`
