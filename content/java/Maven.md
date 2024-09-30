@@ -125,6 +125,9 @@ parent: Java
 - **jgitver**
   - *automatically define versions using jgitver & git tags*
   - <https://github.com/jgitver/jgitver-maven-plugin>
+- **hocon**
+  - *provides a Hocon POM parser extension for Maven 4* (Hocon ist ein JSON-Derivat)
+  - <https://github.com/apache/maven-hocon-extension> 
 
 
 ## Plugins
