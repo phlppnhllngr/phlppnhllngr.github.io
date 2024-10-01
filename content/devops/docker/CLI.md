@@ -52,6 +52,22 @@ grand_parent: DevOps
   - <https://docs.docker.com/engine/reference/commandline/inspect/>
 - **logs**
   - `docker logs <name/id>`
+- **ps**
+  - alias `container ls` 
+  - `--all`
+  - `--filter`
+  - `--format`
+    - nur best. Spalten ausgeben, Zeilen als Liste: `docker ps --size --format '{{.Names}} {{.Size}}'`
+    - nur best. Spalten ausgeben, Zeilen tabellarisch: `docker ps --size --format 'table {{.Names}}\t{{.Size}}'` 
+  - `--size | -s`
+    - Wie "all", mit zusätzl. Spalte "SIZE": `178MB (virtual 1.07GB)`
+    - *describe the amount of disk space used by a container*
+    - *When starting a container, the image that the container is started from is mounted read-only. On top of that, a writable layer is mounted, in which any changes made to the container are written. The read-only layers of an image can be shared between any container that is started from the same image, whereas the "writable" layer is unique per container*
+    - size = disk size of writable layer
+    - virtual = the combined size of the readonly layer (the image), and the writable layer of the container
+    - *Things that are not included currently are: volumes, disk space used for the container's configuration files, memory written to disk (if swap is enabled)* (<https://docs.docker.com/engine/storage/drivers/#container-size-on-disk>)
+    - <https://docs.docker.com/reference/cli/docker/container/ls/#size>
+  - <https://docs.docker.com/reference/cli/docker/container/ls/>
 - **pause**
   - *suspends all the processes for an indefinite time*
   - *consumes the same memory used while running the container, but the CPU is released completely*
@@ -75,7 +91,7 @@ grand_parent: DevOps
     - *it will decrease the memory till the reservation limit is hit. (That's why it has to be smaller than the memory flag)*
     - *upper bound is `--memory` and lower bound is `--memory-reservation`.*
 - **system**
-  - prune
+  - <u>prune</u>
     - *Remove all unused [stopped] containers, networks, images (both dangling and unreferenced), and optionally, volumes.*
     - `docker system prune --all --volumes --force`
     - Optionen
@@ -89,7 +105,19 @@ grand_parent: DevOps
         - *Prune volumes*
         - löscht aber nicht alle ungenutzten Volumes --> `docker volume prune --all`
       - `--filter`  
-    - <https://docs.docker.com/engine/reference/commandline/system_prune/>  
+    - <https://docs.docker.com/engine/reference/commandline/system_prune/>
+  - <u>df</u>
+    - *displays information regarding the amount of disk space used by the Docker daemon*
+    - ```
+      TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+      Images          14        14        6.911GB   85.23MB (1%)
+      Containers      19        19        6.876GB   0B (0%)
+      Local Volumes   12        9         4.514GB   2.774GB (61%)
+      Build Cache     0         0         0B        0B
+      ```
+    - `--verbose | -v`
+      - Zeigt einzelne Größen aller Images, Container und Volumes an
+    - <https://docs.docker.com/reference/cli/docker/system/df/> 
 - **volume**
     - create
         - driver
