@@ -124,6 +124,14 @@ parent: Diverses
     - *bash: EXIT will also run on SIGINT (^C), which most other shells won't*
 - **Farbige Outputs**
   - <https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux> 
+- **Variable expansion**
+  - `rm -rf ${foo:?}/*` stellt sicher, dass das Skript abbricht, wenn foo null oder unset ist
+- **Brace expansion**
+  - `rm -rf /foo/{bar,baz}/*`
+  - `echo {1..10}`
+  - `echo {A..F}`
+  - `cp -p logfile.txt{,.bak}`
+  - <https://linuxhandbook.com/brace-expansion/>
 
 ### Tools
 - **shellspec**
