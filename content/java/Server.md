@@ -184,6 +184,7 @@ parent: Java
   - CLI
     - <https://docs.wildfly.org/26/Admin_Guide.html#Command_Line_Interface>
     - <https://docs.wildfly.org/26/Admin_Guide.html#CLI_Recipes>
+    - <https://www.dbi-services.com/blog/overcome-jboss-cli-limitations-with-ansible/>
     - ```
       /opt/jboss/wildfly/bin/jboss-cli.sh --connect
       /subsystem=datasources:read-resource(recursive=true)
