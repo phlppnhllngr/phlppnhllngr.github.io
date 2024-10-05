@@ -169,3 +169,6 @@ parent: Security
 - *LDAP, is a standards based specification for interacting with directory data. Directory Services can implement support of LDAP to provide interoperability among 3rd party applications. Active Directory is Microsoft's implementation of a directory service that, among other protocols, supports LDAP to query it's data.*
 - *Active Directory isn't just an implementation of LDAP by Microsoft, that is only a small part of what AD is. Active Directory is (in an overly simplified way) a service that provides LDAP based authentication with Kerberos based Authorization.*
 - *LDAP sits on top of the TCP/IP stack and controls internet directory access. It is environment agnostic.*
+- **OpenLDAP**
+  - <https://github.com/osixia/docker-openldap>
+  - <https://medium.com/rahasak/deploy-ldap-directory-service-with-openldap-docker-8d9f438f1216> 
