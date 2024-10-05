@@ -80,6 +80,9 @@ parent: Java
   - <https://github.com/digma-ai/digma> <img loading="lazy" src="https://img.shields.io/github/stars/digma-ai/digma?style=flat-square">
   - [YT - Continuous Code Feedback with OpenTelemetry and Digma By Roni Dover - 10/2023](https://www.youtube.com/watch?v=Tyv79hhaL6c)
   - OTEL-Extension: <https://foojay.io/today/observing-java-applications-running-via-docker-compose-using-opentelemetry/>
+- **FlowTracker**
+  - *Java agent that tracks how a program reads, manipulates, and writes data. By watching a program run, it can show what file and network I/O happened, but more importantly connecting its inputs and outputs to show where its output came from.* 
+  - <https://github.com/coekie/flowtracker> 
 
 
 ## Visualisierung von Projektabhängigkeiten etc.
