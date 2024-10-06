@@ -71,6 +71,21 @@ parent: Java
   CRaC provides the same mechanism but for the JVM and your running application.*
 - **assert**
   - <https://www.baeldung.com/java-assert>
+- **Attach API**
+  - *provides a mechanism to attach to a Java virtual machine*
+  - <https://docs.oracle.com/javase/8/docs/technotes/guides/attach/>
+- **jattach**
+  - *utility to send commands to a JVM process via Dynamic Attach mechanism.*
+  - *All-in-one jmap + jstack + jcmd + jinfo functionality in a single tiny program.*
+  - *No installed JDK required, works with just JRE. Supports Linux containers.*
+  - *This is the lightweight native version of HotSpot Attach API*
+  - *Supported commands:<br/>
+load : load agent library<br/>
+threaddump : dump all stack traces (like jstack)<br/>
+dumpheap : dump heap (like jmap)<br/>
+jcmd : execute jcmd command
+...*
+  - <https://github.com/jattach/jattach>
 
 
 ## Bytecode-Manipulation, Agents, Instrumentation
