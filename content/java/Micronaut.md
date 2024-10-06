@@ -94,3 +94,7 @@ parent: Java
   - -> IDE/VSCode 
 - **generator-jhipster-micronaut**
   - <https://github.com/jhipster/generator-jhipster-micronaut> 
+
+
+## Logging
+- <https://github.com/wisocn/structured-logging-micronaut>
