@@ -394,7 +394,7 @@ parent: Java
 - <https://github.com/akullpp/awesome-java#template-engine>
 - <https://github.com/xmlet/template-benchmark>
 - <https://github.com/jreijn/spring-comparing-template-engines>
-- → build/manifold
+- <https://github.com/manifold-systems/manifold/tree/master/manifold-deps-parent/manifold-templates>
 
 ### text (file) based
 - **thymeleaf**
