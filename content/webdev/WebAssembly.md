@@ -59,6 +59,9 @@ parent: Webdev
     - *transpile [java] to other languages such as JavaScript, OpenCL or WebAssembly*
     - <https://github.com/mirkosertic/Bytecoder> *413
     - Maven-Plugin
+  - **Chicory**
+    - *allows you to run WebAssembly programs [in Java]*
+    - <https://github.com/dylibso/chicory>
 - <u>Go</u>
   - <https://github.com/golang/go/wiki/WebAssembly>
 - <u>Rust</u>
