@@ -288,6 +288,7 @@ If, however, your <mark>writing becomes complex</mark>, i.e. you have to load a 
   - <https://github.com/liefke/org.fastnate/wiki>
   - z.B. Nutzung, um JPA-Entities abzuspeichern (java code) und den generierten SQL-Code (DB-Dialekt-spezidisch) zu erhalten:
     <https://medium.com/swlh/code-first-database-design-and-development-using-jpa-hibernate-flway-fastnate-and-spring-boot-3ede35b403a6>
+- <https://github.com/xerial/sqlite-jdbc>
 
 
 ## Dies & das
