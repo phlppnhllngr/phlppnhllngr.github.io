@@ -23,6 +23,8 @@ parent: Diverses
   - *provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub.*
   - Models, Datasets, Docs, ... 
   - <https://huggingface.co/>
+  - HuggingChat
+    - <https://huggingface.co/chat/models> 
 - **AWS Lex**
   - für Chatbots 
 - **Google Dialogflow**
@@ -62,7 +64,25 @@ parent: Diverses
   - <https://github.com/simonw/llm> <img loading="lazy" src="https://img.shields.io/github/stars/simonw/llm?style=flat-square"/>
 - **Open WebUI**
   - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
-  - <https://github.com/open-webui/open-webui> 
+  - <https://github.com/open-webui/open-webui>
+- **Semantic Kernel**
+  - *SDK that integrates Large Language Models (LLMs) like OpenAI, Azure OpenAI, and Hugging Face with conventional programming languages like C#, Python, and Java.*
+  - *It provides abstractions for AI services (such as chat, text to images, audio to text, etc.) and memory stores*
+  - *It provides implementations of those abstractions for services from OpenAI, Azure OpenAI, Hugging Face, local models, and more, and for a multitude of vector databases*
+  - <https://github.com/microsoft/semantic-kernel> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square"/>
+- **SillyTavern**
+  - *a locally installed user interface that allows you to interact with text generation LLMs, image generation engines, and TTS voice models.* 
+  - *provides a single unified interface for many LLM APIs (KoboldAI/CPP, Horde, NovelAI, Ooba, Tabby, OpenAI, OpenRouter, Claude, Mistral and more)* 
+  - <https://github.com/SillyTavern/SillyTavern> <img loading="lazy" src="https://img.shields.io/github/stars/SillyTavern/SillyTavern?style=flat-square"/>
+- **llama.cpp**
+  - <https://github.com/ggerganov/llama.cpp>
+  - Bindings
+    - <https://github.com/ggerganov/llama.cpp?tab=readme-ov-file> 
+    - Java: <https://github.com/kherud/java-llama.cpp>
+- **Ooobabooga**
+  - *web UI for Large Language Models*
+  - *Supports multiple text generation backends* 
+  - <https://github.com/oobabooga/text-generation-webui> <img loading="lazy" src="https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=flat-square"/>
 
 
 ## Local LLM
@@ -85,7 +105,24 @@ parent: Diverses
 - **Mozilla MemoryCache**
   - *augments an on-device, personal model with local files saved from the browser*
   - *a set of scripts and simple tools to augment a local copy of privateGPT*
-  - <https://future.mozilla.org/news/introducing-memorycache/> 
+  - <https://future.mozilla.org/news/introducing-memorycache/>
+- **Backyard AI**
+  - <https://backyard.ai/desktop>
+- **Msty**
+  - *The easiest way to use local and online AI models*
+  - *RAG: Leverage multiple data sources to build a comprehensive information stack*
+  - *Use any models from Hugging Face, Ollama and Open Router*
+  - <https://msty.app/>
+- **LM Studio**
+  - *Discover, download, and run local LLMs*
+  - *Chat with your local documents* 
+  - <https://lmstudio.ai/>
+- **Jan**
+  - *open-source ChatGPT alternative that runs 100% offline on your computer*
+  - <https://github.com/janhq/jan> <img loading="lazy" src="https://img.shields.io/github/stars/janhq/jan?style=flat-square"/>
+- **GPT4All**
+  - *runs large language models (LLMs) privately on everyday desktops & laptops* 
+  - <https://github.com/nomic-ai/gpt4all> <img loading="lazy" src="https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat-square"/>
 
 
 ## Applikationen
@@ -156,6 +193,11 @@ parent: Diverses
 - **HeadshotPro**
   - *Professional business headshots, without a physical photo shoot* 
   - <https://www.headshotpro.com/>
+- **Anthropic Claude**
+  - <https://claude.ai/>
+- **OpenHands**
+  - *(formerly OpenDevin), a platform for software development agents powered by AI* 
+  - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/> 
 
 
 ## Model Benchmarks
