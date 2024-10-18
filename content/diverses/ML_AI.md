@@ -62,9 +62,6 @@ parent: Diverses
 - **simonw/llm**
   - *Access large language models from the command-line* 
   - <https://github.com/simonw/llm> <img loading="lazy" src="https://img.shields.io/github/stars/simonw/llm?style=flat-square"/>
-- **Open WebUI**
-  - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
-  - <https://github.com/open-webui/open-webui>
 - **Semantic Kernel**
   - *SDK that integrates Large Language Models (LLMs) like OpenAI, Azure OpenAI, and Hugging Face with conventional programming languages like C#, Python, and Java.*
   - *It provides abstractions for AI services (such as chat, text to images, audio to text, etc.) and memory stores*
@@ -123,7 +120,10 @@ parent: Diverses
 - **GPT4All**
   - *runs large language models (LLMs) privately on everyday desktops & laptops* 
   - <https://github.com/nomic-ai/gpt4all> <img loading="lazy" src="https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat-square"/>
-
+- **Open WebUI**
+  - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
+  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
+    
 
 ## Applikationen
 - <u>OpenAI</u>
