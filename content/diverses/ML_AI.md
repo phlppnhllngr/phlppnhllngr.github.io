@@ -53,6 +53,7 @@ parent: Diverses
   - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
   - <https://github.com/mindsdb/mindsdb> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/mindsdb?style=flat-square"/>
 - **AutoGPT**
+  - *platform that allows you to create, deploy, and manage continuous AI agents that automate complex workflows* 
   - <https://github.com/Significant-Gravitas/Auto-GPT> <img loading="lazy" src="https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT?style=flat-square"/>
   - <https://www.youtube.com/watch?v=L6tU0bnMsh8>
 - **e2b**
@@ -196,9 +197,25 @@ parent: Diverses
 - **Anthropic Claude**
   - <https://claude.ai/>
 - **OpenHands**
-  - *(formerly OpenDevin), a platform for software development agents powered by AI* 
+  - *(formerly OpenDevin), a platform for software development agents powered by AI*
   - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/> 
 
+## RAG
+- <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
+- **RAGFlow**
+  - *Deep document understanding-based knowledge extraction from unstructured data with complicated formats*
+  - *Supports Word, slides, excel, txt, images, scanned copies, structured data, web pages, and more.*
+  - *Prerequisites: CPU >= 4 cores, RAM >= 16 GB, Disk >= 50 GB* 
+  - <https://github.com/infiniflow/ragflow> <img loading="lazy" src="https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square"/> 
+
+## Vector DB
+- **Weaviate**
+  - *to turn your data - text, images, and more - into a searchable vector database*
+  - *can vectorize your data at import time*
+  - *GraphQL API, REST API, gRPC API*
+  - <https://github.com/weaviate/weaviate> <img loading="lazy" src="https://img.shields.io/github/stars/weaviate/weaviate?style=flat-square"/>
+- **Milvus**
+  - <https://github.com/milvus-io/milvus> <img loading="lazy" src="https://img.shields.io/github/stars/milvus-io/milvus?style=flat-square"/>
 
 ## Model Benchmarks
 - <https://www.choosellm.com/>
