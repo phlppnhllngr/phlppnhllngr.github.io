@@ -149,7 +149,7 @@ parent: Diverses
 - **Tabnine**
   - *AI Assistant For Software Developers*
   - <https://www.tabnine.com>  
- - **Play.ht**
+- **Play.ht**
   - *AI powered text to voice generator*
   - <https://play.ht/> 
 - **restorephotos.io**
