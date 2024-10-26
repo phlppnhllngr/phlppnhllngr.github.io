@@ -158,7 +158,7 @@ parent: Diverses
     - *creates images from text captions for a wide range of concepts expressible in natural language*
     - <https://openai.com/blog/dall-e/>
     - <https://github.com/saharmor/dalle-playground>
- - **Open Assistant**
+- **Open Assistant**
   - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
   - <https://github.com/LAION-AI/Open-Assistant>
 - **Play.ht**
