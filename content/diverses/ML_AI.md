@@ -4,9 +4,6 @@ parent: Diverses
 ---
 
 # ML, AI
-{: .no_toc }
-- <https://www.youtube.com/@TwoMinutePapers/videos>
-
 
 ## Inhalt
 {: .no_toc }
@@ -16,6 +13,7 @@ parent: Diverses
 
 ## Tools
 - <https://github.com/steven2358/awesome-generative-ai>
+- <https://github.com/underlines/awesome-ml/>
 - **Hugging Face**
   - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
   - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
@@ -37,6 +35,15 @@ parent: Diverses
   - <https://github.com/hwchase17/langchain> <img loading="lazy" src="https://img.shields.io/github/stars/hwchase17/langchain?style=flat-square"/>
   - <https://github.com/langchain4j/langchain4j>
   - [HN - LangChain: The Missing Manual, 06/2023](https://news.ycombinator.com/item?id=36001465)
+- **Langflow**
+  - *low-code app builder for RAG and multi-agent AI applications*
+  - *It’s Python-based and agnostic to any model, API, or database.*
+  - *Publish as an API or export as a Python application.*
+  - <https://github.com/langflow-ai/langflow> <img loading="lazy" src="https://img.shields.io/github/stars/langflow-ai/langflow?style=flat-square"/>
+- **Dify**
+  - *LLM app development platform*
+  - *combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more*
+  - <https://github.com/langgenius/dify> <img loading="lazy" src="https://img.shields.io/github/stars/langgenius/dify?style=flat-square"/>
 - **LlamaIndex**
   - *provides a central interface to connect your LLM's with external data.*
   - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
@@ -81,6 +88,17 @@ parent: Diverses
   - *web UI for Large Language Models*
   - *Supports multiple text generation backends* 
   - <https://github.com/oobabooga/text-generation-webui> <img loading="lazy" src="https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=flat-square"/>
+- **OpenLLMetry**
+  - *observability for your LLM application, based on OpenTelemetry* 
+  - <https://github.com/traceloop/openllmetry> <img loading="lazy" src="https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square"/>
+- **Superduper**
+  - *Python based framework for building end-2-end AI-data workflows and applications on your own data, integrating with major databases.*
+  - *It supports the latest technologies and techniques, including LLMs, vector-search, RAG, multimodality as well as classical AI and ML paradigms.*
+  - <https://github.com/superduper-io/superduper> <img loading="lazy" src="https://img.shields.io/github/stars/superduper-io/superduper?style=flat-square"/>
+- **OpenRouter**
+  - *A unified interface for LLMs*
+  - *No need to change your code when switching between models or providers*
+  - <https://openrouter.ai/docs/principles> 
 
 
 ## Local LLM
@@ -143,12 +161,6 @@ parent: Diverses
  - **Open Assistant**
   - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
   - <https://github.com/LAION-AI/Open-Assistant>
-- **Github Copilot**
-  - *uses AI to suggest code in real-time, right from your editor*
-  - <https://github.com/features/copilot>
-- **Tabnine**
-  - *AI Assistant For Software Developers*
-  - <https://www.tabnine.com>  
 - **Play.ht**
   - *AI powered text to voice generator*
   - <https://play.ht/> 
@@ -163,15 +175,9 @@ parent: Diverses
 - **VALL-E**
   - Voicecloning von MS
   - braucht nur 3 Sekunden Input-Material
-- **CodeComplete**
-  - self-hostbare Alternative zu GH Copilot
-  - <https://news.ycombinator.com/item?id=35152851>
 - **ChatPDF**
   - *can answer any question from any PDF* 
   - <https://www.chatpdf.com/>
-- **FauxPilot**
-  - *an open-source GitHub Copilot server* 
-  - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
 - **Prime Voice AI**
   - Text to speech, voice cloning 
   - <https://beta.elevenlabs.io/>
@@ -196,9 +202,44 @@ parent: Diverses
   - <https://www.headshotpro.com/>
 - **Anthropic Claude**
   - <https://claude.ai/>
+- **Skyvern**
+  - *automates browser-based workflows using LLMs and computer vision* 
+  - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=41936745>
+- **Khoj**
+  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
+  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
+
+### Coding
+- **FauxPilot**
+  - *an open-source GitHub Copilot server* 
+  - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
+- **CodeComplete**
+  - self-hostbare Alternative zu GH Copilot
+  - <https://news.ycombinator.com/item?id=35152851>
+- **Github Copilot**
+  - *uses AI to suggest code in real-time, right from your editor*
+  - <https://github.com/features/copilot>
+- **Tabnine**
+  - *AI Assistant For Software Developers*
+  - <https://www.tabnine.com>
+- **Cline**
+  - <https://github.com/cline/cline> <img loading="lazy" src="https://img.shields.io/github/stars/cline/cline?style=flat-square"/>
+- **Aider**
+  - *pair programming in your terminal*
+  - *works best with GPT-4o & Claude 3.5 Sonnet and can connect to almost any LLM.* 
+  - <https://github.com/Aider-AI/aider> <img loading="lazy" src="https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square"/>
 - **OpenHands**
   - *(formerly OpenDevin), a platform for software development agents powered by AI*
-  - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/> 
+  - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/>
+- **Plandex**
+  - *AI driven development in your terminal* 
+  - <https://github.com/plandex-ai/plandex> <img loading="lazy" src="https://img.shields.io/github/stars/plandex-ai/plandex?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=39918500>
+- **Continue**
+  - *autocomplete and chat experiences inside VS Code and JetBrains*   
+  - <https://github.com/continuedev/continue> <img loading="lazy" src="https://img.shields.io/github/stars/continuedev/continue?style=flat-square"/>
+  
 
 ## RAG
 - <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
@@ -206,7 +247,11 @@ parent: Diverses
   - *Deep document understanding-based knowledge extraction from unstructured data with complicated formats*
   - *Supports Word, slides, excel, txt, images, scanned copies, structured data, web pages, and more.*
   - *Prerequisites: CPU >= 4 cores, RAM >= 16 GB, Disk >= 50 GB* 
-  - <https://github.com/infiniflow/ragflow> <img loading="lazy" src="https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square"/> 
+  - <https://github.com/infiniflow/ragflow> <img loading="lazy" src="https://img.shields.io/github/stars/infiniflow/ragflow?style=flat-square"/>
+- **RAGMeUp**
+  - *generic framework (server + UIs) that enables you do to RAG on your own dataset easily* 
+  - <https://github.com/AI-Commandos/RAGMeUp> <img loading="lazy" src="https://img.shields.io/github/stars/AI-Commandos/RAGMeUp?style=flat-square"/>
+
 
 ## Vector DB
 - **Weaviate**
@@ -216,6 +261,16 @@ parent: Diverses
   - <https://github.com/weaviate/weaviate> <img loading="lazy" src="https://img.shields.io/github/stars/weaviate/weaviate?style=flat-square"/>
 - **Milvus**
   - <https://github.com/milvus-io/milvus> <img loading="lazy" src="https://img.shields.io/github/stars/milvus-io/milvus?style=flat-square"/>
+- **Postgres**
+  - pgvector
+  - pg_search
+  - PostgresML
+    - *Postgres extension that seamlessly combines data storage and machine learning inference within your database*
+    - *Run machine learning and AI operations directly within PostgreSQL*
+    - *Built-in functions for chunking, embedding, ranking, and transforming text*
+    - <https://github.com/postgresml/postgresml> <img loading="lazy" src="https://img.shields.io/github/stars/postgresml/postgresml?style=flat-square"/>
 
-## Model Benchmarks
+
+## Model Benchmarks & Leaderboards
 - <https://www.choosellm.com/>
+- <https://lmarena.ai/?leaderboard>
