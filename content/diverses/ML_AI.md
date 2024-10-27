@@ -4,6 +4,7 @@ parent: Diverses
 ---
 
 # ML, AI
+- <https://microsoft.github.io/generative-ai-for-beginners/#/>
 
 ## Inhalt
 {: .no_toc }
@@ -35,6 +36,7 @@ parent: Diverses
   - <https://github.com/hwchase17/langchain> <img loading="lazy" src="https://img.shields.io/github/stars/hwchase17/langchain?style=flat-square"/>
   - <https://github.com/langchain4j/langchain4j>
   - [HN - LangChain: The Missing Manual, 06/2023](https://news.ycombinator.com/item?id=36001465)
+  - [HN - 	Why we no longer use LangChain for building our AI agents, 06/2024](https://news.ycombinator.com/item?id=40739982)
 - **Langflow**
   - *low-code app builder for RAG and multi-agent AI applications*
   - *It’s Python-based and agnostic to any model, API, or database.*
@@ -106,7 +108,7 @@ parent: Diverses
 - <https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/>
 - **Ollama**
   - *Get up and running with large language models locally.*
-  - <https://github.com/ollama/ollama?tab=readme-ov-file#model-library>
+  - <https://ollama.com/library>
   - *Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.*
   - keine UI (CLI-Tool) => Open WebUI
   - <https://github.com/ollama/ollama> <img loading="lazy" src="https://img.shields.io/github/stars/ollama/ollama?style=flat-square"/>
@@ -274,3 +276,4 @@ parent: Diverses
 ## Model Benchmarks & Leaderboards
 - <https://www.choosellm.com/>
 - <https://lmarena.ai/?leaderboard>
+- <https://huggingface.co/spaces/opencompass/open_vlm_leaderboard> (Vision)
