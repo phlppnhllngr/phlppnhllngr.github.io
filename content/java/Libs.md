@@ -231,7 +231,7 @@ parent: Java
   - client
     - **tyrus-standalone-client**
 - **graphql-java**
-  - <https://github.com/graphql-java/graphql-java> ⭐4.9k
+  - <https://github.com/graphql-java/graphql-java> <img loading="lazy" src="https://img.shields.io/github/stars/graphql-java/graphql-java?style=flat-square"/>
 - **openapi4j**
   - *openapi4j is a suite of tools, including the following: OpenAPI 3 parser, JSON schema and request validator*
   - <https://github.com/openapi4j/openapi4j>
@@ -243,10 +243,10 @@ parent: Java
 
 ## Resilience
 - **failsafe**
-  - <https://github.com/jhalterman/failsafe> ⭐2900
+  - <https://github.com/jhalterman/failsafe> <img loading="lazy" src="https://img.shields.io/github/stars/jhalterman/failsafe?style=flat-square"/>
   - *Fault tolerance and resilience patterns for the JVM*
 - **resilience4j**
-  - <https://github.com/resilience4j/resilience4j> ⭐3300
+  - <https://github.com/resilience4j/resilience4j> <img loading="lazy" src="https://img.shields.io/github/stars/resilience4j/resilience4j?style=flat-square"/>
   - retry, rate limiting, cache, ... 
   - Module für Spring, Spring Boot, vertx und andere
 - **bucket4j**
@@ -312,7 +312,7 @@ parent: Java
 - **wkhtmltopdf-Wrapper**
   - → Diverses/PDF
   - java-wkhtmltopdf-wrapper
-    - <https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper> ⭐250
+    - <https://github.com/jhonnymertz/java-wkhtmltopdf-wrapper> <img loading="lazy" src="https://img.shields.io/github/stars/jhonnymertz/java-wkhtmltopdf-wrapper?style=flat-square"/>
   - htmltopdf-java
     - <https://github.com/wooio/htmltopdf-java> ⭐100
     - *Access to wkhtmltopdf is performed via JNA, exposed through a Java-friendly layer*
@@ -528,8 +528,8 @@ parent: Java
   - <https://commons.apache.org/>
 - **Guava**
   - EventBus
-    - https://github.com/google/guava/wiki/EventBusExplained
-    - Guide: http://www.baeldung.com/guava-eventbus
+    - <https://github.com/google/guava/wiki/EventBusExplained>
+    - Guide: <https://www.baeldung.com/guava-eventbus>
 - **immutables**
   - <https://immutables.github.io/>
   - *Java annotation processors to generate simple, safe and consistent value objects*
@@ -631,6 +631,21 @@ parent: Java
     - *Apache Commons VFS uses JSch library internally*
   - <https://github.com/apache/commons-vfs>
   - <https://mvnrepository.com/artifact/org.apache.commons/commons-vfs2>
+
+
+## AI
+- <https://github.com/marcushellberg/java-ai-playground> - *AI-powered customer support application that (...) includes implementations for LangChain4j in the main branch, spring-ai, Semantic Kernel*
+- **Semantic Kernel Java**
+  - <https://github.com/microsoft/semantic-kernel-java> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/semantic-kernel-java?style=flat-square"/>
+- **LangChain4j**
+  - *Although "LangChain" is in our name, the project is a fusion of ideas and concepts from LangChain, Haystack, LlamaIndex, and the broader community, spiced up with a touch of our own innovation.* 
+  - <https://github.com/langchain4j/langchain4j> <img loading="lazy" src="https://img.shields.io/github/stars/langchain4j/langchain4j?style=flat-square"/>
+- **Jlama**
+  - *Langchain4j Integration*
+  - *requires Java 20 or later*
+  - *supports distributed inference with sharding startegies*
+  - Funktioniert nur mit lokalen Models
+  - <https://github.com/tjake/Jlama> <img loading="lazy" src="https://img.shields.io/github/stars/tjake/Jlama?style=flat-square"/>
 
 
 ## Diverses
