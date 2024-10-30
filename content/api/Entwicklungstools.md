@@ -8,6 +8,7 @@ parent: API
 
 ## Clients
 - **Insomnia**
+  - erfordert Login/Cloud-Sync 
   - <https://insomnia.rest/>
   - Plugins, z.B. um Zufallsdaten zu generieren
     - <https://insomnia.rest/plugins/>
@@ -18,48 +19,8 @@ parent: API
     - "Inso"
     - benötigt nodejs
 - **Postman**
+  - erfordert Login/Cloud-Sync
   - <https://www.getpostman.com/>
-  - Tests (JavaScript), Mock-Server
-  - scopes
-    <table>
-      <thead>
-        <th>scope</th>
-        <th>getter</th>
-        <th>setter persistent?</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>workspace/globals</td>
-          <td>pm.globals.get('x') oder globals.x</td>
-          <td>y</td>
-        </tr>
-        <tr>
-          <td>environment</td>
-          <td>pm.environment.get('x')</td>
-          <td>y</td>
-        </tr>
-        <tr>
-          <td>collection (variables)</td>
-          <td>pm.environment.get('x')</td>
-          <td>n</td>
-        </tr>
-      </tbody>
-    </table>
-  - function library
-    ```js
-    pm.globals.set('library', function functions() {
-      function myFunc1() {}
-      function myFunc2(x) {}
-      return {
-          myFunc1,
-          myFunc2
-      }
-    } + '; functions();');
-
-    // woanders
-    const library = eval(globals.library);
-    library.myFunc1();
-    ```
   - newman
     - node_module; <https://www.npmjs.com/package/newman/>
     - *the cli companion for postman*
@@ -97,12 +58,14 @@ parent: API
   - *can chain requests, capture values and evaluate queries on headers and body response. Hurl is very versatile: it can be used for fetching data, testing HTTP sessions and testing XML / JSON APIs.* 
   - <https://hurl.dev/>
   - <https://gitlab.com/everyonecancontribute/dev/hurl-playground>
+  - <https://github.com/Orange-OpenSource/hurl>
 - **RecipeUI**
   - <https://github.com/RecipeUI/RecipeUI>
 - **bruno**
   - <https://www.usebruno.com/>
   - <https://github.com/usebruno/bruno>
-- **Insomnium**
+- ~~**Insomnium**~~
+  - Repo archiviert 
   - *fork of Kong/insomnia* 
   - <https://github.com/ArchGPT/insomnium>
 - **Restfox**
