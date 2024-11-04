@@ -1,10 +1,11 @@
 ---
-title: ML, AI
+title: AI
 parent: Diverses
 ---
 
-# ML, AI
+# AI
 - <https://microsoft.github.io/generative-ai-for-beginners/#/>
+- <https://huggingface.co/docs>
 
 ## Inhalt
 {: .no_toc }
@@ -253,6 +254,13 @@ parent: Diverses
 - **RAGMeUp**
   - *generic framework (server + UIs) that enables you do to RAG on your own dataset easily* 
   - <https://github.com/AI-Commandos/RAGMeUp> <img loading="lazy" src="https://img.shields.io/github/stars/AI-Commandos/RAGMeUp?style=flat-square"/>
+- **Quivr**
+  - *Opiniated RAG for integrating GenAI in your apps*
+  - Python 
+  - <https://github.com/QuivrHQ/quivr/> <img loading="lazy" src="https://img.shields.io/github/stars/QuivrHQ/quivr?style=flat-square"/>
+- **MegaParse**
+  - *File Parser optimised for LLM Ingestion with no loss. Parse PDFs, Docx, PPTx in a format that is ideal for LLMs.* 
+  - <https://github.com/quivrhq/megaparse> <img loading="lazy" src="https://img.shields.io/github/stars/quivrhq/megaparse?style=flat-square"/>
 
 
 ## Vector DB
@@ -271,6 +279,11 @@ parent: Diverses
     - *Run machine learning and AI operations directly within PostgreSQL*
     - *Built-in functions for chunking, embedding, ranking, and transforming text*
     - <https://github.com/postgresml/postgresml> <img loading="lazy" src="https://img.shields.io/github/stars/postgresml/postgresml?style=flat-square"/>
+- **Chroma**
+  - <https://github.com/chroma-core/chroma> <img loading="lazy" src="https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square"/>
+- **Qdrant**
+  - <https://github.com/qdrant/qdrant> <img loading="lazy" src="https://img.shields.io/github/stars/qdrant/qdrant?style=flat-square"/>
+- **Pinecone**
 
 
 ## Model Benchmarks & Leaderboards
