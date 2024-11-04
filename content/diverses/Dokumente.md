@@ -222,6 +222,10 @@ parent: Diverses
 - **typst**
   - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
   - <https://github.com/typst/typst>
+- **Docling**
+  - <https://github.com/DS4SD/docling>
+  - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
+  - Python 
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
