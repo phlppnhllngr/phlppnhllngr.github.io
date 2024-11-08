@@ -268,6 +268,9 @@ parent: Diverses
 - **MegaParse**
   - *File Parser optimised for LLM Ingestion with no loss. Parse PDFs, Docx, PPTx in a format that is ideal for LLMs.* 
   - <https://github.com/quivrhq/megaparse> <img loading="lazy" src="https://img.shields.io/github/stars/quivrhq/megaparse?style=flat-square"/>
+- **Haystack**
+  - *AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.* 
+  - <https://github.com/deepset-ai/haystack> <img loading="lazy" src="https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square"/>
 
 
 ## Vector DB
