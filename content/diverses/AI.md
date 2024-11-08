@@ -211,6 +211,7 @@ parent: Diverses
   - <https://www.headshotpro.com/>
 - **Anthropic Claude**
   - <https://claude.ai/>
+  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>  
 - **Skyvern**
   - *automates browser-based workflows using LLMs and computer vision* 
   - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
