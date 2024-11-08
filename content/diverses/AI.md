@@ -104,10 +104,17 @@ parent: Diverses
   - <https://openrouter.ai/docs/principles>
 - **promptfoo**
   - *Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more.*
-  - <https://github.com/promptfoo/promptfoo>
+  - <https://github.com/promptfoo/promptfoo> <img loading="lazy" src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=flat-square"/>
 - **ChainForge**
   - *open-source visual programming environment for battle-testing prompts to LLMs.* 
-  - <https://github.com/ianarawjo/ChainForge>  
+  - <https://github.com/ianarawjo/ChainForge> <img loading="lazy" src="https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat-square"/>
+- **DeepEval**
+  - *LLM evaluation framework, for evaluating and testing large-language model systems.* 
+  - <https://github.com/confident-ai/deepeval> <img loading="lazy" src="https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square"/>
+- **LLM-Model-VRAM-Calculator**
+  - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
+- **Tokenizer**
+  - <https://platform.openai.com/tokenizer>
 
 
 ## Local LLM
@@ -151,6 +158,14 @@ parent: Diverses
 - **Open WebUI**
   - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
   - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
+- **Llamafile**
+  - *collapses all the complexity of LLMs down to a single-file executable (called a "llamafile") that runs locally on most computers, with no installation* 
+  - <https://github.com/Mozilla-Ocho/llamafile> <img loading="lazy" src="https://img.shields.io/github/stars/Mozilla-Ocho/llamafile?style=flat-square"/>
+- **ComfyUI**
+  - *will let you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface* 
+  - <https://github.com/comfyanonymous/ComfyUI>
+- **Stable Diffusion web UI**
+  - <https://github.com/AUTOMATIC1111/stable-diffusion-webui> 
     
 
 ## Applikationen
@@ -219,6 +234,10 @@ parent: Diverses
 - **Khoj**
   - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
   - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
+- **AnythingLLM**
+  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
+  - *supporting multi-user management and permissions*
+  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
 
 ### Coding
 - **FauxPilot**
@@ -271,6 +290,9 @@ parent: Diverses
 - **Haystack**
   - *AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.* 
   - <https://github.com/deepset-ai/haystack> <img loading="lazy" src="https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square"/>
+- **unstructured**
+  - *The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. The use cases of unstructured revolve around streamlining and optimizing the data processing workflow for LLMs.*
+  - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
 
 
 ## Vector DB
