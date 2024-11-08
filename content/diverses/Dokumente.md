@@ -183,14 +183,14 @@ parent: Diverses
   - <https://github.com/camelot-dev/camelot> <img loading="lazy" src="https://img.shields.io/github/stars/camelot-dev/camelot?style=flat-square"/>
   - *Python library to extract tabular data from PDFs*
 - **excalibur**
-  - <https://github.com/camelot-dev/excalibur/>
+  - <https://github.com/camelot-dev/excalibur/> <img loading="lazy" src="https://img.shields.io/github/stars/camelot-dev/excalibur?style=flat-square"/>
   - *web interface to extract tabular data from PDFs*
 - **pdfminer.six**
   - <https://github.com/pdfminer/pdfminer.six> <img loading="lazy" src="https://img.shields.io/github/stars/pdfminer/pdfminer.six?style=flat-square"/>
   - *tool for extracting information from PDF documents. It focuses on getting and analyzing text data.*
   - Python
 - **pdfplumber**
-  - <https://github.com/jsvine/pdfplumber>
+  - <https://github.com/jsvine/pdfplumber> <img loading="lazy" src="https://img.shields.io/github/stars/jsvine/pdfplumber?style=flat-square"/>
   - *Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.*
   - *Built on pdfminer.six.*
 - **tabula**
@@ -218,14 +218,17 @@ parent: Diverses
   - <https://www.princexml.com/>
 - **WeasyPrint**
   - *visual rendering engine for HTML and CSS that can export to PDF.*
-  - <https://github.com/Kozea/WeasyPrint>
+  - <https://github.com/Kozea/WeasyPrint> <img loading="lazy" src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=flat-square"/>
 - **typst**
   - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
-  - <https://github.com/typst/typst>
+  - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
 - **Docling**
-  - <https://github.com/DS4SD/docling>
+  - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
   - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
-  - Python 
+  - Python
+- **PyMuPDF**
+  - *high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.* 
+  - <https://github.com/pymupdf/PyMuPDF> <img loading="lazy" src="https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=flat-square"/>
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
