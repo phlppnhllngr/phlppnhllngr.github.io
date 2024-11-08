@@ -101,7 +101,13 @@ parent: Diverses
 - **OpenRouter**
   - *A unified interface for LLMs*
   - *No need to change your code when switching between models or providers*
-  - <https://openrouter.ai/docs/principles> 
+  - <https://openrouter.ai/docs/principles>
+- **promptfoo**
+  - *Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more.*
+  - <https://github.com/promptfoo/promptfoo>
+- **ChainForge**
+  - *open-source visual programming environment for battle-testing prompts to LLMs.* 
+  - <https://github.com/ianarawjo/ChainForge>  
 
 
 ## Local LLM
