@@ -24,6 +24,7 @@ parent: Java
   - <https://github.com/quarkusio/quarkus> <img loading="lazy" src="https://img.shields.io/github/stars/quarkusio/quarkus?style=flat-square">
   - *Container First framework for writing Java applications.*
   - <https://code.quarkus.io/> (wie spring-initializer)
+  - <https://www.jhipster.tech/blueprints/quarkus/>
 - **javalin**
   - <https://javalin.io/>
   - *very lightweight web framework*
