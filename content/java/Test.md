@@ -46,7 +46,7 @@ parent: Java
       - *So instead of getting this when a test fails: `org.opentest4j.AssertionFailedError: expected: <hello> but was: <hi>` You'll get this: `(...) -> 24      assertEquals("hello", "hi");`*
       - <https://github.com/laech/java-stacksrc>
 - **TestNG**
-  - <http://testng.org/doc>
+  - <http://testng.org>
 - **EqualsVerifier**
   - *verify whether the contract for the equals and hashCode methods in a class is met*
   - <https://github.com/jqno/equalsverifier>
