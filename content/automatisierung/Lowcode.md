@@ -115,19 +115,6 @@ parent: Automatisierung
   - ehemals "Standard Library"
   - *easy way to build web services and APIs that respond to external SaaS events*
   - <https://autocode.com/>
-- **pipedream**
-  - Cloud only 
-  - *Serverless integration and compute platform*
-  - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
-  - <https://github.com/PipedreamHQ/pipedream> <img loading="lazy" src="https://img.shields.io/github/stars/PipedreamHQ/pipedream?style=flat-square"/>
-- **node-red**
-  - *Low-code programming for event-driven applications*
-  - <https://github.com/node-red/node-red> <img loading="lazy" src="https://img.shields.io/github/stars/node-red/node-red?style=flat-square"/>
-- **kestra**
-  - *reating, running, scheduling, and monitoring pipelines*
-  - *Easy to extend*
-  - *Make sure you have already installed: Docker, Docker Compose*
-  - <https://github.com/kestra-io/kestra> <img loading="lazy" src="https://img.shields.io/github/stars/kestra-io/kestra?style=flat-square"/>
 - **Huginn**
   - *Create agents that monitor and act on your behalf*
   - *They can read the web, watch for events, and take actions on your behalf. Huginn's Agents create and consume events, propagating them along a directed graph. Think of it as a hackable version of IFTTT or Zapier on your own server.*
@@ -139,8 +126,6 @@ parent: Automatisierung
   - *Quite a lot of our customers are using us instead of Temporal*
   - <https://github.com/triggerdotdev/trigger.dev> <img loading="lazy" src="https://img.shields.io/github/stars/triggerdotdev/trigger.dev?style=flat-square"/>
   - self-hostbar (2 Container; App+DB)
-- **Activepieces**
-  - <https://github.com/activepieces/activepieces> <img loading="lazy" src="https://img.shields.io/github/stars/activepieces/activepieces?style=flat-square"/>
 - **Total.js Flow**
   - JS-basiert, als 1 Docker-Image verfügbar
   - <https://github.com/totaljs/flow>
@@ -164,11 +149,6 @@ parent: Automatisierung
 - **sheet2site** 💰
   - <https://www.sheet2site.com/>
   - *Create a website from Google Sheets without writing code*
-- **Onu**
-  - *quickly productionize your scripts by providing hosted, user-friendly auto-generated UIs and built-in auditing and integrations.*
-  - *currently support Node/Express, rolling out Python SDKs for Flask & Django
-  - Self-Hosting geplant
-  - <https://joinonu.com/>
 - **ToolJet**
   - *Open-source low-code framework for building React-based web applications and internal tools*
   - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
@@ -198,6 +178,23 @@ parent: Automatisierung
   - *highly scalable and fault tolerant workflow orchestration platform for JVM*
 - **Inngest**
   - <https://github.com/inngest/inngest> 
+- **Activepieces**
+  - *Workflow automation tool* 
+  - <https://www.activepieces.com/docs/install/options/docker>  
+  - <https://github.com/activepieces/activepieces> <img loading="lazy" src="https://img.shields.io/github/stars/activepieces/activepieces?style=flat-square"/>
+- **kestra**
+  - *reating, running, scheduling, and monitoring pipelines*
+  - *Easy to extend*
+  - *Make sure you have already installed: Docker, Docker Compose*
+  - <https://github.com/kestra-io/kestra> <img loading="lazy" src="https://img.shields.io/github/stars/kestra-io/kestra?style=flat-square"/>
+- **pipedream**
+  - Cloud only 
+  - *Serverless integration and compute platform*
+  - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
+  - <https://github.com/PipedreamHQ/pipedream> <img loading="lazy" src="https://img.shields.io/github/stars/PipedreamHQ/pipedream?style=flat-square"/>
+- **node-red**
+  - *Low-code programming for event-driven applications*
+  - <https://github.com/node-red/node-red> <img loading="lazy" src="https://img.shields.io/github/stars/node-red/node-red?style=flat-square"/>
 
 
 ### Spreadsheet/DB
