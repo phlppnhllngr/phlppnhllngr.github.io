@@ -116,6 +116,7 @@ parent: Automatisierung
   - *easy way to build web services and APIs that respond to external SaaS events*
   - <https://autocode.com/>
 - **pipedream**
+  - Cloud only 
   - *Serverless integration and compute platform*
   - *makes it easy to connect apps and develop, execute and maintain event-driven workflows. The platform has over 300 fully integrated applications with managed authentication and support for over 1M npm packages.*
   - <https://github.com/PipedreamHQ/pipedream> <img loading="lazy" src="https://img.shields.io/github/stars/PipedreamHQ/pipedream?style=flat-square"/>
