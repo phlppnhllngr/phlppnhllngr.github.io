@@ -51,7 +51,9 @@ parent: Diverses
 - <https://leetcode.com/>
 - <https://www.codewars.com/>
 - <https://codingbat.com/>
-- <https://adventofcode.com/2022/>
+- <https://adventofcode.com/>
+- <https://codspeed.io/advent> - *Solve Advent of Code problems in Rust, write the fastest algorithms*
+- <https://adventofsql.com/>
 - <https://github.com/CollabCodeTech/backend-challenges>
 - <https://github.com/sadanandpai/frontend-mini-challenges>
 
