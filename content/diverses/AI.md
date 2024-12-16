@@ -13,9 +13,71 @@ parent: Diverses
 {:toc}
 
 
-## Tools
+## Tools & Applikationen
 - <https://github.com/steven2358/awesome-generative-ai>
 - <https://github.com/underlines/awesome-ml/>
+- <u>OpenAI</u>
+  - **ChatGPT**
+    - <https://github.com/openai/openai-cookbook>
+    - <https://platform.openai.com/playground>
+    - <https://github.com/f/awesome-chatgpt-prompts>
+    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+  - **DALL-E**
+    - *creates images from text captions for a wide range of concepts expressible in natural language*
+    - <https://openai.com/blog/dall-e/>
+    - <https://github.com/saharmor/dalle-playground>
+- **Open Assistant**
+  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
+  - <https://github.com/LAION-AI/Open-Assistant>
+- **Midjourney**
+- **Stable Diffusion**
+  - <https://stablediffusionweb.com> 
+- **Moveworks** 
+  - *Automate your employee support with AI trained on the world's most advanced large language models*
+  - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
+  - <https://www.moveworks.com/>
+- **VALL-E**
+  - Voicecloning von MS
+  - braucht nur 3 Sekunden Input-Material
+- **ChatPDF**
+  - *can answer any question from any PDF* 
+  - <https://www.chatpdf.com/>
+- **Prime Voice AI**
+  - Text to speech, voice cloning 
+  - <https://beta.elevenlabs.io/>
+- **Uberduck**
+  - Text to speech, voice cloning
+  - <https://uberduck.ai/> 
+- **phind**
+  - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
+  - basiert auf GPT-4
+  - <https://www.phind.com/>
+- **TaxyAI**
+  - *uses GPT-4 to control your browser*
+  - <https://github.com/TaxyAI/browser-extension>
+- **Aspect**
+  - UI Builder 
+  - <https://aspect.app/>
+- **Upscayl**
+  - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
+  - <https://github.com/upscayl/upscayl>
+- **HeadshotPro**
+  - *Professional business headshots, without a physical photo shoot* 
+  - <https://www.headshotpro.com/>
+- **Anthropic Claude**
+  - <https://claude.ai/>
+  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>  
+- **Skyvern**
+  - *automates browser-based workflows using LLMs and computer vision* 
+  - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=41936745>
+- **Khoj**
+  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
+  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
+- **AnythingLLM**
+  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
+  - *supporting multi-user management and permissions*
+  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
 - **Hugging Face**
   - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
   - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
@@ -116,6 +178,53 @@ parent: Diverses
 - **Tokenizer**
   - <https://platform.openai.com/tokenizer>
 
+### Coding
+- **FauxPilot**
+  - *an open-source GitHub Copilot server* 
+  - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
+- **CodeComplete**
+  - self-hostbare Alternative zu GH Copilot
+  - <https://news.ycombinator.com/item?id=35152851>
+- **Github Copilot**
+  - *uses AI to suggest code in real-time, right from your editor*
+  - <https://github.com/features/copilot>
+- **Tabnine**
+  - *AI Assistant For Software Developers*
+  - <https://www.tabnine.com>
+- **Cline**
+  - <https://github.com/cline/cline> <img loading="lazy" src="https://img.shields.io/github/stars/cline/cline?style=flat-square"/>
+- **Aider**
+  - *pair programming in your terminal*
+  - *works best with GPT-4o & Claude 3.5 Sonnet and can connect to almost any LLM.* 
+  - <https://github.com/Aider-AI/aider> <img loading="lazy" src="https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square"/>
+- **OpenHands**
+  - *(formerly OpenDevin), a platform for software development agents powered by AI*
+  - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/>
+- **Plandex**
+  - *AI driven development in your terminal* 
+  - <https://github.com/plandex-ai/plandex> <img loading="lazy" src="https://img.shields.io/github/stars/plandex-ai/plandex?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=39918500>
+- **Continue**
+  - *autocomplete and chat experiences inside VS Code and JetBrains*   
+  - <https://github.com/continuedev/continue> <img loading="lazy" src="https://img.shields.io/github/stars/continuedev/continue?style=flat-square"/>
+
+### Audio
+- **Whisper**
+  - *general-purpose speech recognition model* 
+  - <https://github.com/openai/whisper> <img loading="lazy" src="https://img.shields.io/github/stars/openai/whisper?style=flat-square"/>
+- **Insanely Fast Whisper**
+  - *CLI to transcribe Audio files w/ Whisper on-device* 
+  - <https://github.com/Vaibhavs10/insanely-fast-whisper> <img loading="lazy" src="https://img.shields.io/github/stars/Vaibhavs10/insanely-fast-whisper?style=flat-square"/>
+- **faster-whisper**
+  - *reimplementation of OpenAI's Whisper model using CTranslate2*
+  - <https://github.com/SYSTRAN/faster-whisper> <img loading="lazy" src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square"/>
+
+### Vision
+- **Moondream**
+  - *a tiny vision language model*
+  - *offers two model variants: Moondream 2B, Moondream 0.5B* 
+  - <https://github.com/vikhyat/moondream> 
+
 
 ## Local LLM
 - <https://old.reddit.com/r/LocalLLaMA/>
@@ -165,110 +274,13 @@ parent: Diverses
   - *will let you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface* 
   - <https://github.com/comfyanonymous/ComfyUI>
 - **Stable Diffusion web UI**
-  - <https://github.com/AUTOMATIC1111/stable-diffusion-webui> 
-    
+  - <https://github.com/AUTOMATIC1111/stable-diffusion-webui>
+- **Nexa**
+  - *a local on-device inference framework for ONNX and GGML models*
+  - *supports text generation, image generation, vision-language models (VLM), Audio Language Model, auto-speech-recognition (ASR), and text-to-speech (TTS) capabilities* 
+  - <https://github.com/NexaAI/nexa-sdk>
+  - <https://old.reddit.com/r/LocalLLaMA/comments/1hdoplq/omniaudio26b_worlds_fastest_audiolm_for_edge/>
 
-## Applikationen
-- <u>OpenAI</u>
-  - **ChatGPT**
-    - <https://github.com/openai/openai-cookbook>
-    - <https://platform.openai.com/playground>
-    - <https://github.com/f/awesome-chatgpt-prompts>
-    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
-  - **Whisper**
-    - *approaches human level robustness and accuracy on English speech recognition* 
-    - <https://openai.com/blog/whisper/>
-  - **DALL-E**
-    - *creates images from text captions for a wide range of concepts expressible in natural language*
-    - <https://openai.com/blog/dall-e/>
-    - <https://github.com/saharmor/dalle-playground>
-- **Open Assistant**
-  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
-  - <https://github.com/LAION-AI/Open-Assistant>
-- **Play.ht**
-  - *AI powered text to voice generator*
-  - <https://play.ht/> 
-- **restorephotos.io**
-- **Midjourney**
-- **Stable Diffusion**
-  - <https://stablediffusionweb.com> 
-- **Moveworks** 
-  - *Automate your employee support with AI trained on the world's most advanced large language models*
-  - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
-  - <https://www.moveworks.com/>
-- **VALL-E**
-  - Voicecloning von MS
-  - braucht nur 3 Sekunden Input-Material
-- **ChatPDF**
-  - *can answer any question from any PDF* 
-  - <https://www.chatpdf.com/>
-- **Prime Voice AI**
-  - Text to speech, voice cloning 
-  - <https://beta.elevenlabs.io/>
-- **Uberduck**
-  - Text to speech, voice cloning
-  - <https://uberduck.ai/> 
-- **phind**
-  - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
-  - basiert auf GPT-4
-  - <https://www.phind.com/>
-- **TaxyAI**
-  - *uses GPT-4 to control your browser*
-  - <https://github.com/TaxyAI/browser-extension>
-- **Aspect**
-  - UI Builder 
-  - <https://aspect.app/>
-- **Upscayl**
-  - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
-  - <https://github.com/upscayl/upscayl>
-- **HeadshotPro**
-  - *Professional business headshots, without a physical photo shoot* 
-  - <https://www.headshotpro.com/>
-- **Anthropic Claude**
-  - <https://claude.ai/>
-  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>  
-- **Skyvern**
-  - *automates browser-based workflows using LLMs and computer vision* 
-  - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
-  - <https://news.ycombinator.com/item?id=41936745>
-- **Khoj**
-  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
-  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
-- **AnythingLLM**
-  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
-  - *supporting multi-user management and permissions*
-  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
-
-### Coding
-- **FauxPilot**
-  - *an open-source GitHub Copilot server* 
-  - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
-- **CodeComplete**
-  - self-hostbare Alternative zu GH Copilot
-  - <https://news.ycombinator.com/item?id=35152851>
-- **Github Copilot**
-  - *uses AI to suggest code in real-time, right from your editor*
-  - <https://github.com/features/copilot>
-- **Tabnine**
-  - *AI Assistant For Software Developers*
-  - <https://www.tabnine.com>
-- **Cline**
-  - <https://github.com/cline/cline> <img loading="lazy" src="https://img.shields.io/github/stars/cline/cline?style=flat-square"/>
-- **Aider**
-  - *pair programming in your terminal*
-  - *works best with GPT-4o & Claude 3.5 Sonnet and can connect to almost any LLM.* 
-  - <https://github.com/Aider-AI/aider> <img loading="lazy" src="https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square"/>
-- **OpenHands**
-  - *(formerly OpenDevin), a platform for software development agents powered by AI*
-  - <https://github.com/All-Hands-AI/OpenHands> <img loading="lazy" src="https://img.shields.io/github/stars/All-Hands-AI/OpenHands?style=flat-square"/>
-- **Plandex**
-  - *AI driven development in your terminal* 
-  - <https://github.com/plandex-ai/plandex> <img loading="lazy" src="https://img.shields.io/github/stars/plandex-ai/plandex?style=flat-square"/>
-  - <https://news.ycombinator.com/item?id=39918500>
-- **Continue**
-  - *autocomplete and chat experiences inside VS Code and JetBrains*   
-  - <https://github.com/continuedev/continue> <img loading="lazy" src="https://img.shields.io/github/stars/continuedev/continue?style=flat-square"/>
-  
 
 ## RAG
 - <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
@@ -316,6 +328,9 @@ parent: Diverses
 - **Qdrant**
   - <https://github.com/qdrant/qdrant> <img loading="lazy" src="https://img.shields.io/github/stars/qdrant/qdrant?style=flat-square"/>
 - **Pinecone**
+- **txtai**
+  - *all-in-one embeddings database for semantic search, LLM orchestration and language model workflows* 
+  - <https://github.com/neuml/txtai> <img loading="lazy" src="https://img.shields.io/github/stars/neuml/txtai?style=flat-square"/>
 
 
 ## Model Benchmarks & Leaderboards
