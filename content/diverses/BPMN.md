@@ -24,6 +24,9 @@ parent: Diverses
 - **bpmn-js**
   - *View and edit BPMN 2.0 diagrams in the browser.*
   - <https://github.com/bpmn-io/bpmn-js>
+- **operaton**
+  - FOSS Fork von Camunda 7 
+  - <https://github.com/operaton/operaton> 
 
 ### Camunda
 - basiert auf Activiti
