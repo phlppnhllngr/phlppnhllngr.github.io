@@ -149,3 +149,6 @@ parent: Cloud
 
 ## Render
 - <https://render.com/>
+
+## Fly.io
+- <https://fly.io/>
