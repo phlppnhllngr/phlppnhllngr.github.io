@@ -41,6 +41,9 @@ parent: DevOps
   - *Monitoring uptime for HTTP(s) / TCP / Ping / DNS Record*
   - *Fancy, Reactive, Fast UI/UX*
   - <https://github.com/louislam/uptime-kuma>
+- **Gatus**
+  - *developer-oriented health dashboard*
+  - <https://github.com/TwiN/gatus>
 - **NewRelic** 💰
   - <https://newrelic.com/>
   - *supports applications developed in Java, Scala, Ruby, Python, PHP, .NET, and Node.js*
