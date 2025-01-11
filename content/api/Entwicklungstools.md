@@ -75,6 +75,8 @@ parent: API
 - **Cartero**
   - *compatible with any REST, SOAP or XML-RPC API*
   - <https://github.com/danirod/cartero>
+- **Yaak**
+  - <https://github.com/mountain-loop/yaak>
 
 
 ## Client-Generatoren
