@@ -264,6 +264,8 @@ parent: Diverses
   - <https://github.com/peggyjs/peggy>
 - **ANTLR**
   - <https://github.com/antlr/antlr4> 
+- **tree-sitter**
+  - <https://github.com/tree-sitter>
 
 
 ## Passwort-Manager
