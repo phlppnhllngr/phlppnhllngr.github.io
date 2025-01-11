@@ -72,6 +72,9 @@ parent: API
   - <https://restfox.dev/>
 - **Kreya**
   - <https://kreya.app/>  
+- **Cartero**
+  - *compatible with any REST, SOAP or XML-RPC API*
+  - <https://github.com/danirod/cartero>
 
 
 ## Client-Generatoren
