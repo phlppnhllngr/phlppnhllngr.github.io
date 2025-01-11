@@ -236,6 +236,8 @@ parent: SCM
 - **lazygit**
   - *simple terminal UI for git commands* 
   - <https://github.com/jesseduffield/lazygit> <img loading="lazy" src="https://img.shields.io/github/stars/jesseduffield/lazygit?style=flat-square"/>
+- **GitButler**
+  - <https://github.com/gitbutlerapp/gitbutler>
 
 ### CLIs
 - **Git bash for windows**
