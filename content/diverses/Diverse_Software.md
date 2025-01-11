@@ -92,6 +92,7 @@ parent: Diverses
 - **spectral**
   - <https://github.com/stoplightio/spectral>
   - json & yaml linter
+  - *baked in support for OpenAPI, Arazzo, as well as AsyncAPI*
 - **files**
   - *A modern file explorer that pushes the boundaries of the platform*
   - <https://github.com/files-community/Files/>
