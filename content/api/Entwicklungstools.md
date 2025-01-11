@@ -87,6 +87,8 @@ parent: API
 - **openapi-generator**
   - <https://github.com/OpenAPITools/openapi-generator/>
   - *allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)*
+- **Kiota**
+  - <https://github.com/microsoft/kiota>
 
 ## Andere
 - **swagger**
