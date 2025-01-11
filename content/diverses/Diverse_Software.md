@@ -205,6 +205,9 @@ parent: Diverses
 - **UneeBee**
   - *Open-source alternative to create interactive courses like Duolingo*
   - <https://github.com/zoonk/uneebee>
+- **LibreTranslate**
+  - *Machine Translation API, entirely self-hosted*
+  - <https://github.com/LibreTranslate/LibreTranslate>
 
 
 ## Elektronische Unterschrift
