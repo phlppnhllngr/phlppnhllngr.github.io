@@ -18,6 +18,9 @@ has_children: true
     - <https://forgejo.org/>
 - **Sapling**
     - <https://github.com/facebook/sapling>
+- **Jujutsu**
+  - *A Git-compatible VCS that is both simple and powerful*
+  - <https://github.com/jj-vcs/jj>
 
 ## Bots
 - <https://foojay.io/today/using-bots-to-keep-dependencies-updated/>
