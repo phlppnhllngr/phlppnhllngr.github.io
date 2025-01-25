@@ -337,3 +337,11 @@ parent: Diverses
 - <https://www.choosellm.com/>
 - <https://lmarena.ai/?leaderboard>
 - <https://huggingface.co/spaces/opencompass/open_vlm_leaderboard> (Vision)
+
+
+## Models
+- OpenGPT-X/Teuken
+  - *multilingual large language model (LLM) pre-trained with 4T tokens in all official 24 European languages*
+  - *renders more stable results across these languages and better reflects European values in its answers than English-centric models. It is therefore specialized for use in multilingual tasks.*
+  - *funded by the German Federal Ministry of Economics and Climate Protection (BMWK)*
+  - <https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4>
