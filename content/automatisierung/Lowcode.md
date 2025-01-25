@@ -153,7 +153,9 @@ parent: Automatisierung
   - *Open-source low-code framework for building React-based web applications and internal tools*
   - *You can connect to your data sources, such as databases (like PostgreSQL, MongoDB, Elasticsearch, etc), API endpoints (ToolJet supports importing OpenAPI spec & OAuth2 authorization), and external services (like Stripe, Slack, Google Sheets, Airtable) and use our pre-built UI widgets to build internal tools.*
   - <https://github.com/ToolJet/ToolJet> <img loading="lazy" src="https://img.shields.io/github/stars/ToolJet/ToolJet?style=flat-square"/>
-
+- **Toolpad**
+  - *low-code builder for dashboards and internal apps*
+  - <https://github.com/mui/toolpad>
 
 ### Workflow
 - **zapier**
