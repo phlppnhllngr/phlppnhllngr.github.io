@@ -177,6 +177,14 @@ parent: Diverses
   - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
 - **Tokenizer**
   - <https://platform.openai.com/tokenizer>
+- **Lobe Chat**
+  - *ChatGPT/LLMs UI/Framework*
+  - *Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.*
+  - *One-click FREE deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.*
+  - *supports file upload and knowledge base functionality. You can upload various types of files including documents, images, audio, and video, as well as create knowledge bases*
+  - *supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies*
+  - *support for the latest text-to-image generation technology*
+  - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
 
 ### Coding
 - **FauxPilot**
