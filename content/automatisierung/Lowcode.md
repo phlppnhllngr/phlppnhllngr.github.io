@@ -178,8 +178,6 @@ parent: Automatisierung
 - **titanoboa**
   - <https://github.com/mikub/titanoboa> <img loading="lazy" src="https://img.shields.io/github/stars/mikub/titanoboa?style=flat-square"/>
   - *highly scalable and fault tolerant workflow orchestration platform for JVM*
-- **Inngest**
-  - <https://github.com/inngest/inngest> 
 - **Activepieces**
   - *Workflow automation tool* 
   - <https://www.activepieces.com/docs/install/options/docker>  
