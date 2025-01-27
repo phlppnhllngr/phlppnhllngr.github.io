@@ -235,7 +235,12 @@ parent: Diverses
 - **restate**
   - vs Temporal: <https://news.ycombinator.com/item?id=40660568> 
   - Java SDK: <https://github.com/restatedev/sdk-java> 
-  - <https://github.com/restatedev/restate> 
+  - <https://github.com/restatedev/restate> <img loading="lazy" src="https://img.shields.io/github/stars/restatedev/restate?style=flat-square"/>
+- **Inngest**
+  - *Inngest is an event-driven durable execution platform that allows you to run fast, reliable code on any platform, without managing queues, infra, or state.*
+  - *Write functions in TypeScript, Python or Go to power background and scheduled jobs, with steps built in. We handle the backend infra, queueing, scaling, concurrency, throttling, rate limiting, and observability for you.*
+  - <https://github.com/inngest/inngest> <img loading="lazy" src="https://img.shields.io/github/stars/inngest/inngest?style=flat-square"/>
+  - <https://www.inngest.com/docs/self-hosting>
 - **Openjob**
   - *distributed and high-performance task scheduling framework that supports multiple cronjob, delay task, workflow, lightweight distributed computing, unlimited horizontal scaling, with high scalability and fault tolerance. Also has permission management, powerful alarm monitoring, and support multiple languages*
   - <https://github.com/open-job/openjob> <img loading="lazy" src="https://img.shields.io/github/stars/open-job/openjob?style=flat-square"/>
