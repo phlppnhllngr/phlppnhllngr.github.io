@@ -128,6 +128,7 @@ parent: Automatisierung
   - self-hostbar (2 Container; App+DB)
 - **Total.js Flow**
   - JS-basiert, als 1 Docker-Image verfügbar
+  - ähnlich Node-red
   - <https://github.com/totaljs/flow>
   - <https://www.totaljs.com/flow/>
 - **Microsoft Power Automate** 💰
