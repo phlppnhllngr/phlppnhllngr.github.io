@@ -137,6 +137,10 @@ parent: Java
 - **palantir-java-format**
   - *based on the excellent google-java-format*
   - <https://github.com/palantir/palantir-java-format>
+- <https://www.baeldung.com/java-format-code-command-line>
+  - astyle
+  - idea.sh
+  - eclipse formatter
 
 
 ## Diverse
