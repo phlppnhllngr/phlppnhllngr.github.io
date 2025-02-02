@@ -128,3 +128,8 @@ parent: API
   - *platform for turning your API and microservices assets - OpenAPI specs, AsyncAPI specs, gRPC protobuf, GraphQL schema, Postman collections, SoapUI projects - into live mocks in seconds*
   - *also reuses these assets for running compliance and non-regression tests against your API implementation*
   - <https://github.com/microcks/microcks>
+- **HTTP Toolkit**
+  - *Intercept, view & edit any HTTP traffic*
+  - Funktioniert auch mit Containern
+  - Simpler als Wireshark (-> Security/Tools/Wireshark) 
+  - <https://httptoolkit.com/> 
