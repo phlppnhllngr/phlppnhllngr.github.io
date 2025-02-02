@@ -528,3 +528,8 @@ USER jenkins
 ## Shared Library
 - <https://github.com/Diabol/jenkins-pipeline-shared-library-template>
 - <https://stackoverflow.com/questions/47205761/how-can-i-define-a-global-variable-or-constant-using-jenkins-pipeline-shared-lib>
+- Öffentliche
+	- <https://github.com/hmcts/cnp-jenkins-library>
+	- <https://github.com/tomarv2/jenkins-pipeline-library>
+	- <https://github.com/jenkins-infra/pipeline-library>
+   	- <https://github.com/SAP/jenkins-library>
