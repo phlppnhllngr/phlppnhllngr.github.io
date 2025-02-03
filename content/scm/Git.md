@@ -217,6 +217,9 @@ parent: SCM
   - *customizable Changelog Generator that follows Conventional Commit specifications*
   - <https://github.com/orhun/git-cliff> *2.6k
   - <https://news.ycombinator.com/item?id=40798469>
+- **Codeberg**
+  - *non-profit, community-led effort that provides Git hosting and other services for free and open source projects*
+  - <https://codeberg.org/>
 
 ### GUI Clients
 - **GitKraken** [1]
