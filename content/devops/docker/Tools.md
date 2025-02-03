@@ -125,6 +125,9 @@ grand_parent: DevOps
   - *tool to interactively debug Dockerfile*
   - *Breakpoints and step execution* 
   - <https://github.com/ktock/buildg> <img loading="lazy" src="https://img.shields.io/github/stars/ktock/buildg?style=flat-square"/>
+- **OnLogs**
+  - *Lightweight docker logs web viewer*
+  - <https://github.com/devforth/OnLogs>
 
 
 ## GUIs
