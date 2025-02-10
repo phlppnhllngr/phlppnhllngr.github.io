@@ -36,7 +36,7 @@ parent: DevOps
 - **uptimeRobot**
   - <https://uptimerobot.com/>
   - freemium
-- **uptime kuma**
+- **uptime-kuma**
   - *a self-hosted monitoring tool like "Uptime Robot".*
   - *Monitoring uptime for HTTP(s) / TCP / Ping / DNS Record*
   - *Fancy, Reactive, Fast UI/UX*
