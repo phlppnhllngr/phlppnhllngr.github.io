@@ -251,6 +251,10 @@ parent: Java
         }
     }
     ```
+- **depgraph**
+  - *generates dependency graphs in various formats*
+  - *can be configured to show duplicate and/or conflicting versions*
+  - <https://github.com/ferstl/depgraph-maven-plugin/>
 - **deploy**
   - <http://maven.apache.org/plugins/maven-deploy-plugin>
   - ```xml
