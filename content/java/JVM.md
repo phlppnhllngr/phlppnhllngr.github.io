@@ -138,6 +138,7 @@ parent: Java
   - *causes the JIT compiler to run with a subset of optimizations, which can improve the performance of short-running applications*
 
 #### XX
+- <https://www.baeldung.com/jvm-advanced-options>
 - -XX = non-standard
 - -XX:+Foo / -XX:-Foo für Boolean-Flags, -XX:Foo=Bar für Werte
 <br/><br/>
