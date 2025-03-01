@@ -101,7 +101,11 @@ grand_parent: Java
 - **MockMvc**
   - *Main entry point for server-side Spring MVC test support*
   - <https://rieckpil.de/test-your-spring-mvc-controller-with-webtestclient-against-mockmvc/>
-  - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html> 
+  - <https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/web/servlet/MockMvc.html>
+- **MockMvcTester**
+  - *integrates MockMvc with AssertJ*  
+  - Spring 6.2+, spring Boot 3.4.0+
+  - <https://www.petrikainulainen.net/programming/testing/introduction-to-mockmvctester/> 
 - **@AutoConfigureMockMvc** (🥾)
   - *enable and configure auto-configuration of `MockMvc`*
   - initialisiert Weblayer, stellt MockMvc für Test zur Verfügung
