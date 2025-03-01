@@ -18,5 +18,11 @@ has_children: true
     - <https://www.jetbrains.com/de-de/idea/download/other.html> 
     - <https://plugins.jetbrains.com/plugin/19177-vscode-theme>
 - **Haystack**
-  - *Visualize and edit code on an infinite canvas*
-  - <https://github.com/haystackeditor/haystack-editor>
+    - *Visualize and edit code on an infinite canvas*
+    - <https://github.com/haystackeditor/haystack-editor>
+- **Rider**
+    - für .NET, Games, Native, Web 
+    - <https://www.jetbrains.com/rider/>
+- **Windsurf**
+    - AI 
+    - <https://codeium.com/windsurf> 
