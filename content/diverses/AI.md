@@ -242,6 +242,11 @@ parent: Diverses
   - <https://ollama.com/library>
   - *Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.*
   - keine UI (CLI-Tool) => Open WebUI
+  - Default-Kontextlänge ist 2048 -->
+    ```
+    /set parameter num_ctx <value>
+    /save <custom-name>
+    ```
   - <https://github.com/ollama/ollama> <img loading="lazy" src="https://img.shields.io/github/stars/ollama/ollama?style=flat-square"/>
 - **PrivateGPT**
   - *Interact with your documents using the power of GPT, 100% privately, no data leaks* 
