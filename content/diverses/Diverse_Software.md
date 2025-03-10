@@ -383,3 +383,14 @@ parent: Diverses
   - xml,json,jsonl,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log
   - <https://solr.apache.org/>
 
+## Browser
+- Brave
+- Firefox
+- Ungoogled Chromium
+  - <https://github.com/ungoogled-software/ungoogled-chromium>
+- Kiwi
+- Ladybird
+- Servo
+- Librewolf
+- Waterfox
+- Opera
