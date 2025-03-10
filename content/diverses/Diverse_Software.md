@@ -386,6 +386,7 @@ parent: Diverses
 ## Browser
 - Brave
 - Firefox
+  - Developer Edition
 - Ungoogled Chromium
   - <https://github.com/ungoogled-software/ungoogled-chromium>
 - Kiwi
