@@ -21,7 +21,7 @@ parent: API
 - **rest-assured**
   - <https://github.com/rest-assured/rest-assured/>
   - Java
-- **karate**
+- **karate** 🔖
   - <https://github.com/intuit/karate/> *5.5k
   - [Docs](https://karatelabs.github.io/karate/)
   - *If you are familiar with Cucumber / Gherkin, the big difference here is that you don't need to write extra "glue" code or Java "step definitions" !*
