@@ -314,6 +314,7 @@ parent: Java
     - erzeugt die Datei   
   - `Xshare:on`
     - *While class data sharing is enabled by default on JDK 12 and newer, explicitely enforcing it will ensure an error is raised if something is wrong, e.g. a mismatch of Java versions between building and using the archive*
+    - *for testing purposes only. It may cause the VM to unexpectedly exit during start-up when the CDS archive cannot be used (for example, when certain VM parameters are changed, or when a different JDK is used). This option should not be used in production environments.*
     - benutzt die Datei
   - `Xshare:off`
   - `Xshare:auto`
