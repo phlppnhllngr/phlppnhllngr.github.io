@@ -111,9 +111,17 @@ parent: Java
 
 #### X
 - **share**
+  - Für Class-Data Sharing (!= AppCDS). CDS existiert seit Java 5.
+  - *erlaubt einen Dump der internen Repräsentation der beim Start geladenen [JRE-]Klassen in eine Datei [Windows: %JAVA_HOME%/bin/server/classes.jsa, Linux: lib/server/classes.jsa], die dann bei jedem Start der JVM, gesteuert über den JVM-Parameter `-Xshare:[on|off|auto|dump]`, geladen wird und das Laden der JARs überflüssig macht.*
   - `Xshare:dump`
+    - erzeugt die Datei   
   - `Xshare:on`
     - *While class data sharing is enabled by default on JDK 12 and newer, explicitely enforcing it will ensure an error is raised if something is wrong, e.g. a mismatch of Java versions between building and using the archive*
+    - benutzt die Datei
+  - `Xshare:off`
+  - `Xshare:auto`
+    - *The default; enable class data sharing when jsa file is available*
+  - <https://dev.java/learn/jvm/cds-appcds/>
 - **log**
   - `-Xlog:gc:file=gc.txt`
   - `-Xlog:class+load:file=/path/to/classload.log`
@@ -150,9 +158,13 @@ parent: Java
   - `-XX:ActiveProcessorCount=<number>`
   - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()` und damit ggf. auf Größen von best. Threadpools
 - **AutoCreateSharedArchive**
+  - JDK 19+
+  - *Create shared archive at exit if cds mapping failed* 
 - **+/-DebugNonSafepoints**
 - **DumpLoadedClassList**
   - `-XX:DumpLoadedClassList=/path/to/classes.lst`
+  - *It produces an output file that lists the classes that were loaded during the execution of an application. Note that this option must be used together with -Xshare:off*
+  - *The output class list can then be passed to -XX:SharedClassListFile to generate a shared class data archive for the application’s classes, which can substantially improve subsequent startup times of the application*
 - **+/-ExitOnOutOfMemoryError**
   - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
 - **GCTimeRatio**
@@ -201,6 +213,9 @@ parent: Java
 - **+/-StackTraceInThrowable**
 - **SharedArchiveFile**
   - `-XX:SharedArchiveFile=/path/to/classes.jsa`
+  - *specifies the path of the shared archive used with Class Data Sharing*
+  - *When this option is used together with `-Xshare:dump` and `-XX:SharedClassListFile` then the JVM generates a new shared class data archive file at the path specified with -XX:SharedArchiveFile, using the list of classes specified by -XX:SharedClassListFile*
+  - *When this option is used with `-Xshare:auto` or `-Xshare:on`, then the specified path is used to load the shared class data archive file to increase the startup speed of the Java application.*
 - **+/-ShowCodeDetailsInExceptionMessages**
 - **SharedClassListFile**
   - `-XX:SharedClassListFile=/path/to/classes.lst`
