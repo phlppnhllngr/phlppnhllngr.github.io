@@ -110,18 +110,6 @@ parent: Java
 ### -X, -XX
 
 #### X
-- **share**
-  - Für Class-Data Sharing (!= AppCDS). CDS existiert seit Java 5.
-  - *erlaubt einen Dump der internen Repräsentation der beim Start geladenen [JRE-]Klassen in eine Datei [Windows: %JAVA_HOME%/bin/server/classes.jsa, Linux: lib/server/classes.jsa], die dann bei jedem Start der JVM, gesteuert über den JVM-Parameter `-Xshare:[on|off|auto|dump]`, geladen wird und das Laden der JARs überflüssig macht.*
-  - `Xshare:dump`
-    - erzeugt die Datei   
-  - `Xshare:on`
-    - *While class data sharing is enabled by default on JDK 12 and newer, explicitely enforcing it will ensure an error is raised if something is wrong, e.g. a mismatch of Java versions between building and using the archive*
-    - benutzt die Datei
-  - `Xshare:off`
-  - `Xshare:auto`
-    - *The default; enable class data sharing when jsa file is available*
-  - <https://dev.java/learn/jvm/cds-appcds/>
 - **log**
   - `-Xlog:gc:file=gc.txt`
   - `-Xlog:class+load:file=/path/to/classload.log`
@@ -150,21 +138,10 @@ parent: Java
 - -XX = non-standard
 - -XX:+Foo / -XX:-Foo für Boolean-Flags, -XX:Foo=Bar für Werte
 <br/><br/>
-- **ArchiveClassesAtExit**
-  - *Triggers creation of a AppCDS archive at the given location upon application shutdown*
-  - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
-  - `ArchiveClassesAtExit=/path/to/app-cds.jsa`
 - **ActiveProcessorCount**
   - `-XX:ActiveProcessorCount=<number>`
   - wirkt sich aus auf `Runtime.getRuntime().availableProcessors()` und damit ggf. auf Größen von best. Threadpools
-- **AutoCreateSharedArchive**
-  - JDK 19+
-  - *Create shared archive at exit if cds mapping failed* 
 - **+/-DebugNonSafepoints**
-- **DumpLoadedClassList**
-  - `-XX:DumpLoadedClassList=/path/to/classes.lst`
-  - *It produces an output file that lists the classes that were loaded during the execution of an application. Note that this option must be used together with -Xshare:off*
-  - *The output class list can then be passed to -XX:SharedClassListFile to generate a shared class data archive for the application’s classes, which can substantially improve subsequent startup times of the application*
 - **+/-ExitOnOutOfMemoryError**
   - *When you enable this option, the JVM exits on the first occurrence of an out-of-memory error. It can be used if you prefer restarting an instance of the JVM rather than handling out of memory errors.*
 - **GCTimeRatio**
@@ -211,14 +188,7 @@ parent: Java
   - `-XX:ReservedCodeCacheSize=64M` 
 - **showSettings:vm**
 - **+/-StackTraceInThrowable**
-- **SharedArchiveFile**
-  - `-XX:SharedArchiveFile=/path/to/classes.jsa`
-  - *specifies the path of the shared archive used with Class Data Sharing*
-  - *When this option is used together with `-Xshare:dump` and `-XX:SharedClassListFile` then the JVM generates a new shared class data archive file at the path specified with -XX:SharedArchiveFile, using the list of classes specified by -XX:SharedClassListFile*
-  - *When this option is used with `-Xshare:auto` or `-Xshare:on`, then the specified path is used to load the shared class data archive file to increase the startup speed of the Java application.*
 - **+/-ShowCodeDetailsInExceptionMessages**
-- **SharedClassListFile**
-  - `-XX:SharedClassListFile=/path/to/classes.lst`
 - **StartFlightRecording**
   - aktiviert JFR
   - `-XX:StartFlightRecording`
@@ -249,8 +219,6 @@ parent: Java
   - *The PrintFlagsFinal flag, however, does not show all possible tuning flags. For instance, to also see diagnostic tuning flags, we should add the UnlockDiagnosticVMOptions flag*
 - **+/-UnlockExperimentalVMOptions**
   - *unlocks experimental JVM features. These features may be unstable and are therefore not available by default, so this flag is required to make them available.*
-- **+/-UseAppCDS**
-  - *made obsolete in JDK 11, expired in JDK 12*
 - **+/-UseContainerSupport**
   - *Starting from Java 10, this parameter (which is enabled by default) is used to make the JVM take the container memory limits into account when allocating the heap size, not the host machine configuration. This option was backported to Java 8.* 
   - *UseCGroupMemoryLimitForHeap VM option has been removed in JDK 11 and replaced with UseContainerSupport*
@@ -332,5 +300,61 @@ parent: Java
 - `java.ext.dirs`
 - *standard, scalable way to make custom APIs available to all applications running on the Java platform*
 - *all applications using that JRE (or potentially all applications on the host) can see the same classes without need to explicitly specify them on the classpath*
+
+
+## CDS && AppCDS
+
+### Class-Data Sharing (CDS)
+- <https://docs.oracle.com/en/java/javase/14/vm/class-data-sharing.html>
+- [Performance auf der JVM: Überblick über CDS, AppCDS und AOT](https://entwickler.de/java/fast-and-furious-001)
+- **share**
+  - Für Class-Data Sharing (!= AppCDS). CDS existiert seit Java 5.
+  - *erlaubt einen Dump der internen Repräsentation der beim Start geladenen [JRE-]Klassen in eine Datei [Windows: %JAVA_HOME%/bin/server/classes.jsa, Linux: lib/server/classes.jsa], die dann bei jedem Start der JVM, gesteuert über den JVM-Parameter `-Xshare:[on|off|auto|dump]`, geladen wird und das Laden der JARs überflüssig macht.*
+  - `Xshare:dump`
+    - erzeugt die Datei   
+  - `Xshare:on`
+    - *While class data sharing is enabled by default on JDK 12 and newer, explicitely enforcing it will ensure an error is raised if something is wrong, e.g. a mismatch of Java versions between building and using the archive*
+    - benutzt die Datei
+  - `Xshare:off`
+  - `Xshare:auto`
+    - *The default; enable class data sharing when jsa file is available*
+  - <https://dev.java/learn/jvm/cds-appcds/>
+- **SharedArchiveFile**
+  - `-XX:SharedArchiveFile=/path/to/classes.jsa`
+  - *specifies the path of the shared archive used with Class Data Sharing*
+  - *When this option is used together with `-Xshare:dump` and `-XX:SharedClassListFile` then the JVM generates a new shared class data archive file at the path specified with -XX:SharedArchiveFile, using the list of classes specified by -XX:SharedClassListFile*
+  - *When this option is used with `-Xshare:auto` or `-Xshare:on`, then the specified path is used to load the shared class data archive file to increase the startup speed of the Java application.*
+- **DumpLoadedClassList**
+  - `-XX:DumpLoadedClassList=/path/to/classes.lst`
+  - *It produces an output file that lists the classes that were loaded during the execution of an application. Note that this option must be used together with -Xshare:off*
+  - *The output class list can then be passed to -XX:SharedClassListFile to generate a shared class data archive for the application’s classes, which can substantially improve subsequent startup times of the application*
+- **SharedClassListFile**
+  - `-XX:SharedClassListFile=/path/to/classes.lst`
+
+### Application Class-Data Sharing (AppCDS)
+- *helps reduce the startup time for Java programming language applications, in particular smaller applications, as well as reduce footprint.*
+- *allows a set of classes to be pre-processed into a shared archive file that can then be memory-mapped at runtime to reduce startup time which can also reduce dynamic memory footprint when multiple JVMs share the same archive file.*
+- <https://simonis.github.io/cl4cds/> - *tool which helps exploring the new Application Class Data Sharing (AppCDS) feature in OpenJDK 10*
+- <https://www.baeldung.com/java-10-performance-improvements#application-class-data-sharing>
+- <https://www.morling.dev/blog/building-class-data-sharing-archives-with-apache-maven/>
+- <https://github.com/ionutbalosin/faster-jvm-start-up-techniques/blob/main/app-dynamic-cds-hotspot/README.md>
+- <https://github.com/SvenWoltmann/application-cds-demo>
+- JDK 10
+  - `+/-UseAppCDS` 
+    - *made obsolete in JDK 11, expired in JDK 12* 
+- JDK 12
+  - Default CDS Archive
+- JDK 13
+  - Dynamic CDS Archive
+  - `-XX:ArchiveClassesAtExit`
+    - *Triggers creation of a AppCDS archive at the given location upon application shutdown*
+    - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
+    - ```
+      java -XX:ArchiveClassesAtExit=app-cds.jsa -jar your-app.jar
+      java -Xshare:on -XX:SharedArchiveFile=app-cds.jsa -jar your-app.jar
+      ```
+- JDK 19
+  - Autogenerate CDS Archive (`+XX:AutoCreateSharedArchive`)
+    - `java -XX:+AutoCreateSharedArchive -XX:SharedArchiveFile=app.jsa -cp app.jar App`
+    - *The specified archive file will be created if it does not exist, or if it was generated by a different JDK version.*
 - Reihenfolge class loading: bootstrap, extensions, classpath
-- entfernt in Java 9
