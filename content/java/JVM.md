@@ -352,7 +352,7 @@ parent: Java
     - *Only loaded classes will be added to the archive. As classloading on the JVM happens lazily, you must invoke some functionality in your application in order to cause all the relevant classes to be loaded.*
     - ```
       java -XX:ArchiveClassesAtExit=app-cds.jsa -jar your-app.jar
-      java -Xshare:on -XX:SharedArchiveFile=app-cds.jsa -jar your-app.jar
+      java -Xlog:cds=debug:file=cds.log -Xshare:on -XX:SharedArchiveFile=app-cds.jsa -jar your-app.jar
       ```
 - JDK 19
   - Autogenerate CDS Archive
