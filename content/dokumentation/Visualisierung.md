@@ -49,7 +49,7 @@ parent: Dokumentation
 - **D2**
   - *a modern diagram scripting language that turns text to diagrams* 
   - <https://github.com/terrastruct/d2>
-  - <span style="visibility:hidden">bookmarked</span>
+  - <span>bookmarked</span>
 - **sketch.systems**
   - <https://sketch.systems/>
 - **stately.ai**
