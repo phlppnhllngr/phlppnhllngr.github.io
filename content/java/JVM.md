@@ -368,6 +368,7 @@ parent: Java
   - *The checkpoint-restore mechanism is nothing new and most of you already know and use it daily. If you work on your laptop and close the lid, the operating systems detects that an stores it's current state to disk. Once you open up the lid again, the operating system restores the saved state from disk. CRaC provides the same mechanism but for the JVM and your running application.*
 - `-XX:CRaCCheckpointTo`
 - `-XX:CRaCRestoreFrom`
+- <https://bell-sw.com/blog/how-to-use-crac-with-java-applications/>
 
 ### AoT
 - `-XX:AOTMode`, `‑XX:AOTConfiguration`, `‑XX:AOTCache` (Java 24+)
