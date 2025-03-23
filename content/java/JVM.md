@@ -371,8 +371,9 @@ parent: Java
 - <https://bell-sw.com/blog/how-to-use-crac-with-java-applications/>
 
 ### AoT
-- `-XX:AOTMode`, `‑XX:AOTConfiguration`, `‑XX:AOTCache` (Java 24+)
+- `-XX:AOTMode`, `-XX:AOTConfiguration`, `-XX:AOTCache` (Java 24+)
 ```
-java ‑XX:AOTMode=record ‑XX:AOTConfiguration=app.aotconf ‑cp app.jar Main
-java ‑XX:AOTMode=create ‑XX:AOTConfiguration=app.aotconf ‑XX:AOTCache=app.aot ‑cp app.jar
+java -XX:AOTMode=record -XX:AOTConfiguration=app.aotconf -cp app.jar Main
+java -XX:AOTMode=create -XX:AOTConfiguration=app.aotconf -XX:AOTCache=app.aot -cp app.jar
+java -XX:AOTCache=app.aot -cp app.jar Main
 ```
