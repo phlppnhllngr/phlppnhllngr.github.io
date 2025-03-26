@@ -7,8 +7,15 @@ parent: API
 
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
+
+
+## Paginierung
 - [HN - Paginating Requests in APIs](https://news.ycombinator.com/item?id=31541070)
-- <https://docs.stripe.com/api/idempotent_requests>, <https://old.reddit.com/r/programming/comments/1cnvy7y/how_stripe_prevents_double_payment_using/>
+
+
+## Idempotenz
+- <https://docs.stripe.com/api/idempotent_requests>
+- <https://old.reddit.com/r/programming/comments/1cnvy7y/how_stripe_prevents_double_payment_using/>
 
 
 ## API Versionierung
