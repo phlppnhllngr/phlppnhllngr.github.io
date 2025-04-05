@@ -395,3 +395,4 @@ parent: Diverses
 - Librewolf
 - Waterfox
 - Opera
+- VSCodium
