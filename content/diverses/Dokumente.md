@@ -222,6 +222,7 @@ parent: Diverses
 - **typst**
   - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
   - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
+  - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
 - **Docling**
   - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
   - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
