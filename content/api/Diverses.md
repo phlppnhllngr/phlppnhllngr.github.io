@@ -7,6 +7,14 @@ parent: API
 
 ## API-Design
 - <https://opensource.zalando.com/restful-api-guidelines/>
+- **How to (and how not to) design REST APIs**
+  - <https://github.com/stickfigure/blog/wiki/How-to-%28and-how-not-to%29-design-REST-APIs>
+  - [HN Diskussion, 11/2023](https://news.ycombinator.com/item?id=38103310)
+- **json patch**
+  - *JSON Patch is a format for describing changes to a JSON document. It can be used to avoid sending a whole document when only a part has changed. When used in combination with the HTTP PATCH method, it allows partial updates for HTTP APIs in a standards compliant way.
+The patch documents are themselves JSON documents.
+JSON Patch is specified in RFC 6902 from the IETF.*
+ - <https://jsonpatch.com/>
 
 
 ## Paginierung
