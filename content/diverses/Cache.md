@@ -25,3 +25,5 @@ parent: Diverses
   - *fully compatible with the Redis and Memcached APIs*
   - nach eigenen Angaben performanter als andere
   - <https://github.com/dragonflydb/dragonfly> <img loading="lazy" src="https://img.shields.io/github/stars/dragonflydb/dragonfly?style=flat-square"/>
+- **DiceDB**
+  - <https://github.com/DiceDB/dice>
