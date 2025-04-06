@@ -26,3 +26,10 @@ has_children: true
 - **Windsurf**
     - AI 
     - <https://codeium.com/windsurf> 
+
+## Tools
+- **DevPod**
+  - *client-only tool to create reproducible developer environments based on a devcontainer.json*
+  - *these environments can be created on any backend, such as the local computer, a Kubernetes cluster, any reachable remote machine, or in a VM in the cloud.*
+  - *VSCode and the full JetBrains suite is supported, all others can be connected through simple ssh.*
+  - <https://github.com/loft-sh/devpod>
