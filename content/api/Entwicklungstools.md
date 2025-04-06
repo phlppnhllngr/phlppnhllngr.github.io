@@ -133,3 +133,8 @@ parent: API
   - Funktioniert auch mit Containern
   - Simpler als Wireshark (-> Security/Tools/Wireshark) 
   - <https://httptoolkit.com/> 
+- **TypeSpec**
+  - *language for defining APIs*
+  - *Benefit from a huge ecosystem of OpenAPI tools*
+  - <https://typespec.io/>
+  - <https://news.ycombinator.com/item?id=40206124>
