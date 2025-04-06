@@ -20,6 +20,8 @@ has_children: true
     - Zalgo text
         - <https://en.wikipedia.org/wiki/Zalgo_text>
         - <https://lingojam.com/GlitchTextGenerator>
+    - XML-Exploits
+        - <https://github.com/tiran/defusedxml>
 - OWASP juice shop
     - <https://github.com/bkimminich/juice-shop>
     - *probably the most modern and sophisticated insecure web application! It can be used in security trainings, awareness demos, CTFs and as a guinea pig for security tools*
