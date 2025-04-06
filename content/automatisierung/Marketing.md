@@ -4,9 +4,15 @@ parent: Automatisierung
 ---
 
 # Marketing
+
+## Tracking
 - *iOS added Mail Privacy Protection (MPP) in the last two years, because Apple "opens" the emails itself before you do so that the sender cannot track the metadata associated with the pings to the image servers*
 - *most of the big email platforms now offer some kind of automated send-time optimization, which looks at an individual's open behavior over time and adjusts the send time individually for a given campaign to a time that person tends to be most responsive. STO really only boosts open rates by 5-10% at most on average*
 - *many enterprise email security providers doing automated phishing checks that click every link in the email and screen scrape the landing page to verify it's not an attack vector. Vanity email metrics are incredibly broken right now - the only numbers that mean anything are frictioned conversions like sign-ups, payments, session duration etc.*
+- <https://old.reddit.com/r/webdev/comments/1hu7ycr/>
+
+
+## Tools
 - **mautic**
     - *Open Source Marketing Automation Software*
     - *Connect with your contacts over channels like Emails, Text Messages, Social media, and Focus Items.*
