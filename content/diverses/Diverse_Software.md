@@ -396,3 +396,6 @@ parent: Diverses
 - Waterfox
 - Opera
 - VSCodium
+- Zen
+  - *built using Firefox*
+  - <https://github.com/zen-browser/desktop>
