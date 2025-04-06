@@ -141,7 +141,7 @@ parent: Diverses
     - PDF/VT
       - Portable Document Format **V**ariable Data and **T**ransactional Printing 
       - <https://www.adobe.com/de/acrobat/resources/document-files/pdf-types/pdf-vt.html> 
-        - *Beim variablen Datendruck handelt es sich um ein digitales Druckverfahren, bei dem einzelne Parameter von Printprodukten individuell angepasst werden können, während das Grundlayout bestehen bleibt. Dies ermöglicht es, große Mengen von Druckmaterialien zu erstellen, die trotzdem personalisiert sind – etwa individualisierte Prospekte oder Werbebriefe, die alle dieselben grafischen Elemente (Bilder, Logos, Schriftart etc.) enthalten und trotzdem individuelle Ansprachen der Kund*innen mit Namen ermöglichen.*
+        - *Beim variablen Datendruck handelt es sich um ein digitales Druckverfahren, bei dem einzelne Parameter von Printprodukten individuell angepasst werden können, während das Grundlayout bestehen bleibt. Dies ermöglicht es, große Mengen von Druckmaterialien zu erstellen, die trotzdem personalisiert sind – etwa individualisierte Prospekte oder Werbebriefe, die alle dieselben grafischen Elemente (Bilder, Logos, Schriftart etc.) enthalten und trotzdem individuelle Ansprachen der KundInnen mit Namen ermöglichen.*
         - *Transaktionsdruck wiederum beschreibt das Drucken von Dokumenten, mit denen Transaktionen dokumentiert werden. Darunter fallen etwa Rechnungen, Mahnungen, Lieferscheine, Quittungen oder andere Schriftstücke, die den Austausch von Waren oder Dienstleistungen dokumentieren.*
 
 ### Tools
@@ -230,6 +230,11 @@ parent: Diverses
 - **PyMuPDF**
   - *high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.* 
   - <https://github.com/pymupdf/PyMuPDF> <img loading="lazy" src="https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=flat-square"/>
+- **marker**
+  - *converts documents to markdown, JSON, and HTML quickly and accurately*
+  - *Converts PDF, image, PPTX, DOCX, XLSX, HTML, EPUB files in all languages*
+  - *Optionally boost accuracy with LLMs*
+  - <https://github.com/VikParuchuri/marker>
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
