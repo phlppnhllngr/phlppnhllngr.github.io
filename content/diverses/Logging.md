@@ -77,8 +77,5 @@ It is cost effective, easy to operate and allows viewing logs directly in Grafan
 
 ## Elastic (ELK) Stack
 - **elasticsearch**
-  - <https://github.com/elastic/elasticsearch>
-  - FOSS-Alternative: [opensearch](https://github.com/opensearch-project/OpenSearch)
-    - <https://github.com/opensearch-project/OpenSearch-Dashboards>
 - **logstash**
 - **kibana**
