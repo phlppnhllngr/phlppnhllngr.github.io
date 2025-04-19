@@ -221,4 +221,8 @@ parent: Java
   - <https://github.com/ASSERT-KTH/depclean>
 - **Playground**
   - Browser 
-  - <https://dev.java/playground/> 
+  - <https://dev.java/playground/>
+- **Jar Editor Online**
+  - *lets you manage, view, and edit jar file contents (perform a jar file edit) directly in your browser*
+  - *files are processed directly in your browser. No server uploads needed for your jar file edit.* 
+  - <https://jar-viewer.fly.dev/> 
