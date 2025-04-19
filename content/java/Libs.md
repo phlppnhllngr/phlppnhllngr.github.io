@@ -348,6 +348,7 @@ parent: Java
   - <https://github.com/mvallim/java-fluent-validator>
 - **hibernate validator**
   - <https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/>
+  - Annot. Processor: <https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#validator-annotation-processor>
 - <u>json</u>
   - **json-schema**
     - <https://github.com/everit-org/json-schema> *631
@@ -358,6 +359,10 @@ parent: Java
 - **fluent-validator**
   - *leveraging the fluent interface style and JSR 303 - Bean Validation specification*
   - <https://github.com/neoremind/fluent-validator> *942
+- **avaje-validator**
+  - *POJO validation using annotation processing*
+  - *Reflection-free pojo validation via apt source code generation*
+  - <https://github.com/avaje/avaje-validator> 
 
 
 ## XML
