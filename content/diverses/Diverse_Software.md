@@ -382,6 +382,12 @@ parent: Diverses
   - *can be queried via REST clients*
   - xml,json,jsonl,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log
   - <https://solr.apache.org/>
+- **Elasticsearch**
+  - *search engine based on Apache Lucene* 
+- **Lucene**
+  - *Java library providing powerful indexing and search features, as well as spellchecking, hit highlighting and advanced analysis/tokenization capabilities* 
+  - <https://lucene.apache.org/> 
+
 
 ## Browser
 - Brave
