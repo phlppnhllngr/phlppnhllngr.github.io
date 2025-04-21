@@ -229,3 +229,6 @@ parent: Java
 - **Recaf**
   - *An easy to use modern Java bytecode editor that abstracts away the complexities of Java programs.* 
   - <https://github.com/Col-E/Recaf> 
+- **jd-gui**
+  - *A standalone Java Decompiler GUI* 
+  - <https://github.com/java-decompiler/jd-gui> 
