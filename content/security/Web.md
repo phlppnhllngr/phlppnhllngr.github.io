@@ -8,7 +8,9 @@ parent: Security
 - <https://medium.com/simple-security/web-developer-security-checklist-f2e4f43c9c56>
 - <https://mozilla.github.io/server-side-tls/ssl-config-generator/> - für diverse Webserver (nginx, Apache, ...)
 - <https://github.com/shieldfy/API-Security-Checklist>
-- security.txt: <https://securitytxt.org/>
+- security.txt
+  - <https://securitytxt.org/>
+  - <https://news.ycombinator.com/item?id=43235972>
 
 ## HTML-Attribute
 - **integrity** (subresource integrity)
