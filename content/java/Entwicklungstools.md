@@ -225,4 +225,7 @@ parent: Java
 - **Jar Editor Online**
   - *lets you manage, view, and edit jar file contents (perform a jar file edit) directly in your browser*
   - *files are processed directly in your browser. No server uploads needed for your jar file edit.* 
-  - <https://jar-viewer.fly.dev/> 
+  - <https://jar-viewer.fly.dev/>
+- **Recaf**
+  - *An easy to use modern Java bytecode editor that abstracts away the complexities of Java programs.* 
+  - <https://github.com/Col-E/Recaf> 
