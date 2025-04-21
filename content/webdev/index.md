@@ -71,6 +71,12 @@ has_children: true
   - <https://github.com/openreplay/openreplay>
 
 
+## Domains
+- **Njalla**
+  - *an anonymous domain name registrar, hosting provider and VPN provider, established by The Pirate Bay co-founder Peter Sunde* 
+  - <https://njal.la/> 
+
+
 ## Diverse Tools
 - <https://toolkit.addy.codes/>
   - *531 hand-picked tools & resources for web designers & developers*
