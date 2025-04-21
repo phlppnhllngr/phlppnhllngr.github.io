@@ -117,6 +117,7 @@ grand_parent: Java
 - <https://docs.spring.io/spring-integration/docs/current/reference/html>
 - Batch + Integration: <https://docs.spring.io/spring-batch/trunk/reference/html/springBatchIntegration.html>
 - <https://www.reddit.com/r/java/comments/rscyoe/when_would_you_use_spring_integration/>
+- <https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/>
 
 
 ## Batch
@@ -169,6 +170,9 @@ grand_parent: Java
 - [YT - Spring Modulith – A Deep Dive (Workshop) - 3h - 09/2023](https://www.youtube.com/watch?v=430YOyMNjhs)
 - <https://piotrminkowski.com/2023/10/13/guide-to-modulith-with-spring-boot/>
   - <https://old.reddit.com/r/java/comments/176zlbe/guide_to_modulith_with_spring_boot_piotrs_techblog/>
+- <https://www.wimdeblauwe.com/blog/2024/06/25/transactional-outbox-pattern-with-spring-boot/>
+  - TransactionalEventListener
+  - Retry failed events (IncompleteEventPublications) 
 
 
 ## Actuator
