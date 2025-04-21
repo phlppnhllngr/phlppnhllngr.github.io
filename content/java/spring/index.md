@@ -12,14 +12,14 @@ parent: Java
 - <https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/>
 - ```
   Spring effectively:
-  scans the classpath for resources - that includes jars, file system
-  loads every single class matching the scanned directories as a byte array
-  parses it in java (not by JVM) to check what annotations it has (it doesn't load the classes actually)
-  builds dependency tree
-  enhances the previously loaded byte arrays, i.e. generates different byte code
-  loads the newly enhanced classes and create instances (usually through standard reflection)
-  makes calls like PostInit (life cycle)
-  in some cases it uses the standard java reflection to set fields/call methods; in lots of cases java reflection is generating (and loading) a new class (byte code) to carry the process
+  - scans the classpath for resources - that includes jars, file system
+  - loads every single class matching the scanned directories as a byte array
+  - parses it in java (not by JVM) to check what annotations it has (it doesn't load the classes actually)
+  - builds dependency tree
+  - enhances the previously loaded byte arrays, i.e. generates different byte code
+  - loads the newly enhanced classes and create instances (usually through standard reflection)
+  - makes calls like PostInit (life cycle)
+  - in some cases it uses the standard java reflection to set fields/call methods; in lots of cases java reflection is generating (and loading) a new class (byte code) to carry the process
   ```
 
 ## Tipps
