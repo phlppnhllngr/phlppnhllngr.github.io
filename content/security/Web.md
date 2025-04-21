@@ -1,8 +1,5 @@
 ---
-tags: [Notebooks/Security]
 title: Web
-created: '2020-09-01T09:51:06.721Z'
-modified: '2021-08-08T10:14:33.419Z'
 parent: Security
 ---
 
@@ -11,6 +8,7 @@ parent: Security
 - <https://medium.com/simple-security/web-developer-security-checklist-f2e4f43c9c56>
 - <https://mozilla.github.io/server-side-tls/ssl-config-generator/> - für diverse Webserver (nginx, Apache, ...)
 - <https://github.com/shieldfy/API-Security-Checklist>
+- security.txt: <https://securitytxt.org/>
 
 ## HTML-Attribute
 - **integrity** (subresource integrity)
