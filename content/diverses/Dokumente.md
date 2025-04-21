@@ -235,6 +235,9 @@ parent: Diverses
   - *Converts PDF, image, PPTX, DOCX, XLSX, HTML, EPUB files in all languages*
   - *Optionally boost accuracy with LLMs*
   - <https://github.com/VikParuchuri/marker>
+- **PDFSyntax**
+  - *HTML visualization of a PDF file's internal structure*
+  - <https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md>
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
