@@ -16,6 +16,12 @@ parent: Datenbank
 - **Buch "the art of postgresql"**
   - <https://theartofpostgresql.com>
 - <https://hinty.io/devforth/sql-query-optimization-understanding-key-principle>
+- **SQL Noir**
+  - *Learn SQL by solving crimes* 
+  - <https://www.sqlnoir.com/>
+- <https://pgexercises.com>
+- <https://mystery.knightlab.com>
+- <https://sql-island.informatik.uni-kl.de>
 
 
 ## Tools
