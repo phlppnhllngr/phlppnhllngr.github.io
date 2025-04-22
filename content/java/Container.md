@@ -35,6 +35,8 @@ parent: Java
       "com.example.Application" \
   ]
   ```
+    - ubi-minimal
+      - Package-Manager: microdnf
     - ubi-micro
         - *a stripped down image that uses the package manager on the underlying host to install packages* 
         - <https://hub.docker.com/r/redhat/ubi8-micro> 
