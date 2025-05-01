@@ -164,15 +164,9 @@ parent: Diverses
   - *A unified interface for LLMs*
   - *No need to change your code when switching between models or providers*
   - <https://openrouter.ai/docs/principles>
-- **promptfoo**
-  - *Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more.*
-  - <https://github.com/promptfoo/promptfoo> <img loading="lazy" src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=flat-square"/>
 - **ChainForge**
   - *open-source visual programming environment for battle-testing prompts to LLMs.* 
   - <https://github.com/ianarawjo/ChainForge> <img loading="lazy" src="https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat-square"/>
-- **DeepEval**
-  - *LLM evaluation framework, for evaluating and testing large-language model systems.* 
-  - <https://github.com/confident-ai/deepeval> <img loading="lazy" src="https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square"/>
 - **LLM-Model-VRAM-Calculator**
   - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
 - **Tokenizer**
@@ -185,6 +179,9 @@ parent: Diverses
   - *supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies*
   - *support for the latest text-to-image generation technology*
   - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
+- **Crawl4AI**
+  - *Open-source LLM Friendly Web Crawler & Scraper* 
+  - <https://github.com/unclecode/crawl4ai> 
 
 ### Coding
 - **FauxPilot**
@@ -201,6 +198,10 @@ parent: Diverses
   - <https://www.tabnine.com>
 - **Cline**
   - <https://github.com/cline/cline> <img loading="lazy" src="https://img.shields.io/github/stars/cline/cline?style=flat-square"/>
+- **Roo Code**
+   - Fork von Cline
+   - *AI-powered autonomous coding agent that lives in your editor*
+   - <https://github.com/RooVetGit/Roo-Code> 
 - **Aider**
   - *pair programming in your terminal*
   - *works best with GPT-4o & Claude 3.5 Sonnet and can connect to almost any LLM.* 
@@ -318,6 +319,10 @@ parent: Diverses
 - **unstructured**
   - *The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. The use cases of unstructured revolve around streamlining and optimizing the data processing workflow for LLMs.*
   - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
+**Morphik**
+  - *multimodal retrieval over documents like PDFs, where images and diagrams matter as much as the text*
+  - <https://github.com/morphik-org/morphik-core>
+  - <https://news.ycombinator.com/item?id=43763814>
 
 
 ## Vector DB
@@ -346,15 +351,38 @@ parent: Diverses
   - <https://github.com/neuml/txtai> <img loading="lazy" src="https://img.shields.io/github/stars/neuml/txtai?style=flat-square"/>
 
 
-## Model Benchmarks & Leaderboards
+## Model Benchmarks, Leaderboards, Evals
 - <https://www.choosellm.com/>
 - <https://lmarena.ai/?leaderboard>
 - <https://huggingface.co/spaces/opencompass/open_vlm_leaderboard> (Vision)
+- **EuroEval**
+  - *how different language models perform on a wide range of tasks in various European languages* 
+  - <https://euroeval.com/>
+- **DeepEval**
+  - *LLM evaluation framework, for evaluating and testing large-language model systems.* 
+  - <https://github.com/confident-ai/deepeval> <img loading="lazy" src="https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square"/>
+- **promptfoo**
+  - *Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. Compare performance of GPT, Claude, Gemini, Llama, and more.*
+  - <https://github.com/promptfoo/promptfoo> <img loading="lazy" src="https://img.shields.io/github/stars/promptfoo/promptfoo?style=flat-square"/>
+- **Language Model Evaluation Harness**
+  - *test generative language models on a large number of different evaluation tasks* 
+  - <https://github.com/EleutherAI/lm-evaluation-harness>
+- **Evidently**
+  - *LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline*
+  - <https://github.com/evidentlyai/evidently> 
 
 
 ## Models
-- OpenGPT-X/Teuken
+- **OpenGPT-X/Teuken**
   - *multilingual large language model (LLM) pre-trained with 4T tokens in all official 24 European languages*
   - *renders more stable results across these languages and better reflects European values in its answers than English-centric models. It is therefore specialized for use in multilingual tasks.*
   - *funded by the German Federal Ministry of Economics and Climate Protection (BMWK)*
   - <https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4>
+- **EuroLLM**
+  - *multilingual language models tailored to European languages* 
+  - <https://huggingface.co/eurollm-team>
+- **TeapotLLM**
+  - *small language model optimized to run locally on resource-constrained devices such as smartphones and CPUs.*
+  - *the model and embedding model can fit in ~2GB CPU RAM*
+  - *can perform a variety of tasks, including Question Answering (QnA), Retrieval-Augmented Generation (RAG), and JSON extraction*
+  - <https://huggingface.co/teapotai/teapotllm> 
