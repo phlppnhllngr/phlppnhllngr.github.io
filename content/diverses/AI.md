@@ -181,7 +181,14 @@ parent: Diverses
   - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
 - **Crawl4AI**
   - *Open-source LLM Friendly Web Crawler & Scraper* 
-  - <https://github.com/unclecode/crawl4ai> 
+  - <https://github.com/unclecode/crawl4ai>
+- **Firecrawl**
+  - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
+  - <https://github.com/mendableai/firecrawl> 
+- **Magnitude**
+  - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
+  - <https://github.com/magnitudedev/magnitude>
+  - <http://news.ycombinator.com/item?id=43796003>
 
 ### Coding
 - **FauxPilot**
@@ -216,6 +223,10 @@ parent: Diverses
 - **Continue**
   - *autocomplete and chat experiences inside VS Code and JetBrains*   
   - <https://github.com/continuedev/continue> <img loading="lazy" src="https://img.shields.io/github/stars/continuedev/continue?style=flat-square"/>
+- **Repomix**
+  - *packs your entire repository into a single, AI-friendly file*
+  - *Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools* 
+  - <https://github.com/yamadashy/repomix> 
 
 ### Audio
 - **Whisper**
@@ -228,11 +239,14 @@ parent: Diverses
   - *reimplementation of OpenAI's Whisper model using CTranslate2*
   - <https://github.com/SYSTRAN/faster-whisper> <img loading="lazy" src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square"/>
 
-### Vision
+### Vision & OCR
 - **Moondream**
   - *a tiny vision language model*
   - *offers two model variants: Moondream 2B, Moondream 0.5B* 
-  - <https://github.com/vikhyat/moondream> 
+  - <https://github.com/vikhyat/moondream>
+- **Mistral OCR**
+  - <https://docs.mistral.ai/capabilities/document/> 
+  - <https://news.ycombinator.com/item?id=43282905> 
 
 
 ## Local LLM
@@ -319,10 +333,14 @@ parent: Diverses
 - **unstructured**
   - *The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. The use cases of unstructured revolve around streamlining and optimizing the data processing workflow for LLMs.*
   - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
-**Morphik**
+- **Morphik**
   - *multimodal retrieval over documents like PDFs, where images and diagrams matter as much as the text*
   - <https://github.com/morphik-org/morphik-core>
   - <https://news.ycombinator.com/item?id=43763814>
+- **Rlama**
+  - *question-answering tool for your documents, seamlessly integrating with your local Ollama models. It enables you to create, manage, and interact with Retrieval-Augmented Generation (RAG) systems tailored to your documentation needs.*
+  - *Creates a new RAG system by indexing all documents in the specified folder. Create a RAG system from a website.* 
+  - <https://github.com/dontizi/rlama?tab=readme-ov-file> 
 
 
 ## Vector DB
@@ -369,7 +387,7 @@ parent: Diverses
   - <https://github.com/EleutherAI/lm-evaluation-harness>
 - **Evidently**
   - *LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline*
-  - <https://github.com/evidentlyai/evidently> 
+  - <https://github.com/evidentlyai/evidently>
 
 
 ## Models
