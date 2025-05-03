@@ -254,6 +254,8 @@ parent: Diverses
   - *PDF/A validation*
   - *installer works on any Windows, Mac OS or Linux machine that’s running Java 8 or later*
   - <https://github.com/veraPDF/veraPDF-library>
+  - Docker
+    - <https://hub.docker.com/r/verapdf/arlington> 
 - iText RUPS -> Tools
 
 
