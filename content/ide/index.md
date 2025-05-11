@@ -24,8 +24,13 @@ has_children: true
     - für .NET, Games, Native, Web 
     - <https://www.jetbrains.com/rider/>
 - **Windsurf**
-    - AI 
-    - <https://codeium.com/windsurf> 
+    - AI
+    - VSCode-Fork 
+    - <https://codeium.com/windsurf>
+- **Void**
+    - *open-source Cursor alternative*
+    - VSCode-Fork 
+    - <https://github.com/voideditor/void> 
 
 ## Tools
 - **DevPod**
