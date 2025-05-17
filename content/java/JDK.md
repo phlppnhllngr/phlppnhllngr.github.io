@@ -27,11 +27,12 @@ parent: Java
 - Sequenced collections (21)
 - Launch multi-file source-code programs (22)
 - Statements before super() (22)
-- Unnamed variables (22)
+- Unnamed variables (21: preview, 22)
 - Stream Gatherers (Gatherers.mapConcurrent etc.) (22: preview)
 - Module imports (23: preview)
 - primitives with switch and instanceof (23)
 - markdown in javadoc (23)
+- AoT (24)
 
 
 ## Upgrade
