@@ -258,23 +258,39 @@ parent: Java
 ## Cache
 - **ehcache**
   - <https://www.ehcache.org/>
-  - <https://github.com/ehcache/ehcache3> ⭐1300
+  - <https://github.com/ehcache/ehcache3> <img loading="lazy" src="https://img.shields.io/github/stars/ehcache/ehcache3?style=flat-square"/>
   - v3 = java 8+
+  - Lokal oder distributed
   - *scales from in-process caching, all the way to mixed in-process/out-of-process deployments*
 - **JetCache**
   - <https://github.com/alibaba/jetcache> 
   - *JetCache is a Java cache framework which is <mark>more convenient than Spring Cache</mark>. JetCache is a Java cache abstraction which provides consistent use for various caching solutions. It provides more powerful annotation than that in Spring Cache. Presently There are <mark>four implements: RedisCache, TairCache(not open source on github), CaffeineCache (in memory), a simple LinkedHashMapCache (in memory).</mark>*
 - **Caffeine**
-  - <https://github.com/ben-manes/caffeine> ⭐6100
-  - in-memory, java 8+
+  - <https://github.com/ben-manes/caffeine> <img loading="lazy" src="https://img.shields.io/github/stars/ben-manes/caffeine?style=flat-square"/>
+  - in-memory, java 8+, Integrations für Spring/Micronaut/Quarkus/...
+  - Features
+    - Evict (time based, size based, LRU, ...)
+    - Refresh (async)
+    - Automatic Loading
+    - Disk-writes möglich, muss aber selbst implementiert werden
+    - notification of evicted entries
+    - Statistics
+  - mit Spring Boot: <https://www.baeldung.com/spring-boot-caffeine-cache>
 - **cache2k**
+  - in-memory
+  - Spring-Integration 
   - <https://cache2k.org/>
+  - <https://github.com/cache2k/cache2k> <img loading="lazy" src="https://img.shields.io/github/stars/cache2k/cache2k?style=flat-square"/>
 - **Apache Commons JCS**
   - Java Caching System
   - *distributed caching system*
   - *most useful for high read, low put applications*
   - *Features: Disk overflow (and defragmentation), Data expiration (idle time and max life), ...*
   - <https://commons.apache.org/proper/commons-jcs/index.html>
+  - <https://github.com/apache/commons-jcs> <img loading="lazy" src="https://img.shields.io/github/stars/apache/commons-jcs?style=flat-square"/>
+- **MapDB**
+  - *provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory* 
+  - <https://github.com/jankotek/mapdb/> <img loading="lazy" src="https://img.shields.io/github/stars/jankotek/mapdb?style=flat-square"/>
 - **jcabi cache**
   - <https://aspects.jcabi.com/annotation-cacheable.html>
 - **Guava Caching**  
