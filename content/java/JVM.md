@@ -372,8 +372,12 @@ parent: Java
 
 ### AoT
 - `-XX:AOTMode`, `-XX:AOTConfiguration`, `-XX:AOTCache` (Java 24+)
+- *To create a cache takes two steps. First, run the application once, in a training run, to record its AOT configuration, in this case into the file app.aotconf. Second, use the configuration to create the cache, in the file app.aot. This second step doesn’t run the application, it just creates the cache. Subsequently, in testing or production, run the application with the cache. If the cache file is unusable or does not exist then the JVM issues a warning message and continues.*
 ```
 java -XX:AOTMode=record -XX:AOTConfiguration=app.aotconf -cp app.jar Main
 java -XX:AOTMode=create -XX:AOTConfiguration=app.aotconf -XX:AOTCache=app.aot -cp app.jar
 java -XX:AOTCache=app.aot -cp app.jar Main
 ```
+- *All runs must use the same JDK release and be on the same hardware architecture and operating system.*
+- *To check if your JVM is correctly configured to use the AOT cache, you can add the option `-XX:AOTMode=on` to the command line. If this option is present then the JVM reports an error and exits if any of the constraints are violated, or if the cache does not exist.*
+- <https://openjdk.org/jeps/483>
