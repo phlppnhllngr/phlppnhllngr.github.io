@@ -40,6 +40,8 @@ parent: Java
       - <https://github.com/logfellow/logstash-logback-encoder>
       - *Provides logback encoders, layouts, and appenders to log in JSON and other formats supported by Jackson.*
       - <https://www.innoq.com/en/blog/structured-logging/>
+  - masking
+      - <https://medium.com/@aleksamajkic/your-log-file-is-leaking-how-cooked-are-you-357e341c13e7>
 - **Logbook**
   - <https://github.com/zalando/logbook>
   - *extensible Java library for HTTP request and response logging*
