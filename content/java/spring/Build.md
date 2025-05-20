@@ -23,7 +23,7 @@ grand_parent: Java
     - Baut JVM-basiertes oder natives (wenn `-Pnative`) Docker-Image 
     - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#goals-build-image>
     - <https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#build-image.customization>
-    - <https://www.baeldung.com/spring-boot-docker-images#buildpacks> 
+    - <https://www.baeldung.com/spring-boot-docker-images#buildpacks>
   - repackage
     - *Repackage existing JAR and WAR archives so that they can be executed from the command line using java -jar. With layout=NONE can also be used simply to package a JAR with nested dependencies (and no main class, so not executable).*
     - `mvn clean package spring-boot:repackage`
@@ -38,6 +38,9 @@ grand_parent: Java
 - das Image unterstützt `JAVA_OPTS` aber nicht `JDK_TOOL_OPTIONS` (`JAVA_TOOL_OPTIONS` setzt es selber, evtl. kann man hier auch was dranhängen)
 - <https://www.heise.de/hintergrund/Container-Images-Abschied-vom-Dockerfile-5997535.html?seite=3>
   - layered Jar, Buildpacks, beides in Kombination
+- Schreibbare Verzeichnisse im Container
+  - /tmp
+  - /workspace 
 - <https://dev.to/sabyasachi/buildpack-with-spring-boot-300o>
   - erklärt Builder, Buildpacks
   - *Spring uses Packeto buildpack*
@@ -58,6 +61,9 @@ grand_parent: Java
 - <https://github.com/jonashackt/spring-boot-buildpack>
   - *Example project showing how to use Buildpacks.io together with Spring Boot & it's layered jar feature*
 - Health-Checks
+  - Das Image beinhaltet keine Shell. Health-Check via docker-run-Args daher nicht möglich (<https://github.com/docker/cli/issues/3719>).
+  - <https://github.com/paketo-buildpacks/health-checker>
+    - basiert auf THC (tiny health checker) 
   - <https://stackoverflow.com/questions/75885269/spring-boot-build-image-with-health-check> (04/2023)
     - *The Health Checkers buildpack hasn't been added to the main builders just yet, but it is fully available to use with your app. For now, the buildpack has to be added manually.*
     - Um curl statt `Tiny Health Checker` nutzen zu können: <https://stackoverflow.com/questions/63789255/install-package-in-docker-image-created-by-spring-boot-maven-plugin>
