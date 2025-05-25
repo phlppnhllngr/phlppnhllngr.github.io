@@ -244,9 +244,9 @@ parent: Diverses
   - *a tiny vision language model*
   - *offers two model variants: Moondream 2B, Moondream 0.5B* 
   - <https://github.com/vikhyat/moondream>
-- **Mistral OCR**
-  - <https://docs.mistral.ai/capabilities/document/> 
-  - <https://news.ycombinator.com/item?id=43282905> 
+- **Mistral OCR & Document AI**
+  - <https://news.ycombinator.com/item?id=43282905>
+  - <https://docs.mistral.ai/capabilities/OCR/document_understanding/>
 
 
 ## Local LLM
