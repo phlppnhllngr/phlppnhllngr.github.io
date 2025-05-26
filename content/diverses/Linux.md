@@ -221,7 +221,11 @@ parent: Diverses
 - **Xvfb**
   - In-memory Display
   - geeignet für headless Testen
-    
+- **until**
+  - <https://www.tutorialspoint.com/unix/until-loop.htm>
+- **timeout**
+  - <https://www.man7.org/linux/man-pages/man1/timeout.1.html>
+  
 ### FTP
 - <https://www.computerhope.com/unix/ftp.htm>
 - <https://linuxize.com/post/how-to-use-linux-ftp-command-to-transfer-files/>
