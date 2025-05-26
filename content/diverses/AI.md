@@ -6,6 +6,13 @@ parent: Diverses
 # AI
 - <https://microsoft.github.io/generative-ai-for-beginners/#/>
 - <https://huggingface.co/docs>
+- Top-K: *Limits token selection to the K most likely next tokens. Higher values (e.g., 40-50) introduce more diversity.*
+- Top-P: *eine Alternative zur Temperature, um die Kreativität zu steuern. Bei Top P wählt das Modell die nächsten Wörter aus den Top X % der wahrscheinlichsten Kandidaten aus.
+Ein niedriger Wert wie 0.1 beschränkt die Auswahl auf die 10 % wahrscheinlichsten Wörter. Die Antworten werden vorhersehbarer.*
+- Temperature: *steuert, wie „kreativ“ oder „überraschend“ die Antworten eines KI-Modells sind:
+Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative Antworten gibt.*
+- Frequeny penalty: *bestraft die Wiederholung von Token, die im bisherigen Text schon oft vorkamen*
+
 
 ## Inhalt
 {: .no_toc }
