@@ -388,6 +388,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://www.choosellm.com/>
 - <https://lmarena.ai/?leaderboard>
 - <https://huggingface.co/spaces/opencompass/open_vlm_leaderboard> (Vision)
+- <https://whatllm.vercel.app/> - *Compare LLM models across providers to find the best fit for your needs* (vergleicht Preis und Qualität)
 - **EuroEval**
   - *how different language models perform on a wide range of tasks in various European languages* 
   - <https://euroeval.com/>
