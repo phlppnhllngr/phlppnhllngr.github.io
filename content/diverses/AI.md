@@ -233,7 +233,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Repomix**
   - *packs your entire repository into a single, AI-friendly file*
   - *Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools* 
-  - <https://github.com/yamadashy/repomix> 
+  - <https://github.com/yamadashy/repomix>
+- **Tabby**
+  - *Self-hosted AI coding assistant* 
+  - <https://github.com/TabbyML/tabby>
+  - Plugins für VSC und Intellij 
 
 ### Audio
 - **Whisper**
@@ -315,6 +319,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *supports text generation, image generation, vision-language models (VLM), Audio Language Model, auto-speech-recognition (ASR), and text-to-speech (TTS) capabilities* 
   - <https://github.com/NexaAI/nexa-sdk>
   - <https://old.reddit.com/r/LocalLLaMA/comments/1hdoplq/omniaudio26b_worlds_fastest_audiolm_for_edge/>
+- **Docker Model Runner**
+  - *Requires: Docker Desktop 4.40 and later*
+  - *For: Docker Desktop for Mac with Apple Silicon or Windows with NVIDIA GPUs*
+  - <https://docs.docker.com/model-runner/> 
 
 
 ## RAG
