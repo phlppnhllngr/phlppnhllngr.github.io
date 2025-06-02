@@ -242,7 +242,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *crawls GitHub repositories and builds a knowledge base from the code* 
   - <https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge>
 - **Jules**
- - *experimental coding agent that helps you fix bugs, add documentation, and build new features. It integrates with GitHub, understands your codebase, and works asynchronously — so you can move on while it handles the task.* 
+  - *experimental coding agent that helps you fix bugs, add documentation, and build new features. It integrates with GitHub, understands your codebase, and works asynchronously — so you can move on while it handles the task.* 
   - <https://jules.google/> 
 
 ### Audio
