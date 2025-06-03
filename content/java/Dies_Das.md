@@ -40,6 +40,7 @@ parent: Java
 - **ServiceLoader**
   - <https://www.logicbig.com/tutorials/core-java-tutorial/java-se-api/service-loader.html>
 - **Kotlin**
+  - Playground: <https://play.kotlinlang.org> 
   - <https://kotlinlang.org/>
 - **Project Leyden**
   - <https://blogs.oracle.com/javamagazine/post/java-leyden-static-images>
