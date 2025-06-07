@@ -209,6 +209,9 @@ parent: Diverses
 - **LibreTranslate**
   - *Machine Translation API, entirely self-hosted*
   - <https://github.com/LibreTranslate/LibreTranslate>
+- **CryptPad**
+  - *collaborative office suite* 
+  - <https://github.com/cryptpad/cryptpad> 
 
 
 ## Elektronische Unterschrift
