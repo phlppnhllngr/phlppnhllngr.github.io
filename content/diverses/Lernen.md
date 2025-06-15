@@ -57,6 +57,7 @@ parent: Diverses
 - <https://github.com/CollabCodeTech/backend-challenges>
 - <https://github.com/sadanandpai/frontend-mini-challenges>
 - <https://i18n-puzzles.com/>
+- <https://platform.entwicklerheld.de/dashboard>
 
 
 ## Kurse
