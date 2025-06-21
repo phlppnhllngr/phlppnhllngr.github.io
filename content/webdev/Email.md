@@ -4,7 +4,7 @@ parent: Webdev
 ---
 
 # Email
-- [HN: Stop using encrypted email](https://news.ycombinator.com/item?id=44252093)
+- [HN: Stop using encrypted email (2020)](https://news.ycombinator.com/item?id=44252093)
 
 ## Frameworks & Tools
 - [HN - Tables no longer needed for HTML email, 04/23](https://news.ycombinator.com/item?id=35497799)
