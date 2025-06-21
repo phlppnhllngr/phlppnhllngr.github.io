@@ -108,6 +108,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/langchain4j/langchain4j>
   - [HN - LangChain: The Missing Manual, 06/2023](https://news.ycombinator.com/item?id=36001465)
   - [HN - 	Why we no longer use LangChain for building our AI agents, 06/2024](https://news.ycombinator.com/item?id=40739982)
+- **AutoGen**
+  - *framework for creating multi-agent AI applications that can act autonomously or work alongside humans.*
+  - Python 
+  - <https://github.com/microsoft/autogen>
+  - <https://news.ycombinator.com/item?id=37926741> (Okt 2023)
 - **Langflow**
   - *low-code app builder for RAG and multi-agent AI applications*
   - *It’s Python-based and agnostic to any model, API, or database.*
@@ -382,7 +387,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Rlama**
   - *question-answering tool for your documents, seamlessly integrating with your local Ollama models. It enables you to create, manage, and interact with Retrieval-Augmented Generation (RAG) systems tailored to your documentation needs.*
   - *Creates a new RAG system by indexing all documents in the specified folder. Create a RAG system from a website.* 
-  - <https://github.com/dontizi/rlama?tab=readme-ov-file> 
+  - <https://github.com/dontizi/rlama?tab=readme-ov-file>
+- **kotaemon**
+  - *customizable RAG UI for chatting with your documents*
+  - <https://github.com/Cinnamon/kotaemon> <img loading="lazy" src="https://img.shields.io/github/stars/Cinnamon/kotaemon?style=flat-square"/>
 
 
 ## Vector DB
