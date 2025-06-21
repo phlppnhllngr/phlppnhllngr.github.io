@@ -4,12 +4,13 @@ parent: Webdev
 ---
 
 # Email
+- [HN: Stop using encrypted email](https://news.ycombinator.com/item?id=44252093)
 
 ## Frameworks & Tools
 - [HN - Tables no longer needed for HTML email, 04/23](https://news.ycombinator.com/item?id=35497799)
   - *The new Outlook switches rendering engines from Microsoft Word to Edge. Support for CSS features in the new Outlook application appears to be identical to that of outlook.com, which is a great leap forward*
   - *Gmail has a 102KB size-limit for HTML. After that it will truncate the email with the words "[Message clipped]"*
-  - <https://old.reddit.com/r/webdev/comments/15trnp2/why_does_email_development_have_to_suck/>
+-<https://old.reddit.com/r/webdev/comments/15trnp2/why_does_email_development_have_to_suck/>
 - **emailresourc.es**
   - <https://emailresourc.es/>
 - **mjml**
