@@ -238,6 +238,13 @@ parent: Diverses
 - **PDFSyntax**
   - *HTML visualization of a PDF file's internal structure*
   - <https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md>
+- **Stirling-PDF**
+  - *locally hosted web-based PDF manipulation tool* 
+  - <https://github.com/Stirling-Tools/Stirling-PDF> <img loading="lazy" src="https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=flat-square"/>
+- **Breeze PDF**
+  - *powerful, free PDF editor that works entirely offline in your browser. No uploads, 100% privacy guaranteed*
+  - kann keinen Text editieren, nur hinzufügen 
+  - <https://breezepdf.com/> 
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
