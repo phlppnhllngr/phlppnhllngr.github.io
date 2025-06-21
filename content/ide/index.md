@@ -15,8 +15,10 @@ has_children: true
     - *an editor made for programming with AI* 
     - <https://github.com/getcursor/cursor> 
 - **intellij idea**
-    - <https://www.jetbrains.com/de-de/idea/download/other.html> 
-    - <https://plugins.jetbrains.com/plugin/19177-vscode-theme>
+    - <https://www.jetbrains.com/de-de/idea/download/other.html>
+    - Plugins
+        - Http Client: <https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html>
+        - VSC Theme: <https://plugins.jetbrains.com/plugin/19177-vscode-theme>
 - **Haystack**
     - *Visualize and edit code on an infinite canvas*
     - <https://github.com/haystackeditor/haystack-editor>
