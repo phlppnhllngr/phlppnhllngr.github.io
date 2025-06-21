@@ -196,6 +196,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
   - <https://github.com/magnitudedev/magnitude>
   - <http://news.ycombinator.com/item?id=43796003>
+- **Nxtscape**
+  - *agentic browser* 
+  - <https://github.com/nxtscape/nxtscape> 
 
 ### Coding
 - **FauxPilot**
