@@ -12,6 +12,7 @@ Ein niedriger Wert wie 0.1 beschränkt die Auswahl auf die 10 % wahrscheinlichst
 - Temperature: *steuert, wie „kreativ“ oder „überraschend“ die Antworten eines KI-Modells sind:
 Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative Antworten gibt.*
 - Frequeny penalty: *bestraft die Wiederholung von Token, die im bisherigen Text schon oft vorkamen*
+- [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
 ## Inhalt
@@ -202,7 +203,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Browserbase**
   - *powers web browsing capabilities for AI agents and applications* 
   - Cloud 
-  - <https://www.browserbase.com/> 
+  - <https://www.browserbase.com/>
+- **Stagehand**
+  - *By letting developers choose what to write in code vs. natural language, Stagehand is the natural choice for browser automations in production.*
+  - *use AI when you want to navigate unfamiliar pages, and use code (Playwright) when you know exactly what you want to do.*
+  - *use models from OpenAI and Anthropic* 
+  - <https://github.com/browserbase/stagehand> 
 
 ### Coding
 - **FauxPilot**
@@ -284,6 +290,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/>
 - **Ollama**
   - *Get up and running with large language models locally.*
+  - *has a REST API for running and managing models*
   - <https://ollama.com/library>
   - *Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.*
   - keine UI (CLI-Tool) => Open WebUI
@@ -293,6 +300,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
     /save <custom-name>
     ```
   - <https://github.com/ollama/ollama> <img loading="lazy" src="https://img.shields.io/github/stars/ollama/ollama?style=flat-square"/>
+  - Diskussion auf Reddit: <https://old.reddit.com/r/LocalLLaMA/comments/1kg20mu/so_why_are_we_shing_on_ollama_again/>
 - **PrivateGPT**
   - *Interact with your documents using the power of GPT, 100% privately, no data leaks* 
   - <https://github.com/zylon-ai/private-gpt> <img loading="lazy" src="https://img.shields.io/github/stars/zylon-ai/private-gpt?style=flat-square"/>
@@ -387,6 +395,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/milvus-io/milvus> <img loading="lazy" src="https://img.shields.io/github/stars/milvus-io/milvus?style=flat-square"/>
 - **Postgres**
   - pgvector
+    - <https://github.com/pgvector/pgvector> 
   - pg_search
   - PostgresML
     - *Postgres extension that seamlessly combines data storage and machine learning inference within your database*
