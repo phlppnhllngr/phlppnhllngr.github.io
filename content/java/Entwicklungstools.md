@@ -232,3 +232,8 @@ parent: Java
 - **jd-gui**
   - *A standalone Java Decompiler GUI* 
   - <https://github.com/java-decompiler/jd-gui> 
+- **JDBG**
+  - *debugger and reverse engineering tool that operates at runtime. It is attachable and is not limited by agent restrictions.*
+  - *Analyse decompiled classes at runtime*
+  - nur für Windows
+  - <https://github.com/roger1337/JDBG>
