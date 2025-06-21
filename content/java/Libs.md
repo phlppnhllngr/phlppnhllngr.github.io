@@ -289,11 +289,15 @@ parent: Java
   - <https://commons.apache.org/proper/commons-jcs/index.html>
   - <https://github.com/apache/commons-jcs> <img loading="lazy" src="https://img.shields.io/github/stars/apache/commons-jcs?style=flat-square"/>
 - **MapDB**
-  - *provides concurrent Maps, Sets and Queues backed by disk storage or off-heap-memory* 
+  - *provides concurrent Maps, Sets and Queues backed by disk storage or (off-)heap-memory* 
   - <https://github.com/jankotek/mapdb/> <img loading="lazy" src="https://img.shields.io/github/stars/jankotek/mapdb?style=flat-square"/>
+  - <https://www.baeldung.com/mapdb>
 - **jcabi cache**
   - <https://aspects.jcabi.com/annotation-cacheable.html>
-- **Guava Caching**  
+- **Guava Caching**
+- **Carrot**
+  - <https://github.com/carrotdata/carrot-cache>
+  - <https://old.reddit.com/r/java/comments/1lfp1qc/we_built_a_java_cache_that_beats_caffeineehcache/>
 - <u>Redis Clients</u>
   - **jedis**
   - **Redisson**
