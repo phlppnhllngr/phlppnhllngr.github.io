@@ -255,7 +255,12 @@ parent: Diverses
 - **DolphinScheduler**
   - *extensible workflow scheduler platform with powerful DAG visual interfaces, dedicated to solving complex job dependencies in the data pipeline and providing various types of jobs available out of box.*
   - <https://github.com/apache/dolphinscheduler> <img loading="lazy" src="https://img.shields.io/github/stars/apache/dolphinscheduler?style=flat-square"/>
-    
+- **Hatchet**
+  - *platform for running background tasks, built on top of Postgres.*
+  - *built on a durable task queue that enqueues your tasks and sends them to your workers at a rate that your workers can handle. Hatchet will track the progress of your task and ensure that the work gets completed*
+  - *it can be used as a queue, a DAG-based orchestrator, a durable execution engine, or all three*
+  - <https://github.com/hatchet-dev/hatchet>
+
 
 ## Parser-Generatoren
 - **Xtext**
