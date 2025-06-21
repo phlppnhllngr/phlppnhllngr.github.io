@@ -19,6 +19,9 @@ has_children: true
     - Plugins
         - Http Client: <https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html>
         - VSC Theme: <https://plugins.jetbrains.com/plugin/19177-vscode-theme>
+        - Junie (AI)
+            - <https://plugins.jetbrains.com/plugin/26104-jetbrains-junie>
+            - <https://www.jetbrains.com/ai-ides/buy>
 - **Haystack**
     - *Visualize and edit code on an infinite canvas*
     - <https://github.com/haystackeditor/haystack-editor>
