@@ -243,8 +243,14 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge>
 - **Jules**
   - *experimental coding agent that helps you fix bugs, add documentation, and build new features. It integrates with GitHub, understands your codebase, and works asynchronously — so you can move on while it handles the task.* 
-  - <https://jules.google/> 
-
+  - <https://jules.google/>
+- **Vercel v0**
+  - *generative chat interface with in-depth knowledge on modern web technologies. It can provide technical guidance while building on the web, generate UI with client-side functionality, write and execute code in JavaScript and Python*
+  - <https://v0.dev/>
+- **Lovable**
+  - wie v0 
+  - <https://lovable.dev/> 
+ 
 ### Audio
 - **Whisper**
   - *general-purpose speech recognition model* 
@@ -421,6 +427,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **EuroLLM**
   - *multilingual language models tailored to European languages* 
   - <https://huggingface.co/eurollm-team>
+  - <https://huggingface.co/utter-project>
 - **TeapotLLM**
   - *small language model optimized to run locally on resource-constrained devices such as smartphones and CPUs.*
   - *the model and embedding model can fit in ~2GB CPU RAM*
