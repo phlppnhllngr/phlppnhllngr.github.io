@@ -198,7 +198,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <http://news.ycombinator.com/item?id=43796003>
 - **Nxtscape**
   - *agentic browser* 
-  - <https://github.com/nxtscape/nxtscape> 
+  - <https://github.com/nxtscape/nxtscape>
+- **Browserbase**
+  - *powers web browsing capabilities for AI agents and applications* 
+  - Cloud 
+  - <https://www.browserbase.com/> 
 
 ### Coding
 - **FauxPilot**
