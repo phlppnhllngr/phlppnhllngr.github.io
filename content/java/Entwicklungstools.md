@@ -237,3 +237,7 @@ parent: Java
   - *Analyse decompiled classes at runtime*
   - nur für Windows
   - <https://github.com/roger1337/JDBG>
+- **javaflame**
+  - *Create reports for function calls with argument and return values*
+  - Agent
+  - <https://github.com/beothorn/javaflame>
