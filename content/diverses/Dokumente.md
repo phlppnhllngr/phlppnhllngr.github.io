@@ -245,6 +245,10 @@ parent: Diverses
   - *powerful, free PDF editor that works entirely offline in your browser. No uploads, 100% privacy guaranteed*
   - kann keinen Text editieren, nur hinzufügen 
   - <https://breezepdf.com/> 
+- **Tesseract**
+  - *OCR Engine*
+  - Lib und CLI
+  - <https://github.com/tesseract-ocr/tesseract>
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
