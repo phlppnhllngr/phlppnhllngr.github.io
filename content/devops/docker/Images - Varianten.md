@@ -36,6 +36,9 @@ grand_parent: DevOps
   - *support for both glibc and musl*
   - *Unlike Alpine, Wolfi does not currently build its own Linux kernel, instead relying on the host environment (e.g. a container runtime) to provide one.*
   - <https://github.com/wolfi-dev/>
+- **Webtop**
+  - *containing full desktop environments in officially supported flavors accessible via any modern web browser.*
+  - <https://docs.linuxserver.io/images/docker-webtop/>
 
 **Microsoft**
 - <mark>Um Windows-Container zu nutzen, muss man in Docker für Windows 'switch to windows containers' auswählen und dann Docker neu starten</mark>
