@@ -269,7 +269,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - wie v0 
   - <https://lovable.dev/>
 - **Claude Code**
-  - <https://www.anthropic.com/claude-code> 
+  - <https://www.anthropic.com/claude-code>
+- **OpenAI Codex**
+  - <https://openai.com/codex/> 
  
 ### Audio
 - **Whisper**
