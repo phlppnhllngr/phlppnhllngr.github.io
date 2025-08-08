@@ -80,7 +80,10 @@ parent: Diverses
 - **Postgres**
   - LISTEN/NOTIFY
   - <https://www.baeldung.com/spring-postgresql-message-broker>
-  - [HN - Choose Postgres queue technology](https://news.ycombinator.com/item?id=37636841)
+  - HN
+    - [Choose Postgres queue technology](https://news.ycombinator.com/item?id=37636841)
+    - [Postgres as queue, 02/2024](https://news.ycombinator.com/item?id=39315833)
+  - <https://github.com/pgmq/pgmq> - *Like AWS SQS and RSMQ but on Postgres.*
 - **BlazingMQ**
   - <https://github.com/bloomberg/blazingmq> <img loading="lazy" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=flat-square"/>
   - <https://bloomberg.github.io/blazingmq/docs/introduction/comparison/> 
@@ -89,4 +92,5 @@ parent: Diverses
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
 - <https://docs.nats.io/nats-concepts/overview/compare-nats>
 - [HN - RabbitMQ vs Kafka, Okt 2023](https://news.ycombinator.com/item?id=37574552)
+
 
