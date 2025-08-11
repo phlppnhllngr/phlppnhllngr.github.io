@@ -176,6 +176,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **OpenRouter**
   - *A unified interface for LLMs*
   - *No need to change your code when switching between models or providers*
+  - <https://openrouter.ai/>
   - <https://openrouter.ai/docs/principles>
 - **ChainForge**
   - *open-source visual programming environment for battle-testing prompts to LLMs.* 
@@ -213,7 +214,20 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *By letting developers choose what to write in code vs. natural language, Stagehand is the natural choice for browser automations in production.*
   - *use AI when you want to navigate unfamiliar pages, and use code (Playwright) when you know exactly what you want to do.*
   - *use models from OpenAI and Anthropic* 
-  - <https://github.com/browserbase/stagehand> 
+  - <https://github.com/browserbase/stagehand>
+- **Kimi**
+  - Chat
+  - <https://kimi.com/>
+- **GLM**
+  - Chat
+  - <https://chat.z.ai/>
+- **Qwen**
+  - <https://chat.qwen.ai/>
+- **Deepseek**
+  - <https://chat.deepseek.com/>
+- **LMArena**
+  - Chat (auch mit mehreren Models gleichzeitig) 
+  - <https://lmarena.ai/> 
 
 ### Coding
 - **FauxPilot**
@@ -270,8 +284,19 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://lovable.dev/>
 - **Claude Code**
   - <https://www.anthropic.com/claude-code>
+  - <https://www.anthropic.com/engineering/claude-code-best-practices>
+  - [HN - Getting good results from Clausde Code, 08/2025](https://news.ycombinator.com/item?id=44836879)
 - **OpenAI Codex**
-  - <https://openai.com/codex/> 
+  - <https://openai.com/codex/>
+- **Gemini CLI**
+  - <https://github.com/google-gemini/gemini-cli>
+- **Qwen Code**
+  - <https://github.com/QwenLM/qwen-code>
+- **Warp**
+  - *agentic development environment* 
+  - <https://github.com/warpdotdev/Warp>
+- **Rovo Dev**
+  - <https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface> 
  
 ### Audio
 - **Whisper**
