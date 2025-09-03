@@ -10,8 +10,9 @@ parent: Datenbank
 - **PostgreSQL**
   - -> Message Broker / PG 
   - [HN: Dbdev – A database package manager for PostgreSQL trusted language extensions](https://news.ycombinator.com/item?id=35570758)
-  - <https://github.com/Olshansk/postgres_for_everything>
-  - Sammlung Extensions etc.: <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb>
+  - Sammlungen Tools, Extensions etc.
+    - <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb>
+    - <https://github.com/Olshansk/postgres_for_everything>
   - VSC-Support: <https://news.ycombinator.com/item?id=44073588>
   - CloudNativePG
     - *operator designed to manage PostgreSQL workloads on any supported Kubernetes cluster running in private, public, hybrid, or multi-cloud environments*
@@ -62,6 +63,9 @@ parent: Datenbank
   - greenmask
     - <https://github.com/GreenmaskIO/greenmask>
     - *database anonymization and synthetic data generation tool*
+  - sequin
+    - *change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more* 
+    - <https://github.com/sequinstream/sequin> 
 - **DB2** -> Db2
 
 
