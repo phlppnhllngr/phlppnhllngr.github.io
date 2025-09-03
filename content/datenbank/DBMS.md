@@ -8,6 +8,7 @@ parent: Datenbank
 ## Relationale Client/Server
 - **MySQL**
 - **PostgreSQL**
+  - -> Message Broker / PG 
   - [HN: Dbdev – A database package manager for PostgreSQL trusted language extensions](https://news.ycombinator.com/item?id=35570758)
   - <https://github.com/Olshansk/postgres_for_everything>
   - Sammlung Extensions etc.: <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb>
