@@ -79,14 +79,27 @@ parent: Diverses
   - <https://news.ycombinator.com/item?id=36820544>
 - **Postgres**
   - LISTEN/NOTIFY
+    - *The things it lacks most for us is guaranteed single recipient. All subscribers get all notifications which leads to problems in determining who should act on the message in our case.* 
   - <https://www.baeldung.com/spring-postgresql-message-broker>
   - <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb#message-queues>
   - <https://leontrolski.github.io/postgres-as-queue.html>
-  - HN
-    - [Choose Postgres queue technology](https://news.ycombinator.com/item?id=37636841)
-    - [Postgres as queue, 02/2024](https://news.ycombinator.com/item?id=39315833)
+    - `select for update skip locked` 
+  - <https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology>
+    - Listen/Notify, `select for update skip locked` (batch processing)
+    - *use boring technology*
+    - [HN-Diskussion](https://news.ycombinator.com/item?id=37636841)
+  - [HN: Postgres as queue, 02/2024](https://news.ycombinator.com/item?id=39315833)
+  - pgmq
+    - <https://github.com/pgmq/pgmq>
+    - *Like AWS SQS and RSMQ but on Postgres.*
+    - *Messages can be archived, instead of deleted, for long-term retention and replayability*
+  - PgQueuer
+    - *Python library leveraging PostgreSQL for efficient job queuing* 
+    - <https://github.com/janbjorge/PgQueuer> 
     - [Show HN: PgQueuer – Transform PostgreSQL into a Job Queue](https://news.ycombinator.com/item?id=41284703)
-  - <https://github.com/pgmq/pgmq> - *Like AWS SQS and RSMQ but on Postgres.*
+  - sequin
+    - *change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more* 
+    - <https://github.com/sequinstream/sequin>
 - **BlazingMQ**
   - <https://github.com/bloomberg/blazingmq> <img loading="lazy" src="https://img.shields.io/github/stars/bloomberg/blazingmq?style=flat-square"/>
   - <https://bloomberg.github.io/blazingmq/docs/introduction/comparison/> 
@@ -95,6 +108,7 @@ parent: Diverses
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
 - <https://docs.nats.io/nats-concepts/overview/compare-nats>
 - [HN - RabbitMQ vs Kafka, Okt 2023](https://news.ycombinator.com/item?id=37574552)
+
 
 
 
