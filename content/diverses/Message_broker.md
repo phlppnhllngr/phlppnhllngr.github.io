@@ -4,11 +4,8 @@ parent: Diverses
 ---
 
 # Message Broker
-- **AsyncAPI**
-  - *allows you to create machine-readable definitions of your asynchronous APIs* 
-  - <https://www.asyncapi.com/> 
 
-## Tools
+## Broker
 - **Apache Kafka**
   - *Kafka is different from JMS systems such as ActiveMQ. Kafka has less features than ActiveMQ, as the stress has been put on performances.*
   - *Kafka uses its own non-standard protocol and clients*
@@ -31,6 +28,35 @@ parent: Diverses
   - <https://github.com/rabbitmq/rabbitmq-server> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=flat-square"/>
   - <https://github.com/rabbitmq/rabbitmq-java-client> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-java-client?style=flat-square"/>
   - [HN - SQL Maxis: Why We Ditched RabbitMQ and Replaced It with a Postgres Queue](https://news.ycombinator.com/item?id=35526846)
+  - <https://awesome-architecture.com/messaging/rabbitmq/>
+  - Docs
+    - Channel
+      - nicht thread-safe
+    - Queues
+      - *Many producers can send messages that go to one queue, and many consumers can try [nur einer erhält sie] to receive data from one queue.*
+      - Konfig
+        - durable: Queue überlebt Server-Neustart, wenn true
+          - Messages müssen separat durable gemacht werden: <https://www.rabbitmq.com/tutorials/tutorial-two-java#message-durability> 
+        - exclusive: wenn true, exklusiv durch die aktuelle Connection nutzbar
+        - autoDelete: wenn true, wird die Queue automatisch serverseitig gelöscht, wenn nicht mehr genutzt
+        - maxlength: maximale Größe oder Anzahl Messages (<https://www.rabbitmq.com/docs/maxlength>)
+        - TTL: <https://www.rabbitmq.com/docs/ttl>
+        - Consumer Acknowledge Timeout: <https://www.rabbitmq.com/docs/consumers#acknowledgement-timeout>
+    - Exchange
+      - *The core idea in the messaging model in RabbitMQ is that the producer never sends any messages directly to a queue. Instead, the producer can only send messages to an exchange.*
+      - *On one side it receives messages from producers and the other side it pushes them to queues.*
+      - Binding: *tell the exchange to send messages to our queue*
+      - Exchange-Typen
+        - direct
+        - topic
+        - fanout
+          - *broadcasts all the messages it receives to all the queues it knows* 
+        - headers 
+      - <https://www.rabbitmq.com/tutorials/tutorial-three-java#exchanges>
+    - Publish/Subscribe
+      - Nachricht wird an mehrere Consumer zugestellt
+      - <https://www.rabbitmq.com/tutorials/tutorial-three-java#publishsubscribe>
+    - Streams 
 - **ActiveMQ**
   - standalone oder embedded
   - JMS Provider
@@ -108,6 +134,11 @@ parent: Diverses
 - <https://www.conduktor.io/blog/comparing-apache-kafka-activemq-and-rabbitmq/>
 - <https://docs.nats.io/nats-concepts/overview/compare-nats>
 - [HN - RabbitMQ vs Kafka, Okt 2023](https://news.ycombinator.com/item?id=37574552)
+
+## Andere Tools
+- **AsyncAPI**
+  - *allows you to create machine-readable definitions of your asynchronous APIs* 
+  - <https://www.asyncapi.com/> 
 
 
 
