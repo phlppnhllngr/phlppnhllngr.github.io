@@ -10,6 +10,8 @@ parent: Datenbank
 - **PostgreSQL**
   - [HN: Dbdev – A database package manager for PostgreSQL trusted language extensions](https://news.ycombinator.com/item?id=35570758)
   - <https://github.com/Olshansk/postgres_for_everything>
+  - Sammlung Extensions etc.: <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb>
+  - VSC-Support: <https://news.ycombinator.com/item?id=44073588>
   - CloudNativePG
     - *operator designed to manage PostgreSQL workloads on any supported Kubernetes cluster running in private, public, hybrid, or multi-cloud environments*
     - *leverages Kubernetes by extending its controller and by defining, in a programmatic way, all the actions that a good DBA would normally do when managing a highly available PostgreSQL database cluster* 
@@ -43,7 +45,22 @@ parent: Datenbank
   - pg_cron
     - *Run periodic jobs in PostgreSQL*
     - *allows you to schedule PostgreSQL commands directly from the database* 
-    - <https://github.com/citusdata/pg_cron>  
+    - <https://github.com/citusdata/pg_cron>
+  - pgroll
+    - *zero-downtime migrations made easy*
+    - HN: <https://news.ycombinator.com/item?id=37752366> 
+    - <https://github.com/xataio/pgroll>
+  - pg_timeseries
+    - <https://news.ycombinator.com/item?id=40417347>
+  - Neosync
+    - *Open-Source Data Anonymization for Postgres and MySQL* 
+    - <https://news.ycombinator.com/item?id=40443927>
+  - pg_datanymizer
+    - *Powerful database anonymizer with flexible rules* 
+    - <https://github.com/datanymizer/datanymizer>
+  - greenmask
+    - <https://github.com/GreenmaskIO/greenmask>
+    - *database anonymization and synthetic data generation tool*
 - **DB2** -> Db2
 
 
