@@ -28,6 +28,22 @@ parent: Datenbank
   - pglite
     - *Lightweight Postgres packaged as WASM into a TypeScript library for the browser, Node.js, Bun and Deno*
     - <https://github.com/electric-sql/pglite>
+  - pgjwt
+    - *implementation of JWT* 
+    - <https://github.com/michelp/pgjwt>
+  - electric
+    - *Real-time sync for Postgres*
+    - *syncs data out of Postgres into ... anything you like. The core sync protocol is based on a low-level HTTP API*
+    - <https://github.com/electric-sql/electric>
+  - pg_graphql
+    - <https://github.com/supabase/pg_graphql>
+  - pg_mooncake
+    - *Real-time analytics on Postgres tables* 
+    - <https://github.com/Mooncake-Labs/pg_mooncake>
+  - pg_cron
+    - *Run periodic jobs in PostgreSQL*
+    - *allows you to schedule PostgreSQL commands directly from the database* 
+    - <https://github.com/citusdata/pg_cron>  
 - **DB2** -> Db2
 
 
