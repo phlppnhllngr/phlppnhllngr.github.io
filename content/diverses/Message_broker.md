@@ -47,10 +47,18 @@ parent: Diverses
       - *On one side it receives messages from producers and the other side it pushes them to queues.*
       - Binding: *tell the exchange to send messages to our queue*
       - Exchange-Typen
-        - direct
-        - topic
         - fanout
-          - *broadcasts all the messages it receives to all the queues it knows* 
+          - *broadcasts all the messages it receives to all the queues it knows*
+          - ignoriert routing keys ("mindless broadcasting")
+        - direct
+          - *a message goes to the queues whose binding key exactly matches the routing key of the message*
+          - Eine Queue kann mit mehreren routing keys (=binding keys) an eine Exchange gebindet werden
+          - *it still has limitations - it can't do routing based on multiple criteria*
+          - <https://www.rabbitmq.com/tutorials/tutorial-four-java#direct-exchange>
+        - topic
+          - *can't have an arbitrary routing_key - it must be a list of words, delimited by dots (limit of 255 bytes)*
+          - Subscribing: *\* (star) can substitute for exactly one word. \# (hash) can substitute for zero or more words*
+          - <https://www.rabbitmq.com/tutorials/tutorial-five-java#topic-exchange>
         - headers 
       - <https://www.rabbitmq.com/tutorials/tutorial-three-java#exchanges>
     - Publish/Subscribe
@@ -139,6 +147,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
