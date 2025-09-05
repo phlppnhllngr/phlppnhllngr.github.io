@@ -64,7 +64,9 @@ parent: Diverses
     - Publish/Subscribe
       - Nachricht wird an mehrere Consumer zugestellt
       - <https://www.rabbitmq.com/tutorials/tutorial-three-java#publishsubscribe>
-    - Streams 
+    - Streams
+      - *persistent and replicated data structure which models an append-only log with non-destructive consumer semantics* 
+      - <https://www.rabbitmq.com/docs/stream> 
 - **ActiveMQ**
   - standalone oder embedded
   - JMS Provider
@@ -147,6 +149,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
