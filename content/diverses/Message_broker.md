@@ -29,6 +29,7 @@ parent: Diverses
   - <https://github.com/rabbitmq/rabbitmq-java-client> <img loading="lazy" src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-java-client?style=flat-square"/>
   - [HN - SQL Maxis: Why We Ditched RabbitMQ and Replaced It with a Postgres Queue](https://news.ycombinator.com/item?id=35526846)
   - <https://awesome-architecture.com/messaging/rabbitmq/>
+  - Load testing: <https://github.com/rabbitmq/rabbitmq-perf-test>
   - Docs
     - Channel
       - nicht thread-safe
@@ -66,7 +67,13 @@ parent: Diverses
       - <https://www.rabbitmq.com/tutorials/tutorial-three-java#publishsubscribe>
     - Streams
       - *persistent and replicated data structure which models an append-only log with non-destructive consumer semantics* 
-      - <https://www.rabbitmq.com/docs/stream> 
+      - <https://www.rabbitmq.com/docs/stream>
+  - Plugins
+    - delayed-message-exchange
+      - <https://github.com/rabbitmq/rabbitmq-delayed-message-exchange>
+    - message-deduplication
+      - *Messages can be deduplicated when published into an exchange or enqueued to a queue* 
+      - <https://github.com/noxdafox/rabbitmq-message-deduplication>  
 - **ActiveMQ**
   - standalone oder embedded
   - JMS Provider
@@ -149,6 +156,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
