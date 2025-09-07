@@ -13,6 +13,7 @@ parent: Diverses
   - *The chief difference with kafka is storage, <mark>it saves data ... Normally in message queues, the messages are removed after subscribers have confirmed their receipt</mark>.*
   - *Another thing different about kafka is that the topics are ordered (by date they were added). Not all message queues guarantee this.*
   - <https://old.reddit.com/r/programming/comments/11pedkt/supercharge_your_kafka_clusters_with_consumer/.compact>
+  - [HN: Why was Apache Kafka created? (08/2025)](https://news.ycombinator.com/item?id=44988845)
   - **UI for Apache Kafka**
     - <https://github.com/provectus/kafka-ui>
 - **chronicle-queue**
@@ -156,6 +157,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
