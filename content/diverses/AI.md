@@ -296,7 +296,15 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *agentic development environment* 
   - <https://github.com/warpdotdev/Warp>
 - **Rovo Dev**
-  - <https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface> 
+  - <https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface>
+- **opencode**
+  - *AI coding agent, built for the terminal.*
+  - *Not coupled to any provider. Although Anthropic is recommended, opencode can be used with OpenAI, Google or even local models*
+  - <https://github.com/sst/opencode>
+- **crush**
+  - Terminal-Agent 
+  - *Multi-Model: choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs* 
+  - <https://github.com/charmbracelet/crush> 
  
 ### Audio
 - **Whisper**
@@ -486,3 +494,22 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *the model and embedding model can fit in ~2GB CPU RAM*
   - *can perform a variety of tasks, including Question Answering (QnA), Retrieval-Augmented Generation (RAG), and JSON extraction*
   - <https://huggingface.co/teapotai/teapotllm> 
+
+
+## Agents
+
+### Best practices, Tipps
+- *ask it to create a plan*
+- *generate code, test the code, inspect the results and then improve the code*
+- *Have it generate the code. Then have another instance criticize the code and say how it could be improved and why.*
+
+## MCP
+- docs-mcp-server
+  - *indexes 3rd party documentation from various sources (websites, GitHub, npm, PyPI, local files) and offers powerful, version-aware search tools* 
+  - <https://github.com/arabold/docs-mcp-server>
+- context7
+  - *pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt*
+  - <https://github.com/upstash/context7>
+- sequential thinking
+  - *provides a tool for problem-solving through a structured thinking process* 
+  - <https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking> 
