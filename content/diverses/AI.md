@@ -229,6 +229,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
     - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
 - **Gemini**
 - **Le Chat**
+- **Lumo**
+  - Proton 
+  - <https://lumo.proton.me/> 
 
 ### Coding
 - **FauxPilot**
@@ -287,6 +290,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://www.anthropic.com/claude-code>
   - <https://www.anthropic.com/engineering/claude-code-best-practices>
   - [HN - Getting good results from Clausde Code, 08/2025](https://news.ycombinator.com/item?id=44836879)
+  - opcode
+    - *GUI app and Toolkit for Claude Code* 
+    - <https://github.com/getAsterisk/opcode> 
 - **OpenAI Codex**
   - <https://openai.com/codex/>
 - **Gemini CLI**
@@ -305,7 +311,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **crush**
   - Terminal-Agent 
   - *Multi-Model: choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs* 
-  - <https://github.com/charmbracelet/crush> 
+  - <https://github.com/charmbracelet/crush>
+- **Mistral Code**
+  - Fork von <https://www.continue.dev/> 
  
 ### Audio
 - **Whisper**
@@ -506,6 +514,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - *ask it to create a plan*
 - *generate code, test the code, inspect the results and then improve the code*
 - *Have it generate the code. Then have another instance criticize the code and say how it could be improved and why.*
+- <https://www.sabrina.dev/p/ultimate-ai-coding-guide-claude-code>
+- <https://www.anthropic.com/engineering/claude-code-best-practices>
 
 ## MCP
 - docs-mcp-server
