@@ -447,6 +447,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
     - *Run machine learning and AI operations directly within PostgreSQL*
     - *Built-in functions for chunking, embedding, ranking, and transforming text*
     - <https://github.com/postgresml/postgresml> <img loading="lazy" src="https://img.shields.io/github/stars/postgresml/postgresml?style=flat-square"/>
+  - pgai
+    - *suite of tools to develop RAG, semantic search, and other AI applications more easily with PostgreSQL*
+    - <https://github.com/timescale/pgai>
 - **Chroma**
   - <https://github.com/chroma-core/chroma> <img loading="lazy" src="https://img.shields.io/github/stars/chroma-core/chroma?style=flat-square"/>
 - **Qdrant**
