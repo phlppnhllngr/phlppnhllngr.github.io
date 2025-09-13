@@ -24,16 +24,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Tools & Applikationen
 - <https://github.com/steven2358/awesome-generative-ai>
 - <https://github.com/underlines/awesome-ml/>
-- <u>OpenAI</u>
-  - **ChatGPT**
-    - <https://github.com/openai/openai-cookbook>
-    - <https://platform.openai.com/playground>
-    - <https://github.com/f/awesome-chatgpt-prompts>
-    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
-  - **DALL-E**
-    - *creates images from text captions for a wide range of concepts expressible in natural language*
-    - <https://openai.com/blog/dall-e/>
-    - <https://github.com/saharmor/dalle-playground>
+- **DALL-E**
+  - *creates images from text captions for a wide range of concepts expressible in natural language*
+  - <https://openai.com/blog/dall-e/>
+  - <https://github.com/saharmor/dalle-playground>
 - **Open Assistant**
   - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
   - <https://github.com/LAION-AI/Open-Assistant>
@@ -215,19 +209,26 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *use AI when you want to navigate unfamiliar pages, and use code (Playwright) when you know exactly what you want to do.*
   - *use models from OpenAI and Anthropic* 
   - <https://github.com/browserbase/stagehand>
+- **LMArena**
+  - Chat (auch mit mehreren Models gleichzeitig) 
+  - <https://lmarena.ai/> 
+
+### Chat
 - **Kimi**
-  - Chat
   - <https://kimi.com/>
 - **GLM**
-  - Chat
   - <https://chat.z.ai/>
 - **Qwen**
   - <https://chat.qwen.ai/>
 - **Deepseek**
   - <https://chat.deepseek.com/>
-- **LMArena**
-  - Chat (auch mit mehreren Models gleichzeitig) 
-  - <https://lmarena.ai/> 
+- **ChatGPT**
+    - <https://github.com/openai/openai-cookbook>
+    - <https://platform.openai.com/playground>
+    - <https://github.com/f/awesome-chatgpt-prompts>
+    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
+- **Gemini**
+- **Le Chat**
 
 ### Coding
 - **FauxPilot**
