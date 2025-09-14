@@ -509,6 +509,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## Agents
+- agents.md
+  - *Think of AGENTS.md as a README for agents*
+  - Support für: Codex, Gemini CLI, Cursor, ... 
+  - <https://agents.md/>
+  - [HN Diskussion](https://news.ycombinator.com/item?id=44957443)
 
 ### Best practices, Tipps
 - *ask it to create a plan*
@@ -516,6 +521,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - *Have it generate the code. Then have another instance criticize the code and say how it could be improved and why.*
 - <https://www.sabrina.dev/p/ultimate-ai-coding-guide-claude-code>
 - <https://www.anthropic.com/engineering/claude-code-best-practices>
+- <https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html>
+  - RAG 
+  - "Tool Loadout"
+  - weitere
+- <https://userjot.com/blog/best-practices-building-agentic-ai-systems>
+  - Subagents
+  - [HN Diskussion](https://news.ycombinator.com/item?id=44919647)
 
 ## MCP
 - docs-mcp-server
