@@ -220,7 +220,14 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Windows Use**
   - Python Lib
   - *automation agent that interacts directly with Windows at GUI layer* 
-  - <https://github.com/CursorTouch/Windows-Use> 
+  - <https://github.com/CursorTouch/Windows-Use>
+- **Langfuse**
+  - *LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more.* 
+  - <https://github.com/langfuse/langfuse/tree/main>
+- **Guidance**
+  - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
+  - Python Lib
+  - <https://github.com/guidance-ai/guidance> 
 
 ### Chat
 - **Kimi**
@@ -322,7 +329,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Multi-Model: choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs* 
   - <https://github.com/charmbracelet/crush>
 - **Mistral Code**
-  - Fork von <https://www.continue.dev/> 
+  - Fork von <https://www.continue.dev/>
+- **Open SWE**
+  - *cloud-based asynchronous coding agent*
+  - *autonomously understands codebases, plans solutions, and executes code changes across entire repositories* 
+  - <https://github.com/langchain-ai/open-swe> 
  
 ### Audio
 - **Whisper**
@@ -334,6 +345,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **faster-whisper**
   - *reimplementation of OpenAI's Whisper model using CTranslate2*
   - <https://github.com/SYSTRAN/faster-whisper> <img loading="lazy" src="https://img.shields.io/github/stars/SYSTRAN/faster-whisper?style=flat-square"/>
+- **Whispering**
+  - *open-source, local-first* 
+  - <https://github.com/epicenter-os/epicenter/tree/main/apps/whispering> 
+  - <https://news.ycombinator.com/item?id=44942731> 
 
 ### Vision & OCR
 - **Moondream**
@@ -414,6 +429,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 ## RAG
 - <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
+- <https://www.kapa.ai/blog/rag-best-practices>
+- <https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/>
 - **RAGFlow**
   - *Deep document understanding-based knowledge extraction from unstructured data with complicated formats*
   - *Supports Word, slides, excel, txt, images, scanned copies, structured data, web pages, and more.*
@@ -446,6 +463,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **kotaemon**
   - *customizable RAG UI for chatting with your documents*
   - <https://github.com/Cinnamon/kotaemon> <img loading="lazy" src="https://img.shields.io/github/stars/Cinnamon/kotaemon?style=flat-square"/>
+- **GraphRAG**
+  - *data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs* 
+  - <https://github.com/microsoft/graphrag> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/graphrag?style=flat-square"/>
+- **LightRAG**
+  - *leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph* 
+  - <https://lightrag.github.io/> 
+  - <https://github.com/HKUDS/LightRAG> 
 
 
 ## Vector DB
@@ -518,11 +542,25 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## Agents
-- agents.md
+- **agents.md**
   - *Think of AGENTS.md as a README for agents*
   - Support für: Codex, Gemini CLI, Cursor, ... 
   - <https://agents.md/>
   - [HN Diskussion](https://news.ycombinator.com/item?id=44957443)
+- **Flowise**
+  - *Build AI Agents, Visually* 
+  - <https://github.com/FlowiseAI/Flowise> <img loading="lazy" src="https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square"/>
+- **TypedAI**
+  - *TypeScript-first AI platform for developers. Autonomous AI agents and LLM based workflows.* 
+  - <https://github.com/TrafficGuard/typedai>
+- **AG2**
+  - *programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks*
+  - Python Lib 
+  - <https://github.com/ag2ai/ag2>
+- **crewAI**
+  - *Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.*
+  - Python 
+  - <https://github.com/crewAIInc/crewAI> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
