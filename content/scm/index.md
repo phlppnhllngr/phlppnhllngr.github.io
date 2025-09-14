@@ -21,6 +21,9 @@ has_children: true
 - **Jujutsu**
   - *A Git-compatible VCS that is both simple and powerful*
   - <https://github.com/jj-vcs/jj>
+  - Tutorial
+      - <https://jj-for-everyone.github.io/>
+      - HN Diskussion: <https://news.ycombinator.com/item?id=45083952> 
 
 ## Bots
 - <https://foojay.io/today/using-bots-to-keep-dependencies-updated/>
