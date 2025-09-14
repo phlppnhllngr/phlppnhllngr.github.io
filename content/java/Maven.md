@@ -21,6 +21,7 @@ parent: Java
 
 ## CLI
 - options: <https://maven.apache.org/ref/current/maven-embedder/cli.html>
+- .mvn/maven.config, MAVEN_OPTS, MAVEN_ARGS: <https://maven.apache.org/configure.html#mvn-maven-config-file>
 - reactor-project (=Modul) ausschließen: `mvn -pl '!parent/excludeme' clean package`
 - mit bestimmtem JDK ausführen:<br/>
   Linux: `export JAVA_HOME=/foo/bar && mvn -v`
@@ -635,3 +636,4 @@ RUN mvn -e -B dependency:resolve #download dependencies in separate layer => no 
 COPY src ./src
 RUN mvn -e -B package
 ```
+
