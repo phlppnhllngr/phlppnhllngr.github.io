@@ -77,6 +77,9 @@ parent: API
   - <https://github.com/danirod/cartero>
 - **Yaak**
   - <https://github.com/mountain-loop/yaak>
+- **Requestly**
+  - *combination of a local API Client (like Postman) & HTTP Interceptor (like Charles Proxy) with API Testing and Mocking* 
+  - <https://github.com/requestly/requestly> 
 
 
 ## Client-Generatoren
