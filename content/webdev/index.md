@@ -14,6 +14,7 @@ has_children: true
 - <https://roadmap.sh/frontend>
 - <https://engineering.videoblocks.com/web-architecture-101-a3224e126947>
 - <https://andreasbm.github.io/web-skills/>
+- Chrome ohne CORS starten: `chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security`
 
 
 ## Checklists
