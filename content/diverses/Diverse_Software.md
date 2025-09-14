@@ -354,6 +354,9 @@ parent: Diverses
     Consumers query these tags with our TaxiQL language, and Orbital generates the integration on the fly. That could be merging multiple APIs, blending API and database queries, or enriching event streams to craft custom message payloads.*
   - <https://news.ycombinator.com/item?id=38012311>
   - <https://github.com/orbitalapi/orbital>
+- **DocETL**
+  - *A system for agentic LLM-powered data processing and ETL* 
+  - <https://github.com/ucbepic/docetl> 
 
 
 ## Textanalyse, Datenextraktion
