@@ -211,7 +211,16 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/browserbase/stagehand>
 - **LMArena**
   - Chat (auch mit mehreren Models gleichzeitig) 
-  - <https://lmarena.ai/> 
+  - <https://lmarena.ai/>
+- **any-llm**
+  - *Communicate with an LLM provider using a single interface*
+  - Python Lib 
+  - <https://github.com/mozilla-ai/any-llm>
+  - [HN Diskussion](https://news.ycombinator.com/item?id=44650567)
+- **Windows Use**
+  - Python Lib
+  - *automation agent that interacts directly with Windows at GUI layer* 
+  - <https://github.com/CursorTouch/Windows-Use> 
 
 ### Chat
 - **Kimi**
@@ -528,8 +537,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://userjot.com/blog/best-practices-building-agentic-ai-systems>
   - Subagents
   - [HN Diskussion](https://news.ycombinator.com/item?id=44919647)
+- <https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook>
 
 ## MCP
+- SDKs: <https://github.com/modelcontextprotocol/servers>
 - docs-mcp-server
   - *indexes 3rd party documentation from various sources (websites, GitHub, npm, PyPI, local files) and offers powerful, version-aware search tools* 
   - <https://github.com/arabold/docs-mcp-server>
