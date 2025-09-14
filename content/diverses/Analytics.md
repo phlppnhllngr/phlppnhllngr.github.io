@@ -146,4 +146,8 @@ parent: Diverses
   - *connect directly to databases and APIs and use the data to create beautiful charts*
   - <https://github.com/chartbrew/chartbrew>
 - **Rill**
-  - <https://github.com/rilldata/rill> 
+  - <https://github.com/rilldata/rill>
+- **datavzrd**
+  - *create visual HTML reports from collections of CSV/TSV tables* 
+  - <https://github.com/datavzrd/datavzrd> 
+
