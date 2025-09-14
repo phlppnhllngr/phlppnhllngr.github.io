@@ -560,7 +560,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **crewAI**
   - *Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.*
   - Python 
-  - <https://github.com/crewAIInc/crewAI> 
+  - <https://github.com/crewAIInc/crewAI>
+- **Embabel**
+  - *Agent framework for the JVM* 
+  - <https://github.com/embabel/embabel-agent> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
