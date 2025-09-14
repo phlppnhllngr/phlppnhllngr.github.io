@@ -5,6 +5,9 @@ grand_parent: Java
 ---
 
 # Entwicklungstools
+- **Spring Debugger** 
+  - <https://www.youtube.com/watch?v=K2tYAHG2XJ8> (07/2025)
+  - Debug Transactions: <https://m.youtube.com/watch?v=smUSH6-Qvn0>
 - **Testcontainers**
   - für lokale Entwicklung (DB, Cache) statt docker(-compose)
   - <https://bsideup.github.io/posts/local_development_with_testcontainers/>
