@@ -7,6 +7,7 @@ parent: Java
 
 ## Parameter, Flags
 - [VM Options Explorer](https://chriswhocodes.com/)
+- [@argfile](https://docs.oracle.com/en/java/javase/24/docs/specs/man/java.html#java-command-line-argument-files)
 - **JAVA_OPTS**
   - Env-Var
   - *JAVA_OPTS is a convention used by Apache Tomcat and some other apps*
@@ -381,3 +382,4 @@ java -XX:AOTCache=app.aot -cp app.jar Main
 - *All runs must use the same JDK release and be on the same hardware architecture and operating system.*
 - *To check if your JVM is correctly configured to use the AOT cache, you can add the option `-XX:AOTMode=on` to the command line. If this option is present then the JVM reports an error and exits if any of the constraints are violated, or if the cache does not exist.*
 - <https://openjdk.org/jeps/483>
+
