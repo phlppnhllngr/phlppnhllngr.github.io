@@ -300,7 +300,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *generative chat interface with in-depth knowledge on modern web technologies. It can provide technical guidance while building on the web, generate UI with client-side functionality, write and execute code in JavaScript and Python*
   - <https://v0.dev/>
 - **Lovable**
-  - wie v0 
+  - wie v0
+  - Free tier erlaubt nur öffentliche Projekte
   - <https://lovable.dev/>
 - **Claude Code**
   - <https://www.anthropic.com/claude-code>
@@ -333,7 +334,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Open SWE**
   - *cloud-based asynchronous coding agent*
   - *autonomously understands codebases, plans solutions, and executes code changes across entire repositories* 
-  - <https://github.com/langchain-ai/open-swe> 
+  - <https://github.com/langchain-ai/open-swe>
+- **Junie**
+  - Plugins für Intellij IDEs & Android Studio 
+  - <https://www.jetbrains.com/de-de/junie/> 
  
 ### Audio
 - **Whisper**
