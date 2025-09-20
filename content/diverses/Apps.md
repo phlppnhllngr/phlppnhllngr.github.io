@@ -54,7 +54,13 @@ parent: Diverses
 
 ### Native
 - **react-native**
+  - <https://github.com/facebook/react-native> 
   - <http://facebook.github.io/react-native/>
+- **Expo**
+  - *framework for making universal native apps with React. Expo runs on Android, iOS, and the web.*
+  - *Use React, Kotlin, Swift*
+  - *What are the key differences between Expo and React Native? Expo provides a simplified development experience and abstracts away some of the complexities, while React Native CLI offers more flexibility and control over the project.* 
+  - <https://github.com/expo/expo> 
 - **nativescript**
   - <https://github.com/NativeScript/NativeScript>
   - *Open source framework for building truly native mobile apps with Angular, Vue.js, TypeScript, or JavaScript* (und svelte)
