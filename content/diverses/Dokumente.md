@@ -249,6 +249,12 @@ parent: Diverses
   - *OCR Engine*
   - Lib und CLI
   - <https://github.com/tesseract-ocr/tesseract>
+- **pdfalyzer**
+  - *PDF analysis tool for visualizing the inner tree-like data structure1 of a PDF as well as scanning the binary streams embedded in the PDF for hidden potentially malicious content* 
+  - <https://github.com/michelcrypt4d4mus/pdfalyzer>
+- **dangerzone**
+  - *Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs* 
+  - <https://github.com/freedomofpress/dangerzone> 
  
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
@@ -275,3 +281,4 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
