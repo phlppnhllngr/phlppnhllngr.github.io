@@ -235,6 +235,7 @@ parent: Diverses
   - einfache Installation (nur ein Binary)
   - <https://github.com/temporalio/temporal> <img loading="lazy" src="https://img.shields.io/github/stars/temporalio/temporal?style=flat-square"/>
   - <https://www.youtube.com/@Temporalio>
+  - <https://www.baeldung.com/java-temporal-workflow-engine>
 - **restate**
   - vs Temporal: <https://news.ycombinator.com/item?id=40660568> 
   - Java SDK: <https://github.com/restatedev/sdk-java> 
