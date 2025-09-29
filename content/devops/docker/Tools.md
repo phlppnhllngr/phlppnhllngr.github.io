@@ -128,6 +128,15 @@ grand_parent: DevOps
 - **OnLogs**
   - *Lightweight docker logs web viewer*
   - <https://github.com/devforth/OnLogs>
+- **unregistry**
+  - *Push docker images directly to remote servers without an external registry*
+  - *Unregistry is a lightweight container image registry that stores and serves images directly from your Docker daemon's storage. The included docker pussh command (extra 's' for SSH) lets you push images straight to remote Docker servers over SSH. It transfers only the missing layers, making it fast and efficient.* 
+  - <https://github.com/psviderski/unregistry>
+  - <https://news.ycombinator.com/item?id=44314085>
+- **Colima**
+  - *Container runtimes on macOS (and Linux) with minimal setup*
+  - *Support for multiple container runtimes: Docker (with optional Kubernetes), Containerd (with optional Kubernetes), Incus* 
+  - <https://github.com/abiosoft/colima/> 
 
 
 ## GUIs
