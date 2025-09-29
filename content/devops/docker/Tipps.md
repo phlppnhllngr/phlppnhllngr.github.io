@@ -35,3 +35,9 @@ grand_parent: DevOps
 - *Anywhere that you find a command that takes container ID, you only need to specify as much of the ID as makes it unique (so "616abcde" could just "616" usually). You could specify the full container name if you'd like, e.g. wonderful_davinci. If you prefer using the name, then you should probably assign a name by yourself at run time (`docker run --name foo`)*
 - *Changes to a service can be applied in-place, so for example, if you have 5 tasks running in a service and need two extra tasks, you can change your docker-compose.yml, then rerun `docker stack deploy` and you will only modify two tasks instead of recreating the original five.*
 - *put the commands that will change least frequently at the top of your Dockerfile so that you can cache layers (and then reuse the cached layers) for as long as possible.*
+- /var/run/docker.sock
+  - */var/run/docker.sock is a Unix domain socket. Sockets are used in Linux distros to allow different processes to communicate with one another. Like everything in Unix, sockets are files, too. In the case of Docker, /var/run/docker.sock is a way to communicate with the main Docker process and, because it’s a file, we can share it with containers.*
+  - *When you start Docker and share the socket, you are giving the container the ability to do Docker-like things on the Docker host. Your container can now start or stop other containers, pull or create images on the Docker host, and even write to the host file system.*
+  - *When Docker platform is installed on a host, the Docker daemon listens on the /var/run/docker.sock unix socket by default.*
+  - <https://foxutech.com/varrundocker-sock-on-docker/>
+
