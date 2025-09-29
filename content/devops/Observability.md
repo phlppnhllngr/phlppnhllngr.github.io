@@ -154,6 +154,11 @@ parent: DevOps
   - [HN - OpenTelemetry in 2023](https://news.ycombinator.com/item?id=37295097)
   - <https://www.dynatrace.com/news/blog/what-is-opentelemetry/>
   <img src="https://dt-cdn.net/wp-content/uploads/2020/07/OT.png" loading="lazy">
+  - docker-otel-lgtm
+    - *An OpenTelemetry backend in a Docker image* 
+    - *backend for OpenTelemetry that's intended for development, demo, and testing environments*
+    - beinhaltet Grafana, Loki (Logs DB), Prometheus (Metrics DB), Tempo (Traces DB), Pyroscope (Profiling DB)
+    - <https://github.com/grafana/docker-otel-lgtm> 
 - **signoz**
   - *helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.*
   - *We support OpenTelemetry as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz.*
