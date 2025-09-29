@@ -158,7 +158,8 @@ parent: DevOps
     - *An OpenTelemetry backend in a Docker image* 
     - *backend for OpenTelemetry that's intended for development, demo, and testing environments*
     - beinhaltet Grafana, Loki (Logs DB), Prometheus (Metrics DB), Tempo (Traces DB), Pyroscope (Profiling DB)
-    - <https://github.com/grafana/docker-otel-lgtm> 
+    - <https://github.com/grafana/docker-otel-lgtm>
+    - [Fireship LGTM-Stack](https://www.youtube.com/watch?v=1X3dV3D5EJg)
 - **signoz**
   - *helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc.*
   - *We support OpenTelemetry as the library which you can use to instrument your applications. So any framework and language supported by OpenTelemetry is also supported by SigNoz.*
