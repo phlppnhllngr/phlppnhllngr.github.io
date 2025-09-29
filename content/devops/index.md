@@ -22,3 +22,8 @@ has_children: true
     - *Docker container for managing Nginx proxy hosts with a simple, powerful interface*
     - *comes as a pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt.* 
     - <https://github.com/NginxProxyManager/nginx-proxy-manager> <img loading="lazy" src="https://img.shields.io/github/stars/NginxProxyManager/nginx-proxy-manager?style=flat-square"/>
+- **Crontab guru dashboard**
+    - *The free, self-hosted, open source dashboard for managing your cron jobs*
+    - *To run cron jobs that interact with other Docker containers, mount the Docker socket and create jobs using docker exec* 
+    - <https://crontab.guru/dashboard.html>
+    - <https://github.com/cronitorio/cronitor-cli>
