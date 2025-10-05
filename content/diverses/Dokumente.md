@@ -214,10 +214,12 @@ parent: Diverses
   - *typesetting documents using HTML/CSS*
   - *uses Chromium to generate PDFs*
   - <https://htmldocs.com/>
-- **PrinceXML**
+- **PrinceXML** 💰
+  - *Convert HTML to PDF* 
   - <https://www.princexml.com/>
 - **WeasyPrint**
   - *visual rendering engine for HTML and CSS that can export to PDF.*
+  - Python Lib oder Docker
   - <https://github.com/Kozea/WeasyPrint> <img loading="lazy" src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=flat-square"/>
 - **typst**
   - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
@@ -239,7 +241,8 @@ parent: Diverses
   - *HTML visualization of a PDF file's internal structure*
   - <https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md>
 - **Stirling-PDF**
-  - *locally hosted web-based PDF manipulation tool* 
+  - *locally hosted web-based PDF manipulation tool*
+  - PDFs editieren und konvertieren (von HTML/Markdown/..., nach XML/CSV/...)
   - <https://github.com/Stirling-Tools/Stirling-PDF> <img loading="lazy" src="https://img.shields.io/github/stars/Stirling-Tools/Stirling-PDF?style=flat-square"/>
 - **Breeze PDF**
   - *powerful, free PDF editor that works entirely offline in your browser. No uploads, 100% privacy guaranteed*
@@ -295,6 +298,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
