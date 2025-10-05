@@ -22,6 +22,7 @@ has_children: true
         - Junie (AI)
             - <https://plugins.jetbrains.com/plugin/26104-jetbrains-junie>
             - <https://www.jetbrains.com/ai-ides/buy>
+    - Telemetry: Settings -> Appearance & Behavior -> System Settings -> Data Sharing
 - **Haystack**
     - *Visualize and edit code on an infinite canvas*
     - <https://github.com/haystackeditor/haystack-editor>
