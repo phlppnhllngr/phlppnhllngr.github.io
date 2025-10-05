@@ -14,6 +14,8 @@ parent: Datenbank
     - <https://gist.github.com/cpursley/c8fb81fe8a7e5df038158bdfe0f06dbb>
     - <https://github.com/Olshansk/postgres_for_everything>
   - VSC-Support: <https://news.ycombinator.com/item?id=44073588>
+  - Docker-Container
+    - Vorsicht bei Upgrade: <https://github.com/docker-library/postgres/issues/37>, siehe auch unten docker-pgautoupgrade 
   - CloudNativePG
     - *operator designed to manage PostgreSQL workloads on any supported Kubernetes cluster running in private, public, hybrid, or multi-cloud environments*
     - *leverages Kubernetes by extending its controller and by defining, in a programmatic way, all the actions that a good DBA would normally do when managing a highly available PostgreSQL database cluster* 
@@ -65,7 +67,11 @@ parent: Datenbank
     - *database anonymization and synthetic data generation tool*
   - sequin
     - *change data capture to streams, queues, and search indexes like Kafka, SQS, Elasticsearch, HTTP endpoints, and more* 
-    - <https://github.com/sequinstream/sequin> 
+    - <https://github.com/sequinstream/sequin>
+  - docker-pgautoupgrade
+    - *purpose is to automatically detect the version of PostgreSQL used in the existing PostgreSQL data directory, then automatically upgrade it (if needed) to the required version of PostgreSQL using pg_upgrade with the --link option*   
+    - *The reason this Docker image is needed, is because the official Docker PostgreSQL image has no ability to handle [major] version upgrades* 
+    - <https://github.com/pgautoupgrade/docker-pgautoupgrade> 
 - **DB2** -> Db2
 
 
