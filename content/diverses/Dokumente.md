@@ -254,8 +254,18 @@ parent: Diverses
   - <https://github.com/michelcrypt4d4mus/pdfalyzer>
 - **dangerzone**
   - *Take potentially dangerous PDFs, office documents, or images and convert them to safe PDFs* 
-  - <https://github.com/freedomofpress/dangerzone> 
+  - <https://github.com/freedomofpress/dangerzone>
+- **OpenDataLoader PDF**
+  - *converts PDFs into JSON, Markdown or Html* 
+  - <https://github.com/opendataloader-project/opendataloader-pdf>  
+- **unstract**
+  - *No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents*
+  - *Turn any document into JSON with an API call.*
+  - *System Requirements: 8GB RAM (minimum)*
+  - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
+  - <https://github.com/Zipstack/unstract>
  
+     
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
 - <https://github.com/vinsguru/pdf-util> (Java)
@@ -281,4 +291,5 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
