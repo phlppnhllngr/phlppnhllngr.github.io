@@ -39,6 +39,10 @@ parent: DevOps
         - <https://www.thomasvitale.com/podman-desktop-for-java-development/>
     - podman-desktop-companion
         - <https://github.com/iongion/podman-desktop-companion>
+    - fly-to-podman
+        - *small bash script that helps you migrate from Docker to Podman* 
+        - <https://github.com/Edu4rdSHL/fly-to-podman>
+        - <https://news.ycombinator.com/item?id=43125487>
         
 
 ## Orchestration Engines
