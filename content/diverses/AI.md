@@ -228,12 +228,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
   - Python Lib
   - <https://github.com/guidance-ai/guidance>
-- **unstract**
-  - *No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents*
-  - *Turn any document into JSON with an API call.*
-  - *System Requirements: 8GB RAM (minimum)*
-  - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
-  - <https://github.com/Zipstack/unstract> 
 
 ### Chat
 - **Kimi**
