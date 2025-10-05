@@ -227,7 +227,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Guidance**
   - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
   - Python Lib
-  - <https://github.com/guidance-ai/guidance> 
+  - <https://github.com/guidance-ai/guidance>
+- **unstract**
+  - *No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents*
+  - *Turn any document into JSON with an API call.*
+  - *System Requirements: 8GB RAM (minimum)*
+  - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
+  - <https://github.com/Zipstack/unstract> 
 
 ### Chat
 - **Kimi**
@@ -567,7 +573,21 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/crewAIInc/crewAI>
 - **Embabel**
   - *Agent framework for the JVM* 
-  - <https://github.com/embabel/embabel-agent> 
+  - <https://github.com/embabel/embabel-agent>
+- **google-adk**
+  - Agent Development Kit
+  - *A built-in development UI to help you test, evaluate, debug, and showcase your agent(s)*
+  - <https://github.com/google/adk-java>
+- **Omnara**
+  - *ransforms your AI agents (Claude Code, Codex CLI, n8n, and more) from silent workers into communicative teammates.*
+  - *Get real-time visibility into what your agents are doing, and respond to their questions instantly from a single dashboard on web and mobile.*
+  - *Add human-in-the-loop capabilities to your n8n workflows*
+  - <https://github.com/omnara-ai/omnara>
+  - [Show HN](https://news.ycombinator.com/item?id=44878650)
+- **AgentGPT**
+  - *Assemble, configure, and deploy autonomous AI Agents in your browser.* 
+  - <https://github.com/reworkd/AgentGPT>
+  - <https://news.ycombinator.com/item?id=36079382>
 
 ### Best practices, Tipps
 - *ask it to create a plan*
