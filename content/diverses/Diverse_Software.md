@@ -394,15 +394,20 @@ parent: Diverses
   - *can be queried via REST clients*
   - xml,json,jsonl,csv,pdf,doc,docx,ppt,pptx,xls,xlsx,odt,odp,ods,ott,otp,ots,rtf,htm,html,txt,log
   - <https://solr.apache.org/>
+  - <https://github.com/apache/solr>
 - **Elasticsearch**
   - *search engine based on Apache Lucene*
   - <https://github.com/elastic/elasticsearch>
 - **Lucene**
   - *Java library providing powerful indexing and search features, as well as spellchecking, hit highlighting and advanced analysis/tokenization capabilities* 
-  - <https://lucene.apache.org/> 
+  - <https://lucene.apache.org/>
+  - <https://github.com/apache/lucene>
 - **OpenSearch** 
   - <https://github.com/opensearch-project/OpenSearch>
   - <https://github.com/opensearch-project/OpenSearch-Dashboards>
+- **ParadeDB**
+  - *modern Elasticsearch alternative built on Postgres* 
+  - <https://github.com/paradedb/paradedb> 
 
 
 ## Browser
