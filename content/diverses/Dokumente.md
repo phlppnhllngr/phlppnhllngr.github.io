@@ -264,6 +264,10 @@ parent: Diverses
   - *System Requirements: 8GB RAM (minimum)*
   - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
   - <https://github.com/Zipstack/unstract>
+- **MarkItDown**
+  - *Python tool for converting files and office documents to Markdown.*
+  - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
+  - <https://github.com/microsoft/markitdown> 
  
      
 #### Vergleich
@@ -291,5 +295,6 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
