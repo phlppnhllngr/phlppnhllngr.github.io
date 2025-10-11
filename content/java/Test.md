@@ -128,7 +128,11 @@ parent: Java
   - *StubFtpServer, on the other hand, is a lower-level "stub" implementation. You configure the individual FTP server commands to return custom data or reply codes, allowing simulation of either success or failure scenarios. You can also verify expected command invocations.* 
   - <https://github.com/dx42/MockFtpServer>
 - **Fake SFTP Server Lambda**
-  - <https://github.com/stefanbirkner/fake-sftp-server-lambda> 
+  - <https://github.com/stefanbirkner/fake-sftp-server-lambda>
+- **rabbitmq-mock**
+  - *Mock for RabbitMQ Java amqp-client*
+  - *aims to emulate RabbitMQ behavior for test purposes, through com.rabbitmq.client.ConnectionFactory with MockConnectionFactory* 
+  - <https://github.com/fridujo/rabbitmq-mock> 
 
 
 ## Generierung von Testdaten
