@@ -79,6 +79,9 @@ parent: Diverses
 - **Spondyr** 💰
   - *document templates + output management*
   - <https://spondyr.io/>
+- **Carbone**
+  - *Fast, Simple and Powerful report generator in any format PDF, DOCX, XLSX, ODT, PPTX, ODS, XML, CSV using templates and your JSON data as input* 
+  - <https://github.com/carboneio/carbone> 
   
 
 ## PDF
@@ -298,6 +301,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
