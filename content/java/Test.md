@@ -17,6 +17,8 @@ parent: Java
 ## Unit
 - **JUnit**
   - <https://junit.org>
+  - Timeouts
+      - <https://www.baeldung.com/junit-assertions#junit5-timeout> 
   - <u>Plugins & Erweiterungen</u>
     - JUnitParams
       - <https://github.com/Pragmatists/JUnitParams>
@@ -326,11 +328,18 @@ parent: Java
     }
     ```
   - <https://www.baeldung.com/awaitlity-testing>
+- **VMLens**
+  - *deterministically unit test concurrent Java*
+  - *The vmlens-maven-plugin extends the maven-surefire-plugin*
+  - <https://github.com/vmlens/vmlens>
+  - <https://www.baeldung.com/java-vmlens-unit-tests> 
 
 
 ## Microservices
 - **Arquillian**
+  - *container-agnostic integration testing framework for Jakarta EE* 
   - <http://arquillian.org>
+  - <https://www.baeldung.com/arquillian>
 
 
 ## Architektur
