@@ -228,6 +228,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
   - Python Lib
   - <https://github.com/guidance-ai/guidance>
+- **ThalamusDB**
+  - *semantic query processing on multimodal data*
+  - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
+  - <https://github.com/itrummer/thalamusdb> 
+  - <https://news.ycombinator.com/item?id=45507753> 
 
 ### Chat
 - **Kimi**
@@ -582,6 +587,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Assemble, configure, and deploy autonomous AI Agents in your browser.* 
   - <https://github.com/reworkd/AgentGPT>
   - <https://news.ycombinator.com/item?id=36079382>
+- **AgentKit, Agent Builder**
+  - <https://openai.com/index/introducing-agentkit/> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
