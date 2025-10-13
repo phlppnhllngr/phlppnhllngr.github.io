@@ -100,6 +100,8 @@ grand_parent: Java
 
 
 ### LDAP
+- <https://spring.io/guides/gs/authenticating-ldap> (mit lokalem LDAP-Server; UnboundID)
+- <https://docs.spring.io/spring-ldap/reference/testing.html> (Test mit ApacheDS oder UnboundID)
 - <https://stevenschwenke.de/LDAPWithSpringSecurity>
 - <https://www.baeldung.com/spring-security-ldap>
 - <https://www.jhipster.tech/tips/016_tip_ldap_authentication.html>
