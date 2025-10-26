@@ -82,7 +82,13 @@ parent: Diverses
 - **Carbone**
   - *Fast, Simple and Powerful report generator in any format PDF, DOCX, XLSX, ODT, PPTX, ODS, XML, CSV using templates and your JSON data as input* 
   - <https://github.com/carboneio/carbone> 
-  
+- **typst**
+  - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
+  - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
+  - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
+  - <u>Tinymist</u>
+    - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
+    - <https://github.com/Myriad-Dreamin/tinymist>
 
 ## PDF
 <https://github.com/abhi18av/awesome-pdf>
@@ -224,10 +230,6 @@ parent: Diverses
   - *visual rendering engine for HTML and CSS that can export to PDF.*
   - Python Lib oder Docker
   - <https://github.com/Kozea/WeasyPrint> <img loading="lazy" src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=flat-square"/>
-- **typst**
-  - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
-  - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
-  - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
 - **Docling**
   - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
   - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
@@ -301,6 +303,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
