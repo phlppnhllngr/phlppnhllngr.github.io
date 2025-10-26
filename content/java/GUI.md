@@ -57,6 +57,10 @@ parent: Java
   - **fxlauncher**
     - *Auto updating launcher for JavaFX Applications*
     - <https://github.com/edvin/fxlauncher>
+- **KickstartFX**
+  - *template for JavaFX applications*
+  - <https://github.com/xpipe-io/kickstartfx> 
+  - <https://old.reddit.com/r/java/comments/1o8s973/introducing_kickstartfx_the_most_advanced_javafx/> 
 
 
 ### Libs
