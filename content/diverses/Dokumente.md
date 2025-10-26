@@ -278,7 +278,11 @@ parent: Diverses
 - **MarkItDown**
   - *Python tool for converting files and office documents to Markdown.*
   - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
-  - <https://github.com/microsoft/markitdown> 
+  - <https://github.com/microsoft/markitdown>
+- **Extractous**
+  - *unstructured data extraction. Written in Rust with bindings for many languages.*
+  - *for extracting content and metadata from various documents types such as PDF, Word, HTML, and many other formats [Images, E-Mails, Office formats]* 
+  - <https://github.com/yobix-ai/extractous> 
  
      
 #### Vergleich
@@ -306,6 +310,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
