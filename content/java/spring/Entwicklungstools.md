@@ -53,4 +53,8 @@ grand_parent: Java
   - <https://github.com/vaadin/hilla>
   - [Spring Tips: Hilla, a new frontend and backend framework from Vaadin](ttps://www.youtube.com/watch?v=ADLbkZnKjA0)
 - **Bootify** 
-  - <https://bootify.io/> 
+  - <https://bootify.io/>
+- **Seed4j**
+  - *development platform to quickly generate, develop & deploy modern web applications & microservice architectures* 
+  - *The generated code uses Hexagonal Architecture* 
+  - <https://github.com/seed4j/seed4j> 
