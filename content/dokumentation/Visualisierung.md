@@ -21,6 +21,8 @@ parent: Dokumentation
   - mermrender
     - https://github.com/Schachte/Mermrender
     - API um mermaid-Diagramme in Bilder umzuwandeln
+  - mermaid-to-excalidraw
+    - <https://github.com/excalidraw/mermaid-to-excalidraw> 
 - **spongedown**
   - <https://ivanceras.github.io/spongedown/>
   - *Spongedown is a wraps of markdown with to multiple funky features added.*
@@ -49,7 +51,7 @@ parent: Dokumentation
 - **D2**
   - *a modern diagram scripting language that turns text to diagrams* 
   - <https://github.com/terrastruct/d2>
-  - <span style="visibility:hidden">bookmarked:D2</span>
+    <span style="visibility:hidden">bookmarked:D2</span>
 - **sketch.systems**
   - <https://sketch.systems/>
 - **stately.ai**
@@ -60,7 +62,10 @@ parent: Dokumentation
 - **FossFLOW**
   - *isometric infrastructure diagrams* 
   - *runs entirely in your browser with offline support* 
-  - <https://github.com/stan-smith/FossFLOW> 
+  - <https://github.com/stan-smith/FossFLOW>
+- **Oxdraw**
+  - *Diagram as Code Tool with Draggable Editing* 
+  - <https://github.com/RohanAdwankar/oxdraw> 
 
 
 ## UML
