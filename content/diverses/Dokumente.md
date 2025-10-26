@@ -73,6 +73,7 @@ parent: Diverses
   - <https://github.com/jgm/pandoc> <img loading="lazy" src="https://img.shields.io/github/stars/jgm/pandoc?style=flat-square"/>
   - *Universal markup converter*
   - *to/from docx, html, markdown, pdf, ...*
+  - *Pandoc has an option to pack all images and styles needed to render the page into one html file (`pandoc --self-contained input.html -o output.html`)*
 - **Docupilot** 💰
   - *document templates + webservice integration*
   - <https://docupilot.app/>
@@ -154,6 +155,8 @@ parent: Diverses
         - *Transaktionsdruck wiederum beschreibt das Drucken von Dokumenten, mit denen Transaktionen dokumentiert werden. Darunter fallen etwa Rechnungen, Mahnungen, Lieferscheine, Quittungen oder andere Schriftstücke, die den Austausch von Waren oder Dienstleistungen dokumentieren.*
 
 ### Tools
+- **Chrome**
+  - `google-chrome --headless --disable-gpu --no-pdf-header-footer --hide-scrollbars --print-to-pdf-margins="0,0,0,0" --print-to-pdf --window-size=1280,720 https://example.com` 
 - **gotenberg**
   - <https://github.com/thecodingmachine/gotenberg>
   - <https://thecodingmachine.github.io/gotenberg/>
@@ -303,6 +306,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
