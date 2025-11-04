@@ -85,7 +85,12 @@ parent: Java
   - *Keystore debugging, debugging for the PKIX, ...*
 - **java.net.preferIPv4Stack**
 
-#### Proxy
+#### HTTP
+- **http.agent**
+  - User-Agent-Header
+  - Default: `Java/<Version>` 
+
+##### Proxy
 - **http(s).proxyHost**
   - `-Dhttp.proxyHost=example.com`
 - **http(s).proxyPort**
@@ -385,5 +390,6 @@ parent: Java
 - `-XX:AOTCacheOutput`, `JDK_AOT_VM_OPTIONS` (Java 25+)
   - *When used alone, with no other AOT options, this option causes the launcher to, in effect, split its invocation into two sub-invocations: The first does a training run (AOTMode=record) and then the second creates the AOT cache (AOTMode=create)* 
   - <https://openjdk.org/jeps/514> 
+
 
 
