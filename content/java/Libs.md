@@ -313,7 +313,8 @@ parent: Java
   - Fork von iText 4.2.0 (letzte FOSS Version)
   - OpenPDF-html
     - *HTML-to-PDF rendering engine built on a modernized fork of Flying Saucer, designed to integrate seamlessly with the OpenPDF library and support HTML5 and CSS3 features.* 
-    - <https://github.com/LibrePDF/OpenPDF/tree/master/openpdf-html> 
+    - <https://github.com/LibrePDF/OpenPDF/tree/master/openpdf-html>
+    - <https://www.baeldung.com/java-html-to-pdf>
 - **iText**
   - <https://itextpdf.com/>
   - 4.2.0 (letzte FOSS): <https://mvnrepository.com/artifact/com.lowagie/itext/4.2.0>
