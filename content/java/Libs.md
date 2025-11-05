@@ -311,6 +311,9 @@ parent: Java
 - **OpenPDF**
   - <https://github.com/LibrePDF/OpenPDF> ⭐1.5k
   - Fork von iText 4.2.0 (letzte FOSS Version)
+  - OpenPDF-html
+    - *HTML-to-PDF rendering engine built on a modernized fork of Flying Saucer, designed to integrate seamlessly with the OpenPDF library and support HTML5 and CSS3 features.* 
+    - <https://github.com/LibrePDF/OpenPDF/tree/master/openpdf-html> 
 - **iText**
   - <https://itextpdf.com/>
   - 4.2.0 (letzte FOSS): <https://mvnrepository.com/artifact/com.lowagie/itext/4.2.0>
@@ -326,6 +329,7 @@ parent: Java
   - *rendering arbitrary well-formed XML/XHTML (and even HTML5) using CSS 2.1 for layout and formatting, outputting to PDF or images*
   - *Based on Flying Saucer and Apache PDF-BOX 2*
   - <https://github.com/danfickle/openhtmltopdf>
+  - 11/2025: letzter Commit vor 3 Jahren
 - **flyingsaucer**
   - *XML/XHTML and CSS 2.1 renderer in pure Java*
   - <https://github.com/flyingsaucerproject/flyingsaucer>
