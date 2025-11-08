@@ -5,6 +5,12 @@ parent: Diverses
 
 # Dokumente
 - <https://en.wikipedia.org/wiki/Dublin_Core>
+{: .no_toc }
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
 
 ## DMS
 - **seeddms**
@@ -313,6 +319,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
