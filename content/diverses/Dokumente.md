@@ -282,7 +282,10 @@ parent: Diverses
 - **Extractous**
   - *unstructured data extraction. Written in Rust with bindings for many languages.*
   - *for extracting content and metadata from various documents types such as PDF, Word, HTML, and many other formats [Images, E-Mails, Office formats]* 
-  - <https://github.com/yobix-ai/extractous> 
+  - <https://github.com/yobix-ai/extractous>
+- **BentoPDF**
+  - *allows you to manipulate, edit, merge, and process PDF files directly in your browser*
+  - <https://github.com/alam00000/bentopdf> 
  
      
 #### Vergleich
@@ -310,6 +313,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
