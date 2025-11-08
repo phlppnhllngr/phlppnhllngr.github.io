@@ -23,6 +23,7 @@ parent: Java
   ```
 
 ## Tipps
+- <https://www.baeldung.com/spring-boot-memory-usage-optimization>
 - <https://www.baeldung.com/spring-boot-startup-speed>
   - **Lazy Bean Initialization**
     - *means that Spring won't create all beans on startup. Also, Spring will inject no dependencies until that bean is needed. Since Spring Boot version 2.2. it's possible to enable lazy initialization using the application.properties: `spring.main.lazy-initialization=true`*
