@@ -71,7 +71,13 @@ parent: Datenbank
   - docker-pgautoupgrade
     - *purpose is to automatically detect the version of PostgreSQL used in the existing PostgreSQL data directory, then automatically upgrade it (if needed) to the required version of PostgreSQL using pg_upgrade with the --link option*   
     - *The reason this Docker image is needed, is because the official Docker PostgreSQL image has no ability to handle [major] version upgrades* 
-    - <https://github.com/pgautoupgrade/docker-pgautoupgrade> 
+    - <https://github.com/pgautoupgrade/docker-pgautoupgrade>
+  - pg_lake
+    - *integrates Iceberg and data lake files into Postgres*
+    - *can directly work with raw data files in object stores like S3*
+    - *Query and import data files in object storage in Parquet, CSV, JSON, and Iceberg format*
+    - <https://github.com/Snowflake-Labs/pg_lake>
+    - <https://news.ycombinator.com/item?id=45812606>
 - **DB2** -> Db2
 
 
