@@ -542,12 +542,15 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **EuroLLM**
   - *multilingual language models tailored to European languages* 
   - <https://huggingface.co/eurollm-team>
-  - <https://huggingface.co/utter-project>
+  - <https://huggingface.co/utter-project/EuroLLM-9B-Instruct>
 - **TeapotLLM**
   - *small language model optimized to run locally on resource-constrained devices such as smartphones and CPUs.*
   - *the model and embedding model can fit in ~2GB CPU RAM*
   - *can perform a variety of tasks, including Question Answering (QnA), Retrieval-Augmented Generation (RAG), and JSON extraction*
-  - <https://huggingface.co/teapotai/teapotllm> 
+  - <https://huggingface.co/teapotai/teapotllm>
+- **IBM Granite Nano**
+  - 350 M - 1 Mrd Parameter
+  - <https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models> 
 
 
 ## Agents
