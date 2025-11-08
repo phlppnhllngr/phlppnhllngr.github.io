@@ -367,6 +367,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Mistral OCR & Document AI**
   - <https://news.ycombinator.com/item?id=43282905>
   - <https://docs.mistral.ai/capabilities/OCR/document_understanding/>
+- **Deepseek OCR**
+  - <https://github.com/deepseek-ai/DeepSeek-OCR> 
 
 
 ## Local LLM
