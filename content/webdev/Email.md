@@ -25,14 +25,6 @@ parent: Webdev
 - **mailwind**
   - *Use Tailwind CSS to design HTML emails.* 
   - <https://github.com/soheilpro/mailwind> <img loading="lazy" src="https://img.shields.io/github/stars/soheilpro/mailwind?style=flat-square"/>
-- **Testi@**
-  - *Email render testing preview*
-  - $$$ (free tier)
-  - <https://testi.at/>
-- **Litmus**
-  - email testing
-  - $$$
-  - <https://www.litmus.com/email-testing/>
 - **Cerberus**
   - *A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.*
   - <https://github.com/TedGoas/Cerberus> <img loading="lazy" src="https://img.shields.io/github/stars/TedGoas/Cerberus?style=flat-square"/>
@@ -97,6 +89,18 @@ parent: Webdev
   - <https://github.com/SendWithSES/Drag-and-Drop-Email-Designer>
   - <https://news.ycombinator.com/item?id=41007403>
 
+## Test
+- **Testi@**
+  - *Email render testing preview*
+  - $$$ (free tier)
+  - <https://testi.at/>
+- **Litmus**
+  - email testing
+  - $$$
+  - <https://www.litmus.com/email-testing/>
+- **Email on acid**
+  - <https://www.emailonacid.com/>
+ 
 ## Anderes
 - **Email Authentication: A Developer's Guide**
   - *Learn the importance of SPF, DKIM, DMARC, and BIMI in ensuring email delivery.* 
