@@ -27,3 +27,8 @@ parent: Diverses
   - <https://github.com/dragonflydb/dragonfly> <img loading="lazy" src="https://img.shields.io/github/stars/dragonflydb/dragonfly?style=flat-square"/>
 - **DiceDB**
   - <https://github.com/DiceDB/dice>
+- **Valkey**
+  - *distributed key-value database that is optimized for caching and other realtime workloads* 
+  - Redis Fork 
+  - <https://github.com/valkey-io/valkey> 
+
