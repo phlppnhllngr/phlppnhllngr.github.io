@@ -93,6 +93,7 @@ This attaches the agent contained in my.jar onto the Java process with id my-id.
 ## Rule Engines (JSR 94)
 - <https://www.oracle.com/technical-resources/articles/javase/javarule.html>
 - <https://www.baeldung.com/java-rule-engines>
+- <https://www.baeldung.com/spring-spel-implement-simple-rule-engine>
 - Impls
   - Easy Rules
     - <https://github.com/j-easy/easy-rules>
