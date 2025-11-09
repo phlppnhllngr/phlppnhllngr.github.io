@@ -24,62 +24,20 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Tools & Applikationen
 - <https://github.com/steven2358/awesome-generative-ai>
 - <https://github.com/underlines/awesome-ml/>
-- **DALL-E**
-  - *creates images from text captions for a wide range of concepts expressible in natural language*
-  - <https://openai.com/blog/dall-e/>
-  - <https://github.com/saharmor/dalle-playground>
 - **Open Assistant**
   - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
   - <https://github.com/LAION-AI/Open-Assistant>
-- **Midjourney**
-- **Stable Diffusion**
-  - <https://stablediffusionweb.com> 
 - **Moveworks** 
   - *Automate your employee support with AI trained on the world's most advanced large language models*
   - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
   - <https://www.moveworks.com/>
-- **VALL-E**
-  - Voicecloning von MS
-  - braucht nur 3 Sekunden Input-Material
-- **ChatPDF**
-  - *can answer any question from any PDF* 
-  - <https://www.chatpdf.com/>
-- **Prime Voice AI**
-  - Text to speech, voice cloning 
-  - <https://beta.elevenlabs.io/>
-- **Uberduck**
-  - Text to speech, voice cloning
-  - <https://uberduck.ai/> 
 - **phind**
   - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
   - basiert auf GPT-4
   - <https://www.phind.com/>
-- **TaxyAI**
-  - *uses GPT-4 to control your browser*
-  - <https://github.com/TaxyAI/browser-extension>
 - **Aspect**
   - UI Builder 
   - <https://aspect.app/>
-- **Upscayl**
-  - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
-  - <https://github.com/upscayl/upscayl>
-- **HeadshotPro**
-  - *Professional business headshots, without a physical photo shoot* 
-  - <https://www.headshotpro.com/>
-- **Anthropic Claude**
-  - <https://claude.ai/>
-  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>  
-- **Skyvern**
-  - *automates browser-based workflows using LLMs and computer vision* 
-  - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
-  - <https://news.ycombinator.com/item?id=41936745>
-- **Khoj**
-  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
-  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
-- **AnythingLLM**
-  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
-  - *supporting multi-user management and permissions*
-  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
 - **Hugging Face**
   - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
   - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
@@ -89,10 +47,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://huggingface.co/>
   - HuggingChat
     - <https://huggingface.co/chat/models> 
-- **AWS Lex**
-  - für Chatbots 
-- **Google Dialogflow**
-  - für Chatbots
 - **Promptify**
   - *Solve NLP Problems with LLM's & Easily generate different NLP Task prompts for popular generative models like GPT, PaLM* 
   - <https://github.com/promptslab/Promptify> <img loading="lazy" src="https://img.shields.io/github/stars/promptslab/Promptify?style=flat-square"/>
@@ -116,21 +70,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *LLM app development platform*
   - *combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more*
   - <https://github.com/langgenius/dify> <img loading="lazy" src="https://img.shields.io/github/stars/langgenius/dify?style=flat-square"/>
-- **LlamaIndex**
-  - *provides a central interface to connect your LLM's with external data.*
-  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
-  - <https://github.com/jerryjliu/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=flat-square"/>
-- **OpenChatKit**
-  - *provides a base to create both specialized and general purpose chatbots for various applications.*
-  - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
-  - <https://github.com/togethercomputer/OpenChatKit>
-- **mayooear/gpt4-pdf-chatbot-langchain**
-  - *Create a ChatGPT Chatbot for Your PDF Files* 
-  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
-- **MindsDB**
-  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
-  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
-  - <https://github.com/mindsdb/mindsdb> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/mindsdb?style=flat-square"/>
 - **AutoGPT**
   - *platform that allows you to create, deploy, and manage continuous AI agents that automate complex workflows* 
   - <https://github.com/Significant-Gravitas/Auto-GPT> <img loading="lazy" src="https://img.shields.io/github/stars/Significant-Gravitas/Auto-GPT?style=flat-square"/>
@@ -187,9 +126,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies*
   - *support for the latest text-to-image generation technology*
   - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
-- **Crawl4AI**
-  - *Open-source LLM Friendly Web Crawler & Scraper* 
-  - <https://github.com/unclecode/crawl4ai>
 - **Firecrawl**
   - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
   - <https://github.com/mendableai/firecrawl> 
@@ -197,21 +133,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
   - <https://github.com/magnitudedev/magnitude>
   - <http://news.ycombinator.com/item?id=43796003>
-- **Nxtscape**
-  - *agentic browser* 
-  - <https://github.com/nxtscape/nxtscape>
-- **Browserbase**
-  - *powers web browsing capabilities for AI agents and applications* 
-  - Cloud 
-  - <https://www.browserbase.com/>
-- **Stagehand**
-  - *By letting developers choose what to write in code vs. natural language, Stagehand is the natural choice for browser automations in production.*
-  - *use AI when you want to navigate unfamiliar pages, and use code (Playwright) when you know exactly what you want to do.*
-  - *use models from OpenAI and Anthropic* 
-  - <https://github.com/browserbase/stagehand>
-- **LMArena**
-  - Chat (auch mit mehreren Models gleichzeitig) 
-  - <https://lmarena.ai/>
 - **any-llm**
   - *Communicate with an LLM provider using a single interface*
   - Python Lib 
@@ -234,6 +155,68 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/itrummer/thalamusdb> 
   - <https://news.ycombinator.com/item?id=45507753> 
 
+### Wissen
+- **MindsDB**
+  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
+  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
+  - <https://github.com/mindsdb/mindsdb> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/mindsdb?style=flat-square"/>
+- **Khoj**
+  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
+  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
+- **AnythingLLM**
+  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
+  - *supporting multi-user management and permissions*
+  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
+- **ChatPDF**
+  - *can answer any question from any PDF* 
+  - <https://www.chatpdf.com/>
+- **mayooear/gpt4-pdf-chatbot-langchain**
+  - *Create a ChatGPT Chatbot for Your PDF Files* 
+  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
+- **LlamaIndex**
+  - *provides a central interface to connect your LLM's with external data.*
+  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
+  - <https://github.com/jerryjliu/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=flat-square"/>
+
+### Browser
+- **Nxtscape**
+  - *agentic browser* 
+  - <https://github.com/nxtscape/nxtscape>
+- **Browserbase**
+  - *powers web browsing capabilities for AI agents and applications* 
+  - Cloud 
+  - <https://www.browserbase.com/>
+- **Stagehand**
+  - *By letting developers choose what to write in code vs. natural language, Stagehand is the natural choice for browser automations in production.*
+  - *use AI when you want to navigate unfamiliar pages, and use code (Playwright) when you know exactly what you want to do.*
+  - *use models from OpenAI and Anthropic* 
+  - <https://github.com/browserbase/stagehand>
+- **Crawl4AI**
+  - *Open-source LLM Friendly Web Crawler & Scraper* 
+  - <https://github.com/unclecode/crawl4ai>
+- **Skyvern**
+  - *automates browser-based workflows using LLMs and computer vision* 
+  - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=41936745>
+- **TaxyAI**
+  - *uses GPT-4 to control your browser*
+  - <https://github.com/TaxyAI/browser-extension>
+
+### Bilder
+- **DALL-E**
+  - *creates images from text captions for a wide range of concepts expressible in natural language*
+  - <https://openai.com/blog/dall-e/>
+  - <https://github.com/saharmor/dalle-playground>
+- **Midjourney**
+- **Stable Diffusion**
+  - <https://stablediffusionweb.com> 
+- **Upscayl**
+  - *Free and Open Source AI Image Upscaler for Linux, MacOS and Windows*
+  - <https://github.com/upscayl/upscayl>
+- **HeadshotPro**
+  - *Professional business headshots, without a physical photo shoot* 
+  - <https://www.headshotpro.com/>
+
 ### Chat
 - **Kimi**
   - <https://kimi.com/>
@@ -253,6 +236,20 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Lumo**
   - Proton 
   - <https://lumo.proton.me/> 
+- **LMArena**
+  - Chat (auch mit mehreren Models gleichzeitig) 
+  - <https://lmarena.ai/>
+- **Anthropic Claude**
+  - <https://claude.ai/>
+  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>
+- **OpenChatKit**
+  - *provides a base to create both specialized and general purpose chatbots for various applications.*
+  - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
+  - <https://github.com/togethercomputer/OpenChatKit>
+- **AWS Lex**
+  - für Chatbots 
+- **Google Dialogflow**
+  - für Chatbots
 
 ### Coding
 - **FauxPilot**
@@ -344,7 +341,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - Plugins für Intellij IDEs & Android Studio 
   - <https://www.jetbrains.com/de-de/junie/> 
  
-### Audio
+### Audio, TTS, STT
 - **Whisper**
   - *general-purpose speech recognition model* 
   - <https://github.com/openai/whisper> <img loading="lazy" src="https://img.shields.io/github/stars/openai/whisper?style=flat-square"/>
@@ -358,6 +355,15 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *open-source, local-first* 
   - <https://github.com/epicenter-os/epicenter/tree/main/apps/whispering> 
   - <https://news.ycombinator.com/item?id=44942731> 
+- **VALL-E**
+  - Voicecloning von MS
+  - braucht nur 3 Sekunden Input-Material
+- **Prime Voice AI**
+  - Text to speech, voice cloning 
+  - <https://beta.elevenlabs.io/>
+- **Uberduck**
+  - Text to speech, voice cloning
+  - <https://uberduck.ai/>
 
 ### Vision & OCR
 - **Moondream**
@@ -511,6 +517,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **txtai**
   - *all-in-one embeddings database for semantic search, LLM orchestration and language model workflows* 
   - <https://github.com/neuml/txtai> <img loading="lazy" src="https://img.shields.io/github/stars/neuml/txtai?style=flat-square"/>
+- **LanceDB**
+  - *embedded retrieval engine for multimodal AI* 
+  - <https://github.com/lancedb/lancedb> <img loading="lazy" src="https://img.shields.io/github/stars/lancedb/lancedb?style=flat-square"/>
 
 
 ## Model Benchmarks, Leaderboards, Evals
