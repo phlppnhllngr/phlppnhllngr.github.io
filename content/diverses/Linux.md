@@ -260,7 +260,10 @@ parent: Diverses
 
 ## Distributionen
 - Ubuntu
-  - 22.04 LTS: jammy jellyfish
+  - Releases
+    - <https://releases.ubuntu.com/>    
+    - 22.04 (LTS): jammy jellyfish
+    - 24.04 (LTS): noble numbat
 - Red Hat Enterprise Linux (RHEL)
   - Paketmanager: yum (RHEL 6, 7), dnf (RHEL 8: *yum is an alias to dnf*), rpm
     - *rpm is a package format, although the rpm command can be used to install rpm files. RHEL and Fedora discourage this practice if you can avoid it. The rpm command has a number of other useful functions, however, such as querying the contents of an rpm file.*
@@ -310,4 +313,5 @@ parent: Diverses
   - <https://gitlab.com/ydkn/docker-cups>
   - <https://github.com/thbe/docker-cups>
   - <https://github.com/jacobalberty/cups-docker>
+
 
