@@ -128,7 +128,10 @@ parent: Java
   - <https://github.com/jgitver/jgitver-maven-plugin>
 - **hocon**
   - *provides a Hocon POM parser extension for Maven 4* (Hocon ist ein JSON-Derivat)
-  - <https://github.com/apache/maven-hocon-extension> 
+  - <https://github.com/apache/maven-hocon-extension>
+- **build cache**
+	- *calculates out-of-date modules in the build dependencies graph and improves build times by avoiding re-building unnecessary modules* 
+	- <https://github.com/apache/maven-build-cache-extension> 
 
 
 ## Plugins
@@ -636,4 +639,5 @@ RUN mvn -e -B dependency:resolve #download dependencies in separate layer => no 
 COPY src ./src
 RUN mvn -e -B package
 ```
+
 
