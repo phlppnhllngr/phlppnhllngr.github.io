@@ -31,7 +31,11 @@ grand_parent: Java
 - **Open Rewrite**
   - <https://docs.openrewrite.org/recipes/java/spring> 
   - <https://github.com/openrewrite/rewrite-spring>
-  - -> Java/Entwicklungstools  
+  - -> Java/Entwicklungstools
+- **Spring Properties Cleaner**
+  - *Utility to clean up spring properties files*
+  - <https://github.com/webcompere/spring-properties-cleaner> 
+  - <https://www.baeldung.com/spring-properties-cleaner> 
 
 
 ## Codegeneratoren, Meta-Frameworks
