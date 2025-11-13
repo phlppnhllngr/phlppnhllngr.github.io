@@ -57,6 +57,12 @@ grand_parent: Java
   - *Integrated Swagger UI*
   - *based on experience while using Spring Fox and SpringDoc OpenApi. As those libraries have turned out to be not flexible enough (...), this library aims at being fully customizable.*
   - <https://github.com/qaware/openapi-generator-for-spring>
+- **smart-doc**
+  - *java restful api document generation tool*
+  - *does not need to inject annotations into the code like Swagger*
+  - *Supports Spring, Feign, JAX-RS*
+  - *Support for generating multiple formats of documents: Markdown, HTML5, Word, Asciidoctor, Postman Collection 2.0+, OpenAPI 3.0*
+  - <https://github.com/TongchengOpenSource/smart-doc> 
 
 
 ## Admin
