@@ -290,7 +290,9 @@ parent: Diverses
       - *`rm -rf ...` DOES NOT reduce your image size when executed as a separate Dockerfile `RUN` statements. You MUST executed it in the same run statement*
       - <https://stackoverflow.com/questions/49118579/alpine-dockerfile-advantages-of-no-cache-vs-rm-var-cache-apk>
 - KDE
-  - <https://kde.org/linux/> 
+  - <https://kde.org/linux/>
+  - 11/2025: in Alpha
+- NixOS
 
 
 ## libc (C-Standard-Bibliothek)
@@ -313,5 +315,6 @@ parent: Diverses
   - <https://gitlab.com/ydkn/docker-cups>
   - <https://github.com/thbe/docker-cups>
   - <https://github.com/jacobalberty/cups-docker>
+
 
 
