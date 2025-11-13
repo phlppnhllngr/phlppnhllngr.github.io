@@ -445,10 +445,15 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## RAG
+ 
+### Tipps und Strategien
+- <https://www.youtube.com/watch?v=smGbeghV1JE>
 - <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
 - <https://www.kapa.ai/blog/rag-best-practices>
 - <https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/>
 - <https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies>
+
+### Tools
 - **RAGFlow**
   - *Deep document understanding-based knowledge extraction from unstructured data with complicated formats*
   - *Supports Word, slides, excel, txt, images, scanned copies, structured data, web pages, and more.*
@@ -487,7 +492,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **LightRAG**
   - *leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph* 
   - <https://lightrag.github.io/> 
-  - <https://github.com/HKUDS/LightRAG> 
+  - <https://github.com/HKUDS/LightRAG>
 
 
 ## Vector DB
