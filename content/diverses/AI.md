@@ -448,6 +448,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://github.com/NirDiamant/RAG_Techniques> - *showcases various advanced techniques for RAG systems*
 - <https://www.kapa.ai/blog/rag-best-practices>
 - <https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/>
+- <https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies>
 - **RAGFlow**
   - *Deep document understanding-based knowledge extraction from unstructured data with complicated formats*
   - *Supports Word, slides, excel, txt, images, scanned copies, structured data, web pages, and more.*
