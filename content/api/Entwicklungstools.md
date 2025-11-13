@@ -20,6 +20,7 @@ parent: API
     - benötigt nodejs
 - **Postman**
   - erfordert Login/Cloud-Sync
+  - *logs every request you make back to their own servers, even if you turn off telemetry.*
   - <https://www.getpostman.com/>
   - newman
     - node_module; <https://www.npmjs.com/package/newman/>
