@@ -5,6 +5,7 @@ parent: Java
 
 # JVM
 - [Java - A Deep Dive into JVM Start-Up](https://www.youtube.com/watch?v=ED1oc7gn5uY)
+- <https://medium.com/@wakefulinsomnia/how-does-java-classloader-system-work-82eaf378f73b>
 
 ## Parameter, Flags
 - [VM Options Explorer](https://chriswhocodes.com/)
@@ -391,6 +392,7 @@ parent: Java
 - `-XX:AOTCacheOutput`, `JDK_AOT_VM_OPTIONS` (Java 25+)
   - *When used alone, with no other AOT options, this option causes the launcher to, in effect, split its invocation into two sub-invocations: The first does a training run (AOTMode=record) and then the second creates the AOT cache (AOTMode=create)* 
   - <https://openjdk.org/jeps/514> 
+
 
 
 
