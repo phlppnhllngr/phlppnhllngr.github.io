@@ -201,6 +201,9 @@ parent: Java
 - **remote debugging**
   - <https://stackify.com/java-remote-debugging/>
   - <https://www.rookout.com/blog/remote-java-debugging>
+- **jdb**
+  - simples CLI-Tool (JDK) zum Debuggen, lokal oder remote
+  - <https://shubhamkaradkar.hashnode.dev/from-bugs-to-bliss-navigating-java-debugging-via-the-command-line-with-jdb> 
 - **hotswap agent**
   - <https://github.com/HotswapProjects/HotswapAgent>
   - *unlimited redefinition of classes at runtime*
