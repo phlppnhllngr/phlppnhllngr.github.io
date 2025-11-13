@@ -44,10 +44,13 @@ parent: Java
   - Integration mit Bazel, Maven, Gradle
   - gut konfigurierbar (eigene Regeln mit Java-Code definierbar)
   - mit ErrorProne kann auch eine gesamte Codebase refactored werden: <https://errorprone.info/docs/refaster>
-  - Plugins
+  - Plugins/Extensions
     - NullAway
       - *compile time null checks/warnings*
       - <https://github.com/uber/NullAway>
+    - Error Prone Support
+      - *extra bug checkers and a large battery of Refaster rules*
+      - <https://github.com/PicnicSupermarket/error-prone-support>
 - **semgrep**
   - *static analysis tool that finds bugs and enforces code standards at editor, commit, and CI time. Precise rules look like the code you’re searching; no more traversing abstract syntax trees, wrestling with regexes, or using a painful DSL. Code analysis is performed locally (code is not uploaded) and Semgrep runs on uncompiled code.*
   - *Go · Java · JavaScript · JSX · JSON · Python · Ruby · TypeScript · TSX*
