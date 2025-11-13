@@ -670,6 +670,7 @@ parent: Java
 - **LangChain4j**
   - *Although "LangChain" is in our name, the project is a fusion of ideas and concepts from LangChain, Haystack, LlamaIndex, and the broader community, spiced up with a touch of our own innovation.* 
   - <https://github.com/langchain4j/langchain4j> <img loading="lazy" src="https://img.shields.io/github/stars/langchain4j/langchain4j?style=flat-square"/>
+  - [YT: Level Up Your LangChain4j Apps for Production by Lize Raes - 10/2025](https://www.youtube.com/watch?v=jvRSSsP26Z8)
 - **Jlama**
   - *Langchain4j Integration*
   - *requires Java 20 or later*
