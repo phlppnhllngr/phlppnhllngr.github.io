@@ -133,6 +133,9 @@ parent: Diverses
     - *use boring technology*
     - [HN-Diskussion](https://news.ycombinator.com/item?id=37636841)
   - [HN: Postgres as queue, 02/2024](https://news.ycombinator.com/item?id=39315833)
+  - [HN: Listen to Database Changes Through the Postgres WAL, 11/2025](https://news.ycombinator.com/item?id=45885768)
+    - WAL = write ahead log 
+    - geht auf die Limitierungen von Listen/Notify ein 
   - pgmq
     - <https://github.com/pgmq/pgmq>
     - *Like AWS SQS and RSMQ but on Postgres.*
@@ -157,6 +160,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
