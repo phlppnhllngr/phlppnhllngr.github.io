@@ -78,6 +78,13 @@ parent: Datenbank
     - *Query and import data files in object storage in Parquet, CSV, JSON, and Iceberg format*
     - <https://github.com/Snowflake-Labs/pg_lake>
     - <https://news.ycombinator.com/item?id=45812606>
+  - pgFirstAid
+    - *postgresql function that provides a prioritized list of actions to take to improve stability and performance* 
+    - <https://github.com/randoneering/pgFirstAid>
+  - RegreSQL
+    - *Regression Testing for PostgreSQL Queries*
+    - <https://boringsql.com/posts/regresql-testing-queries/>
+    - <https://news.ycombinator.com/item?id=45924619> 
 - **DB2** -> Db2
 
 
