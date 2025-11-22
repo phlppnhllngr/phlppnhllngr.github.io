@@ -229,7 +229,7 @@ parent: Diverses
   - <https://news.ycombinator.com/item?id=38052344>
 
 
-## Workflow Scheduler
+## Workflow & Scheduler
 - **Temporal**
   - Workflows & Scheduling
   - für länger laufende Prozesse
@@ -264,6 +264,10 @@ parent: Diverses
   - *built on a durable task queue that enqueues your tasks and sends them to your workers at a rate that your workers can handle. Hatchet will track the progress of your task and ensure that the work gets completed*
   - *it can be used as a queue, a DAG-based orchestrator, a durable execution engine, or all three*
   - <https://github.com/hatchet-dev/hatchet>
+- **DBOS**
+  - *provides lightweight durable workflows built on top of Postgres* 
+  - <https://github.com/dbos-inc/dbos-transact-java>
+  - [Show HN: DBOS Java – Postgres-Backed Durable Workflows, 11/2025](https://news.ycombinator.com/item?id=45920156)
 
 
 ## Parser-Generatoren
