@@ -367,8 +367,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 ### Vision & OCR
 - **OCRArena**
-  - <https://www.ocrarena.ai/>
   - *free playground for testing and evaluating leading foundation VLMs and open source OCR models on document parsing tasks. Upload a document, measure accuracy, and vote for the best models on a public leaderboard.*
+  - <https://www.ocrarena.ai/>
+  - <https://old.reddit.com/r/LocalLLaMA/comments/1p35f2c/i_made_a_free_playground_for_comparing_10_ocr/>
 - **Moondream**
   - *a tiny vision language model*
   - *offers two model variants: Moondream 2B, Moondream 0.5B* 
