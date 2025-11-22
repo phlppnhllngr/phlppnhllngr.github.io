@@ -211,7 +211,10 @@ parent: Diverses
   - <https://github.com/LibreTranslate/LibreTranslate>
 - **CryptPad**
   - *collaborative office suite* 
-  - <https://github.com/cryptpad/cryptpad> 
+  - <https://github.com/cryptpad/cryptpad>
+- **ERPNext**
+  - *Enterprise Resource Planning (ERP)* 
+  - <https://github.com/frappe/erpnext> 
 
 
 ## Elektronische Unterschrift
