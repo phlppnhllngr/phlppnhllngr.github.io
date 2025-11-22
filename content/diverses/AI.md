@@ -153,7 +153,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *semantic query processing on multimodal data*
   - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
   - <https://github.com/itrummer/thalamusdb> 
-  - <https://news.ycombinator.com/item?id=45507753> 
+  - <https://news.ycombinator.com/item?id=45507753>
+
 
 ### Wissen
 - **MindsDB**
@@ -384,6 +385,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Local LLM
 - <https://old.reddit.com/r/LocalLLaMA/>
 - <https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/>
+- **Heretic**
+  - *tool that removes censorship (aka "safety alignment") from transformer-based language models without expensive post-training*
+  - <https://github.com/p-e-w/heretic>
 - **Ollama**
   - *Get up and running with large language models locally.*
   - *has a REST API for running and managing models*
