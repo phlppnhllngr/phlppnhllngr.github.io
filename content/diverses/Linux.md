@@ -293,6 +293,8 @@ parent: Diverses
   - <https://kde.org/linux/>
   - 11/2025: in Alpha
 - NixOS
+- CatchyOS
+  - <https://cachyos.org/> 
 
 
 ## libc (C-Standard-Bibliothek)
@@ -315,6 +317,7 @@ parent: Diverses
   - <https://gitlab.com/ydkn/docker-cups>
   - <https://github.com/thbe/docker-cups>
   - <https://github.com/jacobalberty/cups-docker>
+
 
 
 
