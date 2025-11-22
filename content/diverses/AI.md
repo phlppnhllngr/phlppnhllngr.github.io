@@ -366,6 +366,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://uberduck.ai/>
 
 ### Vision & OCR
+- **OCRArena**
+  - <https://www.ocrarena.ai/>
+  - *free playground for testing and evaluating leading foundation VLMs and open source OCR models on document parsing tasks. Upload a document, measure accuracy, and vote for the best models on a public leaderboard.*
 - **Moondream**
   - *a tiny vision language model*
   - *offers two model variants: Moondream 2B, Moondream 0.5B* 
@@ -567,7 +570,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://huggingface.co/teapotai/teapotllm>
 - **IBM Granite Nano**
   - 350 M - 1 Mrd Parameter
-  - <https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models> 
+  - <https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models>
+- **Olmo** 
+  - <https://allenai.org/olmo> 
 
 
 ## Agents
