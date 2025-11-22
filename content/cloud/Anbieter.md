@@ -152,3 +152,8 @@ parent: Cloud
 
 ## Fly.io
 - <https://fly.io/>
+
+## bunny.net
+- CDN, Storage, Video-Streaming, Edge computing, ...
+- EU-Alternative zu Cloudflare
+- <https://bunny.net/>
