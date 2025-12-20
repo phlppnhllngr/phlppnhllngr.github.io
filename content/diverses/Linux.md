@@ -293,8 +293,12 @@ parent: Diverses
   - <https://kde.org/linux/>
   - 11/2025: in Alpha
 - NixOS
-- CatchyOS
-  - <https://cachyos.org/> 
+- CachyOS
+  - <https://cachyos.org/>
+- Tiny Core
+  - 23 MB
+  - <https://news.ycombinator.com/item?id=46173547> 
+  - <http://www.tinycorelinux.net/> 
 
 
 ## libc (C-Standard-Bibliothek)
@@ -317,6 +321,7 @@ parent: Diverses
   - <https://gitlab.com/ydkn/docker-cups>
   - <https://github.com/thbe/docker-cups>
   - <https://github.com/jacobalberty/cups-docker>
+
 
 
 
