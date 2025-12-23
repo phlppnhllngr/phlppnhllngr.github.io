@@ -501,6 +501,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph* 
   - <https://lightrag.github.io/> 
   - <https://github.com/HKUDS/LightRAG>
+- **Skald**
+  - *In the ingestion phase, Skald takes care of document parsing, chunking strategy, summaries, tagging, embedding generation, and vector storage.*
+  - *In the retrieval phase, it handles query rewriting, vector search, LLM chat, chat history, and source references.*
+  - *Our solid defaults will work for most use cases, but you can tune every part of your RAG to better suit your needs.*
+  - <https://github.com/skaldlabs/skald> 
 
 
 ## Vector DB
