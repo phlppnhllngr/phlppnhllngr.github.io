@@ -461,6 +461,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/>
 - <https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies>
 - <https://old.reddit.com/r/LocalLLaMA/comments/1pd1yqc/hot_take_were_overselling_semantic_search_in_rag/>
+- [HN: So you wanna build a local RAG?, 12/2025](https://news.ycombinator.com/item?id=46080364)
 
 ### Tools
 - **RAGFlow**
