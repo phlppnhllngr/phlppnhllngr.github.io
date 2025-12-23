@@ -513,6 +513,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
 - <https://fin.ai/research/how-we-built-a-world-class-reranker-for-fin/>
 
+### Textsuche
+- **ripgrep**
+  - <https://github.com/BurntSushi/ripgrep>
+- **BM25**
+  - <https://en.wikipedia.org/wiki/Okapi_BM25> - *a ranking function used by search engines to estimate the relevance of documents to a given search query*  
+
 ## Vector DB
 - **Weaviate**
   - *to turn your data - text, images, and more - into a searchable vector database*
