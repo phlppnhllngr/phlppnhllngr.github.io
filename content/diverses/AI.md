@@ -460,6 +460,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://www.kapa.ai/blog/rag-best-practices>
 - <https://old.reddit.com/r/LocalLLaMA/comments/1im35yl/how_to_scale_rag_to_20_million_documents/>
 - <https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies>
+- <https://old.reddit.com/r/LocalLLaMA/comments/1pd1yqc/hot_take_were_overselling_semantic_search_in_rag/>
 
 ### Tools
 - **RAGFlow**
@@ -507,6 +508,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Our solid defaults will work for most use cases, but you can tune every part of your RAG to better suit your needs.*
   - <https://github.com/skaldlabs/skald> 
 
+### Re-ranker
+- <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
+- <https://fin.ai/research/how-we-built-a-world-class-reranker-for-fin/>
 
 ## Vector DB
 - **Weaviate**
