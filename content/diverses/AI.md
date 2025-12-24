@@ -316,6 +316,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **OpenAI Codex**
   - <https://openai.com/codex/>
 - **Gemini CLI**
+  - [HN: Gemini CLI tips and tricks for agentic coding, 11/2025](https://news.ycombinator.com/item?id=46060508) 
   - <https://github.com/google-gemini/gemini-cli>
 - **Qwen Code**
   - <https://github.com/QwenLM/qwen-code>
@@ -462,6 +463,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - <https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies>
 - <https://old.reddit.com/r/LocalLLaMA/comments/1pd1yqc/hot_take_were_overselling_semantic_search_in_rag/>
 - [HN: So you wanna build a local RAG?, 12/2025](https://news.ycombinator.com/item?id=46080364)
+- <https://foojay.io/today/navigating-the-nuances-of-graphrag-vs-rag/>
+- [HN: Production RAG: what I learned from processing 5M+ documents, 10/2025](https://news.ycombinator.com/item?id=45645349)
+- <https://eugeneyan.com/writing/llm-patterns/#retrieval-augmented-generation-to-add-knowledge>
 
 ### Tools
 - **RAGFlow**
@@ -597,6 +601,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## Agents
+- [HN: Lessons from interviews on deploying AI Agents in production, 10/2025](https://news.ycombinator.com/item?id=45808308)
 - **agents.md**
   - *Think of AGENTS.md as a README for agents*
   - Support für: Codex, Gemini CLI, Cursor, ... 
@@ -622,6 +627,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **google-adk**
   - Agent Development Kit
   - *A built-in development UI to help you test, evaluate, debug, and showcase your agent(s)*
+  - Java Demo (50 Min), 10/2025: <https://www.youtube.com/watch?v=L6V6aQixOZU>
   - <https://github.com/google/adk-java>
 - **Omnara**
   - *ransforms your AI agents (Claude Code, Codex CLI, n8n, and more) from silent workers into communicative teammates.*
@@ -634,7 +640,19 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/reworkd/AgentGPT>
   - <https://news.ycombinator.com/item?id=36079382>
 - **AgentKit, Agent Builder**
-  - <https://openai.com/index/introducing-agentkit/> 
+  - <https://openai.com/index/introducing-agentkit/>
+- **agent-o-rama**
+  - *LLM agent platform for building, tracing, testing, and monitoring agents with integrated storage and one-click deployment.*
+  - *provides two first-class APIs, one for Java and one for Clojure*
+  - *Inspired by LangGraph and LangSmith*
+  - *comprehensive web UI*
+  - <https://github.com/redplanetlabs/agent-o-rama?tab=readme-ov-file#detailed-comparisons-against-other-agent-tools>
+  - <https://github.com/redplanetlabs/agent-o-rama> <img loading="lazy" src="https://img.shields.io/github/stars/agent-o-rama?style=flat-square"/>
+- **Agent Lightning**
+  - *Selectively optimize one or more agents in a multi-agent system* 
+  - *Build with ANY agent framework or even WITHOUT agent framework*
+  - <https://news.ycombinator.com/item?id=45706729>
+  - <https://github.com/microsoft/agent-lightning> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
@@ -662,3 +680,5 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - sequential thinking
   - *provides a tool for problem-solving through a structured thinking process* 
   - <https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking> 
+
+## Fine tuning
