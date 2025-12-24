@@ -647,7 +647,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Inspired by LangGraph and LangSmith*
   - *comprehensive web UI*
   - <https://github.com/redplanetlabs/agent-o-rama?tab=readme-ov-file#detailed-comparisons-against-other-agent-tools>
-  - <https://github.com/redplanetlabs/agent-o-rama> <img loading="lazy" src="https://img.shields.io/github/stars/agent-o-rama?style=flat-square"/>
+  - <https://github.com/redplanetlabs/agent-o-rama> <img loading="lazy" src="https://img.shields.io/github/stars/redplanetlabs/agent-o-rama?style=flat-square"/>
 - **Agent Lightning**
   - *Selectively optimize one or more agents in a multi-agent system* 
   - *Build with ANY agent framework or even WITHOUT agent framework*
