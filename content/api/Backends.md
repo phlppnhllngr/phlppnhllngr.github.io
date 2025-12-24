@@ -78,3 +78,7 @@ parent: API
 - **Soul**
   - *A SQLite REST and Realtime server*
   - <https://thevahidal.github.io/soul/>
+- **TrailBase**
+  - *single-executable Firebase alternative with REST & realtime APIs, auth and admin UI* 
+  - <https://github.com/trailbaseio/trailbase> <img loading="lazy" src="https://img.shields.io/github/stars/trailbaseio/trailbase?style=flat-square"/>
+
