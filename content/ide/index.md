@@ -36,7 +36,8 @@ has_children: true
 - **Void**
     - *open-source Cursor alternative*
     - VSCode-Fork 
-    - <https://github.com/voideditor/void> 
+    - <https://github.com/voideditor/void>
+- **VSCodium**
 
 ## Tools
 - **DevPod**
