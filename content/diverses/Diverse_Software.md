@@ -418,18 +418,20 @@ parent: Diverses
 
 
 ## Browser
-- Brave
+- Ladybird
+- Servo
+
+### Firefox-basiert
 - Firefox
   - Developer Edition
+- Librewolf
+- Waterfox
+- Zen
+  - <https://github.com/zen-browser/desktop>
+
+### Chromium-basiert
 - Ungoogled Chromium
   - <https://github.com/ungoogled-software/ungoogled-chromium>
 - Kiwi
-- Ladybird
-- Servo
-- Librewolf
-- Waterfox
+- Brave
 - Opera
-- VSCodium
-- Zen
-  - *built using Firefox*
-  - <https://github.com/zen-browser/desktop>
