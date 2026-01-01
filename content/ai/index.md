@@ -12,7 +12,7 @@ has_children: true
 Ein niedriger Wert wie 0.1 beschränkt die Auswahl auf die 10 % wahrscheinlichsten Wörter. Die Antworten werden vorhersehbarer.*
 - Temperature: *steuert, wie „kreativ“ oder „überraschend“ die Antworten eines KI-Modells sind:
 Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative Antworten gibt.*
-- Frequeny penalty: *bestraft die Wiederholung von Token, die im bisherigen Text schon oft vorkamen*
+- Frequency penalty: *bestraft die Wiederholung von Token, die im bisherigen Text schon oft vorkamen*
 - [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
