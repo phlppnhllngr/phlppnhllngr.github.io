@@ -13,7 +13,6 @@ Ein niedriger Wert wie 0.1 beschränkt die Auswahl auf die 10 % wahrscheinlichst
 - Temperature: *steuert, wie „kreativ“ oder „überraschend“ die Antworten eines KI-Modells sind:
 Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative Antworten gibt.*
 - Frequency penalty: *bestraft die Wiederholung von Token, die im bisherigen Text schon oft vorkamen*
-- [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
 ## Inhalt
@@ -580,3 +579,4 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking> 
 
 ## Fine tuning
+- [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
