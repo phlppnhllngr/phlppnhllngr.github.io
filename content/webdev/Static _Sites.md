@@ -74,3 +74,4 @@ parent: Webdev
 - <https://tiiny.host/>
 - Netlify
 - Github pages
+- Hostinger
