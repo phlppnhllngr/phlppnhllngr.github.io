@@ -4,6 +4,7 @@ parent: Diverses
 ---
 
 # Message Broker
+- [HN: Message Queues: A Simple Guide with Analogies (2024)](https://news.ycombinator.com/item?id=46591402)
 
 ## Broker
 - **Apache Kafka**
@@ -160,6 +161,7 @@ parent: Diverses
 - **AsyncAPI**
   - *allows you to create machine-readable definitions of your asynchronous APIs* 
   - <https://www.asyncapi.com/> 
+
 
 
 
