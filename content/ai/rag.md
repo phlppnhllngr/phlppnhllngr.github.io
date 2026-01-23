@@ -61,12 +61,19 @@ parent: AI
 - **LightRAG**
   - *leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph* 
   - <https://lightrag.github.io/> 
-  - <https://github.com/HKUDS/LightRAG>
+  - <https://github.com/HKUDS/LightRAG> <img loading="lazy" src="https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square"/>
 - **Skald**
   - *In the ingestion phase, Skald takes care of document parsing, chunking strategy, summaries, tagging, embedding generation, and vector storage.*
   - *In the retrieval phase, it handles query rewriting, vector search, LLM chat, chat history, and source references.*
   - *Our solid defaults will work for most use cases, but you can tune every part of your RAG to better suit your needs.*
-  - <https://github.com/skaldlabs/skald> 
+  - <https://github.com/skaldlabs/skald>
+ - **Chonkie**
+  - *provides several chunkers to help you split your text efficiently for RAG applications*
+  - Python Lib
+  - <https://github.com/chonkie-inc/chonkie> <img loading="lazy" src="https://img.shields.io/github/stars/chonkie-inc/chonkie?style=flat-square"/>
+ - **haiku.rag**
+  - *Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling* 
+  - <https://github.com/ggozad/haiku.rag/> 
 
 ## Re-ranker
 - <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
@@ -79,6 +86,7 @@ parent: AI
   - <https://en.wikipedia.org/wiki/Okapi_BM25> - *a ranking function used by search engines to estimate the relevance of documents to a given search query*
 
 ## Vector DB
+- Embeddings sind offenbar eher schlecht für Programmcode
 - **Weaviate**
   - *to turn your data - text, images, and more - into a searchable vector database*
   - *can vectorize your data at import time*
