@@ -111,9 +111,6 @@ parent: Diverses
 - **syncthing**
   - *Continuous File Synchronization*
   - <https://github.com/syncthing/syncthing>
-- **ungoogled chromium**
-  - *Google Chromium, sans integration with Google*
-  - <https://github.com/Eloston/ungoogled-chromium> *12.5k
 - **KasmVNC**
   - *docker container streaming platform that enables you to deliver browser-based access to desktops, applications, and web services*
   - <https://github.com/kasmtech/KasmVNC>
@@ -214,7 +211,12 @@ parent: Diverses
   - <https://github.com/cryptpad/cryptpad>
 - **ERPNext**
   - *Enterprise Resource Planning (ERP)* 
-  - <https://github.com/frappe/erpnext> 
+  - <https://github.com/frappe/erpnext>
+- **FracturedJson**
+  - *utilities that format JSON data in a way that's easy for humans to read, but fairly compact*
+  - *You can try it out with the browser formatter page. It's also available as a .NET library, a JavaScript/Typescript package, and a Visual Studio Code extension. See here for Python options.* 
+  - <https://github.com/j-brooke/FracturedJson/wiki>
+  - <https://news.ycombinator.com/item?id=46464235>
 
 
 ## Elektronische Unterschrift
