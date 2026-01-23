@@ -549,7 +549,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Selectively optimize one or more agents in a multi-agent system* 
   - *Build with ANY agent framework or even WITHOUT agent framework*
   - <https://news.ycombinator.com/item?id=45706729>
-  - <https://github.com/microsoft/agent-lightning> 
+  - <https://github.com/microsoft/agent-lightning>
+- **Kiln**
+  - *Build, Evaluate, and Optimize AI Systems*
+  - *Evals • RAG • Agents • Fine Tuning • Synthetic Data* 
+  - <https://github.com/kiln-ai/kiln> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
