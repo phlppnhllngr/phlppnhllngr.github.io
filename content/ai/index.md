@@ -570,6 +570,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - [HN Diskussion](https://news.ycombinator.com/item?id=44919647)
 - <https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook>
 
+
 ## MCP
 - SDKs: <https://github.com/modelcontextprotocol/servers>
 - docs-mcp-server
@@ -582,5 +583,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *provides a tool for problem-solving through a structured thinking process* 
   - <https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking> 
 
+
 ## Fine tuning
 - [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
+
+
+## Plattformen
+- **Microsoft Foundry**
+  - <https://ai.azure.com/>
