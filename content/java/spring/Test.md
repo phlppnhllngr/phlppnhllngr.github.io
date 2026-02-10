@@ -133,7 +133,18 @@ grand_parent: Java
 - **@TestBean**
   - 6.2+ 
   - *used on a test class field to override a specific bean in the test’s ApplicationContext*
-  - *uses the REPLACE_DEFINITION strategy for test bean overriding* 
+  - *uses the REPLACE_DEFINITION strategy for test bean overriding*
+  - ```
+    class OverrideBeanTests {
+    	@TestBean
+    	CustomService customService;
+    
+    	static CustomService customService() {
+    		return new MyFakeCustomService();
+    	}
+    }
+    ```
+  - <https://docs.spring.io/spring-framework/reference/testing/annotations/integration-spring/annotation-testbean.html>
 - **@MockitoBean**
   - 6.2+ 
   - *used on test class fields to override beans in the test’s ApplicationContext*
