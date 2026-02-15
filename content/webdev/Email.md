@@ -19,6 +19,8 @@ parent: Webdev
   - *the only framework that makes responsive-email easy*
   - <https://mjml.io/try-it-live>
   - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
+  - VSC Extension: <https://github.com/cytostatic/mjml-editor>
+  - <https://www.mjmlbuilder.com/>
 - **caniemail**
   - <https://www.caniemail.com/>
   - *similar to caniuse.com dedicated to support in email clients*
