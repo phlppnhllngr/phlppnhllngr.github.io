@@ -93,9 +93,23 @@ parent: Diverses
   - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
   - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
   - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
-  - <u>Tinymist</u>
-    - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
-    - <https://github.com/Myriad-Dreamin/tinymist>
+  - Issue Support für Formularfelder: <https://github.com/typst/typst/issues/4368>
+  - Package Library: <https://typst.app/universe/>
+  - <https://typst.app/blog/2025/automated-generation>
+  - <u>Tools</u>
+    - <https://github.com/qjcg/awesome-typst>
+    - Tinymist
+      - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
+      - <https://github.com/Myriad-Dreamin/tinymist>
+    - tytanic
+      - *test runner for Typst projects* 
+      - <https://github.com/typst-community/tytanic>
+    - testyfy
+      - assert / validate
+      - <https://typst.app/universe/package/testyfy>
+    - Typstify
+      - Editor
+      - <https://typstify.com/> 
 
 ## PDF
 <https://github.com/abhi18av/awesome-pdf>
@@ -319,6 +333,7 @@ parent: Diverses
 - **Alfresco**
 - **OpenText**
 - **Nuxeo**
+
 
 
 
