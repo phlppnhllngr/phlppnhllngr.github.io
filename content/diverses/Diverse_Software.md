@@ -270,6 +270,10 @@ parent: Diverses
   - *provides lightweight durable workflows built on top of Postgres* 
   - <https://github.com/dbos-inc/dbos-transact-java>
   - [Show HN: DBOS Java – Postgres-Backed Durable Workflows, 11/2025](https://news.ycombinator.com/item?id=45920156)
+- **openworkflow**
+  - *TypeScript framework for building durable, resumable workflows. Supports Node.js and Bun.* 
+  - <https://github.com/openworkflowdev/openworkflow>
+  - <https://old.reddit.com/r/javascript/comments/1r18ld3/i_built_openworkflow_a_lightweight_alternative_to/>
 
 
 ## Parser-Generatoren
