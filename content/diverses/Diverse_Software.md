@@ -217,6 +217,9 @@ parent: Diverses
   - *You can try it out with the browser formatter page. It's also available as a .NET library, a JavaScript/Typescript package, and a Visual Studio Code extension. See here for Python options.* 
   - <https://github.com/j-brooke/FracturedJson/wiki>
   - <https://news.ycombinator.com/item?id=46464235>
+- **NotepadNext**
+  - *A cross-platform reimplementation of Notepad++* 
+  - <https://github.com/dail8859/NotepadNext> 
 
 
 ## Elektronische Unterschrift
