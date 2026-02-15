@@ -26,6 +26,7 @@ parent: Webdev
   - Tipps
     - [browser launch options](https://github.com/microsoft/playwright/blob/master/docs/api.md#browsertypelaunchoptions)
       - `args: [--start-maximized]` um Chrome fullscreen zu starten (`contextConfig.viewport = null`)
+    - <https://currents.dev/posts/debugging-playwright-timeouts>
   - Tools
     - docker-image
       - <https://playwright.dev/docs/docker/>
