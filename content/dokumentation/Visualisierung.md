@@ -48,10 +48,9 @@ parent: Dokumentation
   - *a way to create Structurizr software architecture models*
   - <https://structurizr.com/dsl?example=getting-started> 
   - <https://github.com/structurizr/dsl>
-- **D2**
+- **D2** <span style="color:transparent">bookmarked:D2</span>
   - *a modern diagram scripting language that turns text to diagrams* 
   - <https://github.com/terrastruct/d2>
-    <span style="visibility:hidden">bookmarked:D2</span>
 - **sketch.systems**
   - <https://sketch.systems/>
 - **stately.ai**
