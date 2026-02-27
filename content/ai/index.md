@@ -344,6 +344,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://www.jetbrains.com/de-de/junie/> 
  
 ### Audio, TTS, STT
+- <https://huggingface.co/spaces/hf-audio/open_asr_leaderboard>
 - **Whisper**
   - *general-purpose speech recognition model* 
   - <https://github.com/openai/whisper> <img loading="lazy" src="https://img.shields.io/github/stars/openai/whisper?style=flat-square"/>
@@ -366,6 +367,23 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Uberduck**
   - Text to speech, voice cloning
   - <https://uberduck.ai/>
+- **Moonshine**
+  - *Fast and accurate automatic speech recognition (ASR) for edge devices*
+  - *When should you choose Moonshine over Whisper? TL;DR - When you're working with live speech.*
+  - lokal, Python
+  - erfordert keine GPU
+  - <https://github.com/moonshine-ai/moonshine>
+  - verfügbare Modelle/Sprachen
+    - <https://github.com/moonshine-ai/moonshine?tab=readme-ov-file#available-models>
+    - <https://github.com/moonshine-ai/moonshine/issues/105>
+  - [Show HN, 25.02.2026](https://news.ycombinator.com/item?id=47143755)
+  - JS: <https://github.com/moonshine-ai/moonshine-js>
+- **Parakeet**
+  - von Nvidia
+  - v3
+    - erfordert keine GPU 
+    - *expanding language support from English to 25 European languages* 
+    - <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3>  
 
 ### Vision & OCR
 - **OCRArena**
