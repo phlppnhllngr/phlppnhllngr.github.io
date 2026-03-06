@@ -225,7 +225,7 @@ parent: Automatisierung
   - <https://github.com/centerofci/mathesar> <img loading="lazy" src="https://img.shields.io/github/stars/centerofci/mathesar?style=flat-square"/>
 - **Grist**
   - *combines the flexibility of a spreadsheet with the robustness of a database* 
-  - <https://github.com/gristlabs/grist-core> 
+  - <https://github.com/gristlabs/grist-core> <img loading="lazy" src="https://img.shields.io/github/stars/gristlabs/grist-core?style=flat-square"/>
 
 
 ### Webseiten
@@ -285,3 +285,4 @@ parent: Automatisierung
 - evershop
   - nodejs 
   - <https://github.com/evershopcommerce/evershop> 
+
