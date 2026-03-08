@@ -444,3 +444,23 @@ parent: Diverses
 - Kiwi
 - Brave
 - Opera
+
+
+## CRM
+- **EspoCRM**
+  - Features
+      - deutsch
+      - Datenimport aus CSV; create oder update
+      - mit eigenem Code erweiterbar (PHP)
+      - Benutzer und Rollen
+      - OIDC
+      - Audit Logs
+      - REST API
+      - Webhooks
+      - Cronjobs
+      - Leadverteilung basierend auf Regeln
+  - <https://github.com/espocrm/espocrm> <img loading="lazy" src="https://img.shields.io/github/stars/espocrm/espocrm?style=flat-square"/>
+- **Odoo**
+  - <https://github.com/odoo/odoo> <img loading="lazy" src="https://img.shields.io/github/stars/odoo/odoo?style=flat-square"/>
+- **SuiteCRM**
+  - <https://github.com/SuiteCRM/SuiteCRM> <img loading="lazy" src="https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=flat-square"/>
