@@ -27,9 +27,6 @@ parent: Automatisierung
   - docker-compose: <https://raw.githubusercontent.com/Budibase/budibase/master/hosting/docker-compose.yaml>
   - *Explore over 50 Budibase [templates](https://budibase.com/templates/). Templates are free, 100% customizable, and take a couple of clicks to install*
   - <https://github.com/Budibase/budibase> <img loading="lazy" src="https://img.shields.io/github/stars/Budibase/budibase?style=flat-square"/>
-- **NocoBase**
-  - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
-  - <https://github.com/nocobase/nocobase> <img loading="lazy" src="https://img.shields.io/github/stars/nocobase/nocobase?style=flat-square"/>
 - **Google AppSheet**
   - 💰, Cloud
   - Lowcode Apps (Desktop, Mobile), Workflows
@@ -108,9 +105,6 @@ parent: Automatisierung
 - **ILLA Builder**
   - *low-code platform for developers to build internal tools* 
   - <https://github.com/illacloud/illa-builder> <img loading="lazy" src="https://img.shields.io/github/stars/illacloud/illa-builder?style=flat-square"/>
-- **Rowy**
-  - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.* 
-  - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
 - **Autocode**
   - ehemals "Standard Library"
   - *easy way to build web services and APIs that respond to external SaaS events*
@@ -207,16 +201,42 @@ parent: Automatisierung
   - *The Open Source Airtable alternative*
   - *Turns any MySQL, PostgreSQL, SQL Server, SQLite & MariaDB into a smart-spreadsheet.*
   - <https://github.com/nocodb/nocodb> <img loading="lazy" src="https://img.shields.io/github/stars/nocodb/nocodb?style=flat-square"/>
+  - Features
+    - Benutzerverwaltung mit Rollen
+    - REST API
+    - Spalten-Datentypen
+    - Datenimport (Postgres, SQLite, CSV, JSON, Excel)
+    - via URL teilbares CRUD-Formular
+    - Kalenderansicht (für DB-Felder vom Typ Datum)
+    - Webhooks für create, update, delete Events, mit Filtern
+    - Integrationen geplant: Teams, Outlook, Excel, Jira, ...
+    - mehrsprachig
 - **APITable**
   - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
   - <https://github.com/apitable/apitable> <img loading="lazy" src="https://img.shields.io/github/stars/apitable/apitable?style=flat-square"/>
 - **Baserow**
   - *Open source no-code database and Airtable alternative*
   - self-host oder Cloud
+  - Features
+    - free   
+      - Webhooks
+      - Spalten-Datentypen
+      - deutsche Sprache
+      - REST API
+      - mehr als nur Spreadsheets: Automations (wie n8n aber rudimentär), Dashboards, Webapps
+    - paid
+      - Audit logging
+      - SSO
+      - advanced webhooks
+      - Rollen & field level permissions
+      - Kalender
+      - Datenexport
+      - meiste Dashboard-Widgets
   - <https://baserow.io/>
   - <https://github.com/bram2w/baserow> <img loading="lazy" src="https://img.shields.io/github/stars/bram2w/baserow?style=flat-square"/>
 - **Undb**
-  - *self-hosted no code database* 
+  - *self-hosted no code database*
+  - Stand 03/2026: letzter Commit vor 8 Monaten
   - [Demo](https://demo.undb.xyz/?lng=en) 
   - <https://github.com/undb-xyz/undb> <img loading="lazy" src="https://img.shields.io/github/stars/undb-xyz/undb?style=flat-square"/>
 - **Mathesar**
@@ -224,9 +244,33 @@ parent: Automatisierung
   - [Demo](https://demo.mathesar.org/) 
   - <https://github.com/centerofci/mathesar> <img loading="lazy" src="https://img.shields.io/github/stars/centerofci/mathesar?style=flat-square"/>
 - **Grist**
-  - *combines the flexibility of a spreadsheet with the robustness of a database* 
+  - *combines the flexibility of a spreadsheet with the robustness of a database*
+  - Features
+      - Benuterverwaltung mit Rollen (feingranularer als noco?)
+      - Spalten-Datentypen
+      - Versionshistorie
+      - mehrsprachig
+      - CSV/Excel/PDF-Export
+      - via URL teilbares CRUD-Formular
+      - Webhooks (Events: add, update)
+      - REST API
+      - Auth: OIDC, SAML, ...
+      - Audit logging (nur enterprise)
+      - Embeddable (iframe)
+      - Visualisierungen/"Widgets": Diagramme, Formular, Kalender, Custom
+      - Dateianhänge
+  - <https://www.getgrist.com/lookup/grist-vs-nocodb/>
   - <https://github.com/gristlabs/grist-core> <img loading="lazy" src="https://img.shields.io/github/stars/gristlabs/grist-core?style=flat-square"/>
-
+- **Rowy**
+  - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.*
+  - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
+- **NocoBase**
+  - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
+  - erfordert Postgres/MySQL/MariaDB
+  - <https://github.com/nocobase/nocobase> <img loading="lazy" src="https://img.shields.io/github/stars/nocobase/nocobase?style=flat-square"/>
+- **teable**
+  - erfordert mindestens Postgres und Redis, optional minio oder S3 
+  - <https://github.com/teableio/teable> <img loading="lazy" src="https://img.shields.io/github/stars/teableio/teable?style=flat-square"/>
 
 ### Webseiten
 - **squarespace**
@@ -285,4 +329,5 @@ parent: Automatisierung
 - evershop
   - nodejs 
   - <https://github.com/evershopcommerce/evershop> 
+
 
