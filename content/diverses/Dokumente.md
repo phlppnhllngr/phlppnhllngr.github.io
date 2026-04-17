@@ -75,11 +75,6 @@ parent: Diverses
 - **WebMerge** 💰
   - <https://www.webmerge.me/>
   - *document generation, based on templates*
-- **Pandoc**
-  - <https://github.com/jgm/pandoc> <img loading="lazy" src="https://img.shields.io/github/stars/jgm/pandoc?style=flat-square"/>
-  - *Universal markup converter*
-  - *to/from docx, html, markdown, pdf, ...*
-  - *Pandoc has an option to pack all images and styles needed to render the page into one html file (`pandoc --self-contained input.html -o output.html`)*
 - **Docupilot** 💰
   - *document templates + webservice integration*
   - <https://docupilot.app/>
@@ -89,27 +84,7 @@ parent: Diverses
 - **Carbone**
   - *Fast, Simple and Powerful report generator in any format PDF, DOCX, XLSX, ODT, PPTX, ODS, XML, CSV using templates and your JSON data as input* 
   - <https://github.com/carboneio/carbone> 
-- **typst**
-  - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
-  - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
-  - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
-  - Issue Support für Formularfelder: <https://github.com/typst/typst/issues/4368>
-  - Package Library: <https://typst.app/universe/>
-  - <https://typst.app/blog/2025/automated-generation>
-  - <u>Tools</u>
-    - <https://github.com/qjcg/awesome-typst>
-    - Tinymist
-      - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
-      - <https://github.com/Myriad-Dreamin/tinymist>
-    - tytanic
-      - *test runner for Typst projects* 
-      - <https://github.com/typst-community/tytanic>
-    - testyfy
-      - assert / validate
-      - <https://typst.app/universe/package/testyfy>
-    - Typstify
-      - Editor
-      - <https://typstify.com/> 
+
 
 ## PDF
 <https://github.com/abhi18av/awesome-pdf>
@@ -175,18 +150,6 @@ parent: Diverses
         - *Transaktionsdruck wiederum beschreibt das Drucken von Dokumenten, mit denen Transaktionen dokumentiert werden. Darunter fallen etwa Rechnungen, Mahnungen, Lieferscheine, Quittungen oder andere Schriftstücke, die den Austausch von Waren oder Dienstleistungen dokumentieren.*
 
 ### Tools
-- **Chrome**
-  - `google-chrome --headless --disable-gpu --no-pdf-header-footer --hide-scrollbars --print-to-pdf-margins="0,0,0,0" --print-to-pdf --window-size=1280,720 https://example.com` 
-- **gotenberg**
-  - <https://github.com/thecodingmachine/gotenberg>
-  - <https://thecodingmachine.github.io/gotenberg/>
-  - Go-based, Lizenz: MIT
-  - sehr guter CSS3 support (Grid)
-  - *Docker-powered stateless API for converting HTML, Markdown and Office documents to PDF*
-- **wkhthmltopdf**
-  - <https://wkhtmltopdf.org/>
-  - *command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine. These run entirely "headless" and do not require a display or display service.*
-  - kaum CSS3 support
 - **PDFtk**
   - <https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/>
   - *a simple tool for doing everyday things with PDF documents.*
@@ -199,9 +162,6 @@ parent: Diverses
 - **iText RUPS**
   - *allows you to look inside a PDF document and browse the different PDF objects and content streams.*
   - <https://github.com/itext/rups>
-- **TeX, LaTeX**
-  - <https://de.wikipedia.org/wiki/LaTeX>
-  - <https://www.latex-project.org/get/>
 - **Parsr**
   - <https://github.com/axa-group/Parsr>
   - *Transforms PDF, Documents and Images into Enriched Structured Data*
@@ -233,26 +193,9 @@ parent: Diverses
 - **mutool**
   - <https://www.mankier.com/1/mutool>
   - *all purpose tool for dealing with PDF files*
-- **PDFMonkey** 💰🌥
-  - <https://www.pdfmonkey.io/>
-  - PDFs generieren anhand von Html-/Css-Templates + JSON-API
 - **PDF Accessibility Checker (PAC)**
   - *designed to easily identify all of the machine verifiable success criterion of ISO 14289-1 (PDF/UA) and WCAG* 
   - <https://pdfua.foundation/en/pdf-accessibility-checker-pac/>
-- **QuestPDF**
-  - *NET library for PDF document generation. Offering comprehensive layout engine powered by concise and discoverable C# Fluent API.*
-  - <https://github.com/QuestPDF/QuestPDF>
-- **Htmldocs**
-  - *typesetting documents using HTML/CSS*
-  - *uses Chromium to generate PDFs*
-  - <https://htmldocs.com/>
-- **PrinceXML** 💰
-  - *Convert HTML to PDF* 
-  - <https://www.princexml.com/>
-- **WeasyPrint**
-  - *visual rendering engine for HTML and CSS that can export to PDF.*
-  - Python Lib oder Docker
-  - <https://github.com/Kozea/WeasyPrint> <img loading="lazy" src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=flat-square"/>
 - **Docling**
   - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
   - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
@@ -295,10 +238,6 @@ parent: Diverses
   - *System Requirements: 8GB RAM (minimum)*
   - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
   - <https://github.com/Zipstack/unstract>
-- **MarkItDown**
-  - *Python tool for converting files and office documents to Markdown.*
-  - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
-  - <https://github.com/microsoft/markitdown>
 - **Extractous**
   - *unstructured data extraction. Written in Rust with bindings for many languages.*
   - *for extracting content and metadata from various documents types such as PDF, Word, HTML, and many other formats [Images, E-Mails, Office formats]* 
@@ -306,7 +245,85 @@ parent: Diverses
 - **BentoPDF**
   - *allows you to manipulate, edit, merge, and process PDF files directly in your browser*
   - <https://github.com/alam00000/bentopdf> 
- 
+
+#### Generation
+- **Pandoc**
+  - <https://github.com/jgm/pandoc> <img loading="lazy" src="https://img.shields.io/github/stars/jgm/pandoc?style=flat-square"/>
+  - *Universal markup converter*
+  - *to/from docx, html, markdown, pdf, ...*
+  - *Pandoc has an option to pack all images and styles needed to render the page into one html file (`pandoc --self-contained input.html -o output.html`)*
+  - CLI oder Webserver
+  - PDF
+    - <https://pandoc.org/MANUAL.html#option--pdf-engine> 
+    - <https://pandoc.org/MANUAL.html#creating-a-pdf> 
+    - Standards: A, X, UA-2 (<https://pandoc.org/MANUAL.html#accessible-pdfs-and-pdf-archiving-standards>)
+- **typst**
+  - *typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use*
+  - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
+  - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
+  - Issue: Support für Formularfelder: <https://github.com/typst/typst/issues/4368>
+  - Package Library: <https://typst.app/universe/>
+  - <https://typst.app/blog/2025/automated-generation>
+  - <u>Tools</u>
+    - <https://github.com/qjcg/awesome-typst>
+    - Tinymist
+      - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
+      - <https://github.com/Myriad-Dreamin/tinymist>
+    - tytanic
+      - *test runner for Typst projects* 
+      - <https://github.com/typst-community/tytanic>
+    - testyfy
+      - assert / validate
+      - <https://typst.app/universe/package/testyfy>
+    - Typstify
+      - Editor
+      - <https://typstify.com/> 
+- **MarkItDown**
+  - *Python tool for converting files and office documents to Markdown.*
+  - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
+  - <https://github.com/microsoft/markitdown>
+- **QuestPDF**
+  - *NET library for PDF document generation. Offering comprehensive layout engine powered by concise and discoverable C# Fluent API.*
+  - <https://github.com/QuestPDF/QuestPDF>
+- **Htmldocs**
+  - *typesetting documents using HTML/CSS*
+  - *uses Chromium to generate PDFs*
+  - <https://htmldocs.com/>
+- **PrinceXML** 💰
+  - *Convert HTML to PDF* 
+  - <https://www.princexml.com/>
+  - Standards: <https://www.princexml.com/doc/prince-output/#pdf-versions-and-profiles>
+  - Forms: <https://www.princexml.com/doc/prince-output/#pdf-forms>
+  - a11y: <https://www.princexml.com/doc/prince-output/#pdf-accessibility>
+- **WeasyPrint**
+  - *visual rendering engine for HTML and CSS that can export to PDF.*
+  - Python Lib oder Docker
+  - <https://github.com/Kozea/WeasyPrint> <img loading="lazy" src="https://img.shields.io/github/stars/Kozea/WeasyPrint?style=flat-square"/>
+- **Chrome**
+  - `google-chrome --headless --disable-gpu --no-pdf-header-footer --hide-scrollbars --print-to-pdf-margins="0,0,0,0" --print-to-pdf --window-size=1280,720 https://example.com` 
+- **gotenberg**
+  - <https://github.com/thecodingmachine/gotenberg>
+  - <https://thecodingmachine.github.io/gotenberg/>
+  - Go-based, Lizenz: MIT
+  - *Docker-powered stateless API for converting HTML, Markdown and Office documents to PDF*
+  - HTML to PDF: <https://gotenberg.dev/docs/convert-with-chromium/convert-html-to-pdf>
+  - Form fields: ?
+  - Standards: <https://gotenberg.dev/docs/convert-with-chromium/convert-html-to-pdf#pdfa--pdfua>
+- **wkhthmltopdf**
+  - <https://wkhtmltopdf.org/>
+  - *command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine. These run entirely "headless" and do not require a display or display service.*
+  - kaum CSS3 support
+- **TeX, LaTeX**
+  - <https://de.wikipedia.org/wiki/LaTeX>
+  - <https://www.latex-project.org/get/>
+- **PDFMonkey** 💰🌥
+  - <https://www.pdfmonkey.io/>
+  - PDFs generieren anhand von Html-/Css-Templates + JSON-API
+- **itext**
+  - <https://itextpdf.com>
+  - itext pdfHTML
+    - *add-on that allows you to easily convert HTML and CSS into standards compliant PDFs that are accessible, searchable and usable for indexing* 
+    - <https://github.com/itext/itext-pdfhtml-java/>
      
 #### Vergleich
 - <https://github.com/red6/pdfcompare> (Java)
