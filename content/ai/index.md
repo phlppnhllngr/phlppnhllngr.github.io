@@ -266,6 +266,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *AI Assistant For Software Developers*
   - <https://www.tabnine.com>
 - **Cline**
+  - *Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more* 
   - <https://github.com/cline/cline> <img loading="lazy" src="https://img.shields.io/github/stars/cline/cline?style=flat-square"/>
 - **Roo Code**
    - Fork von Cline
@@ -503,6 +504,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *multilingual language models tailored to European languages* 
   - <https://huggingface.co/eurollm-team>
   - <https://huggingface.co/utter-project/EuroLLM-9B-Instruct>
+- **Olmo** 
+  - <https://allenai.org/olmo>
+ 
+### Small LLMs
 - **TeapotLLM**
   - *small language model optimized to run locally on resource-constrained devices such as smartphones and CPUs.*
   - *the model and embedding model can fit in ~2GB CPU RAM*
@@ -511,8 +516,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **IBM Granite Nano**
   - 350 M - 1 Mrd Parameter
   - <https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models>
-- **Olmo** 
-  - <https://allenai.org/olmo> 
+- **MobileLLM**
+  - <https://github.com/facebookresearch/MobileLLM>
+- **MobiLLama**
+  - <https://github.com/mbzuai-oryx/mobillama> 
 
 
 ## Agents
