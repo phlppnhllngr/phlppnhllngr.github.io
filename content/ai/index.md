@@ -311,10 +311,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://www.anthropic.com/claude-code>
   - <https://www.anthropic.com/engineering/claude-code-best-practices>
   - [HN - Getting good results from Clausde Code, 08/2025](https://news.ycombinator.com/item?id=44836879)
+  - kein free tier (04/2026)
   - opcode
     - *GUI app and Toolkit for Claude Code* 
     - <https://github.com/getAsterisk/opcode> 
 - **OpenAI Codex**
+  - Agent-Plugin für Intellij, VSC, Cursor, Warp 
   - <https://openai.com/codex/>
 - **Gemini CLI**
   - [HN: Gemini CLI tips and tricks for agentic coding, 11/2025](https://news.ycombinator.com/item?id=46060508) 
