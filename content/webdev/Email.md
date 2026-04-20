@@ -21,6 +21,8 @@ parent: Webdev
   - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
   - VSC Extension: <https://github.com/cytostatic/mjml-editor>
   - <https://www.mjmlbuilder.com/>
+- **mjml-react**
+  - <https://github.com/faire/mjml-react> 
 - **caniemail**
   - <https://www.caniemail.com/>
   - *similar to caniuse.com dedicated to support in email clients*
@@ -34,6 +36,8 @@ parent: Webdev
   - *Create beautiful emails and landing pages, fast. BEE is the best drag & drop editor for designing mobile responsive emails and landing pages.* 
   - <https://beefree.io/>
 - **Foundation for Emails**
+  - *framework for creating responsive HTML emails* 
+  - <https://github.com/foundation/foundation-emails> 
   - <https://get.foundation/emails.html>
 - **react-email**
   - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
@@ -90,17 +94,21 @@ parent: Webdev
   - Drag-and-drop Email-Designer
   - <https://github.com/SendWithSES/Drag-and-Drop-Email-Designer>
   - <https://news.ycombinator.com/item?id=41007403>
+- **Email.md**
+  - *Render markdown into email-safe HTML*
+  - *Built with MJML under the hood*
+  - [Show HN, 03/2026](https://news.ycombinator.com/item?id=47505144)
+  - <https://github.com/unmta/emailmd> 
 
 ## Test
 - **Testi@**
   - *Email render testing preview*
-  - $$$ (free tier)
+  - $ (free tier)
   - <https://testi.at/>
-- **Litmus**
+- **Litmus** ($)
   - email testing
-  - $$$
   - <https://www.litmus.com/email-testing/>
-- **Email on acid**
+- **Email on acid** ($)
   - <https://www.emailonacid.com/>
  
 ## Anderes
