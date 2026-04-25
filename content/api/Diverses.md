@@ -24,6 +24,7 @@ JSON Patch is specified in RFC 6902 from the IETF.*
 ## Idempotenz
 - <https://docs.stripe.com/api/idempotent_requests>
 - <https://old.reddit.com/r/programming/comments/1cnvy7y/how_stripe_prevents_double_payment_using/>
+- [HN: Idempotency keys for exactly-once processing, 11/2025](https://news.ycombinator.com/item?id=46106411)
 
 
 ## API Versionierung
