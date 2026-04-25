@@ -277,7 +277,8 @@ parent: Diverses
       - <https://typst.app/universe/package/testyfy>
     - Typstify
       - Editor
-      - <https://typstify.com/> 
+      - <https://typstify.com/>
+  - [Typst Examples Book](https://sitandr.github.io/typst-examples-book/book/)
 - **MarkItDown**
   - *Python tool for converting files and office documents to Markdown.*
   - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
