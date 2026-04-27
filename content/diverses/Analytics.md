@@ -149,5 +149,9 @@ parent: Diverses
   - <https://github.com/rilldata/rill>
 - **datavzrd**
   - *create visual HTML reports from collections of CSV/TSV tables* 
-  - <https://github.com/datavzrd/datavzrd> 
+  - <https://github.com/datavzrd/datavzrd>
+- **Shaper**
+  - *SQL-driven Data Dashboards powered by DuckDB*
+  - *Query across Data Sources, Automated Reporting, Git-Based Workflow, SQL-first* 
+  - <https://github.com/taleshape-com/shaper> 
 
