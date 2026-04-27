@@ -16,6 +16,13 @@ parent: Datenbank
 - *Rule #1: If its linked by it, filtered by it, or sorted by it....index by it.*
 - <https://architecturenotes.co/things-you-should-know-about-databases/>
 
+
+## Inhalt
+{: .no_toc }
+- TOC
+{:toc}
+
+
 ## IDs
 - [Vlad Mihalcea: The best UUID type for a database Primary Key](https://vladmihalcea.com/uuid-database-primary-key/)
 - **auto generated**
@@ -98,7 +105,11 @@ parent: Datenbank
   - *language-agnostic tool for managing and migrating database schemas*
   - *Inspect a specific PostgreSQL schema and get its ERD representation in the browser*
   - *Supported databases: MySQL, MariaDB, PostgresSQL, SQLite, TiDB, CockroachDB, SQL Server, ClickHouse.* 
-  - <https://github.com/ariga/atlas> 
+  - <https://github.com/ariga/atlas>
+- **Sqitch**
+  - *Changes are implemented as scripts native to your selected database engine* 
+  - Postgres, SQLite, MySQL, ... 
+  - <https://github.com/sqitchers/sqitch> 
 
 
 ## Change data capture
@@ -249,3 +260,17 @@ parent: Datenbank
   - *useful for implementing a job queue (a.k.a batch queue) so that you can skip over locks that are already locked by a concurrent transaction.*
 - **no wait**
   - *useful for avoiding waiting until a concurrent transaction releases the locks that we are also interested in locking. Without NO WAIT, we either have to wait until the locks are released (at commit or release time by the transaction that currently holds the locks) or the lock acquisition times out. NO WAIT acts as a lock timeout with a value of 0.*
+
+
+## sonstige Tools
+- **ingestr**
+  - *a CLI tool to copy data between any databases*
+  - benötigt Python
+  - unterstützte Quellen: DB2, CSV, Postgres, ... 
+  - <https://github.com/bruin-data/ingestr>
+- **SQL-tap**
+  - *Watch SQL traffic in real-time with a TUI*
+  - *sits between your application and your database (PostgreSQL, MySQL, or TiDB), capturing every query and displaying it in an interactive terminal UI.* 
+  - <https://github.com/mickamy/sql-tap>
+  - [Show HN, 02/2026](https://news.ycombinator.com/item?id=47011567)
+  
