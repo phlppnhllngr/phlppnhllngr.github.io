@@ -262,23 +262,25 @@ parent: Diverses
   - <https://github.com/typst/typst> <img loading="lazy" src="https://img.shields.io/github/stars/typst/typst?style=flat-square"/>
   - [HN: Using Pandoc and Typst to Produce PDFs, 01/2025](https://news.ycombinator.com/item?id=42271078)
   - Issue: Support für Formularfelder: <https://github.com/typst/typst/issues/4368>
-  - Package Library: <https://typst.app/universe/>
   - <https://typst.app/blog/2025/automated-generation>
+  - [Typst Examples Book](https://sitandr.github.io/typst-examples-book/book/)
+  - <https://raw.githubusercontent.com/mewmew/typst-cheat-sheet/master/cheat-sheet.pdf>
+  - Package Library: <https://typst.app/universe/>
+    - testyfy
+      - assert / validate
+      - <https://typst.app/universe/package/testyfy> 
   - <u>Tools</u>
     - <https://github.com/qjcg/awesome-typst>
+    - <https://github.com/YDX-2147483647/best-of-typst>
     - Tinymist
       - *contains: an analyzing library, a CLI, a language server, a preview server, a VSCode extension*
       - <https://github.com/Myriad-Dreamin/tinymist>
     - tytanic
       - *test runner for Typst projects* 
       - <https://github.com/typst-community/tytanic>
-    - testyfy
-      - assert / validate
-      - <https://typst.app/universe/package/testyfy>
     - Typstify
       - Editor
       - <https://typstify.com/>
-  - [Typst Examples Book](https://sitandr.github.io/typst-examples-book/book/)
 - **MarkItDown**
   - *Python tool for converting files and office documents to Markdown.*
   - *currently supports the conversion from: PDF, Word, Excel, Images, Audio, HTML, Text-based formats (CSV, JSON, XML), ZIP files (iterates over contents), Youtube URLs ... and more!* 
