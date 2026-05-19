@@ -106,11 +106,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Python based framework for building end-2-end AI-data workflows and applications on your own data, integrating with major databases.*
   - *It supports the latest technologies and techniques, including LLMs, vector-search, RAG, multimodality as well as classical AI and ML paradigms.*
   - <https://github.com/superduper-io/superduper> <img loading="lazy" src="https://img.shields.io/github/stars/superduper-io/superduper?style=flat-square"/>
-- **OpenRouter**
-  - *A unified interface for LLMs*
-  - *No need to change your code when switching between models or providers*
-  - <https://openrouter.ai/>
-  - <https://openrouter.ai/docs/principles>
 - **ChainForge**
   - *open-source visual programming environment for battle-testing prompts to LLMs.* 
   - <https://github.com/ianarawjo/ChainForge> <img loading="lazy" src="https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat-square"/>
@@ -615,6 +610,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
-## Plattformen
+## Plattformen, Inference Providers
+- <https://github.com/cheahjs/free-llm-api-resources>
+- **OpenRouter**
+  - *A unified interface for LLMs*
+  - *No need to change your code when switching between models or providers*
+  - <https://openrouter.ai/>
+  - <https://openrouter.ai/docs/principles>
 - **Microsoft Foundry**
   - <https://ai.azure.com/>
