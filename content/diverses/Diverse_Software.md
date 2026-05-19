@@ -196,10 +196,6 @@ parent: Diverses
   - *simple HTTP-based pub-sub notification service. With ntfy, you can send notifications to your phone or desktop via scripts from any computer*
   - *The ntfy CLI allows you to publish messages, subscribe to topics as well as to self-host your own ntfy server.*
   - <https://github.com/binwiederhier/ntfy>
-- **Presidio**
-  - *PII de-identification service for text and images*
-  - *provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers, bitcoin wallets, US phone numbers, financial data and more*
-  - <https://github.com/microsoft/presidio>
 - **UneeBee**
   - *Open-source alternative to create interactive courses like Duolingo*
   - <https://github.com/zoonk/uneebee>
@@ -464,3 +460,23 @@ parent: Diverses
   - <https://github.com/odoo/odoo> <img loading="lazy" src="https://img.shields.io/github/stars/odoo/odoo?style=flat-square"/>
 - **SuiteCRM**
   - <https://github.com/SuiteCRM/SuiteCRM> <img loading="lazy" src="https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=flat-square"/>
+
+
+## PII Scrubber
+- **Presidio**
+  - *PII de-identification service for text and images*
+  - *provides fast identification and anonymization modules for private entities in text such as credit card numbers, names, locations, social security numbers, bitcoin wallets, US phone numbers, financial data and more*
+  - <https://github.com/microsoft/presidio>
+- **OpenAI Privacy Filter**
+  - *Open-Weight-Modell zur Erkennung und Schwärzung personenbezogener Daten (PII) in Texten*
+  - <https://huggingface.co/openai/privacy-filter>
+  - <https://news.ycombinator.com/item?id=47870901>
+  - privacy-parser
+    - *Reverse of OpenAI Privacy Filter: same 1.5B model, returns PII as structured spans instead of masking.*  
+    - <https://github.com/chiefautism/privacy-parser>
+- **GLiNER**
+  - <https://github.com/urchade/GLiNER>
+  - GLiNER vs privacy-filter: <https://heyneo.com/blog/pii-filter-model-eval> 
+- **anon-proxy**
+  - *Use LLM APIs on sensitive data without sending raw PII to the cloud. A local privacy proxy that masks personal information before requests leave your device and unmasks it in responses.* 
+  - <https://github.com/KevinXuxuxu/anon_proxy>
