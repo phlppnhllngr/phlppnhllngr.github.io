@@ -5,53 +5,24 @@ parent: Webdev
 
 # Email
 - [HN: Stop using encrypted email (2020)](https://news.ycombinator.com/item?id=44252093)
+- <https://github.com/jonathandion/awesome-emails>
 
-## Frameworks & Tools
+## Tools
 - [HN - Tables no longer needed for HTML email, 04/23](https://news.ycombinator.com/item?id=35497799)
   - *The new Outlook switches rendering engines from Microsoft Word to Edge. Support for CSS features in the new Outlook application appears to be identical to that of outlook.com, which is a great leap forward*
   - *Gmail has a 102KB size-limit for HTML. After that it will truncate the email with the words "[Message clipped]"*
 -<https://old.reddit.com/r/webdev/comments/15trnp2/why_does_email_development_have_to_suck/>
 - **emailresourc.es**
   - <https://emailresourc.es/>
-- **mjml**
-  - Transpiler für Email-Templates 
-  - <https://github.com/mjmlio/mjml> <img loading="lazy" src="https://img.shields.io/github/stars/mjmlio/mjml?style=flat-square"/>
-  - *the only framework that makes responsive-email easy*
-  - <https://mjml.io/try-it-live>
-  - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
-  - VSC Extension: <https://github.com/cytostatic/mjml-editor>
-  - <https://www.mjmlbuilder.com/>
-- **mjml-react**
-  - <https://github.com/faire/mjml-react> 
 - **caniemail**
   - <https://www.caniemail.com/>
   - *similar to caniuse.com dedicated to support in email clients*
-- **mailwind**
-  - *Use Tailwind CSS to design HTML emails.* 
-  - <https://github.com/soheilpro/mailwind> <img loading="lazy" src="https://img.shields.io/github/stars/soheilpro/mailwind?style=flat-square"/>
 - **Cerberus**
   - *A few simple, but solid patterns for responsive HTML email templates and newsletters. Even in Outlook and Gmail.*
   - <https://github.com/TedGoas/Cerberus> <img loading="lazy" src="https://img.shields.io/github/stars/TedGoas/Cerberus?style=flat-square"/>
 - **BEE**
   - *Create beautiful emails and landing pages, fast. BEE is the best drag & drop editor for designing mobile responsive emails and landing pages.* 
   - <https://beefree.io/>
-- **Foundation for Emails**
-  - *framework for creating responsive HTML emails* 
-  - <https://github.com/foundation/foundation-emails> 
-  - <https://get.foundation/emails.html>
-- **react-email**
-  - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
-  - <https://github.com/resend/react-email> <img loading="lazy" src="https://img.shields.io/github/stars/resend/react-email?style=flat-square"/>
-- **Resend**
-  - basiert auf react-email
-  - *Build, test, and deliver transactional emails*
-  - SaaS, free tier
-  - Launch HN: <https://news.ycombinator.com/item?id=36309120>
-  - react-email & Resend (07/23): <https://www.youtube.com/watch?v=Xa1WaSPu5K8>
-- **Maizzle**
-  - *framework that helps you quickly build HTML emails with Tailwind CSS and advanced, email-specific post-processing* 
-  - <https://maizzle.com/>
-  - <https://github.com/maizzle/maizzle>
 - **MailDev**
   - *SMTP Server + Web Interface for viewing and testing emails during development*
   - *optionally supports selectively relaying email to an outgoing SMTP server*
@@ -61,9 +32,6 @@ parent: Webdev
     - *Ability to receive and view email attachments*
   - Nodejs, Docker
   - <https://github.com/maildev/maildev>
-- **mailchimp/email-blueprints**
-  - *collection of HTML email templates that can serve as a solid foundation and starting point for the design of emails*
-  - <https://github.com/mailchimp/email-blueprints>
 - **smtp4dev**
   - *fake smtp email server for development and testing* 
   - <https://github.com/rnwood/smtp4dev>
@@ -87,18 +55,61 @@ parent: Webdev
   - *acts as a virtual (mocking/sandbox) mail server and supports common mail protocols SMTP, IMAP and POP3*
   - *Embeds in JUnit test for integration testing*
   - <https://github.com/greenmail-mail-test/greenmail>
-- **Tabler**
-  - Templates 
-  - <https://tabler.io/emails/gallery>
 - **Sendune**
   - Drag-and-drop Email-Designer
   - <https://github.com/SendWithSES/Drag-and-Drop-Email-Designer>
   - <https://news.ycombinator.com/item?id=41007403>
+- **jsx-email**
+  - *Build and send emails using React and TypeScript.* 
+  - <https://github.com/shellscape/jsx-email> 
+
+## Templates
+- **mjml**
+  - Transpiler für Email-Templates 
+  - <https://github.com/mjmlio/mjml> <img loading="lazy" src="https://img.shields.io/github/stars/mjmlio/mjml?style=flat-square"/>
+  - *the only framework that makes responsive-email easy*
+  - <https://mjml.io/try-it-live>
+  - <https://www.joshwcomeau.com/react/wonderful-emails-with-mjml-and-mdx/>
+  - VSC Extension: <https://github.com/cytostatic/mjml-editor>
+  - <https://www.mjmlbuilder.com/>
+- **mjml-react**
+  - <https://github.com/faire/mjml-react> 
 - **Email.md**
   - *Render markdown into email-safe HTML*
   - *Built with MJML under the hood*
   - [Show HN, 03/2026](https://news.ycombinator.com/item?id=47505144)
-  - <https://github.com/unmta/emailmd> 
+  - <https://github.com/unmta/emailmd>
+- **Tabler**
+  - Templates 
+  - <https://tabler.io/emails/gallery>
+- **Foundation for Emails**
+  - *framework for creating responsive HTML emails* 
+  - <https://github.com/foundation/foundation-emails> 
+  - <https://get.foundation/emails.html>
+- **react-email**
+  - *A collection of high-quality, unstyled components for creating beautiful emails using React and TypeScript. It reduces the pain of coding responsive emails with dark mode support. It also takes care of inconsistencies between Gmail, Outlook, and other email clients for you.* 
+  - <https://github.com/resend/react-email> <img loading="lazy" src="https://img.shields.io/github/stars/resend/react-email?style=flat-square"/>
+- **Resend**
+  - basiert auf react-email
+  - *Build, test, and deliver transactional emails*
+  - SaaS, free tier
+  - Launch HN: <https://news.ycombinator.com/item?id=36309120>
+  - react-email & Resend (07/23): <https://www.youtube.com/watch?v=Xa1WaSPu5K8>
+- **Maizzle**
+  - *framework that helps you quickly build HTML emails with Tailwind CSS and advanced, email-specific post-processing* 
+  - <https://maizzle.com/>
+  - <https://github.com/maizzle/maizzle>
+- **mailwind**
+  - *Use Tailwind CSS to design HTML emails.* 
+  - <https://github.com/soheilpro/mailwind> <img loading="lazy" src="https://img.shields.io/github/stars/soheilpro/mailwind?style=flat-square"/>
+- **mailchimp/email-blueprints**
+  - *collection of HTML email templates that can serve as a solid foundation and starting point for the design of emails*
+  - <https://github.com/mailchimp/email-blueprints>
+- **mailing**
+  - *Build, test, send emails with React*
+  - basiert auf MJML 
+  - <https://github.com/sofn-xyz/mailing> 
+
 
 ## Test
 - **Testi@**
