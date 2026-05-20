@@ -43,7 +43,7 @@ parent: DevOps
   - <https://github.com/louislam/uptime-kuma>
 - **Gatus**
   - *developer-oriented health dashboard*
-  - <https://github.com/TwiN/gatus>
+  - <https://github.com/TwiN/gatus> <img loading="lazy" src="https://img.shields.io/github/stars/TwiN/gatus?style=flat-square"/>
 - **NewRelic** 💰
   - <https://newrelic.com/>
   - *supports applications developed in Java, Scala, Ruby, Python, PHP, .NET, and Node.js*
@@ -167,45 +167,46 @@ parent: DevOps
 - **statsd**
   - *Daemon for easy but powerful stats aggregation*
   - *A network daemon that runs on the Node.js platform and listens for statistics, like counters and timers, sent over UDP or TCP and sends aggregates to one or more pluggable backend services (e.g., Graphite).* 
-  - <https://github.com/statsd/statsd>
+  - <https://github.com/statsd/statsd> <img loading="lazy" src="https://img.shields.io/github/stars/statsd/statsd?style=flat-square"/>
 - **Promscale**
+  - Repo archiviert 04/2024 
   - *a unified metric and trace observability backend for Prometheus, Jaeger and OpenTelemetry built on PostgreSQL and TimescaleDB*
   - *Unlike other observability backends, it has a simple and easy-to-manage architecture with just two components: the Promscale Connector and the Promscale Database (PostgreSQL with the TimescaleDB and Promscale extensions)*
-  - <https://github.com/timescale/promscale>
+  - <https://github.com/timescale/promscale> <img loading="lazy" src="https://img.shields.io/github/stars/timescale/promscale?style=flat-square"/>
 - **Uptrace**
   - *APM tool with support for distributed tracing, metrics, and logs*
   - *You can use it to monitor applications and set up automatic alerts to receive notifications via email, Slack, Telegram, and more*
   - *uses OpenTelelemetry to collect data and ClickHouse database to store it. ClickHouse is the only dependency.* 
-  - <https://github.com/uptrace/uptrace>
+  - <https://github.com/uptrace/uptrace> <img loading="lazy" src="https://img.shields.io/github/stars/uptrace/uptrace?style=flat-square"/>
 - **VictoriaMetrics**
   - *fast, cost-effective monitoring solution and time series database*
   - *can be used as long-term storage for Prometheus. can be used as a drop-in replacement for Prometheus in Grafana, because it supports Prometheus querying API. can be used as a drop-in replacement for Graphite in Grafana, because it supports Graphite API.*
   - *consists of a single small executable without external dependencies*
-  - <https://github.com/VictoriaMetrics/VictoriaMetrics> 
+  - <https://github.com/VictoriaMetrics/VictoriaMetrics> <img loading="lazy" src="https://img.shields.io/github/stars/VictoriaMetrics/VictoriaMetrics?style=flat-square"/>
 - **Keep**
   - *Simple Alerting tool*
-  - <https://github.com/keephq/keep>
+  - <https://github.com/keephq/keep> <img loading="lazy" src="https://img.shields.io/github/stars/keephq/keep?style=flat-square"/>
 - **tempo**
   - *easy-to-use and high-scale distributed tracing backend. Tempo is cost-efficient, requiring only object storage to operate, and is deeply integrated with Grafana, Prometheus, and Loki.*
   - *Tempo is Jaeger, Zipkin, Kafka, OpenCensus and OpenTelemetry compatible. It ingests batches in any of the mentioned formats, buffers them and then writes them to Azure, GCS, S3 or local disk. As such it is robust, cheap and easy to operate!* 
-  - <https://github.com/grafana/tempo>
+  - <https://github.com/grafana/tempo> <img loading="lazy" src="https://img.shields.io/github/stars/grafana/tempo?style=flat-square"/>
 - **Pyroscope**
   - *continuous profiling platform*
   - *Debug performance issues down to a single line of code*
   - Unterstützte Langs: Go, Java (via async-profiler), Python, Ruby, NodeJs, .NET, Rust 
-  - <https://github.com/grafana/pyroscope>
+  - <https://github.com/grafana/pyroscope> <img loading="lazy" src="https://img.shields.io/github/stars/grafana/pyroscope?style=flat-square"/>
 - **Hertzbeat**
   - <https://github.com/apache/hertzbeat> <img loading="lazy" src="https://img.shields.io/github/stars/apache/hertzbeat?style=flat-square"/>
 - **Coroot**
   - *open-source APM & Observability tool, a DataDog and NewRelic alternative*
   - *Metrics, logs, traces, and profiles are gathered automatically by using eBPF* 
-  - <https://github.com/coroot/coroot>
+  - <https://github.com/coroot/coroot> <img loading="lazy" src="https://img.shields.io/github/stars/coroot/coroot?style=flat-square"/>
 - **DeepFlow**
   - *eBPF-powered observability & zero-code distributed tracing* 
   - <https://github.com/deepflowio/deepflow> <img loading="lazy" src="https://img.shields.io/github/stars/deepflowio/deepflow?style=flat-square"/>
 - **OneUptime**
   - *complete open-source observability platform* 
-  - <https://github.com/OneUptime/oneuptime>
+  - <https://github.com/OneUptime/oneuptime> <img loading="lazy" src="https://img.shields.io/github/stars/OneUptime/oneuptime?style=flat-square"/>
 - **OpenObserve**
   - *observability platform built specifically for logs, metrics, traces, analytics, RUM (Real User Monitoring - Performance, Errors, Session Replay)* 
   - <https://github.com/openobserve/openobserve> <img loading="lazy" src="https://img.shields.io/github/stars/openobserve/openobserve?style=flat-square"/>
