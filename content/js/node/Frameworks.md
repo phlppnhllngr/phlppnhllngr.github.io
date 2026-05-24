@@ -38,5 +38,5 @@ grand_parent: JavaScript
   - <https://github.com/honojs/hono> <img loading="lazy" src="https://img.shields.io/github/stars/honojs/hono?style=flat-square"/>
 - **Oak**
   - *A middleware framework for handling HTTP with Deno, Node, Bun and Cloudflare Workers* 
-  - <https://github.com/oakserver/oak> <img loading="lazy" src="https://img.shields.io/github/stars/honojs/hono?style=flat-square"/>
+  - <https://github.com/oakserver/oak> <img loading="lazy" src="https://img.shields.io/github/stars/oakserver/oak?style=flat-square"/>
   
