@@ -33,3 +33,10 @@ grand_parent: JavaScript
 - **tinyhttp**
   - *tiny & fast web framework as a replacement of Express*
   - <https://github.com/talentlessguy/tinyhttp> <img loading="lazy" src="https://img.shields.io/github/stars/talentlessguy/tinyhttp?style=flat-square"/>
+- **Hono**
+  - *works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Lambda@Edge, and Node.js* 
+  - <https://github.com/honojs/hono> <img loading="lazy" src="https://img.shields.io/github/stars/honojs/hono?style=flat-square"/>
+- **Oak**
+  - *A middleware framework for handling HTTP with Deno, Node, Bun and Cloudflare Workers* 
+  - <https://github.com/oakserver/oak> <img loading="lazy" src="https://img.shields.io/github/stars/honojs/hono?style=flat-square"/>
+  
