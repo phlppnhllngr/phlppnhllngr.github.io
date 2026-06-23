@@ -18,6 +18,12 @@ grand_parent: DevOps
   ```
   - *start a debugger container that will share the pid and net namespaces of the target. The debugger container can (and probably should) bring its own tools, and using ps or ip in it will show the exact same process tree and the network stack as the target container sees itself ...  there are three namespaces that can be shared this way: pid, net, and ipc. The last one, though, can be shared only if the target itself was (re)started with --ipc 'shareable'*
   - *The docker run (or docker create) command doesn't allow sharing the mnt namespace. It means that the filesystem you see while in the debugger's shell is not the filesystem of the target container! With the pid namespace shared, you can still access the target's container filesystem using the following trick: `ls -l /proc/1/root/` or any other PID that belongs to the target container. But it might be quite confusing and limiting...*  (<https://iximiuz.com/en/posts/docker-debug-slim-containers/>)
+- Health-Check (HTTP) ohne curl, wget etc:
+  ```
+  docker run ... --health-cmd='/bin/bash /health-check.sh || exit 1' ...
+  # health-check.sh:
+  (exec 3<>/dev/tcp/localhost/8080 ; printf 'GET /actuator/health HTTP/1.1\r\nHost: localhost\r\nConnection: close\r\n\r\n' >&3 ; cat <&3 | grep -q "HTTP/1.1 200")
+  ```
 - IP-Adresse des (Windows-)Host bekommen <br/>
   `getent hosts docker.for.win.localhost | cut -d ' ' -f1` <br/>
   oder <br/>
