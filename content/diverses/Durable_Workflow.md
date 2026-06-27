@@ -52,7 +52,7 @@ parent: Diverses
   - <https://old.reddit.com/r/javascript/comments/1r18ld3/i_built_openworkflow_a_lightweight_alternative_to/>
 - **conductor**
   - *event driven agentic workflow engine providing durable and highly resilient execution engine for applications and AI Agents*
-  - <https://github.com/conductor-oss/conductor> <img loading="lazy" src="https://img.shields.io/github/stars/conductor-oss/conductor>?style=flat-square"/>
+  - <https://github.com/conductor-oss/conductor> <img loading="lazy" src="https://img.shields.io/github/stars/conductor-oss/conductor?style=flat-square"/>
 
 ### basierend auf Postgres
 - **DBOS**
