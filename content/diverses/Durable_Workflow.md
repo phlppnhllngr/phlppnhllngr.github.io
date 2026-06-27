@@ -60,15 +60,15 @@ parent: Diverses
   - *DBOS workflows make your program durable by checkpointing its state in Postgres*
   - Library; kein externer Service notwendig
   - Java, Python, TS, Go
-  - <https://github.com/dbos-inc/dbos-transact-java> <img loading="lazy" src="https://img.shields.io/github/stars/hatchet-dev/hatchet?style=flat-square"/>
+  - <https://github.com/dbos-inc/dbos-transact-java> <img loading="lazy" src="https://img.shields.io/github/stars/dbos-inc/dbos-transact-java?style=flat-square"/>
   - Vergleich mit Temporal, Airflow: <https://docs.dbos.dev/why-dbos#dbos-vs-other-systems>
   - [Show HN: DBOS Java – Postgres-Backed Durable Workflows, 11/2025](https://news.ycombinator.com/item?id=45920156)
   - [HN: Building durable workflows on Postgres (dbos.dev), 05/2026](https://news.ycombinator.com/item?id=48313530)
 - **absurd**
   - *the simplest durable execution workflow system you can think of. It's entirely based on Postgres and nothing else.* 
-  - <https://github.com/earendil-works/absurd> <img loading="lazy" src="https://img.shields.io/github/stars/earendil-works/absurd>?style=flat-square"/>
+  - <https://github.com/earendil-works/absurd> <img loading="lazy" src="https://img.shields.io/github/stars/earendil-works/absurd?style=flat-square"/>
 - **pg_durable**
-  - <https://github.com/microsoft/pg_durable>
+  - <https://github.com/microsoft/pg_durable> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/pg_durable?style=flat-square"/>
   - <https://news.ycombinator.com/item?id=48414367>
 - **PgQue**
-  - <https://github.com/NikolayS/pgque>  
+  - <https://github.com/NikolayS/pgque> <img loading="lazy" src="https://img.shields.io/github/stars/NikolayS/pgque?style=flat-square"/>
