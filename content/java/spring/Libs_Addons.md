@@ -38,6 +38,13 @@ grand_parent: Java
   - <https://github.com/ulisesbocchio/jasypt-spring-boot>
   - <https://www.baeldung.com/spring-boot-jasypt>
   - -> Java/Libs/Jasypt
+- **idempotent**
+  - *library that makes any method or service safe to retry — not just HTTP APIs. Duplicate calls return the cached result; concurrent callers wait for the first run instead of racing.* 
+  - <https://github.com/arun0009/idempotent>
+- **idempotency4j** 
+  - <https://github.com/josipmusa/idempotency4j> 
+- **logback-access-spring-boot-starter**
+  - <https://github.com/akkinoc/logback-access-spring-boot-starter> 
 
 
 ## Dokumentation
