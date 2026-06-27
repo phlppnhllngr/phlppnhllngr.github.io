@@ -396,7 +396,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://news.ycombinator.com/item?id=43282905>
   - <https://docs.mistral.ai/capabilities/OCR/document_understanding/>
 - **Deepseek OCR**
-  - <https://github.com/deepseek-ai/DeepSeek-OCR> 
+  - <https://github.com/deepseek-ai/DeepSeek-OCR>
+- **Textsnap**
+  - *Snap any image, screenshot, or webpage into plaintext. No GPU. No cloud. One command.*
+  - *Runs on CPU. A 0.9B PaddleOCR-VL-1.5 vision-language model*
+  - Python CLI Tool
+  - <https://github.com/kouhxp/textsnap> 
 
 
 ## Local LLM
@@ -489,6 +494,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Evidently**
   - *LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline*
   - <https://github.com/evidentlyai/evidently>
+- **Giskard**
+  - *Evals, Red Teaming and Test Generation for Agentic Systems* 
+  - <https://github.com/Giskard-AI/giskard-oss> <img loading="lazy" src="https://img.shields.io/github/stars/Giskard-AI/giskard-oss?style=flat-square"/>
 
 
 ## Models
