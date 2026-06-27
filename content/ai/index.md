@@ -381,7 +381,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - v3
     - erfordert keine GPU 
     - *expanding language support from English to 25 European languages* 
-    - <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3>  
+    - <https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3>
+- **VibeVoice**
+  - ASR, TTS 
+  - <https://github.com/microsoft/VibeVoice> 
 
 ### Vision & OCR
 - **OCRArena**
@@ -401,7 +404,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Snap any image, screenshot, or webpage into plaintext. No GPU. No cloud. One command.*
   - *Runs on CPU. A 0.9B PaddleOCR-VL-1.5 vision-language model*
   - Python CLI Tool
-  - <https://github.com/kouhxp/textsnap> 
+  - <https://github.com/kouhxp/textsnap>
+- **Moebius**
+  - *0.2B Lightweight Image Inpainting Framework with 10B-Level Performance* 
+  - <https://github.com/hustvl/Moebius>
+  - <https://news.ycombinator.com/item?id=48630171>
 
 
 ## Local LLM
@@ -500,6 +507,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## Models
+- **models.dev**
+  - *An open-source database of AI models*
+  - <https://models.dev/>
 - **OpenGPT-X/Teuken**
   - *multilingual large language model (LLM) pre-trained with 4T tokens in all official 24 European languages*
   - *renders more stable results across these languages and better reflects European values in its answers than English-centric models. It is therefore specialized for use in multilingual tasks.*
