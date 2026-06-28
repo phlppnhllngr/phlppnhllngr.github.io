@@ -47,6 +47,9 @@ grand_parent: DevOps
   - <https://docs.docker.com/engine/reference/commandline/history/>
 - **image**
   - ls
+- **init**
+  - *smart interactive wizard that analyzes your project and generates: A Dockerfile (multi-stage, production-ready), A compose.yaml file, A .dockerignore file, A README.Docker.md with build and run instructions* 
+  - <https://foojay.io/today/dockerizing-a-java-26-project-with-docker-init/> 
 - **inspect**
   - *provides detailed information on constructs controlled by Docker* 
   - <https://docs.docker.com/engine/reference/commandline/inspect/>
