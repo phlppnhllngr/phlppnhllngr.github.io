@@ -172,7 +172,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **LlamaIndex**
   - *provides a central interface to connect your LLM's with external data.*
   - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
-  - <https://github.com/jerryjliu/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/jerryjliu/llama_index?style=flat-square"/>
+  - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
 
 ### Browser
 - **Nxtscape**
