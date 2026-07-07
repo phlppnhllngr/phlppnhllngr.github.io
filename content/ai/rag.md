@@ -67,11 +67,11 @@ parent: AI
   - *In the retrieval phase, it handles query rewriting, vector search, LLM chat, chat history, and source references.*
   - *Our solid defaults will work for most use cases, but you can tune every part of your RAG to better suit your needs.*
   - <https://github.com/skaldlabs/skald>
- - **Chonkie**
+- **Chonkie**
   - *provides several chunkers to help you split your text efficiently for RAG applications*
   - Python Lib
   - <https://github.com/chonkie-inc/chonkie> <img loading="lazy" src="https://img.shields.io/github/stars/chonkie-inc/chonkie?style=flat-square"/>
- - **haiku.rag**
+- **haiku.rag**
   - *Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling* 
   - <https://github.com/ggozad/haiku.rag/> 
 
