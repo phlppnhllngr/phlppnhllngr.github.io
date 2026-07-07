@@ -155,7 +155,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **MindsDB**
   - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
   - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
-  - <https://github.com/mindsdb/mindsdb> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/mindsdb?style=flat-square"/>
+  - <https://github.com/mindsdb/engine> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/engine?style=flat-square"/>
 - **Khoj**
   - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
   - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
