@@ -173,6 +173,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *provides a central interface to connect your LLM's with external data.*
   - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
   - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
+- **Open WebUI**
+  - *extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG* 
+  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
 
 ### Browser
 - **Nxtscape**
