@@ -326,10 +326,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/warpdotdev/Warp>
 - **Rovo Dev**
   - <https://www.atlassian.com/blog/announcements/rovo-dev-command-line-interface>
-- **opencode**
+- **Opencode**
   - *AI coding agent, built for the terminal.*
   - *Not coupled to any provider. Although Anthropic is recommended, opencode can be used with OpenAI, Google or even local models*
-  - <https://github.com/sst/opencode>
+  - <https://github.com/sst/opencode> <img loading="lazy" src="https://img.shields.io/github/stars/sst/opencode?style=flat-square"/>
 - **crush**
   - Terminal-Agent 
   - *Multi-Model: choose from a wide range of LLMs or add your own via OpenAI- or Anthropic-compatible APIs* 
@@ -342,7 +342,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/langchain-ai/open-swe>
 - **Junie**
   - Plugins für Intellij IDEs & Android Studio 
-  - <https://www.jetbrains.com/de-de/junie/> 
+  - <https://www.jetbrains.com/de-de/junie/>
+- **Pi**
+  - *AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI* 
+  - <https://github.com/earendil-works/pi> <img loading="lazy" src="https://img.shields.io/github/stars/earendil-works/pi?style=flat-square"/>
  
 ### Audio, TTS, STT
 - <https://huggingface.co/spaces/hf-audio/open_asr_leaderboard>
