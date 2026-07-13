@@ -344,7 +344,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - Plugins für Intellij IDEs & Android Studio 
   - <https://www.jetbrains.com/de-de/junie/>
 - **Pi**
-  - *AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI* 
+  - *AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI*
+  - *does not include a built-in permission system for restricting filesystem, process, network, or credential access*
   - <https://github.com/earendil-works/pi> <img loading="lazy" src="https://img.shields.io/github/stars/earendil-works/pi?style=flat-square"/>
  
 ### Audio, TTS, STT
