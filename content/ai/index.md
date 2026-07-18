@@ -600,7 +600,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Kiln**
   - *Build, Evaluate, and Optimize AI Systems*
   - *Evals • RAG • Agents • Fine Tuning • Synthetic Data* 
-  - <https://github.com/kiln-ai/kiln> 
+  - <https://github.com/kiln-ai/kiln>
+- **OpenViking**
+  - *Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.*
+  - *abandons the fragmented vector storage model of traditional RAG and innovatively adopts a "file system paradigm" to unify the structured organization of memories, resources, and skills needed by Agents*
+  - *developers can build an Agent's brain just like managing local files*
+  - Plugins für Claude Code, OpenCode, Codex, pi, Cursor, ...
+  - <https://github.com/volcengine/OpenViking> 
 
 ### Best practices, Tipps
 - *ask it to create a plan*
