@@ -124,4 +124,41 @@ parent: AI
 - **LanceDB**
   - *embedded retrieval engine for multimodal AI* 
   - <https://github.com/lancedb/lancedb> <img loading="lazy" src="https://img.shields.io/github/stars/lancedb/lancedb?style=flat-square"/>
+- **SQLite**
+  - sqlite-vec
+    - <https://github.com/asg017/sqlite-vec> <img loading="lazy" src="https://img.shields.io/github/stars/asg017/sqlite-vec?style=flat-square"/>
 
+## Document understanding
+- **MindsDB**
+  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
+  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
+  - <https://github.com/mindsdb/engine> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/engine?style=flat-square"/>
+- **Khoj**
+  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
+  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
+- **AnythingLLM**
+  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
+  - *supporting multi-user management and permissions*
+  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
+- **ChatPDF**
+  - *can answer any question from any PDF* 
+  - <https://www.chatpdf.com/>
+- **mayooear/gpt4-pdf-chatbot-langchain**
+  - *Create a ChatGPT Chatbot for Your PDF Files* 
+  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
+- **LlamaIndex**
+  - *provides a central interface to connect your LLM's with external data.*
+  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
+  - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
+- **Open WebUI**
+  - *extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG* 
+  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
+- **OpenKnowledge**
+  - *markdown editor with integrations with Claude, Codex, and other harnesses. For knowledge bases, LLM wikis, specs, and notes. Private, local, and free* 
+  - <https://github.com/inkeep/open-knowledge>
+  - [Show HN, 06/2026](https://news.ycombinator.com/item?id=48675435)
+- **DocuBrowser**
+  - *turns a messy pile of documents into something you can actually search*
+  - *Point it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart index that understands not just keywords, but meaning*
+  - <https://github.com/linuxrebel/DocuBrowser>
+  - <https://news.ycombinator.com/item?id=48837110>
