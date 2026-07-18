@@ -38,6 +38,12 @@ has_children: true
     - VSCode-Fork 
     - <https://github.com/voideditor/void>
 - **VSCodium**
+- **Superset**
+    - *Code Editor for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine*
+    - *orchestrates CLI-based coding agents across isolated git worktrees, with built-in terminal, review, and open-in-editor workflows*
+    - *works with any CLI-based coding agent*
+    - <github.com/superset-sh/superset>
+    - [Launch HN, 05/2026](https://news.ycombinator.com/item?id=48236770)
 
 ## Tools
 - **DevPod**
