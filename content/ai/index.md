@@ -149,33 +149,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
   - <https://github.com/itrummer/thalamusdb> 
   - <https://news.ycombinator.com/item?id=45507753>
-
-
-### Wissen
-- **MindsDB**
-  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
-  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
-  - <https://github.com/mindsdb/engine> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/engine?style=flat-square"/>
-- **Khoj**
-  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
-  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
-- **AnythingLLM**
-  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
-  - *supporting multi-user management and permissions*
-  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
-- **ChatPDF**
-  - *can answer any question from any PDF* 
-  - <https://www.chatpdf.com/>
-- **mayooear/gpt4-pdf-chatbot-langchain**
-  - *Create a ChatGPT Chatbot for Your PDF Files* 
-  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
-- **LlamaIndex**
-  - *provides a central interface to connect your LLM's with external data.*
-  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
-  - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
-- **Open WebUI**
-  - *extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG* 
-  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
+- **POML**
+  - *Prompt Orchestration Markup Language*
+  - *markup language designed to bring structure, maintainability, and versatility to advanced prompt engineering* 
+  - <https://github.com/microsoft/poml>
+  - <https://news.ycombinator.com/item?id=44853184>
 
 ### Browser
 - **Nxtscape**
@@ -347,6 +325,22 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI*
   - *does not include a built-in permission system for restricting filesystem, process, network, or credential access*
   - <https://github.com/earendil-works/pi> <img loading="lazy" src="https://img.shields.io/github/stars/earendil-works/pi?style=flat-square"/>
+- **Open Code Review**
+  - <https://github.com/alibaba/open-code-review> <img loading="lazy" src="https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=48406358>
+- **Reasonix**
+  - *DeepSeek-native AI coding agent for your terminal* 
+  - <https://github.com/esengine/DeepSeek-Reasonix>
+  - <https://news.ycombinator.com/item?id=48256953>
+- **Mistral Vibe**
+  - *Minimal CLI coding agent by Mistral* 
+  - <https://github.com/mistralai/mistral-vibe>
+- **Code**
+  - *Every Code (Code for short) is a coding agent for your terminal. It's a fork of openai/codex focused on: Browser integration, multi-agents, theming, and reasoning control — all while staying compatible with upstream.* 
+  - <https://github.com/just-every/code> <img loading="lazy" src="https://img.shields.io/github/stars/just-every/code?style=flat-square"/>
+- **Zerostack**
+  - *Minimal coding agen, inspired by pi and opencode.* 
+  - <https://github.com/gi-dellav/zerostack> <img loading="lazy" src="https://img.shields.io/github/stars/gi-dellav/zerostack?style=flat-square"/>
  
 ### Audio, TTS, STT
 - <https://huggingface.co/spaces/hf-audio/open_asr_leaderboard>
@@ -511,6 +505,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Giskard**
   - *Evals, Red Teaming and Test Generation for Agentic Systems* 
   - <https://github.com/Giskard-AI/giskard-oss> <img loading="lazy" src="https://img.shields.io/github/stars/Giskard-AI/giskard-oss?style=flat-square"/>
+- **Code Review Bench** 
+  - <https://codereview.withmartian.com/> 
 
 
 ## Models
@@ -530,11 +526,18 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://allenai.org/olmo>
  
 ### Small LLMs
+- **Reame**
+  - *an inference server built for cheap CPU hardware* 
+  - <https://github.com/swellweb/reame>
+  - [Show HN, 07/2026](https://news.ycombinator.com/item?id=48873417)
 - **TeapotLLM**
   - *small language model optimized to run locally on resource-constrained devices such as smartphones and CPUs.*
   - *the model and embedding model can fit in ~2GB CPU RAM*
   - *can perform a variety of tasks, including Question Answering (QnA), Retrieval-Augmented Generation (RAG), and JSON extraction*
   - <https://huggingface.co/teapotai/teapotllm>
+- **TinyTeapot**
+  - *~77M parameter grounded language model optimized for low-latency, hallucination-resistant question answering and RAG workflows. Building on our prior work, TeapotLLM* 
+  - <https://huggingface.co/teapotai/tinyteapot> 
 - **IBM Granite Nano**
   - 350 M - 1 Mrd Parameter
   - <https://huggingface.co/collections/ibm-granite/granite-40-nano-language-models>
@@ -606,7 +609,12 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *abandons the fragmented vector storage model of traditional RAG and innovatively adopts a "file system paradigm" to unify the structured organization of memories, resources, and skills needed by Agents*
   - *developers can build an Agent's brain just like managing local files*
   - Plugins für Claude Code, OpenCode, Codex, pi, Cursor, ...
-  - <https://github.com/volcengine/OpenViking> 
+  - <https://github.com/volcengine/OpenViking>
+- **Hermes**
+  - <https://github.com/nousresearch/hermes-agent> <img loading="lazy" src="https://img.shields.io/github/stars/nousresearch/hermes-agent?style=flat-square"/>
+- **Goose**
+  - *for code, workflows, and everything in between* 
+  - <https://github.com/aaif-goose/goose> <img loading="lazy" src="https://img.shields.io/github/stars/aaif-goose/goose>?style=flat-square"/>
 
 ### Best practices, Tipps
 - *ask it to create a plan*
