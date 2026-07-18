@@ -73,7 +73,14 @@ parent: AI
   - <https://github.com/chonkie-inc/chonkie> <img loading="lazy" src="https://img.shields.io/github/stars/chonkie-inc/chonkie?style=flat-square"/>
 - **haiku.rag**
   - *Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling* 
-  - <https://github.com/ggozad/haiku.rag/> 
+  - <https://github.com/ggozad/haiku.rag/>
+- **PageIndex**
+ - *a vectorless, reasoning-based RAG system that builds a hierarchical tree index from long documents, and uses LLMs to reason over that index for agentic, context-aware retrieval.*
+ - *The retrieval is traceable and explainable, with no vector DBs or chunking*
+ - *It performs retrieval in two steps: 1) Generate a “Table-of-Contents” tree structure index of documents 2) Perform (agentic) reasoning-based retrieval through tree search*
+ - <https://github.com/VectifyAI/PageIndex> <img loading="lazy" src="https://img.shields.io/github/stars/VectifyAI/PageIndex?style=flat-square"/>
+- **UltraRAG**
+ - <https://github.com/OpenBMB/UltraRAG> 
 
 ## Re-ranker
 - <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
