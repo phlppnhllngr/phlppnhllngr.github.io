@@ -467,9 +467,14 @@ parent: Diverses
       - Cronjobs
       - Leadverteilung basierend auf Regeln
   - <https://github.com/espocrm/espocrm> <img loading="lazy" src="https://img.shields.io/github/stars/espocrm/espocrm?style=flat-square"/>
+  - Demo: <https://www.espocrm.com/demo/>
+  - Lizenz: AGPL 3 !
 - **Odoo**
   - <https://github.com/odoo/odoo> <img loading="lazy" src="https://img.shields.io/github/stars/odoo/odoo?style=flat-square"/>
+  - Lizenz: LGPLv3
 - **SuiteCRM**
+  - Lizenz: AGPL 3 !
+  - Demo: <https://suitecrm.com/demo/> 
   - <https://github.com/SuiteCRM/SuiteCRM> <img loading="lazy" src="https://img.shields.io/github/stars/SuiteCRM/SuiteCRM?style=flat-square"/>
 
 
