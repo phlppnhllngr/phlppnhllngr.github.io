@@ -158,7 +158,12 @@ parent: Datenbank
       - *Big data? → choose client/server*
       - *Otherwise → choose SQLite! For device-local storage with low writer concurrency and less than a terabyte of content, SQLite is almost always a better solution.*
   - <https://www.sqlite.org/index.html>
-  - Fiddle: <https://sqlite.org/fiddle/>  
+  - Fiddle: <https://sqlite.org/fiddle/>
+  - <u>Tools</u>
+    - litestream
+      - *Streaming replication for SQLite*
+      - *standalone disaster recovery tool for SQLite. It runs as a background process and safely replicates changes incrementally to another file or S3*
+      - <https://github.com/benbjohnson/litestream>  
 - **libSQL**
   - *fork of SQLite that is both Open Source, and Open Contributions* 
   - <https://github.com/libsql/libsql> 
