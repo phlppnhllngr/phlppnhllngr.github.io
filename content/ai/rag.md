@@ -162,3 +162,6 @@ parent: AI
   - *Point it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart index that understands not just keywords, but meaning*
   - <https://github.com/linuxrebel/DocuBrowser>
   - <https://news.ycombinator.com/item?id=48837110>
+- **OpenMetadata**
+ - *provides the context AI needs to know: what data exists, what it means, who owns it, how it is used, where it came from, where it flows, whether it is fresh, tested, certified, and trusted, which business concepts, classifications, glossary terms, policies, contracts, and data products apply, what downstream dashboards, pipelines, metrics, ML models, and applications depend on it, what conversations, decisions, assumptions, and memory nuggets have already been captured about it* 
+ - <https://github.com/open-metadata/OpenMetadata> 
