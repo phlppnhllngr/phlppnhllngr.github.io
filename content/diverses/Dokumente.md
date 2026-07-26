@@ -86,7 +86,7 @@ parent: Diverses
   - <https://github.com/carboneio/carbone> 
 
 
-## Konverter
+## Konverter, Extraktion
 - **marker**
   - *converts documents to markdown, JSON, and HTML quickly and accurately*
   - *Converts PDF, image, PPTX, DOCX, XLSX, HTML, EPUB files in all languages*
@@ -113,7 +113,11 @@ parent: Diverses
   - *document (image, pdf) cleaning, parsing and extraction toolchain which generates readily available, organized and usable data for data scientists and developers*
 - **docstrange**
   - *Extract and convert data from any document, images, pdfs, word doc, ppt or URL into multiple formats (Markdown, JSON, CSV, HTML) with intelligent structured data extraction and advanced OCR* 
-  - <https://github.com/NanoNets/docstrange> 
+  - <https://github.com/NanoNets/docstrange>
+- **Xberg**
+ - *Extract text, metadata, images, and structured information from PDFs, Office documents, images, and 97+ formats*
+ - *Available for Java, TypeScript, (Node/Bun/Wasm/Deno), ... - or use via CLI, REST API, or MCP server.* 
+ - <https://github.com/xberg-io/xberg> 
 
 
 ## PDF
