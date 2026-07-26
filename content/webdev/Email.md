@@ -108,7 +108,12 @@ parent: Webdev
 - **mailing**
   - *Build, test, send emails with React*
   - basiert auf MJML 
-  - <https://github.com/sofn-xyz/mailing> 
+  - <https://github.com/sofn-xyz/mailing>
+- **templatical**
+  - *drag-and-drop email editor you can drop into any web app with a single function call*
+  - *Templates are portable JSON, output is MJML, and the editor itself is framework-agnostic* 
+  - <https://github.com/templatical/sdk>
+  - [Show HN, 2026](https://news.ycombinator.com/item?id=48038019)
 
 
 ## Test
