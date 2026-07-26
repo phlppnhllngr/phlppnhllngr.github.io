@@ -86,6 +86,36 @@ parent: Diverses
   - <https://github.com/carboneio/carbone> 
 
 
+## Konverter
+- **marker**
+  - *converts documents to markdown, JSON, and HTML quickly and accurately*
+  - *Converts PDF, image, PPTX, DOCX, XLSX, HTML, EPUB files in all languages*
+  - *Optionally boost accuracy with LLMs*
+  - <https://github.com/VikParuchuri/marker>
+- **Docling**
+  - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
+  - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
+  - Python
+- **unstract**
+  - *No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents*
+  - *Turn any document into JSON with an API call.*
+  - *System Requirements: 8GB RAM (minimum)*
+  - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
+  - <https://github.com/Zipstack/unstract>
+- **Extractous**
+  - *unstructured data extraction. Written in Rust with bindings for many languages.*
+  - *for extracting content and metadata from various documents types such as PDF, Word, HTML, and many other formats [Images, E-Mails, Office formats]* 
+  - <https://github.com/yobix-ai/extractous>
+- **Parsr**
+  - <https://github.com/axa-group/Parsr>
+  - *Transforms PDF, Documents and Images into Enriched Structured Data*
+  - TS-Lib
+  - *document (image, pdf) cleaning, parsing and extraction toolchain which generates readily available, organized and usable data for data scientists and developers*
+- **docstrange**
+  - *Extract and convert data from any document, images, pdfs, word doc, ppt or URL into multiple formats (Markdown, JSON, CSV, HTML) with intelligent structured data extraction and advanced OCR* 
+  - <https://github.com/NanoNets/docstrange> 
+
+
 ## PDF
 <https://github.com/abhi18av/awesome-pdf>
 
@@ -162,11 +192,6 @@ parent: Diverses
 - **iText RUPS**
   - *allows you to look inside a PDF document and browse the different PDF objects and content streams.*
   - <https://github.com/itext/rups>
-- **Parsr**
-  - <https://github.com/axa-group/Parsr>
-  - *Transforms PDF, Documents and Images into Enriched Structured Data*
-  - TS-Lib
-  - *document (image, pdf) cleaning, parsing and extraction toolchain which generates readily available, organized and usable data for data scientists and developers*
 - **docparser** 💰
   - <https://docparser.com/>
   - *extracts relevant data fields from your documents based on parsing rules which are 100% tailored to your needs. Creating parsing rules for our PDF and Document Parser is easy and requires zero coding*
@@ -196,18 +221,9 @@ parent: Diverses
 - **PDF Accessibility Checker (PAC)**
   - *designed to easily identify all of the machine verifiable success criterion of ISO 14289-1 (PDF/UA) and WCAG* 
   - <https://pdfua.foundation/en/pdf-accessibility-checker-pac/>
-- **Docling**
-  - <https://github.com/DS4SD/docling> <img loading="lazy" src="https://img.shields.io/github/stars/DS4SD/docling?style=flat-square"/>
-  - *Reads popular document formats (PDF, DOCX, PPTX, Images, HTML, AsciiDoc, Markdown) and exports to Markdown and JSON*
-  - Python
 - **PyMuPDF**
   - *high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.* 
   - <https://github.com/pymupdf/PyMuPDF> <img loading="lazy" src="https://img.shields.io/github/stars/pymupdf/PyMuPDF?style=flat-square"/>
-- **marker**
-  - *converts documents to markdown, JSON, and HTML quickly and accurately*
-  - *Converts PDF, image, PPTX, DOCX, XLSX, HTML, EPUB files in all languages*
-  - *Optionally boost accuracy with LLMs*
-  - <https://github.com/VikParuchuri/marker>
 - **PDFSyntax**
   - *HTML visualization of a PDF file's internal structure*
   - <https://github.com/desgeeko/pdfsyntax/blob/main/docs/browse.md>
@@ -232,19 +248,13 @@ parent: Diverses
 - **OpenDataLoader PDF**
   - *converts PDFs into JSON, Markdown or Html* 
   - <https://github.com/opendataloader-project/opendataloader-pdf>  
-- **unstract**
-  - *No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents*
-  - *Turn any document into JSON with an API call.*
-  - *System Requirements: 8GB RAM (minimum)*
-  - *Supported File Types: DOCX, PDF, Images, XLSX, ...*
-  - <https://github.com/Zipstack/unstract>
-- **Extractous**
-  - *unstructured data extraction. Written in Rust with bindings for many languages.*
-  - *for extracting content and metadata from various documents types such as PDF, Word, HTML, and many other formats [Images, E-Mails, Office formats]* 
-  - <https://github.com/yobix-ai/extractous>
 - **BentoPDF**
   - *allows you to manipulate, edit, merge, and process PDF files directly in your browser*
-  - <https://github.com/alam00000/bentopdf> 
+  - <https://github.com/alam00000/bentopdf>
+- **Adaptive PDF**
+  - *experiment in making one document useful to both people and machines*
+  - *The prototype can: convert a regular PDF into structured Markdown. embed the Markdown as a PDF attachment; expose the Markdown through PDF ActualText for compatible text extractors* 
+  - <https://github.com/iminoaru/adaptivepdf> 
 
 #### Generation
 - **Pandoc**
