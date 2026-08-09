@@ -302,6 +302,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Local LLM
 - <https://old.reddit.com/r/LocalLLaMA/>
 - <https://osanseviero.github.io/hackerllama/blog/posts/hitchhiker_guide/>
+- **canirun.ai**
+  - *Find out which AI models your machine can actually run.*
+  - <https://www.canirun.ai/>
+  - <https://news.ycombinator.com/item?id=47363754>
+- **llmfit**
+  - *One command to find what runs on your hardware* 
+  - <https://github.com/AlexsJones/llmfit> 
 - **Heretic**
   - *tool that removes censorship (aka "safety alignment") from transformer-based language models without expensive post-training*
   - <https://github.com/p-e-w/heretic>
@@ -372,6 +379,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Model Benchmarks, Leaderboards, Evals
 - <https://www.choosellm.com/>
 - <https://lmarena.ai/?leaderboard>
+- <https://arena.ai/leaderboard>
 - <https://huggingface.co/spaces/opencompass/open_vlm_leaderboard> (Vision)
 - <https://whatllm.vercel.app/> - *Compare LLM models across providers to find the best fit for your needs* (vergleicht Preis und Qualität)
 - **EuroEval**
@@ -411,6 +419,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://huggingface.co/utter-project/EuroLLM-9B-Instruct>
 - **Olmo** 
   - <https://allenai.org/olmo>
+- **Bonsai**
+  - <https://github.com/PrismML-Eng/Bonsai-demo/> 
  
 ### Small LLMs
 - **Reame**
