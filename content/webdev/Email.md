@@ -119,13 +119,15 @@ parent: Webdev
 ## Test
 - **Testi@**
   - *Email render testing preview*
-  - $ (free tier)
   - <https://testi.at/>
-- **Litmus** ($)
-  - email testing
+- **Litmus**
   - <https://www.litmus.com/email-testing/>
-- **Email on acid** ($)
+- **Email on acid**
   - <https://www.emailonacid.com/>
+- **Email Preview Services**
+  - <https://emailpreviewservices.com>
+- **Parcel**
+  - <https://parcel.io/platform/previews>  
  
 ## Anderes
 - **Email Authentication: A Developer's Guide**
