@@ -211,6 +211,7 @@ parent: Automatisierung
     - Webhooks für create, update, delete Events, mit Filtern
     - Integrationen geplant: Teams, Outlook, Excel, Jira, ...
     - mehrsprachig
+  - viele Features nur gegen Bezahlung
 - **APITable**
   - *the best Airtable open-source alternative and an API-oriented low-code platform for building collaborative apps* 
   - <https://github.com/apitable/apitable> <img loading="lazy" src="https://img.shields.io/github/stars/apitable/apitable?style=flat-square"/>
@@ -259,14 +260,17 @@ parent: Automatisierung
       - Embeddable (iframe)
       - Visualisierungen/"Widgets": Diagramme, Formular, Kalender, Custom
       - Dateianhänge
+  - Manche Admin-Features nur in Bezahlversion
   - <https://www.getgrist.com/lookup/grist-vs-nocodb/>
   - <https://github.com/gristlabs/grist-core> <img loading="lazy" src="https://img.shields.io/github/stars/gristlabs/grist-core?style=flat-square"/>
 - **Rowy**
   - *Airtable-like UI for managing your database with cloud functions workflows in JS/TS, all in your browser.*
+  - 09/2026: letzter Commit vor 2 Jahren
   - <https://github.com/rowyio/rowy> <img loading="lazy" src="https://img.shields.io/github/stars/rowyio/rowy?style=flat-square"/>
 - **NocoBase**
   - *The NocoBase page is a canvas for forms, tables, details, calendars, statistical charts...*
   - erfordert Postgres/MySQL/MariaDB
+  - Bezahlversion hat mehr Features
   - <https://github.com/nocobase/nocobase> <img loading="lazy" src="https://img.shields.io/github/stars/nocobase/nocobase?style=flat-square"/>
 - **teable**
   - erfordert mindestens Postgres und Redis, optional minio oder S3 
