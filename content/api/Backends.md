@@ -72,6 +72,12 @@ parent: API
   - <https://www.youtube.com/watch?v=Wqy3PBEglXQ>
   - <https://github.com/pocketbase/pocketbase> <img loading="lazy" src="https://img.shields.io/github/stars/pocketbase/pocketbase?style=flat-square"/>
   - [YT: Fireship - I built a $5 chat app with Pocketbase & Svelte. Will it scale?](https://www.youtube.com/watch?v=gUYBFDPZ5qk)
+  - Tools, Extras
+    - <https://github.com/benallfree/awesome-pocketbase>
+    - <https://github.com/narawira/awesome-pocketbase>
+    - Docker
+      - <https://github.com/muchobien/pocketbase-docker>
+      - <https://github.com/kdpuvvadi/pocketbase>
 - **Fastgen**
   - *API and workflow builder with an integrated Postgres DB*
   - <https://fastgen.com/>
