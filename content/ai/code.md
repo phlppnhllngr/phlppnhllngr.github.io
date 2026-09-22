@@ -5,6 +5,8 @@ parent: AI
 
 
 # Code
+
+## Agentic Dev
 - **FauxPilot**
   - *an open-source GitHub Copilot server* 
   - <https://github.com/fauxpilot/fauxpilot> <img loading="lazy" src="https://img.shields.io/github/stars/fauxpilot/fauxpilot?style=flat-square"/>
@@ -62,12 +64,17 @@ parent: AI
 - **Claude Code**
   - <https://www.anthropic.com/claude-code>
   - <https://www.anthropic.com/engineering/claude-code-best-practices>
+  - <https://github.com/anthropics/claude-plugins-official/tree/main>
   - Installation: Desktop App, CLI oder VSCode-Extension
   - [HN - Getting good results from Clausde Code, 08/2025](https://news.ycombinator.com/item?id=44836879)
   - kein free tier (04/2026)
-  - opcode
-    - *GUI app and Toolkit for Claude Code* 
-    - <https://github.com/getAsterisk/opcode> 
+  - Tools
+    - opcode
+      - *GUI app and Toolkit for Claude Code* 
+      - <https://github.com/getAsterisk/opcode>
+    - claude-devtools
+      - *inspect session logs, tool calls, token usage, subagents, and context window in a visual UI* 
+      - <https://github.com/matt1398/claude-devtools>  
 - **OpenAI Codex**
   - Agent-Plugin für Intellij, VSC, Cursor, Warp 
   - <https://openai.com/codex/>
@@ -105,9 +112,8 @@ parent: AI
 - **Oh-my-pi**
   - Fork von Pi 
   - <https://github.com/can1357/oh-my-pi> <img loading="lazy" src="https://img.shields.io/github/stars/can1357/oh-my-pi?style=flat-square"/>
-- **Open Code Review**
-  - <https://github.com/alibaba/open-code-review> <img loading="lazy" src="https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square"/>
-  - <https://news.ycombinator.com/item?id=48406358>
+- **deepseek-harness** 
+  - <https://github.com/deepseek-ai/deepseek-harness> 
 - **Reasonix**
   - *DeepSeek-native AI coding agent for your terminal* 
   - <https://github.com/esengine/DeepSeek-Reasonix>
@@ -119,5 +125,18 @@ parent: AI
   - *Every Code (Code for short) is a coding agent for your terminal. It's a fork of openai/codex focused on: Browser integration, multi-agents, theming, and reasoning control — all while staying compatible with upstream.* 
   - <https://github.com/just-every/code> <img loading="lazy" src="https://img.shields.io/github/stars/just-every/code?style=flat-square"/>
 - **Zerostack**
-  - *Minimal coding agen, inspired by pi and opencode.* 
+  - *Minimal coding agent, inspired by pi and opencode.* 
   - <https://github.com/gi-dellav/zerostack> <img loading="lazy" src="https://img.shields.io/github/stars/gi-dellav/zerostack?style=flat-square"/>
+
+## Anderes
+- **Open Code Review**
+  - <https://github.com/alibaba/open-code-review> <img loading="lazy" src="https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=48406358>
+- **OpenSpec**
+  - *framework for creating and managing software specifications. With OpenSpec, you capture what you want to build in a spec and keep your team and coding agents aligned as the work evolves. We help you refine the requirements, validate that they describe the right thing, and verify that the implementation matches.*
+  - <https://github.com/Fission-AI/OpenSpec/> <img loading="lazy" src="https://img.shields.io/github/stars/Fission-AI/OpenSpec?style=flat-square"/>
+  - <https://openspec.dev/>
+  - <https://news.ycombinator.com/item?id=49734264>
+- **AI Blueprint**
+  - *A file-backed, spec-driven AI coding workflow framework for building real software while staying in control.* 
+  - <https://github.com/aiblueprinthq/ai-blueprint> <img loading="lazy" src="https://img.shields.io/github/stars/aiblueprinthq/ai-blueprint?style=flat-square"/>
