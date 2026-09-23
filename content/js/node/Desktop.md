@@ -16,7 +16,7 @@ grand_parent: JavaScript
   - svelte-nodegui
     - <https://github.com/nodegui/svelte-nodegui> <img loading="lazy" src="https://img.shields.io/github/stars/nodegui/svelte-nodegui?style=flat-square"/>
 - **carlo**
-  - <https://github.com/GoogleChromeLabs/carlo>
+  - <https://github.com/GoogleChromeLabs/carlo> <img loading="lazy" src="https://img.shields.io/github/stars/GoogleChromeLabs/carlo?style=flat-square"/>
 - **NW.js**
   - <https://github.com/nwjs/nw.js> <img loading="lazy" src="https://img.shields.io/github/stars/nwjs/nw.js?style=flat-square"/>
   - *app runtime based on Chromium and node.js. You can write native apps in HTML and JavaScript with NW.js*
