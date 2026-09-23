@@ -7,7 +7,8 @@ grand_parent: JavaScript
 # Desktop
 - **Electron**
   - <https://electronjs.org/>
-  - <https://github.com/electron/fiddle> <img loading="lazy" src="https://img.shields.io/github/stars/electron/fiddle?style=flat-square"/>
+  - <https://github.com/electron/electron> <img loading="lazy" src="https://img.shields.io/github/stars/electron/electron?style=flat-square"/>
+  - <https://github.com/electron/fiddle>
     - *Electron Fiddle lets you create and play with small Electron experiments. It greets you with a quick-start template after opening – change a few things, choose the version of Electron you want to run it with, and play around.*
   - <https://github.com/electron-userland/electron-builder>
 - **NodeGui**
