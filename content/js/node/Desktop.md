@@ -5,6 +5,7 @@ grand_parent: JavaScript
 ---
 
 # Desktop
+- <https://github.com/sudhakar3697/awesome-electron-alternatives>
 - **Electron**
   - <https://electronjs.org/>
   - <https://github.com/electron/electron> <img loading="lazy" src="https://img.shields.io/github/stars/electron/electron?style=flat-square"/>
