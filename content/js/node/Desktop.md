@@ -31,3 +31,6 @@ grand_parent: JavaScript
   - *Portable and lightweight cross platform application development framework*
   - *In Electron and NWjs, Embedded Chromium and Node make simple apps bloaty. Neutralinojs offers a lightweight and portable SDK which is an alternative for Electron and NW.js also with many advantages.*
   - <https://github.com/neutralinojs/neutralinojs> <img loading="lazy" src="https://img.shields.io/github/stars/neutralinojs/neutralinojs?style=flat-square"/>
+- **Deno Desktop**
+  - *turns a Deno project (anything from a single TypeScript file to a Next.js app) into a self-contained desktop application. The output is a redistributable binary that bundles your code, the Deno runtime, and a web rendering engine into one bundle per platform.* 
+  - <https://docs.deno.com/runtime/desktop/>
