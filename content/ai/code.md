@@ -40,17 +40,10 @@ parent: AI
 - **Continue**
   - *autocomplete and chat experiences inside VS Code and JetBrains*   
   - <https://github.com/continuedev/continue> <img loading="lazy" src="https://img.shields.io/github/stars/continuedev/continue?style=flat-square"/>
-- **Repomix**
-  - *packs your entire repository into a single, AI-friendly file*
-  - *Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools* 
-  - <https://github.com/yamadashy/repomix>
 - **Tabby**
   - *Self-hosted AI coding assistant* 
   - <https://github.com/TabbyML/tabby>
   - Plugins für VSC und Intellij
-- **Pocket Flow**
-  - *crawls GitHub repositories and builds a knowledge base from the code* 
-  - <https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge>
 - **Jules**
   - *experimental coding agent that helps you fix bugs, add documentation, and build new features. It integrates with GitHub, understands your codebase, and works asynchronously — so you can move on while it handles the task.* 
   - <https://jules.google/>
@@ -129,6 +122,13 @@ parent: AI
   - <https://github.com/gi-dellav/zerostack> <img loading="lazy" src="https://img.shields.io/github/stars/gi-dellav/zerostack?style=flat-square"/>
 
 ## Anderes
+- **Pocket Flow**
+  - *crawls GitHub repositories and builds a knowledge base from the code* 
+  - <https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge>
+- **Repomix**
+  - *packs your entire repository into a single, AI-friendly file*
+  - *Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools* 
+  - <https://github.com/yamadashy/repomix>
 - **Open Code Review**
   - <https://github.com/alibaba/open-code-review> <img loading="lazy" src="https://img.shields.io/github/stars/alibaba/open-code-review?style=flat-square"/>
   - <https://news.ycombinator.com/item?id=48406358>
