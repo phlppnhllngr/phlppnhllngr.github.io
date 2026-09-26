@@ -568,3 +568,14 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *We offer an inference API that provides access to an Open-Weight LLM via an OpenAI-compatible REST API*
   - *As long as the Inference API remains in experimental status, it is free of charge.* 
   - <https://docs.hetzner.com/general/company-and-policy/experiments/inference> 
+
+
+## Decision Models
+- **Jev**
+- **Ollaya**
+  - *Ollama for open-source, Jev-style decision models*
+  - <https://news.ycombinator.com/item?id=49848269>
+- **SemIf**
+  - <https://github.com/TheoLeeCJ/SemIf-OpenJev>
+- **Kev-4B**
+  - <https://huggingface.co/jaredpalmer/kev-4b>
