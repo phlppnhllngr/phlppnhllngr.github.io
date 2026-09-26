@@ -420,7 +420,10 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Olmo** 
   - <https://allenai.org/olmo>
 - **Bonsai**
-  - <https://github.com/PrismML-Eng/Bonsai-demo/> 
+  - <https://github.com/PrismML-Eng/Bonsai-demo/>
+- **Soofi**
+  - Euro 
+  - <https://www.soofi.info/soofi-s/> 
  
 ### Small LLMs
 - **Reame**
@@ -441,7 +444,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **MobileLLM**
   - <https://github.com/facebookresearch/MobileLLM>
 - **MobiLLama**
-  - <https://github.com/mbzuai-oryx/mobillama> 
+  - <https://github.com/mbzuai-oryx/mobillama>
+- **inclusionAI/Ling**
+  - Ling-3.0-tiny 
+    - *MoE model with 7.9B total parameters and only 1.3B activated parameters per token*
+    - <https://huggingface.co/inclusionAI/Ling-3.0-tiny>
+- **MiniCPM**
+  - <https://github.com/OpenBMB/MiniCPM> 
 
 
 ## Agents
@@ -555,3 +564,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://openrouter.ai/docs/principles>
 - **Microsoft Foundry**
   - <https://ai.azure.com/>
+- **Hetzner**
+  - *We offer an inference API that provides access to an Open-Weight LLM via an OpenAI-compatible REST API*
+  - *As long as the Inference API remains in experimental status, it is free of charge.* 
+  - <https://docs.hetzner.com/general/company-and-policy/experiments/inference> 
