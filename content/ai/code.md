@@ -140,3 +140,7 @@ parent: AI
 - **AI Blueprint**
   - *A file-backed, spec-driven AI coding workflow framework for building real software while staying in control.* 
   - <https://github.com/aiblueprinthq/ai-blueprint> <img loading="lazy" src="https://img.shields.io/github/stars/aiblueprinthq/ai-blueprint?style=flat-square"/>
+- **smolvm**
+  - *microVMs to safely run Agents locally*
+  - *Networking is off by default, egress can be limited to named hosts, and code can use a credential without ever reading it*
+  - <https://github.com/smol-machines/smolvm> 
