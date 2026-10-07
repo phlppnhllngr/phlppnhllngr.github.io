@@ -69,6 +69,14 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Dify**
   - *LLM app development platform*
   - *combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more*
+  - self-hosted community edition & cloud enterprise edition
+  - Setup mit Docker-Compose umfasst 10+ Images
+  - <u>Features</u>
+    - Low-code Workflow canvas
+    - RAG system
+    - Agents
+    - APIs
+    - Prompt IDE
   - <https://github.com/langgenius/dify> <img loading="lazy" src="https://img.shields.io/github/stars/langgenius/dify?style=flat-square"/>
 - **AutoGPT**
   - *platform that allows you to create, deploy, and manage continuous AI agents that automate complex workflows* 
@@ -123,7 +131,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
 - **Firecrawl**
   - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
-  - <https://github.com/mendableai/firecrawl> 
+  - <https://github.com/mendableai/firecrawl> <img loading="lazy" src="https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square"/>
 - **Magnitude**
   - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
   - <https://github.com/magnitudedev/magnitude>
@@ -131,7 +139,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **any-llm**
   - *Communicate with an LLM provider using a single interface*
   - Python Lib 
-  - <https://github.com/mozilla-ai/any-llm>
+  - <https://github.com/mozilla-ai/any-llm> <img loading="lazy" src="https://img.shields.io/github/stars/mozilla-ai/any-llm?style=flat-square"/>
   - [HN Diskussion](https://news.ycombinator.com/item?id=44650567)
 - **Windows Use**
   - Python Lib
@@ -139,7 +147,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/CursorTouch/Windows-Use>
 - **Langfuse**
   - *LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more.* 
-  - <https://github.com/langfuse/langfuse/tree/main>
+  - <https://github.com/langfuse/langfuse/> <img loading="lazy" src="https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square"/>
 - **Guidance**
   - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
   - Python Lib
@@ -154,6 +162,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *markup language designed to bring structure, maintainability, and versatility to advanced prompt engineering* 
   - <https://github.com/microsoft/poml>
   - <https://news.ycombinator.com/item?id=44853184>
+- **LibreChat**
+  - *Enhanced ChatGPT Clone*
+  - <https://github.com/LibreChat-AI/LibreChat> <img loading="lazy" src="https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=flat-square"/>
 
 ### Browser
 - **Nxtscape**
@@ -170,7 +181,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/browserbase/stagehand>
 - **Crawl4AI**
   - *Open-source LLM Friendly Web Crawler & Scraper* 
-  - <https://github.com/unclecode/crawl4ai>
+  - <https://github.com/unclecode/crawl4ai> <img loading="lazy" src="https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square"/>
 - **Skyvern**
   - *automates browser-based workflows using LLMs and computer vision* 
   - <https://github.com/Skyvern-AI/skyvern> <img loading="lazy" src="https://img.shields.io/github/stars/Skyvern-AI/skyvern?style=flat-square"/>
@@ -222,7 +233,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **OpenChatKit**
   - *provides a base to create both specialized and general purpose chatbots for various applications.*
   - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
-  - <https://github.com/togethercomputer/OpenChatKit>
+  - <https://github.com/togethercomputer/OpenChatKit> <img loading="lazy" src="https://img.shields.io/github/stars/togethercomputer/OpenChatKit?style=flat-square"/>
 - **AWS Lex**
   - für Chatbots 
 - **Google Dialogflow**
