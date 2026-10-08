@@ -46,12 +46,13 @@ parent: AI
   - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
 - **Morphik**
   - *multimodal retrieval over documents like PDFs, where images and diagrams matter as much as the text*
-  - <https://github.com/morphik-org/morphik-core>
+  - <https://github.com/morphik-org/morphik-core> <img loading="lazy" src="https://img.shields.io/github/stars/morphik-org/morphik-core?style=flat-square"/>
   - <https://news.ycombinator.com/item?id=43763814>
 - **Rlama**
+  - 10/26: Repo inaktiv seit 1 Jahr 
   - *question-answering tool for your documents, seamlessly integrating with your local Ollama models. It enables you to create, manage, and interact with Retrieval-Augmented Generation (RAG) systems tailored to your documentation needs.*
   - *Creates a new RAG system by indexing all documents in the specified folder. Create a RAG system from a website.* 
-  - <https://github.com/dontizi/rlama?tab=readme-ov-file>
+  - <https://github.com/dontizi/rlama> <img loading="lazy" src="https://img.shields.io/github/stars/dontizi/rlama?style=flat-square"/>
 - **kotaemon**
   - *customizable RAG UI for chatting with your documents*
   - <https://github.com/Cinnamon/kotaemon> <img loading="lazy" src="https://img.shields.io/github/stars/Cinnamon/kotaemon?style=flat-square"/>
@@ -62,7 +63,8 @@ parent: AI
   - *leverage LLMs to identify and extract various entities (e.g., names, dates, locations, and events) along with the relationships between them. The information collected through this process will be used to create a comprehensive knowledge graph* 
   - <https://lightrag.github.io/> 
   - <https://github.com/HKUDS/LightRAG> <img loading="lazy" src="https://img.shields.io/github/stars/HKUDS/LightRAG?style=flat-square"/>
-- **Skald**
+- **~Skald~**
+  - Repo archiviert Sept 26  
   - *In the ingestion phase, Skald takes care of document parsing, chunking strategy, summaries, tagging, embedding generation, and vector storage.*
   - *In the retrieval phase, it handles query rewriting, vector search, LLM chat, chat history, and source references.*
   - *Our solid defaults will work for most use cases, but you can tune every part of your RAG to better suit your needs.*
@@ -73,14 +75,14 @@ parent: AI
   - <https://github.com/chonkie-inc/chonkie> <img loading="lazy" src="https://img.shields.io/github/stars/chonkie-inc/chonkie?style=flat-square"/>
 - **haiku.rag**
   - *Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling* 
-  - <https://github.com/ggozad/haiku.rag/>
+  - <https://github.com/ggozad/haiku.rag/> <img loading="lazy" src="https://img.shields.io/github/stars/ggozad/haiku.rag?style=flat-square"/>
 - **PageIndex**
   - *a vectorless, reasoning-based RAG system that builds a hierarchical tree index from long documents, and uses LLMs to reason over that index for agentic, context-aware retrieval.*
   - *The retrieval is traceable and explainable, with no vector DBs or chunking*
   - *It performs retrieval in two steps: 1) Generate a “Table-of-Contents” tree structure index of documents 2) Perform (agentic) reasoning-based retrieval through tree search*
   - <https://github.com/VectifyAI/PageIndex> <img loading="lazy" src="https://img.shields.io/github/stars/VectifyAI/PageIndex?style=flat-square"/>
 - **UltraRAG**
-  - <https://github.com/OpenBMB/UltraRAG> 
+  - <https://github.com/OpenBMB/UltraRAG> <img loading="lazy" src="https://img.shields.io/github/stars/OpenBMB/UltraRAG?style=flat-square"/>
 
 ## Re-ranker
 - <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
@@ -155,16 +157,16 @@ parent: AI
   - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
 - **OpenKnowledge**
   - *markdown editor with integrations with Claude, Codex, and other harnesses. For knowledge bases, LLM wikis, specs, and notes. Private, local, and free* 
-  - <https://github.com/inkeep/open-knowledge>
+  - <https://github.com/inkeep/open-knowledge> <img loading="lazy" src="https://img.shields.io/github/stars/inkeep/open-knowledge?style=flat-square"/>
   - [Show HN, 06/2026](https://news.ycombinator.com/item?id=48675435)
 - **DocuBrowser**
   - *turns a messy pile of documents into something you can actually search*
   - *Point it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart index that understands not just keywords, but meaning*
-  - <https://github.com/linuxrebel/DocuBrowser>
+  - <https://github.com/linuxrebel/DocuBrowser> <img loading="lazy" src="https://img.shields.io/github/stars/linuxrebel/DocuBrowser?style=flat-square"/>
   - <https://news.ycombinator.com/item?id=48837110>
 - **OpenMetadata**
   - *provides the context AI needs to know: what data exists, what it means, who owns it, how it is used, where it came from, where it flows, whether it is fresh, tested, certified, and trusted, which business concepts, classifications, glossary terms, policies, contracts, and data products apply, what downstream dashboards, pipelines, metrics, ML models, and applications depend on it, what conversations, decisions, assumptions, and memory nuggets have already been captured about it* 
-  - <https://github.com/open-metadata/OpenMetadata>
+  - <https://github.com/open-metadata/OpenMetadata> <img loading="lazy" src="https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=flat-square"/>
 - **DataHub**
   - verlgeichbar OpenMetadata
-  - <https://github.com/datahub-project/datahub> 
+  - <https://github.com/datahub-project/datahub> <img loading="lazy" src="https://img.shields.io/github/stars/datahub-project/datahub?style=flat-square"/>
