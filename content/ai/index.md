@@ -24,29 +24,8 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Tools & Applikationen
 - <https://github.com/steven2358/awesome-generative-ai>
 - <https://github.com/underlines/awesome-ml/>
-- **Moveworks** 
-  - *Automate your employee support with AI trained on the world's most advanced large language models*
-  - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
-  - <https://www.moveworks.com/>
-- **phind**
-  - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
-  - basiert auf GPT-4
-  - <https://www.phind.com/>
-- **Aspect**
-  - UI Builder 
-  - <https://aspect.app/>
-- **Hugging Face**
-  - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
-  - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
-  - *models can also perform tasks on several modalities combined, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.*
-  - *provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub.*
-  - Models, Datasets, Docs, ... 
-  - <https://huggingface.co/>
-  - HuggingChat
-    - <https://huggingface.co/chat/models> 
-- **Promptify**
-  - *Solve NLP Problems with LLM's & Easily generate different NLP Task prompts for popular generative models like GPT, PaLM* 
-  - <https://github.com/promptslab/Promptify> <img loading="lazy" src="https://img.shields.io/github/stars/promptslab/Promptify?style=flat-square"/>
+
+### Entwicklungsplattformen
 - **LangChain**
   - *... using these LLMs in isolation is often not enough to create a truly powerful app - the real power comes when you can combine them with other sources of computation or knowledge. This library is aimed at assisting in the development of those types of applications.*
   - <https://github.com/hwchase17/langchain> <img loading="lazy" src="https://img.shields.io/github/stars/hwchase17/langchain?style=flat-square"/>
@@ -83,76 +62,75 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *lets you build & deploy specialized AI agents that build software for you based on your instructions*
   - *currently supports building only REST servers in Node.js. Specifically using the Express framework.* 
   - <https://github.com/e2b-dev/e2b> <img loading="lazy" src="https://img.shields.io/github/stars/e2b-dev/e2b?style=flat-square"/>
-- **simonw/llm**
-  - *Access large language models from the command-line* 
-  - <https://github.com/simonw/llm> <img loading="lazy" src="https://img.shields.io/github/stars/simonw/llm?style=flat-square"/>
-- **Semantic Kernel**
-  - *SDK that integrates Large Language Models (LLMs) like OpenAI, Azure OpenAI, and Hugging Face with conventional programming languages like C#, Python, and Java.*
-  - *It provides abstractions for AI services (such as chat, text to images, audio to text, etc.) and memory stores*
-  - *It provides implementations of those abstractions for services from OpenAI, Azure OpenAI, Hugging Face, local models, and more, and for a multitude of vector databases*
-  - <https://github.com/microsoft/semantic-kernel> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square"/>
-- **SillyTavern**
-  - *a locally installed user interface that allows you to interact with text generation LLMs, image generation engines, and TTS voice models.* 
-  - *provides a single unified interface for many LLM APIs (KoboldAI/CPP, Horde, NovelAI, Ooba, Tabby, OpenAI, OpenRouter, Claude, Mistral and more)* 
-  - <https://github.com/SillyTavern/SillyTavern> <img loading="lazy" src="https://img.shields.io/github/stars/SillyTavern/SillyTavern?style=flat-square"/>
-- **llama.cpp**
-  - <https://github.com/ggerganov/llama.cpp>
-  - Bindings
-    - <https://github.com/ggerganov/llama.cpp?tab=readme-ov-file> 
-    - Java: <https://github.com/kherud/java-llama.cpp>
-- **Ooobabooga**
-  - *web UI for Large Language Models*
-  - *Supports multiple text generation backends* 
-  - <https://github.com/oobabooga/text-generation-webui> <img loading="lazy" src="https://img.shields.io/github/stars/oobabooga/text-generation-webui?style=flat-square"/>
-- **OpenLLMetry**
-  - *observability for your LLM application, based on OpenTelemetry* 
-  - <https://github.com/traceloop/openllmetry> <img loading="lazy" src="https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square"/>
-- **Superduper**
-  - *Python based framework for building end-2-end AI-data workflows and applications on your own data, integrating with major databases.*
-  - *It supports the latest technologies and techniques, including LLMs, vector-search, RAG, multimodality as well as classical AI and ML paradigms.*
-  - <https://github.com/superduper-io/superduper> <img loading="lazy" src="https://img.shields.io/github/stars/superduper-io/superduper?style=flat-square"/>
-- **ChainForge**
-  - *open-source visual programming environment for battle-testing prompts to LLMs.* 
-  - <https://github.com/ianarawjo/ChainForge> <img loading="lazy" src="https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat-square"/>
-- **LLM-Model-VRAM-Calculator**
-  - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
-- **Tokenizer**
-  - <https://platform.openai.com/tokenizer>
-- **LobeHub**
-  - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
-- **Firecrawl**
-  - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
-  - <https://github.com/mendableai/firecrawl> <img loading="lazy" src="https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square"/>
-- **Magnitude**
-  - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
-  - <https://github.com/magnitudedev/magnitude>
-  - <http://news.ycombinator.com/item?id=43796003>
-- **any-llm**
-  - *Communicate with an LLM provider using a single interface*
+- **agents.md**
+  - *Think of AGENTS.md as a README for agents*
+  - Support für: Codex, Gemini CLI, Cursor, ... 
+  - <https://agents.md/>
+  - [HN Diskussion](https://news.ycombinator.com/item?id=44957443)
+- **Flowise**
+  - *Build AI Agents, Visually* 
+  - <https://github.com/FlowiseAI/Flowise> <img loading="lazy" src="https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square"/>
+- **TypedAI**
+  - *TypeScript-first AI platform for developers. Autonomous AI agents and LLM based workflows.* 
+  - <https://github.com/TrafficGuard/typedai>
+- **AG2**
+  - *programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks*
   - Python Lib 
-  - <https://github.com/mozilla-ai/any-llm> <img loading="lazy" src="https://img.shields.io/github/stars/mozilla-ai/any-llm?style=flat-square"/>
-  - [HN Diskussion](https://news.ycombinator.com/item?id=44650567)
-- **Windows Use**
-  - Python Lib
-  - *automation agent that interacts directly with Windows at GUI layer* 
-  - <https://github.com/CursorTouch/Windows-Use>
+  - <https://github.com/ag2ai/ag2>
+- **crewAI**
+  - *Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.*
+  - Python 
+  - <https://github.com/crewAIInc/crewAI>
+- **Embabel**
+  - *Agent framework for the JVM* 
+  - <https://github.com/embabel/embabel-agent>
+- **google-adk**
+  - Agent Development Kit
+  - *A built-in development UI to help you test, evaluate, debug, and showcase your agent(s)*
+  - Java Demo (50 Min), 10/2025: <https://www.youtube.com/watch?v=L6V6aQixOZU>
+  - <https://github.com/google/adk-java>
+- **Omnara**
+  - *transforms your AI agents (Claude Code, Codex CLI, n8n, and more) from silent workers into communicative teammates.*
+  - *Get real-time visibility into what your agents are doing, and respond to their questions instantly from a single dashboard on web and mobile.*
+  - *Add human-in-the-loop capabilities to your n8n workflows*
+  - <https://github.com/omnara-ai/omnara>
+  - [Show HN](https://news.ycombinator.com/item?id=44878650)
+- **AgentGPT**
+  - *Assemble, configure, and deploy autonomous AI Agents in your browser.* 
+  - <https://github.com/reworkd/AgentGPT>
+  - <https://news.ycombinator.com/item?id=36079382>
+- **AgentKit, Agent Builder**
+  - <https://openai.com/index/introducing-agentkit/>
+- **agent-o-rama**
+  - *LLM agent platform for building, tracing, testing, and monitoring agents with integrated storage and one-click deployment.*
+  - *provides two first-class APIs, one for Java and one for Clojure*
+  - *Inspired by LangGraph and LangSmith*
+  - *comprehensive web UI*
+  - <https://github.com/redplanetlabs/agent-o-rama?tab=readme-ov-file#detailed-comparisons-against-other-agent-tools>
+  - <https://github.com/redplanetlabs/agent-o-rama> <img loading="lazy" src="https://img.shields.io/github/stars/redplanetlabs/agent-o-rama?style=flat-square"/>
+- **Agent Lightning**
+  - *Selectively optimize one or more agents in a multi-agent system* 
+  - *Build with ANY agent framework or even WITHOUT agent framework*
+  - <https://news.ycombinator.com/item?id=45706729>
+  - <https://github.com/microsoft/agent-lightning>
+- **Kiln**
+  - *Build, Evaluate, and Optimize AI Systems*
+  - *Evals • RAG • Agents • Fine Tuning • Synthetic Data* 
+  - <https://github.com/kiln-ai/kiln>
+- **OpenViking**
+  - *Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.*
+  - *abandons the fragmented vector storage model of traditional RAG and innovatively adopts a "file system paradigm" to unify the structured organization of memories, resources, and skills needed by Agents*
+  - *developers can build an Agent's brain just like managing local files*
+  - Plugins für Claude Code, OpenCode, Codex, pi, Cursor, ...
+  - <https://github.com/volcengine/OpenViking>
+- **Hermes**
+  - <https://github.com/nousresearch/hermes-agent> <img loading="lazy" src="https://img.shields.io/github/stars/nousresearch/hermes-agent?style=flat-square"/>
+- **Goose**
+  - *for code, workflows, and everything in between* 
+  - <https://github.com/aaif-goose/goose> <img loading="lazy" src="https://img.shields.io/github/stars/aaif-goose/goose>?style=flat-square"/>
 - **Langfuse**
   - *LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more.* 
   - <https://github.com/langfuse/langfuse/> <img loading="lazy" src="https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square"/>
-- **Guidance**
-  - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
-  - Python Lib
-  - <https://github.com/guidance-ai/guidance>
-- **ThalamusDB**
-  - *semantic query processing on multimodal data*
-  - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
-  - <https://github.com/itrummer/thalamusdb> 
-  - <https://news.ycombinator.com/item?id=45507753>
-- **POML**
-  - *Prompt Orchestration Markup Language*
-  - *markup language designed to bring structure, maintainability, and versatility to advanced prompt engineering* 
-  - <https://github.com/microsoft/poml>
-  - <https://news.ycombinator.com/item?id=44853184>
 
 ### Browser
 - **Nxtscape**
@@ -192,47 +170,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **HeadshotPro**
   - *Professional business headshots, without a physical photo shoot* 
   - <https://www.headshotpro.com/>
-
-### Chat
-- **Kimi**
-  - <https://kimi.com/>
-- **GLM**
-  - <https://chat.z.ai/>
-- **Qwen**
-  - <https://chat.qwen.ai/>
-- **Deepseek**
-  - <https://chat.deepseek.com/>
-- **ChatGPT**
-    - <https://github.com/openai/openai-cookbook>
-    - <https://platform.openai.com/playground>
-    - <https://github.com/f/awesome-chatgpt-prompts>
-    - <https://github.com/lencx/ChatGPT> - *ChatGPT Desktop Application (Mac, Windows and Linux)*
-- **Gemini**
-- **Le Chat**
-- **Lumo**
-  - Proton 
-  - <https://lumo.proton.me/> 
-- **LMArena**
-  - Chat (auch mit mehreren Models gleichzeitig) 
-  - <https://lmarena.ai/>
-- **Anthropic Claude**
-  - <https://claude.ai/>
-  - <https://github.com/anthropics/anthropic-quickstarts/tree/main/computer-use-demo>
-- **OpenChatKit**
-  - *provides a base to create both specialized and general purpose chatbots for various applications.*
-  - *The kit includes an instruction-tuned 20 billion parameter language model, a 6 billion parameter moderation model, and an extensible retrieval system for including up-to-date responses from custom repositories.*
-  - <https://github.com/togethercomputer/OpenChatKit> <img loading="lazy" src="https://img.shields.io/github/stars/togethercomputer/OpenChatKit?style=flat-square"/>
-- **AWS Lex**
-  - für Chatbots 
-- **Google Dialogflow**
-  - für Chatbots
-- **Open Assistant**
-  - 10/26: inaktiv seit 3 Jahren 
-  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
-  - <https://github.com/LAION-AI/Open-Assistant> <img loading="lazy" src="https://img.shields.io/github/stars/LAION-AI/Open-Assistant?style=flat-square"/>
-- **LibreChat**
-  - *Enhanced ChatGPT Clone*
-  - <https://github.com/LibreChat-AI/LibreChat> <img loading="lazy" src="https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=flat-square"/>
  
 ### Audio, TTS, STT
 - <https://huggingface.co/spaces/hf-audio/open_asr_leaderboard>
@@ -302,7 +239,81 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *0.2B Lightweight Image Inpainting Framework with 10B-Level Performance* 
   - <https://github.com/hustvl/Moebius>
   - <https://news.ycombinator.com/item?id=48630171>
-
+ 
+### Andere
+- **Moveworks** 
+  - *Automate your employee support with AI trained on the world's most advanced large language models*
+  - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
+  - <https://www.moveworks.com/>
+- **phind**
+  - *developer-focused search engine that uses generative AI to browse the web and answer technical questions, complete with code examples and detailed explanations.*
+  - basiert auf GPT-4
+  - <https://www.phind.com/>
+- **Aspect**
+  - UI Builder 
+  - <https://aspect.app/>
+- **Hugging Face**
+  - *Build, train and deploy state of the art models powered by the reference open source in machine learning*
+  - *provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio*
+  - *models can also perform tasks on several modalities combined, such as table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.*
+  - *provides APIs to quickly download and use those pretrained models on a given text, fine-tune them on your own datasets and then share them with the community on our model hub.*
+  - Models, Datasets, Docs, ... 
+  - <https://huggingface.co/>
+  - HuggingChat
+    - <https://huggingface.co/chat/models> 
+- **Promptify**
+  - *Solve NLP Problems with LLM's & Easily generate different NLP Task prompts for popular generative models like GPT, PaLM* 
+  - <https://github.com/promptslab/Promptify> <img loading="lazy" src="https://img.shields.io/github/stars/promptslab/Promptify?style=flat-square"/>
+- **simonw/llm**
+  - *Access large language models from the command-line* 
+  - <https://github.com/simonw/llm> <img loading="lazy" src="https://img.shields.io/github/stars/simonw/llm?style=flat-square"/>
+- **Semantic Kernel**
+  - *SDK that integrates Large Language Models (LLMs) like OpenAI, Azure OpenAI, and Hugging Face with conventional programming languages like C#, Python, and Java.*
+  - *It provides abstractions for AI services (such as chat, text to images, audio to text, etc.) and memory stores*
+  - *It provides implementations of those abstractions for services from OpenAI, Azure OpenAI, Hugging Face, local models, and more, and for a multitude of vector databases*
+  - <https://github.com/microsoft/semantic-kernel> <img loading="lazy" src="https://img.shields.io/github/stars/microsoft/semantic-kernel?style=flat-square"/>
+- **SillyTavern**
+  - *a locally installed user interface that allows you to interact with text generation LLMs, image generation engines, and TTS voice models.* 
+  - *provides a single unified interface for many LLM APIs (KoboldAI/CPP, Horde, NovelAI, Ooba, Tabby, OpenAI, OpenRouter, Claude, Mistral and more)* 
+  - <https://github.com/SillyTavern/SillyTavern> <img loading="lazy" src="https://img.shields.io/github/stars/SillyTavern/SillyTavern?style=flat-square"/>
+- **OpenLLMetry**
+  - *observability for your LLM application, based on OpenTelemetry* 
+  - <https://github.com/traceloop/openllmetry> <img loading="lazy" src="https://img.shields.io/github/stars/traceloop/openllmetry?style=flat-square"/>
+- **Superduper**
+  - *Python based framework for building end-2-end AI-data workflows and applications on your own data, integrating with major databases.*
+  - *It supports the latest technologies and techniques, including LLMs, vector-search, RAG, multimodality as well as classical AI and ML paradigms.*
+  - <https://github.com/superduper-io/superduper> <img loading="lazy" src="https://img.shields.io/github/stars/superduper-io/superduper?style=flat-square"/>
+- **ChainForge**
+  - *open-source visual programming environment for battle-testing prompts to LLMs.* 
+  - <https://github.com/ianarawjo/ChainForge> <img loading="lazy" src="https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat-square"/>
+- **LLM-Model-VRAM-Calculator**
+  - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
+- **Tokenizer**
+  - <https://platform.openai.com/tokenizer>
+- **LobeHub**
+  - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
+- **Magnitude**
+  - *End-to-end testing framework powered by visual AI agents that see your interface and adapt to any changes in it.*
+  - <https://github.com/magnitudedev/magnitude>
+  - <http://news.ycombinator.com/item?id=43796003>
+- **any-llm**
+  - *Communicate with an LLM provider using a single interface*
+  - Python Lib 
+  - <https://github.com/mozilla-ai/any-llm> <img loading="lazy" src="https://img.shields.io/github/stars/mozilla-ai/any-llm?style=flat-square"/>
+  - [HN Diskussion](https://news.ycombinator.com/item?id=44650567)
+- **Windows Use**
+  - Python Lib
+  - *automation agent that interacts directly with Windows at GUI layer* 
+  - <https://github.com/CursorTouch/Windows-Use>
+- **Guidance**
+  - *programming paradigm for steering language models. With Guidance, you can control how output is structured*
+  - Python Lib
+  - <https://github.com/guidance-ai/guidance>
+- **POML**
+  - *Prompt Orchestration Markup Language*
+  - *markup language designed to bring structure, maintainability, and versatility to advanced prompt engineering* 
+  - <https://github.com/microsoft/poml>
+  - <https://news.ycombinator.com/item?id=44853184>
 
 ## Local LLM
 - <https://old.reddit.com/r/LocalLLaMA/>
@@ -330,9 +341,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
     ```
   - <https://github.com/ollama/ollama> <img loading="lazy" src="https://img.shields.io/github/stars/ollama/ollama?style=flat-square"/>
   - Diskussion auf Reddit: <https://old.reddit.com/r/LocalLLaMA/comments/1kg20mu/so_why_are_we_shing_on_ollama_again/>
-- **PrivateGPT**
-  - *Interact with your documents using the power of GPT, 100% privately, no data leaks* 
-  - <https://github.com/zylon-ai/private-gpt> <img loading="lazy" src="https://img.shields.io/github/stars/zylon-ai/private-gpt?style=flat-square"/>
 - **LocalAI**
   - *free, Open Source OpenAI alternative*
   - *Drop-in replacement for OpenAI running on consumer-grade hardware. No GPU required.*
@@ -356,12 +364,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Jan**
   - *open-source ChatGPT alternative that runs 100% offline on your computer*
   - <https://github.com/janhq/jan> <img loading="lazy" src="https://img.shields.io/github/stars/janhq/jan?style=flat-square"/>
-- **GPT4All**
-  - *runs large language models (LLMs) privately on everyday desktops & laptops* 
-  - <https://github.com/nomic-ai/gpt4all> <img loading="lazy" src="https://img.shields.io/github/stars/nomic-ai/gpt4all?style=flat-square"/>
-- **Open WebUI**
-  - *operate entirely offline. It supports various LLM runners, including Ollama and OpenAI-compatible APIs* 
-  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
 - **Llamafile**
   - *collapses all the complexity of LLMs down to a single-file executable (called a "llamafile") that runs locally on most computers, with no installation* 
   - <https://github.com/Mozilla-Ocho/llamafile> <img loading="lazy" src="https://img.shields.io/github/stars/Mozilla-Ocho/llamafile?style=flat-square"/>
@@ -379,7 +381,11 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *Requires: Docker Desktop 4.40 and later*
   - *For: Docker Desktop for Mac with Apple Silicon or Windows with NVIDIA GPUs*
   - <https://docs.docker.com/model-runner/> 
-
+- **llama.cpp**
+  - <https://github.com/ggerganov/llama.cpp>
+  - Bindings
+    - <https://github.com/ggerganov/llama.cpp?tab=readme-ov-file> 
+    - Java: <https://github.com/kherud/java-llama.cpp>
 
 ## Model Benchmarks, Leaderboards, Evals
 - <https://www.choosellm.com/>
@@ -457,76 +463,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **MiniCPM**
   - <https://github.com/OpenBMB/MiniCPM> 
 
-
-## Agents
-- [HN: Lessons from interviews on deploying AI Agents in production, 10/2025](https://news.ycombinator.com/item?id=45808308)
-- **agents.md**
-  - *Think of AGENTS.md as a README for agents*
-  - Support für: Codex, Gemini CLI, Cursor, ... 
-  - <https://agents.md/>
-  - [HN Diskussion](https://news.ycombinator.com/item?id=44957443)
-- **Flowise**
-  - *Build AI Agents, Visually* 
-  - <https://github.com/FlowiseAI/Flowise> <img loading="lazy" src="https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square"/>
-- **TypedAI**
-  - *TypeScript-first AI platform for developers. Autonomous AI agents and LLM based workflows.* 
-  - <https://github.com/TrafficGuard/typedai>
-- **AG2**
-  - *programming framework for building AI agents and facilitating cooperation among multiple agents to solve tasks*
-  - Python Lib 
-  - <https://github.com/ag2ai/ag2>
-- **crewAI**
-  - *Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.*
-  - Python 
-  - <https://github.com/crewAIInc/crewAI>
-- **Embabel**
-  - *Agent framework for the JVM* 
-  - <https://github.com/embabel/embabel-agent>
-- **google-adk**
-  - Agent Development Kit
-  - *A built-in development UI to help you test, evaluate, debug, and showcase your agent(s)*
-  - Java Demo (50 Min), 10/2025: <https://www.youtube.com/watch?v=L6V6aQixOZU>
-  - <https://github.com/google/adk-java>
-- **Omnara**
-  - *ransforms your AI agents (Claude Code, Codex CLI, n8n, and more) from silent workers into communicative teammates.*
-  - *Get real-time visibility into what your agents are doing, and respond to their questions instantly from a single dashboard on web and mobile.*
-  - *Add human-in-the-loop capabilities to your n8n workflows*
-  - <https://github.com/omnara-ai/omnara>
-  - [Show HN](https://news.ycombinator.com/item?id=44878650)
-- **AgentGPT**
-  - *Assemble, configure, and deploy autonomous AI Agents in your browser.* 
-  - <https://github.com/reworkd/AgentGPT>
-  - <https://news.ycombinator.com/item?id=36079382>
-- **AgentKit, Agent Builder**
-  - <https://openai.com/index/introducing-agentkit/>
-- **agent-o-rama**
-  - *LLM agent platform for building, tracing, testing, and monitoring agents with integrated storage and one-click deployment.*
-  - *provides two first-class APIs, one for Java and one for Clojure*
-  - *Inspired by LangGraph and LangSmith*
-  - *comprehensive web UI*
-  - <https://github.com/redplanetlabs/agent-o-rama?tab=readme-ov-file#detailed-comparisons-against-other-agent-tools>
-  - <https://github.com/redplanetlabs/agent-o-rama> <img loading="lazy" src="https://img.shields.io/github/stars/redplanetlabs/agent-o-rama?style=flat-square"/>
-- **Agent Lightning**
-  - *Selectively optimize one or more agents in a multi-agent system* 
-  - *Build with ANY agent framework or even WITHOUT agent framework*
-  - <https://news.ycombinator.com/item?id=45706729>
-  - <https://github.com/microsoft/agent-lightning>
-- **Kiln**
-  - *Build, Evaluate, and Optimize AI Systems*
-  - *Evals • RAG • Agents • Fine Tuning • Synthetic Data* 
-  - <https://github.com/kiln-ai/kiln>
-- **OpenViking**
-  - *Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.*
-  - *abandons the fragmented vector storage model of traditional RAG and innovatively adopts a "file system paradigm" to unify the structured organization of memories, resources, and skills needed by Agents*
-  - *developers can build an Agent's brain just like managing local files*
-  - Plugins für Claude Code, OpenCode, Codex, pi, Cursor, ...
-  - <https://github.com/volcengine/OpenViking>
-- **Hermes**
-  - <https://github.com/nousresearch/hermes-agent> <img loading="lazy" src="https://img.shields.io/github/stars/nousresearch/hermes-agent?style=flat-square"/>
-- **Goose**
-  - *for code, workflows, and everything in between* 
-  - <https://github.com/aaif-goose/goose> <img loading="lazy" src="https://img.shields.io/github/stars/aaif-goose/goose>?style=flat-square"/>
-
 ### Best practices, Tipps
 - *ask it to create a plan*
 - *generate code, test the code, inspect the results and then improve the code*
@@ -560,7 +496,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
-## Plattformen, Inference Providers
+## Inference Providers
 - <https://github.com/cheahjs/free-llm-api-resources>
 - **OpenRouter**
   - *A unified interface for LLMs*
