@@ -35,15 +35,9 @@ parent: AI
   - *Opiniated RAG for integrating GenAI in your apps*
   - Python 
   - <https://github.com/QuivrHQ/quivr/> <img loading="lazy" src="https://img.shields.io/github/stars/QuivrHQ/quivr?style=flat-square"/>
-- **MegaParse**
-  - *File Parser optimised for LLM Ingestion with no loss. Parse PDFs, Docx, PPTx in a format that is ideal for LLMs.* 
-  - <https://github.com/quivrhq/megaparse> <img loading="lazy" src="https://img.shields.io/github/stars/quivrhq/megaparse?style=flat-square"/>
 - **Haystack**
   - *AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.* 
   - <https://github.com/deepset-ai/haystack> <img loading="lazy" src="https://img.shields.io/github/stars/deepset-ai/haystack?style=flat-square"/>
-- **unstructured**
-  - *The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. The use cases of unstructured revolve around streamlining and optimizing the data processing workflow for LLMs.*
-  - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
 - **Morphik**
   - *multimodal retrieval over documents like PDFs, where images and diagrams matter as much as the text*
   - <https://github.com/morphik-org/morphik-core> <img loading="lazy" src="https://img.shields.io/github/stars/morphik-org/morphik-core?style=flat-square"/>
@@ -83,7 +77,47 @@ parent: AI
   - <https://github.com/VectifyAI/PageIndex> <img loading="lazy" src="https://img.shields.io/github/stars/VectifyAI/PageIndex?style=flat-square"/>
 - **UltraRAG**
   - <https://github.com/OpenBMB/UltraRAG> <img loading="lazy" src="https://img.shields.io/github/stars/OpenBMB/UltraRAG?style=flat-square"/>
+- **DocuBrowser**
+  - *turns a messy pile of documents into something you can actually search*
+  - *Point it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart index that understands not just keywords, but meaning*
+  - <https://github.com/linuxrebel/DocuBrowser> <img loading="lazy" src="https://img.shields.io/github/stars/linuxrebel/DocuBrowser?style=flat-square"/>
+  - <https://news.ycombinator.com/item?id=48837110>
+- **MindsDB**
+  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
+  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
+  - <https://github.com/mindsdb/engine> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/engine?style=flat-square"/>
+- **LlamaIndex**
+  - *provides a central interface to connect your LLM's with external data.*
+  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
+  - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
+- **OpenKnowledge**
+  - *markdown editor with integrations with Claude, Codex, and other harnesses. For knowledge bases, LLM wikis, specs, and notes. Private, local, and free* 
+  - <https://github.com/inkeep/open-knowledge> <img loading="lazy" src="https://img.shields.io/github/stars/inkeep/open-knowledge?style=flat-square"/>
+  - [Show HN, 06/2026](https://news.ycombinator.com/item?id=48675435)
+- **OpenMetadata**
+  - *provides the context AI needs to know: what data exists, what it means, who owns it, how it is used, where it came from, where it flows, whether it is fresh, tested, certified, and trusted, which business concepts, classifications, glossary terms, policies, contracts, and data products apply, what downstream dashboards, pipelines, metrics, ML models, and applications depend on it, what conversations, decisions, assumptions, and memory nuggets have already been captured about it* 
+  - <https://github.com/open-metadata/OpenMetadata> <img loading="lazy" src="https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=flat-square"/>
+- **DataHub**
+  - verlgeichbar OpenMetadata
+  - <https://github.com/datahub-project/datahub> <img loading="lazy" src="https://img.shields.io/github/stars/datahub-project/datahub?style=flat-square"/>
+- **ThalamusDB**
+  - *semantic query processing on multimodal data*
+  - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
+  - <https://github.com/itrummer/thalamusdb> 
+  - <https://news.ycombinator.com/item?id=45507753>
 
+## Datenaufbereitung
+- **Docling**
+- **unstructured**
+  - *The unstructured library provides open-source components for ingesting and pre-processing images and text documents, such as PDFs, HTML, Word docs, and many more. The use cases of unstructured revolve around streamlining and optimizing the data processing workflow for LLMs.*
+  - <https://github.com/Unstructured-IO/unstructured> <img loading="lazy" src="https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square"/>
+- **MegaParse**
+  - *File Parser optimised for LLM Ingestion with no loss. Parse PDFs, Docx, PPTx in a format that is ideal for LLMs.* 
+  - <https://github.com/quivrhq/megaparse> <img loading="lazy" src="https://img.shields.io/github/stars/quivrhq/megaparse?style=flat-square"/>
+- **Firecrawl**
+  - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
+  - <https://github.com/mendableai/firecrawl> <img loading="lazy" src="https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square"/>
+  
 ## Re-ranker
 - <https://www.zeroentropy.dev/articles/ultimate-guide-to-choosing-the-best-reranking-model-in-2025>
 - <https://fin.ai/research/how-we-built-a-world-class-reranker-for-fin/>
@@ -129,44 +163,3 @@ parent: AI
 - **SQLite**
   - sqlite-vec
     - <https://github.com/asg017/sqlite-vec> <img loading="lazy" src="https://img.shields.io/github/stars/asg017/sqlite-vec?style=flat-square"/>
-
-## Document understanding
-- **MindsDB**
-  - *streamline the integration of AI into applications, making it accessible to developers of all skill levels*
-  - *AI tables allow you to get predictions via SQL queries and continuously learn from your data.*
-  - <https://github.com/mindsdb/engine> <img loading="lazy" src="https://img.shields.io/github/stars/mindsdb/engine?style=flat-square"/>
-- **Khoj**
-  - *Get answers from the internet or your docs. Use any online or local LLM (e.g gpt, claude, gemini, llama, qwen, mistral). Build custom agents, personalized automations.* 
-  - <https://github.com/khoj-ai/khoj> <img loading="lazy" src="https://img.shields.io/github/stars/khoj-ai/khoj?style=flat-square"/>
-- **AnythingLLM**
-  - *full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.*
-  - *supporting multi-user management and permissions*
-  - <https://github.com/Mintplex-Labs/anything-llm> <img loading="lazy" src="https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat-square"/>
-- **ChatPDF**
-  - *can answer any question from any PDF* 
-  - <https://www.chatpdf.com/>
-- **mayooear/gpt4-pdf-chatbot-langchain**
-  - *Create a ChatGPT Chatbot for Your PDF Files* 
-  - <https://github.com/mayooear/gpt4-pdf-chatbot-langchain> <img loading="lazy" src="https://img.shields.io/github/stars/mayooear/gpt4-pdf-chatbot-langchain?style=flat-square"/>
-- **LlamaIndex**
-  - *provides a central interface to connect your LLM's with external data.*
-  - *Offers data connectors to your existing data sources and data formats (API's, PDF's, docs, SQL, etc.)*
-  - <https://github.com/run-llama/llama_index> <img loading="lazy" src="https://img.shields.io/github/stars/run-llama/llama_index?style=flat-square"/>
-- **Open WebUI**
-  - *extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG* 
-  - <https://github.com/open-webui/open-webui> <img loading="lazy" src="https://img.shields.io/github/stars/open-webui/open-webui?style=flat-square"/>
-- **OpenKnowledge**
-  - *markdown editor with integrations with Claude, Codex, and other harnesses. For knowledge bases, LLM wikis, specs, and notes. Private, local, and free* 
-  - <https://github.com/inkeep/open-knowledge> <img loading="lazy" src="https://img.shields.io/github/stars/inkeep/open-knowledge?style=flat-square"/>
-  - [Show HN, 06/2026](https://news.ycombinator.com/item?id=48675435)
-- **DocuBrowser**
-  - *turns a messy pile of documents into something you can actually search*
-  - *Point it at your files — PDFs, ebooks, Word docs, notes, whatever — and it builds a smart index that understands not just keywords, but meaning*
-  - <https://github.com/linuxrebel/DocuBrowser> <img loading="lazy" src="https://img.shields.io/github/stars/linuxrebel/DocuBrowser?style=flat-square"/>
-  - <https://news.ycombinator.com/item?id=48837110>
-- **OpenMetadata**
-  - *provides the context AI needs to know: what data exists, what it means, who owns it, how it is used, where it came from, where it flows, whether it is fresh, tested, certified, and trusted, which business concepts, classifications, glossary terms, policies, contracts, and data products apply, what downstream dashboards, pipelines, metrics, ML models, and applications depend on it, what conversations, decisions, assumptions, and memory nuggets have already been captured about it* 
-  - <https://github.com/open-metadata/OpenMetadata> <img loading="lazy" src="https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=flat-square"/>
-- **DataHub**
-  - verlgeichbar OpenMetadata
-  - <https://github.com/datahub-project/datahub> <img loading="lazy" src="https://img.shields.io/github/stars/datahub-project/datahub?style=flat-square"/>
