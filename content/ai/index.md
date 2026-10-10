@@ -24,9 +24,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 ## Tools & Applikationen
 - <https://github.com/steven2358/awesome-generative-ai>
 - <https://github.com/underlines/awesome-ml/>
-- **Open Assistant**
-  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
-  - <https://github.com/LAION-AI/Open-Assistant>
 - **Moveworks** 
   - *Automate your employee support with AI trained on the world's most advanced large language models*
   - *Transform your IT department with out-of-the-box capabilities, pre-trained on an ever-growing proprietary dataset of enterprise language.*
@@ -121,13 +118,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://huggingface.co/spaces/NyxKrage/LLM-Model-VRAM-Calculator>
 - **Tokenizer**
   - <https://platform.openai.com/tokenizer>
-- **Lobe Chat**
-  - *ChatGPT/LLMs UI/Framework*
-  - *Supports speech-synthesis, multi-modal, and extensible (function call) plugin system.*
-  - *One-click FREE deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.*
-  - *supports file upload and knowledge base functionality. You can upload various types of files including documents, images, audio, and video, as well as create knowledge bases*
-  - *supports Text-to-Speech (TTS) and Speech-to-Text (STT) technologies*
-  - *support for the latest text-to-image generation technology*
+- **LobeHub**
   - <https://github.com/lobehub/lobe-chat> <img loading="lazy" src="https://img.shields.io/github/stars/lobehub/lobe-chat?style=flat-square"/>
 - **Firecrawl**
   - *Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.* 
@@ -162,9 +153,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *markup language designed to bring structure, maintainability, and versatility to advanced prompt engineering* 
   - <https://github.com/microsoft/poml>
   - <https://news.ycombinator.com/item?id=44853184>
-- **LibreChat**
-  - *Enhanced ChatGPT Clone*
-  - <https://github.com/LibreChat-AI/LibreChat> <img loading="lazy" src="https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=flat-square"/>
 
 ### Browser
 - **Nxtscape**
@@ -238,7 +226,13 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - für Chatbots 
 - **Google Dialogflow**
   - für Chatbots
-
+- **Open Assistant**
+  - 10/26: inaktiv seit 3 Jahren 
+  - *a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so* 
+  - <https://github.com/LAION-AI/Open-Assistant> <img loading="lazy" src="https://img.shields.io/github/stars/LAION-AI/Open-Assistant?style=flat-square"/>
+- **LibreChat**
+  - *Enhanced ChatGPT Clone*
+  - <https://github.com/LibreChat-AI/LibreChat> <img loading="lazy" src="https://img.shields.io/github/stars/LibreChat-AI/LibreChat?style=flat-square"/>
  
 ### Audio, TTS, STT
 - <https://huggingface.co/spaces/hf-audio/open_asr_leaderboard>
