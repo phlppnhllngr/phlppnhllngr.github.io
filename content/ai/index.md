@@ -461,22 +461,17 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
     - *MoE model with 7.9B total parameters and only 1.3B activated parameters per token*
     - <https://huggingface.co/inclusionAI/Ling-3.0-tiny>
 - **MiniCPM**
-  - <https://github.com/OpenBMB/MiniCPM> 
+  - <https://github.com/OpenBMB/MiniCPM>
 
-### Best practices, Tipps
-- *ask it to create a plan*
-- *generate code, test the code, inspect the results and then improve the code*
-- *Have it generate the code. Then have another instance criticize the code and say how it could be improved and why.*
-- <https://www.sabrina.dev/p/ultimate-ai-coding-guide-claude-code>
-- <https://www.anthropic.com/engineering/claude-code-best-practices>
-- <https://www.dbreunig.com/2025/06/26/how-to-fix-your-context.html>
-  - RAG 
-  - "Tool Loadout"
-  - weitere
-- <https://userjot.com/blog/best-practices-building-agentic-ai-systems>
-  - Subagents
-  - [HN Diskussion](https://news.ycombinator.com/item?id=44919647)
-- <https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook>
+### Decision Models
+- **Jev**
+- **Ollaya**
+  - *Ollama for open-source, Jev-style decision models*
+  - <https://news.ycombinator.com/item?id=49848269>
+- **SemIf**
+  - <https://github.com/TheoLeeCJ/SemIf-OpenJev>
+- **Kev-4B**
+  - <https://huggingface.co/jaredpalmer/kev-4b>
 
 
 ## MCP
@@ -490,10 +485,6 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - sequential thinking
   - *provides a tool for problem-solving through a structured thinking process* 
   - <https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking> 
-
-
-## Fine tuning
-- [HN: Fine-tuning LLMs is a waste of time](https://news.ycombinator.com/item?id=44242737)
 
 
 ## Inference Providers
@@ -510,13 +501,3 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - *As long as the Inference API remains in experimental status, it is free of charge.* 
   - <https://docs.hetzner.com/general/company-and-policy/experiments/inference> 
 
-
-## Decision Models
-- **Jev**
-- **Ollaya**
-  - *Ollama for open-source, Jev-style decision models*
-  - <https://news.ycombinator.com/item?id=49848269>
-- **SemIf**
-  - <https://github.com/TheoLeeCJ/SemIf-OpenJev>
-- **Kev-4B**
-  - <https://huggingface.co/jaredpalmer/kev-4b>
