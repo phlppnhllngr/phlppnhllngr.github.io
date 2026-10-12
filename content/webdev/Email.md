@@ -10,6 +10,8 @@ parent: Webdev
 - [HN - Tables no longer needed for HTML email, 04/23](https://news.ycombinator.com/item?id=35497799)
   - *The new Outlook switches rendering engines from Microsoft Word to Edge. Support for CSS features in the new Outlook application appears to be identical to that of outlook.com, which is a great leap forward*
   - *Gmail has a 102KB size-limit for HTML. After that it will truncate the email with the words "[Message clipped]"*
+- <https://www.goodemailcopy.com/>
+- <https://codepen.io/reallygoodemails/>
 
 ## Tools
 - **emailresourc.es**
@@ -114,7 +116,9 @@ parent: Webdev
   - *Templates are portable JSON, output is MJML, and the editor itself is framework-agnostic* 
   - <https://github.com/templatical/sdk>
   - [Show HN, 2026](https://news.ycombinator.com/item?id=48038019)
-
+- <https://github.com/leemunroe/responsive-html-email-template>
+- <https://github.com/konsav/email-templates>
+- <https://tedgoas.github.io/Cerberus/>
 
 ## Test
 - **Testi@**
