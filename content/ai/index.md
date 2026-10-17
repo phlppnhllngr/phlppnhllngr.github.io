@@ -488,7 +488,7 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 
 
 ## Inference Providers
-- <https://github.com/cheahjs/free-llm-api-resources>
+- <https://github.com/nejib1/Free-LLM>
 - **OpenRouter**
   - *A unified interface for LLMs*
   - *No need to change your code when switching between models or providers*
