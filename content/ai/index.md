@@ -32,6 +32,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
   - <https://github.com/langchain4j/langchain4j>
   - [HN - LangChain: The Missing Manual, 06/2023](https://news.ycombinator.com/item?id=36001465)
   - [HN - 	Why we no longer use LangChain for building our AI agents, 06/2024](https://news.ycombinator.com/item?id=40739982)
+- **LangGraph**
+  - *provides low-level supporting infrastructure for any long-running, stateful workflow or agent: Durable execution, human-in-the-loop, memory, ...* 
+  - <https://github.com/langchain-ai/langgraph> 
 - **AutoGen**
   - *framework for creating multi-agent AI applications that can act autonomously or work alongside humans.*
   - Python 
@@ -131,6 +134,9 @@ Ein niedriger Wert führt dazu, dass das Modell eher vorhersehbare, konservative
 - **Langfuse**
   - *LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more.* 
   - <https://github.com/langfuse/langfuse/> <img loading="lazy" src="https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square"/>
+- **Onyx**
+  - *AI Platform - AI Chat with advanced features that works with every LLM* 
+  - <https://github.com/onyx-dot-app/onyx> <img loading="lazy" src="https://img.shields.io/github/stars/onyx-dot-app/onyx?style=flat-square"/>
 
 ### Browser
 - **Nxtscape**
