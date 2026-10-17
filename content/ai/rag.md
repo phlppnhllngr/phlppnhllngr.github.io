@@ -103,8 +103,11 @@ parent: AI
 - **ThalamusDB**
   - *semantic query processing on multimodal data*
   - `select count(*) from cars where nlfilter(pic, 'the car in the picture is red');` 
-  - <https://github.com/itrummer/thalamusdb> 
+  - <https://github.com/itrummer/thalamusdb> <img loading="lazy" src="https://img.shields.io/github/stars/itrummer/thalamusdb?style=flat-square"/>
   - <https://news.ycombinator.com/item?id=45507753>
+- **PipesHub**
+ - *context layer for AI agents. PipesHub turns your company's knowledge (Slack, Drive, Jira, GitHub, Microsoft 365 and 40+ connectors) into a permission-aware workspace that agents can search, grep, navigate and cite. MCP, SDKs and built-in agents. Self-hosted.* 
+ - <https://github.com/pipeshub-ai/pipeshub-ai> <img loading="lazy" src="https://img.shields.io/github/stars/pipeshub-ai/pipeshub-ai?style=flat-square"/>
 
 ## Datenaufbereitung
 - **Docling**
