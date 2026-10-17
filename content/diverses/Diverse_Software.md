@@ -496,3 +496,8 @@ parent: Diverses
 - **anon-proxy**
   - *Use LLM APIs on sensitive data without sending raw PII to the cloud. A local privacy proxy that masks personal information before requests leave your device and unmasks it in responses.* 
   - <https://github.com/KevinXuxuxu/anon_proxy>
+- **rampart**
+  - *local-first system for removing personally identifiable information from user-typed text before it leaves the browser*
+  - *combines a 14.7 MB ONNX token-classification model with a deterministic recognizer layer*
+  - *ships the runtime as `@nationaldesignstudio/rampart`. Model weights load from Hugging Face by default; a copy also lives in `model/` for local serving and training* 
+  - <https://github.com/nationaldesignstudio/rampart> 
