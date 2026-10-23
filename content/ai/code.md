@@ -132,6 +132,7 @@ parent: AI
   - *microVMs to safely run Agents locally*
   - *Networking is off by default, egress can be limited to named hosts, and code can use a credential without ever reading it*
   - <https://github.com/smol-machines/smolvm>
+  - [Claude Code Isolation Patterns](https://github.com/smol-machines/smolvm/discussions/3)
 - **Gondolin**
   - <https://earendil-works.github.io/gondolin/>
 - **Microsandbox**
