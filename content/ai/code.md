@@ -122,6 +122,7 @@ parent: AI
   - <https://github.com/gi-dellav/zerostack> <img loading="lazy" src="https://img.shields.io/github/stars/gi-dellav/zerostack?style=flat-square"/>
 
 ## Sandboxing
+- <https://pleasedonotescape.com/>
 - **Docker Sandbox (sbx)**
   - erfordert Login 
   - <https://www.docker.com/products/docker-sandboxes/> 
