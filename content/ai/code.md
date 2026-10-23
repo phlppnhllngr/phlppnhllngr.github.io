@@ -121,6 +121,21 @@ parent: AI
   - *Minimal coding agent, inspired by pi and opencode.* 
   - <https://github.com/gi-dellav/zerostack> <img loading="lazy" src="https://img.shields.io/github/stars/gi-dellav/zerostack?style=flat-square"/>
 
+## Sandboxing
+- **Docker Sandbox (sbx)**
+  - erfordert Login 
+  - <https://www.docker.com/products/docker-sandboxes/> 
+  - <https://news.ycombinator.com/item?id=49239751>
+  - mit Claude Code: <https://docs.docker.com/ai/sandboxes/agents/claude-code/>
+- **SmolVM**
+  - *microVMs to safely run Agents locally*
+  - *Networking is off by default, egress can be limited to named hosts, and code can use a credential without ever reading it*
+  - <https://github.com/smol-machines/smolvm>
+- **Gondolin**
+  - <https://earendil-works.github.io/gondolin/>
+- **Microsandbox**
+  - <https://github.com/superradcompany/microsandbox/>  
+
 ## Anderes
 - **Pocket Flow**
   - *crawls GitHub repositories and builds a knowledge base from the code* 
@@ -140,7 +155,3 @@ parent: AI
 - **AI Blueprint**
   - *A file-backed, spec-driven AI coding workflow framework for building real software while staying in control.* 
   - <https://github.com/aiblueprinthq/ai-blueprint> <img loading="lazy" src="https://img.shields.io/github/stars/aiblueprinthq/ai-blueprint?style=flat-square"/>
-- **smolvm**
-  - *microVMs to safely run Agents locally*
-  - *Networking is off by default, egress can be limited to named hosts, and code can use a credential without ever reading it*
-  - <https://github.com/smol-machines/smolvm> 
